@@ -1,0 +1,5 @@
+name: 'Lib components v3'
+type: module
+description: 'version 3 for liberty components'
+core: 8.x
+package: 'Custom'
