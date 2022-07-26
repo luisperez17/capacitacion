@@ -45,12 +45,7 @@
 /robots.txt
 /update.php
 /web.config
-<<<<<<< HEAD
 /web/sites/default/files
-=======
-/web/sites/default
->>>>>>> CAP-3
-
 # Packages #
 ############
 *.7z
@@ -63,8 +58,5 @@
 *.tar
 *.zip
 *.tgz
-<<<<<<< HEAD
 *.sql
-=======
-*.sql
->>>>>>> CAP-3
+
