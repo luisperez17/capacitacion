@@ -1,0 +1,11 @@
+uuid: 626c524d-b40a-4b17-a5bf-6659bf25173f
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_juan
+id: block_content.bloque_juan
+target_entity_type_id: block_content
+target_bundle: bloque_juan
+default_langcode: site_default
+language_alterable: false

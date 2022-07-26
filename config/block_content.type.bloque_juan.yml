@@ -1,0 +1,8 @@
+uuid: b46f2196-22f7-4d95-afaf-78b68d165783
+langcode: es
+status: true
+dependencies: {  }
+id: bloque_juan
+label: 'Bloque Juan'
+revision: 0
+description: 'Bloque Juan'
