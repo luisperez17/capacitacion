@@ -1,0 +1,22 @@
+uuid: b112a076-ec85-4610-84d7-4a21fcf0323b
+langcode: es
+status: true
+dependencies:
+  theme:
+    - custom_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: custom_theme_secondary_local_tasks
+theme: custom_theme
+region: branding
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas secundarias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

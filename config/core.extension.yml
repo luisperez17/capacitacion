@@ -54,4 +54,7 @@ module:
 theme:
   olivero: 0
   claro: 0
+  stable: 0
+  classy: 0
+  custom_theme: 0
 profile: standard
