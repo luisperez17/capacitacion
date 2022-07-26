@@ -1,0 +1,10 @@
+uuid: 33f4c0f7-c389-4c74-893b-be9e82d25f99
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.nodos
+label: Nodos
+targetEntityType: node
+cache: true
