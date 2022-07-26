@@ -46,3 +46,17 @@
 /update.php
 /web.config
 /web/sites/default
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+*.sql
