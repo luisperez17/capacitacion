@@ -1,0 +1,11 @@
+uuid: dac9d98b-dd3a-411e-b48b-de3c59077cc0
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_luis
+id: block_content.bloque_luis
+target_entity_type_id: block_content
+target_bundle: bloque_luis
+default_langcode: site_default
+language_alterable: false

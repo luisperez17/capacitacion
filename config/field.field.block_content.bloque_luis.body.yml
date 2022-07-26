@@ -1,0 +1,23 @@
+uuid: bb9423d7-7f6d-4304-a1fa-8532ac4ed34e
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_luis
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.bloque_luis.body
+field_name: body
+entity_type: block_content
+bundle: bloque_luis
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary
