@@ -1,5 +1,0 @@
-name: 'example'
-type: module
-description: 'My Awesome Module'
-core_version_requirement: ^8.0.0 || ^9.0
-package: 'Custom'
