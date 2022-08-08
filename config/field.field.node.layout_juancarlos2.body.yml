@@ -1,0 +1,23 @@
+uuid: f29f23f4-2de6-4883-b5ca-2c61741a8b73
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.layout_juancarlos2
+  module:
+    - text
+id: node.layout_juancarlos2.body
+field_name: body
+entity_type: node
+bundle: layout_juancarlos2
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

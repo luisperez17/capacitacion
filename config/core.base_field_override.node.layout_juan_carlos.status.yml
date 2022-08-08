@@ -1,0 +1,22 @@
+uuid: 5ca9f101-ed87-40c4-bd3f-f21561988c47
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.layout_juan_carlos
+id: node.layout_juan_carlos.status
+field_name: status
+entity_type: node
+bundle: layout_juan_carlos
+label: Publicado
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

@@ -1,0 +1,29 @@
+uuid: c632db39-4f0f-4ca6-9e54-51893603df95
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_references
+    - node.type.noticias_juan_carlos
+    - taxonomy.vocabulary.references
+id: node.noticias_juan_carlos.field_references
+field_name: field_references
+entity_type: node
+bundle: noticias_juan_carlos
+label: references
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      references: references
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

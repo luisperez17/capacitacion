@@ -1,0 +1,33 @@
+uuid: 67a45ef8-6273-473a-b2db-bf2a1160aff9
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.noticias_juan_carlos.field_body
+    - field.field.node.noticias_juan_carlos.field_columnist
+    - field.field.node.noticias_juan_carlos.field_news_image
+    - field.field.node.noticias_juan_carlos.field_news_time
+    - field.field.node.noticias_juan_carlos.field_references
+    - field.field.node.noticias_juan_carlos.field_title
+    - node.type.noticias_juan_carlos
+  module:
+    - user
+id: node.noticias_juan_carlos.teaser
+targetEntityType: node
+bundle: noticias_juan_carlos
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_body: true
+  field_columnist: true
+  field_news_image: true
+  field_news_time: true
+  field_references: true
+  field_title: true
+  langcode: true

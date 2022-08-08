@@ -1,0 +1,157 @@
+/*General*/
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+.field--name-field-title {
+    display: none;
+}
+
+
+
+/*Página full*/
+.content-full{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    padding: 2rem 10rem;
+    gap: 3rem;
+}
+
+.content-full .new_image{
+    width: 100%;
+}
+
+.new_body{
+    line-height: 2;
+}
+
+.content-full .new_image img{
+    width: 100%;
+    height: auto;
+}
+
+.columnist a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.content-columnist .time{
+    color: gray;
+}
+
+
+
+/*Main*/
+
+/*GENERAL MAIN*/
+.field--name-field-references a{
+    color: red;
+    text-transform: uppercase;
+}
+
+.field--name-title{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/*Bloque 1 vertical*/
+
+.block-1-main{
+    width: 100%; 
+}
+
+.block-1-main .datetime{
+    color: gray;
+    margin-top: 2rem;
+}
+
+.block-1-main .field--name-field-news-image img{
+    /*width: 100%;*/
+}
+
+/*Bloque 2 principal*/
+
+.block-2-main{
+    width: 100%;
+
+}
+
+.block-2-main .field--name-title{
+    font-size: 2rem;
+}
+
+
+
+.block-2-main img {
+    width: 100%;
+    height: auto;
+}
+
+/*Bloque 3 horizontal */
+
+.block-3-main{
+    width: 100%;
+    
+}
+
+.block-3-main .item-list ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.block-3-main .field--name-field-news-image{
+    width: 100%;
+    justify-content: center;
+}
+
+.block-3-main img{
+  width: 20rem;
+  height: auto;
+  
+}
+
+/*Bloque de columnistas*/
+
+.block-4-main{
+
+}
+
+.block-4-main .views-view-table {
+    display: grid;
+    padding: 1rem 2rem ;
+}
+
+.block-4-main .views-view-table tr{
+    display: flex;
+  
+    column-gap: 2rem;
+    align-items: center;
+    margin-top: 1rem;    
+    
+}
+
+.block-4-main .views-view-table img {  
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.block-4-main .views-field-name a{
+    color: black;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

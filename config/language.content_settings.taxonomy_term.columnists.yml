@@ -1,0 +1,11 @@
+uuid: f85545c4-df45-46ce-9af4-a2cf32d62152
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.columnists
+id: taxonomy_term.columnists
+target_entity_type_id: taxonomy_term
+target_bundle: columnists
+default_langcode: site_default
+language_alterable: false

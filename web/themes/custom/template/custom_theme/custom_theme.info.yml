@@ -16,3 +16,6 @@ regions:
   footer_second: Footer Second
   footer_third: Footer Third
   footer_bottom: Footer Bottom
+
+libraries:
+  - custom_theme/global-css

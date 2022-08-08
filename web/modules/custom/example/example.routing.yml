@@ -1,0 +1,7 @@
+example.form_juan:
+  path: '/example/form/form_juan'
+  defaults:
+    _form: '\Drupal\example\Form\FormJuan'
+    _title: 'FormJuan'
+  requirements:
+    _access: 'TRUE'

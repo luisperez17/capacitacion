@@ -1,0 +1,8 @@
+uuid: a2c9834f-ccc0-4934-860e-a3d5cf50a962
+langcode: es
+status: true
+dependencies: {  }
+name: columnists
+vid: columnists
+description: 'Columnista de la noticia'
+weight: 0

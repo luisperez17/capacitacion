@@ -1,0 +1,11 @@
+uuid: 1a29f65a-5130-4cff-8313-7adb9f7e3425
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.references
+id: taxonomy_term.references
+target_entity_type_id: taxonomy_term
+target_bundle: references
+default_langcode: site_default
+language_alterable: false

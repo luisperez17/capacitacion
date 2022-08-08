@@ -1,0 +1,31 @@
+uuid: 051a0a8f-29ca-4821-80ab-4c78b4fd7518
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.columnist
+    - field.field.contact_message.columnist.field_sexo
+  module:
+    - options
+id: contact_message.columnist.default
+targetEntityType: contact_message
+bundle: columnist
+mode: default
+content:
+  field_sexo:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  message:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,28 @@
+uuid: 33469b9e-c1eb-4d42-8bb6-9cf3686d4c1c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.columnists.field_columnist_image
+    - taxonomy.vocabulary.columnists
+  module:
+    - image
+id: taxonomy_term.columnists.default
+targetEntityType: taxonomy_term
+bundle: columnists
+mode: default
+content:
+  field_columnist_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  langcode: true

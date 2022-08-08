@@ -1,0 +1,88 @@
+uuid: 63f39580-a277-456e-b614-d48bb63d5199
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.noticias_juan_carlos.field_body
+    - field.field.node.noticias_juan_carlos.field_columnist
+    - field.field.node.noticias_juan_carlos.field_news_image
+    - field.field.node.noticias_juan_carlos.field_news_time
+    - field.field.node.noticias_juan_carlos.field_references
+    - field.field.node.noticias_juan_carlos.field_title
+    - field.field.node.noticias_juan_carlos.layout_builder__layout
+    - node.type.noticias_juan_carlos
+  module:
+    - datetime
+    - image
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.noticias_juan_carlos.default
+targetEntityType: node
+bundle: noticias_juan_carlos
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_columnist:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_news_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_news_time:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_references:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  layout_builder__layout: true

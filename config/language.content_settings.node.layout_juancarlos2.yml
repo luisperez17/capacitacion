@@ -1,0 +1,11 @@
+uuid: a73d70bf-3835-46c0-8874-878c05816751
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.layout_juancarlos2
+id: node.layout_juancarlos2
+target_entity_type_id: node
+target_bundle: layout_juancarlos2
+default_langcode: site_default
+language_alterable: false

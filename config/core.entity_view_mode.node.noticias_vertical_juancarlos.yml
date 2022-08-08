@@ -1,0 +1,10 @@
+uuid: 2ef4a80f-fdce-4a32-b4c7-bbf7801399be
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.noticias_vertical_juancarlos
+label: noticias_vertical_JuanCarlos
+targetEntityType: node
+cache: true

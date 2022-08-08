@@ -1,0 +1,10 @@
+uuid: b2e88443-84ea-465f-be5a-4e0437119933
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.noticias_principal_juancarlos
+label: noticias_principal_JuanCarlos
+targetEntityType: node
+cache: true

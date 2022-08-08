@@ -1,0 +1,65 @@
+uuid: e043edeb-5f79-45be-a25f-7b78f652cc29
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.noticias_horizontal_juancarlos
+    - field.field.node.noticias_juan_carlos.field_body
+    - field.field.node.noticias_juan_carlos.field_columnist
+    - field.field.node.noticias_juan_carlos.field_news_image
+    - field.field.node.noticias_juan_carlos.field_news_time
+    - field.field.node.noticias_juan_carlos.field_references
+    - field.field.node.noticias_juan_carlos.field_title
+    - node.type.noticias_juan_carlos
+  module:
+    - datetime
+    - image
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.noticias_juan_carlos.noticias_horizontal_juancarlos
+targetEntityType: node
+bundle: noticias_juan_carlos
+mode: noticias_horizontal_juancarlos
+content:
+  field_news_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_news_time:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_body: true
+  field_columnist: true
+  field_references: true
+  langcode: true

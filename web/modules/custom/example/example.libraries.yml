@@ -1,0 +1,8 @@
+example-libraries:
+	version: 1.x
+	css:
+	  component:
+	    css/app.css: {}
+	js:
+	  js/example.js: {}
+	

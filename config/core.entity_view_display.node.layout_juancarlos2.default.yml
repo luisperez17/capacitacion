@@ -1,0 +1,66 @@
+uuid: dfd49115-c403-4ea5-ba47-80ca0e0f8603
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.layout_juancarlos2.body
+    - node.type.layout_juancarlos2
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          e94b35be-be2e-4398-91b9-7d1eac61f225:
+            uuid: e94b35be-be2e-4398-91b9-7d1eac61f225
+            region: content
+            configuration:
+              id: 'extra_field_block:node:layout_juancarlos2:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          1132c776-741f-4b72-ae3a-0b77bbe93b39:
+            uuid: 1132c776-741f-4b72-ae3a-0b77bbe93b39
+            region: content
+            configuration:
+              id: 'field_block:node:layout_juancarlos2:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: node.layout_juancarlos2.default
+targetEntityType: node
+bundle: layout_juancarlos2
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

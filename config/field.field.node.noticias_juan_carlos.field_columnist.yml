@@ -1,0 +1,29 @@
+uuid: 3acd60b6-62ff-444f-9498-f77c9bcad9f0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_columnist
+    - node.type.noticias_juan_carlos
+    - taxonomy.vocabulary.columnists
+id: node.noticias_juan_carlos.field_columnist
+field_name: field_columnist
+entity_type: node
+bundle: noticias_juan_carlos
+label: columnist
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      columnists: columnists
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

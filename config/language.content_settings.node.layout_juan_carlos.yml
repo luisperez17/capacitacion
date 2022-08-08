@@ -1,0 +1,11 @@
+uuid: e62ba6b7-d5ef-4c54-8bdd-dabf2e49b1c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.layout_juan_carlos
+id: node.layout_juan_carlos
+target_entity_type_id: node
+target_bundle: layout_juan_carlos
+default_langcode: site_default
+language_alterable: false

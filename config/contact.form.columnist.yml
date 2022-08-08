@@ -1,0 +1,12 @@
+uuid: fd042253-cf33-4371-bbfd-3f1c5ebea587
+langcode: es
+status: true
+dependencies: {  }
+id: columnist
+label: 'columnist form'
+recipients:
+  - juancaom12@gmail.com
+reply: ''
+weight: 0
+message: 'Gracias por completar este formulario'
+redirect: /node/6

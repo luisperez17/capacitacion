@@ -1,0 +1,19 @@
+uuid: a114249f-82c8-4726-901d-f6accf42a4a3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.noticias_juan_carlos
+id: node.noticias_juan_carlos.field_title
+field_name: field_title
+entity_type: node
+bundle: noticias_juan_carlos
+label: title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

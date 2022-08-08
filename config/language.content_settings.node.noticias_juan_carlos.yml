@@ -1,0 +1,11 @@
+uuid: 688d97a6-9335-45fe-aef5-bcdc8040bbf3
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.noticias_juan_carlos
+id: node.noticias_juan_carlos
+target_entity_type_id: node
+target_bundle: noticias_juan_carlos
+default_langcode: site_default
+language_alterable: false

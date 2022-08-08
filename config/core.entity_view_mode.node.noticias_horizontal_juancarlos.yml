@@ -1,0 +1,10 @@
+uuid: ec48a250-b682-42ec-ba2b-3149647162fe
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.noticias_horizontal_juancarlos
+label: noticias_horizontal_JuanCarlos
+targetEntityType: node
+cache: true

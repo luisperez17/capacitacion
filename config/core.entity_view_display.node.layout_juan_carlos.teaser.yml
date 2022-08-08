@@ -1,0 +1,33 @@
+uuid: 986f09c8-17ae-44d0-bbb7-05a65f468841
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.layout_juan_carlos.body
+    - field.field.node.layout_juan_carlos.layout_builder__layout
+    - node.type.layout_juan_carlos
+  module:
+    - text
+    - user
+id: node.layout_juan_carlos.teaser
+targetEntityType: node
+bundle: layout_juan_carlos
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  layout_builder__layout: true

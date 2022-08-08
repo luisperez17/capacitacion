@@ -1,0 +1,10 @@
+uuid: 11d6bd62-2e63-4db8-9a40-0b431d6844b1
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.columnistas_juancarlos
+label: columnistas_JuanCarlos
+targetEntityType: node
+cache: true
