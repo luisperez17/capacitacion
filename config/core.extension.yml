@@ -34,6 +34,7 @@ module:
   language: 0
   layout_builder: 0
   layout_discovery: 0
+  lib_components_v3: 0
   link: 0
   locale: 0
   media: 0

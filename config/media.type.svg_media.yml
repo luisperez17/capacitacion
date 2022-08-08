@@ -1,0 +1,18 @@
+uuid: ffd61a0e-b1e9-4253-be2b-58d0097e9b6a
+langcode: es
+status: true
+dependencies:
+  module:
+    - svg_image_field
+_core:
+  default_config_hash: R8Ug_gyqYZKUDAFzK-J37Grj6e_v0_KXNmmfNzFAeqY
+id: svg_media
+label: 'SVG Media'
+description: ''
+source: svg
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_svg
+field_map:
+  name: name
