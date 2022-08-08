@@ -1,0 +1,29 @@
+uuid: 188598a5-bf88-420d-81e9-5cd0c7d5c9ea
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v3_card_carrusel2
+    - field.storage.block_content.field_field_lib_v3_card2_image
+    - media.type.image
+id: block_content.lib_v3_card_carrusel2.field_field_lib_v3_card2_image
+field_name: field_field_lib_v3_card2_image
+entity_type: block_content
+bundle: lib_v3_card_carrusel2
+label: Imagen
+description: 'Imagen del carrusel'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

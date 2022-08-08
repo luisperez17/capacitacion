@@ -1,15 +1,15 @@
-uuid: 81188458-21bd-4e72-876d-0b6d211feca9
+uuid: 2ba72763-c382-4bae-9858-bba549a33d46
 langcode: es
 status: true
 dependencies:
   config:
-    - block_content.type.lib_v3_card2
-    - field.field.block_content.lib_v3_card2.field_lib_v3_card2_background
-    - field.field.block_content.lib_v3_card2.field_lib_v3_card2_image
-    - field.field.block_content.lib_v3_card2.field_lib_v3_card2_link
-    - field.field.block_content.lib_v3_card2.field_lib_v3_card2_link_color
-    - field.field.block_content.lib_v3_card2.field_lib_v3_card2_text_sup
-    - field.field.block_content.lib_v3_card2.field_lib_v3_card2_title
+    - block_content.type.lib_v3_card_carrusel2
+    - field.field.block_content.lib_v3_card_carrusel2.field_field_lib_v3_card2_image
+    - field.field.block_content.lib_v3_card_carrusel2.field_field_lib_v3_card2_link
+    - field.field.block_content.lib_v3_card_carrusel2.field_field_lib_v3_card2_link_co
+    - field.field.block_content.lib_v3_card_carrusel2.field_field_lib_v3_card2_text_su
+    - field.field.block_content.lib_v3_card_carrusel2.field_field_lib_v3_card2_title
+    - field.field.block_content.lib_v3_card_carrusel2.field_lib_v3_card2_background
   module:
     - field_layout
     - layout_discovery
@@ -20,53 +20,53 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
-id: block_content.lib_v3_card2.default
+id: block_content.lib_v3_card_carrusel2.default
 targetEntityType: block_content
-bundle: lib_v3_card2
+bundle: lib_v3_card_carrusel2
 mode: default
 content:
-  field_lib_v3_card2_background:
-    type: options_select
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_lib_v3_card2_image:
+  field_field_lib_v3_card2_image:
     type: media_library_widget
-    weight: 26
+    weight: 29
     region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
-  field_lib_v3_card2_link:
+  field_field_lib_v3_card2_link:
     type: link_default
-    weight: 29
+    weight: 26
     region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-  field_lib_v3_card2_link_color:
+  field_field_lib_v3_card2_link_co:
     type: options_select
-    weight: 31
+    weight: 27
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_lib_v3_card2_text_sup:
+  field_field_lib_v3_card2_text_su:
     type: string_textfield
-    weight: 28
+    weight: 30
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_lib_v3_card2_title:
+  field_field_lib_v3_card2_title:
     type: string_textfield
-    weight: 27
+    weight: 31
     region: content
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_lib_v3_card2_background:
+    type: options_select
+    weight: 28
+    region: content
+    settings: {  }
     third_party_settings: {  }
   info:
     type: string_textfield

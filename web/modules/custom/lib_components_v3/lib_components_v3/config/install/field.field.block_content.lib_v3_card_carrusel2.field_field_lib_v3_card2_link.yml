@@ -1,0 +1,23 @@
+uuid: e28c5ee2-7eac-48b6-96ed-bd3dfd809c22
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v3_card_carrusel2
+    - field.storage.block_content.field_field_lib_v3_card2_link
+  module:
+    - link
+id: block_content.lib_v3_card_carrusel2.field_field_lib_v3_card2_link
+field_name: field_field_lib_v3_card2_link
+entity_type: block_content
+bundle: lib_v3_card_carrusel2
+label: Boton
+description: 'Boton carrusel 2'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

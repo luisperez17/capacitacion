@@ -1,17 +1,16 @@
-uuid: d090194c-e211-42ad-920a-54c653786ede
+uuid: e36c2c90-90ce-4885-aa07-f4b4cc0dfe82
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
-id: block_content.field_lib_v3_card2_title
-field_name: field_lib_v3_card2_title
+    - media
+id: block_content.field_field_lib_v3_card2_image
+field_name: field_field_lib_v3_card2_image
 entity_type: block_content
-type: string
+type: entity_reference
 settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
+  target_type: media
 module: core
 locked: false
 cardinality: 1

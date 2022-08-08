@@ -1,12 +1,12 @@
-uuid: ff024cce-cd36-48f1-8e4b-9ad61a265ee3
+uuid: 868d7503-18c4-4c37-8d44-24bdcf1f7355
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
     - options
-id: block_content.field_lib_v3_card2_link_color
-field_name: field_lib_v3_card2_link_color
+id: block_content.field_field_lib_v3_card2_link_co
+field_name: field_field_lib_v3_card2_link_co
 entity_type: block_content
 type: list_string
 settings:
