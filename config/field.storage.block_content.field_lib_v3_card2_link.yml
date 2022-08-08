@@ -1,12 +1,12 @@
-uuid: dde80d5b-8960-4cf8-92a1-8410e0c67b99
+uuid: 3b9307b3-269a-4561-99df-efd0314f596b
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
     - link
-id: block_content.field_field_lib_v3_card2_link
-field_name: field_field_lib_v3_card2_link
+id: block_content.field_lib_v3_card2_link
+field_name: field_lib_v3_card2_link
 entity_type: block_content
 type: link
 settings: {  }

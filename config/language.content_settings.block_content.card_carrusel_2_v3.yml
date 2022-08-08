@@ -1,0 +1,11 @@
+uuid: b5a96b04-a56f-4749-96e9-adb8538de326
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.card_carrusel_2_v3
+id: block_content.card_carrusel_2_v3
+target_entity_type_id: block_content
+target_bundle: card_carrusel_2_v3
+default_langcode: site_default
+language_alterable: false

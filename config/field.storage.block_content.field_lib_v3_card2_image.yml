@@ -1,12 +1,12 @@
-uuid: e36c2c90-90ce-4885-aa07-f4b4cc0dfe82
+uuid: 6a5f769b-6479-48de-9799-61d6cc39892e
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
     - media
-id: block_content.field_field_lib_v3_card2_image
-field_name: field_field_lib_v3_card2_image
+id: block_content.field_lib_v3_card2_image
+field_name: field_lib_v3_card2_image
 entity_type: block_content
 type: entity_reference
 settings:
