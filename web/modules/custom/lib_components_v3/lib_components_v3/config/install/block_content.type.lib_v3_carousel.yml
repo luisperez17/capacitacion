@@ -1,0 +1,7 @@
+langcode: es
+status: true
+dependencies: {  }
+id: lib_v3_carousel
+label: Carrusel v3
+revision: 0
+description: 'Grupo de Card Carusel'

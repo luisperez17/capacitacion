@@ -1,0 +1,7 @@
+langcode: es
+status: true
+dependencies: {  }
+id: lib_v3_carousel_card
+label: 'Card Carrusel v3'
+revision: 0
+description: 'Carousel con imagen, texto y un botón de enlace a cualquier sitio activo.'
