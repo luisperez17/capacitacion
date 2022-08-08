@@ -1,0 +1,8 @@
+uuid: 05c38d07-251a-4d30-b885-cd340e4dd02f
+langcode: es
+status: true
+dependencies: {  }
+id: lib_v3_contacts
+label: 'Contactos v3'
+revision: 0
+description: 'Componente grupo de contactos'
