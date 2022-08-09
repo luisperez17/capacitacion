@@ -1,0 +1,8 @@
+uuid: 54cd6615-fd4c-4adc-8750-5c9606858825
+langcode: es
+status: true
+dependencies: {  }
+id: lib_v3_carousel2
+label: 'Carrusel 2 v3'
+revision: 0
+description: 'Grupo para cards 2 '

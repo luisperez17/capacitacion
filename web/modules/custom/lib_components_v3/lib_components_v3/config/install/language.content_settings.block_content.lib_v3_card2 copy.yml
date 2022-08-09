@@ -1,0 +1,11 @@
+uuid: 3a61c7b6-994a-4bc3-9f3e-386a4bdefbdb
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v3_card2
+id: block_content.lib_v3_card2
+target_entity_type_id: block_content
+target_bundle: lib_v3_card2
+default_langcode: site_default
+language_alterable: false
