@@ -1,0 +1,8 @@
+uuid: d1783c62-a78c-49cf-a57f-4e31093e2a02
+langcode: es
+status: true
+dependencies: {  }
+id: lib_v3_card2
+label: 'Card carrusel 2 v3'
+revision: 0
+description: 'Componente del grupo carrusel 2 v3'

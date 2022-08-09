@@ -1,0 +1,21 @@
+uuid: 9beb0375-a07d-482b-a026-6c4f1205eb4a
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v3_card2
+    - field.storage.block_content.field_lib_v3_card2_background
+  module:
+    - options
+id: block_content.lib_v3_card2.field_lib_v3_card2_background
+field_name: field_lib_v3_card2_background
+entity_type: block_content
+bundle: lib_v3_card2
+label: Fondo
+description: 'Color de fondo del carrusel'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
