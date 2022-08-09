@@ -7,9 +7,16 @@ dependencies:
     - field.field.block_content.lib_v3_cards_group.field_lib_v3_cards_group_r
     - field.field.block_content.lib_v3_cards_group.field_lib_v3_cards_group_ref
   module:
+    - field_layout
     - inline_entity_form
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
-  default_config_hash: Obms5gahB49LggKAVqWJWIcM9vmaXST2-OaYBJihHTU
+  default_config_hash: GHLrUqMh15vWLyPXUAJxqbq-IPpoSu-dLJuNMj7uLew
 id: block_content.lib_v3_cards_group.default
 targetEntityType: block_content
 bundle: lib_v3_cards_group

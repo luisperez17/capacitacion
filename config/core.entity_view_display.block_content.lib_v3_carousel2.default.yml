@@ -6,22 +6,25 @@ dependencies:
     - block_content.type.lib_v3_carousel2
     - field.field.block_content.lib_v3_carousel2.field_lib_v3_carousel2_ref
     - field.field.block_content.lib_v3_carousel2.field_lib_v3_carousel2_title
+_core:
+  default_config_hash: 0mrItzmpAAkn6CVo7ulC8kFzmgNoDpL6vRXRLfOol2U
 id: block_content.lib_v3_carousel2.default
 targetEntityType: block_content
 bundle: lib_v3_carousel2
 mode: default
 content:
   field_lib_v3_carousel2_ref:
-    type: entity_reference_label
-    label: above
+    type: entity_reference_entity_view
+    label: hidden
     settings:
+      view_mode: default
       link: true
     third_party_settings: {  }
     weight: 1
     region: content
   field_lib_v3_carousel2_title:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

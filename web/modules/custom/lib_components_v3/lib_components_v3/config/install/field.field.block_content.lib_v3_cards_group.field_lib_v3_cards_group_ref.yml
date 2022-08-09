@@ -8,7 +8,7 @@ dependencies:
   module:
     - options
 _core:
-  default_config_hash: NHiy7wkhg8xZ9t9gtJv76U4a4fV51TAfdeUOWvGO904
+  default_config_hash: zgcShswMNrr-eH45F6Fh4sTQq-A5f_XeH3PYhgHGfTk
 id: block_content.lib_v3_cards_group.field_lib_v3_cards_group_ref
 field_name: field_lib_v3_cards_group_ref
 entity_type: block_content

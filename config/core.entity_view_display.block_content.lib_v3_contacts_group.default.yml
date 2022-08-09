@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.lib_v3_contacts_group
     - field.field.block_content.lib_v3_contacts_group.field_lib_v3_contacts_group_ref
+_core:
+  default_config_hash: ewqErcMlUmdZ4I0ZoiUXjv_WXkUh2VtH-zRGSjRSFC4
 id: block_content.lib_v3_contacts_group.default
 targetEntityType: block_content
 bundle: lib_v3_contacts_group

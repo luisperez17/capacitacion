@@ -15,7 +15,7 @@ third_party_settings:
     settings:
       label: ''
 _core:
-  default_config_hash: qNrV3EKnw0rd1pqsndbCip4BIkI737uKLUXfpkPx-z8
+  default_config_hash: wEPgkDLDl29DFDowQ7-_vPkEnbZdldc_-gWX-2FOuGo
 id: block_content.lib_v3_carousel.default
 targetEntityType: block_content
 bundle: lib_v3_carousel

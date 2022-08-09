@@ -1,4 +1,4 @@
-uuid: c80b1e13-ed3b-4a7b-a27a-f23bc13551b2
+uuid: 5d3c694d-42b7-412c-884f-f0acfc039ba0
 langcode: es
 status: true
 dependencies:
@@ -12,17 +12,16 @@ bundle: lib_v3_carousel2
 mode: default
 content:
   field_lib_v3_carousel2_ref:
-    type: entity_reference_entity_view
-    label: hidden
+    type: entity_reference_label
+    label: above
     settings:
-      view_mode: default
       link: true
     third_party_settings: {  }
     weight: 1
     region: content
   field_lib_v3_carousel2_title:
     type: string
-    label: hidden
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }

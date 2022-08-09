@@ -1,8 +1,11 @@
+uuid: bdfcdd18-7a21-43ef-b76a-28fc967e436e
 langcode: es
 status: true
 dependencies:
   config:
     - block_content.type.lib_v3_carousel_card
+_core:
+  default_config_hash: HMoFVUw53Om6tHIJSDbYi0rQutCIrtz9cH8e3b1D8IA
 id: block_content.lib_v3_carousel_card
 target_entity_type_id: block_content
 target_bundle: lib_v3_carousel_card

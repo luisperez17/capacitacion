@@ -8,7 +8,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: XauZSq5syfOoxDgGkyuV5n1v3hGeSk3QsY6lZHH-Loc
+  default_config_hash: mU2g8fLiC2n1jbmnF5Z83ThW3tnWGtkYMIdoN4jYutc
 id: block_content.lib_v3_carousel_card.field_lib_v3_carousel_link
 field_name: field_lib_v3_carousel_link
 entity_type: block_content

@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_lib_v3_card2_background
   module:
     - options
+_core:
+  default_config_hash: hqhIcnObs0xPiywfxPshX3i-J-5AsZ-XBVTd84OwisE
 id: block_content.lib_v3_card2.field_lib_v3_card2_background
 field_name: field_lib_v3_card2_background
 entity_type: block_content

@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - options
 _core:
-  default_config_hash: BmYVVqGJ2aXHMtwuUL0KWlnwqT48jY19FbhLmLqSqY4
+  default_config_hash: yliwS-utygulUpWC84bHCCTIcAWQZ-5Pb7EhbYvPwsk
 id: block_content.field_lib_v3_cards_group_ref
 field_name: field_lib_v3_cards_group_ref
 entity_type: block_content

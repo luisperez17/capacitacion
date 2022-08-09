@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - block_content
+_core:
+  default_config_hash: P00xsDdIcPlPNkqQq-zDsNydUG7AjiYh-KqpUKwR_MQ
 id: block_content.field_lib_v3_contacts_contact
 field_name: field_lib_v3_contacts_contact
 entity_type: block_content

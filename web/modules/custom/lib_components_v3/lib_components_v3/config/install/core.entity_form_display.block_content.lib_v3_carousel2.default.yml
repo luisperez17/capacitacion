@@ -1,4 +1,4 @@
-uuid: 6126e982-f252-432f-b5c3-a3c5293a3c6a
+uuid: 3fafb7d5-f07e-4719-9bd4-b2ea882fa155
 langcode: es
 status: true
 dependencies:
@@ -8,7 +8,6 @@ dependencies:
     - field.field.block_content.lib_v3_carousel2.field_lib_v3_carousel2_title
   module:
     - field_layout
-    - inline_entity_form
     - layout_discovery
 third_party_settings:
   field_layout:
@@ -21,25 +20,18 @@ bundle: lib_v3_carousel2
 mode: default
 content:
   field_lib_v3_carousel2_ref:
-    type: inline_entity_form_complex
-    weight: 2
+    type: entity_reference_autocomplete
+    weight: 27
     region: content
     settings:
-      form_mode: default
-      override_labels: true
-      label_singular: Card
-      label_plural: Cards
-      allow_new: true
-      allow_existing: false
       match_operator: CONTAINS
-      allow_duplicate: false
-      collapsible: false
-      collapsed: false
-      revision: false
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_lib_v3_carousel2_title:
     type: string_textfield
-    weight: 1
+    weight: 26
     region: content
     settings:
       size: 60
@@ -47,11 +39,17 @@ content:
     third_party_settings: {  }
   info:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  langcode: true
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

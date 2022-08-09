@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - options
 _core:
-  default_config_hash: kKxOTcrPjlYcVrkSFlc6Bqpl0LTZa65kyWRg33p4NKE
+  default_config_hash: BPlOLJxgLNN3irQQD2E7Xj1eyaHgqn_oTjQ6ofhkRPw
 id: block_content.field_lib_v3_carousel_background
 field_name: field_lib_v3_carousel_background
 entity_type: block_content

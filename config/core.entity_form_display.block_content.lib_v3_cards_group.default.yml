@@ -16,7 +16,7 @@ third_party_settings:
     settings:
       label: ''
 _core:
-  default_config_hash: GHLrUqMh15vWLyPXUAJxqbq-IPpoSu-dLJuNMj7uLew
+  default_config_hash: o1R4ZZn7zxm5heowW7UB1gp51EeP3eXP7yq8VLIghtM
 id: block_content.lib_v3_cards_group.default
 targetEntityType: block_content
 bundle: lib_v3_cards_group

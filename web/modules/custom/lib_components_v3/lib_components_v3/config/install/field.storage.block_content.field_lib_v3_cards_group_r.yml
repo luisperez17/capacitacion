@@ -5,7 +5,7 @@ dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: QGuIF-7tLLHCtezzhp00ySpnM691XCfSQcPhA7vZDSw
+  default_config_hash: '-R_VdhxY2pDKWaJqoLUVPmqIqV3zzddb9pnH4hoh8lI'
 id: block_content.field_lib_v3_cards_group_r
 field_name: field_lib_v3_cards_group_r
 entity_type: block_content

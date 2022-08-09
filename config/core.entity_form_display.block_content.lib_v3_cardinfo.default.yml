@@ -16,6 +16,8 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+_core:
+  default_config_hash: L--KW5tAZNirxCV-0brMFjN5Us-eDJAkcxlYvd0pKzo
 id: block_content.lib_v3_cardinfo.default
 targetEntityType: block_content
 bundle: lib_v3_cardinfo

@@ -9,7 +9,7 @@ dependencies:
   module:
     - options
 _core:
-  default_config_hash: HA1zk53PdJvcUsDTmffnMSFcjycUKxNOtotOsOsusec
+  default_config_hash: 8DjjWenQECWHwRymJQY6Q2-RcmN2PNUgKIYv3rPnAqA
 id: block_content.lib_v3_cards_group.default
 targetEntityType: block_content
 bundle: lib_v3_cards_group

@@ -7,7 +7,7 @@ dependencies:
     - field.storage.block_content.field_lib_v3_carousel_image
     - media.type.image
 _core:
-  default_config_hash: BpEPMeAtDRL6MIRzzb4Mwb5CWd4QoJ7V0G4VdMSyaEU
+  default_config_hash: qbY5BD0gk0EPPL6QskWQXz08Ngl3d4fB7tBKX3yIrbQ
 id: block_content.lib_v3_carousel_card.field_lib_v3_carousel_image
 field_name: field_lib_v3_carousel_image
 entity_type: block_content

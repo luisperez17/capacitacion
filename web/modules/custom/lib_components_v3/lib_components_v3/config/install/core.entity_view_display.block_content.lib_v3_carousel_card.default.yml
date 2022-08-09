@@ -1,3 +1,4 @@
+uuid: 5930ce90-dd5c-4ed5-a97c-691cd5b692b2
 langcode: es
 status: true
 dependencies:
@@ -13,6 +14,8 @@ dependencies:
   module:
     - link
     - options
+_core:
+  default_config_hash: cfRo14FG9gHE8qZkr7l1cutzggWPJEZqq4XCyn9tpgo
 id: block_content.lib_v3_carousel_card.default
 targetEntityType: block_content
 bundle: lib_v3_carousel_card

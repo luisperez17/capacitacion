@@ -1,4 +1,4 @@
-uuid: af856683-0953-49a5-9b59-50c32901e918
+uuid: 695a2cbc-90a7-4251-91c2-dd513a41af5a
 langcode: es
 status: true
 dependencies:
@@ -11,8 +11,8 @@ id: block_content.lib_v3_card2.field_lib_v3_card2_link_color
 field_name: field_lib_v3_card2_link_color
 entity_type: block_content
 bundle: lib_v3_card2
-label: 'Color botón'
-description: 'Color del botón'
+label: 'Color boton'
+description: 'Color del boton'
 required: false
 translatable: false
 default_value: {  }

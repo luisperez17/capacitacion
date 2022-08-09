@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_lib_v3_card2_link_color
   module:
     - options
+_core:
+  default_config_hash: JRkxCcnn1_XFAa98o5em885t-I9VAZhQDTm7WOXOagI
 id: block_content.lib_v3_card2.field_lib_v3_card2_link_color
 field_name: field_lib_v3_card2_link_color
 entity_type: block_content

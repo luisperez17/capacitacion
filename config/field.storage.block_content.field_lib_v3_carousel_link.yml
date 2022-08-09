@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - link
 _core:
-  default_config_hash: Cp-GRR75k8F4VBQMIEdcyoWIJ0wUj5QuKlSITnSctjE
+  default_config_hash: mLS_2i7BbVAjQoWPyPBrP6IvfiR8P1F9c1TbyvnL8A0
 id: block_content.field_lib_v3_carousel_link
 field_name: field_lib_v3_carousel_link
 entity_type: block_content

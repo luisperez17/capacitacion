@@ -15,7 +15,7 @@ dependencies:
     - link
     - options
 _core:
-  default_config_hash: cfRo14FG9gHE8qZkr7l1cutzggWPJEZqq4XCyn9tpgo
+  default_config_hash: UqAegNkZulMtTM2wlBkK14BrT6G5pg4gUs2E05me7jQ
 id: block_content.lib_v3_carousel_card.default
 targetEntityType: block_content
 bundle: lib_v3_carousel_card

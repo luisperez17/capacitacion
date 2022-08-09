@@ -3,7 +3,7 @@ langcode: es
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: FNSAhK86gTaFCWG0dQmyp83HjUB5f1a0aCqJyKKRCpo
+  default_config_hash: Kg4yAj0tTTDdbeflKHpt36OTPDPnr9CSEdcp_r3pzhg
 id: lib_v3_cards_group
 label: 'Grupo de tarjetas v3'
 revision: 0

@@ -5,7 +5,7 @@ dependencies:
   config:
     - block_content.type.lib_v3_carousel_card
 _core:
-  default_config_hash: HMoFVUw53Om6tHIJSDbYi0rQutCIrtz9cH8e3b1D8IA
+  default_config_hash: krqD71-jIQiQaXDVwyizcBGkYelhxU7TLOgaUbCfc1Q
 id: block_content.lib_v3_carousel_card
 target_entity_type_id: block_content
 target_bundle: lib_v3_carousel_card

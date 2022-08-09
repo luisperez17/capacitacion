@@ -7,6 +7,8 @@ dependencies:
     - field.field.block_content.lib_v3_contacts.field_lib_v3_contacts_contact
     - field.field.block_content.lib_v3_contacts.field_lib_v3_contacts_image
     - field.field.block_content.lib_v3_contacts.field_lib_v3_contacts_title
+_core:
+  default_config_hash: gS7aO-gX4JaUEgzJPFa376Aq7pUM1CTBSGxYMHl4ZoQ
 id: block_content.lib_v3_contacts.default
 targetEntityType: block_content
 bundle: lib_v3_contacts

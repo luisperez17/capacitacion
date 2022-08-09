@@ -1,3 +1,4 @@
+uuid: abdd7fea-7173-4166-ba9d-2ed52de9035e
 langcode: es
 status: true
 dependencies:
@@ -5,7 +6,16 @@ dependencies:
     - block_content.type.lib_v3_carousel
     - field.field.block_content.lib_v3_carousel.field_lib_v3_carousel_group_ref
   module:
+    - field_layout
     - inline_entity_form
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+_core:
+  default_config_hash: qNrV3EKnw0rd1pqsndbCip4BIkI737uKLUXfpkPx-z8
 id: block_content.lib_v3_carousel.default
 targetEntityType: block_content
 bundle: lib_v3_carousel

@@ -1,3 +1,4 @@
+uuid: dad02048-0a63-4726-9b9b-bc26d667d996
 langcode: es
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - block_content.type.lib_v3_carousel
     - block_content.type.lib_v3_carousel_card
     - field.storage.block_content.field_lib_v3_carousel_group_ref
+_core:
+  default_config_hash: yFFdzsQloL7NVXlEqNOdYM6FCm37e-tvRU8_fL3AOB8
 id: block_content.lib_v3_carousel.field_lib_v3_carousel_group_ref
 field_name: field_lib_v3_carousel_group_ref
 entity_type: block_content

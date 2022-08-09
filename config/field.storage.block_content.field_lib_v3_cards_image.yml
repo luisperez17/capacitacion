@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - media
 _core:
-  default_config_hash: nx7LiH5HigCmmwG6cweUjQhjB-L96ahApWLZDITyzuA
+  default_config_hash: WbRZVJGiwScXMHKXgFo440il8LJ3e0F1x7-iwrku3yg
 id: block_content.field_lib_v3_cards_image
 field_name: field_lib_v3_cards_image
 entity_type: block_content

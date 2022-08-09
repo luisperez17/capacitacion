@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.lib_v3_contacts
     - block_content.type.lib_v3_contacts_group
     - field.storage.block_content.field_lib_v3_contacts_group_ref
+_core:
+  default_config_hash: 0qX73wIWo60uSYSTMkepecZ3RMHu1tjGty2lLfE5XkI
 id: block_content.lib_v3_contacts_group.field_lib_v3_contacts_group_ref
 field_name: field_lib_v3_contacts_group_ref
 entity_type: block_content

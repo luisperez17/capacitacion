@@ -1,4 +1,4 @@
-uuid: 19a4bcbd-31bc-4e13-90ea-c29da11e95b9
+uuid: ebc189b8-0886-41a1-98de-d10766acbd35
 langcode: es
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_lib_v3_card2_link
 entity_type: block_content
 bundle: lib_v3_card2
 label: Boton
-description: 'Link de la tarjeta'
+description: 'Enlace del carrusel'
 required: false
 translatable: false
 default_value: {  }

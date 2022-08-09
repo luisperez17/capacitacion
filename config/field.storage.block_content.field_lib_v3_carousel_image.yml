@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - media
 _core:
-  default_config_hash: ulVKMxaUEwHQvgzeNfY67fmBrRKj8fiOZaP01Lc90i8
+  default_config_hash: Nf0_UEsfhEMHOSi_2azukzEjV9wxzht-SmHgR8IDpjg
 id: block_content.field_lib_v3_carousel_image
 field_name: field_lib_v3_carousel_image
 entity_type: block_content

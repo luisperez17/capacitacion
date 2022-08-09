@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - options
+_core:
+  default_config_hash: BBZLJnv_aJxTc6AFnG1nlN7TgHt1izzm6lOxC7qgnjk
 id: block_content.field_lib_v3_card2_link_color
 field_name: field_lib_v3_card2_link_color
 entity_type: block_content

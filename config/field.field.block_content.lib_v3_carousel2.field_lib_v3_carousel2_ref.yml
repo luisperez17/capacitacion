@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.lib_v3_card2
     - block_content.type.lib_v3_carousel2
     - field.storage.block_content.field_lib_v3_carousel2_ref
+_core:
+  default_config_hash: qUDvF78lH_t8IRoJCJdSz8-PTnFH98d5nPCXxemt10o
 id: block_content.lib_v3_carousel2.field_lib_v3_carousel2_ref
 field_name: field_lib_v3_carousel2_ref
 entity_type: block_content

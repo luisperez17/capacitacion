@@ -11,7 +11,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: tWyMLCD4GRioGGFhvCv-p7LYalryYSEcNGDOpih0VL0
+  default_config_hash: _kXuv7NsJCvzM4m__SFv3v7CYah7BG7zD7vGDCLUDNA
 id: block_content.lib_v3_cards.default
 targetEntityType: block_content
 bundle: lib_v3_cards

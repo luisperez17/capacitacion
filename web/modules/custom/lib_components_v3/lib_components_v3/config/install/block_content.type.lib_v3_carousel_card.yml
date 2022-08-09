@@ -1,6 +1,9 @@
+uuid: cdc3b925-6394-46d3-b6b8-4c68d16e8840
 langcode: es
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: JAbI7NAWSmOVrpyl_wcnz43Sqz864mQdR4TSqR3n_0w
 id: lib_v3_carousel_card
 label: 'Card Carrusel v3'
 revision: 0

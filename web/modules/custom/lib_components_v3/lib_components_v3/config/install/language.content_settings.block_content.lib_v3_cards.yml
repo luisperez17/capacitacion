@@ -5,7 +5,7 @@ dependencies:
   config:
     - block_content.type.lib_v3_cards
 _core:
-  default_config_hash: 9LBHSZrrR2CoQr2BGI3vMaQp4jZ9bMHYY6Nrvizhxyc
+  default_config_hash: 5x0EE2BMuAYAJ3EFDW-Js8KxOeGKpiEMvIms0RUsBoM
 id: block_content.lib_v3_cards
 target_entity_type_id: block_content
 target_bundle: lib_v3_cards

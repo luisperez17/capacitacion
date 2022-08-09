@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - link
 _core:
-  default_config_hash: vIojKotJsshlisTQNDoRPYvghsRKYSFbHUvKan5Te9g
+  default_config_hash: m-qubi3m2OMOXgZsbkz4X4ACZmdzWwIJaE39mbx9PlU
 id: block_content.field_lib_v3_cards_link
 field_name: field_lib_v3_cards_link
 entity_type: block_content

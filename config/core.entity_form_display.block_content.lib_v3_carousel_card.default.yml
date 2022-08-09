@@ -22,7 +22,7 @@ third_party_settings:
     settings:
       label: ''
 _core:
-  default_config_hash: 0oHY6qThJSQ4kzHj91OjbM5xc7iJkvHP5BSJppDzhug
+  default_config_hash: b6CjQzPJ3vY8deN-9ZsqJjh9kxJmCaw1L8j2Ox9P3ao
 id: block_content.lib_v3_carousel_card.default
 targetEntityType: block_content
 bundle: lib_v3_carousel_card

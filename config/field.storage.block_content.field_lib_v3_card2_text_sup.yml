@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - block_content
+_core:
+  default_config_hash: PBW_4FS3RKE4rQN8Aa-IlrE6w9Qf8aAGo2TUCYEg1e4
 id: block_content.field_lib_v3_card2_text_sup
 field_name: field_lib_v3_card2_text_sup
 entity_type: block_content

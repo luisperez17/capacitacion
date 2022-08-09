@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - block_content.type.lib_v3_moreinfo_group
+_core:
+  default_config_hash: fr4sAKxDHNUpf_cF-Mm4hHKHFurjxZGNMNHJWKHSwv8
 id: block_content.lib_v3_moreinfo_group
 target_entity_type_id: block_content
 target_bundle: lib_v3_moreinfo_group

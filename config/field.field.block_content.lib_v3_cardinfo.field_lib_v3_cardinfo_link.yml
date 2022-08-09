@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_lib_v3_cardinfo_link
   module:
     - link
+_core:
+  default_config_hash: hbwrbX-KABXQaxWMe2SlU4Lo1QkYpCkXuAMb4B8f1Ps
 id: block_content.lib_v3_cardinfo.field_lib_v3_cardinfo_link
 field_name: field_lib_v3_cardinfo_link
 entity_type: block_content

@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - block_content.type.lib_v3_card2
+_core:
+  default_config_hash: FgG9K4ukLeoIMq6O_yVkyCFlAFQtoMUbjS-1XgJ9XUA
 id: block_content.lib_v3_card2
 target_entity_type_id: block_content
 target_bundle: lib_v3_card2

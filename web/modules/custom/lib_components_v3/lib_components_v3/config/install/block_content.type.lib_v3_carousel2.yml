@@ -1,8 +1,8 @@
-uuid: 7392fa72-3cc4-4c9c-8d2f-89b11a5c52f1
+uuid: 3b7ef816-1894-4007-afda-9e0079035aac
 langcode: es
 status: true
 dependencies: {  }
 id: lib_v3_carousel2
 label: 'Carrusel 2 v3'
 revision: 0
-description: 'Grupo de cards carrusel 2 v3'
+description: 'Grupo para el carrusel 2'

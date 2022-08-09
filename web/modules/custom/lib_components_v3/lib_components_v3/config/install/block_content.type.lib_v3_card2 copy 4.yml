@@ -1,8 +1,0 @@
-uuid: 4fcff701-f3b5-4dd2-98e5-32fd9000a5bc
-langcode: es
-status: true
-dependencies: {  }
-id: lib_v3_card2
-label: 'Card carrusel 2 v3'
-revision: 0
-description: 'Componente del grupo carrusel 2 v3'

@@ -3,8 +3,8 @@ langcode: es
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: hsbULe3o3DZcQeJoZZf1SRIqs7XFLMbUzUhYx1_qH0s
+  default_config_hash: WGFUVSPQuhU830oba3FpIfsjA2TIKjD2_0Gv1cmWR30
 id: lib_v3_cards
-label: Tarjetas v3
+label: 'Tarjetas v3'
 revision: 0
 description: ''

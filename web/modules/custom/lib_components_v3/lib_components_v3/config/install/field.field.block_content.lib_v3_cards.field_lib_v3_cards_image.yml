@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.lib_v3_cards
     - field.storage.block_content.field_lib_v3_cards_image
     - media.type.image
+_core:
+  default_config_hash: k6WegQQF-RAtcBFz2kDtxvyTfnKdi-_nw1u7N1zlYuY
 id: block_content.lib_v3_cards.field_lib_v3_cards_image
 field_name: field_lib_v3_cards_image
 entity_type: block_content

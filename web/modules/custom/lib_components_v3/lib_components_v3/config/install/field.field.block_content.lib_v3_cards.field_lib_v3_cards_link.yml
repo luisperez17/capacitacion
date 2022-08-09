@@ -8,7 +8,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: NlvOq5zV8jefBR5dBMWCFgvEzjeHMisfAkSblbs7_Ac
+  default_config_hash: kxmn4L9j5ceejKKlwh6bSr9FfIcISqwyVp949X21tnw
 id: block_content.lib_v3_cards.field_lib_v3_cards_link
 field_name: field_lib_v3_cards_link
 entity_type: block_content

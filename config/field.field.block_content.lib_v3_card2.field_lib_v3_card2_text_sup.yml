@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.lib_v3_card2
     - field.storage.block_content.field_lib_v3_card2_text_sup
+_core:
+  default_config_hash: GyyjooHv-Zt7EvCXMGlaeOtW5liDXxfvamufo6Nxgys
 id: block_content.lib_v3_card2.field_lib_v3_card2_text_sup
 field_name: field_lib_v3_card2_text_sup
 entity_type: block_content

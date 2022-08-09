@@ -13,21 +13,23 @@ dependencies:
   module:
     - link
     - options
+_core:
+  default_config_hash: eVg8olOrSLfaW_k3IDjWIDiRVPVIZ7L5HT-ALKvGF5s
 id: block_content.lib_v3_card2.default
 targetEntityType: block_content
 bundle: lib_v3_card2
 mode: default
 content:
   field_lib_v3_card2_background:
-    type: list_default
-    label: above
+    type: list_key
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 4
     region: content
   field_lib_v3_card2_image:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: false
@@ -36,7 +38,7 @@ content:
     region: content
   field_lib_v3_card2_link:
     type: link
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -47,15 +49,15 @@ content:
     weight: 3
     region: content
   field_lib_v3_card2_link_color:
-    type: list_default
-    label: above
+    type: list_key
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 5
     region: content
   field_lib_v3_card2_text_sup:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -63,7 +65,7 @@ content:
     region: content
   field_lib_v3_card2_title:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.lib_v3_moreinfo_group
     - field.field.block_content.lib_v3_moreinfo_group.field_lib_v3_moreinfo_group_ref
     - field.field.block_content.lib_v3_moreinfo_group.field_lib_v3_moreinfo_title
+_core:
+  default_config_hash: FiLsn7YOdq4Lpj5qoei3IRpzqlS8GgrcQ3cWvHrWBLY
 id: block_content.lib_v3_moreinfo_group.default
 targetEntityType: block_content
 bundle: lib_v3_moreinfo_group

@@ -1,4 +1,4 @@
-uuid: a0158ba9-5731-43ba-83f5-2664a31d3b36
+uuid: 1ca04672-9fbb-4d99-9221-d793422ad9bc
 langcode: es
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_lib_v3_card2_background
 entity_type: block_content
 bundle: lib_v3_card2
 label: Fondo
-description: 'Fondo de la tarjeta'
+description: 'Fondo del carrusel'
 required: false
 translatable: false
 default_value: {  }

@@ -1,4 +1,4 @@
-uuid: 452ff8f2-7a59-454b-8405-4f5a259bfed1
+uuid: d5507567-38cd-4e86-8431-a505084d2c5f
 langcode: es
 status: true
 dependencies:
@@ -10,7 +10,7 @@ field_name: field_lib_v3_card2_text_sup
 entity_type: block_content
 bundle: lib_v3_card2
 label: 'Texto de apoyo'
-description: 'Texto de apoyo de la tarjeta'
+description: 'Texto de apoyo para el carrusel'
 required: false
 translatable: false
 default_value: {  }

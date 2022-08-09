@@ -9,10 +9,17 @@ dependencies:
     - field.field.block_content.lib_v3_cards.field_lib_v3_cards_link
     - field.field.block_content.lib_v3_cards.field_lib_v3_cards_title
   module:
+    - field_layout
+    - layout_discovery
     - link
     - media_library
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
-  default_config_hash: SJ0AFSB2JtvCZBPA6D4MkQTjf6AasHsABsYpzYrEAqE
+  default_config_hash: Vv1qcAYgO7IiPCQac814nTWQtW_Z6cAEOFH1uJ52jhk
 id: block_content.lib_v3_cards.default
 targetEntityType: block_content
 bundle: lib_v3_cards

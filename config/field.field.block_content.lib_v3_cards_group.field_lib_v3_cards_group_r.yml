@@ -7,7 +7,7 @@ dependencies:
     - block_content.type.lib_v3_cards_group
     - field.storage.block_content.field_lib_v3_cards_group_r
 _core:
-  default_config_hash: Rh3f2I8KCO1LFD89Lxm8mvADEkvR8dgEud9qwMHDFTI
+  default_config_hash: HYgF7ByyibpS-w9v6C94zrETE2l_WT5TasDMuuAz2SU
 id: block_content.lib_v3_cards_group.field_lib_v3_cards_group_r
 field_name: field_lib_v3_cards_group_r
 entity_type: block_content

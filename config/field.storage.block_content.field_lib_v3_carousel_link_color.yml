@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - options
 _core:
-  default_config_hash: VliATA9efd6dyOGfiQi6DbAsfd5ljohASkg0DAMJM8Q
+  default_config_hash: GWvSxrhc3P83lIvgdTC231tyLAVIkDcUMt-NTASwJvY
 id: block_content.field_lib_v3_carousel_link_color
 field_name: field_lib_v3_carousel_link_color
 entity_type: block_content

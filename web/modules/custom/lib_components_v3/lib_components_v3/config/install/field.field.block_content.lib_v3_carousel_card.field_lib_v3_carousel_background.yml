@@ -1,3 +1,4 @@
+uuid: 17a2128b-37ce-414b-b95c-c26f3f0be8da
 langcode: es
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_lib_v3_carousel_background
   module:
     - options
+_core:
+  default_config_hash: vltBR1XqXohWdqhZlomhu7wqatknwzv3vZdICx3eIvQ
 id: block_content.lib_v3_carousel_card.field_lib_v3_carousel_background
 field_name: field_lib_v3_carousel_background
 entity_type: block_content

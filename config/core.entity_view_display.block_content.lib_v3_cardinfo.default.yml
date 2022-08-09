@@ -9,6 +9,8 @@ dependencies:
     - field.field.block_content.lib_v3_cardinfo.field_lib_v3_cardinfo_title
   module:
     - link
+_core:
+  default_config_hash: H4XCnMUc2Yg5mU87lrMqODhcQCjQitAQzvcVtyTt_mU
 id: block_content.lib_v3_cardinfo.default
 targetEntityType: block_content
 bundle: lib_v3_cardinfo

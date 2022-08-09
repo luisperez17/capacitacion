@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.lib_v3_contacts
     - field.storage.block_content.field_lib_v3_contacts_image
     - media.type.image
+_core:
+  default_config_hash: mcU2CpmP3mQGPybkXFlihIeyDWLzxP7SS2ext8ws0AI
 id: block_content.lib_v3_contacts.field_lib_v3_contacts_image
 field_name: field_lib_v3_contacts_image
 entity_type: block_content

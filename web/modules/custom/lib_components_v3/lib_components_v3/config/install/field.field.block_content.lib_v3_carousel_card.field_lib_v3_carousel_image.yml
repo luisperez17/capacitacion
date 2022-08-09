@@ -1,3 +1,4 @@
+uuid: 679100d3-bab7-47d8-967f-fa419afae50d
 langcode: es
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - block_content.type.lib_v3_carousel_card
     - field.storage.block_content.field_lib_v3_carousel_image
     - media.type.image
+_core:
+  default_config_hash: BpEPMeAtDRL6MIRzzb4Mwb5CWd4QoJ7V0G4VdMSyaEU
 id: block_content.lib_v3_carousel_card.field_lib_v3_carousel_image
 field_name: field_lib_v3_carousel_image
 entity_type: block_content
