@@ -1,0 +1,19 @@
+uuid: d5507567-38cd-4e86-8431-a505084d2c5f
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v3_card2
+    - field.storage.block_content.field_lib_v3_card2_text_sup
+id: block_content.lib_v3_card2.field_lib_v3_card2_text_sup
+field_name: field_lib_v3_card2_text_sup
+entity_type: block_content
+bundle: lib_v3_card2
+label: 'Texto de apoyo'
+description: 'Texto de apoyo para el carrusel'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
