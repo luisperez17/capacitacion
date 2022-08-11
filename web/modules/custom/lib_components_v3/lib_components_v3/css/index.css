@@ -37,6 +37,7 @@ h1, h2, h3, h4, h6 {
     position: relative;
     height: var(--height-banner);
     background: var(--primary-color);
+    overflow: hidden;
 }
 
 
@@ -48,8 +49,6 @@ h1, h2, h3, h4, h6 {
     width: 100%;
     text-align: center;
 }
-
-
 
 
 
@@ -72,7 +71,15 @@ h1, h2, h3, h4, h6 {
     position: relative;
 }
 
+.lib-comp-carrousel__default .field--name-field-lib-v3-carousel-sec{
+    font-size: 1rem;
+    color: var(--gray-color);
+}
+
 /*Fin carrusel*/
+
+
+
 
 /*Carrusel 2*/
 .lib-comp-carrousel__rightNavigation .lib-comp-carrousel__image{ 
@@ -93,11 +100,16 @@ h1, h2, h3, h4, h6 {
 }
 
 .lib-comp-carrousel__rightNavigation .lib-comp-carrousel__title{
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
-/*Fin carrusel 2*/
 
-/*Nav carrusel 3*/
+.lib-comp-carrousel__rightNavigation .field--name-field-lib-v3-carousel-sec{
+    font-size: 1rem;
+    color: var(--gray-color);
+}
+
+
+
 
 .lib-comp-carrousel__rightNavigation .lib-comp-carrousel__nav {
     right: 10px;
@@ -115,7 +127,15 @@ h1, h2, h3, h4, h6 {
     background-color: var(--primary-color);
     border-color: white;
 }
+/*Fin carrusel 2*/
+
+/*Nav carrusel 3*/
     
+.lib-comp-carrousel__leftNavigation .field--name-field-lib-v3-carousel-sec{
+    font-size: 1rem;
+    color: var(--gray-color);
+}
+
 .lib-comp-carrousel__leftNavigation .lib-comp-carrousel__nav {
     left: 40px;
     right: unset;
@@ -129,6 +149,11 @@ h1, h2, h3, h4, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 3rem;
+}
+
+.lib-comp-carrousel__rightNavigation .lib-comp-carrousel__content{
+    padding: 3rem 4rem 3rem 6rem;
 }
 
 
