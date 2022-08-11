@@ -32,11 +32,13 @@ h1, h2, h3, h4, h6 {
     background: var(--button-color);
 }
 
+/*Iniciar carrusel*/
 .lib-comp-carrousel {
     position: relative;
     height: var(--height-banner);
     background: var(--primary-color);
 }
+
 
 .lib-comp-carrousel__nav {
     position: absolute;
@@ -46,13 +48,9 @@ h1, h2, h3, h4, h6 {
     width: 100%;
     text-align: center;
 }
-.lib-comp-carrousel2__nav{
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    
-}
+
+
+
 
 
 .lib-comp-carrousel__circle {
@@ -74,28 +72,57 @@ h1, h2, h3, h4, h6 {
     position: relative;
 }
 
+/*Fin carrusel*/
+
 /*Carrusel 2*/
-.lib-comp-carrousel2__card .lib-comp-carrousel2__image{ 
+.lib-comp-carrousel__rightNavigation .lib-comp-carrousel__image{ 
     order: -1;
     width: 100%;
 }
 
-.lib-comp-carrousel2__card .lib-comp-carrousel2__content{
+.lib-comp-carrousel__rightNavigation.lib-comp-carrousel__content{
     padding: 2rem 2rem 2rem 5rem;
-    width: 100%;
+    max-width: 100%;
     
 }
 
-.lib-comp-carrousel2__content .lib-comp-carrousel__textwrap{
+.lib-comp-carrousel__rightNavigation.lib-comp-carrousel__textwrap{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
 }
 
-.lib-comp-carrousel2__content .lib-comp-carrousel__title{
+.lib-comp-carrousel__rightNavigation .lib-comp-carrousel__title{
     font-size: 1.4rem;
 }
 /*Fin carrusel 2*/
+
+/*Nav carrusel 3*/
+
+.lib-comp-carrousel__rightNavigation .lib-comp-carrousel__nav {
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 15px;
+}
+
+.lib-comp-carrousel__rightNavigation .lib-comp-carrousel__circle{
+    background-color: var(--primary-color);
+    border-color: white;
+}
+    
+.lib-comp-carrousel__leftNavigation .lib-comp-carrousel__nav {
+    left: 40px;
+    right: unset;
+    width: auto;
+}
+ 
+ /*Fin nav carrusel 3*/
 
 .lib-comp-carrousel__content {
     display: flex;
@@ -103,6 +130,8 @@ h1, h2, h3, h4, h6 {
     justify-content: center;
     align-items: center;
 }
+
+
 
 
 
@@ -374,9 +403,16 @@ h1, h2, h3, h4, h6 {
 
 
 /*Componente grid*/
+
 .grid-3{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+}
+/*Mobile v3*/
+@media (min-width: 992px) {
+    .grid-3{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /*Contactos*/
@@ -442,7 +478,7 @@ h1, h2, h3, h4, h6 {
 
 .moreInfo-group-main .field--name-field-lib-v3-cardinfo-link::after{
     content: '>';
-    background-color: yellow;
+    background-color: var(--yellow-color);
     font-size: 1.5rem;
     font-family: bold;
     width: 2rem;
