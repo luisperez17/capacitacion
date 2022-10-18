@@ -22,6 +22,7 @@
 /sites/simpletest
 
 # Ignore drupal core (if not versioning drupal sources)
+/.ddev
 /core
 /modules/README.txt
 /profiles/README.txt
@@ -30,7 +31,6 @@
 /sites/example.settings.local.php
 /sites/development.services.yml
 /themes/README.txt
-/.ddev
 /vendor
 /.csslintrc
 /.editorconfig
@@ -51,7 +51,6 @@
 ############
 *.7z
 *.dmg
-*.gz
 *.bz2
 *.iso
 *.jar
