@@ -1,0 +1,23 @@
+uuid: c77bbf4f-d2d4-4f4a-990f-79d8136e892a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.noticias_elquis
+  module:
+    - text
+id: node.noticias_elquis.body
+field_name: body
+entity_type: node
+bundle: noticias_elquis
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
