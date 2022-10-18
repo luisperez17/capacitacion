@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Implement hook_form_alter().
+ */
+
+function module_brayan_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+  //ksm($form_id);
+  if($form_id == 'comment_comment_form'){
+    $form['actions']['submit']['#value'] = t('Comentar');
+  }
+}
