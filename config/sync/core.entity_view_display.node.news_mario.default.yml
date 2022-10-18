@@ -1,0 +1,29 @@
+uuid: a380bc15-97c6-4aec-9769-c71f7cadffcc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.news_mario.body
+    - node.type.news_mario
+  module:
+    - text
+    - user
+id: node.news_mario.default
+targetEntityType: node
+bundle: news_mario
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

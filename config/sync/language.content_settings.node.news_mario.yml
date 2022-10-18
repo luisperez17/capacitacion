@@ -1,0 +1,11 @@
+uuid: 9e24f0f8-8f4f-4e73-b32b-362f1a87e167
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.news_mario
+id: node.news_mario
+target_entity_type_id: node
+target_bundle: news_mario
+default_langcode: site_default
+language_alterable: false
