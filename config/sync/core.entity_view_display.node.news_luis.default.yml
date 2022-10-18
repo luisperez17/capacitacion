@@ -1,0 +1,29 @@
+uuid: b502f414-1acd-4816-aabf-7a4f5669dc33
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.news_luis.body
+    - node.type.news_luis
+  module:
+    - text
+    - user
+id: node.news_luis.default
+targetEntityType: node
+bundle: news_luis
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
