@@ -1,0 +1,29 @@
+uuid: a619d8b9-e8a8-4932-803c-7848a1c7cb7a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.noticias_elquis.body
+    - node.type.noticias_elquis
+  module:
+    - text
+    - user
+id: node.noticias_elquis.default
+targetEntityType: node
+bundle: noticias_elquis
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
