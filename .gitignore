@@ -30,6 +30,7 @@
 /sites/example.settings.local.php
 /sites/development.services.yml
 /themes/README.txt
+/.ddev
 /vendor
 /.csslintrc
 /.editorconfig
