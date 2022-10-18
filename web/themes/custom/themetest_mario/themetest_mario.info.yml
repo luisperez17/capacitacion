@@ -1,0 +1,17 @@
+name: Drupal-training-mario-lasca
+type: theme
+description: 'Un tema para drupal training'
+core_version_requirement: ^8 || ^9
+
+base theme: false
+
+regions:
+  header_first: Header first
+  header_second: Header second
+  content_top: Content Top
+  content: Content
+  footer: Footer
+
+libraries:
+  - themetest_mario/global
+

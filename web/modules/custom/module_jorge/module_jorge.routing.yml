@@ -1,0 +1,7 @@
+module_jorge.mypage:
+  path: '/modulejorge'
+  defaults:
+    _controller: '\Drupal\module_jorge\Controller\module_jorgeController::myPage'
+    _title: 'Hola mundo'
+  requirements:
+    _permission: 'access content'

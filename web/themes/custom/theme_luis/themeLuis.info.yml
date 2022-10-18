@@ -1,0 +1,16 @@
+type: theme
+base theme: false
+core_version_requirement: ^9.3 || ^10
+
+name: 'Theme Luis'
+description: 'El tema de Luis.'
+
+regions:
+  header_first: Header first
+  header_second: Header second
+  content_top: Content Top
+  content: Content
+  footer: Footer
+
+#libraries:
+#  - dt_base/global
