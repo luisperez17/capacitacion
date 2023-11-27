@@ -1,0 +1,10 @@
+uuid: 86af7a51-5e4d-4e43-9edc-8ecba306c9f0
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.news_wilmer_main
+label: 'Noticia Wilmer Principal'
+targetEntityType: node
+cache: true
