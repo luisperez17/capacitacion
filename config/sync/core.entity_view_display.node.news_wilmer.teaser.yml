@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.news_wilmer.field_news_wilmer_date
     - field.field.node.news_wilmer.field_news_wilmer_description
     - field.field.node.news_wilmer.field_news_wilmer_image
+    - field.field.node.news_wilmer.field_news_wilmer_tags
     - node.type.news_wilmer
   module:
     - user
@@ -24,4 +25,5 @@ hidden:
   field_news_wilmer_date: true
   field_news_wilmer_description: true
   field_news_wilmer_image: true
+  field_news_wilmer_tags: true
   langcode: true

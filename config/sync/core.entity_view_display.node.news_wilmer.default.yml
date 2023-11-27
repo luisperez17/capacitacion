@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.news_wilmer.field_news_wilmer_date
     - field.field.node.news_wilmer.field_news_wilmer_description
     - field.field.node.news_wilmer.field_news_wilmer_image
+    - field.field.node.news_wilmer.field_news_wilmer_tags
     - node.type.news_wilmer
   module:
     - datetime
@@ -43,6 +44,14 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 105
+    region: content
+  field_news_wilmer_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
     region: content
   links:
     settings: {  }
