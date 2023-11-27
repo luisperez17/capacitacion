@@ -46,6 +46,9 @@ class BreadcrumbTest extends BrowserTestBase {
    */
   protected $profile = 'standard';
 
+  /**
+   * {@inheritdoc}
+   */
   protected function setUp(): void {
     parent::setUp();
 
@@ -220,16 +223,6 @@ class BreadcrumbTest extends BrowserTestBase {
     ];
     $this->drupalGet('node/' . $parent->id() . '/edit');
     $this->submitForm($edit, 'Save');
-    $expected = [
-      "node" => $link->getTitle(),
-    ];
-    $trail = $home + $expected;
-    $tree = $expected + [
-      'node/' . $parent->id() => $parent->menu['title'],
-    ];
-    $trail += [
-      'node/' . $parent->id() => $parent->menu['title'],
-    ];
 
     // Add a taxonomy term/tag to last node, and add a link for that term to the
     // Tools menu.

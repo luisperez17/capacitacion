@@ -1,7 +1,0 @@
-module_luis.mypage:
-  path: '/moduleluis'
-  defaults:
-    _controller: '\Drupal\module_luis\Controller\module_luisController::myPage'
-    _title: 'Hola mundo'
-  requirements:
-    _permission: 'access content'

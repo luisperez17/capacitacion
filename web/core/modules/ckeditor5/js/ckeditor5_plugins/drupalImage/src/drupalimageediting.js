@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
-// cSpell:words conversionutils downcasted linkimageediting emptyelement downcastdispatcher
+// cspell:ignore datafilter downcasted linkimageediting emptyelement downcastdispatcher
 import { Plugin } from 'ckeditor5/src/core';
-import { setViewAttributes } from '@ckeditor/ckeditor5-html-support/src/conversionutils';
+import { setViewAttributes } from '@ckeditor/ckeditor5-html-support/src/utils';
 
 /**
  * @typedef {function} converterHandler
@@ -478,20 +478,13 @@ function viewImageToModelImage(editor) {
       const viewFragment = editor.data.processor.toView(
         viewItem.getAttribute('data-caption'),
       );
-      const modelFragment = writer.createDocumentFragment();
 
       // Consumable must know about those newly parsed view elements.
       conversionApi.consumable.constructor.createFrom(
         viewFragment,
         conversionApi.consumable,
       );
-      conversionApi.convertChildren(viewFragment, modelFragment);
-
-      // Insert caption model nodes into the caption.
-      // eslint-disable-next-line no-restricted-syntax
-      for (const child of Array.from(modelFragment.getChildren())) {
-        writer.append(child, caption);
-      }
+      conversionApi.convertChildren(viewFragment, caption);
 
       // Insert the caption element into image, as a last child.
       writer.append(caption, image);
@@ -542,6 +535,61 @@ function viewImageToModelImage(editor) {
 
   return (dispatcher) => {
     dispatcher.on('element:img', converter, { priority: 'high' });
+  };
+}
+
+/**
+ * General HTML Support integration for attributes on links wrapping images.
+ *
+ * This plugin needs to integrate with GHS manually because upstream image link
+ * plugin GHS integration assumes that the `<a>` element is inside the
+ * `<imageBlock>` which is not true in the case of Drupal.
+ *
+ * @param {module:html-support/datafilter~DataFilter} dataFilter
+ *   The General HTML support data filter.
+ *
+ * @return {function}
+ *   Callback that binds an event to its parameter.
+ */
+function upcastImageBlockLinkGhsAttributes(dataFilter) {
+  /**
+   * Callback for the element:img upcast event.
+   *
+   * @type {converterHandler}
+   */
+  function converter(event, data, conversionApi) {
+    if (!data.modelRange) {
+      return;
+    }
+
+    const viewImageElement = data.viewItem;
+    const viewContainerElement = viewImageElement.parent;
+
+    if (!viewContainerElement.is('element', 'a')) {
+      return;
+    }
+    if (!data.modelRange.getContainedElement().is('element', 'imageBlock')) {
+      return;
+    }
+
+    const viewAttributes = dataFilter.processViewAttributes(
+      viewContainerElement,
+      conversionApi,
+    );
+
+    if (viewAttributes) {
+      conversionApi.writer.setAttribute(
+        'htmlLinkAttributes',
+        viewAttributes,
+        data.modelRange,
+      );
+    }
+  }
+
+  return (dispatcher) => {
+    dispatcher.on('element:img', converter, {
+      priority: 'high',
+    });
   };
 }
 
@@ -605,8 +653,10 @@ function downcastBlockImageLink() {
 }
 
 /**
- * Add handling of 'dataEntityUuid', 'dataEntityType', 'isDecorative', 'width',
- * 'height' attributes on image elements.
+ * Drupal Image plugin.
+ *
+ * This plugin extends the CKEditor 5 image plugin with custom attributes, and
+ * removes a wrapping `<figure>` from `<img>` elements in the data downcast.
  *
  * @private
  */
@@ -691,6 +741,13 @@ export default class DrupalImageEditing extends Plugin {
           },
         },
       });
+
+    if (editor.plugins.has('DataFilter')) {
+      const dataFilter = editor.plugins.get('DataFilter');
+      conversion
+        .for('upcast')
+        .add(upcastImageBlockLinkGhsAttributes(dataFilter));
+    }
 
     conversion
       .for('downcast')

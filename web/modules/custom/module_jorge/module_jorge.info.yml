@@ -1,5 +1,0 @@
-name: Module Jorge--Drupal 9 
-type: module
-description: 'Hola Compañeros.'
-package: Custom
-core_version_requirement: '9.4.7'

@@ -12,6 +12,7 @@ use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityListBuilder;
 use Drupal\Core\Routing\RedirectDestinationInterface;
+use Drupal\Core\Url;
 use Drupal\entity_test\EntityTestListBuilder;
 use Drupal\Tests\UnitTestCase;
 
@@ -107,7 +108,7 @@ class EntityListBuilderTest extends UnitTestCase {
     $this->moduleHandler->expects($this->once())
       ->method('invokeAll')
       ->with('entity_operation', [$this->role])
-      ->will($this->returnValue($operations));
+      ->willReturn($operations);
     $this->moduleHandler->expects($this->once())
       ->method('alter')
       ->with('entity_operation');
@@ -116,19 +117,14 @@ class EntityListBuilderTest extends UnitTestCase {
 
     $this->role->expects($this->any())
       ->method('access')
-      ->will($this->returnValue(AccessResult::allowed()));
+      ->willReturn(AccessResult::allowed());
     $this->role->expects($this->any())
       ->method('hasLinkTemplate')
-      ->will($this->returnValue(TRUE));
-    $url = $this->getMockBuilder('\Drupal\Core\Url')
-      ->disableOriginalConstructor()
-      ->getMock();
-    $url->expects($this->atLeastOnce())
-      ->method('mergeOptions')
-      ->with(['query' => ['destination' => '/foo/bar']]);
+      ->willReturn(TRUE);
+    $url = Url::fromRoute('entity.user_role.collection');
     $this->role->expects($this->any())
       ->method('toUrl')
-      ->will($this->returnValue($url));
+      ->willReturn($url);
 
     $this->redirectDestination->expects($this->atLeastOnce())
       ->method('getAsArray')

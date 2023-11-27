@@ -1,5 +1,0 @@
-name: Module Luis--Drupal 9 
-type: module
-description: 'Hola Mundo.'
-package: Custom
-core_version_requirement: ^9.3 || ^10

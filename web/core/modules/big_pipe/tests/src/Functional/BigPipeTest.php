@@ -370,7 +370,7 @@ class BigPipeTest extends BrowserTestBase {
     $placeholder_replacement_positions = [];
     foreach ($expected_big_pipe_placeholders as $big_pipe_placeholder_id => $expected_ajax_response) {
       // Verify expected placeholder.
-      $expected_placeholder_html = '<span data-big-pipe-placeholder-id="' . $big_pipe_placeholder_id . '"></span>';
+      $expected_placeholder_html = '<span data-big-pipe-placeholder-id="' . $big_pipe_placeholder_id . '">';
       $this->assertSession()->responseContains($expected_placeholder_html);
       $pos = strpos($this->getSession()->getPage()->getContent(), $expected_placeholder_html);
       $placeholder_positions[$pos] = $big_pipe_placeholder_id;
@@ -414,9 +414,9 @@ class BigPipeTest extends BrowserTestBase {
     array_unshift($expected_stream_order, BigPipe::START_SIGNAL);
     array_push($expected_stream_order, BigPipe::STOP_SIGNAL);
     $actual_stream_order = $placeholder_replacement_positions + [
-        $start_signal_position => BigPipe::START_SIGNAL,
-        $stop_signal_position => BigPipe::STOP_SIGNAL,
-      ];
+      $start_signal_position => BigPipe::START_SIGNAL,
+      $stop_signal_position => BigPipe::STOP_SIGNAL,
+    ];
     ksort($actual_stream_order, SORT_NUMERIC);
     $this->assertEquals($expected_stream_order, array_values($actual_stream_order));
   }

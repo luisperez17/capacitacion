@@ -31,7 +31,7 @@ class CKEditor5UpdateImageToolbarItemTest extends UpdatePathTestBase {
    */
   protected function setDatabaseDumpFiles() {
     $this->databaseDumpFiles = [
-      __DIR__ . '/../../../../../system/tests/fixtures/update/drupal-9.3.0.bare.standard.php.gz',
+      __DIR__ . '/../../../../../system/tests/fixtures/update/drupal-9.4.0.bare.standard.php.gz',
       __DIR__ . '/../../../fixtures/update/ckeditor5-3222756.php',
     ];
   }
@@ -161,9 +161,7 @@ class CKEditor5UpdateImageToolbarItemTest extends UpdatePathTestBase {
             'filter_html' => $filter_html_is_enabled,
             'image uploads' => $image_uploads_enabled,
             'sourceEditing already enabled' => $source_editing_already_enabled,
-            'expected sourceEditing additions' => $image_uploads_enabled
-              ? []
-              : ['<img data-entity-uuid data-entity-type>'],
+            'expected sourceEditing additions' => $image_uploads_enabled ? [] : ['<img data-entity-uuid data-entity-type>'],
           ];
         }
       }
