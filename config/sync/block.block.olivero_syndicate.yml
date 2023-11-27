@@ -1,5 +1,5 @@
-uuid: e0643411-6d4b-42b1-83a7-5c129bf0234b
-langcode: es
+uuid: af57316f-1181-4734-818b-dc178bf8507c
+langcode: en
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: node_syndicate_block
 settings:
   id: node_syndicate_block
-  label: 'Canal RSS'
+  label: 'RSS feed'
   label_display: '0'
   provider: node
   block_count: 10

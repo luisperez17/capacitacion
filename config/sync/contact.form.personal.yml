@@ -1,13 +1,13 @@
-uuid: 83d7012e-bdae-44c8-a7a5-458bb1a97a97
-langcode: es
+uuid: a5675414-b728-46b2-bdf2-b20b91330413
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
 id: personal
-label: 'Formulario de contacto personal'
+label: 'Personal contact form'
 recipients: {  }
 reply: ''
 weight: 0
-message: 'Su mensaje ha sido enviado.'
+message: 'Your message has been sent.'
 redirect: ''
