@@ -434,7 +434,7 @@ display:
     display_plugin: block
     position: 2
     display_options:
-      title: view-victor
+      title: ''
       defaults:
         title: false
       display_extenders: {  }

@@ -14,18 +14,139 @@ dependencies:
     - field_group
     - image
     - layout_builder
+    - layout_discovery
     - text
     - user
 third_party_settings:
   layout_builder:
-    enabled: false
+    enabled: true
     allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          42b274b7-b0fa-413c-b1fb-845d79599ea8:
+            uuid: 42b274b7-b0fa-413c-b1fb-845d79599ea8
+            region: first
+            configuration:
+              id: 'field_block:node:noticias_victor:field_taxonomy_noticias_victor'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          8ef6e73d-7a4e-4247-b0a0-cb3fe47bc5bc:
+            uuid: 8ef6e73d-7a4e-4247-b0a0-cb3fe47bc5bc
+            region: first
+            configuration:
+              id: 'field_block:node:noticias_victor:field_date_noticia_victor'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: datetime_default
+                label: hidden
+                settings:
+                  timezone_override: ''
+                  format_type: medium
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          db5885c9-2939-465d-9458-81a3461bec22:
+            uuid: db5885c9-2939-465d-9458-81a3461bec22
+            region: second
+            configuration:
+              id: 'field_block:node:noticias_victor:field_imagen_noticia_victor'
+              label: imagen-noticia-victor
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          d78fc9b7-13b5-4bc5-a270-b40f2d6427de:
+            uuid: d78fc9b7-13b5-4bc5-a270-b40f2d6427de
+            region: first
+            configuration:
+              id: 'field_block:node:noticias_victor:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_summary_or_trimmed
+                label: hidden
+                settings:
+                  trim_length: 100
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          7436bab8-d568-48a7-900e-2ddffcbe7357:
+            uuid: 7436bab8-d568-48a7-900e-2ddffcbe7357
+            region: content
+            configuration:
+              id: 'extra_field_block:node:noticias_victor:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
   field_group:
     group_contenido:
-      children: {  }
+      children:
+        - group_general_information
       label: contenido
       parent_name: ''
-      region: hidden
+      region: content
+      weight: 1
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_general_information:
+      children:
+        - field_date_noticia_victor
+        - field_taxonomy_noticias_victor
+      label: general_information
+      parent_name: group_contenido
+      region: content
       weight: 20
       format_type: html_element
       format_settings:
@@ -49,7 +170,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 4
+    weight: 5
     region: content
   field_date_noticia_victor:
     type: datetime_default
@@ -58,7 +179,7 @@ content:
       timezone_override: ''
       format_type: medium
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   field_imagen_noticia_victor:
     type: image
@@ -69,7 +190,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 3
+    weight: 4
     region: content
   field_taxonomy_noticias_victor:
     type: entity_reference_label
@@ -77,7 +198,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   links:
     settings: {  }
