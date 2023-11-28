@@ -1,0 +1,10 @@
+uuid: 385eaed7-0573-4764-8077-351dec87b742
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.view_home_victor
+label: view-home-victor
+targetEntityType: node
+cache: true

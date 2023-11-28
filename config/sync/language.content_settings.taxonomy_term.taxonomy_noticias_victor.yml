@@ -1,0 +1,11 @@
+uuid: 2dfceaa3-e837-4b89-800b-585cd4bbfe9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.taxonomy_noticias_victor
+id: taxonomy_term.taxonomy_noticias_victor
+target_entity_type_id: taxonomy_term
+target_bundle: taxonomy_noticias_victor
+default_langcode: site_default
+language_alterable: false

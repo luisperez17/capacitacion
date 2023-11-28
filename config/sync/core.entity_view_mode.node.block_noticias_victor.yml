@@ -1,0 +1,10 @@
+uuid: 3af17486-7155-4e76-824f-5090b01d8dd2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.block_noticias_victor
+label: block-noticias-victor
+targetEntityType: node
+cache: true

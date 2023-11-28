@@ -1,0 +1,20 @@
+uuid: 6c29e64d-525a-40d5-b4d2-54c42d07304c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_taxonomy_noticias_victor
+field_name: field_taxonomy_noticias_victor
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

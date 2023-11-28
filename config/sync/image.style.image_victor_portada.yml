@@ -1,0 +1,23 @@
+uuid: 14fbbe0a-010d-4c72-95aa-f32bcc6c8e62
+langcode: en
+status: true
+dependencies: {  }
+name: image_victor_portada
+label: image-victor-portada
+effects:
+  0516e545-00e5-4e2a-b492-31c934f54800:
+    uuid: 0516e545-00e5-4e2a-b492-31c934f54800
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center
+  436a826b-4e4b-4fcd-8727-d142ae961ffa:
+    uuid: 436a826b-4e4b-4fcd-8727-d142ae961ffa
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 500
+      height: 500
+      anchor: center-center

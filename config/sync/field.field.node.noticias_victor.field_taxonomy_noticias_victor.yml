@@ -1,0 +1,29 @@
+uuid: c007ac4a-3178-4718-a75a-2df989000e8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxonomy_noticias_victor
+    - node.type.noticias_victor
+    - taxonomy.vocabulary.taxonomy_noticias_victor
+id: node.noticias_victor.field_taxonomy_noticias_victor
+field_name: field_taxonomy_noticias_victor
+entity_type: node
+bundle: noticias_victor
+label: taxonomy-victor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      taxonomy_noticias_victor: taxonomy_noticias_victor
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

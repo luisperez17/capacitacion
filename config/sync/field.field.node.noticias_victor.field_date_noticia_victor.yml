@@ -1,0 +1,24 @@
+uuid: 7ed836ec-f864-488e-9317-e7e3afdfe924
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_noticia_victor
+    - node.type.noticias_victor
+  module:
+    - datetime
+id: node.noticias_victor.field_date_noticia_victor
+field_name: field_date_noticia_victor
+entity_type: node
+bundle: noticias_victor
+label: date-noticia-victor
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

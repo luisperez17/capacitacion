@@ -1,0 +1,88 @@
+uuid: 247aa151-9d18-4e37-be76-6a523d6d68ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.view_home_victor
+    - field.field.node.noticias_victor.body
+    - field.field.node.noticias_victor.field_date_noticia_victor
+    - field.field.node.noticias_victor.field_imagen_noticia_victor
+    - field.field.node.noticias_victor.field_taxonomy_noticias_victor
+    - node.type.noticias_victor
+  module:
+    - datetime
+    - field_group
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+  field_group:
+    group_contenido:
+      children: {  }
+      label: contenido
+      parent_name: ''
+      region: hidden
+      weight: 20
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: node.noticias_victor.view_home_victor
+targetEntityType: node
+bundle: noticias_victor
+mode: view_home_victor
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_date_noticia_victor:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_imagen_noticia_victor:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_taxonomy_noticias_victor:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: b8967eb6-c628-4606-9c9e-e4eb53cc0c23
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.landing_page_victor
+id: node.landing_page_victor
+target_entity_type_id: node
+target_bundle: landing_page_victor
+default_langcode: site_default
+language_alterable: false

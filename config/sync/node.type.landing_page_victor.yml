@@ -1,0 +1,18 @@
+uuid: c9cb6a66-8107-4234-9a65-53915e319aeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: landing-page-victor
+type: landing_page_victor
+description: 'Esta es la página principal de Víctor.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

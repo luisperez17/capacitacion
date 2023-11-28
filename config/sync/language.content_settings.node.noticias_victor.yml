@@ -1,0 +1,11 @@
+uuid: 5def5643-fbac-4ed2-bd5b-8d1e4c196d0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.noticias_victor
+id: node.noticias_victor
+target_entity_type_id: node
+target_bundle: noticias_victor
+default_langcode: site_default
+language_alterable: false

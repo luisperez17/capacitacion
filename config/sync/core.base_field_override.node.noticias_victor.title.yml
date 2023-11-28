@@ -1,0 +1,18 @@
+uuid: bf448107-2f14-413f-8a84-0a81d3610b41
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.noticias_victor
+id: node.noticias_victor.title
+field_name: title
+entity_type: node
+bundle: noticias_victor
+label: 'Noticias - Victor'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

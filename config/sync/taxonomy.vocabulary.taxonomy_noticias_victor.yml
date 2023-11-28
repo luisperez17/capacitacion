@@ -1,0 +1,8 @@
+uuid: 24ca5f16-74cb-4746-95d9-bf6e7a5d52ca
+langcode: en
+status: true
+dependencies: {  }
+name: taxonomy-noticias-victor
+vid: taxonomy_noticias_victor
+description: 'taxonomy associate to the content'
+weight: 0
