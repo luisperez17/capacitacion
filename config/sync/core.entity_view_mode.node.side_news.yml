@@ -1,0 +1,10 @@
+uuid: d8a07f95-84f6-4bdb-8014-15b6fb150402
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.side_news
+label: Side_news
+targetEntityType: node
+cache: true

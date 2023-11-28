@@ -1,0 +1,11 @@
+uuid: 4acbfdbe-a378-4509-8d3b-34ea448eb651
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.noticias
+id: block_content.noticias
+target_entity_type_id: block_content
+target_bundle: noticias
+default_langcode: site_default
+language_alterable: false

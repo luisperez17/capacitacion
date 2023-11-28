@@ -2,6 +2,9 @@ uuid: a66623a1-a1a2-4472-b964-929c30c94372
 langcode: es
 status: true
 dependencies:
+  module:
+    - node
+    - system
   theme:
     - olivero
 _core:
@@ -17,4 +20,15 @@ settings:
   label: 'Título de la página'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      new_oscar: new_oscar

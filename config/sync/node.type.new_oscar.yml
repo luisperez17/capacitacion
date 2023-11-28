@@ -1,4 +1,4 @@
-uuid: f77f9694-c375-4a39-aba5-8ea402c347de
+uuid: f8875a44-a163-499a-b3c3-727597b6a37e
 langcode: es
 status: true
 dependencies:
@@ -9,10 +9,10 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Noticias - Luis'
-type: news_luis
+name: 'Noticias - Oscar'
+type: new_oscar
 description: ''
 help: ''
 new_revision: true
 preview_mode: 1
-display_submitted: true
+display_submitted: false

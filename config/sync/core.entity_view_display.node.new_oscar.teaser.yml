@@ -1,0 +1,133 @@
+uuid: a24fef48-d929-4fef-91ed-dbe41f9c9f57
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.new_oscar.body
+    - field.field.node.new_oscar.field_category
+    - field.field.node.new_oscar.field_date
+    - field.field.node.new_oscar.field_image_news
+    - field.field.node.new_oscar.layout_builder__layout
+    - node.type.new_oscar
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: resumen_news_main
+          context_mapping: {  }
+          column_widths: 67-33
+        components:
+          015d6b10-9ca7-490b-a3dd-0fdc1ea1a713:
+            uuid: 015d6b10-9ca7-490b-a3dd-0fdc1ea1a713
+            region: first
+            configuration:
+              id: 'field_block:node:new_oscar:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_summary_or_trimmed
+                label: hidden
+                settings:
+                  trim_length: 300
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          0a38fa51-8b63-4baf-9ef4-237ae36f7874:
+            uuid: 0a38fa51-8b63-4baf-9ef4-237ae36f7874
+            region: first
+            configuration:
+              id: 'field_block:node:new_oscar:field_date'
+              label: Fecha
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: datetime_custom
+                label: inline
+                settings:
+                  timezone_override: ''
+                  date_format: 'H:i:s'
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          26a40646-96b7-463d-9449-49063995f3f4:
+            uuid: 26a40646-96b7-463d-9449-49063995f3f4
+            region: second
+            configuration:
+              id: 'field_block:node:new_oscar:field_image_news'
+              label: Imagen
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: medium
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          28bb9c71-e83b-4ae9-a190-be830dad78f7:
+            uuid: 28bb9c71-e83b-4ae9-a190-be830dad78f7
+            region: first
+            configuration:
+              id: 'field_block:node:new_oscar:field_category'
+              label: Categoría
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+        third_party_settings: {  }
+id: node.new_oscar.teaser
+targetEntityType: node
+bundle: new_oscar
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_category: true
+  field_date: true
+  field_image_news: true
+  langcode: true
+  layout_builder__layout: true

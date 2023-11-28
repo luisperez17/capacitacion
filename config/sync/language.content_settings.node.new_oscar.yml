@@ -1,11 +1,11 @@
-uuid: 4be8c3fd-2042-44fb-a5cd-16b1476ceac4
+uuid: 33f7ecee-f78a-45fe-b865-517c3347d580
 langcode: es
 status: true
 dependencies:
   config:
-    - node.type.news_luis
-id: node.news_luis
+    - node.type.new_oscar
+id: node.new_oscar
 target_entity_type_id: node
-target_bundle: news_luis
+target_bundle: new_oscar
 default_langcode: site_default
 language_alterable: false

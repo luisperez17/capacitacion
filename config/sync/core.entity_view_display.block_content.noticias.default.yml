@@ -1,0 +1,36 @@
+uuid: 53d315d8-3483-4cad-af34-370692ffc1eb
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.noticias
+    - field.field.block_content.noticias.body
+    - field.field.block_content.noticias.field_noticia_img
+  module:
+    - image
+    - text
+id: block_content.noticias.default
+targetEntityType: block_content
+bundle: noticias
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_noticia_img:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
