@@ -1,20 +1,20 @@
-uuid: a8abaad5-40ca-4f2d-a1ad-83fa2aa724fa
+uuid: 1c70dd51-4805-4bb6-821f-90b0969a2b6a
 langcode: es
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.sidebar_wilmer
+    - core.entity_view_mode.node.sidebar_wilmer_2
     - field.field.node.news_wilmer.field_news_wilmer_date
     - field.field.node.news_wilmer.field_news_wilmer_description
     - field.field.node.news_wilmer.field_news_wilmer_image
     - field.field.node.news_wilmer.field_news_wilmer_tags
+    - image.style.thumbnail
     - node.type.news_wilmer
   module:
     - datetime
+    - field_group
     - image
     - layout_builder
-    - layout_discovery
-    - text
     - user
 third_party_settings:
   layout_builder:
@@ -22,61 +22,15 @@ third_party_settings:
     allow_custom: false
     sections:
       -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-          context_mapping: {  }
-        components:
-          a8f225df-21e9-4f81-9163-0f314e029428:
-            uuid: a8f225df-21e9-4f81-9163-0f314e029428
-            region: content
-            configuration:
-              id: 'field_block:node:news_wilmer:field_news_wilmer_date'
-              label: Fecha
-              label_display: '0'
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-              formatter:
-                type: datetime_custom
-                label: hidden
-                settings:
-                  timezone_override: ''
-                  date_format: 'h:i a'
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
-          076234ae-1fad-486a-a283-691563d21ab0:
-            uuid: 076234ae-1fad-486a-a283-691563d21ab0
-            region: content
-            configuration:
-              id: 'field_block:node:news_wilmer:field_news_wilmer_tags'
-              label: 'Etiquetas Noticias'
-              label_display: '0'
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-              formatter:
-                type: entity_reference_label
-                label: hidden
-                settings:
-                  link: true
-                third_party_settings: {  }
-            weight: 1
-            additional: {  }
-        third_party_settings: {  }
-      -
         layout_id: layout_twocol_section
         layout_settings:
           label: ''
           context_mapping: {  }
-          column_widths: 75-25
+          column_widths: 50-50
         components:
-          aab904a0-34ad-4979-8972-d3f352590b56:
-            uuid: aab904a0-34ad-4979-8972-d3f352590b56
-            region: second
+          9b8a090f-918c-4648-8f1a-e99550cb418c:
+            uuid: 9b8a090f-918c-4648-8f1a-e99550cb418c
+            region: first
             configuration:
               id: 'field_block:node:news_wilmer:field_news_wilmer_image'
               label: Imagen
@@ -90,15 +44,48 @@ third_party_settings:
                 label: hidden
                 settings:
                   image_link: content
-                  image_style: thumbnail
+                  image_style: medium
                   image_loading:
                     attribute: lazy
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          eef3359b-8277-41e2-b047-1b2ea9308e14:
-            uuid: eef3359b-8277-41e2-b047-1b2ea9308e14
-            region: first
+          3e466a7f-37e2-4d48-b59e-e82cd7d54b8d:
+            uuid: 3e466a7f-37e2-4d48-b59e-e82cd7d54b8d
+            region: second
+            configuration:
+              id: 'field_block:node:news_wilmer:field_news_wilmer_date'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: datetime_custom
+                label: hidden
+                settings:
+                  timezone_override: ''
+                  date_format: 'h:i a'
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          8fb5c4e9-f808-4cb4-9c67-fd0f8916912a:
+            uuid: 8fb5c4e9-f808-4cb4-9c67-fd0f8916912a
+            region: second
+            configuration:
+              id: 'field_block:node:news_wilmer:field_news_wilmer_tags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          4a42d83d-501d-4318-a0fc-d55379ca1072:
+            uuid: 4a42d83d-501d-4318-a0fc-d55379ca1072
+            region: second
             configuration:
               id: 'field_block:node:news_wilmer:title'
               label: Título
@@ -113,53 +100,64 @@ third_party_settings:
                 settings:
                   link_to_entity: false
                 third_party_settings: {  }
-            weight: 0
+            weight: 2
             additional: {  }
         third_party_settings: {  }
-id: node.news_wilmer.sidebar_wilmer
+  field_group:
+    group_wilmer_top_info:
+      children:
+        - field_news_wilmer_tags
+        - field_news_wilmer_date
+      label: wilmer_top_info
+      parent_name: ''
+      region: content
+      weight: 1
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: node.news_wilmer.sidebar_wilmer_2
 targetEntityType: node
 bundle: news_wilmer
-mode: sidebar_wilmer
+mode: sidebar_wilmer_2
 content:
   field_news_wilmer_date:
-    type: datetime_default
-    label: above
+    type: datetime_custom
+    label: hidden
     settings:
       timezone_override: ''
-      format_type: medium
+      date_format: 'h:i a'
     third_party_settings: {  }
-    weight: 104
-    region: content
-  field_news_wilmer_description:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 103
+    weight: 4
     region: content
   field_news_wilmer_image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: thumbnail
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 105
+    weight: 0
     region: content
   field_news_wilmer_tags:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
-    weight: 106
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
+    weight: 3
     region: content
 hidden:
+  field_news_wilmer_description: true
   langcode: true
+  links: true

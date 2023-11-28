@@ -16,7 +16,9 @@ content_type_modes:
   news_wilmer:
     - news_wilmer_main
     - sidebar_wilmer
+    - sidebar_wilmer_2
   page: {  }
   pagina_principal_wilmer:
     - news_wilmer_main
     - sidebar_wilmer
+    - sidebar_wilmer_2

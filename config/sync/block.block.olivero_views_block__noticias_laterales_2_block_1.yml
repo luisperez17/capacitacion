@@ -1,0 +1,29 @@
+uuid: ad57fe34-e102-4c9a-bc5c-4661488f737e
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.noticias_laterales_2
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__noticias_laterales_2_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:noticias_laterales_2-block_1'
+settings:
+  id: 'views_block:noticias_laterales_2-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news_wilmer
