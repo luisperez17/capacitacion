@@ -1,0 +1,29 @@
+uuid: 4f585045-73ce-4106-a57e-9584a22039c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.news_wilmer.field_news_wilmer_date
+    - field.field.node.news_wilmer.field_news_wilmer_description
+    - field.field.node.news_wilmer.field_news_wilmer_image
+    - field.field.node.news_wilmer.field_news_wilmer_tags
+    - node.type.news_wilmer
+  module:
+    - user
+id: node.news_wilmer.teaser
+targetEntityType: node
+bundle: news_wilmer
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_news_wilmer_date: true
+  field_news_wilmer_description: true
+  field_news_wilmer_image: true
+  field_news_wilmer_tags: true
+  langcode: true

@@ -1,0 +1,31 @@
+uuid: a3627e6f-5c39-4b14-94f0-72d4f1e88f3b
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pagina_principal_wilmer.body
+    - node.type.pagina_principal_wilmer
+  module:
+    - text
+    - user
+id: node.pagina_principal_wilmer.teaser
+targetEntityType: node
+bundle: pagina_principal_wilmer
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

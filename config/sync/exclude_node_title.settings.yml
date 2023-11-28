@@ -1,0 +1,26 @@
+_core:
+  default_config_hash: 0yJNd4uWv8TzhYEPQBDiApPL2e8ar88kBmQrzDjNCqc
+nid_list: {  }
+translation_sync: true
+search: false
+type: remove
+content_types:
+  article: none
+  news_luis: none
+  news_wilmer: all
+  page: none
+  pagina_principal_wilmer: all
+content_type_modes:
+  article: {  }
+  news_luis: {  }
+  news_wilmer:
+    - news_wilmer_main
+    - news_wilmer_resume
+    - sidebar_wilmer
+    - sidebar_wilmer_2
+  page: {  }
+  pagina_principal_wilmer:
+    - news_wilmer_main
+    - news_wilmer_resume
+    - sidebar_wilmer
+    - sidebar_wilmer_2

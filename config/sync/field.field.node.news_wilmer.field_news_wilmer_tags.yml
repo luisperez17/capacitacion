@@ -1,0 +1,29 @@
+uuid: b3111819-87d0-4101-900c-4cdb6aabbd58
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_wilmer_tags
+    - node.type.news_wilmer
+    - taxonomy.vocabulary.news_wilmer_tags
+id: node.news_wilmer.field_news_wilmer_tags
+field_name: field_news_wilmer_tags
+entity_type: node
+bundle: news_wilmer
+label: 'Etiquetas Noticias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      news_wilmer_tags: news_wilmer_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
