@@ -1,0 +1,149 @@
+uuid: 514282ff-31a7-45a5-9130-b01b443e124f
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.block_banner
+    - block_content.type.block_img_news
+    - block_content.type.item_news_recommended
+    - block_content.type.item_noticia
+    - field.field.node.news_deimer.field_items_news
+    - field.field.node.news_deimer.field_picture
+    - field.field.node.news_deimer.layout_builder__layout
+    - node.type.news_deimer
+  module:
+    - entity_reference_revisions
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Banner section'
+          context_mapping: {  }
+        components:
+          b579868a-50f0-41d0-8d73-a1f9c3a2064b:
+            uuid: b579868a-50f0-41d0-8d73-a1f9c3a2064b
+            region: content
+            configuration:
+              id: 'inline_block:block_banner'
+              label: 'El Tiempo'
+              label_display: '0'
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 2
+              block_serialized: null
+            weight: 0
+            additional: {  }
+          637d3afc-38d9-4e4a-8a54-b8e0bc1ad769:
+            uuid: 637d3afc-38d9-4e4a-8a54-b8e0bc1ad769
+            region: content
+            configuration:
+              id: 'inline_block:block_banner'
+              label: 'El Tiempo'
+              label_display: '0'
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 6
+              block_serialized: null
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_threecol_section
+        layout_settings:
+          label: 'Items Section'
+          context_mapping: {  }
+          column_widths: 25-50-25
+        components:
+          99324464-90d1-41fa-b8b3-08a0f39d82ec:
+            uuid: 99324464-90d1-41fa-b8b3-08a0f39d82ec
+            region: second
+            configuration:
+              id: 'inline_block:block_img_news'
+              label: 'Lucho en familia'
+              label_display: '0'
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 3
+              block_serialized: null
+            weight: 0
+            additional: {  }
+          8fc6279f-cfd9-4d3d-8544-98c7daa64195:
+            uuid: 8fc6279f-cfd9-4d3d-8544-98c7daa64195
+            region: first
+            configuration:
+              id: 'inline_block:item_noticia'
+              label: '¡Liverpool se lució! Tremendo regalo que le dio a Luis Díaz su papá y su familia'
+              label_display: '0'
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 4
+              block_serialized: null
+            weight: 0
+            additional: {  }
+          a004bdab-0133-4f8d-a83a-134371de5800:
+            uuid: a004bdab-0133-4f8d-a83a-134371de5800
+            region: third
+            configuration:
+              id: 'inline_block:item_news_recommended'
+              label: 'Estos son los medicamentos que priorizará el Gobierno para combatir la escasez'
+              label_display: '0'
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 5
+              block_serialized: null
+            weight: 0
+            additional: {  }
+          82bc1493-0db6-423a-960b-3f69af265e6d:
+            uuid: 82bc1493-0db6-423a-960b-3f69af265e6d
+            region: third
+            configuration:
+              id: 'inline_block:item_news_recommended'
+              label: 'Fallo en Google Drive está borrando archivos: qué pasa y qué hacer con sus documentos'
+              label_display: '0'
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 7
+              block_serialized: null
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: node.news_deimer.default
+targetEntityType: node
+bundle: news_deimer
+mode: default
+content:
+  field_items_news:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_picture:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  layout_builder__layout: true
+  links: true

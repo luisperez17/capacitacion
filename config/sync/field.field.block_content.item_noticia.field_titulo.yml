@@ -1,0 +1,28 @@
+uuid: b544b52d-9145-49c3-9d14-c339276af852
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.item_noticia
+    - field.storage.block_content.field_titulo
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.plain_text
+  module:
+    - text
+id: block_content.item_noticia.field_titulo
+field_name: field_titulo
+entity_type: block_content
+bundle: item_noticia
+label: Titulo
+description: 'Titulo de la noticia.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+    - plain_text
+field_type: text

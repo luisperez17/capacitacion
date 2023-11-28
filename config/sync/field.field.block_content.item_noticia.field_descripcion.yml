@@ -1,0 +1,28 @@
+uuid: 6a2a2f26-9c90-4ecd-b0f5-0c793424d43a
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.item_noticia
+    - field.storage.block_content.field_descripcion
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.plain_text
+  module:
+    - text
+id: block_content.item_noticia.field_descripcion
+field_name: field_descripcion
+entity_type: block_content
+bundle: item_noticia
+label: Descripcion
+description: 'Descripcion breve de la noticia.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+    - plain_text
+field_type: text

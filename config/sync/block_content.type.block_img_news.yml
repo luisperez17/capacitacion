@@ -1,0 +1,8 @@
+uuid: e67808f2-c1a3-4d87-8ce4-5c6d2917dd5d
+langcode: es
+status: true
+dependencies: {  }
+id: block_img_news
+label: 'Block Img News'
+revision: 0
+description: 'Bloque de la imagen en grande de una noticia.'

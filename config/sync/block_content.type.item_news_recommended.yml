@@ -1,0 +1,8 @@
+uuid: d9b146b6-f688-48bb-946c-5c193af5fe67
+langcode: es
+status: true
+dependencies: {  }
+id: item_news_recommended
+label: 'Item News Recommended'
+revision: 0
+description: 'Elemento de noticia recomendada, con su titulo e imagen.'

@@ -3,10 +3,12 @@ langcode: es
 status: true
 dependencies:
   config:
+    - block_content.type.item_noticia
     - node.type.article
     - node.type.page
     - taxonomy.vocabulary.tags
   module:
+    - block_content
     - comment
     - contextual
     - file
@@ -31,9 +33,11 @@ permissions:
   - 'access tour'
   - 'administer url aliases'
   - 'create article content'
+  - 'create item_noticia block content'
   - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any item_noticia block content'
   - 'delete article revisions'
   - 'delete own article content'
   - 'delete own files'

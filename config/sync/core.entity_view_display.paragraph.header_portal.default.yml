@@ -1,0 +1,21 @@
+uuid: 3b74d7ae-9ee1-4534-b8d0-ec885d3a55ae
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.header_portal.field_title_portal
+    - paragraphs.paragraphs_type.header_portal
+id: paragraph.header_portal.default
+targetEntityType: paragraph
+bundle: header_portal
+mode: default
+content:
+  field_title_portal:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

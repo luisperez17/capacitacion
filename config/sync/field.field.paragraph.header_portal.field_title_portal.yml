@@ -1,0 +1,21 @@
+uuid: ac5d6f6b-0480-4e95-b1af-cf0acac014c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title_portal
+    - paragraphs.paragraphs_type.header_portal
+id: paragraph.header_portal.field_title_portal
+field_name: field_title_portal
+entity_type: paragraph
+bundle: header_portal
+label: 'Title Portal'
+description: 'Permite añadir el texto del nombre del portal de noticias.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'El Tiempo'
+default_value_callback: ''
+settings: {  }
+field_type: string

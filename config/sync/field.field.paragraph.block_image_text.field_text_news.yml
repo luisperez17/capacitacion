@@ -1,0 +1,22 @@
+uuid: f65d4b4a-38c1-4b10-b696-d56046edd84e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_news
+    - paragraphs.paragraphs_type.block_image_text
+  module:
+    - text
+id: paragraph.block_image_text.field_text_news
+field_name: field_text_news
+entity_type: paragraph
+bundle: block_image_text
+label: 'Text News'
+description: 'Permite añadir el texto de la noticia.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

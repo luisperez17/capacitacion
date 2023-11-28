@@ -1,0 +1,10 @@
+uuid: be249a2f-7922-4e6f-a16f-ccf45c1b2087
+langcode: es
+status: true
+dependencies: {  }
+id: block_image_text
+label: 'Block Image Text'
+icon_uuid: null
+icon_default: null
+description: 'Permite añadir un bloque con la imagen de la noticia y el texto de la misma.'
+behavior_plugins: {  }

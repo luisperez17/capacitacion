@@ -1,0 +1,11 @@
+uuid: 221a65b6-f36f-40d7-85cc-be4cc2c20fe2
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.item_noticia
+id: block_content.item_noticia
+target_entity_type_id: block_content
+target_bundle: item_noticia
+default_langcode: site_default
+language_alterable: false

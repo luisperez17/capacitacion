@@ -1,0 +1,47 @@
+uuid: 6c937b24-6f91-4ba5-a6fb-f478f573bf91
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.item_news_recommended
+    - field.field.block_content.item_news_recommended.field_image_new
+    - field.field.block_content.item_news_recommended.field_title_new
+id: block_content.item_news_recommended.default
+targetEntityType: block_content
+bundle: item_news_recommended
+mode: default
+content:
+  field_image_new:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title_new:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

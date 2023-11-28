@@ -1,0 +1,29 @@
+uuid: 0437cbb0-af25-4b30-90be-41a1f4477ee2
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.block_img_news
+    - field.storage.block_content.field_image_item_new
+    - media.type.image
+id: block_content.block_img_news.field_image_item_new
+field_name: field_image_item_new
+entity_type: block_content
+bundle: block_img_news
+label: 'Image Item New'
+description: 'Imagen referente a una noticia.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: name
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

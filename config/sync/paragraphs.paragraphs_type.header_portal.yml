@@ -1,0 +1,10 @@
+uuid: bfee8d69-f36f-40ec-b830-e22de758f69b
+langcode: es
+status: true
+dependencies: {  }
+id: header_portal
+label: 'Header Portal'
+icon_uuid: null
+icon_default: null
+description: 'Permite añadir el titulo o nombre del portal de noticias.'
+behavior_plugins: {  }

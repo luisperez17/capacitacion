@@ -1,0 +1,23 @@
+uuid: afc39a93-1ef8-4193-b403-da5f30f177f3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.header_portal.field_title_portal
+    - paragraphs.paragraphs_type.header_portal
+id: paragraph.header_portal.default
+targetEntityType: paragraph
+bundle: header_portal
+mode: default
+content:
+  field_title_portal:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

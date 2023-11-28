@@ -1,0 +1,20 @@
+uuid: b7b71e60-7722-4646-80c1-81acf8ee764f
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_descripcion
+field_name: field_descripcion
+entity_type: block_content
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

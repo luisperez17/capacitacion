@@ -3,12 +3,15 @@ langcode: es
 status: true
 dependencies:
   config:
+    - block_content.type.item_noticia
     - filter.format.basic_html
   module:
+    - block_content
     - comment
     - contact
     - file
     - filter
+    - media
     - search
     - shortcut
     - system
@@ -23,8 +26,15 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'create item_noticia block content'
+  - 'delete any item_noticia block content'
+  - 'delete any item_noticia block content revisions'
   - 'delete own files'
+  - 'edit any item_noticia block content'
   - 'post comments'
+  - 'revert any item_noticia block content revisions'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view any item_noticia block content history'
+  - 'view media'

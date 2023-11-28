@@ -1,0 +1,8 @@
+uuid: 4c3296c3-61e8-41c6-9c08-e9ad1db3e9f1
+langcode: es
+status: true
+dependencies: {  }
+id: item_noticia
+label: 'Item Noticia'
+revision: 0
+description: 'Item para noticias con etiqueta, titulo y breve descripción.'

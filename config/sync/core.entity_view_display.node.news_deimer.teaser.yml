@@ -1,0 +1,27 @@
+uuid: 01a251f8-8307-4c33-aaf1-0a992630304b
+langcode: es
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.news_deimer.field_items_news
+    - field.field.node.news_deimer.field_picture
+    - field.field.node.news_deimer.layout_builder__layout
+    - node.type.news_deimer
+  module:
+    - user
+id: node.news_deimer.teaser
+targetEntityType: node
+bundle: news_deimer
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_items_news: true
+  field_picture: true
+  langcode: true
+  layout_builder__layout: true

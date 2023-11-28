@@ -1,0 +1,23 @@
+uuid: f06b52d6-6ad6-4a08-876d-e63ac0bdbe49
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.block_img_news
+    - field.field.block_content.block_img_news.field_image_item_new
+id: block_content.block_img_news.default
+targetEntityType: block_content
+bundle: block_img_news
+mode: default
+content:
+  field_image_item_new:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

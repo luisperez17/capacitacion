@@ -1,0 +1,36 @@
+uuid: 6dc9155e-09b8-4609-ac8b-e9b703e02979
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.block_image_text.field_image_news
+    - field.field.paragraph.block_image_text.field_text_news
+    - paragraphs.paragraphs_type.block_image_text
+  module:
+    - text
+id: paragraph.block_image_text.default
+targetEntityType: paragraph
+bundle: block_image_text
+mode: default
+content:
+  field_image_news:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_text_news:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

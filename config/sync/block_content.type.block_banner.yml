@@ -1,0 +1,8 @@
+uuid: e4f5cd0f-fad9-422e-bf56-7908dbed7f5e
+langcode: es
+status: true
+dependencies: {  }
+id: block_banner
+label: 'Block Banner'
+revision: 0
+description: 'Bloque para el banner de titulo'

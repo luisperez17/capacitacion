@@ -1,0 +1,41 @@
+uuid: a6543ba6-462b-4e9d-8338-9f0932ba0cf2
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.item_noticia
+    - field.field.block_content.item_noticia.body
+    - field.field.block_content.item_noticia.field_descripcion
+    - field.field.block_content.item_noticia.field_etiqueta
+    - field.field.block_content.item_noticia.field_titulo
+  module:
+    - text
+id: block_content.item_noticia.default
+targetEntityType: block_content
+bundle: item_noticia
+mode: default
+content:
+  field_descripcion:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_etiqueta:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_titulo:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  langcode: true

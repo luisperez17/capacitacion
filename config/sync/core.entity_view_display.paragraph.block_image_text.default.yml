@@ -1,0 +1,32 @@
+uuid: 96d73cc1-73cd-423b-8c83-04a1ab9adbb2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.block_image_text.field_image_news
+    - field.field.paragraph.block_image_text.field_text_news
+    - paragraphs.paragraphs_type.block_image_text
+  module:
+    - text
+id: paragraph.block_image_text.default
+targetEntityType: paragraph
+bundle: block_image_text
+mode: default
+content:
+  field_image_news:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_text_news:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

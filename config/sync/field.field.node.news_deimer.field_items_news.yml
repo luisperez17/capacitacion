@@ -1,0 +1,36 @@
+uuid: dda2e293-a5a4-4ab4-b17e-14912a2ab032
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_items_news
+    - node.type.news_deimer
+    - paragraphs.paragraphs_type.block_image_text
+    - paragraphs.paragraphs_type.header_portal
+  module:
+    - entity_reference_revisions
+id: node.news_deimer.field_items_news
+field_name: field_items_news
+entity_type: node
+bundle: news_deimer
+label: 'Content page'
+description: 'Permite añadir los bloques de contenido o items de noticias.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      block_image_text: block_image_text
+      header_portal: header_portal
+    negate: 0
+    target_bundles_drag_drop:
+      block_image_text:
+        weight: 2
+        enabled: true
+      header_portal:
+        weight: 3
+        enabled: true
+field_type: entity_reference_revisions

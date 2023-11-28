@@ -1,0 +1,20 @@
+uuid: 0053e0af-e0c5-47a6-bbb2-06f73a674c1b
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - media
+id: block_content.field_image_banner
+field_name: field_image_banner
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

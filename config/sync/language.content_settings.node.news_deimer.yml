@@ -1,0 +1,11 @@
+uuid: fbb0a795-d3b0-40e4-95d4-33e9c5eb4f78
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.news_deimer
+id: node.news_deimer
+target_entity_type_id: node
+target_bundle: news_deimer
+default_langcode: site_default
+language_alterable: false

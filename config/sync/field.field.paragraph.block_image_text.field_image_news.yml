@@ -1,0 +1,29 @@
+uuid: 70407736-f819-4286-8154-197b53180125
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_news
+    - media.type.image
+    - paragraphs.paragraphs_type.block_image_text
+id: paragraph.block_image_text.field_image_news
+field_name: field_image_news
+entity_type: paragraph
+bundle: block_image_text
+label: 'Image News'
+description: 'Permite añadir la imagen de la noticia.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: name
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

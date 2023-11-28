@@ -1,0 +1,29 @@
+uuid: 8d7ff6bd-c9b6-435a-ade7-5d44ce8ff809
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.item_news_recommended
+    - field.storage.block_content.field_image_new
+    - media.type.image
+id: block_content.item_news_recommended.field_image_new
+field_name: field_image_new
+entity_type: block_content
+bundle: item_news_recommended
+label: 'Image New'
+description: 'Imagen de la noticia recomendada.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: name
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

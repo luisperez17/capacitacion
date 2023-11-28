@@ -3,11 +3,14 @@ langcode: es
 status: true
 dependencies:
   config:
+    - block_content.type.item_noticia
     - filter.format.restricted_html
   module:
+    - block_content
     - comment
     - contact
     - filter
+    - media
     - search
     - system
 _core:
@@ -20,5 +23,12 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'create item_noticia block content'
+  - 'delete any item_noticia block content'
+  - 'delete any item_noticia block content revisions'
+  - 'edit any item_noticia block content'
+  - 'revert any item_noticia block content revisions'
   - 'search content'
   - 'use text format restricted_html'
+  - 'view any item_noticia block content history'
+  - 'view media'

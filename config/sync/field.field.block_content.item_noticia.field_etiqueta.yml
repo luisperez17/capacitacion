@@ -1,0 +1,28 @@
+uuid: c635a7b4-b6e2-4a02-a78b-dfdd7fdacfdc
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.item_noticia
+    - field.storage.block_content.field_etiqueta
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.plain_text
+  module:
+    - text
+id: block_content.item_noticia.field_etiqueta
+field_name: field_etiqueta
+entity_type: block_content
+bundle: item_noticia
+label: Etiqueta
+description: 'Etiqueta o tag encima del titulo de la noticia.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+    - plain_text
+field_type: text

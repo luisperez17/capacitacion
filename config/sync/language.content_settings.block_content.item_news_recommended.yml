@@ -1,0 +1,11 @@
+uuid: 80788ca2-18f7-4e47-b414-4cf6e3e5fd5d
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.item_news_recommended
+id: block_content.item_news_recommended
+target_entity_type_id: block_content
+target_bundle: item_news_recommended
+default_langcode: site_default
+language_alterable: false

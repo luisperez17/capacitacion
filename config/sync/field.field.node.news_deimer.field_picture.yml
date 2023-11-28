@@ -1,0 +1,29 @@
+uuid: c9b6fd75-62b8-4136-80f8-07a0da5f3cc6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_picture
+    - media.type.image
+    - node.type.news_deimer
+id: node.news_deimer.field_picture
+field_name: field_picture
+entity_type: node
+bundle: news_deimer
+label: 'Picture Header'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: name
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: a2b0a048-b825-464b-8a6f-f252564285d1
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.block_banner
+    - field.field.block_content.block_banner.field_image_banner
+id: block_content.block_banner.default
+targetEntityType: block_content
+bundle: block_banner
+mode: default
+content:
+  field_image_banner:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

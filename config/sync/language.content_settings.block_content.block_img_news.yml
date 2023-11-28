@@ -1,0 +1,11 @@
+uuid: 8c51885b-9c59-4502-8357-adf74723b77b
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.block_img_news
+id: block_content.block_img_news
+target_entity_type_id: block_content
+target_bundle: block_img_news
+default_langcode: site_default
+language_alterable: false

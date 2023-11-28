@@ -1,0 +1,38 @@
+uuid: 7bfc7807-2db7-47a6-85c2-234c48227aaf
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.block_banner
+    - field.field.block_content.block_banner.field_image_banner
+id: block_content.block_banner.default
+targetEntityType: block_content
+bundle: block_banner
+mode: default
+content:
+  field_image_banner:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }
