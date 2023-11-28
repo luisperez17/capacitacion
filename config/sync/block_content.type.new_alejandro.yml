@@ -1,0 +1,8 @@
+uuid: a551edc8-00ec-4a0d-ad42-0ab1123ce58c
+langcode: es
+status: true
+dependencies: {  }
+id: new_alejandro
+label: Noticias-Alejandro
+revision: 0
+description: 'Bloque de contenido para agregar noticias.'

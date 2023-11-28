@@ -1,0 +1,146 @@
+uuid: 931d1d73-f4a9-4047-82c2-d5a876381815
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.home_news_view_mode
+    - field.field.node.news_alejandro.body
+    - field.field.node.news_alejandro.field_new_exclusive
+    - field.field.node.news_alejandro.field_new_image
+    - field.field.node.news_alejandro.field_new_type
+    - image.style.large
+    - node.type.news_alejandro
+  module:
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: 'two columns'
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          07dc50fc-1ddf-4767-912a-071875b45160:
+            uuid: 07dc50fc-1ddf-4767-912a-071875b45160
+            region: first
+            configuration:
+              id: 'field_block:node:news_alejandro:field_new_exclusive'
+              label: 'New exclusive'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          70968e7d-55e7-4547-af5c-62b32105c64c:
+            uuid: 70968e7d-55e7-4547-af5c-62b32105c64c
+            region: second
+            configuration:
+              id: 'field_block:node:news_alejandro:field_new_image'
+              label: 'New Image'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: content
+                  image_style: large
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          63955058-cfed-4b65-82f9-3aaf4567b412:
+            uuid: 63955058-cfed-4b65-82f9-3aaf4567b412
+            region: first
+            configuration:
+              id: 'field_block:node:news_alejandro:title'
+              label: Título
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: true
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          d3d80c00-ccf1-460d-b61f-eb156f727f70:
+            uuid: d3d80c00-ccf1-460d-b61f-eb156f727f70
+            region: first
+            configuration:
+              id: 'field_block:node:news_alejandro:body'
+              label: 'New description'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_trimmed
+                label: hidden
+                settings:
+                  trim_length: 100
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
+id: node.news_alejandro.home_news_view_mode
+targetEntityType: node
+bundle: news_alejandro
+mode: home_news_view_mode
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 150
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_new_exclusive:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_new_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_new_type: true
+  langcode: true
+  links: true
