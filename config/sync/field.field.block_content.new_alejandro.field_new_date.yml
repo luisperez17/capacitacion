@@ -1,0 +1,21 @@
+uuid: 825a6f86-8a99-4996-96a9-da7b73b92b7b
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.new_alejandro
+    - field.storage.block_content.field_new_date
+  module:
+    - datetime
+id: block_content.new_alejandro.field_new_date
+field_name: field_new_date
+entity_type: block_content
+bundle: new_alejandro
+label: 'New Date'
+description: 'Fecha de creación de la noticia.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

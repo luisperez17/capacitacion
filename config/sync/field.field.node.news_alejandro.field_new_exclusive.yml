@@ -1,0 +1,29 @@
+uuid: 945ff6a7-248f-44b0-a499-bdb95e18e508
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_new_exclusive
+    - node.type.news_alejandro
+    - taxonomy.vocabulary.new_exclusive
+id: node.news_alejandro.field_new_exclusive
+field_name: field_new_exclusive
+entity_type: node
+bundle: news_alejandro
+label: 'New exclusive'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      new_exclusive: new_exclusive
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
