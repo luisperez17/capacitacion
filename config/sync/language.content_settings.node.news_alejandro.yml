@@ -1,0 +1,11 @@
+uuid: a003951c-c428-43c4-9157-d20bbb7e6306
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.news_alejandro
+id: node.news_alejandro
+target_entity_type_id: node
+target_bundle: news_alejandro
+default_langcode: site_default
+language_alterable: false
