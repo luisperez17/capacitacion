@@ -1,0 +1,8 @@
+uuid: 1838fb4d-da8a-440b-ae56-ba44cf99fe81
+langcode: en
+status: true
+dependencies: {  }
+name: 'Principal news'
+vid: principal_news
+description: 'Category of content that is important and this is the first new in the page.'
+weight: 0

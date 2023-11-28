@@ -1,0 +1,10 @@
+uuid: 1121725a-e4d5-4d1e-860a-36d9474b296a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.small_content_news_julian
+label: 'Small Content News Julian'
+targetEntityType: node
+cache: true

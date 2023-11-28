@@ -1,14 +1,14 @@
-uuid: 648443b6-56d0-44bc-aeb6-2135e1f8e18d
-langcode: es
+uuid: 7330cee6-dfc0-4316-be80-959445982815
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
 id: feedback
-label: 'Comentarios sobre el sitio web'
+label: 'Website feedback'
 recipients:
-  - luis.perez@esinergia.co
+  - test@mail.com
 reply: ''
 weight: 0
-message: 'Su mensaje ha sido enviado.'
+message: 'Your message has been sent.'
 redirect: ''

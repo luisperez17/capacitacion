@@ -1,10 +1,10 @@
-uuid: faa46beb-c818-46a6-8978-808e136d00c2
-langcode: es
+uuid: 51e85ff3-9451-4b3d-b9c0-266c06df66e2
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: nzL5d024NjXIX_8TlT6uFAu973lmfkmHklJC-2i9rAE
 id: medium
-label: 'Fecha mediana por defecto'
+label: 'Default medium date'
 locked: false
-pattern: 'D, d/m/Y - H:i'
+pattern: 'D, m/d/Y - H:i'

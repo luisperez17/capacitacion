@@ -1,0 +1,28 @@
+uuid: 7160e7e9-a9be-4a63-a180-41e84047e325
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.news_julian.body
+    - field.field.node.news_julian.field_category
+    - field.field.node.news_julian.field_ex
+    - field.field.node.news_julian.field_news_tags
+    - field.field.node.news_julian.field_position
+    - field.field.node.news_julian.field_thumbnail
+    - node.type.news_julian
+  module:
+    - user
+id: node.news_julian.teaser
+targetEntityType: node
+bundle: news_julian
+mode: teaser
+content: {  }
+hidden:
+  body: true
+  field_category: true
+  field_ex: true
+  field_news_tags: true
+  field_position: true
+  field_thumbnail: true
+  links: true

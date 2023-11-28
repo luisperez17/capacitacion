@@ -1,6 +1,6 @@
-uuid: e675664a-1723-4c6c-99d5-48810d6850cf
-langcode: es
-status: true
+uuid: 3aab2c10-7fba-4a60-b5f0-615bbe1662df
+langcode: en
+status: false
 dependencies:
   theme:
     - olivero
@@ -9,12 +9,12 @@ _core:
 id: olivero_secondary_local_tasks
 theme: olivero
 region: highlighted
-weight: -2
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Solapas secundarias'
+  label: 'Secondary tabs'
   label_display: '0'
   provider: core
   primary: false

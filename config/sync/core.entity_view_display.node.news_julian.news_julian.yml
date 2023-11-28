@@ -1,0 +1,58 @@
+uuid: 72c8fd60-5bb4-48df-9246-4f14bf8e7f7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.news_julian
+    - field.field.node.news_julian.body
+    - field.field.node.news_julian.field_category
+    - field.field.node.news_julian.field_ex
+    - field.field.node.news_julian.field_news_tags
+    - field.field.node.news_julian.field_position
+    - field.field.node.news_julian.field_thumbnail
+    - image.style.large
+    - node.type.news_julian
+  module:
+    - image
+    - user
+id: node.news_julian.news_julian
+targetEntityType: node
+bundle: news_julian
+mode: news_julian
+content:
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_news_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_thumbnail:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_ex: true
+  field_position: true

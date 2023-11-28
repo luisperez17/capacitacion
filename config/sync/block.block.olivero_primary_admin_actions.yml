@@ -1,6 +1,6 @@
-uuid: 16443a5a-1825-46dc-b188-f782bfe992e6
-langcode: es
-status: true
+uuid: 1ab4d017-8a26-4306-a247-d48552cecce4
+langcode: en
+status: false
 dependencies:
   theme:
     - olivero
@@ -9,12 +9,12 @@ _core:
 id: olivero_primary_admin_actions
 theme: olivero
 region: highlighted
-weight: -5
+weight: -8
 provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Acciones principales de administración'
+  label: 'Primary admin actions'
   label_display: '0'
   provider: core
 visibility: {  }

@@ -1,0 +1,10 @@
+uuid: 976a1b8f-b109-4be2-bde2-803db1d89189
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.news_julian
+label: 'News Julian'
+targetEntityType: node
+cache: true

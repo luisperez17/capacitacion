@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
-langcode: es
-uuid: e0095580-add8-4bd6-bb14-29e09630d9d7
-name: 'Capacitacion 2023'
-mail: luis.perez@esinergia.co
+langcode: en
+uuid: 38fd6aef-cb28-42b1-8da6-bd05ed2e0866
+name: Capacitacion
+mail: test@mail.com
 slogan: ''
 page:
   403: ''
@@ -11,4 +11,4 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: es
+default_langcode: en
