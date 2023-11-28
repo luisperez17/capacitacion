@@ -2,6 +2,10 @@ _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 langcode: es
 module:
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -16,7 +20,10 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  exclude_node_title: 0
   field: 0
+  field_group: 0
+  field_group_migrate: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -24,6 +31,8 @@ module:
   history: 0
   image: 0
   language: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   locale: 0
   menu_link_content: 0

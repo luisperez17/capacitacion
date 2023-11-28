@@ -11,20 +11,137 @@ dependencies:
     - image.style.medium
     - node.type.news_wilmer
   module:
+    - field_group
     - image
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 33-67
+        components:
+          835cabbf-99df-43cc-a11d-b29f23a624e9:
+            uuid: 835cabbf-99df-43cc-a11d-b29f23a624e9
+            region: first
+            configuration:
+              id: 'field_block:node:news_wilmer:field_news_wilmer_tags'
+              label: 'Etiquetas Noticias'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          649524d8-5be7-4fee-88ab-0bdb53efe73b:
+            uuid: 649524d8-5be7-4fee-88ab-0bdb53efe73b
+            region: first
+            configuration:
+              id: 'field_block:node:news_wilmer:title'
+              label: Título
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: inline
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          2b03978f-f0c8-4f62-8f1b-d83a22cf6c23:
+            uuid: 2b03978f-f0c8-4f62-8f1b-d83a22cf6c23
+            region: first
+            configuration:
+              id: 'field_block:node:news_wilmer:field_news_wilmer_description'
+              label: Descripcion
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_summary_or_trimmed
+                label: hidden
+                settings:
+                  trim_length: 100
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          9c641d95-1b49-4f6b-b4af-d88e502139f2:
+            uuid: 9c641d95-1b49-4f6b-b4af-d88e502139f2
+            region: second
+            configuration:
+              id: 'field_block:node:news_wilmer:field_news_wilmer_image'
+              label: Imagen
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: large
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+  field_group:
+    group_news_wilmer:
+      children:
+        - field_news_wilmer_tags
+        - field_news_wilmer_description
+        - field_news_wilmer_image
+      label: 'Noticias grupo wilmer'
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
 id: node.news_wilmer.news_wilmer_main
 targetEntityType: node
 bundle: news_wilmer
 mode: news_wilmer_main
 content:
   field_news_wilmer_description:
-    type: text_default
+    type: text_summary_or_trimmed
     label: above
-    settings: {  }
+    settings:
+      trim_length: 300
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
   field_news_wilmer_image:
     type: image
@@ -35,10 +152,17 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
+    weight: 3
+    region: content
+  field_news_wilmer_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
     weight: 1
     region: content
 hidden:
   field_news_wilmer_date: true
-  field_news_wilmer_tags: true
   langcode: true
   links: true
