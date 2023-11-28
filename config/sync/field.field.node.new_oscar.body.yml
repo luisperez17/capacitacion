@@ -1,16 +1,16 @@
-uuid: 6fef4f6f-2cbc-4c0f-9a2d-4ff1b8d48f12
+uuid: 40bc15ac-7393-4583-9f71-f5fe303fb417
 langcode: es
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.news_luis
+    - node.type.new_oscar
   module:
     - text
-id: node.news_luis.body
+id: node.new_oscar.body
 field_name: body
 entity_type: node
-bundle: news_luis
+bundle: new_oscar
 label: Body
 description: ''
 required: false

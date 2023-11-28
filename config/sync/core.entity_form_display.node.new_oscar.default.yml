@@ -1,16 +1,23 @@
-uuid: 676293e5-9ade-4ca6-b903-28748bccef3c
+uuid: c039f91f-7941-4038-a22f-f6ada16b1f0e
 langcode: es
 status: true
 dependencies:
   config:
-    - field.field.node.news_luis.body
-    - node.type.news_luis
+    - field.field.node.new_oscar.body
+    - field.field.node.new_oscar.field_category
+    - field.field.node.new_oscar.field_date
+    - field.field.node.new_oscar.field_image_news
+    - field.field.node.new_oscar.layout_builder__layout
+    - image.style.thumbnail
+    - node.type.new_oscar
   module:
+    - datetime
+    - image
     - path
     - text
-id: node.news_luis.default
+id: node.new_oscar.default
 targetEntityType: node
-bundle: news_luis
+bundle: new_oscar
 mode: default
 content:
   body:
@@ -28,6 +35,30 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_category:
+    type: entity_reference_autocomplete
+    weight: 122
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_date:
+    type: datetime_default
+    weight: 123
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image_news:
+    type: image_image
+    weight: 124
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
   langcode:
     type: language_select
@@ -81,4 +112,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

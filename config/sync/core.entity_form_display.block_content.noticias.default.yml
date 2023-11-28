@@ -1,0 +1,51 @@
+uuid: 8684fead-73f9-4593-99ef-55b1dc435a2c
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.noticias
+    - field.field.block_content.noticias.body
+    - field.field.block_content.noticias.field_noticia_img
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.noticias.default
+targetEntityType: block_content
+bundle: noticias
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_noticia_img:
+    type: image_image
+    weight: 27
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

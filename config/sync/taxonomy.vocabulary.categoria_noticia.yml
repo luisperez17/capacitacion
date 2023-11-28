@@ -1,0 +1,8 @@
+uuid: 3a1f9156-ba9a-4614-8d7f-9dd71a7df1f0
+langcode: es
+status: true
+dependencies: {  }
+name: Categoria-noticia
+vid: categoria_noticia
+description: 'Señala la categoría periodística a la que pertenece la noticia'
+weight: 0

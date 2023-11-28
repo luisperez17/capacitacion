@@ -1,0 +1,24 @@
+uuid: 33ab5bb3-b744-46a8-b331-00cb8dac29aa
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.noticias
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.noticias.body
+field_name: body
+entity_type: block_content
+bundle: noticias
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
