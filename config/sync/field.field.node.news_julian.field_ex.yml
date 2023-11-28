@@ -1,0 +1,23 @@
+uuid: 463560c8-d6eb-448c-9c17-82c54b43349c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ex
+    - node.type.news_julian
+  module:
+    - link
+id: node.news_julian.field_ex
+field_name: field_ex
+entity_type: node
+bundle: news_julian
+label: 'External link'
+description: 'External link resources'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link
