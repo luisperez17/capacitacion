@@ -1,0 +1,10 @@
+uuid: 1bdabfa1-10c9-49a9-a65c-28ce6895eac6
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.home_news_view_mode
+label: 'Home news view mode'
+targetEntityType: node
+cache: true
