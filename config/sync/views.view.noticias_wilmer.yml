@@ -5,6 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.news_wilmer_main
     - node.type.news_wilmer
+  content:
+    - 'node:news_wilmer:9bd1cc31-7455-4eb9-bd2d-d2ddbd18fc4b'
+    - 'node:news_wilmer:a0b167ff-208b-4dfe-8edf-350b817eac1c'
   module:
     - node
     - user
@@ -197,7 +200,33 @@ display:
           query_tags: {  }
       relationships: {  }
       header: {  }
-      footer: {  }
+      footer:
+        entity_node:
+          id: entity_node
+          table: views
+          field: entity_node
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: entity
+          empty: false
+          target: 9bd1cc31-7455-4eb9-bd2d-d2ddbd18fc4b
+          view_mode: news_wilmer_resume
+          tokenize: false
+          bypass_access: false
+        entity_node_1:
+          id: entity_node_1
+          table: views
+          field: entity_node
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: entity
+          empty: false
+          target: a0b167ff-208b-4dfe-8edf-350b817eac1c
+          view_mode: news_wilmer_resume
+          tokenize: true
+          bypass_access: false
       display_extenders: {  }
     cache_metadata:
       max-age: -1

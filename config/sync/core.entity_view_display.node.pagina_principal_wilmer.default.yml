@@ -6,8 +6,45 @@ dependencies:
     - field.field.node.pagina_principal_wilmer.body
     - node.type.pagina_principal_wilmer
   module:
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          bb6d5c42-404c-47df-877e-0b61376be3b3:
+            uuid: bb6d5c42-404c-47df-877e-0b61376be3b3
+            region: content
+            configuration:
+              id: 'extra_field_block:node:pagina_principal_wilmer:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          a103cdbc-ff2b-4f5c-8041-1f4f56298f4a:
+            uuid: a103cdbc-ff2b-4f5c-8041-1f4f56298f4a
+            region: content
+            configuration:
+              id: 'field_block:node:pagina_principal_wilmer:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
 id: node.pagina_principal_wilmer.default
 targetEntityType: node
 bundle: pagina_principal_wilmer

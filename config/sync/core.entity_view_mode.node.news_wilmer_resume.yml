@@ -1,0 +1,10 @@
+uuid: 016b4081-a38b-44c6-8188-427f51eb17ad
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.news_wilmer_resume
+label: 'Resumen Noticias Wilmer'
+targetEntityType: node
+cache: true
