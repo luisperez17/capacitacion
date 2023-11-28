@@ -1,0 +1,10 @@
+uuid: 4b410207-5855-4a3c-ada2-fa72900d4b03
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.sidebar_wilmer_2
+label: 'lateral wilmer 2'
+targetEntityType: node
+cache: true

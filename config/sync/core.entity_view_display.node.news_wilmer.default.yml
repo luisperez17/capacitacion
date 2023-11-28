@@ -1,0 +1,62 @@
+uuid: b1c3cc29-ba0b-4a6a-97b3-aceedb7ce707
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.news_wilmer.field_news_wilmer_date
+    - field.field.node.news_wilmer.field_news_wilmer_description
+    - field.field.node.news_wilmer.field_news_wilmer_image
+    - field.field.node.news_wilmer.field_news_wilmer_tags
+    - node.type.news_wilmer
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.news_wilmer.default
+targetEntityType: node
+bundle: news_wilmer
+mode: default
+content:
+  field_news_wilmer_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_news_wilmer_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_news_wilmer_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_news_wilmer_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

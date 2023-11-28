@@ -1,0 +1,8 @@
+uuid: 2d5efc8e-ad93-47b5-8f35-d95a4228373e
+langcode: es
+status: true
+dependencies: {  }
+name: 'Noticias - Wilmer'
+vid: news_wilmer_tags
+description: 'etiquetas para noticias'
+weight: 0

@@ -1,0 +1,11 @@
+uuid: 9fb3480a-ef2f-481e-ad96-b903414bbe1f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.news_wilmer
+id: node.news_wilmer
+target_entity_type_id: node
+target_bundle: news_wilmer
+default_langcode: site_default
+language_alterable: false

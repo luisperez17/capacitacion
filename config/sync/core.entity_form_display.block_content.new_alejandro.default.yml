@@ -1,0 +1,92 @@
+uuid: 3e53229d-f630-44f8-aece-f52159070bac
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.new_alejandro
+    - field.field.block_content.new_alejandro.body
+    - field.field.block_content.new_alejandro.field_new_date
+    - field.field.block_content.new_alejandro.field_new_exclusive
+    - field.field.block_content.new_alejandro.field_new_image
+    - field.field.block_content.new_alejandro.field_new_title
+    - field.field.block_content.new_alejandro.field_new_type
+    - image.style.thumbnail
+  module:
+    - datetime
+    - image
+    - text
+id: block_content.new_alejandro.default
+targetEntityType: block_content
+bundle: new_alejandro
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_new_date:
+    type: datetime_default
+    weight: 31
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_new_exclusive:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_new_image:
+    type: image_image
+    weight: 29
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_new_title:
+    type: text_textarea_with_summary
+    weight: 27
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_new_type:
+    type: entity_reference_autocomplete
+    weight: 30
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

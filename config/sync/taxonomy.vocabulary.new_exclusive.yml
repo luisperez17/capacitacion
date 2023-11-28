@@ -1,0 +1,8 @@
+uuid: bde4fb4f-0431-4db4-8708-1216fa858b75
+langcode: es
+status: true
+dependencies: {  }
+name: 'New exclusive'
+vid: new_exclusive
+description: 'tipo de noticia exclusiva'
+weight: 0

@@ -1,0 +1,11 @@
+uuid: 585773aa-d7b6-454d-a10f-350247708301
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.news_wilmer_tags
+id: taxonomy_term.news_wilmer_tags
+target_entity_type_id: taxonomy_term
+target_bundle: news_wilmer_tags
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,128 @@
+uuid: dc452113-daee-4abb-8aa0-622e205f9d18
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.news_wilmer_resume
+    - field.field.node.news_wilmer.field_news_wilmer_date
+    - field.field.node.news_wilmer.field_news_wilmer_description
+    - field.field.node.news_wilmer.field_news_wilmer_image
+    - field.field.node.news_wilmer.field_news_wilmer_tags
+    - node.type.news_wilmer
+  module:
+    - datetime
+    - field_group
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          a8ead516-f031-4800-86ed-7ef6d7ae1006:
+            uuid: a8ead516-f031-4800-86ed-7ef6d7ae1006
+            region: content
+            configuration:
+              id: 'field_block:node:news_wilmer:field_news_wilmer_tags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          e03e1bc7-9d91-4bfa-bfea-7de5111b45c3:
+            uuid: e03e1bc7-9d91-4bfa-bfea-7de5111b45c3
+            region: content
+            configuration:
+              id: 'field_block:node:news_wilmer:field_news_wilmer_date'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: datetime_custom
+                label: hidden
+                settings:
+                  timezone_override: ''
+                  date_format: 'h:i a'
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          2b092326-3be2-413e-beea-7dff5e44275e:
+            uuid: 2b092326-3be2-413e-beea-7dff5e44275e
+            region: content
+            configuration:
+              id: 'field_block:node:news_wilmer:title'
+              label: Título
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
+  field_group:
+    group_top_wilmer:
+      children:
+        - field_news_wilmer_tags
+        - field_news_wilmer_date
+      label: 'top wilmer'
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: node.news_wilmer.news_wilmer_resume
+targetEntityType: node
+bundle: news_wilmer
+mode: news_wilmer_resume
+content:
+  field_news_wilmer_date:
+    type: datetime_custom
+    label: hidden
+    settings:
+      timezone_override: ''
+      date_format: 'h:i a'
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_news_wilmer_tags:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden:
+  field_news_wilmer_description: true
+  field_news_wilmer_image: true
+  langcode: true
+  links: true

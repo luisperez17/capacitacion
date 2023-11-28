@@ -1,0 +1,30 @@
+uuid: 78672b77-3321-4d92-8c6d-bd437aa635ab
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:edf1fad8-74f9-41b0-ad3a-88525578a9ae'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_titulowilmer
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:edf1fad8-74f9-41b0-ad3a-88525578a9ae'
+settings:
+  id: 'block_content:edf1fad8-74f9-41b0-ad3a-88525578a9ae'
+  label: 'Titulo Wilmer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news_wilmer

@@ -9,6 +9,7 @@ dependencies:
   module:
     - comment
     - contextual
+    - exclude_node_title
     - file
     - node
     - path
@@ -44,6 +45,7 @@ permissions:
   - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'use exclude node title'
   - 'view all revisions'
   - 'view own unpublished content'
   - 'view the administration theme'
