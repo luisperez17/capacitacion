@@ -12,7 +12,7 @@ dependencies:
 id: esinergiawil_views_block__news_wilmer_side_1_block_1
 theme: esinergiawil
 region: sidebar_first
-weight: 0
+weight: -9
 provider: null
 plugin: 'views_block:news_wilmer_side_1-block_1'
 settings:

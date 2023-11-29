@@ -1,6 +1,6 @@
 uuid: 00bd7cb8-ec6b-4a68-8975-dc1d856bc9ca
 langcode: es
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: esinergiawil_powered
 theme: esinergiawil
 region: sidebar_first
-weight: 0
+weight: -11
 provider: null
 plugin: system_powered_by_block
 settings:

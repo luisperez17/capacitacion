@@ -10,8 +10,8 @@ dependencies:
     - esinergiawil
 id: esinergiawil_views_block__news_block_view_block_3
 theme: esinergiawil
-region: sidebar_first
-weight: 0
+region: content
+weight: -7
 provider: null
 plugin: 'views_block:news_block_view-block_3'
 settings:

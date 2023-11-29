@@ -11,7 +11,7 @@ dependencies:
 id: esinergiawil_views_block__news_block_view_block_2
 theme: esinergiawil
 region: content
-weight: 0
+weight: -8
 provider: null
 plugin: 'views_block:news_block_view-block_2'
 settings:

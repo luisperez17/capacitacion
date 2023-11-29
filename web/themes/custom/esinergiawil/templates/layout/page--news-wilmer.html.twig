@@ -54,11 +54,12 @@
     
   <section class="section-news">
     <div class="layout-content">
-      {% for key, value in page.content %}
+     {{ page.content }}
+      {# {% for key, value in page.content %}
     {% if key != "esinergiawil_titulowilmer" %}
       {{ value }}
     {% endif %}
-  {% endfor %}
+  {% endfor %} #}
     </div> {# /.layout-content #}
 
     {% if page.sidebar_first %}

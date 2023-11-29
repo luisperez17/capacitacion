@@ -67,41 +67,48 @@
  *
  */
 #}
-<pre>
-  {{ dump(content) }}
- </pre>
-<article{{ attributes }} class="news-main">
+<article{{attributes.addClass('news-main')}}>
 
-  <section>
-  
-    <div><a href={{ content.field_news_wilmer_tags.0["#url"] }}>{{content.field_news_wilmer_tags.0["#title"]|striptags}}</a></div>
-    <h1>{{ label }}</h1>
-    <p> {{ content.field_news_wilmer_description.0["#text"]|striptags}} </p>
-  </section>
-  <section>
-    {{ content.field_news_wilmer_image }}
-  </section>
+	<section class="container-title-main">
 
-  {# {{ title_prefix }}
-  {% if label and not page %}
-    <h2{{ title_attributes }}>
-      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-    </h2>
-  {% endif %}
-  {{ title_suffix }}
+		<div class="news-tags">
 
-  {% if display_submitted %}
-    <footer>
-      {{ author_picture }}
-      <div{{ author_attributes }}>
-        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-        {{ metadata }}
-      </div>
-    </footer>
-  {% endif %}
+			<a href={{ content.field_news_wilmer_tags.0["#url"] }}>{{content.field_news_wilmer_tags.0["#title"]|striptags}}</a>
+			<span>
+        | 
+				{{ content.field_news_wilmer_date.0["#attributes"].datetime|date("h:i a") }}
+			</span>
 
-  <div{{ content_attributes }}>
-    {{ content }}
-  </div> #}
+		</div>
+		<h1 class="news-title-main">{{ label }}</h1>
+		<p>
+			{{ content.field_news_wilmer_description.0["#text"]|striptags}}
+		</p>
+	</section>
+	<section class="container-image">
+		{{ content.field_news_wilmer_image.0 }}
+	</section>
+
+	{# {{ title_prefix }}
+							  {% if label and not page %}
+							    <h2{{ title_attributes }}>
+							      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+							    </h2>
+							  {% endif %}
+							  {{ title_suffix }}
+							
+							  {% if display_submitted %}
+							    <footer>
+							      {{ author_picture }}
+							      <div{{ author_attributes }}>
+							        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+							        {{ metadata }}
+							      </div>
+							    </footer>
+							  {% endif %}
+							#}
+							  {# <div{{ content_attributes }}>
+							    {{ content }}
+							  </div>  #}
 
 </article>

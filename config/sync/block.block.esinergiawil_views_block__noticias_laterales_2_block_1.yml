@@ -1,6 +1,6 @@
 uuid: 7fcb7a20-baa1-4ecb-90db-c759c7bbe1d1
 langcode: es
-status: true
+status: false
 dependencies:
   config:
     - views.view.noticias_laterales_2
@@ -12,7 +12,7 @@ dependencies:
 id: esinergiawil_views_block__noticias_laterales_2_block_1
 theme: esinergiawil
 region: sidebar_first
-weight: 0
+weight: -8
 provider: null
 plugin: 'views_block:noticias_laterales_2-block_1'
 settings:
