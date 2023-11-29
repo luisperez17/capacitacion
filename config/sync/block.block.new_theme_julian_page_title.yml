@@ -1,0 +1,20 @@
+uuid: eefc8bfe-5a16-41f4-94b4-1977ec488404
+langcode: en
+status: true
+dependencies:
+  theme:
+    - new_theme_julian
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: new_theme_julian_page_title
+theme: new_theme_julian
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

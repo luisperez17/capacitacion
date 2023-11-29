@@ -1,13 +1,14 @@
-uuid: a06122e3-66bb-4265-87b1-f2d492c37bbc
+uuid: 1f5d65d0-fe2e-448c-ac30-67fe0d309550
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.news_julian
     - core.entity_view_mode.node.rss
-    - taxonomy.vocabulary.principal_news
+    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.teaser_news_julian
+    - taxonomy.vocabulary.content_importance
   content:
-    - 'taxonomy_term:principal_news:183d4ded-c537-45da-88b3-dd807bfcab66'
+    - 'taxonomy_term:content_importance:8bd8e221-e06e-40b8-b1cc-e70466b5e6a2'
   module:
     - node
     - taxonomy
@@ -34,7 +35,7 @@ display:
         type: full
         options:
           offset: 0
-          items_per_page: 1
+          items_per_page: 10
           total_pages: 0
           id: 0
           tags:
@@ -243,7 +244,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: news_julian
+          view_mode: teaser
       query:
         type: views_query
         options:
@@ -270,42 +271,6 @@ display:
     display_plugin: block
     position: 1
     display_options:
-      enabled: true
-      empty:
-        area_text_custom:
-          id: area_text_custom
-          table: views
-          field: area_text_custom
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: text_custom
-          label: ''
-          empty: true
-          content: ''
-          tokenize: false
-        node_listing_empty:
-          id: node_listing_empty
-          table: node
-          field: node_listing_empty
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          plugin_id: node_listing_empty
-          label: ''
-          empty: true
-        title:
-          id: title
-          table: views
-          field: title
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: title
-          label: ''
-          empty: true
-          title: Welcome!
       filters:
         promote:
           id: promote
@@ -402,15 +367,14 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items: {  }
-        term_node_tid_depth:
-          id: term_node_tid_depth
-          table: node_field_data
-          field: term_node_tid_depth
+        tid:
+          id: tid
+          table: taxonomy_index
+          field: tid
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: node
-          plugin_id: taxonomy_index_tid_depth
+          plugin_id: taxonomy_index_tid
           operator: or
           value:
             - 11
@@ -444,18 +408,31 @@ display:
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
-          vid: principal_news
+          vid: content_importance
           type: textfield
           hierarchy: false
           limit: true
           error_message: true
-          depth: 0
       filter_groups:
         operator: AND
         groups:
           1: AND
+      style:
+        type: grid_responsive
+        options:
+          uses_fields: false
+          columns: 4
+          cell_min_width: 100
+          grid_gutter: 10
+          alignment: horizontal
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: teaser_news_julian
       defaults:
-        empty: false
+        style: false
+        row: false
         filters: false
         filter_groups: false
       display_extenders: {  }
@@ -495,7 +472,6 @@ display:
       path: rss.xml
       sitename_title: true
       displays:
-        page_1: page_1
         default: ''
     cache_metadata:
       max-age: -1
@@ -504,48 +480,12 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  page_1:
-    id: page_1
+  page_2:
+    id: page_2
     display_title: Page
     display_plugin: page
     position: 1
     display_options:
-      enabled: false
-      empty:
-        area_text_custom:
-          id: area_text_custom
-          table: views
-          field: area_text_custom
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: text_custom
-          label: ''
-          empty: true
-          content: ''
-          tokenize: false
-        node_listing_empty:
-          id: node_listing_empty
-          table: node
-          field: node_listing_empty
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          plugin_id: node_listing_empty
-          label: ''
-          empty: true
-        title:
-          id: title
-          table: views
-          field: title
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: title
-          label: ''
-          empty: true
-          title: Welcome!
       filters:
         promote:
           id: promote
@@ -642,15 +582,14 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items: {  }
-        term_node_tid_depth:
-          id: term_node_tid_depth
-          table: node_field_data
-          field: term_node_tid_depth
+        tid:
+          id: tid
+          table: taxonomy_index
+          field: tid
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: node
-          plugin_id: taxonomy_index_tid_depth
+          plugin_id: taxonomy_index_tid
           operator: or
           value:
             - 11
@@ -684,18 +623,30 @@ display:
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
-          vid: principal_news
+          vid: content_importance
           type: textfield
           hierarchy: false
           limit: true
           error_message: true
-          depth: 0
       filter_groups:
         operator: AND
         groups:
           1: AND
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: teaser_news_julian
       defaults:
-        empty: false
+        style: false
+        row: false
         filters: false
         filter_groups: false
       display_extenders: {  }

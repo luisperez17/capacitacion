@@ -1,0 +1,22 @@
+uuid: 1a75a726-0d4f-4a04-aa5d-a49f7186363f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - new_theme_julian
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: new_theme_julian_breadcrumbs
+theme: new_theme_julian
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

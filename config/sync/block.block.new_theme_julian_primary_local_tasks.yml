@@ -1,0 +1,22 @@
+uuid: f786a57f-874a-4e85-b657-aed94c4cb609
+langcode: en
+status: false
+dependencies:
+  theme:
+    - new_theme_julian
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: new_theme_julian_primary_local_tasks
+theme: new_theme_julian
+region: header
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 8f6696bb-eaa6-4511-ae5c-9ee1078d67ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - new_theme_julian
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: new_theme_julian_content
+theme: new_theme_julian
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

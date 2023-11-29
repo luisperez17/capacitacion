@@ -1,28 +1,42 @@
-uuid: 7160e7e9-a9be-4a63-a180-41e84047e325
+uuid: dec7288e-e209-409d-b633-e4e1a2e6219a
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.news_julian.body
     - field.field.node.news_julian.field_category
+    - field.field.node.news_julian.field_content_importance
     - field.field.node.news_julian.field_ex
-    - field.field.node.news_julian.field_news_tags
-    - field.field.node.news_julian.field_position
+    - field.field.node.news_julian.field_tags_news_julian
     - field.field.node.news_julian.field_thumbnail
+    - field.field.node.news_julian.layout_builder__layout
     - node.type.news_julian
   module:
+    - text
     - user
 id: node.news_julian.teaser
 targetEntityType: node
 bundle: news_julian
 mode: teaser
-content: {  }
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
 hidden:
-  body: true
   field_category: true
+  field_content_importance: true
   field_ex: true
-  field_news_tags: true
-  field_position: true
+  field_tags_news_julian: true
   field_thumbnail: true
-  links: true
+  layout_builder__layout: true

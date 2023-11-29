@@ -1,0 +1,29 @@
+uuid: 3937d451-9b50-4b30-a89b-8d86ff5fd09e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_importance
+    - node.type.news_julian
+    - taxonomy.vocabulary.content_importance
+id: node.news_julian.field_content_importance
+field_name: field_content_importance
+entity_type: node
+bundle: news_julian
+label: 'Content importance'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      content_importance: content_importance
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

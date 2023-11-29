@@ -1,0 +1,8 @@
+uuid: 1b63fbb4-66c2-45f5-9bcd-886573f0bd27
+langcode: en
+status: true
+dependencies: {  }
+name: 'Content importance'
+vid: content_importance
+description: ''
+weight: 0

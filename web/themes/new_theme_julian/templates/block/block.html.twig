@@ -1,0 +1,54 @@
+{#
+/**
+ * @file
+ * Theme override to display a block.
+ *
+ * Available variables:
+ * - plugin_id: The ID of the block implementation.
+ * - label: The configured label of the block if visible.
+ * - configuration: A list of the block's configuration values.
+ *   - label: The configured label for the block.
+ *   - label_display: The display settings for the label.
+ *   - provider: The module or other provider that provided this block plugin.
+ *   - Block plugin specific settings will also be stored here.
+ * - in_preview: Whether the plugin is being rendered in preview mode.
+ * - content: The content of this block.
+ * - attributes: array of HTML attributes populated by modules, intended to
+ *   be added to the main container tag of this template.
+ *   - id: A valid HTML ID and guaranteed unique.
+ * - title_attributes: Same as attributes, except applied to the main title
+ *   tag that appears in the template.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @see template_preprocess_block()
+ */
+#}
+{# {{configuration.id }} #}
+{% if configuration.id == "views_block:highlighted_frontpage_news_julian-block_1" or configuration.id == "views_block:secundary_frontpage_news_julian-block_1" or configuration.id == "views_block:frontpage_news_julian-block_1" or configuration.id == "page_title_block" %} 
+   {% block content %}
+    {% if configuration.id == "views_block:highlighted_frontpage_news_julian-block_1" %}
+      <div class="block-news-julian block-news-julian-highlighted">
+        {{ content }}
+      </div>
+    {% elseif configuration.id == "views_block:secundary_frontpage_news_julian-block_1" %}
+        <div class="block-news-julian block-news-julian-secondari">
+          {{ content }}
+        </div>
+    {% elseif configuration.id == "views_block:frontpage_news_julian-block_1" %}
+        <div class="front-page-container">
+          {{content}}
+        </div>
+    {% else %}
+    <div class="other-content">
+      {{ content }}
+    </div>
+    {% endif %}
+    
+  {% endblock %}
+{% else %}
+
+{% endif %}
+

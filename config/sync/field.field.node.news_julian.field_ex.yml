@@ -1,4 +1,4 @@
-uuid: 463560c8-d6eb-448c-9c17-82c54b43349c
+uuid: a932a408-23f6-409d-8b38-2e70aac93b3a
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_ex
 entity_type: node
 bundle: news_julian
 label: 'External link'
-description: 'External link resources'
+description: ''
 required: false
 translatable: false
 default_value: {  }

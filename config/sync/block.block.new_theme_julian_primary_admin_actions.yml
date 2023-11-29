@@ -1,0 +1,20 @@
+uuid: dd104c57-188d-4597-8e7a-19be93e1edaf
+langcode: en
+status: true
+dependencies:
+  theme:
+    - new_theme_julian
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: new_theme_julian_primary_admin_actions
+theme: new_theme_julian
+region: header
+weight: -9
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

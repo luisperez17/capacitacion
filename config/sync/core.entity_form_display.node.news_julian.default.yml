@@ -1,14 +1,15 @@
-uuid: 83aa54e5-030c-4c0d-81c2-b8251d8204a3
+uuid: 8bf6188b-0683-4868-b1f9-97824e7f8dbd
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.news_julian.body
     - field.field.node.news_julian.field_category
+    - field.field.node.news_julian.field_content_importance
     - field.field.node.news_julian.field_ex
-    - field.field.node.news_julian.field_news_tags
-    - field.field.node.news_julian.field_position
+    - field.field.node.news_julian.field_tags_news_julian
     - field.field.node.news_julian.field_thumbnail
+    - field.field.node.news_julian.layout_builder__layout
     - image.style.thumbnail
     - node.type.news_julian
   module:
@@ -39,7 +40,7 @@ content:
     third_party_settings: {  }
   field_category:
     type: entity_reference_autocomplete
-    weight: 124
+    weight: 122
     region: content
     settings:
       match_operator: CONTAINS
@@ -47,25 +48,7 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_ex:
-    type: link_default
-    weight: 123
-    region: content
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-  field_news_tags:
-    type: entity_reference_autocomplete
-    weight: 125
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_position:
+  field_content_importance:
     type: entity_reference_autocomplete
     weight: 126
     region: content
@@ -75,9 +58,27 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_ex:
+    type: link_default
+    weight: 125
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_tags_news_julian:
+    type: entity_reference_autocomplete
+    weight: 124
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_thumbnail:
     type: image_image
-    weight: 122
+    weight: 123
     region: content
     settings:
       progress_indicator: throbber
@@ -128,4 +129,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

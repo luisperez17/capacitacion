@@ -1,4 +1,4 @@
-uuid: e497c294-0da7-4689-92df-1e137c0c66fd
+uuid: e2e4ad7f-db12-445e-accf-00b773a22ee3
 langcode: en
 status: false
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: olivero_primary_local_tasks
 theme: olivero
 region: highlighted
-weight: -6
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:

@@ -1,0 +1,10 @@
+uuid: 9b112254-7ff9-4304-b849-28374a97cf87
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_news_julian
+label: 'Teaser News Julian'
+targetEntityType: node
+cache: true

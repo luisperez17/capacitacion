@@ -1,0 +1,103 @@
+uuid: 375936c8-9da2-443d-bce4-41d7467a6e7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.secundary_display_modes_news_julian
+    - field.field.node.news_julian.body
+    - field.field.node.news_julian.field_category
+    - field.field.node.news_julian.field_content_importance
+    - field.field.node.news_julian.field_ex
+    - field.field.node.news_julian.field_tags_news_julian
+    - field.field.node.news_julian.field_thumbnail
+    - field.field.node.news_julian.layout_builder__layout
+    - node.type.news_julian
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          3a74f207-2986-489e-ab4e-ec4bcacc1c13:
+            uuid: 3a74f207-2986-489e-ab4e-ec4bcacc1c13
+            region: first
+            configuration:
+              id: 'field_block:node:news_julian:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_trimmed
+                label: hidden
+                settings:
+                  trim_length: 160
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          9a9b1497-716a-432e-bb9e-dcbb0f52ed6f:
+            uuid: 9a9b1497-716a-432e-bb9e-dcbb0f52ed6f
+            region: second
+            configuration:
+              id: 'field_block:node:news_julian:field_thumbnail'
+              label: thumbnail
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: thumbnail
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: node.news_julian.secundary_display_modes_news_julian
+targetEntityType: node
+bundle: news_julian
+mode: secundary_display_modes_news_julian
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_tags_news_julian:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_category: true
+  field_content_importance: true
+  field_ex: true
+  field_thumbnail: true
+  layout_builder__layout: true

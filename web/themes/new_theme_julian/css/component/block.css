@@ -1,0 +1,23 @@
+.block-news-julian {
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: none;
+    /* border-left: 1px solid #ccc; */
+    border-right: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+}
+
+.block-news-julian-highlighted, .front-page-container {
+    width: 70%;
+    max-height: 350px;
+}
+
+.block-news-julian-secondari {
+    width: 30%;
+    max-height: 350px;
+}
+
+.front-page-container, .other-content {
+    width: inherit;
+}

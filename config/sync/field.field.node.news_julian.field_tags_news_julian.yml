@@ -1,0 +1,29 @@
+uuid: 08b63bc7-82a9-406f-a105-291d9ba54a7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags_news_julian
+    - node.type.news_julian
+    - taxonomy.vocabulary.tags
+id: node.news_julian.field_tags_news_julian
+field_name: field_tags_news_julian
+entity_type: node
+bundle: news_julian
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 7868da4d-c807-4121-a38d-7271d43b64a1
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - new_theme_julian
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: new_theme_julian_powered
+theme: new_theme_julian
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

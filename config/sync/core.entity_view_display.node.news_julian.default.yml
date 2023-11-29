@@ -1,20 +1,145 @@
-uuid: 0757bcb3-5a6f-4a23-bc72-4b0a885eb6f0
+uuid: 6326bab9-3171-4a97-8b6c-8f1265ae51a0
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.news_julian.body
     - field.field.node.news_julian.field_category
+    - field.field.node.news_julian.field_content_importance
     - field.field.node.news_julian.field_ex
-    - field.field.node.news_julian.field_news_tags
-    - field.field.node.news_julian.field_position
+    - field.field.node.news_julian.field_tags_news_julian
     - field.field.node.news_julian.field_thumbnail
     - node.type.news_julian
   module:
     - image
+    - layout_builder
+    - layout_discovery
     - link
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          59f1908d-fe45-48d2-b1b3-6380620977f3:
+            uuid: 59f1908d-fe45-48d2-b1b3-6380620977f3
+            region: content
+            configuration:
+              id: 'extra_field_block:node:news_julian:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          c7c7f9af-35cf-4ea4-b034-c0992a096f6b:
+            uuid: c7c7f9af-35cf-4ea4-b034-c0992a096f6b
+            region: content
+            configuration:
+              id: 'field_block:node:news_julian:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          11b970d8-dd7f-46f7-9b71-c2675e7456aa:
+            uuid: 11b970d8-dd7f-46f7-9b71-c2675e7456aa
+            region: content
+            configuration:
+              id: 'field_block:node:news_julian:field_category'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          d8bf14a7-46ba-4e84-b475-d0321224e9ea:
+            uuid: d8bf14a7-46ba-4e84-b475-d0321224e9ea
+            region: content
+            configuration:
+              id: 'field_block:node:news_julian:field_thumbnail'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: above
+                settings:
+                  image_link: ''
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          40f75bcc-44ce-4196-86db-d277d754a78f:
+            uuid: 40f75bcc-44ce-4196-86db-d277d754a78f
+            region: content
+            configuration:
+              id: 'field_block:node:news_julian:field_tags_news_julian'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          310140b1-2bf8-41c7-85c5-36d0a1d82073:
+            uuid: 310140b1-2bf8-41c7-85c5-36d0a1d82073
+            region: content
+            configuration:
+              id: 'field_block:node:news_julian:field_ex'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: link
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          50492ef1-267f-446b-a95e-6861babd913d:
+            uuid: 50492ef1-267f-446b-a95e-6861babd913d
+            region: content
+            configuration:
+              id: 'field_block:node:news_julian:field_content_importance'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+        third_party_settings: {  }
 id: node.news_julian.default
 targetEntityType: node
 bundle: news_julian
@@ -33,7 +158,15 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 104
+    weight: 102
+    region: content
+  field_content_importance:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
     region: content
   field_ex:
     type: link
@@ -45,23 +178,15 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 103
-    region: content
-  field_news_tags:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
     weight: 105
     region: content
-  field_position:
+  field_tags_news_julian:
     type: entity_reference_label
     label: above
     settings:
       link: true
     third_party_settings: {  }
-    weight: 106
+    weight: 104
     region: content
   field_thumbnail:
     type: image
@@ -72,7 +197,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 102
+    weight: 103
     region: content
   links:
     settings: {  }

@@ -1,18 +1,18 @@
-uuid: 50d05e5f-4ed0-4995-876a-b38cecaea6d4
+uuid: 619fb083-0139-4a01-b03a-56ea639e0472
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_category
     - node.type.news_julian
-    - taxonomy.vocabulary.news_category
+    - taxonomy.vocabulary.category
 id: node.news_julian.field_category
 field_name: field_category
 entity_type: node
 bundle: news_julian
 label: Category
-description: 'Category relationship.'
-required: false
+description: ''
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      news_category: news_category
+      category: category
     sort:
       field: name
       direction: asc

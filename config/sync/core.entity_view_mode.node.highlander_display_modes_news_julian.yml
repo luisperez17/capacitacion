@@ -1,0 +1,10 @@
+uuid: 3f8b2266-a8f5-4fbf-b340-739d67e56f70
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.highlander_display_modes_news_julian
+label: 'Highlander Display Modes News Julian'
+targetEntityType: node
+cache: true

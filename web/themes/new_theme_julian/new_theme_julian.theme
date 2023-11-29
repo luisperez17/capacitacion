@@ -1,0 +1,27 @@
+<?php declare(strict_types = 1);
+
+/**
+ * @file
+ * Functions to support theming in the New theme Julian theme.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for html.html.twig.
+ */
+function new_theme_julian_preprocess_html(array &$variables): void {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for page.html.twig.
+ */
+function new_theme_julian_preprocess_page(array &$variables): void {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for node.html.twig.
+ */
+function new_theme_julian_preprocess_node(array &$variables): void {
+
+}

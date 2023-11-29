@@ -1,4 +1,4 @@
-uuid: f60fec83-bd61-4173-a0c8-87a1d85692e9
+uuid: ad45f6a4-aaa0-442a-a27c-70aadefc66c7
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: 'News Julian'
 type: news_julian
-description: 'Custom content type to admin news.'
+description: 'Custom content for training to admin news.'
 help: ''
 new_revision: true
 preview_mode: 1

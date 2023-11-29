@@ -1,0 +1,132 @@
+.title {
+    font-size: 1.875rem;
+    font-weight: normal;
+    line-height: 30px;
+    font-family: "duplicate_ionicbold",Georgia,"Times New Roman",Times,serif;
+    color: #1c1c1c;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-wrap: break-word;
+    width: 100% !important;
+}
+
+a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+a:hover {
+    color: #e2e2e2;
+}
+
+.node-container {
+    display: flex;
+    border-bottom: 1px solid red;
+}
+
+.column {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-content {
+    flex: 40%;
+}
+
+.thumbnail-content {
+    flex: 60%;
+}
+
+.tags {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    width: 70px;
+}
+
+.highlander-tags {
+    background: #d82b36;
+}
+.secondary-tags {
+    background: #07e90e;
+}
+
+.highlander-span, .secondary-span{
+  font-size: .6875rem;
+  font-weight: normal;
+  line-height: 20px;
+  font-family: "open_sansbold",Arial,Helvetica,sans-serif;
+  color: #FFF;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+}
+
+
+/* secundary  container */
+.secundary-container {
+    display: flex;
+}
+
+.secundary-column {
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+}
+
+.secundary-column-1 {
+    width: 150px;
+}
+
+.secundary-column-2 {
+    width: 230px;
+}
+
+/*   */
+
+.card {
+    width: 170px;
+    height: 150px;
+    border: 1px solid #8f8f8f;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 22px;
+    font-family: "duplicate_ionicbold",Georgia,"Times New Roman",Times,serif;
+    color: #000;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-wrap: break-word;
+    font-size: 1.09rem;
+    margin: 0;
+    clear: both;
+    display: block;
+}
+
+.content-span{
+    font-size: .6875rem;
+    font-weight: normal;
+    line-height: 20px;
+    font-family: "open_sansbold",Arial,Helvetica,sans-serif;
+    color: #FFF;
+    background-color: #0072ac;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+    padding: 3px;
+  }

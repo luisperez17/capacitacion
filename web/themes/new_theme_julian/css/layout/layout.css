@@ -1,0 +1,19 @@
+header {
+    background-color: #0b5891;
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+    margin: none;
+    padding: 1px;
+}
+
+.block-content-news-julian {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #0b5891;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
