@@ -4,29 +4,51 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 .main-news {
     width: 100%;
 }
+
+.title-page {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0E65A5;
+    border-bottom: 2px solid #0E65A5;
+}
+
 .section-news {
     margin-top: 2rem;
     width: 100%;
     display: flex;
     gap: 4rem;
 }
+
 .layout-content {
-    width: 70%;
+    width: 65%;
     margin-left: 4rem;
 }
+
 .layout-sidebar-first {
-    width: 15%;
+    width: 20%;
 }
-.news-main {
+
+.news-main,
+.sidebar-news-1 {
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
     gap: 2rem;
     width: 100%;
     border-bottom: 2px solid #d82b36;
     padding-bottom: 2rem;
+}
+
+.sidebar-news-1 {
+    border-bottom: none;
+    grid-template-columns: 1.2fr 0.8fr;
 }
 
 .container-title-main {
@@ -37,6 +59,7 @@
     justify-content: space-evenly;
     border-bottom: 1px solid #1c1c1c;
 }
+
 .news-tags {
     display: flex;
     flex-direction: row;
@@ -51,11 +74,19 @@
     text-transform: uppercase;
 
 }
-.news-tags a{
+
+.news-tags-side {
+    padding: 0;
+    width: max-content;
+    margin-bottom: 0.4rem;
+}
+
+.news-tags a {
     color: #FFF;
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .news-title-main {
     font-size: 2rem;
     font-weight: bolder;
@@ -64,9 +95,49 @@
 .container-image {
     width: 100%;
     height: 100%;
+
     & img {
         width: 80%;
         height: 100%;
         max-width: 550px;
     }
+}
+
+.container-image-side {
+    width: 100%;
+    height: 100%;
+
+    & img {
+        width: 90%;
+        height: auto;
+        min-width: 80px;
+        min-height: 80px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+}
+
+/* sidebar styles */
+
+.news-side-1 {
+    border: 1px solid #DDDDDD;
+    padding: 0.5rem;
+}
+
+.side-title {
+    font-size: 1rem;
+}
+
+.side-tags {
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.suscriptores {
+    background-color: #27AE60;
+    color: #F4FBF7;
 }
