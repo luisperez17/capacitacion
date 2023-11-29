@@ -138,6 +138,10 @@
 }
 
 .suscriptores {
+    font-size: 0.9rem;
     background-color: #27AE60;
+    font-style: italic;
     color: #F4FBF7;
+    box-shadow: 0.2rem 0.2rem 0.6rem 0.3rem #759D86;
+    transform: matrix(1, 0, -0.2, 1, 0, 0);
 }
