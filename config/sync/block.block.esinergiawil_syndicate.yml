@@ -1,0 +1,23 @@
+uuid: 9959e176-68ee-464d-81de-1549511af614
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - esinergiawil
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: esinergiawil_syndicate
+theme: esinergiawil
+region: sidebar_first
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'Canal RSS'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

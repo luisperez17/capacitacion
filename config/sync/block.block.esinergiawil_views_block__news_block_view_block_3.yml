@@ -1,0 +1,24 @@
+uuid: dc7a966e-dbbe-4b95-a367-779720fa6ae6
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.news_block_view
+  module:
+    - views
+  theme:
+    - esinergiawil
+id: esinergiawil_views_block__news_block_view_block_3
+theme: esinergiawil
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:news_block_view-block_3'
+settings:
+  id: 'views_block:news_block_view-block_3'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: '4'
+visibility: {  }

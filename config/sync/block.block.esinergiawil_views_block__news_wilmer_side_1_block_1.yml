@@ -1,0 +1,29 @@
+uuid: 1f359d11-7d72-4984-9403-37117ca0661e
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.news_wilmer_side_1
+  module:
+    - system
+    - views
+  theme:
+    - esinergiawil
+id: esinergiawil_views_block__news_wilmer_side_1_block_1
+theme: esinergiawil
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:news_wilmer_side_1-block_1'
+settings:
+  id: 'views_block:news_wilmer_side_1-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news_wilmer

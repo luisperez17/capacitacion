@@ -1,0 +1,22 @@
+uuid: 86b43a58-7f38-4365-be73-93d51c5bdc1c
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - esinergiawil
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: esinergiawil_help
+theme: esinergiawil
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

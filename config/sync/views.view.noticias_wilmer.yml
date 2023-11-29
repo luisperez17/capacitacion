@@ -3,7 +3,7 @@ langcode: es
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.news_wilmer_main
+    - core.entity_view_mode.node.full
     - node.type.news_wilmer
   content:
     - 'node:news_wilmer:9bd1cc31-7455-4eb9-bd2d-d2ddbd18fc4b'
@@ -189,7 +189,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: news_wilmer_main
+          view_mode: full
       query:
         type: views_query
         options:

@@ -1,0 +1,23 @@
+uuid: 5900bb62-4df5-4bd4-b94d-d3c9465a6430
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - esinergiawil
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: esinergiawil_search_form_wide
+theme: esinergiawil
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (ancho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

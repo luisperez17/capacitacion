@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-news {
+    width: 100%;
+
+}
+.section-news {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+}
+
+.layout-content {
+    width: 80%;
+}
+.layout-sidebar-first {
+    width: 15%;
+}
+.news-main {
+    display: grid;
+    grid-column: 0.6fr 1.4fr;
+    width: 100%;
+}

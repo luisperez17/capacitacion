@@ -1,0 +1,22 @@
+uuid: a05a16cb-b81c-48b5-bdcd-d54b38bc9e76
+langcode: es
+status: true
+dependencies:
+  theme:
+    - esinergiawil
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: esinergiawil_secondary_local_tasks
+theme: esinergiawil
+region: highlighted
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas secundarias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
