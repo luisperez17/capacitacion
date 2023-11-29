@@ -1,6 +1,6 @@
 uuid: 981d50a2-24d5-495e-a975-a3c1fd8eb188
 langcode: es
-status: true
+status: false
 dependencies:
   config:
     - views.view.news_block_view

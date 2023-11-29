@@ -199,3 +199,38 @@
 .side-title-2 {
     font-size: 0.9rem;
 }
+
+/* news footer */
+.news-footer {
+    width: 333px;
+    padding-top: 10px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #DDD;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.new-tags-footer {
+    width: max-content;
+}
+
+.date-footer {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.footer-title {
+    font-size: 1rem;
+    line-height: 22px;
+}
+
+div#block-esinergiawil-content footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
