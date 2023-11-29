@@ -3,7 +3,7 @@ langcode: es
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.sidebar_wilmer_2
+    - core.entity_view_mode.node.full
     - field.storage.node.field_news_wilmer_date
     - field.storage.node.field_news_wilmer_image
     - field.storage.node.field_news_wilmer_tags
@@ -429,7 +429,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: sidebar_wilmer_2
+          view_mode: full
       query:
         type: views_query
         options:

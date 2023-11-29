@@ -67,27 +67,25 @@
  *
  */
 #}
-<article{{attributes.addClass('news-main')}}>
+<article{{attributes.addClass('news-side-2')}}>
 
-	<section class="container-title-main">
+	{# <pre>
+				    {{ dump(content) }}
+				  </pre> #}
 
-		<div class="news-tags {{content.field_news_wilmer_tags.0["#title"]|lower}}">
-
-			<a href={{ content.field_news_wilmer_tags.0["#url"] }}>{{content.field_news_wilmer_tags.0["#title"]|striptags}}</a>
-			<span> | </span>
-			<span>
-				{{ content.field_news_wilmer_date.0["#attributes"].datetime|date("h:i a") }}
-			</span>
-
-		</div>
-		<h1 class="news-title-main">{{ label }}</h1>
-		<p>
-			{{ content.field_news_wilmer_description.0["#text"]|striptags}}
-		</p>
-	</section>
-	<section class="container-image">
-		{{ content.field_news_wilmer_image.0 }}
-	</section>
+	<main class="sidebar-news-1 sidebar-news-2">
+		<section class="container-image container-image-side-2">
+			{{ content.field_news_wilmer_image.0 }}
+		</section>
+		<section>
+				<a class="news-tags news-tags-others" href={{ content.field_news_wilmer_tags.0["#url"] }}>
+					{{content.field_news_wilmer_tags.0["#title"]|striptags}}
+				</a>
+			<h2 class="side-title side-title-2">
+				{{ label }}
+			</h2>
+		</section>
+	</main>
 
 	{# {{ title_prefix }}
 							  {% if label and not page %}
@@ -106,9 +104,9 @@
 							      </div>
 							    </footer>
 							  {% endif %}
-							#}
-							  {# <div{{ content_attributes }}>
+							
+							  <div{{ content_attributes }}>
 							    {{ content }}
-							  </div>  #}
+							  </div> #}
 
 </article>

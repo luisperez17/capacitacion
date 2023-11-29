@@ -43,42 +43,47 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
+<div
+	class="layout-container">
 
-  {# {{ page.breadcrumb }} #}
+	{# {{ page.breadcrumb }} #}
 
-  <main class="main-news" role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+	<main class="main-news" role="main">
+		<a id="main-content" tabindex="-1"></a>
+		{# link is in html.html.twig #}
 
-  <section class="title-page">
-  <h1>EL TIEMPO</h1>
-  </section>
-   
-  {# {{ page.content["esinergiawil_titulowilmer"] }} #}
-    
-  <section class="section-news">
-    <div class="layout-content">
-     {{ page.content }}
-      {# {% for key, value in page.content %}
-    {% if key != "esinergiawil_titulowilmer" %}
-      {{ value }}
-    {% endif %}
-  {% endfor %} #}
-    </div> {# /.layout-content #}
+		<section class="title-page">
+			<h1>EL TIEMPO</h1>
+		</section>
 
-    {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-    {% endif %}
+		{# {{ page.content["esinergiawil_titulowilmer"] }} #}
 
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
-      </aside>
-    {% endif %}
-  </section>
+		<section class="section-news">
+			<div class="layout-content">
+				{{ page.content }}
+				{# {% for key, value in page.content %}
+				    {% if key != "esinergiawil_titulowilmer" %}
+				      {{ value }}
+				    {% endif %}
+				  {% endfor %} #}
+			</div>
+			{# /.layout-content #}
 
-  </main>
+			{% if page.sidebar_first %}
+				<aside class="layout-sidebar-first" role="complementary">
+					{{ page.sidebar_first }}
+					{% if page.sidebar_second %}
+						<section class="layout-sidebar-second" role="complementary">
+							{{ page.sidebar_second }}
+						</section>
+					{% endif %}
+				</aside>
+			{% endif %}
 
-</div>{# /.layout-container #}
+
+		</section>
+
+	</main>
+
+</div>
+{# /.layout-container #}
