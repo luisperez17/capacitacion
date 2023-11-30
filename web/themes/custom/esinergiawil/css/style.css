@@ -105,6 +105,10 @@
     font-weight: bolder;
 }
 
+.news-title-main a {
+    color: black;
+}
+
 .container-image {
     width: 100%;
     height: 100%;
@@ -142,6 +146,7 @@
 
 .side-title {
     font-size: 1rem;
+    color: black;
 }
 
 .side-tags {
@@ -227,6 +232,7 @@
 .footer-title {
     font-size: 1rem;
     line-height: 22px;
+    color: black;
 }
 
 div#block-esinergiawil-content footer {

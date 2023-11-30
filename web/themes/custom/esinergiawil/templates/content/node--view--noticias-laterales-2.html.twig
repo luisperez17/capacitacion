@@ -68,45 +68,44 @@
  */
 #}
 <article{{attributes.addClass('news-side-2')}}>
-
 	{# <pre>
-				    {{ dump(content) }}
-				  </pre> #}
-
+		{{ dump(content) }}
+	</pre> #}
 	<main class="sidebar-news-1 sidebar-news-2">
 		<section class="container-image container-image-side-2">
 			{{ content.field_news_wilmer_image.0 }}
 		</section>
 		<section>
-				<a class="news-tags news-tags-others" href={{ content.field_news_wilmer_tags.0["#url"] }}>
-					{{content.field_news_wilmer_tags.0["#title"]|striptags}}
+			<a class="news-tags news-tags-others" href={{ content.field_news_wilmer_tags.0["#url"] }}>
+				{{content.field_news_wilmer_tags.0["#title"]|striptags}}
+			</a>
+			{% if label and not page %}
+				<a href="{{ url }}" rel="bookmark">
+					<h2 class="side-title side-title-2">{{ label }}</h2>
 				</a>
-			<h2 class="side-title side-title-2">
-				{{ label }}
-			</h2>
+			{% endif %}
 		</section>
 	</main>
-
 	{# {{ title_prefix }}
-							  {% if label and not page %}
-							    <h2{{ title_attributes }}>
-							      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-							    </h2>
-							  {% endif %}
-							  {{ title_suffix }}
-							
-							  {% if display_submitted %}
-							    <footer>
-							      {{ author_picture }}
-							      <div{{ author_attributes }}>
-							        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-							        {{ metadata }}
-							      </div>
-							    </footer>
-							  {% endif %}
-							
-							  <div{{ content_attributes }}>
-							    {{ content }}
-							  </div> #}
-
+	{% if label and not page %}
+		<h2{{title_attributes}}>
+			<a href="{{ url }}" rel="bookmark">{{ label }}</a>
+		</h2>
+	{% endif %}
+	{{ title_suffix }}
+	{% if display_submitted %}
+		<footer>
+			{{ author_picture }}
+			<div{{author_attributes}}>
+				{% trans %}Submitted by
+				{{ author_name }}
+				on
+				{{ date }}{% endtrans %}
+				{{ metadata }}
+			</div>
+		</footer>
+	{% endif %}
+	<div{{content_attributes}}>
+		{{ content }}
+	</div> #}
 </article>

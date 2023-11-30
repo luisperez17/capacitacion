@@ -68,49 +68,48 @@
  */
 #}
 <article{{attributes.addClass('news-side-1')}}>
-
 	{# <pre>
-		    {{ dump(content) }}
-		  </pre> #}
-
+		{{ dump(content) }}
+	</pre> #}
 	<main class="sidebar-news-1">
 		<section>
 			<div class="news-tags news-tags-side">
 				{{ content.field_news_wilmer_date.0["#attributes"].datetime|date("h:i a") }}
 			</div>
-				<a class="side-tags {{content.field_news_wilmer_tags.0["#title"]|lower}}" 
-        href={{ content.field_news_wilmer_tags.0["#url"] }}>
-					{{content.field_news_wilmer_tags.0["#title"]|striptags}}
+			<a class="side-tags {{ content.field_news_wilmer_tags.0["#title"]|lower }}" href={{ content.field_news_wilmer_tags.0["#url"] }}>
+				{{ content.field_news_wilmer_tags.0["#title"]|striptags }}
+			</a>
+			{% if label and not page %}
+				<a href="{{ url }}" rel="bookmark">
+					<h2 class="side-title">{{ label }}</h2>
 				</a>
-			<h2 class="side-title">
-				{{ label }}
-			</h2>
+			{% endif %}
 		</section>
 		<section class="container-image container-image-side">
 			{{ content.field_news_wilmer_image.0 }}
 		</section>
 	</main>
-
 	{# {{ title_prefix }}
-					  {% if label and not page %}
-					    <h2{{ title_attributes }}>
-					      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-					    </h2>
-					  {% endif %}
-					  {{ title_suffix }}
-					
-					  {% if display_submitted %}
-					    <footer>
-					      {{ author_picture }}
-					      <div{{ author_attributes }}>
-					        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-					        {{ metadata }}
-					      </div>
-					    </footer>
-					  {% endif %}
-					
-					  <div{{ content_attributes }}>
-					    {{ content }}
-					  </div> #}
+	{% if label and not page %}
+		<h2{{title_attributes}}>
+			<a href="{{ url }}" rel="bookmark">{{ label }}</a>
+		</h2>
+	{% endif %}
+	{{ title_suffix }}
 
+	{% if display_submitted %}
+		<footer>
+			{{ author_picture }}
+			<div{{author_attributes}}>
+				{% trans %}Submitted by
+				{{ author_name }}
+				on
+				{{ date }}{% endtrans %}
+				{{ metadata }}
+			</div>
+		</footer>
+	{% endif %}
+	<div{{content_attributes}}>
+		{{ content }}
+	</div> #}
 </article>

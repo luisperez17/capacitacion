@@ -77,8 +77,10 @@
 				{{ content.field_news_wilmer_date.0["#attributes"].datetime|date("h:i a") }}
 			</span>
 		</div>
-		<h2 class="footer-title">
-			{{ label }}
-		</h2>
+		{% if label and not page %}
+			<a href="{{ url }}" rel="bookmark">
+				<h2 class="footer-title">{{ label }}</h2>
+			</a>
+		{% endif %}
 	</section>
 </article>
