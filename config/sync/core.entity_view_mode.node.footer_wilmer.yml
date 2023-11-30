@@ -1,0 +1,10 @@
+uuid: 6c42c324-b9e6-4fe3-8733-81bc9d8d56ff
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.footer_wilmer
+label: 'Pie de pagina Wilmer'
+targetEntityType: node
+cache: true

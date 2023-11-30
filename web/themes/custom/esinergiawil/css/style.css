@@ -5,6 +5,13 @@
     text-decoration: none;
 }
 
+:root {
+    --blue: #0E65A5;
+    --gray: #666;
+    --red: #d82b36;
+    --black: #000000;
+}
+
 .main-news {
     width: 100%;
 }
@@ -17,8 +24,8 @@
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    color: #0E65A5;
-    border-bottom: 2px solid #0E65A5;
+    color: var(--blue);
+    border-bottom: 2px solid var(--blue);
 }
 
 .section-news {
@@ -40,13 +47,14 @@
 .layout-sidebar-second {
     margin-top: 4rem;
 }
+
 .news-main,
 .sidebar-news-1 {
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
     gap: 2rem;
     width: 100%;
-    border-bottom: 2px solid #d82b36;
+    border-bottom: 2px solid var(--red);
     padding-bottom: 2rem;
     margin-bottom: 0.6rem;
 }
@@ -63,7 +71,7 @@
     grid-template-columns: 0.6fr 1.4fr;
     padding-bottom: 1rem;
 }
-    
+
 .container-title-main {
     display: flex;
     padding: 1rem 0;
@@ -105,8 +113,8 @@
     font-weight: bolder;
 }
 
-.news-title-main a {
-    color: black;
+.news-title-main {
+    color: var(--black);
 }
 
 .container-image {
@@ -146,7 +154,7 @@
 
 .side-title {
     font-size: 1rem;
-    color: black;
+    color: var(--black);
 }
 
 .side-tags {
@@ -166,7 +174,7 @@
 }
 
 .exclusivo {
-    background-color: #D82B36;
+    background-color: var(--red);
     display: flex;
     justify-content: space-around;
 }
@@ -193,6 +201,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     & img {
         min-width: 90px;
         min-height: 80px;
@@ -226,17 +235,23 @@
 
 .date-footer {
     font-size: 0.8rem;
-    color: #666;
+    color: var(--gray);
 }
 
 .footer-title {
     font-size: 1rem;
     line-height: 22px;
-    color: black;
+    color: var(--black);
 }
 
 div#block-esinergiawil-content footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.news-title-main:hover,
+.footer-title:hover,
+.side-title:hover {
+    color: var(--gray);
 }

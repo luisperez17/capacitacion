@@ -83,9 +83,9 @@
 
 		</div>
 		{% if label and not page %}
-			<h1 class="news-title-main">
-				<a href="{{ url }}" rel="bookmark">{{ label }}</a>
-			</h1>
+			<a href="{{ url }}" rel="bookmark">
+				<h1 class="news-title-main">{{ label }}</h1>
+			</a>
 		{% endif %}
 		<p>
 			{{ content.field_news_wilmer_description.0["#text"]|striptags}}
