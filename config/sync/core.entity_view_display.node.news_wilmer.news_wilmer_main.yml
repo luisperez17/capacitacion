@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.news_wilmer.field_news_wilmer_date
     - field.field.node.news_wilmer.field_news_wilmer_description
     - field.field.node.news_wilmer.field_news_wilmer_image
+    - field.field.node.news_wilmer.field_news_wilmer_photo
     - field.field.node.news_wilmer.field_news_wilmer_tags
     - image.style.medium
     - node.type.news_wilmer
@@ -164,5 +165,6 @@ content:
     region: content
 hidden:
   field_news_wilmer_date: true
+  field_news_wilmer_photo: true
   langcode: true
   links: true

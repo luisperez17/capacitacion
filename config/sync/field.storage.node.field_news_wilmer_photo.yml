@@ -1,0 +1,21 @@
+uuid: 9a7acc52-afaa-48be-b524-0be70ba79bc8
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_news_wilmer_photo
+field_name: field_news_wilmer_photo
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

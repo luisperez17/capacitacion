@@ -1,0 +1,19 @@
+uuid: 7a8879a0-8729-40dc-8930-56b60ab60849
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_wilmer_photo
+    - node.type.news_wilmer
+id: node.news_wilmer.field_news_wilmer_photo
+field_name: field_news_wilmer_photo
+entity_type: node
+bundle: news_wilmer
+label: Foto
+description: 'Campo para ingresar el autor de la imagen'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

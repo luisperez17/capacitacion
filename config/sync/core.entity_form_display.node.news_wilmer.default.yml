@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.news_wilmer.field_news_wilmer_date
     - field.field.node.news_wilmer.field_news_wilmer_description
     - field.field.node.news_wilmer.field_news_wilmer_image
+    - field.field.node.news_wilmer.field_news_wilmer_photo
     - field.field.node.news_wilmer.field_news_wilmer_tags
     - image.style.thumbnail
     - node.type.news_wilmer
@@ -48,6 +49,14 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_news_wilmer_photo:
+    type: string_textfield
+    weight: 127
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_news_wilmer_tags:
     type: entity_reference_autocomplete
