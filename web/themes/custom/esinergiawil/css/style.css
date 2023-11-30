@@ -313,6 +313,19 @@ div#block-esinergiawil-content footer {
     box-shadow: 17px 0 0 0 #0072ac, -17px 0 0 0 #0072ac;
 }
 
+.detail-photo {
+    padding-left: .2rem;
+    font-size: 14px;
+    display: inline-block;
+    color: var(--gray);
+}
+
+.detail-photo span {
+    color: #0072ac;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .detail-description {
     width: 100%;
     margin-left: 210px;

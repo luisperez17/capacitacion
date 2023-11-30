@@ -1,0 +1,22 @@
+uuid: 98f7bbc5-fc50-4bfb-b9f4-64e0edcca8b1
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: news_wilmer_path
+label: 'Noticias Wilmer ruta'
+type: 'canonical_entities:node'
+pattern: '/news_wilmer/[node:title]'
+selection_criteria:
+  5d90e8f4-7f98-437c-ac65-46d65bb147c9:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 5d90e8f4-7f98-437c-ac65-46d65bb147c9
+    context_mapping:
+      node: node
+    bundles:
+      news_wilmer: news_wilmer
+selection_logic: and
+weight: -5
+relationships: {  }
