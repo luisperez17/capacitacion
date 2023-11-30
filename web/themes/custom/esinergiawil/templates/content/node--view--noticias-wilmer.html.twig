@@ -67,11 +67,10 @@
  *
  */
 #}
-<article{{attributes.addClass('news-main')}}>
-
+<article{{attributes.addClass('news-main').addClass('news-main-',node.id())}}>
 	<section class="container-title-main">
 
-		<div class="news-tags {{content.field_news_wilmer_tags.0[" #title"]|lower}}">
+		<div class="news-tags {{content.field_news_wilmer_tags.0["#title"]|lower}}">
 
 			<a href={{ content.field_news_wilmer_tags.0["#url"] }}>{{content.field_news_wilmer_tags.0["#title"]|striptags}}</a>
 			<span>
