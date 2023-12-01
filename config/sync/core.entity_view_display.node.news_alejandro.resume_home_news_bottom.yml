@@ -1,0 +1,37 @@
+uuid: 35147159-92ea-4f65-85e9-1fafc34bf600
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.resume_home_news_bottom
+    - field.field.node.news_alejandro.body
+    - field.field.node.news_alejandro.field_new_exclusive
+    - field.field.node.news_alejandro.field_new_image
+    - field.field.node.news_alejandro.field_new_type
+    - node.type.news_alejandro
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.news_alejandro.resume_home_news_bottom
+targetEntityType: node
+bundle: news_alejandro
+mode: resume_home_news_bottom
+content:
+  field_new_type:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_new_exclusive: true
+  field_new_image: true
+  langcode: true
+  links: true

@@ -1,0 +1,10 @@
+uuid: 45efe427-2dda-4a5b-b901-1ecd96e3de74
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.sidebar_news_x_3
+label: 'sidebar news x 3'
+targetEntityType: node
+cache: true

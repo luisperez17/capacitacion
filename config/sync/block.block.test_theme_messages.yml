@@ -1,0 +1,22 @@
+uuid: fae2383f-ec43-4695-94da-fd7f7a6d9e2f
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - test_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: test_theme_messages
+theme: test_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

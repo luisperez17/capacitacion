@@ -1,0 +1,18 @@
+uuid: e5f19f68-5eb9-4bdb-a2e3-56f07acbcd92
+langcode: es
+status: false
+dependencies:
+  theme:
+    - test_theme
+id: test_theme_titulodelapagina
+theme: test_theme
+region: sidebar_first
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility: {  }

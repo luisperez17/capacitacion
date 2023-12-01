@@ -1,0 +1,10 @@
+uuid: 86236168-069d-4d91-8bee-80b14e47190f
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.resume_home_news_bottom
+label: 'resume home news bottom'
+targetEntityType: node
+cache: true

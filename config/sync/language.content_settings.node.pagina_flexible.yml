@@ -1,0 +1,11 @@
+uuid: 03081abf-01fb-4f3e-832e-04be3a279b47
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.pagina_flexible
+id: node.pagina_flexible
+target_entity_type_id: node
+target_bundle: pagina_flexible
+default_langcode: site_default
+language_alterable: false

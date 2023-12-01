@@ -1,0 +1,23 @@
+uuid: 12871c1b-f9a0-4c3b-8adc-bc3327dbc979
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - test_theme
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: test_theme_syndicate
+theme: test_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'Canal RSS'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

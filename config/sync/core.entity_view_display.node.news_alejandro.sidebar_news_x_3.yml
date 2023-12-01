@@ -1,51 +1,42 @@
-uuid: 6c5b4c5a-a9ce-4ca8-a855-afdbea6c3f54
+uuid: fd7b0a8e-722c-425b-8ae4-8def85a5d0db
 langcode: es
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.sidebar_news_x_3
     - field.field.node.news_alejandro.body
     - field.field.node.news_alejandro.field_new_exclusive
     - field.field.node.news_alejandro.field_new_image
     - field.field.node.news_alejandro.field_new_type
+    - image.style.medium
     - node.type.news_alejandro
   module:
     - image
-    - text
+    - layout_builder
     - user
-id: node.news_alejandro.teaser
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.news_alejandro.sidebar_news_x_3
 targetEntityType: node
 bundle: news_alejandro
-mode: teaser
+mode: sidebar_news_x_3
 content:
-  body:
-    type: text_trimmed
-    label: hidden
-    settings:
-      trim_length: 100
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_new_exclusive:
-    type: entity_reference_label
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 0
-    region: content
   field_new_image:
     type: image
     label: hidden
     settings:
-      image_link: ''
-      image_style: ''
+      image_link: content
+      image_style: medium
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
 hidden:
+  body: true
+  field_new_exclusive: true
   field_new_type: true
   langcode: true
   links: true

@@ -1,0 +1,10 @@
+uuid: 852e0953-fe29-4fc8-a9f0-61f4b9cfe575
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.home_news_view_bottom
+label: 'home news view bottom'
+targetEntityType: node
+cache: true

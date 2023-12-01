@@ -1,22 +1,28 @@
-uuid: 6c5b4c5a-a9ce-4ca8-a855-afdbea6c3f54
+uuid: 7c2cbe42-e019-4c35-a58f-1ccd2203b043
 langcode: es
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.home_news_view_bottom
     - field.field.node.news_alejandro.body
     - field.field.node.news_alejandro.field_new_exclusive
     - field.field.node.news_alejandro.field_new_image
     - field.field.node.news_alejandro.field_new_type
+    - image.style.large
     - node.type.news_alejandro
   module:
     - image
+    - layout_builder
     - text
     - user
-id: node.news_alejandro.teaser
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.news_alejandro.home_news_view_bottom
 targetEntityType: node
 bundle: news_alejandro
-mode: teaser
+mode: home_news_view_bottom
 content:
   body:
     type: text_trimmed
@@ -24,9 +30,20 @@ content:
     settings:
       trim_length: 100
     third_party_settings: {  }
+    weight: 1
+    region: content
+  field_new_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
     weight: 2
     region: content
-  field_new_exclusive:
+  field_new_type:
     type: entity_reference_label
     label: hidden
     settings:
@@ -34,18 +51,7 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_new_image:
-    type: image
-    label: hidden
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 1
-    region: content
 hidden:
-  field_new_type: true
+  field_new_exclusive: true
   langcode: true
   links: true
