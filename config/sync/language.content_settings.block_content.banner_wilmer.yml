@@ -1,0 +1,11 @@
+uuid: 5932059e-c97f-46fb-ac4b-32173f68b0c9
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_wilmer
+id: block_content.banner_wilmer
+target_entity_type_id: block_content
+target_bundle: banner_wilmer
+default_langcode: site_default
+language_alterable: false

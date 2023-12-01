@@ -1,0 +1,60 @@
+uuid: 2ee9e04d-032b-4d35-aafb-affcc3447ab3
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_wilmer
+    - field.field.block_content.banner_wilmer.field_description_banner_wilmer
+    - field.field.block_content.banner_wilmer.field_image_banner
+    - field.field.block_content.banner_wilmer.field_title_banner_wilmer
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.banner_wilmer.default
+targetEntityType: block_content
+bundle: banner_wilmer
+mode: default
+content:
+  field_description_banner_wilmer:
+    type: text_textarea_with_summary
+    weight: 28
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_image_banner:
+    type: image_image
+    weight: 26
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title_banner_wilmer:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

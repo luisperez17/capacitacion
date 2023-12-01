@@ -1,0 +1,19 @@
+uuid: 22a54adc-5c2d-43fa-b1f9-3a07dd8e07c5
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_wilmer
+    - field.storage.block_content.field_title_banner_wilmer
+id: block_content.banner_wilmer.field_title_banner_wilmer
+field_name: field_title_banner_wilmer
+entity_type: block_content
+bundle: banner_wilmer
+label: Titulo
+description: 'Titulo del banner'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,24 @@
+uuid: e7cf0114-e06f-4919-bc86-b30075fe4128
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_wilmer
+    - field.storage.block_content.field_description_banner_wilmer
+  module:
+    - text
+id: block_content.banner_wilmer.field_description_banner_wilmer
+field_name: field_description_banner_wilmer
+entity_type: block_content
+bundle: banner_wilmer
+label: Descripcion
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

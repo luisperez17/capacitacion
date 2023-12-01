@@ -1,0 +1,66 @@
+uuid: 3924276a-8fec-4c60-bdbb-8910c63ccb43
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.wilmer_page.body
+    - node.type.wilmer_page
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          2d94754f-e5bb-4a50-8fa3-e0b4af5c82c9:
+            uuid: 2d94754f-e5bb-4a50-8fa3-e0b4af5c82c9
+            region: content
+            configuration:
+              id: 'extra_field_block:node:wilmer_page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          7de6018c-c51d-4c0e-9de3-eede041fb57d:
+            uuid: 7de6018c-c51d-4c0e-9de3-eede041fb57d
+            region: content
+            configuration:
+              id: 'field_block:node:wilmer_page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: node.wilmer_page.default
+targetEntityType: node
+bundle: wilmer_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

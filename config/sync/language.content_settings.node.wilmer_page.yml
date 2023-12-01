@@ -1,0 +1,11 @@
+uuid: 54b846b7-a3f8-4ac3-8c7f-6a03b706f883
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.wilmer_page
+id: node.wilmer_page
+target_entity_type_id: node
+target_bundle: wilmer_page
+default_langcode: site_default
+language_alterable: false
