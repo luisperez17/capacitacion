@@ -1,0 +1,8 @@
+uuid: a8b13fc1-9afc-43ff-b030-c3227941c726
+langcode: es
+status: true
+dependencies: {  }
+id: card_wilmer
+label: 'Tarjeta Wilmer'
+revision: 0
+description: ''

@@ -1,19 +1,19 @@
-uuid: 2ee9e04d-032b-4d35-aafb-affcc3447ab3
+uuid: 9666db30-0684-4637-8db3-6645867b94b0
 langcode: es
 status: true
 dependencies:
   config:
-    - block_content.type.banner_wilmer
-    - field.field.block_content.banner_wilmer.field_description_banner_wilmer
-    - field.field.block_content.banner_wilmer.field_image_banner
-    - field.field.block_content.banner_wilmer.field_title_banner_wilmer
+    - block_content.type.card_wilmer
+    - field.field.block_content.card_wilmer.field_description_banner_wilmer
+    - field.field.block_content.card_wilmer.field_image_banner
+    - field.field.block_content.card_wilmer.field_title_banner_wilmer
     - image.style.thumbnail
   module:
     - image
     - text
-id: block_content.banner_wilmer.default
+id: block_content.card_wilmer.default
 targetEntityType: block_content
-bundle: banner_wilmer
+bundle: card_wilmer
 mode: default
 content:
   field_description_banner_wilmer:

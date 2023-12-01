@@ -1,0 +1,45 @@
+uuid: fca4b212-2ce2-4b4f-baf8-f401c35abcba
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.card_wilmer
+    - field.field.block_content.card_wilmer.field_description_banner_wilmer
+    - field.field.block_content.card_wilmer.field_image_banner
+    - field.field.block_content.card_wilmer.field_title_banner_wilmer
+  module:
+    - image
+    - text
+id: block_content.card_wilmer.default
+targetEntityType: block_content
+bundle: card_wilmer
+mode: default
+content:
+  field_description_banner_wilmer:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image_banner:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title_banner_wilmer:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

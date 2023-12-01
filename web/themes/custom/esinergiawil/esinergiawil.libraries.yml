@@ -10,3 +10,8 @@ banner:
   css:
     theme:
       css/banner.css: {}
+
+card:
+  css:
+    theme:
+      css/card.css: {}

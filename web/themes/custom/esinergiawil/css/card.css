@@ -1,0 +1,102 @@
+.card {
+    padding: 8px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.card-info {
+    background: url(https://banco.santander.cl/uploads/000/017/489/864f547b-78cc-498e-91b8-41e23ca1e6da/original/bg-title.png) no-repeat;
+    background-size: cover;
+    background-color: #deedf2;
+    top: 0;
+    border-radius: 12px 12px 0 0;
+    padding: 20px;
+    border-bottom: 5px solid #fff;
+    text-align: center;
+    color: #444;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-info h1 {
+    font-size: 24px;
+    line-height: 1.2em;
+}
+
+.card-info p {
+    font-weight: lighter;
+}
+
+.card-image {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 0 0 12px 12px;
+    overflow: hidden;
+    display: flex;
+    & img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.card-button {
+    visibility: hidden;
+    transition: visibility 0.5s,opacity .5s linear;
+    opacity: 0;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.card-button a {
+    background-color: #ec0000;
+    border-color: #ec0000;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: normal;
+    margin: 0 auto;
+    padding: 7.25px 4.2rem;
+    text-align: center;
+    transition: background-color .3s ease;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -ms-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+}
+
+.card-button a:hover {
+    background-color: #930000;
+    border-color: #930000;
+    color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-1em);
+    box-shadow: 0 0 28px 0 rgba(0,0,0,0.1);
+}
+
+.card:hover .card-image img {
+    filter: brightness(0.4);
+}
+
+.card:hover .card-button {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card-image:hover img {
+    transition: transform 2s,filter 3s ease-out;
+    transform: scale(1.2);
+    -webkit-transition: transform 2s,filter 3s ease-out;
+    -moz-transition: transform 2s,filter 3s ease-out;
+    -ms-transition: transform 2s,filter 3s ease-out;
+    -o-transition: transform 2s,filter 3s ease-out;
+}
