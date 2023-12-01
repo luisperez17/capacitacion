@@ -1,0 +1,22 @@
+uuid: 108ba619-22db-4562-ab79-2364ef05a2f3
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.highlights_wilmer
+    - field.field.block_content.highlights_wilmer.field_cards_wilmer
+id: block_content.highlights_wilmer.default
+targetEntityType: block_content
+bundle: highlights_wilmer
+mode: default
+content:
+  field_cards_wilmer:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

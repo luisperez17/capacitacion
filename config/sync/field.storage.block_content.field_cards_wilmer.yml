@@ -1,0 +1,19 @@
+uuid: 49312d53-2d95-41d8-9490-5f1f426f2e2b
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_cards_wilmer
+field_name: field_cards_wilmer
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

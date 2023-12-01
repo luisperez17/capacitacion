@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^10.1",
         "drupal/exclude_node_title": "^1.4",
         "drupal/field_group": "^3.4",
+        "drupal/inline_entity_form": "^1.0@RC",
         "drupal/pathauto": "^1.12",
         "drush/drush": "^12.4"
     },

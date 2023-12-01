@@ -1,0 +1,43 @@
+uuid: db75721b-0bfd-49c5-b725-9a9e93bae2be
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.highlights_wilmer
+    - field.field.block_content.highlights_wilmer.field_cards_wilmer
+  module:
+    - inline_entity_form
+id: block_content.highlights_wilmer.default
+targetEntityType: block_content
+bundle: highlights_wilmer
+mode: default
+content:
+  field_cards_wilmer:
+    type: inline_entity_form_simple
+    weight: 26
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      collapsible: false
+      collapsed: false
+      revision: false
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

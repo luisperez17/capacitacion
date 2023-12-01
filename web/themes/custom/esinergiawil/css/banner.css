@@ -1,5 +1,12 @@
+.layout--twocol-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .banner {
-    padding-top: 2rem;
+    padding: 2rem;
     width: 100%;
 }
 

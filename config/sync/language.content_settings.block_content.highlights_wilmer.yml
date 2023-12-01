@@ -1,0 +1,11 @@
+uuid: f39f711d-51d4-4464-b1d9-767dbc6a1d79
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.highlights_wilmer
+id: block_content.highlights_wilmer
+target_entity_type_id: block_content
+target_bundle: highlights_wilmer
+default_langcode: site_default
+language_alterable: false
