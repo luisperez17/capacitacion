@@ -67,15 +67,17 @@
  *
  */
 #}
-<article{{attributes.addClass('news-main').addClass('news-main-',node.id())}}>
+<article{{attributes.addClass('news-main').addClass('news-main-'~node.id())}}>
 	<section class="container-title-main">
 
 		<div class="news-tags {{content.field_news_wilmer_tags.0["#title"]|lower}}">
 
 			<a href={{ content.field_news_wilmer_tags.0["#url"] }}>{{content.field_news_wilmer_tags.0["#title"]|striptags}}</a>
-			<span>
-				|
-			</span>
+			{% if node.id() == 1 %}
+				<span>
+					|
+				</span>
+			{% endif %}
 			<span>
 				{{ content.field_news_wilmer_date.0["#attributes"].datetime|date("h:i a") }}
 			</span>
@@ -95,25 +97,25 @@
 	</section>
 
 	{# {{ title_prefix }}
-			{% if label and not page %}
-			<h2{{ title_attributes }}>
-				<a href="{{ url }}" rel="bookmark">{{ label }}</a>
-			</h2>
-			{% endif %}
-			{{ title_suffix }}
-		
-			{% if display_submitted %}
-			<footer>
-				{{ author_picture }}
-				<div{{ author_attributes }}>
-				{% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-				{{ metadata }}
-				</div>
-			</footer>
-			{% endif %}
-		#}
+						{% if label and not page %}
+						<h2{{ title_attributes }}>
+							<a href="{{ url }}" rel="bookmark">{{ label }}</a>
+						</h2>
+						{% endif %}
+						{{ title_suffix }}
+					
+						{% if display_submitted %}
+						<footer>
+							{{ author_picture }}
+							<div{{ author_attributes }}>
+							{% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+							{{ metadata }}
+							</div>
+						</footer>
+						{% endif %}
+					#}
 	{# <div{{ content_attributes }}>
-			{{ content }}
-		</div>  #}
+						{{ content }}
+					</div>  #}
 
 </article>

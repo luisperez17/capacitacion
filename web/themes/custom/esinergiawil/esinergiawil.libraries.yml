@@ -1,7 +1,12 @@
 global-styling:
   css:
-    theme: 
+    theme:
       css/style.css: {}
   # js:
-  #   theme: 
+  #   theme:
   #     js/script.js: {}
+
+banner:
+  css:
+    theme:
+      css/banner.css: {}
