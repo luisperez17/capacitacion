@@ -262,3 +262,68 @@
   text-decoration: none;
   color: #000;
 }
+
+/* Estilos de la twig -> "news-alejandro--full.html.twig*/
+
+.new-alejandro-container-node {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.wrap-text {
+  position: absolute;
+  bottom: -200px;
+  left: 60px;
+  box-sizing: border-box;
+}
+
+.wrap-text__article {
+  padding: 0 0 0 17px;
+  margin: -6px 0 0 0;
+  width: 71%;
+  max-width: 400px;
+  min-height: 816px;
+}
+
+.wrap-text  h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 72px;
+  color: #fff;
+  overflow-wrap: break-word;
+  display: inline;
+  padding: 4px 0 9px;
+  background: #0072ac;
+  box-shadow: 17px 0 0 0 #0072ac,-17px 0 0 0 #0072ac;
+}
+
+
+.content-news-alejandro-node p {
+  text-align: justify;
+  margin: 0 1.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 27px;
+  color: #393939;
+  overflow-wrap: break-word;
+  display: block;
+}
+
+/*
+.content-news-alejandro-node p::first-letter {
+  font-size: 5rem;
+  color: #000;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+*/
