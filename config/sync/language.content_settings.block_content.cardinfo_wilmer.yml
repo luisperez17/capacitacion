@@ -1,0 +1,11 @@
+uuid: 905986e3-19ab-4881-b4e7-906c54af8aa5
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cardinfo_wilmer
+id: block_content.cardinfo_wilmer
+target_entity_type_id: block_content
+target_bundle: cardinfo_wilmer
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,30 @@
+uuid: 67f70b8f-57dd-479d-a8d7-fc6d206685af
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.highlights_wilmer
+    - core.entity_view_mode.block_content.full
+    - field.field.block_content.highlights_wilmer.field_cards_wilmer
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: block_content.highlights_wilmer.full
+targetEntityType: block_content
+bundle: highlights_wilmer
+mode: full
+content:
+  field_cards_wilmer:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

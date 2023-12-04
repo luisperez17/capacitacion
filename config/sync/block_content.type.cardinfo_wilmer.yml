@@ -1,0 +1,8 @@
+uuid: 0cca6b15-e0aa-47fd-a450-611a03cb40a6
+langcode: es
+status: true
+dependencies: {  }
+id: cardinfo_wilmer
+label: 'Tarjeta Informativa Wilmer'
+revision: 0
+description: ''

@@ -1,0 +1,23 @@
+uuid: 2421e4d1-87bd-4584-875f-5b6330ddff27
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cardinfo_wilmer
+    - field.field.block_content.cardinfo_wilmer.field_cardsinfo_wilmer
+id: block_content.cardinfo_wilmer.default
+targetEntityType: block_content
+bundle: cardinfo_wilmer
+mode: default
+content:
+  field_cardsinfo_wilmer:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,29 @@
+uuid: 217625e8-6be2-4d0c-a56c-5b648b603532
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.card_wilmer
+    - block_content.type.cardinfo_wilmer
+    - field.storage.block_content.field_cardsinfo_wilmer
+id: block_content.cardinfo_wilmer.field_cardsinfo_wilmer
+field_name: field_cardsinfo_wilmer
+entity_type: block_content
+bundle: cardinfo_wilmer
+label: 'Tarjetas info Wilmer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      card_wilmer: card_wilmer
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

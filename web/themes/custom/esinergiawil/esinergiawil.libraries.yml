@@ -20,3 +20,8 @@ highlights:
   css:
       theme:
         css/highlights.css: {}
+
+cardinfo:
+  css:
+    theme:
+      css/cardinfo.css: {}
