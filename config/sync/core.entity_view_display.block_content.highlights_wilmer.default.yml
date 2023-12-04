@@ -11,10 +11,11 @@ bundle: highlights_wilmer
 mode: default
 content:
   field_cards_wilmer:
-    type: entity_reference_label
+    type: entity_reference_entity_view
     label: above
     settings:
-      link: true
+      view_mode: full
+      link: false
     third_party_settings: {  }
     weight: 0
     region: content

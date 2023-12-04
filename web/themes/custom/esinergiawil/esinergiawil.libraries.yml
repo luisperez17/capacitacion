@@ -15,3 +15,8 @@ card:
   css:
     theme:
       css/card.css: {}
+
+highlights: 
+  css:
+      theme:
+        css/highlights.css: {}
