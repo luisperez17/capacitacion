@@ -1,0 +1,19 @@
+uuid: 1f0e8c36-8de9-4d42-99cb-32f6ffeac144
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_banner_call_to_action
+field_name: field_banner_call_to_action
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -308,6 +308,14 @@
   box-shadow: 17px 0 0 0 #0072ac,-17px 0 0 0 #0072ac;
 }
 
+.content-news-alejandro-node h2,h3 {
+  text-align: justify;
+  font-weight: normal;
+  line-height: 27px;
+  color: #393939;
+  overflow-wrap: break-word;
+  display: block;
+}
 
 .content-news-alejandro-node p {
   text-align: justify;

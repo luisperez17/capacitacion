@@ -1,0 +1,22 @@
+uuid: 8bb9f171-b97c-45b0-8a97-d7349e522140
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.card_info
+    - field.storage.block_content.field_card_info_text
+  module:
+    - text
+id: block_content.card_info.field_card_info_text
+field_name: field_card_info_text
+entity_type: block_content
+bundle: card_info
+label: 'card info text'
+description: 'Card info text for this content block.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

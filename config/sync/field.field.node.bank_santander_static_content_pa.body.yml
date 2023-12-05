@@ -1,0 +1,24 @@
+uuid: 2816e7d8-03ba-453d-9ef9-301036afeed1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bank_santander_static_content_pa
+  module:
+    - text
+id: node.bank_santander_static_content_pa.body
+field_name: body
+entity_type: node
+bundle: bank_santander_static_content_pa
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

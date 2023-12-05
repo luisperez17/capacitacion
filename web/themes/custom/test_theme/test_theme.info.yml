@@ -8,3 +8,4 @@ version: 1.0
 
 libraries:
   - test_theme/global_styling
+  - test_theme/block-styling

@@ -1,0 +1,10 @@
+uuid: 06b7b1dd-e374-4b3c-94aa-b64230c1b6e2
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.card_full
+label: 'Card Full'
+targetEntityType: block_content
+cache: true

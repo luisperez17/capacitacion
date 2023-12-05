@@ -1,0 +1,11 @@
+uuid: c0a03b1c-351b-4076-872a-f66fd8771e0f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.bank_santander_static_content_pa
+id: node.bank_santander_static_content_pa
+target_entity_type_id: node
+target_bundle: bank_santander_static_content_pa
+default_langcode: site_default
+language_alterable: false

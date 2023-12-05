@@ -1,0 +1,8 @@
+uuid: fb859448-ab75-4c11-a222-9c388e529d62
+langcode: es
+status: true
+dependencies: {  }
+id: featured
+label: Destacados
+revision: 0
+description: ''

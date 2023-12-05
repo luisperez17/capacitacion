@@ -2,3 +2,8 @@ global_styling:
   css:
     theme:
       css/style.css: {}
+
+block-styling:
+  css:
+    theme:
+      css/block_style.css: {}

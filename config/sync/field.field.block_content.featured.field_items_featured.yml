@@ -1,0 +1,29 @@
+uuid: 48b67df6-e6ab-45e1-836e-0c27bd5f02da
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.card
+    - block_content.type.featured
+    - field.storage.block_content.field_items_featured
+id: block_content.featured.field_items_featured
+field_name: field_items_featured
+entity_type: block_content
+bundle: featured
+label: 'items featured'
+description: 'items featured for this content block'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      card: card
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: 0471e81d-e64b-4153-8856-24124a686664
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.card_info
+    - field.storage.block_content.field_card_info_icon
+    - media.type.image
+id: block_content.card_info.field_card_info_icon
+field_name: field_card_info_icon
+entity_type: block_content
+bundle: card_info
+label: 'card info icon'
+description: 'card info icon for this content block'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

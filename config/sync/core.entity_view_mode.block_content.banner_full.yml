@@ -1,0 +1,10 @@
+uuid: ea11bba5-18da-4a07-8879-84ae19ff069c
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.banner_full
+label: 'Banner full'
+targetEntityType: block_content
+cache: true

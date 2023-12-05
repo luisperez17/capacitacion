@@ -1,0 +1,23 @@
+uuid: d40d9f47-8a6c-4709-bc62-7b725a56c397
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.featured
+    - field.field.block_content.featured.field_items_featured
+id: block_content.featured.default
+targetEntityType: block_content
+bundle: featured
+mode: default
+content:
+  field_items_featured:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

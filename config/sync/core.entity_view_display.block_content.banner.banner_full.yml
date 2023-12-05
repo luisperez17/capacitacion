@@ -1,0 +1,53 @@
+uuid: 5f89309b-4989-47e8-851a-a836a7788925
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.banner
+    - core.entity_view_mode.block_content.banner_full
+    - field.field.block_content.banner.field_banner_call_to_action
+    - field.field.block_content.banner.field_banner_image
+    - field.field.block_content.banner.field_banner_text
+  module:
+    - layout_builder
+    - link
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: block_content.banner.banner_full
+targetEntityType: block_content
+bundle: banner
+mode: banner_full
+content:
+  field_banner_call_to_action:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_banner_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_banner_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true

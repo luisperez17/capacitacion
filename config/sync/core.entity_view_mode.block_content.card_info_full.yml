@@ -1,0 +1,10 @@
+uuid: 00fd28aa-4efc-4611-9e19-cd560dd456fb
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.card_info_full
+label: 'Card Info Full'
+targetEntityType: block_content
+cache: true

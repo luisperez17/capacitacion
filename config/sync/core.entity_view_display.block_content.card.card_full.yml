@@ -1,0 +1,39 @@
+uuid: ceb0de98-cd8b-461d-8c09-17679c56467a
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.card
+    - core.entity_view_mode.block_content.card_full
+    - field.field.block_content.card.field_card_image
+    - field.field.block_content.card.field_card_text
+  module:
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: block_content.card.card_full
+targetEntityType: block_content
+bundle: card
+mode: card_full
+content:
+  field_card_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_card_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true

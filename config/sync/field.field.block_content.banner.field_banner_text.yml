@@ -1,0 +1,22 @@
+uuid: 3467aeee-0999-4fa5-8cf5-7a974a0c61a0
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.banner
+    - field.storage.block_content.field_banner_text
+  module:
+    - text
+id: block_content.banner.field_banner_text
+field_name: field_banner_text
+entity_type: block_content
+bundle: banner
+label: 'banner text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

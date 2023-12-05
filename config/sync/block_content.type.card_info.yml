@@ -1,0 +1,8 @@
+uuid: e5a5fa81-b51c-46d9-b4c0-2a5987457d9d
+langcode: es
+status: true
+dependencies: {  }
+id: card_info
+label: 'Card Info'
+revision: 0
+description: 'Type of information card block with image, icon and text'

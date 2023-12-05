@@ -1,0 +1,33 @@
+uuid: 89891bbb-f287-4a56-8705-67109f1368e1
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bank_santander_static_content_pa.body
+    - field.field.node.bank_santander_static_content_pa.layout_builder__layout
+    - node.type.bank_santander_static_content_pa
+  module:
+    - text
+    - user
+id: node.bank_santander_static_content_pa.teaser
+targetEntityType: node
+bundle: bank_santander_static_content_pa
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  layout_builder__layout: true

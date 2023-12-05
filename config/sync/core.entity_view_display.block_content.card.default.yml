@@ -1,0 +1,33 @@
+uuid: 63801d29-c0c2-49c5-8460-254294d7411b
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.card
+    - field.field.block_content.card.field_card_image
+    - field.field.block_content.card.field_card_text
+  module:
+    - text
+id: block_content.card.default
+targetEntityType: block_content
+bundle: card
+mode: default
+content:
+  field_card_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_card_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true

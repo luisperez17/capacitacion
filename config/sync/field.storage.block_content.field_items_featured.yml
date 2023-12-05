@@ -1,0 +1,19 @@
+uuid: 4a94c4bb-18f3-4114-a49c-b6160f3e412a
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_items_featured
+field_name: field_items_featured
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
