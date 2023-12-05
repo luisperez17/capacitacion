@@ -1,0 +1,50 @@
+.cardinfo {
+    padding: 16px;
+}
+
+.cardinfo h1 {
+    margin-left: 2px;
+    font-weight: 200;
+    font-family: var(--font-santander);
+    font-size: 24px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom: 12px;
+}
+.cardinfo-image {
+    display: flex;
+    height: 215px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0,0,0,.05);
+    overflow: hidden;
+    position: relative;
+}
+
+.cardinfo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardinfo-text {
+    position: absolute;
+    background-color: #ffffffd1;
+    height: max-content;
+    width: 100%;
+    min-height: 80px;
+    bottom: 0;
+    color: #008437;
+    font-family: var(--font-santander);
+    padding: 16px;
+}
+
+.cardinfo-text:nth-child(2) {
+    color: red;
+}
+
+.cardinfo-text h2 {
+    line-height: normal;
+    font: inherit;
+}

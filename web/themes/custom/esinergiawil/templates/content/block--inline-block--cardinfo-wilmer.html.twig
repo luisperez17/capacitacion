@@ -27,16 +27,12 @@
  */
 #}
 {{ attach_library('esinergiawil/cardinfo')}}
-<pre>
-    {{ dump(content) }}
-</pre>
 <article class="cardinfo">
 	<h1>{{ content.field_cardsinfo_wilmer.0.field_title_banner_wilmer.0["#context"].value|striptags }}</h1>
-	<picture>
-		{{ content.field_cards_wilmer.0.field_image_banner.0 }}
+	<picture class="cardinfo-image">
+		{{ content.field_cardsinfo_wilmer.0.field_image_banner.0 }}
+		<div class="cardinfo-text">
+			<h2>{{ content.field_cardsinfo_wilmer.0.field_description_banner_wilmer.0["#text"]|striptags }}</h2>
+		</div>
 	</picture>
-	<div>
-		<h2>{{ content.field_cards_wilmer.0.field_description_banner_wilmer.0["#text"]|striptags }}</h2>
-	</div>
-
 </article>
