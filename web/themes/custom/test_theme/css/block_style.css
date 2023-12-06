@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos plantilla "block-inline-block--banner.html.twig" */
+
+.container-banner {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  background: whitesmoke;
+  margin: 2.5rem;
+  border-radius: 20px;
+}
+
+.container-banner-image {
+  width: 658px;
+  height: 480px;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+}
+
+.container-banner-image img  {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-top-left-radius: 20px;
+}
+
+.container-banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  overflow-wrap: break-word;
+
+  font-size: 20px;
+  line-height: 1.1em;
+  color: #444;
+}
+
+.container-banner-text > div > h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #ec0000;
+  padding: 1rem;
+}
+
+.container-banner-text > div {
+  padding: 1rem;
+}
+
+.container-banner-text > div > a {
+  background-color: #ec0000;
+  border-color: #ec0000;
+  color: #fff;
+  padding: 7.25px 16px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 14px;
+  text-align: center;
+  transition: all .5s;
+  min-width: 200px;
+  display: inline-block;
+}
+
+.container-banner-text > div > a:hover {
+  background: #930000;
+  transform: scale(1.05);
+}
+
+/* Estilos plantilla "block-inline-block--card.html.twig" */
+
+.container-card {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  align-content: center;
+  gap: 1rem;
+}
+
+.container-card-text  {
+  background: url(https://banco.santander.cl/uploads/000/017/489/864f547b-78cc-498e-91b8-41e23ca1e6da/original/bg-title.png) no-repeat;
+  background-size: cover;
+  background-color: #deedf2;
+  top: 0;
+  border-radius: 12px 12px 0 0;
+  padding: 20px;
+  border-bottom: 5px solid #fff;
+  text-align: center;
+}
+
+.container-card-text > h2 {
+  line-height: 1.2em;
+  color: #444;
+  text-align: center;
+}
+
+.container-card-image > div {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.container-card-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  border-radius: 0 0 12px 12px;
+  transition: all 1s ease-in-out;
+}
+
+.card-button {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: #ec0000;
+  border-color: #ec0000;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  min-width: 200px;
+  padding: 7.25px 16px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.container-card:hover img {
+  opacity: 0.8;
+}
+
+.container-card:hover .card-button {
+  opacity: 1;
+}
+
+.container-card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos plantilla "block-inline-block--featured.html.twig" */
+
+
+
+/* Estilos plantilla "block-inline-block--card-info.html.twig" */
+
+.container-card-info {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: fit-content;
+  border-radius: 10px;
+  margin: 3rem;
+}
+
+.title-card-info {
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: 100;
+  color: #444;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.image-card-info {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-card-info img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.container-card-info .body-content-card-info {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #008437;
+  padding: 20px;
+  display: flex;
+  background: #deedf2;
+  width: 100%;
+}
+
+.body-content-card-info .icon-content-card img {
+  width: 55px;
+  height: 55px;
+  color: #008437;
+}

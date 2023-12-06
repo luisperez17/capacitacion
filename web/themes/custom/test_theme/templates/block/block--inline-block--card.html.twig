@@ -26,13 +26,19 @@
  * @see template_preprocess_block()
  */
 #}
-<div{{attributes}}>
+<div class="container-card">
 	{{ title_prefix }}
 	{% if label %}
 		<h2{{title_attributes}}>{{ label }}</h2>
 	{% endif %}
 	{{ title_suffix }}
-	{% block content %}
-		{{ content }}
-	{% endblock %}
+	<div>
+		<div class="container-card-text">
+			{{ content.field_card_text}}
+		</div>
+		<div class="container-card-image">
+			{{ content.field_card_image}}
+			<a class="card-button">Conoce más</a>
+		</div>
+	</div>
 </div>

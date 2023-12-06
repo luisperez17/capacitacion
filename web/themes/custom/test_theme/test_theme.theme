@@ -3,10 +3,19 @@
 /**
  * Implements hook_preprocess_HOOK() for block templates.
  */
-function test_theme_preprocess_block(&$variables) {
-  // Verifica si la región es 'content' para aplicar los estilos específicos.
+function custom_theme_preprocess_block(&$variables) {
+  // Verifica si el bloque está en la región 'content'.
   if ($variables['elements']['#region'] == 'content') {
-    // Agrega la biblioteca de estilos del bloque.
-    $variables['#attached']['library'][] = 'test_theme/block-styling';
+    // Verifica si el bloque es un bloque de contenido.
+    if ($variables['elements']['#id'] && strpos($variables['elements']['#id'], 'block_content:') === 0) {
+      // Obtiene el contexto del bloque.
+      $context = \Drupal::routeMatch()->getParameter('context');
+
+      // Verifica si el bloque se utiliza en una página flexible (tipo de contenido "pagina_flexible").
+      if ($context && $context->getEntity()->getType() == 'pagina_flexible') {
+        // Agrega la biblioteca de estilos del bloque.
+        $variables['#attached']['library'][] = 'custom_theme/block-styling';
+      }
+    }
   }
 }
