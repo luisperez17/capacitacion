@@ -11,6 +11,7 @@
   grid-template-columns: 2fr 1.5fr;
   background: whitesmoke;
   margin: 2.5rem;
+  border: 1px solid #ccc;
   border-radius: 20px;
 }
 
@@ -21,7 +22,7 @@
   border-bottom-left-radius: 20px;
 }
 
-.container-banner-image img  {
+.container-banner-image img {
   width: 100%;
   height: auto;
   display: block;
@@ -63,7 +64,7 @@
   border-radius: 15px;
   font-size: 14px;
   text-align: center;
-  transition: all .5s;
+  transition: all 0.5s;
   min-width: 200px;
   display: inline-block;
 }
@@ -83,8 +84,9 @@
   gap: 1rem;
 }
 
-.container-card-text  {
-  background: url(https://banco.santander.cl/uploads/000/017/489/864f547b-78cc-498e-91b8-41e23ca1e6da/original/bg-title.png) no-repeat;
+.container-card-text {
+  background: url(https://banco.santander.cl/uploads/000/017/489/864f547b-78cc-498e-91b8-41e23ca1e6da/original/bg-title.png)
+    no-repeat;
   background-size: cover;
   background-color: #deedf2;
   top: 0;
@@ -149,7 +151,43 @@
 
 /* Estilos plantilla "block-inline-block--featured.html.twig" */
 
+.container-featured {
+  position: relative;
+  overflow: hidden;
+  margin: 1rem;
+  border-radius: 12px;
+  width: 300px;
+  height: fit-content;
+  border: 1px solid #ccc;
+}
 
+.container-featured-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.container-featured-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.container-featured-text {
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: #444;
+  padding: 1rem;
+  text-align: justify;
+  background: #fff;
+  width: 100%;
+}
 
 /* Estilos plantilla "block-inline-block--card-info.html.twig" */
 
