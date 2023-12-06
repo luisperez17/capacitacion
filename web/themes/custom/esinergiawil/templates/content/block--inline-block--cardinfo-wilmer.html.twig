@@ -27,7 +27,7 @@
  */
 #}
 {{ attach_library('esinergiawil/cardinfo')}}
-<article class="cardinfo">
+<article class="cardinfo cardinfo-{{ content.field_cardsinfo_wilmer['#object'].id.0.value }}">
 	<h1>{{ content.field_cardsinfo_wilmer.0.field_title_banner_wilmer.0["#context"].value|striptags }}</h1>
 	<picture class="cardinfo-image">
 		{{ content.field_cardsinfo_wilmer.0.field_image_banner.0 }}

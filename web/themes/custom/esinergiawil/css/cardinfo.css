@@ -1,5 +1,10 @@
 .cardinfo {
     padding: 16px;
+    color: red;
+}
+
+.cardinfo-24 {
+    color: #008437;
 }
 
 .cardinfo h1 {
@@ -33,18 +38,13 @@
     background-color: #ffffffd1;
     height: max-content;
     width: 100%;
-    min-height: 80px;
+    min-height: 88px;
     bottom: 0;
-    color: #008437;
     font-family: var(--font-santander);
     padding: 16px;
 }
 
-.cardinfo-text:nth-child(2) {
-    color: red;
-}
-
 .cardinfo-text h2 {
-    line-height: normal;
     font: inherit;
+    line-height: normal;
 }
