@@ -1,6 +1,6 @@
 .cardinfo {
     padding: 16px;
-    color: red;
+    color: #ec0000;
 }
 
 .cardinfo-24 {
@@ -34,6 +34,9 @@
 }
 
 .cardinfo-text {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
     position: absolute;
     background-color: #ffffffd1;
     height: max-content;
@@ -47,4 +50,11 @@
 .cardinfo-text h2 {
     font: inherit;
     line-height: normal;
+}
+
+.cardinfo-text div {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
 }
