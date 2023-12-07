@@ -17,12 +17,13 @@
     color: #444;
     margin-bottom: 12px;
 }
+
 .cardinfo-image {
     display: flex;
     height: 215px;
     border: 1px solid transparent;
     border-radius: 16px;
-    box-shadow: 0 0 15px rgba(0,0,0,.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .05);
     overflow: hidden;
     position: relative;
 }
@@ -57,4 +58,81 @@
     align-items: center;
     width: 48px;
     height: 48px;
+}
+
+.cardinfo-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    margin-top: 32px;
+}
+
+.cardinfo-icons {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.cardinfo-icons svg {
+    width: 68px;
+    height: 36px;
+}
+
+.cardinfo-show {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 0 0 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 14px;
+    padding-bottom: 4px;
+    font-family: var(--font-santander);
+    font-weight: 300;
+
+}
+
+.cardinfo-show a {
+    color: inherit;
+    margin-bottom: 2px;
+}
+
+.cardinfo-show a::after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 0;
+    background-color: #ec0000;
+}
+
+.cardinfo-24 .cardinfo-show a::after {
+    background-color: #008437;
+}
+
+.cardinfo-show:hover a::after {
+    width: 100%;
+}
+
+.cardinfo-show svg {
+    width: 14px;
+    height: 14px;
+    stroke: #ec0000;
+
+}
+
+.cardinfo-24 .cardinfo-show svg {
+    stroke: #008437;
 }
