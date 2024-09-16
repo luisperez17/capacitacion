@@ -1,0 +1,1156 @@
+.Box_flex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.img_hyflex {
+  width: 20%;
+  position: relative;
+  text-align: end;
+}
+
+.img_hyflex img {
+  max-width: 180px;
+  width: 100%;
+  text-align: left;
+}
+
+#DelColeAlaU .bgFormaAmarillo img.img-responsive {
+  width: 100%;
+  opacity: 0.7;
+}
+
+#DelColeAlaU .bgFormaAmarillo {
+  background-size: cover;
+  border-top: solid 3px #eee;
+  width: 100%;
+  background-position: top;
+  background-color: black;
+  max-height: 370px;
+  overflow: hidden;
+  display: block;
+  background: #fff;
+}
+.tituloUno {
+  top: 30%;
+  font-size: 3.6em;
+  font-weight: 600;
+  color: #192c81;
+  text-shadow: -2px 2px 5px #848484;
+}
+.tituloUno strong {
+  color: #00558d;
+  font-size: 1.4em;
+  display: table;
+  line-height: 49px;
+  font-weight: 800;
+}
+a.botonHyflex {
+  background: #1f9184;
+  padding: 3% 6%;
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.4em;
+  display: block;
+  width: 100%;
+  color: #fff;
+  margin-top: 20px;
+  transition: 0.2s;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+a.botonHyflex:hover {
+  box-shadow: 0 8px 8px 0 #bebbbc, 0 8px 8px 0 #adadab;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  -moz-transform: translate(0px, 5px);
+  color: #fff;
+}
+.recuadro2 {
+  text-align: center;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  padding: 18px 20px 15px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 1px 1px 15px rgb(0 0 0 / 10%);
+  border: 1px solid #00558d;
+}
+.principios a {
+  padding: 1% 1%;
+  background: #dadae573;
+  margin: 20px;
+  text-align: center;
+  display: block;
+  color: #192c81;
+}
+
+.modalidades_items .InModalidad_prev h5 {
+  font-size: 2.5em;
+  padding: 20px;
+  text-align: center;
+  color: #00669b;
+  font-weight: 600;
+}
+
+.modalidades_items .InModalidad_prev img.img_flexlog {
+  max-width: 124px;
+  width: 100%;
+}
+.modalidades_items .InModalidad_prev p.parrafo_tecnologias {
+  font-size: 0.8em;
+  padding: 0% 2%;
+  color: black;
+  border-left: 3px solid #192c81;
+}
+
+.modalidades_items .InModalidad_prev {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  -webkit-box-shadow: -1px 5px 34px 12px #4f4f4f;
+  -moz-box-shadow: -1px 5px 34px 12px #4f4f4f;
+  box-shadow: 3px 3px 15px 3px #4f4f4f2e;
+}
+
+.modalidades_items .InModalidad_prev .modal_flex {
+  display: contents;
+}
+.modalidades_items .InModalidad_prev p.parrafo_tecnologias a {
+  background: #01558d;
+  color: #ffff;
+  padding: 3px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.modalidades_items .InModalidad_prev p.parrafo_tecnologias a:hover {
+  background: #01558d;
+  color: #ffff;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+.modalidades_items .InModalidad_prev p.parrafo_tecnologias small {
+  font-size: 1em;
+  color: #02527d;
+  font-style: italic;
+}
+
+.infografic_modl .container {
+  top: 0;
+  position: absolute;
+  background: #ffffff;
+  min-height: 100%;
+  width: 98%;
+  z-index: 0;
+  padding-top: 10%;
+}
+.infografic_modl .container.uno_modalidad {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V3/Lading/clases-virtuales/img/Uno_modalidad.png);
+  background-size: cover;
+  background-position-y: 75%;
+  opacity: 1;
+}
+
+.principios .collapse.show {
+  background: transparent !important;
+}
+
+.infografic_modl .body_info {
+  width: 45%;
+  margin-left: -10%;
+}
+
+.infografic_modl nav a:hover i {
+  transform: scale(1.4);
+  transition: 0.2s;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.infografic_modl nav a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 0px 20px 10px;
+  text-align: center;
+  display: flex;
+}
+
+.infografic_modl nav a i {
+  margin-left: 30px;
+}
+
+.infografic_modl nav a span {
+  background: #013b62;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+  left: 24px;
+  right: 0px;
+  padding: 11px 14px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  font-weight: 800;
+  border-radius: 62px;
+}
+
+.infografic_modl nav a:hover span {
+  bottom: 12px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.infografic_modl #Modalidad_1 {
+  padding: 0;
+}
+
+.infografic_modl nav {
+  position: relative;
+  left: -10px;
+  z-index: 50;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: auto;
+  background: #00558d;
+  width: 20%;
+  border-radius: 0% 50% 50% 0px;
+  min-height: 70vh;
+  padding-top: 7%;
+}
+.infografic_modl section {
+  position: absolute;
+  top: 0;
+  height: auto;
+  width: 0;
+  opacity: 0;
+  transition: all ease-in 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infografic_modl section .body_info h1 {
+  color: #00558d;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  opacity: 0;
+  font-weight: 600;
+}
+
+.infografic_modl section .body_info h3 {
+  color: rgb(33, 30, 73) !important;
+  font-size: 2.8em !important;
+  font-weight: 800 !important;
+  text-align: left !important;
+}
+
+.infografic_modl section .body_info p {
+  color: rgb(33, 30, 73);
+  font-size: 1.2em;
+}
+.infografic_modl section:target {
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.infografic_modl section:target h1 {
+  opacity: 0;
+  animation: 2s fadeIn forwards 0.5s;
+}
+
+.infografic_modl section#dos_pre,
+.infografic_modl section#tres_pre,
+.infografic_modl section#cuatro_pre,
+.infografic_modl section#cinco_pre,
+.infografic_modl section#seis_pre {
+  background: #cfcdd8;
+  background: linear-gradient(126deg, rgb(253, 253, 255) 59%, rgba(255, 255, 255, 0.25) 93%);
+}
+
+@keyframes fadeIn {
+  100% {
+      opacity: 1;
+  }
+}
+
+/*fin uno*/
+
+.infografic_modl .container.dos_modalidad {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V3/Lading/clases-virtuales/img/Dos_modalidad.png);
+  background-size: cover;
+  background-position-y: 75%;
+  opacity: 1;
+}
+
+#Modalidad_2 .infografic_modl nav a span {
+  background: #030e3d;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+  left: 24px;
+  right: 0px;
+  padding: 11px 14px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  font-weight: 800;
+  border-radius: 62px;
+}
+
+#Modalidad_2 .infografic_modl nav a:hover span {
+  bottom: 12px;
+  visibility: visible;
+  opacity: 1;
+}
+
+#Modalidad_2 .infografic_modl nav {
+  position: relative;
+  left: -10px;
+  z-index: 50;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: auto;
+  background: #192c81;
+  width: 20%;
+  border-radius: 0% 50% 50% 0px;
+  min-height: 70vh;
+  padding-top: 7%;
+}
+
+.infografic_modl section#dos_rem,
+.infografic_modl section#tres_rem,
+.infografic_modl section#cuatro_rem,
+.infografic_modl section#cinco_rem,
+.infografic_modl section#seis_rem {
+  background: #cfcdd8;
+  background: linear-gradient(126deg, rgb(253, 253, 255) 59%, rgba(255, 255, 255, 0.25) 93%);
+}
+
+#Modalidad_2 .infografic_modl .boton_experiencia {
+  width: 96%;
+  height: 20px;
+  position: absolute;
+  z-index: 222;
+  display: flex;
+  bottom: 6%;
+  justify-content: center;
+  align-items: center;
+}
+
+#Modalidad_2 .infografic_modl .boton_experiencia a {
+  background: #fff;
+  padding: 6px 20px;
+  font-size: 17px;
+  text-decoration: none;
+  color: #da0921;
+  font-weight: 700;
+  border-radius: 9px;
+  border: 3px solid #da0921;
+}
+
+#Modalidad_2 .infografic_modl .boton_experiencia a:hover {
+  background: #da0921;
+  color: #fff;
+  border: 3px solid #da0921;
+}
+
+/*fin dos*/
+
+#Modalidad_3 .infografic_modl section#seis_mix .body_info p {
+  font-size: 0.9em;
+}
+
+#Modalidad_3 .infografic_modl section#seis_mix .body_info {
+  width: 73%;
+  margin-left: 15%;
+}
+
+#Modalidad_3 .infografic_modl .container.tres_modalidad {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V3/Lading/clases-virtuales/img/Tres_modalidad.png);
+  background-size: cover;
+  background-position-y: 75%;
+  opacity: 1;
+}
+
+#Modalidad_3 .infografic_modl nav a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 0px 20px 10px;
+  text-align: center;
+  display: flex;
+}
+
+#Modalidad_3 .infografic_modl nav a i {
+  margin-left: 30px;
+}
+
+#Modalidad_3 .infografic_modl nav a span {
+  background: #08062f;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+  left: 24px;
+  right: 0px;
+  padding: 11px 14px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  font-weight: 800;
+  border-radius: 62px;
+}
+
+#Modalidad_3 .infografic_modl nav a:hover span {
+  bottom: 12px;
+  visibility: visible;
+  opacity: 1;
+}
+
+#Modalidad_3 .infografic_modl nav {
+  position: relative;
+  left: -10px;
+  z-index: 3;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: auto;
+  background: #192c81;
+  width: 20%;
+  border-radius: 0% 50% 50% 0px;
+  min-height: 70vh;
+  padding-top: 7%;
+}
+
+.infografic_modl section#dos_mix,
+.infografic_modl section#tres_mix,
+.infografic_modl section#cuatro_mix,
+.infografic_modl section#cinco_mix,
+.infografic_modl section#seis_mix {
+  background: #cfcdd8;
+  background: linear-gradient(126deg, rgb(253, 253, 255) 59%, rgba(255, 255, 255, 0.25) 93%);
+}
+
+.botonHyflex {
+  background: #1f9184;
+  padding: 3% 6%;
+  font-weight: 900;
+  text-align: center;
+  font-size: 0.8em;
+  display: table;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: -10px;
+}
+
+.botonHyflex:hover {
+  background-color: #137770;
+  box-shadow: 4px 4px 11px 0px #040920;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s;
+  transform: scale(0.9);
+}
+
+.modalidades_items li.nav-item a.caja_modl {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  min-height: 120px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.modalidades_items li.nav-item a.caja_modl.pre.active {
+  background-color: #022c48;
+  box-shadow: 4px 4px 11px 0px #040920;
+}
+.modalidades_items li.nav-item a.caja_modl.pre {
+  background: #00558d;
+}
+element.style {
+}
+.modalidades_items li.nav-item a.caja_modl.pre.active {
+  background-color: #022c48;
+  box-shadow: 4px 4px 11px 0px #040920;
+}
+.modalidades_items li.nav-item a.caja_modl.pre {
+  background: #00558d;
+}
+.modalidades_items li.nav-item a.caja_modl.acc {
+  background: #192c81;
+}
+.modalidades_items li.nav-item a.caja_modl.mix {
+  background: #211e49;
+}
+.modalidades_items li.nav-item {
+  width: 33%;
+  /* display: flex; */
+  justify-content: center;
+}
+.modalidades_items li.nav-item a.caja_modl.pre.active {
+  background-color: #022c48 ;
+  box-shadow: 4px 4px 11px 0px #040920;
+}
+
+.title-enseñanza h3 {
+  text-align: left;
+  font-size: 2em;
+  color: #2f0f90;
+  font-weight: 800;
+}
+
+.efecto_cajasdos.grid {
+  padding: 0% 0px 3%;
+}
+.efecto_cajasdos.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  height: auto;
+  background: #0c234e;
+  text-align: center;
+  cursor: pointer;
+}
+
+.efecto_cajasdos.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.efecto_cajasdos.grid figure figcaption {
+  padding: 1.3em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.efecto_cajasdos.grid figure figcaption::before,
+.efecto_cajasdos.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.efecto_cajasdos.grid figure figcaption,
+.efecto_cajasdos.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.efecto_cajasdos.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+  text-align: left;
+}
+
+.efecto_cajasdos.grid figure h3 {
+  word-spacing: -0.15em;
+  font-size: 1em !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  text-align: left !important;
+  text-shadow: 0px 1px 7px #5c5c5c;
+}
+
+.efecto_cajasdos.grid figure h3 span {
+  font-weight: 800;
+}
+
+.efecto_cajasdos.grid figure h3,
+.efecto_cajasdos.grid figure p {
+  margin: 0;
+}
+
+.efecto_cajasdos.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+.efecto_cajasdos.grid figure.effect-julia img {
+  max-width: 100%;
+  height: auto;
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, transform 1s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.efecto_cajasdos.grid figure.effect-julia figcaption {
+  text-align: left;
+}
+
+.efecto_cajasdos.grid figure.effect-julia h3 {
+  position: relative;
+  padding: 0.5em 0;
+  text-align: left;
+}
+
+.efecto_cajasdos.grid figure.effect-julia p {
+  display: inline-block;
+  margin: 0 0 0.25em;
+  padding: 0.4em 1em;
+  background: rgba(255, 255, 255, 0.9);
+  color: #2f3238;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 55%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-360px, 0, 0);
+  transform: translate3d(-360px, 0, 0);
+}
+
+.efecto_cajasdos.grid figure.effect-julia p:first-child {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.efecto_cajasdos.grid figure.effect-julia p:nth-of-type(2) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.efecto_cajasdos.grid figure.effect-julia p:nth-of-type(3) {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+.efecto_cajasdos.grid figure.effect-julia:hover p:first-child {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  text-align: left;
+}
+
+.efecto_cajasdos.grid figure.effect-julia:hover p:nth-of-type(2) {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+.efecto_cajasdos.grid figure.effect-julia:hover p:nth-of-type(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.efecto_cajasdos.grid figure.effect-julia:hover img {
+  opacity: 0.4;
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.efecto_cajasdos.grid figure.effect-julia:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.btnEvento {
+
+  margin-bottom: 20px;
+  border: 3px solid #1a2c82;
+  text-transform: uppercase;
+  padding: 8px 8px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.8em;
+  color: #1a2c82;
+  cursor: pointer;
+}
+
+.cajaBoton {
+  background: #1a0133;
+  display: table;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 2% 5%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mutis .cajaBoton {
+  background: #da0921;
+}
+
+.cajaBoton h4 {
+  color: #fff;
+  margin-top: 30px;
+  float: left;
+  width: 37%;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.modal-body .mutis h5 {
+  font-size: 12px;
+  color: #ffffff;
+  width: 100%;
+}
+.cajaBoton img {
+  float: left;
+  margin-right: 20px;
+}
+#ClasesVirtualesModal h4.modal-title {
+  text-align: center ;
+  color: #fff;
+  font-weight: 800;
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 22px;
+}
+
+.cajaItem h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #da0b21;
+  min-height: 10px;
+  font-size: 20px;
+  font-size: 1em;
+}
+
+.cajaItem i {
+  margin-top: 0px;
+  display: inline;
+  justify-content: center;
+  padding-right: 10px;
+  color: #182c81;
+}
+
+.btn-urvirtual-lab {
+  background: rgba(250, 226, 255, 0.43);
+  margin: 2% 0px 0px;
+}
+.logo-Panopto {
+  background: #fff;
+  padding: 10px 62px 0 14px;
+  margin: 30px 0px;
+}
+.logo-Panopto p.text {
+  font-size: 0.9em;
+  font-weight: 300;
+  list-style: none;
+  margin-top: 20px;
+}
+.logo-Panopto img.logopanopoto {
+  padding: 0px 25px;
+  width: 100%;
+  margin-top: 56px;
+}
+.panopto a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 87px;
+  display: block;
+  /* background-color: #228043; */
+  padding: 8px 12px 12px 11px;
+  border-radius: 6px;
+  border: 5px solid#fff;
+  box-shadow: 0px 2px 5px 0px #00000057;
+  background: rgba(198, 222, 137, 1);
+  background: -moz-linear-gradient(left, rgba(198, 222, 137, 1) 0%, rgba(17, 119, 61, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(198, 222, 137, 1)), color-stop(100%, rgba(17, 119, 61, 1)));
+  background: -webkit-linear-gradient(left, rgba(198, 222, 137, 1) 0%, rgba(17, 119, 61, 1) 100%);
+  background: -o-linear-gradient(left, rgba(198, 222, 137, 1) 0%, rgba(17, 119, 61, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(198, 222, 137, 1) 0%, rgba(17, 119, 61, 1) 100%);
+  background: linear-gradient(to right, rgba(198, 222, 137, 1) 0%, rgba(17, 119, 61, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6de89', endColorstr='#11773d', GradientType=1 );
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-urvirtual-lab h5 {
+  color: #1a2c82;
+  text-align: left !important;
+  margin: 0;
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 600;
+  font-size: 1.6em !important;
+  margin-bottom: 16px;
+}
+.btn-urvirtual-lab h6 {
+  font-size: 1.1em;
+  font-weight: 300;
+  list-style: none;
+}
+.btnlab_virtual_Lb,
+.btnlab_virtual_Lb2 {
+  border: 3px solid #fff;
+  background: rgb(0, 175, 254);
+  background-color: #6f0dff;
+  box-shadow: 1px 1px 9px 1px rgb(0 0 0 / 50%);
+  margin: 9px 0 0 0;
+  width: 44%;
+  padding: 12px 14px 14px 14px;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: grid;
+  margin-right: 23px;
+  margin-top: 12px;
+}
+.btnlab_virtual_Lb2 {
+  width: 91%;
+}
+.btn-urvirtual-lab h5 {
+  color: #1a2c82;
+  text-align: left !important;
+  margin: 0;
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 600;
+  font-size: 1.6em !important;
+  margin-bottom: 16px;
+}
+.btnlab_virtual a img {
+  border: 3px solid #fff;
+  background: rgb(0, 175, 254);
+  background: linear-gradient(150deg, rgba(0, 175, 254, 1) 0%, rgba(87, 97, 255, 1) 50%, rgba(141, 49, 255, 1) 100%);
+  box-shadow: 1px 1px 9px 1px rgb(0 0 0 / 50%);
+     margin: auto;
+  width: 70%;
+}
+.btnlab_virtual a img:hover {
+  filter: saturate(200%);
+}
+.btn-urvirtual-lab .btnlab_virtual a {
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: table;
+  padding: 10px 30px;
+  color: #2c2f7a;
+  border-radius: 0;
+  margin-top: 0;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.btnlab_virtual1 img {
+  border: 3px solid #fff;
+  background: rgb(0, 175, 254);
+  background-color: #6f0dff;
+  box-shadow: 1px 1px 9px 1px rgb(0 0 0 / 50%);
+  margin: auto;
+  width: 71%;
+  padding: 12px 14px 14px 14px;
+}
+.btnlab_virtual1 img:hover {
+  filter: saturate(200%);
+}
+.btn-urvirtual-lab .btnlab_virtual1 {
+  padding: 10px 10px;
+  background: transparent;
+  margin: 20px;
+}
+.btn-urvirtual-lab .btnlab_virtual1 {
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: table;
+  padding: 10px 30px;
+  color: #2c2f7a;
+  border-radius: 0;
+  margin-top: 0;
+  transition: 0.3s;
+  text-align: center;
+}
+.btn-urvirtual-lab .btnlab_virtual1 {
+  padding: 10px 10px;
+  background: transparent;
+  margin: 20px;
+}
+.btn-urvirtual-lab .instructivo-lab {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+
+
+.modal-header {
+  background: #1a2c82;
+  margin-bottom: 0;
+color:#fff;
+}
+
+.modal-header.titulo-modal h5 {
+  font-size: 1.2em;
+  color: #fff;
+  line-height: 1.1em;
+  margin: 0;
+}
+.borde-link {
+  border-left: 3px solid#da0921;
+  padding: 15px;
+  margin-bottom: 23px;
+} .close {
+  background-color: #1a2c82;
+  position: relative;
+  margin-top: -30px;
+  color: #fff;
+  border: 0;
+}
+
+.modal-body {
+  padding: 48px;
+}
+
+.texto_interno.modal-body a:hover {
+  color: #656565 ;
+  font-size: 0.9em ;
+}.texto_interno.modal-body a {
+  font-size: 0.9em;
+  color: #000000 ;
+  font-weight: 800 ;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fade {
+  background-color: #0e1d6ae0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1300px) {
+  #DelColeAlaU .bgFormaAmarillo {
+      max-height: 400px;
+  }
+  .formulario p.recuadro {
+      font-size: 1em ;
+      padding: 1% 1% 1% !important;
+  }
+  .principios h3 {
+      font-size: 2em;
+  }
+  .principios p {
+      font-size: 1em;
+  }
+  .principios li {
+      font-size: 1em;
+  }
+  .modalidades_items .InModalidad_prev p.parrafo_tecnologias {
+      font-size: 0.9em;
+  }
+
+  .img_hyflex {
+      text-align: right ;
+  }
+
+  .img_hyflex img {
+      max-width: 200px ;
+  }
+}
+
+@media (max-width: 768px) {
+.logo-Panopto {
+  padding: 10px 0px 0 0px;
+}
+.tituloUno {
+  font-size: 2.2em;
+}
+  .infografic_modl .container.uno_modalidad {
+      background-image: linear-gradient(rgba(255, 255, 255, 0.76) 212%, rgba(255, 255, 255, 0.62) 100%), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V3/Lading/clases-virtuales/img/Uno_modalidad.png);
+      background-size: cover;
+      background-position-y: 75%;
+      opacity: 1;
+      background-position-x: 25%;
+      right: 0;
+  }
+
+  .infografic_modl .container.dos_modalidad {
+      background-image: linear-gradient(rgba(255, 255, 255, 0.76) 212%, rgba(255, 255, 255, 0.62) 100%), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V3/Lading/clases-virtuales/img/Dos_modalidad.png);
+      background-size: cover;
+      background-position-y: 75%;
+      opacity: 1;
+      background-position-x: 25%;
+      right: 0;
+  }
+
+  #Modalidad_3 .infografic_modl .container.tres_modalidad {
+      background-image: linear-gradient(rgba(255, 255, 255, 0.76) 212%, rgba(255, 255, 255, 0.62) 100%), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V3/Lading/clases-virtuales/img/Tres_modalidad.png);
+      background-size: cover;
+      background-position-y: 75%;
+      opacity: 1;
+      background-position-x: 25%;
+      right: 0;
+  }
+
+  .infografic_modl nav a i,
+  #Modalidad_2 .infografic_modl nav a i,
+  #Modalidad_3 .infografic_modl nav a i {
+      margin-left: 5px;
+  }
+  #Modalidad_2 .infografic_modl nav,
+  #Modalidad_1 .infografic_modl nav,
+  #Modalidad_3 .infografic_modl nav {
+      width: 28%;
+  }
+
+  .infografic_modl .body_info {
+      width: 100%;
+      margin-left: 31%;
+  }
+
+  #Modalidad_3 .infografic_modl section#seis_mix .body_info {
+      width: 100%;
+      margin-left: 31%;
+  }
+
+  .infografic_modl section .body_info h1 {
+      font-size: 1.3em;
+  }
+
+  .infografic_modl section .body_info p {
+      color: rgb(33, 30, 73);
+      font-size: 1em;
+      margin-top: 10px;
+      text-align: left;
+  }
+
+  #Modalidad_2 .infografic_modl .boton_experiencia a {
+      background: #fff;
+      padding: 6px 10px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #da0921;
+      font-weight: 700;
+      border-radius: 9px;
+      border: 3px solid #da0921;
+      text-align: center;
+  }
+
+  #Modalidad_2 .infografic_modl .boton_experiencia {
+      width: 77%;
+      height: 20px;
+      position: absolute;
+      z-index: 222;
+      display: flex;
+      top: 6%;
+      justify-content: center;
+      align-items: center;
+      left: 22%;
+  }
+}
+
+
+@media (max-width:600px) {
+.tituloUno {
+  font-size: 1.8em;
+  line-height: 1em;
+}
+.tituloUno strong {
+  font-size: .6em;
+  line-height: 1;
+}
+.btnlab_virtual_Lb, .btnlab_virtual_Lb2 {
+  width: 100%;
+      margin-right: 0;
+}
+.logo-Panopto {
+  padding: 0;
+}
+.modalidades_items .InModalidad_prev {
+  display: flex;
+  flex-direction: column;
+}
+.modalidades_items li.nav-item a.caja_modl {
+  font-size: .8em;
+}
+#Bannerhyflex {
+  background-position-y:71px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.modalidades_items {
+  margin-bottom: 67px;
+}
+.btn-mas {
+  margin: 14% 0 7%;
+}
+.modal-body {
+  padding: 36px 0;
+}
+.cajaBoton {
+  width: 84%;
+}
+.cajaBoton h4 {
+  width: 50%;
+}
+}
+
+@media (max-width: 480px) {
+  .infografic_modl section .body_info h1 {
+      font-size: 1em;
+  }
+
+  .infografic_modl section .body_info p {
+      margin-top: 5px;
+      font-size: 0.8em;
+  }
+
+  #Modalidad_3 .infografic_modl section#seis_mix .body_info p {
+      font-size: 0.7em;
+  }
+}

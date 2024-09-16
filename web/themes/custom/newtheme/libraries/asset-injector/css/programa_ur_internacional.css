@@ -1,0 +1,348 @@
+/*SECTION ERES ESTUDIANTES*/
+
+.Estudiantes-UR_Internacionales figure {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  margin: 0px;
+}
+.Estudiantes-UR_Internacionales{
+position:relative;
+}
+.Estudiantes-UR_Internacionales .filtro_item1 {
+  width: 60%;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  background: #ffffff;
+  height: 100%;
+}
+.Estudiantes-UR_Internacionales .filtro_item2 {
+  height: 100%;
+  width: 58%;
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background-image: linear-gradient(to top, #2e3180, #2d2b6f, #2a255f, #271f4f, #221a40);
+}
+.Estudiantes-UR_Internacionales figure img {
+  position: relative;
+  min-width: 840px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+.Estudiantes-UR_Internacionales .bord_esp {
+  padding: 27% 5% 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  align-content: stretch;
+  height: 100%;
+}
+.Estudiantes-UR_Internacionales h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.3em;
+  font-weight: 800;
+  padding: 5px 0px;
+  margin: 0;
+}
+.Estudiantes-UR_Internacionales .especial h2 {
+  margin-bottom: 10px;
+  background: linear-gradient(to left, #2e3180, #1b142d);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.Estudiantes-UR_Internacionales figure img.img_ladouno {
+  left: 0px;
+  width: 100%;
+  opacity: 0.3;
+}
+.Estudiantes-UR_Internacionales figure img.img_ladodos {
+  right: 0px;
+  width: 100%;
+  opacity: 0.1;
+}
+
+.Estudiantes-UR_Internacionales figcaption {
+  position: relative;
+  text-align: center;
+}
+.Estudiantes-UR_Internacionales .container {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Estudiantes-UR_Internacionales .text_internacional {
+  color: #fff;
+}
+.Estudiantes-UR_Internacionales .especial h2 span {
+  font-size: 1.6em;
+}
+.Estudiantes-UR_Internacionales a.blue_white {
+  font-size: 1em;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  background-color: #2b2c74;
+  color: #fff;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  max-width: 55%;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+}
+.Estudiantes-UR_Internacionales a.white {
+  font-size: 1em;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 18px;
+  display: flex;
+  align-items: center;
+  max-width: 55%;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+}
+.Estudiantes-UR_Internacionales p {
+  text-align: left;
+  font-weight: 700;
+}
+.Estudiantes-UR_Internacionales .alignC_btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.Estudiantes-UR_Internacionales a.white:hover {
+  border: 1px solid #2b2c74;
+  background-color: #fff;
+  color: #2b2c74;
+  text-decoration: none;
+}
+.Estudiantes-UR_Internacionales a.blue_white:hover {
+  border: 1px solid #2b2c74;
+  background-color: #fff;
+  color: #2b2c74;
+  text-decoration: none;
+}
+
+/*SECTION DE LA CARD EVENTOS */
+
+.card_eventos_ur_internacional .Caja {
+  position:relative;
+  background-color: #fff;
+  min-height: 277px;
+  padding: 33px;
+}
+.card_eventos_ur_internacional .Caja::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:0;
+  transform: rotate(90deg);
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #241288;
+  border-bottom: 50px solid #241288;
+}
+
+/*SECTION FOOTER CORREO*/
+
+.urInternacionalMail {
+  text-align: right;
+  background: rgb(9,0,41);
+  background: linear-gradient(90deg,rgba(9,0,41,1) 0%,rgba(21,2,83,1) 45%,rgba(255,0,44,1) 100%);
+  color:white;
+  padding-right: 20px;
+}
+.urInternacionalMail a:hover {
+  text-decoration: underline;
+}
+
+/*CARD REQUISITOS*/
+
+.card_requisitos_ur_internacional .Caja {
+  background-color: #fff;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin: 2px 0 13px;
+  min-height: 381px;
+  padding: 12px;
+  width: 100%;
+}
+.card_requisitos_ur_internacional .Caja::before {
+  border-top: 44px solid transparent;
+  border-left: 44px solid #241288;
+  transform: rotate(89deg);
+  position: absolute;
+  left: -6px;
+  content: "";
+  width: 56px;
+  height: 0px;
+  top: 5px;
+}
+.card_requisitos_ur_internacional .Caja b {
+  background-color: #da0921;
+  border-radius: 6px;
+  padding: 6px 11px;
+  font-size: 1.3em;
+  color:white;
+} 
+
+
+
+/*CARD APLICAR*/
+
+  .card_aplicar_ur_internacional .Contenedor {
+  background-color: #dadae6;
+  display: flex;
+  margin-bottom: 15px;
+  min-height: 119px;
+  width: 100%;
+}
+.card_aplicar_ur_internacional .Contenedor p {
+  display: flex;
+  align-items: center;
+  padding: 0 17px;
+  margin: 0;
+}
+
+/*COMPONENTE CAROUSEL GLOBAL CENTER BLUE*/
+
+.carousel-global-center-blue {
+background: #069ac5;
+padding: 4%;
+}
+
+#carouselGlobalCenterBlue .controles {
+position: initial !important;
+width: 100%;
+float: left;
+position: inherit;
+}
+#carouselGlobalCenterBlue  .controles .carousel-control-next, .carousel-control-prev {
+cursor: pointer;
+padding: 7px 10px;
+position: initial;
+font-size: 1.5rem;
+width: 44px;
+float: left;
+opacity: 0.9;
+display: table;
+}
+
+#carouselGlobalCenterBlue  .controles .carousel-control-next {
+background: #e80b00 !important;
+margin-left: 10px;
+border-radius:0;
+width: 44px !important;
+}
+
+#carouselGlobalCenterBlue .carousel-control-prev {
+background: #fff;
+color: #e80b00;
+margin-right: 10px;
+}
+
+#carouselGlobalCenterBlue p.textotestimonio {
+color: #fff;
+font-size: 1.1em;
+}
+
+#carouselGlobalCenterBlue .video {
+padding-bottom: 40%;
+}
+
+#carouselGlobalCenterBlue p.nombre {
+color: #fff;
+font-size: 3em;
+text-align: right;
+font-weight: 900;
+line-height: 51px;
+}
+
+#carouselGlobalCenterBlue p.estudia {
+color: #fff;
+text-align: right;
+font-size: 1.2em;
+}
+
+
+/*CARD SECTION DE NUESTRAS HISTORIAS CON MODAL*/
+
+.section_card_modal_historias .Caja {
+  box-shadow: 1px 4px 8px #9091b0b0;
+  display: inline-grid;
+  background: #2e307b;
+  padding: 0px 11px 0;
+  margin-bottom: 23px;
+  border-radius: 5px;
+  transition: 0.2s;
+  color: #fff;
+  height: 69px;
+  width: 100%;
+}
+.section_card_modal_historias .Caja p {
+  font-weight: 800;
+  line-height: 1.2em;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+}
+.section_card_modal_historias .Caja a {
+  background-color: #da0921;
+  height: 69px;
+  display: inline-flex;
+  align-items: center;
+}
+.section_card_modal_historias .row {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.section_card_modal_historias .Caja i {
+  font-size: 2.2rem;
+}
+/*Modal Card Historia*/
+.section_card_modal_historias .modal-header {
+  background: #2e307b;
+}
+.section_card_modal_historias button.close {
+  background-color: #da0931;
+  opacity: 1000;
+  color: #fff;
+}
+.section_card_modal_historias .fade {
+  transition: opacity 0.15s linear;
+  background-image: linear-gradient(to bottom, rgba(34, 31, 77, 0.9) 65%, rgba(27, 20, 45, 0.9) 100%);
+}
+.section_card_modal_historias .modal-header .close {
+  padding: 1rem 1rem;
+  margin: -1rem -1rem -1rem auto; 
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 1px 0 #fff;
+   border:none;
+}
+
+.section_card_modal_historias .modal-header h5 {
+  color: white;
+  font-weight: 700;
+}

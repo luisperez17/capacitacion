@@ -1,0 +1,60 @@
+.proceso_admision .accordion-button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0064cc;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.proceso_admision .calendarioAdmisiones {
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+  align-content: stretch;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: end;
+  min-height: 130px;
+}
+
+.proceso_admision .calendarioAdmisiones p {
+  font-size: 0.9em;
+  text-align: center;
+  color: #fff;
+}
+.proceso_admision .fecha {
+  padding: 10px;
+  background: var(--main-page-color);
+  max-width: 140px;
+  width: 43%;
+  text-align: center;
+}
+
+.proceso_admision .fecha h4 {
+  display: initial;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.proceso_admision h4 strong {
+  font-size: 34px;
+}
+.proceso_admision .descripcion {
+  padding: 10px 10px;
+  width: 55%;
+}
+
+.proceso_admision .descripcion h4 {
+  color: #211256;
+  font-family: inherit;
+  margin: 0;
+  border-bottom: none;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  min-height: 8px;
+  font-size: 1em;
+  line-height: 17px;
+  font-weight: 900;
+}

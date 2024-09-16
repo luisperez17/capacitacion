@@ -1,0 +1,1346 @@
+#RedesSociales.MenuR .nav-item {
+  width: 57px;
+  color: #fff;
+  list-style: none;
+  position: absolute;
+  right: 11px;
+  bottom: 10px;
+}
+#RedesSociales.MenuR .dropdown-toggle i {
+  color: white;
+}
+#RedesSociales.MenuR .dropdown-toggle {
+  border-radius: 0;
+  background: #362893;
+  border: solid 2px #fff;
+  border: solid 1px;
+  margin-top: 8px;
+}
+#RedesSociales.MenuR .btn-group.dropup {
+  float: right;
+}
+#RedesSociales.MenuR .btn-light:hover {
+  color: #0059ff;
+  background-color: #dadae5;
+  border-color: #dadae5;
+}
+#RedesSociales.MenuR a.dropdown-item.uno {
+  background: #18ca40;
+}
+#RedesSociales.MenuR a.dropdown-item.dos {
+  background: #4e88d4;
+}
+#RedesSociales.MenuR a.dropdown-item:hover {
+  transition: 0.2s;
+  color: #fff;
+  transform: scale(1.1);
+}
+#RedesSociales.MenuR a.dropdown-item.tres {
+  background: #2f3fbf;
+}
+#RedesSociales.MenuR .dropdown-menu.show {
+  top: -172px !important;
+  background: transparent;
+  border: none;
+  margin-bottom: 40px !important;
+}
+#RedesSociales.MenuR a.dropdown-item.cuatro {
+  background: #1429d6;
+}
+#RedesSociales.MenuR a.dropdown-item {
+  width: 57px;
+  background: rebeccapurple;
+  margin-bottom: 1px;
+  color: #fff;
+  padding: 6px;
+  text-align: center;
+}
+#RedesSociales.MenuR .compartirLinkedIn:hover {
+  color: #2744b3;
+}
+#RedesSociales.MenuR .compartirTwitter:hover {
+  color: #3898ff;
+}
+#RedesSociales.MenuR .compartirWatsApp:hover {
+  color: #05b305;
+}
+#RedesSociales.MenuR a#dropdownMenuLink {
+  background: #362893;
+  float: right;
+  margin-top: -20px;
+}
+.boton-buscar-convocatorias-profesores {
+  /* margin-left: 0% !important; */
+  /* width: 100% !important; */
+}
+#ConvocatoriaProfesores .tab-pane li:before {
+  color: #861e61;
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+#ConvocatoriaProfesores .tab-pane li {
+  list-style-type: none;
+  counter-increment: lista;
+  position: relative;
+}
+#ConvocatoriaProfesores .tab-pane li:before {
+  color: white;
+  content: counter(lista) "";
+  left: -27px;
+  position: absolute;
+  width: 21px;
+  height: 19px;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Nunito";
+  background-color: #2e307e;
+  border-radius: 50%;
+  font-size: 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+/* CSS Document */
+#ConvocatoriaProfesores .destacado1 {
+  border: solid 1px #06aaa1;
+  transform: scale(1.05, 1.05);
+  background: rgba(6, 170, 161, 0.05);
+  text-align: center;
+}
+#ConvocatoriaProfesores .destacado2 {
+  text-align: center;
+}
+#ConvocatoriaProfesores .datosEnvio i {
+  color: #da0921;
+}
+#ConvocatoriaProfesores .datosEnvio .btnNaranja p {
+  margin-bottom: 30px;
+}
+#ConvocatoriaProfesores .datosEnvio .btnNaranja p .glyphicon {
+  background: #cf5817;
+  height: 36px;
+  width: 10%;
+  text-align: center;
+  line-height: 32px;
+  color: #ffffff !important;
+  display: table;
+  float: left;
+  top: 0px;
+}
+#ConvocatoriaProfesores .datosEnvio .btnNaranja p a {
+  background: #da0921;
+  padding: 8px 12px;
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: 0.5s;
+  display: table;
+  width: 90%;
+  float: left;
+}
+#ConvocatoriaProfesores .datosEnvio .btnNaranja p a:hover {
+  background: #cf5817;
+  transition: 0.5s;
+}
+#ConvocatoriaProfesores .datosEnvio .btnRojo p {
+  margin-bottom: 30px;
+}
+#ConvocatoriaProfesores .datosEnvio .btnRojo p .glyphicon {
+  background: #7b0b0b;
+  height: 36px;
+  width: 10%;
+  text-align: center;
+  line-height: 32px;
+  color: #ffffff !important;
+  display: table;
+  float: left;
+  top: 0px;
+}
+#ConvocatoriaProfesores .datosEnvio .btnRojo p a {
+  background: #b70000;
+  padding: 8px 12px;
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: 0.5s;
+  display: table;
+  width: 90%;
+  float: left;
+}
+#ConvocatoriaProfesores .datosEnvio .btnRojo p a:hover {
+  background: #7b0b0b;
+  transition: 0.5s;
+}
+#ConvocatoriaProfesores .datosEnvio .btnAzul p {
+  margin-bottom: 30px;
+}
+#ConvocatoriaProfesores .datosEnvio .btnAzul p .glyphicon {
+  background: #106eca;
+  height: 36px;
+  width: 10%;
+  text-align: center;
+  line-height: 32px;
+  color: #ffffff !important;
+  display: table;
+  float: left;
+  top: 0px;
+}
+#ConvocatoriaProfesores .datosEnvio .btnAzul p a {
+  background: #2492ff;
+  padding: 8px 12px;
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: 0.5s;
+  display: table;
+  width: 90%;
+  float: left;
+}
+#ConvocatoriaProfesores .datosEnvio .btnAzul p a:hover {
+  background: #106eca;
+  transition: 0.5s;
+}
+#ConvocatoriaProfesores .btn_busqueda {
+  margin-top: 0px;
+  position: absolute;
+  float: left;
+  display: block;
+  z-index: 9;
+  margin-left: 242px;
+}
+.convocatorias_profe .FormButton {
+  display: none;
+}
+#ConvocatoriaProfesores .btn-ver.btn-ver.rojo {
+  background-color: #b70000;
+}
+#ConvocatoriaProfesores .btn-ver.btn-ver.azul {
+  background-color: #2492ff;
+}
+#ConvocatoriaProfesores .btn-ver.btn-ver.naranja {
+  background-color: #ff9224;
+}
+#ConvocatoriaProfesores .btn-ver.btn-ver.verde {
+  background-color: #006f38;
+}
+.convocatorias_profe .button {
+  border: solid 1px #da0921;
+  background-color: #da0921;
+  font-weight: 900;
+  margin-top: 32px;
+  color: #fff;
+  width: 100%;
+}
+.convocatorias_profe .button:hover {
+  border: solid 1px #2c2f7b;
+  background-color: #2c2f7b;
+}
+#ConvocatoriaProfesores .filtros {
+  border-bottom: solid 3px #dadae5;
+  background: #f6f6fb;
+  padding: 3%;
+}
+#ConvocatoriaProfesores .filtros hr {
+  border: 1px solid#da0921;
+  background-color: #da0921;
+  margin-bottom: 22px;
+  margin-left: -51px;
+  opacity: inherit;
+  width: 34%;
+}
+#ConvocatoriaProfesores .filtros h4 {
+  font-size: 0.7em;
+}
+#ConvocatoriaProfesores .filtros h4 i {
+  color: #da0921;
+}
+#ConvocatoriaProfesores .filtros label {
+  font-family: "nunito", sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: #666;
+}
+#ConvocatoriaProfesores hr {
+  border-top: 1px solid #dadae5;
+  background-color: #dadae5;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 0;
+}
+#ConvocatoriaProfesores .cajauno {
+  background: #f6f6fb;
+  display: table;
+  padding: 2%;
+}
+#ConvocatoriaProfesores .caja {
+  width: 100%;
+  height: 300px;
+}
+#ConvocatoriaProfesores .cajauno .caja .fechasConvocatoria span {
+  color: orangered;
+}
+#ConvocatoriaProfesores .cajados {
+  padding: 2%;
+  background: #eee;
+  display: table;
+}
+#ConvocatoriaProfesores .caja i {
+  color: #da0921;
+  margin-right: 7px;
+}
+#ConvocatoriaProfesores .btn-ver {
+  margin-top: 10px;
+  font-weight: bold;
+  background: #da0921;
+  width: 40%;
+  text-align: center;
+  color: #fff;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: table;
+}
+#ConvocatoriaProfesores .btn-ver:hover {
+  text-decoration: none;
+  background: #2b2d73;
+  transition: 0.3s;
+}
+#ConvocatoriaProfesores .btn-ver i {
+  color: #fff;
+}
+#ConvocatoriaProfesores .textoIntroduccionDosCol {
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+  background: #ffffff;
+  padding: 6% 10%;
+  min-height: 180px;
+  margin-top: 6%;
+  margin-left: -12%;
+}
+#ConvocatoriaProfesores .textoIntroduccionDosCol h3 {
+  font-family: "nunito", sans-serif;
+  line-height: 0.9em;
+  margin-bottom: 6px;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+#ConvocatoriaProfesores .textoIntroduccionDosCol p {
+  font-family: "Nunito";
+  font-size: 0.9em;
+  color: #666;
+}
+#ConvocatoriaProfesores {
+  background: #dadae5;
+  min-height: 630px;
+  padding: 3% 0;
+}
+#ConvocatoriaProfesores .textoIntroduccion .altoMin {
+  min-height: 100px;
+}
+#ConvocatoriaProfesores .fechasConvocatoria {
+  border-top: solid 1px #e0e0e0;
+  margin-top: 10px;
+}
+#ConvocatoriaProfesores .fechasConvocatoria h4 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1em;
+  margin: 5px 0;
+}
+#ConvocatoriaProfesores .fechasConvocatoria i {
+  color: #da0921;
+}
+#ConvocatoriaProfesores .fechasConvocatoria p {
+  display: inline-flex;
+}
+#ConvocatoriaProfesores .idiomas {
+  margin-top: -11%;
+  display: table;
+  text-align: right;
+  width: 108%;
+  margin-bottom: 20px;
+}
+#ConvocatoriaProfesores .idiomas a {
+  float: right;
+  margin-left: 4px;
+  border: solid 3px #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#ConvocatoriaProfesores .idiomas a img {
+  width: 25px;
+}
+#ConvocatoriaProfesores .sinRelleno {
+  padding: 0;
+}
+#ConvocatoriaProfesores .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+#ConvocatoriaProfesores .imagenPrincipal {
+  text-align: center;
+  z-index: 0;
+}
+#ConvocatoriaProfesores .imagenPrincipal img {
+  width: 100% !important;
+}
+#ConvocatoriaProfesores .textoIntroduccion {
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+  background: #ffffff;
+  padding: 6% 8%;
+  min-height: 270px;
+  margin-top: 3%;
+  margin-left: -5%;
+}
+#ConvocatoriaProfesores .textoIntroduccion .separador {
+border-top: solid 3px #da0921;
+  background-color: #da0921;
+opacity: inherit;
+margin-left: 0;
+margin-top: 0;
+border: none;
+width: 40px;
+}
+#ConvocatoriaProfesores .textoIntroduccion span {
+  text-align: center;
+  color: #da0921;
+  margin: auto;
+  font-size: 0.8em;
+}
+#ConvocatoriaProfesores .textoIntroduccion .glyphicon {
+  margin: auto;
+}
+#ConvocatoriaProfesores .textoIntroduccion h3 {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.7em;
+  font-weight: 400;
+  color: #000;
+  line-height: 0.9em;
+  margin-bottom: 6px;
+  margin-top: 10%;
+  font-weight: bolder;
+}
+#ConvocatoriaProfesores .textoIntroduccion p {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+}
+#ConvocatoriaProfesores .info-1 {
+  display: table;
+  width: 100%;
+  padding: 3% 5%;
+}
+#ConvocatoriaProfesores .info-1 .iconoReferencia {
+  text-align: center;
+  background: #da0921;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  color: #fff;
+  width: 50px;
+  margin: auto;
+  padding: 15px 0;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+#ConvocatoriaProfesores .info-1 h3 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 5px;
+  font-size: 0.7em;
+  color: #000;
+}
+#ConvocatoriaProfesores .info-1 .info-izq {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: right;
+}
+#ConvocatoriaProfesores .info-1 .info-izq p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-1 .info-der {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: left;
+  /*border-left:solid 1px #EF575A;*/
+}
+#ConvocatoriaProfesores .info-1 .info-der p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-2 {
+  display: table;
+  width: 100%;
+  background: none;
+  padding: 3% 5%;
+  width: 100%;
+}
+#ConvocatoriaProfesores .info-2 .iconoReferencia {
+  text-align: center;
+  background: #69c6b5;
+  font-size: 1.3em;
+  color: #fff;
+  width: 50px;
+  margin: auto;
+  padding: 15px 0;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+#ConvocatoriaProfesores .info-2 h3 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin-top: 5px;
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+#ConvocatoriaProfesores .info-2 .info-izq {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: right;
+}
+#ConvocatoriaProfesores .info-2 .info-izq p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-2 .info-izq h4 {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #0d0b0b;
+  font-weight: 600;
+}
+#ConvocatoriaProfesores .info-2 .info-der {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: justify;
+  /*border-left:solid 1px #69C6B5;*/
+}
+#ConvocatoriaProfesores .info-2 .info-der p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-3 {
+  display: table;
+  width: 100%;
+  padding: 3% 5%;
+}
+#ConvocatoriaProfesores .info-3 .iconoReferencia {
+  text-align: center;
+  background: #56b9e5;
+  font-size: 1.3em;
+  color: #fff;
+  width: 50px;
+  margin: auto;
+  padding: 15px 0;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+#ConvocatoriaProfesores .info-3 h3 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin-top: 5px;
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+#ConvocatoriaProfesores .info-3 .info-izq {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: right;
+}
+#ConvocatoriaProfesores .info-3 .info-izq p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-3 .info-izq h4 {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #0d0b0b;
+  font-weight: 600;
+}
+#ConvocatoriaProfesores .info-3 .info-der {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: justify;
+  /*border-left:solid 1px #56B9E5;*/
+}
+#ConvocatoriaProfesores .info-3 .info-der p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-3 .info-der h4 strong {
+  color: #56b9e5;
+}
+#ConvocatoriaProfesores .info-3 .info-der .fecha {
+  /*font-family: 'Nunito',sans-serif;*/
+  display: table;
+  width: 100%;
+  border-bottom: solid 1px #56b9e5;
+  color: #237295;
+  text-align: right;
+  font-size: 1em;
+  padding: 5px 0;
+}
+#ConvocatoriaProfesores .info-4 {
+  display: table;
+  width: 100%;
+  padding: 3% 5%;
+}
+#ConvocatoriaProfesores .info-4 .iconoReferencia {
+  text-align: center;
+  background: #8964a7;
+  font-size: 1.3em;
+  color: #fff;
+  width: 50px;
+  margin: auto;
+  padding: 15px 0;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+#ConvocatoriaProfesores .info-4 h3 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin-top: 5px;
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+#ConvocatoriaProfesores .info-4 .info-izq {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: right;
+}
+#ConvocatoriaProfesores .info-4 .info-izq p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-4 .info-izq h4 {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #0d0b0b;
+  font-weight: 600;
+}
+#ConvocatoriaProfesores .info-4 .info-der {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: justify;
+  /*border-left:solid 1px #56B9E5;*/
+}
+#ConvocatoriaProfesores .info-4 .info-der p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-4 .info-der h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: #0d0b0b;
+  font-weight: 500;
+}
+#ConvocatoriaProfesores .info-4 .info-der h4 strong {
+  color: #8964a7;
+}
+#ConvocatoriaProfesores .info-4 .progress-bar {
+  background-color: #8964a7;
+}
+#ConvocatoriaProfesores .info-4 .calificacionMinima .progress-bar {
+  background-color: #344da3;
+}
+#ConvocatoriaProfesores .info-5 {
+  display: table;
+  width: 100%;
+  padding: 3% 5%;
+}
+#ConvocatoriaProfesores .info-5 .iconoReferencia {
+  text-align: center;
+  background: #da0921;
+  font-size: 1.5em;
+  color: #fff;
+  width: 50px;
+  margin: auto;
+  padding: 15px 0;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+#ConvocatoriaProfesores .info-5 h3 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin-top: 5px;
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+#ConvocatoriaProfesores .info-5 .info-izq {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: right;
+}
+#ConvocatoriaProfesores .info-5 .info-izq p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-5 .info-izq h4 {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #0d0b0b;
+  font-weight: 600;
+}
+#ConvocatoriaProfesores .info-5 .info-der {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  text-align: justify;
+  /*border-left:solid 1px #56B9E5;*/
+}
+#ConvocatoriaProfesores .info-5 .info-der p {
+  margin: 0;
+}
+#ConvocatoriaProfesores .info-5 .info-der h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: #c4571c;
+  font-weight: 500;
+}
+#ConvocatoriaProfesores .info-5 .info-der h4 strong {
+  color: #8964a7;
+}
+#ConvocatoriaProfesores .info-5 .progress-bar {
+  background-color: #8964a7;
+}
+#ConvocatoriaProfesores .info-4 .calificacionMinima .progress-bar {
+  background-color: #344da3;
+}
+#ConvocatoriaProfesores .separadorEntreTexto {
+  margin: 8px auto;
+}
+#ConvocatoriaProfesores .tituloRequisitos h3 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #4d4b4b;
+  margin-top: 3%;
+  margin: 0;
+}
+#ConvocatoriaProfesores .tituloRequisitos hr {
+  border-bottom: solid 2px #818194;
+  margin: 7px auto 30px auto;
+  background: #9898b8;
+  border: none;
+  width: 100%;
+}
+#ConvocatoriaProfesores .nav-pills .nav-link.active {
+  background-color: #ffffff;
+  border-top: 3px solid#da0921;
+  border-radius: 0;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #000;
+}
+#ConvocatoriaProfesores .nav-pills .nav-link i {
+  background-color: #da0921;
+  border-radius: 50%;
+  height: 23px;
+  width: 23px;
+  color: #fff;
+  padding: 23px;
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+#ConvocatoriaProfesores .nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0.25rem;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #000;
+}
+#ConvocatoriaProfesores .datosEnvio {
+  display: table;
+  width: 100%;
+  margin-top: 3%;
+  background: #f6f6f6;
+  padding: 3%;
+  border-top: solid 3px #da0921;
+}
+#ConvocatoriaProfesores .datosEnvio h3 {
+  font-family: "Nunito", sans-serif;
+  line-height: 0.9em;
+  margin-bottom: 6px;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+#ConvocatoriaProfesores .datosEnvio p .glyphicon {
+  color: #da0921;
+}
+#ConvocatoriaProfesores .datosEnvio p a {
+  color: #da0921;
+}
+#ConvocatoriaProfesores .datosEnvio .mas_info_convocatoria,
+#ConvocatoriaProfesores .datosEnvio .titulo_form_postulacion {
+  font-size: 2.5em;
+}
+/* Tabs a Acordeones */
+/* Tabs a Acordeones */
+/* Tabs a Acordeones */
+ul.resp-tabs-list,
+p {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+.resp-tabs-list li {
+  font-weight: 300;
+  font-size: 1.8rem;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  /*text-transform: uppercase;*/
+  font-family: "Nunito", sans-serif !important;
+  transition: 0.3s;
+}
+.resp-tabs-list li:hover {
+  border-top: solid 5px #e3e8ed;
+  background: #e3e8ed;
+  transform: scale(0.9, 0.9);
+  transition: 0.3s;
+}
+.resp-tabs-container {
+  padding: 0px;
+  background-color: #fff;
+  clear: left;
+}
+h2.resp-accordion {
+  cursor: pointer;
+  padding: 5px;
+  display: none;
+}
+.resp-tab-content {
+  display: none;
+  padding: 0;
+}
+.resp-tab-content p {
+  color: #666;
+  font-weight: lighter;
+}
+.resp-tab-active {
+  border-top: solid 5px #f0f0f0;
+  background: #f6f6f6;
+  border-bottom: none;
+  text-align: center;
+  margin-bottom: -1px !important;
+  /*text-transform: uppercase;*/
+  /* box-shadow:0 0 10px rgba(0,0,0,.1);*/
+  font-family: "Nunito", sans-serif !important;
+}
+#ConvocatoriaProfesores .nav-pills .nav-link {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#ConvocatoriaProfesores .nav {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#ConvocatoriaProfesores .nav-item {
+  width: 25%;
+}
+.resp-content-active,
+.resp-accordion-active {
+  display: block;
+}
+.resp-tab-content {
+  padding: 3% 0;
+  background: #f6f6f6;
+}
+h2.resp-accordion {
+  font-size: 13px;
+  border: 1px solid #fff;
+  border-top: 0px solid #c1c1c1;
+  margin: 0px;
+  padding: 10px 15px;
+  text-align: left !important;
+}
+h2.resp-tab-active {
+  border-bottom: 0px solid #c1c1c1 !important;
+  margin-bottom: 0px !important;
+  padding: 10px 15px !important;
+}
+h2.resp-tab-title:last-child {
+  border-bottom: 12px solid #c1c1c1 !important;
+  background: blue;
+}
+/*-----------estilos tab-----------*/
+.resp-vtabs ul.resp-tabs-list {
+  float: left;
+  width: 30%;
+}
+.resp-vtabs .resp-tabs-list li {
+  display: block;
+  padding: 15px 15px !important;
+  margin: 0;
+  cursor: pointer;
+  float: none;
+}
+.resp-vtabs .resp-tabs-container {
+  padding: 0px;
+  background-color: #fff;
+  border: none;
+  float: left;
+  width: 100%;
+  min-height: 250px;
+  border-radius: 4px;
+  clear: none;
+}
+.resp-vtabs .resp-tab-content {
+  border: none;
+}
+.resp-vtabs li.resp-tab-active {
+  border: 1px solid #c1c1c1;
+  border-right: none;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  margin-right: -1px !important;
+  padding: 14px 15px 15px 14px !important;
+}
+.resp-arrow {
+  width: 0;
+  height: 0;
+  float: right;
+  margin-top: 3px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid #a12642;
+}
+h2.resp-tab-active span.resp-arrow {
+  border: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #a12642;
+}
+/*-----------estilos acordeon-----------*/
+h2.resp-tab-active {
+  background: #f6f9fc !important;
+}
+.resp-easy-accordion h2.resp-accordion {
+  display: block;
+}
+.resp-easy-accordion .resp-tab-content {
+  border: 1px solid #fff;
+}
+.resp-easy-accordion .resp-tab-content:last-child {
+  border-bottom: 1px solid #fff !important;
+}
+.resp-jfit {
+  width: 100%;
+  margin: 0px;
+}
+.resp-tab-content-active {
+  display: block;
+}
+h2.resp-accordion:first-child {
+  border-top: 2px solid #e7ebf0 !important;
+}
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 768px) {
+  .convocatorias_profe .button {
+      position: relative;
+      width: 100%;
+      margin-left: 0;
+  }
+  .NuestraURosario .container {
+      background: #eaeef3;
+  }
+  .btn-whatsapp {
+      display: block !important;
+  }
+  #sliderCabecera1 .carousel-indicators {
+      bottom: -32px;
+  }
+  .ContenedorContenidoTabs h4 {
+      padding: 5% 0;
+  }
+  .UNOrecuadro-1 p,
+  .UNOrecuadro-2 p,
+  UNOrecuadro-3 p {
+      margin-bottom: 10%;
+  }
+  .DOSrecuadro-1 p,
+  .DOSrecuadro-2 p,
+  .DOSrecuadro-3 p,
+  .DOSrecuadro-4 p {
+      margin-bottom: 10%;
+  }
+  .TRESrecuadro-1 p,
+  .TRESrecuadro-2 p,
+  .TRESrecuadro-3 p,
+  .TRESrecuadro-4 p {
+      margin-bottom: 10%;
+  }
+  .CUATROrecuadro-1 p,
+  .CUATROrecuadro-2 p,
+  .CUATROrecuadro-3 p,
+  .CUATROrecuadro-4 p {
+      margin-bottom: 10%;
+  }
+  .CINCOrecuadro-1 p,
+  .CINCOrecuadro-2 p,
+  .CINCOrecuadro-3 p,
+  .CINCOrecuadro-4 p {
+      margin-bottom: 10%;
+  }
+  .SEISrecuadro-1 p,
+  .SEISrecuadro-2 p,
+  .SEISrecuadro-3 p,
+  .SEISrecuadro-4 p {
+      margin-bottom: 10%;
+  }
+  h2.resp-accordion .btn1 {
+      color: rgb(245, 139, 96);
+  }
+  h2.resp-accordion .btn2 {
+      color: #6f5499;
+  }
+  h2.resp-accordion .btn3 {
+      color: #d94342;
+  }
+  h2.resp-accordion .btn4 {
+      color: #44e1b5;
+  }
+  h2.resp-accordion .btn5 {
+      color: #119dc0;
+  }
+  h2.resp-accordion .btn6 {
+      color: #b8ae3a;
+  }
+  ul.resp-tabs-list {
+      display: none;
+  }
+  h2.resp-accordion {
+      border-top: solid 2px #e0e0e0;
+      display: block; /*text-transform: uppercase;*/
+      font-family: "Nunito", sans-serif !important;
+      font-size: 1.8rem;
+  }
+  .resp-vtabs .resp-tab-content {
+      border: 1px solid #fff;
+  }
+  .resp-vtabs .resp-tabs-container {
+      border: none;
+      float: none;
+      width: 100%;
+      min-height: initial;
+      clear: none;
+  }
+  .resp-accordion-closed {
+      display: none !important;
+  }
+  .resp-vtabs .resp-tab-content:last-child {
+      border-bottom: 1px solid #fff !important;
+  }
+}
+#jquery-script-menu {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-top: 5px solid #316594;
+  background: #fff;
+  -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  z-index: 999999;
+  padding: 10px 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.jquery-script-center {
+  width: 960px;
+  margin: 0 auto;
+}
+.jquery-script-center ul {
+  width: 212px;
+  float: left;
+  line-height: 45px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.jquery-script-center a {
+  text-decoration: none;
+}
+.jquery-script-ads {
+  width: 728px;
+  height: 90px;
+  float: right;
+}
+.jquery-script-clear {
+  clear: both;
+  height: 0;
+}
+@media (max-width: 1024px) {
+  #ConvocatoriaProfesores .btn-ver {
+      width: 58%;
+  }
+}
+@media (max-width: 768px) {
+  #ConvocatoriaProfesores .filtros hr {
+      margin-left: -33px;
+  }
+  #ConvocatoriaProfesores .caja {
+      height: auto;
+  }
+  #ConvocatoriaProfesores .textoIntroduccionDosCol {
+      margin-left: 0;
+      height: 229px;
+  }
+}
+@media (max-width: 600px) {
+  .tituloActividades h3 {
+      font-size: 2em;
+  }
+  .introeligeElPrograma h3 {
+      font-size: 2em;
+  }
+  .ContenedorContenidoTabs h4 {
+      font-size: 2em;
+  }
+  .ExploraNuestraURosarioInfo h3 {
+      font-size: 2em;
+  }
+  .introduccion .col-xs-12 {
+      padding: 0;
+  }
+  .llamadoAccion .container p {
+      font-size: 2em;
+      line-height: 1em;
+  }
+  .hashtag {
+      font-size: 1.8em;
+  }
+  .VideoIntroduccion iframe {
+      height: 155px;
+      margin-top: 5%;
+  }
+  .introduccionTxt h3 {
+      font-size: 2.3rem;
+      line-height: 2.3rem;
+      text-align: left;
+  }
+  .introduccionTxt p {
+      text-align: left;
+  }
+  .autores {
+      padding: 5% 0;
+  }
+  .autores .col-md-8 {
+      display: none;
+  }
+  figure.effect-ming h2 {
+      font-size: 1.2em;
+  }
+  #ConvocatoriaProfesores .datosEnvio p .glyphicon {
+      width: 100%;
+  }
+  #ConvocatoriaProfesores .datosEnvio p a {
+      display: table;
+      width: 100%;
+  }
+  #ConvocatoriaProfesores .textoIntroduccionDosCol {
+      margin-left: inherit;
+      margin-bottom: 38px;
+  }
+  #ConvocatoriaProfesores .caja {
+      height: auto;
+  }
+  #ConvocatoriaProfesores .filtros label {
+      line-height: 1em;
+  }
+  #ConvocatoriaProfesores .filtros hr {
+      margin-left: -24px;
+  }
+  #ConvocatoriaProfesores .filtros {
+      padding: 10% 3%;
+  }
+  #ConvocatoriaProfesores .nav-pills .nav-link {
+      font-size: 0.9em;
+  }
+  #ConvocatoriaProfesores .nav-pills .nav-link.active {
+      font-size: 0.9em;
+  }
+  #ConvocatoriaProfesores .nav-pills .nav-link.active {
+      padding: 15px 0 34px;
+  }
+  #RedesSociales.MenuR .nav-item {
+      position: inherit;
+  }
+  #RedesSociales.MenuR .dropdown-menu.show {
+      top: -212px !important;
+  }
+  .horizontalTab {
+     padding: 0 5%;
+  }
+  #ConvocatoriaProfesores .tituloRequisitos h3 {
+    font-size: 1.9em;
+  }
+  #ConvocatoriaProfesores .textoIntroduccion {
+      margin-top: -5%;
+      margin-left: 0%;
+  }
+}
+/** Redes sociales **/
+.btn-info.active,
+.btn-info:active,
+.open > .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #ccc;
+  border-color: #ccc;
+}
+.btn-info {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+.btn-info:hover {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+.open > .dropdown-toggle.btn-info:hover {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+.dato-public-revista3 {
+  width: 150px;
+  text-align: right;
+  float: right;
+  position: relative;
+  margin: 10px 2.5% 10px 0px;
+}
+.btn-group,
+.btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#socialShare .btn-info i {
+  color: #fff;
+}
+.mobile-social-share ul {
+  float: right;
+  list-style: none outside none;
+  margin: 0;
+  min-width: 61px;
+  padding: 0;
+}
+.mobile-social-share li {
+  display: block;
+  font-size: 18px;
+  list-style: none outside none;
+  margin-bottom: 3px;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+.btn-twitter {
+  background-color: #39c !important;
+  width: 51px;
+  color: #fff !important;
+}
+.btn-facebook {
+  background-color: #3d5b96 !important;
+  width: 51px;
+  color: #fff !important;
+}
+.btn-linkedin {
+  background-color: #1884bb !important;
+  width: 51px;
+  color: #fff !important;
+}
+.btn-whatsapp {
+  background-color: #00a859 !important;
+  width: 51px;
+  color: #fff !important;
+  display: none !important;
+}
+#socialHolder {
+  float: right;
+  display: block;
+  background: #ccc;
+}
+.btn-whatsapp {
+  background-color: #00a859 !important;
+  width: 51px;
+  color: #fff !important;
+  display: none !important;
+}
+/* Fin redes sociales*/
+/**************************************************
+Estilos agregados por Luis Felipe el día 08/08/2018*/
+#ConvocatoriaProfesores .info-1 .info-der h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: #da0921;
+  font-weight: 600;
+}
+#ConvocatoriaProfesores .info-2 .info-der h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: #69c6b5;
+  font-weight: 600;
+}
+#ConvocatoriaProfesores .info-3 .info-der h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: #56b9e5;
+  font-weight: 600;
+}
+#ConvocatoriaProfesores .info-4 .info-der h4 {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #da0921;
+}
+#ConvocatoriaProfesores .info-5 .info-der h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: #da0921;
+  font-weight: 600;
+}
+#ConvocatoriaProfesores .espacio-proceso-descripcion {
+  margin-bottom: 50px;
+}
+.miga a {
+  font-size: 12px;
+  color: #da0921;
+  font-weight: 600;
+}
+.miga {
+  display: table;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background: rgba(250, 250, 250, 0.7);
+  font-size: 12px;
+}

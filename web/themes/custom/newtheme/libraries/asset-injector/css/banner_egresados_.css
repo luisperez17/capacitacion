@@ -1,0 +1,113 @@
+#egresados-banner .beneficios_egresados {
+  border: 2px solid #ddd;
+  padding: 15px 15px 0px;
+  background-image: url(/img/egresados.jpeg);
+  width: 120%;
+  min-height: 580px;
+  background-size: cover;
+  background-position-x: center;
+}
+#egresados-banner .beneficios_egresados::before {
+  border: 2px solid #dadae5;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 68px;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  transition: all 0.3s;
+  margin: -16px 0;
+  z-index: -1;
+  width: 110%;
+}
+#egresados-banner .center_item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.content_boton {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#egresados-banner .convenios-descuentos {
+  padding: 5% 7%;
+  border-radius: 0;
+  width: 100%;
+  box-shadow: 3px 2px 13px #cecece;
+  z-index: 1;
+  background: #fff;
+}
+#egresados-banner .rosarista {
+  flex-wrap: nowrap;
+  position: relative;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+#egresados-banner .rosarista h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 10px;
+  background: linear-gradient(to left, #2e3180, #1b142d);
+  -webkit-background-clip: text;
+  color: transparent;
+  line-height: 48px;
+}
+#egresados-banner.container-fluid .rosarista {
+  padding: 40px;
+}
+#egresados-banner .rosarista h2 span {
+  font-size: 1.5em;
+}
+#egresados-banner .convenios-descuentos p {
+  font-size: 1.2em;
+}
+#egresados-banner button.white-bold {
+  border: 1px solid #da0921;
+  background-color: #fff;
+  color: #da0921;
+}
+#egresados-banner button {
+  padding: 5px 18px;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+}
+button.white-bold.mt-3.rojo {
+  background: #da0921 !important;
+  color: #fff !important;
+  border-color: #da0921 !important;
+}
+button.white-bold.mt-3 {
+  float: left;
+  margin-right: 20px !important;
+  transition: 0.2s;
+}
+button.white-bold.mt-3.morado {
+  background: #2c2f79 !important;
+  color: #fff !important;
+  border-color: #2c2f79 !important;
+}
+
+@media (max-width: 992px) {
+  #egresados-banner .beneficios_egresados {
+    background-position-x: 6%;
+  }
+  #egresados-banner .rosarista h2 {
+    font-size: 1.8em;
+    line-height: 45px;
+  }
+  #egresados-banner .convenios-descuentos p {
+    font-size: 1em;
+  }
+  #egresados .rosarista {
+    display: block;
+  }
+}

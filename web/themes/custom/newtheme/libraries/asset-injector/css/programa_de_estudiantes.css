@@ -1,0 +1,539 @@
+/*BREAKER DE PIE DE PAGINA*/
+
+.breaker-pie-pagina-estudiantes .delay-show {
+  opacity: 0;
+  transition: 0.8s all;
+  transform: translateY(50px);
+}
+.breaker-pie-pagina-estudiantes .delay-show.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.breaker-pie-pagina-estudiantes .container {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.breaker-pie-pagina-estudiantes .wrap-row-offer-link-level-1 {
+  background-color:#dadae5;
+  overflow: hidden;
+}
+.breaker-pie-pagina-estudiantes .wrap-boxes-offers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-left: -30px;
+}
+.breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side.box-left {
+  position: relative;
+}
+  
+.breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side.box-left h4,.breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side.box-left h3{
+ 	 background: linear-gradient(to left,#2e3180,#1b142d);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side {
+  position: relative;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+.breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side-inner h3.box-title {
+  font-size: 26px;
+  line-height: 0.9;
+  font-weight: bold;
+}
+.breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side-inner h3.box-title strong {
+  font-size: 2rem;
+  margin: 0 0 25px;
+  font-weight: 700;
+}
+.breaker-pie-pagina-estudiantes b,
+.breaker-pie-pagina-estudiantes strong {
+  font-weight: bolder;
+}
+.breaker-pie-pagina-estudiantes .contenedor-num {
+  padding: 12px 0px 10px 5px;
+  line-height: 1.5em;
+}
+.breaker-pie-pagina-estudiantes .tel a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+}
+.breaker-pie-pagina-estudiantes .far {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.breaker-pie-pagina-estudiantes .mail a {
+  color: #fff;
+  font-weight: 800;
+  font-size: 15px;
+}
+.btn {
+  text-transform: uppercase;
+}
+.breaker-pie-pagina-estudiantes .box-link .btn {
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  color:#00006d;
+  background-color: white;
+  border: 1px solid #00006d;
+  padding: 10px 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.breaker-pie-pagina-estudiantes .box-link a.btn-outline-light.arrow-left:hover{
+    background-color:#00006d; 
+  	color:white;
+  }  
+ .breaker-pie-pagina-estudiantes .box-link  .arrow-end{
+    background-color:transparent;
+    border: 1px solid #fff;
+    color:white;;
+  }
+.breaker-pie-pagina-estudiantes .btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.breaker-pie-pagina-estudiantes .box-link .btn-outline-light:hover {
+  color: #c72c2d;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+  
+
+.breaker-pie-pagina-estudiantes wrap-boxes-offers .box-link a.btn:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .breaker-pie-pagina-estudiantes .container {
+    max-width: 960px;
+  }
+  .breaker-pie-pagina-estudiantes .wrap-row-offer-link-level-1 {
+    background-size: 50%;
+    background-position: right center;
+  }
+  .breaker-pie-pagina-estudiantes .wrap-box-side.box-left {
+    padding: 5% 10%;
+}
+ .breaker-pie-pagina-estudiantes .wrap-row-offer-link {
+    background-image: url(/sites/default/files/2022-12/educon_0.png);
+    color: #fff;
+    background-size: calc(50% + -1px) auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  .breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side.box-right:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 350px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 100px solid #dadae5;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+  }
+  .breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side-inner h3.box-title {
+    font-size: 26px;
+  }
+}
+@media (max-width: 600px) {
+  .breaker-pie-pagina-estudiantes .wrap-boxes-offers .box-link a.btn {
+    padding: 10px 9px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .breaker-pie-pagina-estudiantes .container {
+    max-width: 720px;
+  }
+  .breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+ .breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side.box-right {
+    text-align: right;
+    position: relative;
+    z-index: 2;
+  }
+  .breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .breaker-pie-pagina-estudiantes .container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .breaker-pie-pagina-estudiantes .container {
+    max-width: none ;
+  }
+  .breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side.box-right {
+    background-image: url(/sites/default/files/2022-12/educon_0.png);
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .breaker-pie-pagina-estudiantes .container {
+    max-width: 1140px;
+  }
+  .breaker-pie-pagina-estudiantes .wrap-boxes-offers .wrap-box-side-inner h3.box-title {
+    font-size: 34px;
+  }
+  .breaker-pie-pagina-estudiantes .wrap-boxes-offers .box-link a.btn {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1300px) {
+  .breaker-pie-pagina-estudiantes .container {
+    max-width: 1280px;
+  }
+}
+
+/*CARD MODAL PROYECTOS ACADEMICOS*/
+
+ .card-modal-acedemicos .Descubrelos {
+  background-color: #fff;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 3%;
+  height: auto;
+  border-radius: 9px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  box-shadow: 4px 4px 12px #00000024;
+  line-height: 1.4em;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .overlay p {
+  color: #fff;
+}
+
+.card-modal-acedemicos .Proceso_ingreso p.titulo_atras {
+  font-weight: 800;
+  font-size: 1.2em;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 42%;
+  padding: 18% 1% 3% 0;
+  margin: auto;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .text {
+  -moz-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: opacity 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, hsl(240, 63.3%, 11.8%), hsl(242, 38%, 31%));
+  transition: opacity 0.3s ease-in 0s, transform 0.3s ease-in 0s, -webkit-transform 0.3s ease-in 0s;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .img-content.Azul::before {
+  content: "";
+  position: absolute;
+  background-color: #211d339e;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #1d1c6dbd, #0800297a);
+}
+
+.card-modal-acedemicos .Proceso_ingreso .img-content {
+  position: relative;
+}
+
+.card-modal-acedemicos .Proceso_ingreso img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .contenedor_front,
+.contenedor_front2 {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  font-weight: 700;
+  padding: 6% 10%;
+  font-size: 1.6rem;
+  line-height: 1em;
+  z-index: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card-modal-acedemicos .Proceso_ingreso h3 {
+  text-align: center;
+  color: #da0921;
+  font-weight: 900;
+  font-size: 3.4em;
+}
+
+.card-modal-acedemicos .overlay i {
+  background-color: #da0921;
+  color: #ffff;
+  padding: 4px;
+  width: 24px;
+  text-align: center;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin-bottom: 5px;
+  vertical-align: top;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .overlay a {
+  font-weight: 800;
+  color: #ffffff;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #da0921;
+  display: table;
+  padding: 6px 23px 0;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .img-content:hover .overlay {
+  opacity: 1;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .img-content:hover .overlay .text {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.card-modal-acedemicos .Proceso_ingreso .contenedor_front img {
+  width: 28%;
+}
+
+.card-modal-acedemicos .Proceso_ingreso img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .overlay a:hover {
+  color: #fff;
+  background-color: #cf0b22;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .contenedor_front2 img {
+  width: 23%;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .contenedor_front span {
+  font-size: 2.2rem;
+  margin-bottom: 10%;
+  display: block;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .contenedor_front2 {
+  color: #190356 !important;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .contenedor_front2 span {
+  font-size: 2.2rem;
+  margin-bottom: 10%;
+  display: block;
+}
+
+.card-modal-acedemicos .Proceso_ingreso .espacio {
+  padding: 2% 7% 0 7%;
+}
+
+.card-modal-acedemicos .modal.fade {
+  background: linear-gradient(to right, rgba(46, 49, 128, 0.88), rgba(27, 20, 45, 0.86));
+}
+
+.card-modal-acedemicos button.close {
+  position: absolute;
+  right: 15px;
+  background-color: transparent;
+  border: 0;
+}
+
+.card-modal-acedemicos button.close :hover {
+  color: #000;
+}
+
+.card-modal-acedemicos .flex-modal {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.card-modal-acedemicos .modal-header .close {
+  padding: 1rem 1rem;
+  margin: -1rem -1rem -1rem auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: rgb(83, 81, 81);
+  text-shadow: 0 1px 0 #fff;
+
+}
+
+.card-modal-acedemicos .modal-header {
+  border-bottom: 4px solid #da0921;
+}
+
+.card-modal-acedemicos .modal-header .modal-title {
+  margin: auto;
+  font-weight: 800;
+  font-size: 2.1em;
+  color: #da0921;
+}
+
+.card-modal-acedemicos .modal-body .flex-modal>div {
+  background-color: #f1f1f1;
+  width: 46%;
+  margin: 14px;
+  text-align: left;
+  line-height: 1.3em;
+  font-size: 1em;
+  padding: 28px 20px 50px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.card-modal-acedemicos .modal-body .flex-modal>div.imgseccion {
+  background-color: #ffffff;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0;
+}
+
+.card-modal-acedemicos .modal-body .flex-modal>div a.mail {
+  position: initial;
+  border: 0;
+  color: #da0921;
+}
+
+.card-modal-acedemicos .modal-body .flex-modal a {
+  color: #000;
+  font-weight: 800;
+  position: absolute;
+  bottom: 11px;
+  right: 18px;
+  border-bottom: 3px solid#da0921;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.card-modal-acedemicos .modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.card-modal-acedemicos .modal-footer button.btn.btn-secondary {
+  margin: auto;
+  background-color: #da0921;
+  border: 0;
+  transition: 1s;
+}
+
+.card-modal-acedemicos .modal-body .flex-modal a.btn-enlace {
+  position: inherit;
+  right: inherit;
+  bottom: inherit;
+  border-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-modal-acedemicos .Descubrelos {
+    height: unset;
+  }
+}
+
+@media (min-width: 1366px) {
+  .card-modal-acedemicos .Descubrelos {
+    height: 360px;
+  }
+
+}
+
+@media (min-width: 1577px) and (max-width: 2000px) {
+  .card-modal-acedemicos .Descubrelos {
+    height: 285px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .card-modal-acedemicos .Proceso_ingreso h3 {
+    font-size: 2em;
+  }
+
+  .card-modal-acedemicos .Proceso_ingreso .contenedor_front,
+  .card-modal-acedemicos .contenedor_front2 {
+    font-size: 1.3em;
+  }
+}

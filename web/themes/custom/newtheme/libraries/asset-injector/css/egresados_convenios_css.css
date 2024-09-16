@@ -1,0 +1,2316 @@
+body * {
+  font-family: 'Nunito', sans-serif;
+}
+.resp-tab-content.resp-tab-content-active {
+  margin-bottom:40px;
+}
+.contenido-normal img {
+  margin-top: -40px !important;
+}
+.contenido-normal {
+  display: table;
+  width: 100%;
+}
+.contenedor-boton1 a {
+  background-color: #1b142d;
+  display: block;
+  color: #fff!important;
+  text-decoration: none;
+  margin-top: 15px;
+  width: 100%;
+  height: 0px;
+  /* border-top: 19px solid transparent; */
+  border-bottom: 91px solid transparent;
+  border-left: 47px solid #d80e23;
+  transition: .4s;
+  border-radius: 8px;
+  font-size: .9em!important;
+}
+.contenedor-boton1 a:hover {
+  background-color: #d80e23;
+  border-left: 47px solid #1b142d;
+}
+.pie {
+  background: #191960;
+  padding: 25px;
+  text-transform: initial;
+  border-left: solid 5px #da0920;
+  min-height: 127px;
+  display: table;
+}
+#carouselExampleIndicators ol.carousel-indicators {
+  display: none;
+}
+a.botonDMU {
+  text-align: center;
+  width: 100%;
+  display: table;
+  padding: 10px;
+  background: #da0921;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.contenido-normal h4 {
+  color: #dc3545;
+  font-size: .8em !important;
+  text-transform: initial;
+}
+.contenedor-boton {
+  background: #e9e9f2;
+  padding-bottom: 2.5%;
+  margin-top: -10px;
+}
+a.botonDMU:hover {
+  background: #211e49;
+  transition: .2s;
+  transform: scale(1.03);
+}
+.contenedor-boton .container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1435px !important;
+}
+.container-fluid {
+  padding: 0px !important;
+}
+#egresados_convenios #myCarousel.carousel {
+  padding: 0;
+}
+#egresados_convenios a.white-bold {
+  font-size: 1.0em;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  padding: 5px 18px;
+  align-items: center;
+  border: 1px solid #dA0921;
+  background-color: #fff;
+  color: #dA0921;
+  margin: 0;
+}
+#egresados_convenios a.white-blue {
+  font-size: 1.0em;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  padding: 5px 18px;
+  align-items: center;
+  border: 1px solid #dA0921;
+  background-color: #fff;
+  color: #dA0921;
+  margin: 0;
+}
+#egresados_convenios a.white-bold:hover {
+  border: 1px solid #fff;
+  background-color: #dA0921;
+  color: #fff;
+  text-decoration: none;
+}
+#egresados_convenios .resp-tabs-container {
+  border-radius: 0px;
+  border: none;
+}
+#egresados_convenios .row .menu-prin-tabs {
+margin: 0px;
+}
+#egresados_convenios .carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px;
+}
+#egresados_convenios .active, .carousel, .carousel-inner, .item, body, html {
+  height: 100%;
+}
+#egresados_convenios .carousel-inner {
+  height: 400px;
+  background: #000;
+}
+#egresados_convenios .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#egresados_convenios .contenedorImagenSlide img {
+  width: 100%;
+}
+#egresados_convenios .animacionBg {
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+}
+#egresados_convenios .logos {
+  position: absolute;
+  right: 19%;
+  top: 20%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+#egresados_convenios .active, .carousel, .carousel-inner, .item, body, html {
+  height: auto;
+}
+#egresados_convenios .animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+#egresados_convenios .logo_texto img {
+  width: 100%;
+  max-width: 520px;
+}
+#egresados_convenios .pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+#egresados_convenios .txtLogo {
+  animation-delay: 1s;
+}
+#egresados_convenios .animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+#egresados_convenios .txtLogo img {
+  width: 100%;
+}
+/*menu*/
+#egresados_convenios .menu_posgrados {
+  padding: 0 !important;
+}
+#egresados_convenios .menu_posgrados {
+  background: #ffffff;
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.29);
+}
+#egresados_convenios .nav-item {
+  margin: 0 auto;
+}
+#egresados_convenios .navbar-expand-md .navbar-nav {
+  width: 100%;
+}
+#egresados_convenios .navbar-expand-md .navbar-nav .nav-link img {
+  height: 70px;
+  width: 100%;
+  margin: 0 auto;
+}
+#egresados_convenios .navbar-expand-md .navbar-nav .nav-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#egresados_convenios .menu_posgrados a {
+  color: #616160;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+#egresados_convenios .menu_posgrados a {
+  font-size: 13px !important;
+  text-align: center;
+}
+/*menu*/
+#egresados_convenios hr {
+  width: 510px;
+  position: relative;
+  border: 2px solid #dA0921;
+  display: inline-block;
+  margin: 20px 0 25px 0!important;
+  left: -443px;
+  background: #da0921;
+}
+#egresados_convenios h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  padding-left: 0px;
+  margin-left: -20px;
+}
+#egresados_convenios h3 {
+  font-size: 1.7em;
+  color: #d80e23;
+  font-weight: 600;
+}
+#egresados_convenios p {
+  color: #000;
+  padding: 10px 0px 20px;
+}
+#egresados_convenio strong {
+  font-weight: 800;
+}
+#egresados_convenios .seguros {
+  background: #e9e9f2;
+  padding: 3% 4%;
+}
+#egresados_convenios .seguros h2 {
+  font-weight: 700;
+}
+#egresados_convenios h2 img {
+  height: 70px;
+  margin: 0 auto;
+}
+#egresados_convenios .salud {
+  background: #f7f7f7;
+ padding: 3% 4%;
+}
+#egresados_convenios.container-fluid {
+  padding: 0;
+  display: block;
+}
+#egresados_convenios .table_content {
+  background: #fff;
+  padding: 20px 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.19);
+}
+#egresados_convenios .table_content a {
+  color: #201c3a;
+  font-weight: 800;
+  padding: 15px 20px;
+  font-size: 1.0em;
+}
+#egresados_convenios .table_content a.active {
+  background-color: #d80e23;
+  color: #fff !important;
+}
+#egresados_convenios .table_content .cont-primero img {
+  width: 350px;
+  float: right;
+  margin: 20px;
+}
+#egresados_convenios .table_content .cont-primero li:before {
+  color: #da0820;
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+#egresados_convenios .table_content .cont-primero li {
+  list-style: none;
+  padding: 5px 0;
+}
+#egresados_convenios .menu-prin-tabs li.resp-tab-item h5 img {
+  height: 70px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+#egresados_convenios .menu-prin-tabs .resp-tab-active h5 img {
+  filter: brightness(0.5);
+}
+#egresados_convenios .menu-prin-tabs li.resp-tab-item h5 {
+  font-size: 14px;
+  text-align: center;
+}
+#egresados_convenios .menu-prin-tabs li.resp-tab-item h5 {
+  font-size: 14px;
+  text-align: center;
+  color: #75757d;
+  font-weight: 700;
+}
+#egresados_convenios .menu-prin-tabs .resp-tab-item {
+  background: #ffffff !important;
+}
+#egresados_convenios .menu-prin-tabs .resp-tab-active {
+  background: #d80e23 !important;
+  color: #fff;
+}
+#egresados_convenios .menu-prin-tabs li.resp-tab-item.resp-tab-active h5 {
+  color: #fff;
+}
+#egresados_convenios .resp-tab-content p {
+  color: #000 !important;
+  font-weight: 300;
+  text-align: left;
+}
+#egresados_convenios .resp-tab-content p strong {
+  font-weight: 800;
+}
+#egresados_convenios .menu_egrsadoscon {
+  overflow: hidden;
+}
+#egresados_convenios .menu_egrsadoscon ul.resp-tabs-list {
+  display: flex;
+}
+#egresados_convenios .table_content .cont-primero h6.card-title {
+  font-size: 1.2em;
+  color: #000052;
+  font-weight: 600;
+  text-align: center;
+}
+#egresados_convenios .table_content .cont-primero table {
+  background: #f3f2f0;
+}
+#egresados_convenios .table_content .cont-primero table thead {
+  background: #ff1116;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+#egresados_convenios .table_content .cont-primero table td {
+  padding: 5px;
+  font-size: 15px;
+}
+#egresados_convenios .table_content .cont-primero table th {
+  padding: 5px;
+}
+#egresados_convenios h2.resp-accordion.resp-tab-active {
+  background: #d80e23 !important;
+  padding: 10px 10% !important;
+}
+#egresados_convenios h2.resp-accordion.resp-tab-active img {
+  filter: brightness(0.5);
+}
+#egresados_convenios h2.resp-accordion h5 {
+  font-size: 1.0em;
+  /* text-align: center; */
+  color: #75757d;
+  font-weight: 700;
+  display: inline-flex;
+  text-align: inherit;
+  align-items: center;
+}
+#egresados_convenios h2.resp-accordion.resp-tab-active h5{
+  color: #fff;
+}
+#egresados_convenios h2.resp-accordion span {
+  margin-top: 5%;
+  margin-right: 5%;
+}
+/*Rosaristas en el-mundo*/
+#Ur_Internacional hr {
+  width: 300px;
+  position: relative;
+  border: 2px solid #dA0921;
+  display: inline-block;
+  margin: 20px 0 25px 0!important;
+  left: -183px;
+  background: #da0921;
+}
+#Ur_Internacional h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #000;
+  padding: 10px 10%;
+  margin: 0;
+}
+#Ur_Internacional .content_encabezado {
+  background-color: #e9e9f2;
+}
+.modal-backdrop.show {
+  display: none;
+}
+#Ur_Internacional .encabezado {
+  background: linear-gradient( #da092100 100%, rgba(181, 26, 26, 0.32)100%), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Egresados/img/header.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 101%;
+min-height: 515px;
+  align-items: center;
+  display: flex;
+  background-position-x: 21%;
+  background-position-y: 10%;
+  position: relative;
+}
+#Ur_Internacional .container {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#Ur_Internacional .encabezado .right {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 5% 7%;
+  border-radius: 0;
+  width: 100%;
+  box-shadow: 3px 2px 13px #cecece;
+  z-index: 1;
+  background: #fff;
+}
+#Ur_Internacional .encabezado .logo img {
+  width: 100%;
+  min-width: 220px;
+  max-width: 560px;
+  margin: 0 auto;
+}
+#Ur_Internacional .encabezado .left {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: end;
+  align-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border-radius: 0;
+  width: 100%;
+  padding: 0px 30px;
+}
+#Ur_Internacional .encabezado .left img {
+  width: 100%;
+}
+#Ur_Internacional a.white-bold:hover {
+  border: 1px solid #fff;
+  background-color: #dA0921;
+  color: #fff;
+  text-decoration: none;
+}
+#Ur_Internacional h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #000;
+  padding: 5px 0px;
+  margin: 0;
+}
+#Ur_Internacional p {
+  color: #000;
+  padding: 10px 0px 20px;
+  text-transform: initial;
+}
+#Ur_Internacional .margenSuperior p {
+  font-size: 0.7em;
+  text-transform: initial;
+  padding-bottom: 4px;
+}
+#Ur_Internacional .quienes_como .card.card-body {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Egresados/img_segmentos/como_ser_parte.png);
+  width: 100%;
+  background-size: cover;
+  height: auto;
+}
+#Ur_Internacional .quienes_como .card.card-body:before {
+ 
+background: linear-gradient(135deg, rgba(84,4,8,1) 0%, rgba(102,6,14,1) 10%, rgba(218,9,34,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#540408', endColorstr='#da0922', GradientType=1 );
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  transition: all 0.3s;
+  width:35%;
+}
+#Ur_Internacional .quienes_como .card.card-body h4 {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 500;
+}
+#Ur_Internacional a.white-bold {
+  font-size: 1.0em;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  padding: 5px 18px;
+  align-items: center;
+  border: 1px solid #dA0921;
+  background-color: #fff;
+  color: #dA0921;
+  margin: 0;
+}
+#Ur_Internacional a.white-blue {
+  font-size: 1.0em;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  padding: 5px 18px;
+  align-items: center;
+  border: 1px solid #212056;
+  background-color: #fff;
+  color: #212056;
+  margin: 0;
+}
+#Ur_Internacional a.white-blue:hover {
+  border: 1px solid #fff;
+  background-color: #212056;
+  color: #fff;
+  text-decoration: none;
+}
+#Ur_Internacional .quienes_como .card.card-body .item_card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 190px;
+  padding: 20px 30px;
+}
+#Ur_Internacional .quienes_como .card.card-body p {
+  color: #fff;
+  font-size: 1.0em;
+  padding-top: 30px;
+}
+#Ur_Internacional .quienes_como .card.card-body ul {
+  color: #fff;
+  font-size: 1.0em;
+}
+#Ur_Internacional .content_contactar .importante_text h5 {
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #696969;
+}
+#Ur_Internacional .content_contactar .este_proyecto h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #cc081f;
+}
+#Ur_Internacional .content_contactar {
+  padding: 40px 0px;
+  background-color: #e9e9f2;
+}
+#Ur_Internacional .content_contactar .importante_text img {
+  width: 80px;
+  padding: 10px 15px 0px 0px;
+}
+#Ur_Internacional .content_contactar .importante_text a {
+  color: #cc081f;
+}
+#Ur_Internacional .content_contactar .importante_text .icon_text p {
+  color: #808080;
+}
+#Ur_Internacional .content_contactar .este_proyecto {
+  padding-right: 10px;
+  border-right: 2px solid #ab1022;
+}
+#Ur_Internacional .content_contactar .importante_text .icon_text {
+  display:flex;
+  align-items: end;
+}
+#Ur_Internacional .elige_destino {
+  padding: 20px 0px;
+}
+#Ur_Internacional .contactanos {
+  position: fixed;
+  z-index: 2;
+  top: 60%;
+  right: 0;
+}
+#Ur_Internacional .contactanos a.contactanos_btn {
+  font-size: 1.2em;
+  color: #fff;
+  background: #d60922;
+  border: 1px solid #fff;
+  padding: 8px 20px;
+  border-radius: 8px 0px 0px 8px;
+  text-decoration: none;
+}
+#Ur_Internacional .contactanos a.contactanos_btn:hover {
+  font-size: 1.2em;
+  color: #fff;
+  background: linear-gradient(135deg, rgb(13, 13, 88) 0%, rgba(0,0,100,1) 53%, rgba(0,0,0,1) 100%);
+  border: 1px solid #fff;
+  padding: 8px 20px;
+  border-radius: 8px 0px 0px 8px;
+}
+.modal-backdrop {
+  position: static;
+}
+#Ur_Internacional .contactanos .modal.show {
+  background: linear-gradient(135deg, rgba(25, 25, 56, 0.7) 0%, rgba(0, 0, 0, 0.76) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191938', endColorstr='#000000', GradientType=1 );
+}
+#Ur_visionarios .videos_visionarios .modal.show {
+  background: linear-gradient(135deg, rgba(25, 25, 56, 0.7) 0%, rgba(0, 0, 0, 0.76) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191938', endColorstr='#000000', GradientType=1 );
+}
+#Ur_visionarios .videos_visionarios .modal.show .modal-dialog {
+  padding-top: 5%;
+}
+#Ur_visionarios .videos_visionarios .white-bold.more {
+  font-size: 1.0em;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  padding: 5px 18px;
+  align-items: center;
+  border: 1px solid #dA0921;
+  color: #fff;
+  margin: 0;
+  background: linear-gradient(109deg, rgb(255, 0, 0) 0%, rgb(158, 3, 11) 80%);
+  text-decoration: none;
+  cursor: pointer;
+}
+#Ur_visionarios .videos_visionarios .white-bold.more:hover {
+  border: 1px solid #dA0921;
+  color: #dA0921;
+  margin: 0;
+  background: #fff;
+}
+#Ur_visionarios .videos_visionarios .efecto_cajas.grid {
+  -webkit-box-shadow: 1px 2px 11px 0px #9a9a9a;
+  -moz-box-shadow: 1px 2px 11px 0px #9a9a9a;
+  box-shadow: 1px 2px 11px 0px #351a1a;
+}
+#Ur_visionarios .videos_visionarios .modal-body {
+  padding: 5px;
+  background: #0c0418;
+}
+ .small, small {
+  color: #000;
+}
+.modal-body {
+  padding: 30px 32px;
+}  
+ .modal  b {
+ color: #000;
+ line-height: 1.1em;
+ display: block;
+ }
+#Ur_Internacional .contactanos .modal-dialog {
+  width: 100%;
+  max-width: 60%;
+  padding-top: 8%;
+}
+#Ur_visionarios .headerpage_img .box_body img {
+  width: 100%;
+  max-width: 520px;
+}
+/*Rosaristas en el-mundo*/
+/* EFECTO CAJAS */
+#Ur_Internacional .elige_destino .efecto_cajas.grid .modal-dialog {
+  width: 100%;
+  max-width: 70%;
+}
+#Ur_Internacional .elige_destino .efecto_cajas.grid .modal.show {
+  background: linear-gradient(135deg, rgba(25, 25, 56, 0.7) 0%, rgba(0, 0, 0, 0.76) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191938', endColorstr='#000000', GradientType=1 );
+}
+#Ur_Internacional .efecto_cajas.grid h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+  border-left: 3px solid #da0921;
+  padding-left: 7px;
+}
+/* Common style */
+.efecto_cajas.grid figure {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+.efecto_cajas.grid figure img {
+position: relative;
+display: block;
+min-height: 100%;
+max-width: 100%;
+opacity: 0.7;
+}
+.efecto_cajas.grid figure figcaption {
+padding: 2em;
+color: #fff;
+text-transform: uppercase;
+font-size: 1.25em;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+.efecto_cajas.grid figure figcaption::before,
+.efecto_cajas.grid figure figcaption::after {
+pointer-events: none;
+}
+.efecto_cajas.grid figure figcaption,
+.efecto_cajas.grid figure figcaption > a {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.efecto_cajas.grid figure figcaption > a {
+z-index: 1000;
+text-indent: 200%;
+white-space: nowrap;
+font-size: 0;
+opacity: 0;
+}
+.efecto_cajas.grid figure h2 {
+word-spacing: -0.15em;
+font-weight: 300;
+}
+.efecto_cajas.grid figure h2 span {
+font-weight: 800;
+}
+.efecto_cajas.grid figure h2,
+.efecto_cajas.grid figure p {
+margin: 0;
+}
+.efecto_cajas.grid figure p {
+letter-spacing: 1px;
+font-size: 68.5%;
+}
+/* Individual effects */
+/* Style tab links */
+.elige_destino .modal-content .tablink {
+  background-color: #da0921;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 10px 0px;
+  font-size: 1.0em;
+  width: 20%;
+  border-left: 1px solid #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+#Ur_Internacional .elige_destino .modal-content .tablink p {
+  color: #fff;
+}
+.elige_destino .modal-header h4.modal-title {
+  color: #2d327f;
+  font-weight: 600;
+}
+#Ur_Internacional .margenSuperior {
+  margin: 50px 10px 20px;
+}
+#Ur_Internacional .margenSuperior ul {
+  color: #000;
+  text-transform: initial;
+  font-size: 0.7em;
+}
+
+.elige_destino .modal-content .tablink:hover {
+  background: linear-gradient(135deg, rgb(22, 22, 100) 0%, rgba(1, 4, 15, 0.76) 100%);
+  text-decoration: none;
+}
+/* Style the tab content (and add height:100% for full page content) */
+.elige_destino .modal-content .tabcontent {
+  color: white;
+  display: none;
+  padding: 90px 20px 10px;
+  height: 100%;
+  text-transform: none;
+}
+.elige_destino .modal-content img {
+  text-align: center;
+  max-height: 367px;
+  float: right;
+  margin: 20px;
+  padding: 10px;
+}
+.elige_destino .modal-content p {
+  font-size: 0.9em;
+}
+.elige_destino .modal-content p strong {
+  font-weight: 600;
+}
+.elige_destino .modal-content a {
+  color:#ff1116;
+}
+.elige_destino .modal-content ul a {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+.transforma small {
+  color: #fff;
+}
+.transforma p {
+  padding: 0 0 16px!important;
+}
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+.efecto_cajas.grid figure.effect-julia {
+  background: linear-gradient(135deg, rgb(13, 13, 88) 0%, rgba(0,0,100,1) 53%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000064', endColorstr='#000000', GradientType=1 );
+}
+.efecto_cajas.grid figure.effect-julia img {
+max-width: none;
+/*height: 310px;*/
+-webkit-transition: opacity 1s, -webkit-transform 1s;
+transition: opacity 1s, transform 1s;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+.efecto_cajas.grid figure.effect-julia figcaption {
+text-align: left;
+}
+.efecto_cajas.grid figure.effect-julia h2 {
+position: relative;
+padding: 0.5em 0;
+}
+.efecto_cajas.grid figure.effect-julia .efecto_p p {
+  display: inline-block;
+  margin: 0 0 0.25em;
+  background: rgb(200, 8, 31);
+  text-transform: none;
+  font-weight: 500;
+  font-size: 75%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-360px,0,0);
+  transform: translate3d(-360px,0,0);
+  color: #fff !important;
+  padding: 10px 10px 20px !important;
+}
+.efecto_cajas.grid figure.effect-julia p:first-child {
+-webkit-transition-delay: 0.15s;
+transition-delay: 0.15s;
+}
+.efecto_cajas.grid figure.effect-julia p:nth-of-type(2) {
+-webkit-transition-delay: 0.1s;
+transition-delay: 0.1s;
+}
+.efecto_cajas.grid figure.effect-julia p:nth-of-type(3) {
+-webkit-transition-delay: 0.05s;
+transition-delay: 0.05s;
+}
+.efecto_cajas.grid figure.effect-julia:hover p:first-child {
+-webkit-transition-delay: 0s;
+transition-delay: 0s;
+}
+.efecto_cajas.grid figure.effect-julia:hover p:nth-of-type(2) {
+-webkit-transition-delay: 0.05s;
+transition-delay: 0.05s;
+}
+.efecto_cajas.grid figure.effect-julia:hover p:nth-of-type(3) {
+-webkit-transition-delay: 0.1s;
+transition-delay: 0.1s;
+}
+.efecto_cajas.grid figure.effect-julia:hover img {
+opacity: 0.4;
+-webkit-transform: scale3d(1.1,1.1,1);
+transform: scale3d(1.1,1.1,1);
+}
+.efecto_cajas.grid figure.effect-julia:hover p {
+opacity: 1;
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+}
+/*-----------------*/
+/***** Apollo *****/
+/*-----------------*/
+.efecto_cajas.grid figure.effect-apollo {
+  background: linear-gradient(135deg, rgb(255, 0, 0) 0%, rgb(11, 0, 70) 53%, rgb(72, 4, 179) 100%);
+}
+.efecto_cajas.grid figure {
+  background: linear-gradient(135deg, rgb(13, 13, 88) 0%, rgba(0,0,100,1) 53%, rgba(0,0,0,1) 100%);
+}
+.efecto_cajas.grid figure.effect-apollo img {
+opacity: 0.95;
+-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+transition: opacity 0.35s, transform 0.35s;
+-webkit-transform: scale3d(1.05,1.05,1);
+transform: scale3d(1.05,1.05,1);
+}
+.efecto_cajas.grid figure.effect-apollo img {
+  filter: sepia(1) hue-rotate(
+186deg
+);
+  -webkit-filter: sepia(1) hue-rotate(
+186deg
+);
+}
+.efecto_cajas.grid figure.effect-apollo figcaption::before {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(255,255,255,0.5);
+content: '';
+-webkit-transition: -webkit-transform 0.6s;
+transition: transform 0.6s;
+-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+.efecto_cajas.grid figure.effect-apollo p {
+  position: absolute;
+  right: 0;
+  font-size: 0.6em;
+  bottom: 0;
+  margin: 3em;
+  padding: 0 1em;
+  max-width: 100%;
+  border-right: 4px solid #da0921;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.efecto_cajas.grid figure.effect-apollo h2 {
+  text-align: center;
+  font-size: 1.3em;
+}
+.efecto_cajas.grid figure.effect-apollo:hover img {
+opacity: 0.6;
+-webkit-transform: scale3d(1,1,1);
+transform: scale3d(1,1,1);
+}
+.efecto_cajas.grid figure.effect-apollo:hover figcaption::before {
+-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+}
+.efecto_cajas.grid figure.effect-apollo:hover p {
+opacity: 1;
+-webkit-transition-delay: 0.1s;
+transition-delay: 0.1s;
+}
+#Ur_visionarios .headerpage_img {
+  background: linear-gradient( #da092100 100%, rgba(181, 26, 26, 0.32)100%), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Egresados/img_segmentos/header_visionarios.jpg);
+  width: 100%;
+  height: 520px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+#Ur_tecnologico .headerpage_img {
+  background: linear-gradient( #da092100 100%, rgba(181, 26, 26, 0.32)100%), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Egresados/img_segmentos/header_servicios.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+#Ur_datos_actual .headerpage_img {
+  background: linear-gradient( #da092100 100%, rgba(181, 26, 26, 0.32)100%), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Egresados/img_segmentos/header_actualizacion-datos.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  background-position-x: right;
+}
+#Ur_datos_actual .headerpage_img .box_texto strong {
+  color: #dedede;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+#Ur_datos_actual .headerpage_img .box_texto p{
+  font-size: 1.2em;
+  color: #fff;
+}
+#Ur_datos_actual .headerpage_img .box_body {
+  padding: 3% 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#Ur_datos_actual .box_texto {
+  padding: 10px;
+  background: #5200457a;
+  border-radius: 5px;
+}
+#Ur_datos_actual input#p_lt_ctl04_pageplaceholder_p_lt_ctl02_NoticiasHome_repItems_ctl00_ctl00_widget1_ctl00_viewBiz_btnOK {
+  color: #ffffff;
+  font-size: 1.0em;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  background: linear-gradient(to left, rgba(27,20,45,1) 43%, rgba(28,21,48,1) 45%, rgba(46,49,128,1) 100%);
+}
+#Ur_datos_actual .form-control {
+  padding: 0.00rem .75rem;
+  line-height: 1.2;
+  font-size: 1.1em;
+  height: calc(1.0em + .75rem + 2px);
+  border: 1px solid #a6a7ca;
+  background: #eaebff;
+  margin: 2px 0px;
+}
+/*form Actualiza tus datos*/
+#Ur_datos_actual .TextBoxField {
+border: 1px solid #ccc !important;
+height: 26px !important;
+width: 100% !important;
+}
+#Ur_datos_actual label {
+  font-size: 1.1em;
+}
+#Ur_datos_actual select {
+width: 100% !important;
+}
+#Ur_datos_actual #p_lt_ctl04_pageplaceholder_p_lt_ctl02_NoticiasHome_repItems_ctl00_ctl00_widget1_ctl00_viewBiz_btnOK {
+background: #555;
+text-align: center;
+color: #fff;
+float: right;
+margin-top: 10px;
+padding: 7px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 3px;
+border: none;
+font-size: 13px;
+margin-bottom: 3px;
+border-bottom: 3px solid #da0921;
+;
+}
+#Ur_datos_actual .tablaform {
+display: table;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+width: 97%;
+padding-top: 20px;
+}
+#Ur_datos_actual .form-table-label-cell {
+width: 50%;
+}
+#Ur_datos_actual .form-table-group {
+width: 100%;
+}
+#Ur_datos_actual #p_lt_ctl04_pageplaceholder_p_lt_ctl03_editabletext1_plcUp_ucEditableText_widget1_ctl00_viewBiz_TextBoxControl_txtText,
+#Ur_datos_actual #p_lt_ctl04_pageplaceholder_p_lt_ctl03_editabletext1_plcUp_ucEditableText_widget1_ctl00_viewBiz_TextBoxControl_1_txtText,
+#Ur_datos_actual #p_lt_ctl04_pageplaceholder_p_lt_ctl03_editabletext1_plcUp_ucEditableText_widget1_ctl00_viewBiz_emailinput_txtEmailInput,
+#Ur_datos_actual #p_lt_ctl04_pageplaceholder_p_lt_ctl03_editabletext1_plcUp_ucEditableText_widget1_ctl00_viewBiz_TextBoxControl_2_txtText,
+#Ur_datos_actual #p_lt_ctl04_pageplaceholder_p_lt_ctl03_editabletext1_plcUp_ucEditableText_widget1_ctl00_viewBiz_TextBoxControl_3_txtText {
+width: 98% !important;
+}
+#Ur_datos_actual #p_lt_ctl04_pageplaceholder_p_lt_ctl03_editabletext1_plcUp_ucEditableText_widget1_ctl00_viewBiz_DropDownListControl_dropDownList {
+width: 100% !important;
+}
+/*form Actualiza tus datos*/
+#Ur_datos_actual .alinear {
+  display: flex;
+  align-items: center;
+}
+#Ur_datos_actual .headerpage_img .box_body img {
+  width: 100%;
+  max-width: 480px;
+}
+#Ur_datos_actual .headerpage_img .box_body h3 {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.87em;
+}
+#Ur_tecnologico .headerpage_img .box_body {
+  padding: 3% 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+#Ur_tecnologico .headerpage_img .box_body img {
+  width: 100%;
+  max-width: 480px;
+}
+#Ur_tecnologico .headerpage_img .box_body h3 {
+  width: 100%;
+  text-align: right;
+  color: #fff;
+  font-size: 2.0em;
+}
+#Ur_visionarios .headerpage_img .box_body {
+  padding: 30% 0px;
+}
+#Ur_visionarios .headerpage_img h3 {
+  color: #fff;
+  font-size: 2.0em;
+  text-align: center;
+}
+#Ur_visionarios .videos_visionarios {
+  padding: 30px 0px;
+}
+#Ur_tecnologico .menu-prin-tabs li.resp-tab-item h5 {
+  margin: 0 auto;
+}
+#Ur_tecnologico .menu-prin-tabs li.resp-tab-item h5 i {
+  font-size: 3.5em;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+#Ur_Internacional .contactanos .modal-content label {
+  color: #da0921;
+}
+#Ur_Internacional .contactanos .modal-header .close {
+  color: #fff;
+  opacity: 1.5;
+}
+#Ur_Internacional .contactanos .modal-header {
+  background: linear-gradient(135deg, rgb(214, 9, 34) 0%, rgb(144, 11, 27) 53%, rgb(88, 3, 3) 100%);
+  color: #fff;
+}
+#Ur_Internacional .contactanos .form-control {
+  border: 1px solid #ececec;
+  border-bottom: 2px solid #020263;
+}
+#Ur_Internacional .contactanos button.btn.btn-primary {
+  background: #211d48;
+  padding: 6px 34px;
+  border: 1px solid #211d48;
+  color: #fff;
+}
+#Ur_Internacional .contactanos button.btn.btn-primary:hover {
+  color: #211d48;
+  background: #fff;
+  border: 1px solid #211d48;
+  padding: 6px 34px;
+}
+#Ur_tecnologico .table_content a.active {
+  color: #fff !important;
+  background: #d80e23 !important;
+}
+#Ur_tecnologico .table_content p a {
+  padding: 15px 0px;
+}
+#Ur_tecnologico .menu-prin-tabs li.resp-tab-item h5 {
+  font-size: 0.9em;
+  padding-top: 20px;
+  color: #fff;
+}
+/* SERVICIO TECNOLOGICO */
+#Ur_tecnologico #menu2_egrsadoscon ul.resp-tabs-list {
+  display: flex;
+}
+#Ur_tecnologico .menu-prin-tabs .resp-tab-active {
+  color: #fff;
+  box-shadow: 3px -6px 5px 0px #35353563;
+  background: linear-gradient(96deg, rgb(216, 14, 35) 16%, rgb(111, 8, 19) 100%) !important;
+}
+#Ur_tecnologico .seguros .cont-primero {
+  padding: 20px 20px;
+}
+#Ur_tecnologico .table_content {
+  background: #fff;
+  padding: 20px 10px;
+  box-shadow: none;
+}
+#Ur_tecnologico .seguros {
+  background: #ffffff;
+  padding: 3% 4%;
+}
+#Ur_tecnologico .menu_egrsadoscon .nav-click i {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#Ur_tecnologico .menu_egrsadoscon .nav-click i {
+  font-size: 1.8em;
+  text-align: center;
+  width: 100%;
+}
+#Ur_tecnologico .menu_egrsadoscon .nav-click h5 {
+  font-size: 1.1em;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+#Ur_tecnologico .menu_egrsadoscon a.nav-click:hover {
+  color: #fff !important;
+  background: linear-gradient(96deg, rgb(45, 50, 127) 16%, rgb(27, 22, 45) 100%);
+  transition: 0.3s;
+  transform: translateX(5px);
+}
+#Ur_tecnologico .menu-prin-tabs .resp-tab-item {
+  background: #d80e234d !important;
+}
+#Ur_tecnologico .menu_egrsadoscon a.nav-click {
+  width: 100%;
+  display: block;
+  -webkit-box-shadow: 5px 4px 27px 0px #9f9f9f;
+  -moz-box-shadow: 5px 4px 27px 0px #9f9f9f;
+  box-shadow: 4px 4px 3px 0px #cecbcb;
+  display: flex;
+  align-items: center;
+  height: 85%;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+#Ur_tecnologico .menu-prin-tabs .resp-tab-active {
+  color: #fff;
+  box-shadow: 3px -6px 5px 0px #35353563;
+  /* background: linear-gradient(96deg, rgb(216, 14, 35) 16%, rgb(111, 8, 19) 100%) !important; */
+  background: linear-gradient(96deg, rgb(45, 50, 127) 16%, rgb(27, 22, 45) 100%) !important;
+}
+.btn1{
+  background-color: #ff2e32;
+  color: #fff!important;
+  clear: both;
+  padding: 1px 7px;
+}
+ .transforma {
+      background-color: #e9e9f2;
+  }
+  .form {
+      background-color: #1b142d;
+  }
+  .tx {
+      padding: 49px 6%;
+  }
+  .sin-espacio {
+      padding: 0;
+      margin: 0;
+  }
+  .Fecha {
+      background-color: #1b142d;
+      color: #fff;
+      font-size: 1.6em;
+      border: 1px solid#fff;
+      padding: 11px 0;
+  }
+  .Fecha b {
+      border-right: 2px solid#fff;
+      padding: 6px 13px;
+      margin-right: 15px;
+  }
+ 
+
+  #p_lt_ctl09_pageplaceholder_p_lt_ctl00_editabletext_ucEditableText_widget1_ctl00_viewBiz {
+      margin: auto;
+      display: block;
+      padding-left: 9%;
+  }
+  .datos {
+      padding: 3% 2%;
+  }
+  .title {
+      font-size: 1.3em;
+  }
+  .miga {
+      background-color: #e9e9f2;
+      padding: 5px 15px;
+  }
+  .miga a {
+      color: #2d2a42;
+      font-weight: 800;
+  }
+  .carousel-item img {
+      opacity: 100%;
+  }
+  .carousel-item img:hover {
+      opacity: 100%;
+      -webkit-transform: scale3d(0, 0, 0);
+      transform: none;
+  }
+  .efecto_p {
+      display: none;
+  }
+  #Espana .galeria img {
+      opacity: 100% !important;
+  }
+  #Espana .efecto_cajas.grid figure.effect-julia:hover img {
+      transform: none !important;
+  }
+  #Espana .galeria img {
+      margin: 0 !important;
+      padding: 0 !important;
+  }
+  #Italia .galeria img {
+      opacity: 100% !important;
+  }
+  #Italia  .galeria  .efecto_cajas.grid figure.effect-julia:hover img {
+      transform: none !important;
+  }
+  #Italia .galeria img {
+      margin: 0 !important;
+      padding: 0 !important;
+  }
+  .tituloslide {
+      font-size: 0.9em;
+      line-height: 1.3em;
+      padding: 16px;
+      text-transform: initial;
+      background: linear-gradient(135deg, rgb(22, 22, 100) 0%, rgb(26 26 96) 100%);
+      border-left: 5px solid #da0921;
+  }
+ .brnver {
+  position: absolute;
+  bottom: 0px;
+  right: 1px;
+  font-size: .8em;
+  border-left: 1px solid #da0921;
+  padding: 1px 10px;
+}
+.datos small {
+  color: black;
+}
+/* SERVICIO TECNOLOGICO */
+/* EFECTO CAJAS */
+/* EFECTO CAJAS */
+@media (min-width: 854px) and (max-width: 1115px) {
+  #egresados_convenios .carousel-inner {
+      height: 303px;
+  }
+  #egresados_convenios .logos {
+      right: 10%;
+  }
+  #Ur_datos_actual .headerpage_img {
+      background-position-x: center;
+  }
+}
+@media only screen and (max-width: 1280px) {
+#Ur_Internacional .elige_destino .efecto_cajas.grid .modal-dialog {
+  width: 100%;
+  max-width: 90%;
+}
+#Ur_Internacional .contactanos .modal-dialog {
+  width: 100%;
+  max-width: 90%;
+  padding-top: 2%;
+  bottom: -48px
+}
+}
+@media only screen and (max-width: 1024px) {
+#egresados_convenios .menu-prin-tabs li.resp-tab-item h5 {
+  font-size: 11px;
+}
+#egresados_convenios .menu-prin-tabs li.resp-tab-item h5 img {
+  height: 62px;
+}
+#egresados_convenios .menu-prin-tabs li.resp-tab-item {
+  min-height: 120px;
+}
+}
+@media only screen and (max-width: 854px) {
+ul.resp-tabs-list {
+  display: none !important;
+}
+#Ur_datos_actual .headerpage_img .box_body h3 {
+  font-size: 1.5em;
+}
+#Ur_datos_actual .headerpage_img .box_texto p {
+  font-size: 1.0em;
+  color: #fff;
+}
+#Ur_datos_actual .headerpage_img {
+  background-position-x: center;
+}
+#egresados_convenios .table_content .cont-primero table td {
+  font-size: 12px;
+}
+#egresados_convenios h2 img {
+  height: 55px;
+  margin: 0 auto;
+}
+#Ur_Internacional .elige_destino .modal-content .tablink i {
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+}
+.elige_destino .modal-content .tablink {
+  text-align: center;
+  font-size: 13px;
+}
+#Ur_tecnologico h2.resp-accordion h5 {
+  font-size: 0.6em;
+  color: #1b142d;
+}
+#Ur_tecnologico h2.resp-accordion span {
+  margin-top: 3%;
+  margin-right: 5%;
+}
+#Ur_tecnologico h2.resp-accordion h5 i {
+  margin-right: 21px;
+  color: #1b142d;
+}
+}
+@media (max-width: 853px) {
+  #egresados_convenios .carousel-inner {
+      height: 279px;
+  }
+  .elige_destino .modal-content .tabcontent img.img-responsive {
+      width: 100%;
+      text-align: center;
+      margin: 20px auto;
+  }
+}
+@media (max-width: 768px) {
+ 
+  #egresados_convenios .logos {
+      right: 0;
+  }
+  
+  #Ur_tecnologico h2.resp-accordion h5 {
+      font-size: 1.2em;
+  }
+#egresados_convenios .logo_textod img {
+  width: 55%;
+}
+#egresados_convenios .logo_texto img {
+  width: 100%;
+  max-width: 480px;
+}
+#egresados_convenios .logos {
+  right: 10%;
+}
+#Ur_Internacional .quienes_como .card.card-body:before {
+  width: 100%;
+  height: 53%;
+}
+#Ur_Internacional .content_encabezado {
+  padding: 20px 0px 40px;
+}
+#Ur_Internacional .quienes_como .card.card-body {
+  background-position-x: left;
+}
+}
+@media (max-width: 767px) {
+  #Ur_tecnologico .menu_egrsadoscon a.nav-click {
+      width: 100%;
+      max-width: none;
+  }
+  #egresados_convenios .table_content a {
+      color: #201c3a;
+      font-weight: 800;
+      padding: 12px 10px;
+      font-size: 0.8em;
+      width: 100%;
+    /*  max-width: 143px;*/
+  }
+  #egresados_convenios div#v-pills-tab.nav {
+      display: -webkit-inline-box;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      align-content: center;
+      margin-bottom: 31px;
+      border-bottom: 1px solid #ccc;
+  }
+  #Ur_visionarios .headerpage_img h3 {
+      font-size: 1.6em;
+  }
+  .efecto_cajas.grid figure.effect-apollo h2 {
+      font-size: 1.1em;
+  }
+}
+@media (max-width: 740px) {
+  #egresados_convenios .contenedorImagenSlide img {
+      width: 143%;
+  }
+  .efecto_cajas.grid figure figcaption {
+      padding: 1em;
+  }
+}
+@media (max-width: 739px) {
+  
+  #egresados_convenios .logo_texto img {
+      width: 100%;
+      max-width: 292px;
+  }:-moz-user-disabled
+  #egresados_convenios .carousel-inner {
+      height: 196px;
+  }
+  #Ur_Internacional .elige_destino .efecto_cajas.grid .modal-dialog {
+      width: 100%;
+      max-width: 98%;
+  }
+  #Ur_Internacional .contactanos .modal-dialog {
+      width: 100%;
+      max-width: 95%;
+      padding-top: 5px;
+  }
+  #Ur_visionarios .headerpage_img {
+      width: 100%;
+      height: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+  #Ur_Internacional .elige_destino .modal-content .tablink p {
+      display: none;
+  }
+  .elige_destino .modal-content .tablink {
+      padding: 15px 10px;
+  }
+  #Ur_visionarios .videos_visionarios .efecto_cajas.grid {
+      margin: 10px 41px;
+  }
+  #egresados_convenios .table_content .cont-primero img {
+      
+  float: inherit;
+  }
+  #egresados_convenios .table_content .cont-primero img {
+      width: 100%;
+      float: inherit;
+      margin: 20px;
+      max-width: 280px;
+  }
+  #egresados_convenios h2.resp-accordion h5 {
+      font-size: 0.8em;
+  }
+  #egresados_convenios h2 {
+      padding: 10px 5%;
+  }
+  #egresados_convenios h2 img {
+      height: 55px;
+      margin: 0 22px;
+      width: 28% !important;
+  }
+  #egresados_convenios h2.resp-accordion.resp-tab-active {
+      padding: 10px 5% !important;
+  }
+  #Ur_visionarios .headerpage_img {
+      width: 100%;
+      height: 250px;
+    }
+    #Ur_visionarios .headerpage_img h3 {
+      font-size: 1.2em;
+  }
+  #Ur_tecnologico .headerpage_img .box_body h3 {
+      font-size: 1.8em;
+  }
+      .formulario .form-control {
+          width: 100% !important;
+  }
+  
+}
+@media (max-width: 480px) {
+  #egresados_convenios .logo_texto img {
+      width: 100%;
+      max-width: 210px;
+  }
+  #Ur_visionarios .videos_visionarios .efecto_cajas.grid {
+      margin: 10px 20px;
+  }
+  #egresados_convenios .carousel-inner {
+      height: 128px;
+  }
+  .cookie {
+  bottom: 0!important;
+ }
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+  
+}
+
+
+/*TABS NAV*/
+li.resp-tab-item {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin: 0px 0px !important;
+  font-size: 15px !important;
+  min-height: 150px;
+  width: 100%;
+  color: #FFF;
+  list-style: none;
+  cursor: pointer;
+  float: left;
+  padding: 12px 14px 14px 14px !important;
+}
+
+.resp-tab-active p {
+  color: black !important;
+}
+
+.resp-tab-item strong {
+  display: table;
+  margin: 0 auto;
+  font-size: 1.4em;
+  margin-top: 0px;
+  letter-spacing: 4px;
+  /* border-bottom: solid 3px; */
+  /* margin: 0; */
+  background: rgba(255, 255, 255, 0.14);
+  padding: 0px 20px;
+}
+
+
+.fixed {
+
+  margin-top: -81px !important;
+
+}
+
+
+
+.desc small {
+  font-size: 1em;
+}
+
+.resp-tabs-container {
+background-color: #fff;
+border: solid 1px #e0e0e0;
+}
+
+
+.div-sociologia a {
+color:#8f051b !important;
+}
+.cajaUniversidadConvenio {
+text-align:center;
+border: solid 1px #e0e0e0;
+min-height: 275px;
+}
+.cajaUniversidadConvenio h3 {
+color:#8f051b;
+}
+.cajaUniversidadConvenio img {
+margin:auto;
+width:80%;
+}
+.contenidoIntercambio {
+text-align:center;
+}
+.contenidoIntercambio img {
+margin:auto;
+padding-top:20px;
+width:80%;
+}
+.rutasInternacional {
+text-align:center;
+}
+.rutasInternacional img {
+margin:auto;
+width:100%;
+}
+
+/*  COLUMN SETUP  */
+.col {
+display: block;
+float:left;
+margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+.div-periodismo table {
+margin:0 25% !important;	
+}
+tabla-contenedor {display:table;width:100%;margin-bottom:30px;}
+.tabla-html {width:100%;border:1px solid #CCCCCC;font-weight:normal;font-size:13px;}
+.td-principal { background-color: #6b35af !important; border:solid 1px #300e5a; font-weight:bold; color:#fff !important; padding:7px;padding-left:10px;font-size:13px;text-align:center;}
+.td-principal p { color:#FFF !important;}
+.td1 {background-color:#fff; color:#333 ;padding:7px;padding-left:10px;font-size:13px; border:solid 1px #300e5a;}
+.td2 {background-color:#143B35; font-weight:bold;color:#fff;padding:7px;padding-left:10px;font-size:13px;text-transform:uppercase;}
+.td3 {background-color:#143B35; font-weight:bold;color:#fff;padding:7px;padding-left:10px;font-size:13px;text-transform:uppercase;}
+.td-izq {border-right:1px solid #CCCCCC;border-bottom:1px solid #CCCCCC;padding:7px;padding-left:10px;}
+.td-tab {border-bottom:1px solid #CCCCCC;padding:7px;padding-left:10px;border-right:1px solid #CCCCCC;}
+.td-der {border-bottom:1px solid #CCCCCC;padding:7px;padding-left:10px;}
+.td-izq-last {border-right:1px solid #CCCCCC;padding:7px;padding-left:10px;}
+.td-tab-last {padding:7px;padding-left:10px;border-right:1px solid #CCCCCC;}
+.td-der-last {padding:7px;padding-left:10px;}	
+
+.tabla-contenedor table {
+width: 60%;
+margin: auto;
+}
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+
+
+
+@media (min-width: 320px) and (max-width: 1350px) {
+/*.resp-tabs-list li {
+   width: 9% !important;
+   min-height: 20px !important;
+}*/
+}
+
+
+@media only screen and (max-width: 853px) {
+
+
+
+.col {  margin: 1% 0 1% 0%; }
+.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+.ver-mas-boton { margin:0px;}
+.tabs h2 { font-size:20px !important;}
+.botones { margin-bottom:25px;}
+.tabs img { width:45% !important;}
+}
+.tabla-contenedor table {
+width: 60%;
+margin: auto;
+}
+
+.resp-tab-item {
+transform: scale(.96,.96);
+background-color:transparent !important;
+font-weight:bold;
+color: #fff;
+transition:.2s;
+background: #0a9592 !important;
+}
+
+.resp-tab-active {
+color: #fff;
+transform: scale(1,1);
+box-shadow:2px 2px 2px rgba(0,0,0,.1);
+transition:.2s;
+background: #fdc500 !important;
+}	
+
+
+.resp-tabs-list li p {
+  color: #FFF;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: 300;
+  margin-right: 0 !important;
+}
+
+.resp-tab-content {
+  border: 1px solid #f1f1f1;
+  background: #fff;
+}
+
+.tab1 {
+background-color:#8F051B;
+}
+
+.tab2 {
+background-color:#8F051B;
+}
+
+.tab3 {
+background-color:#8F051B;
+}
+
+.tab4 {
+background-color:#BE88E1;
+}
+
+
+
+.tabs h2 {
+font-size:36px;
+font-weight:lighter;
+}
+
+.imagen-programa {
+float:left;
+margin-right:15px;
+margin-bottom:10px;
+border:1px solid #CBCBCB;
+padding:1px;
+}
+
+.div-filosofia, .div-sociologia, .div-artes, .div-periodismo, .div-antropologia, .div-historia {
+display:table;
+width:100%;
+}
+
+.div-filosofia h2 {
+color:#000000  !important;
+margin-bottom:5px !important;
+}
+
+.div-filosofia .mas {
+background-color:#6F3F81;
+}
+
+.div-sociologia h2 {
+color:#000000 !important;
+margin-bottom:5px !important;
+}
+
+.div-sociologia .mas {
+background-color:#45775A;
+}
+
+.div-sociologia li { color:#000000; margin-bottom:5px;}
+.div-sociologia a { color:#044D4B; }
+
+.div-artes h2 {
+color:#000000  !important;
+margin-bottom:5px !important;
+}
+
+.div-artes .mas {
+background-color:#833738;
+}
+
+.div-periodismo h2 {
+color:#000000  !important;
+margin-bottom:5px !important;
+}
+
+.div-periodismo .mas {
+background-color:#2A70B1;
+}
+
+.div-antropologia h2 {
+color:#000000  !important;
+margin-bottom:5px !important;
+}
+
+.div-antropologia .mas {
+background-color:#AF874D;
+}
+
+.div-historia h2 {
+color:#CB7839 !important;
+margin-bottom:5px !important;
+}
+
+.div-historia .mas {
+background-color:#CB7839;
+}
+
+@media only screen and (max-width: 853px) {
+  ul.resp-tabs-list {
+      display: none;
+  }
+
+  h2.resp-accordion {
+      display: block;
+  }
+
+ .resp-tab-content {
+  border: 1px solid #f1f1f1;
+  background: #fff;
+}
+
+  .resp-vtabs .resp-tabs-container {
+      border: none;
+      float: none;
+      width: 100%;
+      min-height: initial;
+      clear: none;
+  }
+  
+  .resp-vtabs .resp-tab-content:last-child {
+      border-bottom: 1px solid #c1c1c1 !important;
+  }
+}
+
+h2.resp-tab-active {
+background-color:#B2B5B9 !important;
+}
+.columna-acordeon { display:table; width:100%; float:left;}
+@media screen and (max-width: 700px) and (min-width: 640px) {
+.columna-acordeon { width:30%; margin:10px;}
+}
+@media screen and (max-width: 610px) and (min-width: 320px) {
+.tabla-contenedor table {
+width: 100%;
+margin: auto;
+}
+.columna-acordeon { width:100%; margin-bottom:20px;}
+}
+/*accordion*/
+.ac-container{
+width: 96%;
+margin: 10px auto 30px auto;
+text-align: left;
+position:relative;
+z-index:0;
+
+}
+.ac-container h5{
+margin-left:20px;
+}
+.ac-container label{
+padding: 0px 20px;
+position: relative;
+z-index: 20;
+display: block;
+height: 34px;
+cursor: pointer;
+color: #780103;
+line-height: 33px;
+font-size: 14px;
+background: #eee;
+box-shadow: 
+0px 0px 0px 1px rgba(155,155,155,0.3), 
+1px 0px 0px 0px rgba(255,255,255,0.9) inset, 
+0px 2px 2px rgba(0,0,0,0.1);
+}
+.ac-container label:hover{
+background: #fff;
+}
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+background: #c7c7c7;
+color: #780103;
+box-shadow: 
+0px 0px 0px 1px rgba(155,155,155,0.3), 
+0px 2px 2px rgba(0,0,0,0.1);
+}
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{
+content: '';
+position: absolute;
+width: 24px;
+height: 24px;
+right: 13px;
+top: 7px;
+background: transparent url(../imagenes/accordion/arrow_down.png) no-repeat center center;
+}
+.ac-container input:checked + label:hover:after{
+background-image: url(../imagenes/accordion/arrow_up.png);
+}
+.ac-container input{
+display: none;
+}
+.ac-container article{
+background: rgba(255, 255, 255, 0.5);
+margin-top: -1px;
+overflow: hidden;
+height: 0px;
+position: relative;
+z-index: 10;
+-webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+-moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+-o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+-ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+.ac-container article p{
+color: #777;
+line-height: 23px;
+font-size: 14px;
+padding: 20px;
+text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.ac-container input:checked ~ article{
+-webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+-moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+-o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+-ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
+}
+.ac-container input:checked ~ article.ac-small{
+height: auto;
+background: #fff;
+}
+.ac-container input:checked ~ article.ac-medium{
+height: auto;
+background: #fff;
+}
+.ac-container input:checked ~ article.ac-large{
+height: auto;
+background: #fff;
+}
+/*FIN accordion*/
+
+@media (max-width: 1024px) and (min-width: 1024px) {
+
+.resp-tabs-list li {
+  padding: 13px;
+  }
+}
+
+@media (max-width: 966px) and (min-width: 966px) {
+
+.resp-tabs-list li {
+  padding: 10px;
+  }
+}
+
+
+.content-tabs {
+background-color:#FFF;
+border-radius:5px; 
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-ms-border-radius:5px;
+box-shadow: 0 1px 5px 0 #a2a2a2;
+-webkit-box-shadow: 0 1px 5px 0 #a2a2a2;
+-moz-box-shadow: 0 1px 5px 0 #a2a2a2;
+-ms-box-shadow: 0 1px 5px 0 #a2a2a2;
+padding:20px;
+height: auto;
+display:table;
+}
+
+.content-tabs h1 {
+margin-top:0px;
+}
+
+.content-tabs .slide_interna .nivo-caption h1 {
+margin-top:0px;
+}
+
+ul.resp-tabs-list, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.resp-tabs-container {
+  padding: 0px;
+  background-color: #f5f5f5;
+  clear: left;
+}
+
+h2.resp-accordion {
+  cursor: pointer;
+  padding: 5px;
+  display: none;
+}
+
+.resp-tab-content {
+  display: none;
+padding: 0px;
+}
+
+.resp-tab-active {
+  border: 1px solid #c1c1c1;
+  border-bottom: none;
+  margin-bottom: -1px !important;
+  padding: 12px 14px 14px 14px !important;
+}
+
+.resp-tab-item {
+background-color:#F0F0F0;
+border:none;
+color:#a20f26;
+margin-right:5px !important;
+}
+
+.resp-tab-active {
+  border-bottom: none;
+background-color:#A20F26;
+border:none;
+color:#fff;
+}
+
+.resp-content-active, .resp-accordion-active {
+  display: block;
+}
+
+.resp-tab-content {
+  border: 1px solid #f1f1f1;
+  background: #fff;
+}
+
+h2.resp-accordion {
+  font-size: 13px;
+  border: 1px solid #c1c1c1;
+  border-top: 0px solid #c1c1c1;
+  margin: 0px;
+  padding: 10px 15px;
+}
+
+h2.resp-tab-active {
+  border-bottom: 0px solid #c1c1c1 !important;
+  margin-bottom: 0px !important;
+  padding: 10px 15px !important;
+}
+
+h2.resp-tab-title:last-child {
+  border-bottom: 12px solid #c1c1c1 !important;
+  background: blue;
+}
+/*-----------Vertical tabs-----------*/
+.resp-vtabs ul.resp-tabs-list {
+  float: left;
+  width: 30%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+  display: block;
+  padding: 15px 15px !important;
+  margin: 0;
+  cursor: pointer;
+  float: none;
+border-bottom: 1px solid #cccccc;
+background-color: #ededed;
+font-size:16px;
+}
+
+.resp-vtabs .resp-tabs-container {
+  padding: 0px;
+  background-color: #f5f5f5;
+  border: 1px solid #c1c1c1;
+  float: left;
+  width: 70%;
+  min-height: 250px;
+  border-radius: 4px;
+  clear: none;
+}
+
+.resp-vtabs .resp-tab-content {
+  border: none;
+}
+
+.resp-vtabs li.resp-tab-active {
+  border: 1px solid #c1c1c1;
+  border-right: none;
+  background-color: #666;
+  position: relative;
+  z-index: 1;
+  margin-right: -1px !important;
+  padding: 14px 15px 15px 14px !important;
+color:#ffffff;
+}
+
+.resp-arrow {
+  width: 0;
+  height: 0;
+  float: right;
+  margin-top: 3px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid #c1c1c1;
+}
+
+h2.resp-tab-active span.resp-arrow {
+  border: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #9B9797;
+}
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active {
+  background: #DBDBDB !important;
+}
+.resp-easy-accordion  h2.resp-accordion {
+      display: block;
+}
+.resp-easy-accordion .resp-tab-content {
+  border: 1px solid #c1c1c1;
+}
+
+.resp-easy-accordion .resp-tab-content:last-child {
+  border-bottom: 1px solid #c1c1c1 !important;
+}
+
+.resp-jfit {
+  width: 100%;
+  margin: 0px;
+}
+
+.resp-tab-content-active {
+  display: block;
+}
+
+h2.resp-accordion:first-child {
+  border-top: 1px solid #c1c1c1 !important;
+}
+
+.content-tabs ul {
+padding-left:0px;
+}
+
+@media only screen and (max-width: 853px) {
+.resp-accordion-closed {
+      display:none !important;
+}
+
+}
+
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 854px) {
+  ul.resp-tabs-list {
+      display: none;
+  }
+
+  h2.resp-accordion {
+      display: block;
+  }
+
+ .resp-tab-content {
+  border: 1px solid #f1f1f1;
+  background: #fff;
+}
+  .resp-vtabs .resp-tabs-container {
+      border: none;
+      float: none;
+      width: 100%;
+      min-height: initial;
+      clear: none;
+  }
+  .resp-accordion-closed {
+      display:none !important;
+  }
+  .resp-vtabs .resp-tab-content:last-child {
+      border-bottom: 1px solid #c1c1c1 !important;
+  }
+}
+/*FIN TABS NAV*/
+
+/*-----------------ESTILOS ADICIONALES TABS MENU PRINCIPAL-----------------*/
+
+.tab-bootstap .nav-link.active img {
+  filter: invert(1) brightness(21.5);
+}
+
+.tab-bootstap .nav-link.active svg {
+  fill: white;
+}
+
+.tab-bootstap .nav-link img {
+  margin: 1em;
+}
+.tabContenidoConvenios li{
+  list-style: none;
+}
+.tabContenidoConvenios li:marker{
+  list-style: none;
+}
+.tabContenidoConvenios li:before {
+  color: #da0820;
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+
+/* AJUSTE PADING PARA EL RESPONSIVE*/
+
+.mg-lg {
+  margin: 0;
+}
+@media (max-width:1500px){
+.tab-bootstap .nav-link img {
+    margin: 0.5em;
+}
+}
+@media (max-width: 1200px) {
+.pd-lg {
+    padding: 5px;
+}
+.tab-bootstap .nav-link img {
+    margin: 0.7em;
+}
+.tab-bootstap .nav-link a {
+    margin-left: 23px;
+    font-size: 14px;
+}
+.tab-bootstap .nav-link {
+  padding: 0 0px;
+}
+}
+
+@media (max-width:800px){
+  .tab-bootstap .nav-link img {
+    margin: 0.3em;
+}
+.tab-bootstap .nav-link a {
+    margin-left: 14px;
+    font-size: 11px;
+}
+.tab-bootstap .nav-link {
+  padding: 0 2px;
+}
+}
+
+@media (max-width: 600px) {
+.pd-lg {
+    padding: 10px;
+}
+}
+
+@media (max-width: 400px) {
+.pd-lg {
+    padding: 12px;
+}
+}

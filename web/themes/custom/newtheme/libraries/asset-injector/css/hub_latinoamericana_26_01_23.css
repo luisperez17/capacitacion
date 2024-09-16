@@ -1,0 +1,449 @@
+.ImagenR img {
+  border-radius:23px;
+  }
+  .MenuReble nav {
+      padding: 2px 34px;
+      position: fixed;
+      top: 120px;
+      z-index: 3;
+      margin: auto;
+      width: 100%;
+      transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+      background-color: #333542;
+  }
+  p.Titulo {
+      font-family: "Gotham",Sans-serif;
+      color: #2C2B6C;
+      font-weight: 900;
+      font-size: 1.1rem;
+      text-align: center;
+      margin: auto;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      width: 86%;
+  }
+  .MenuReble .navbar-nav .nav-link {
+      color: #343434;
+      font-weight: 700;
+      border-right: 2px solid#edeaeb;
+  }
+  .fixed-top {
+      top:16%!important;
+      z-index: 3!important;
+  }
+  p.Fecha {
+      text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+  }
+  #NoticiasBlog a {
+      background-color: #2C2B6B;
+      border-radius: 30px 30px 30px 30px;
+      box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
+      color: #fff;
+      padding: 6px 32px;
+      margin: auto;
+      display: table;
+  }
+  #BannerHubInternas h1 {
+      font-family: "Gotham", Sans-serif;
+      font-weight: 600;
+      color: #2c2b6b;
+  }
+  .BtnHub, .BtnHuCentrado a {
+      box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
+      background-color: #2c2b6b;
+      border-radius: 23px;
+      padding: 1px 18px;
+      font-size: 1.2rem;
+      margin: auto;
+      margin-bottom: 47px;
+      display: table;
+      color: #fff;
+  }
+  .BtnHub a {
+      background-color: #2c2b6b;
+  }
+  .BtnHub, .BtnHuCentrado a:hover {
+      background-color: #94d500;
+      transform: scale(1.1);
+      transition: 0.2s;
+  }
+  #Destacados h3.h3.section-title__heading {
+      color: #2c2b6b;
+  }
+  .section-title--line-down-center::after {
+      content: "";
+      background-color: #8193DE;
+  }
+  #BannerHub p {
+      z-index: 7;
+      font-family: Poppins;
+      color: rgb(4,37,60);
+      text-align: center;
+      line-height: 1.4em;
+      font-weight: 400;
+      font-size: 19px;
+  }
+  #BannerHub img.Logohub {
+      margin-bottom: 36px;
+      margin: auto;
+      width: 406px;
+  }
+  #BannerHub .hero-image__body {
+      max-width: 59%;
+  }
+  #BannerHub a {
+      background: rgb(138,90,205);
+      background: linear-gradient(108deg, rgba(138,90,205,1) 9%, rgba(79,110,210,1) 41%, rgba(59,193,164,1) 98%);
+      text-transform: uppercase;
+      font-family: sans-serif;
+      padding: 12px 22px 9px;
+      border-radius: 23px;
+      letter-spacing: 4px;
+      margin-top: 38px;
+      transition:.5s;
+      font-size: 1em;
+      display: table;
+      color: #fff;
+      margin: auto;
+          }
+  #BannerHub a:hover {
+      background: rgb(138,90,205);
+      background: linear-gradient(108deg,#3bc1a4 9%,rgba(79,110,210,1) 41%,#8a5acd 98%);
+  }
+  .ColumnaDerechahub iframe {
+      box-shadow: 1px 1px 19px #50556d;
+      border-radius: 39px;
+  }
+  .ColumnaIzquierdahhub button.button-content {
+      box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
+      background-color: #2c2b6b;
+      font-family: "Gotham",Sans-serif;
+      border-radius: 30px 30px 30px;
+      padding: 11px 20px;
+      font-size: 16px;
+      color: #fff;
+      border: 0;
+  }
+  .ImagenR img {
+      border-radius: 30px 30px 30px 30px;
+      box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+          margin: auto;
+  }
+  #Somos iframe {
+      border-radius: 30px 30px 30px 30px;
+      box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 50%);
+      width: 50%;
+  }
+  .Redes {
+      background-color: rgba(221,221,221,0.37);
+      display: inline-flex;
+      padding: 1em;
+      margin: 0 3px;
+      transition: .6s;
+      cursor: pointer;
+  }
+  .Redes:hover {
+      transform: translateY(-8px);
+      transition: .6s;
+  }
+  .Redes i {
+      color: #000;
+  }
+  .TextoTiplab h3 {
+      font-family: "Gotham", Sans-serif;
+      text-align: center;
+      font-weight: 700;
+  }
+  .TextoTiplab {
+      padding: 0 15%;
+  }
+  .HubDerecha {
+      background-color: #414079;
+  }
+  
+  .HubDerecha h2, h3, h4 {
+      color: #000;
+      font-family: "Gotham", Sans-serif;
+      font-weight: 700;
+  }
+  
+  .HubDerecha {
+      padding: 16% 8%;
+  }
+  
+  .HubDerecha ul li {
+      color: #fff;
+      list-style: none;
+  }
+  
+  .Metodologia h4 {
+      font-size: 1em;
+      color: #2c2b6b;
+  }
+  .Metodologia strong {
+      font-size: 3em;
+  }
+  aside#categories.categories {
+  box-shadow: 0px 0px 5px 1px #2c2b6b;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      line-height: 2.5em;
+      column-count: 1;
+      word-spacing: 0.7px;
+      padding-left: 16px;
+      padding-right: 0px;
+      padding-top: 12px;
+      margin-top: 55px;
+  }
+  
+  aside#categories.categories h2 {
+      color: #2c2b6b;
+      font-weight: 800;
+          font-size: 21px;
+      font-size: 1.4rem;
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  }
+  .categories  a {
+      color: #2c2b6b;
+  }
+  .TituloBlog {
+      text-align: left;
+      background-color: #eee;
+      padding-top: 3em;
+      padding-right: 3em;
+      padding-bottom: 3em;
+      padding-left: 3em;
+  }
+  
+  .TituloBlog h5 {
+      color: #0170b9;
+      font-weight: 200;
+      font-size: 2.33em;
+  }
+  .Noticias {
+      padding: 33px;
+      background-color: #fff;
+  }
+  
+  .Noticias h5 {
+      font-size: 1.4em;
+  }
+  .Noticias {
+      padding: 0px 33px 33px;
+      background-color: #fff;
+      border-bottom: 1px solid#f3f3f3;
+  }
+  
+  .Noticias a {
+      color: #0170b9;
+      font-weight: 700;
+      text-decoration: underline;
+      transition: .8s;
+  }
+  
+  .Noticias a:hover {
+      color: #8bc34a;
+  }
+  #EquipoCoordinador h4 {
+      color: black;
+  }
+  #EquipoCoordinador  .card-egresados {
+      box-shadow: -1px 2px 5px rgb(0 0 0 / 0%);
+  }
+  #EquipoCoordinador .card-egresados__image picture {
+      width: 200px;
+      height: 200px;
+  }
+  .Cajablog h3 {
+      font-size: .9em;
+      background-color: #f7f7f9;
+      padding: 11px 20px;
+         width: 100%;
+      -webkit-border-top-left-radius: 22px;
+      -webkit-border-top-right-radius: 22px;
+      -moz-border-radius-topleft: 22px;
+      -moz-border-radius-topright: 22px;
+      border-top-left-radius: 22px;
+      border-top-right-radius: 22px;
+      height: 100px;
+      display: inline-flex;
+      align-items: center;
+  }
+  .Cajablog {
+      border: 1px solid#e1e1e1;
+      margin-bottom: 32px;
+      min-height: 269px;
+      border-radius: 22px;
+      box-shadow: 3px 4px 8px #dde1e4;
+      background-color: white;
+  }
+  .Cajablog2 h3 {
+      font-size: .9em;
+      background-color: #f7f7f9;
+      padding: 11px 20px;
+         width: 100%;
+      -webkit-border-top-left-radius: 22px;
+      -webkit-border-top-right-radius: 22px;
+      -moz-border-radius-topleft: 22px;
+      -moz-border-radius-topright: 22px;
+      border-top-left-radius: 22px;
+      border-top-right-radius: 22px;
+  height: 57px;
+      display: inline-flex;
+      align-items: center;
+  }
+  .Cajablog2 {
+      border: 1px solid#e1e1e1;
+      margin-bottom: 32px;
+      min-height: 269px;
+      border-radius: 22px;
+      box-shadow: 3px 4px 8px #dde1e4;
+      background-color: white;
+  }
+  .Cajablog a {
+      box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
+      background-color: #2c2b6b;
+      border-radius: 23px;
+      padding: 1px 18px;
+      font-size: 1.2rem;
+      margin: auto;
+      margin-bottom: 47px;
+      display: table;
+      color: #fff;
+      margin-top: 23px;
+  }
+  
+  .Cajablog a {
+      box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
+      background-color: #2c2b6b;
+      border-radius: 23px;
+      padding: 1px 18px;
+      font-size: 1.2rem;
+      margin: auto;
+      margin-bottom: 47px;
+      display: table;
+      color: #fff;
+      margin-top: 23px;
+  }
+  
+  .Cajablog a:hover {
+      background-color: #94d500;
+      transform: scale(1.1);
+      transition: 0.2s;
+  }
+  
+  .Formu a {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 7px  16px;
+      border-radius: 23px;
+      font-weight: 600;
+  }
+  
+  .Formu a:hover {
+      background-color: white;
+      color: #414079;
+  }
+  .Formulario {
+      background-color: #f8f9fa;
+      padding: 19px 19px;
+      border-radius: 23px;
+      box-shadow: -1px 2px 5px 3px #6a69952b;
+  }
+  .Formulario label.option.form-item__label {
+      font-size: .7em;
+  }
+  .Formulario  #edit-info-1 {
+      font-size: .7em;
+  }
+  .Formulario  input#edit-actions-submit {
+      width: 100%;
+      margin: auto;
+      display: table;
+      background-color: #8bc34a;
+      color: #fff;
+      transition: .3s;
+      border-radius: 23px;
+      font-weight: 700;
+  }
+  
+  .Formulario  input#edit-actions-submit:hover {
+      background-color: #2c2b6b;
+  }
+  .Formulario  .form-item__label {
+      line-height: 1.1em;
+  }
+  #ExperimentosMiembros .card_hover--modal .card_hover__heading {
+      border-left: 10px solid #8193de;
+  }
+  #ExperimentosMiembros .card_hover--modal .modal-header {
+      background-color: #8193de;
+  }
+  
+  #ExperimentosMiembros .card_hover--modal .card_hover__heading {
+      border-left: 10px solid #8193de;
+  }
+  #ExperimentosMiembros .card_hover--modal .modal-header {
+      background-color: #8193de;
+  }
+  @media (max-width:1024px) {
+  #BannerHub img.Logohub {
+      width: 172px;
+  }
+    #BannerHub p {
+      font-size: 12px;
+  }
+  }
+  
+  
+  @media (max-width: 600px) {
+  
+    
+    .MenuReble nav {
+      position: relative;
+      top: 0;
+  }
+    
+    
+    .fixed-top {
+      position: inherit;
+  }
+    #BannerHub .hero-image__body {
+      max-width: 100%;
+  }
+  #BannerHub p {
+      letter-spacing: 2px;
+      font-size: 14px;
+  }
+  #Somos iframe {
+      width: 80%;
+  }
+  #BannerHubInternas h1 {
+      font-size: 2.1em!important;
+  }
+  .TextoTiplab {
+      padding: 0 0%;
+  }
+  aside#categories.categories {
+      margin: 11% 8%;
+  }
+  button.navbar-toggler {
+      background-color: #96c240;
+      margin-left: -11px;
+      margin-bottom: 17px;
+  }
+  
+  span.navbar-toggler-icon:before {
+      color: #fff;
+      content: "\f550";
+      font-family: "FontAwesome";
+      padding: 10px;
+      margin: -7px -6px 5px;
+      display: table;
+  }
+  .MenuReble .navbar-nav .nav-link {
+      border-right: 2px solid#edeaeb00;
+  }
+  }

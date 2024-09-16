@@ -1,0 +1,390 @@
+/*NUEVOS ESTILOS PARA EL CÓDIGO QUEMADO, BOOTSTRAP 5*/
+.tab-bootstap .nav {
+  box-shadow: none;
+}
+.tab-bootstap .nav-link {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #495057;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  min-height: 60px;
+  height: 100%;
+  width: 100%;
+  transition: .1s;
+  background: #eeeefb;
+  margin-bottom: 0.3em;
+  border-bottom: none;
+}
+#estilos-generales .separador {
+height: 0px;
+}
+#estilos-generales .tab-bootstap .nav-link {
+  transition: .1s;
+  color: #fff;
+  font-weight: 500;
+  display: table;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1em;
+  display: inline-block;
+  padding: 10px 10px;
+  color: #000;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  opacity: initial;
+  transition: .1s;
+  background: #eeeefb;
+  margin-bottom: 3px;
+  border-bottom: none;
+}
+
+#estilos-generales .nav-link {
+  padding-left: 10px 10px;
+}
+
+#estilos-generales .nav-link.active {
+  background-color: none !important;
+  background: linear-gradient(to right, #df5b97, #b869e9) !important;
+  padding: 10px 10px;
+  color: #fff !important;
+  padding-left: 8% !important;
+  opacity: 1 !important;
+  border-left: none;
+  border-right: none;
+  margin-left: 5% !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+  background: linear-gradient(to right, #df5b97, #b869e9) !important;
+
+}
+
+
+
+
+#estilos-generales .tab-bootstap .nav-link img{
+display: table;
+width: 32px !important;
+float: left;
+margin-right: 10px;
+filter: invert(1);
+margin-bottom: 20px;
+}
+
+.tab-bootstap .nav-link img {
+  display: table;
+  width: 32px!important;
+  float: left;
+  margin-right: 10px;
+  filter: invert(1);
+  margin-bottom: 20px;
+  height: 30px !important;
+}
+
+#estilos-generales .tab-bootstap .nav-link.active img {
+  filter: brightness(21.5);
+  margin-bottom: 20px;
+  display: table;
+  width: 32px!important;
+  float: left;
+  margin-right: 10px;
+  height: auto;
+}
+#estilos-generales .tab-bootstap .nav-link p {
+  position: relative;
+  top: 1.1em;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  color: #454545;
+  line-height: 19px;
+}
+#estilos-generales .tab-bootstap .nav-link.active p {
+  color: #fff !important;
+  position: relative;
+  top: 0.6em;
+  font-weight: bold;
+  font-size: 0.9em;
+  font-family: 'Raleway',sans-serif;
+  text-align: left;
+  line-height: 19px;
+}
+#estilos-generales .flex-column {
+  flex-direction: column!important;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: none;
+  width: 30%;
+}
+#estilos-generales .resp-tabs-list li {
+  display: table;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1em;
+  display: inline-block;
+  padding: 10px 10px;
+  color: #000;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  opacity: initial;
+  background: rgba(255,255,255,.1);
+  transition: .1s;
+  background: #eeeefb;
+  margin-bottom: 3px;
+  border-bottom: none;
+}
+#estilos-generales .tab-bootstap .nav {
+  flex-wrap: nowrap;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+/*----------------estilos CONTENIDO tabs------------------------*/
+#estilos-generales .tab-content {
+  border-left: solid 2px #eeeefb;
+  padding: 3% !important;
+  background: #ffffff;
+  min-height: 450px;
+  border-radius: 10px;
+  margin-left: 3% !important;
+}
+#estilos-generales .fotoprofemodal {
+  display: table;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+#estilos-generales p.parrafoModal {
+  font-family: 'Raleway', sans-serif;
+  color: #454545;
+  font-size: .9em;
+  line-height: 19px;
+  width: 80%;
+}
+#estilos-generales p.titulocaja {
+  font-family: 'Raleway', sans-serif;
+  color: #454545;
+  font-size: .9em;
+  line-height: 19px;
+  font-weight: bold !important;
+  margin-bottom: 0 !important;
+}
+
+/*Estilos sección proyectos*/
+
+#actividad p {
+color: #000;
+font-weight: 300;
+}
+
+#actividad .cajaprofe {
+background: #eeeefb;
+padding: 3%;
+display: table;
+width: 100%;
+}
+#actividad .button {
+position: absolute;
+width: 100%;
+left: 0;
+top: 0;
+text-align: center;
+opacity: 0;
+transition: opacity .35s ease;
+margin: 0 auto;
+font-family: 'PT Sans', sans-serif;
+height: 100%;
+}
+#actividad .containerImagen {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  margin-bottom: 20px;
+}
+#actividad .ftoprofe {
+  display: table;
+  float: left;
+  margin-right: 20px;
+}
+#actividad .ftoprofe img {
+  border-radius: 100%;
+  width: 110px !important;
+  border: solid 2px #bb67e1;
+  padding: 5px;
+}
+#actividad .nombreProfe {
+  font-weight: 800;
+  padding-top: 20px;
+  font-size: .9em;
+}
+#actividad .containerImagen img {
+  width: 100%;
+  height: auto;
+  left: 0;
+  opacity: .9;
+}
+/*INICIO estilos botón ver más, modales*/
+#actividad strong {
+  display: table;
+  margin: 0 auto;
+  font-size: .7em;
+  color: #f8fbfd;
+  margin-bottom: 0;
+  background: linear-gradient(to right, #db5da0, #bd68df) !important;
+  line-height: initial;
+  margin-top: 37px !important;
+  letter-spacing: 1px;
+  text-transform: inherit;
+  padding: 1% 3% 1%;
+  border: solid 1px;
+}
+#actividad .containerImagen .button a {
+  display: table;
+  width: 90%;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+  text-decoration: none;
+  margin: auto;
+  background: rgb(27, 142, 189);
+  font-size: 16px;
+}
+#actividad .containerImagen .button a {
+  display: table;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+  text-decoration: none;
+  margin: auto;
+  background: rgb(51, 51, 51);
+  font-size: 14px;
+}
+#actividad .button {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
+  height: 100%;
+}
+#actividad .containerImagen .button a {
+  display: table;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: #eeeefb;
+  border: solid 2px #ffffff;
+  z-index: 1;
+  text-decoration: none;
+  margin: auto;
+  background: rgb(0 0 0 / 73%);
+  font-size: 21px;
+  height: 100%;
+  cursor: pointer;
+}
+#actividad .containerImagen:hover .button {
+  opacity: 1;
+}
+/*estilos hover boton modal Ver más*/
+#actividad .containerImagen:hover .title {
+top: 0px;
+}
+#actividad .containerImagen:hover .overlay {
+display: block;
+background: rgba(0, 0, 0, 0.06);
+}
+#actividad .containerImagen:hover .overlay {
+display: block;
+background: rgba(0, 0, 0, 0.06);
+}
+#actividad .containerImagen:hover .title {
+top: 0;
+}
+/*fin estilos botón ver más, modales*/
+/*inicio estilos modal*/
+#actividad .modal-header {
+  border-bottom: solid 2px #bf68dc;
+  display: table;
+}
+#actividad .modal-body {
+  padding: 2rem;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+#actividad h4.modal-title {
+  padding-top: 0 !important;
+  color: #212529!important;
+  font-weight: bold;
+  font-size: 1.5em !important;
+}
+a.boton_personalizado {
+  background: linear-gradient(to right, #bf68db, #d95da4) !important;
+  color: #fff;
+  padding: 10px 7%;
+  display: table;
+  margin-bottom: 10px;
+  width: 100%;
+  min-height: 70px;
+  cursor: pointer;
+  transition: .2s;
+}
+#actividad .close {
+  float: right;
+  font-size: 0.7rem !important;
+  font-weight: 700;
+  line-height: 1;
+  color: #211982;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#actividad .modal-footer .boton_personalizado {
+  color: #fff;
+  width: 24% !important;
+  background: linear-gradient(to right,#bf68db,#d95da4) !important;
+  border-color: initial;
+  display: table;
+  margin: 0 auto !important;
+  border-radius: 0.3em;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  line-height: 3em;
+}
+#actividad a.boton_personalizado{
+  transition: .2s;
+}
+#actividad a.boton_personalizado:hover {
+  transition: .2s;
+  transform: scale(1.05);
+  color: #fff;
+  text-decoration: none;
+}
+#actividad .containerImagen .modal-content .modal-body img {
+  width: 45% !important;
+  float: left;
+  margin: auto;
+  margin-right: 20px !important;
+  display: block;
+}
+/*fin estilos modal*/
+/*FIN estilos botón ver más, modales*/

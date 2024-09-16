@@ -1,0 +1,46 @@
+#DerechosPecuniarios  p.titulo {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 1em;
+}
+ #DerechosPecuniarios  .ColumnaIzquierda {
+  padding: 0 15%;
+}
+#DerechosPecuniarios hr {
+  border: 1px solid#da0921;
+  background-color: #da0921;
+  opacity: 100;
+}
+
+#DerechosPecuniarios .text-long, .block.block--code {
+  border: 1px solid#dadae5;
+  background-color: #fff;
+}
+
+#DerechosPecuniarios ul {
+list-style-type: none;
+padding-left: 20px;
+}
+
+#DerechosPecuniarios li {
+position: relative;
+padding-left: 20px;
+margin-bottom: 10px
+}
+#DerechosPecuniarios li:before {    
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  margin:0 5px 0 -15px;
+  color: #f00;
+}
+
+@media (max-width: 600px) {
+#DerechosPecuniarios p.titulo {
+ font-size: 1.4em;
+}
+.pt-lg {
+padding-top:0px;
+}
+}
+

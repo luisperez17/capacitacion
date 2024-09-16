@@ -1,0 +1,226 @@
+.LABFinanzas .cajaAtraves {
+  margin-bottom: 0 !important;
+  padding: 3% 7%;
+  border: solid 1px #e61c2b;
+  margin-top: 30px;
+  min-height: 317px;
+  box-shadow: 2px 3px 7px #ececec;
+  height: 378px;
+}
+.LABFinanzas .cajaAtraves h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.4rem;
+    margin: 20px 0 10px 0;
+}
+.LABFinanzas .cajaAtraves i {
+  color: #e61c2b;
+  margin-right: 5px;
+}
+.LABFinanzas .cajaAtraves p {
+ line-height: 1.42857143;
+}
+.LABFinanzas .btn-Rosario-Investment-Club {
+  background-color: #00294c;
+  height: 16%;
+}
+.LABFinanzas .btn-Rosario-Investment-Club img {
+  width: 47%;
+  padding: 8px;
+  float: left;
+}
+.LABFinanzas .btn-Rosario-Investment-Club a {
+  text-align: right;
+  font-weight: 800;
+  border: 1px solid #da0921;
+  margin-left: 32px;
+  padding: 6px;
+  background-color: #da0921;
+  color: #fff;
+  position: relative;
+  top: 30%;
+}
+.LABFinanzas .btn-Rosario-Investment-Club a:hover {
+  text-decoration: underline;
+}
+/*Bloque Servicios */
+.serviciosLABF .cajaServicio {
+	padding: 0 5rem;
+}
+.serviciosLABF .cajaServicio .icono {
+  width: 140px;
+  padding: 2%;
+  margin: 0 auto;
+}
+.serviciosLABF .cajaServicio .icono img {
+  width: 120%;
+}
+.serviciosLABF .cajaServicio h3 {
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0px;
+  text-align: center;
+  color: #002333;
+  font-size: 24px;
+}
+.serviciosLABF .cajaServicio p {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  line-height: 20px;
+  min-height: 100px;
+  color: #0e2e3d;
+  font-weight: 300;
+}
+.serviciosLABF .cajaServicio a {
+  background-color: #da0120;
+  color: #fff;
+  border: 0;
+  padding: 2% 2%;
+  font-size: 1.2em;
+  font-weight: 600;
+  display: table;
+  margin: auto;
+    margin-top: auto;
+  margin-top: 20px;
+  text-decoration: dashed !important;
+}
+ .serviciosLABF .cajaServicio a:hover {
+  background-color: #ce001e;
+  color: #fff !important;
+}
+
+/* Entidades y Externos -  Comunidad Rosarista */
+.LAb-FinanzasEconom .conferencia-talleres-cursos .cuadro {
+  padding: 0;
+  border: solid 1px #da0120;
+  margin-top: 30px;
+  box-shadow: 2px 3px 7px #ececec;
+  margin: auto;
+}
+.LAb-FinanzasEconom .cuadro .titutlo {
+  padding: 0 25px 0 24px;
+}
+.LAb-FinanzasEconom .titutlo img {
+  margin: auto;
+}
+.LAb-FinanzasEconom .sin-espacio {
+  padding: 0;
+}
+.LAb-FinanzasEconom .conferencia-talleres-cursos h3 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin: 0;
+}
+.LAb-FinanzasEconom .espacio {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.LAb-FinanzasEconom .conferencia-talleres-cursos p {
+  text-align: justify;
+  font-family: 'Work Sans', sans-serif;
+  padding: 54px 23PX 5px 23PX;
+}
+.LAb-FinanzasEconom .triangulo {
+  clip-path: polygon(50% 0%, 46% 100%, 54% 100%);
+  background-color: #e21633;
+  color: #e21633;
+}
+.LAb-FinanzasEconom .btn-uno {
+  background-color: #e21633;
+  width: 100%;
+  padding: 13px 0;
+  border-radius: 0px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.LAb-FinanzasEconom .conferencia-talleres-cursos .cuadro .btn-uno a {
+  color: #fff;
+  font-weight: 600;
+}
+
+/*Recursos*/
+.recursosLab-finanzas button.btnBoxLab {
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.72);
+  margin-bottom: 20px;
+  border: solid 2px #eee;
+  padding: 4%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.recursosLab-finanzas i {
+  font-size: 3rem;
+  margin-right: 10px;
+  color: #da0220;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.15);
+}
+.recursosLab-finanzas .caja-pdf {
+  border-left: 6px solid #da0120;
+  box-shadow: 1px 3px 7px 1px #bbbbbb;
+  cursor: pointer;
+  margin-bottom: 53px;
+  height: 143px;
+}
+.recursosLab-finanzas .caja-pdf img {
+  width: 90px;
+}
+.recursosLab-finanzas .caja-pdf p {
+  line-height: 1.1em;
+  padding: 26px 0 2px 6px;
+  font-weight: 800;
+  text-align: left;
+  font-size: 1.3em;
+  border-left: 2px solid #71d5d2;
+}
+.recursosLab-finanzas .caja-pdf a {
+  background-color: #da0921;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2em;
+  padding: 4px 24px;
+  border-radius: 4px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  float: right;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.recursosLab-finanzas .caja-pdf a:hover {
+  background-color: #d4051d;
+  color: #fff;
+}
+.recursosLab-finanzas .caja-pdf a i {
+  color: #fff;
+  font-size: 1rem;
+}
+.recursosLab-finanzas .fs-5 {
+  font-size: 1.25rem;
+  width: 100%;
+  text-align: center;
+}
+.recursosLab-finanzas .col-8.contentbox-p {
+  padding-right: 25px;
+}
+.recursosLab-finanzas button.btn-default {
+  color: #fff;
+  background-color: #d92741;
+  border-color: #d92741;
+  width: 200px;
+  margin: 0 auto;
+  float: initial;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.recursosLab-finanzas button.btn-default:hover {
+  color: #fff;
+}
+

@@ -1,0 +1,923 @@
+.btnss .col-md-2 {
+  width: 20%;
+}
+.cajaDesc {
+background-color: #0f3d66;
+}
+
+.cajaDesc h2 {
+color: #fff;
+font-weight: 900;
+font-family: Nunito;
+font-size: 1.5em;
+}
+.btnss i {
+  font-style: normal !important;
+  text-decoration: none !important;
+}
+
+.btnss a {
+  text-decoration: none !important;
+}
+
+
+
+
+.btn_noticias a {
+              background-color: #e6077f;
+              color: #ffff;
+              padding: 14px;
+              margin: auto;
+              display: table;
+              transition: 1s;
+          }
+
+          .btn_noticias a:hover {
+              background-color: #29296a;
+          }
+          .tituloDeNoticias h2 {
+              text-align: center;
+              color: #e6077f;
+              font-weight: 900;
+          }
+          .tituloDeNoticias h2 i {
+              color: #0e3d65;
+          }
+          h2.text-center {
+              color: #e6077f;
+              font-weight: 900;
+              font-family: "Nunito", sans-serif !important;
+          }
+          .info {
+              margin-top: 20px;
+              border: solid 2px #fff;
+              padding: 2%;
+              margin-bottom: 10px;
+          }
+          .tituloDeNoticias img {
+              width: 100%;
+          }
+          h2.text-center i {
+              color: #0e3d65;
+              font-weight: bold;
+          }
+
+
+@media (max-width: 768px) {
+  .btn-cui a {
+      padding: 20px 8px;
+  }
+  .btn-cui a {
+      font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .btnss .col-md-2 {
+      width: 100%;
+  }
+}
+.sin-espcio {
+  padding: 0;
+}
+section.formulario i {
+  font-style: italic;
+  color: #0f3d66;
+  font-weight: bold;
+}
+#desPrograma .cajaDesc {
+  background: #0f3d66 !important;
+}
+.panel-body iframe {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.autocuidado {
+  padding: 3% 5% 5%;
+}
+.sintoma h2 {
+  text-align: center;
+  color: #e6077f;
+  font-weight: 900;
+}
+.sintoma h2 i {
+  color: #0e3d65;
+}
+h2.text-center {
+  color: #e6077f;
+  font-weight: 900;
+  font-family: "Nunito", sans-serif !important;
+}
+.info {
+  margin-top: 20px;
+  border: solid 2px #fff;
+  padding: 2%;
+  margin-bottom: 10px;
+}
+.sintoma img {
+  width: 100%;
+}
+h2.text-center i {
+  color: #0e3d65;
+  font-weight: bold;
+}
+.autocuidado p {
+  text-align: center;
+  margin-top: 0;
+}
+.caja.dos {
+  border-color: #0e3d65;
+}
+.caja {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+  border: solid 3px #e6077f;
+  padding: 5%;
+  font-size: 1.2em;
+  color: #3e3d3d;
+  cursor: pointer;
+  height: 88px;
+}
+.caja:hover {
+  transform: translatey(-10px);
+  transition: 0.2s;
+  background: #fff;
+}
+.cajap {
+  padding: 11px 15px 0 15px !important;
+}
+#desPrograma .cajaDesc h3 {
+  font-size: 2em !important;
+  margin: 0;
+  color: #fff;
+  margin-top: 10px !important;
+  margin-bottom: -19px !important;
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 800;
+}
+a.btn-descargar {
+  background: #e6077f;
+  color: #fff;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 1.3em;
+  display: table;
+  letter-spacing: 1px;
+  border: solid 2px #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+a.btn-descargar:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+a.sitioweb {
+  display: table;
+  margin: 0 auto;
+  font-size: 2em;
+  background: #e6077f;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  border: solid 2px #e6077f;
+}
+a.sitioweb:hover {
+  transition: 0.2s;
+  /* border:solid 2px #fff; */
+  background: #0b375d;
+  transform: scale(1.02);
+}
+#desPrograma .cajaDesc h2 {
+  font-family: "Nunito", sans-serif ;
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 800 ;
+  margin-bottom: 10px ;
+}
+h4.panel-title a {
+  font-size: 19px;
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+#DelColeAlaU section.formulario h2 {
+  font-size: 3.5rem;
+}
+.videoNovaPrueba {
+  text-align: center;
+}
+.videoNovaPrueba iframe {
+  margin: auto;
+  width: 500px;
+  height: 281px;
+}
+li.largo {
+  min-height: 100px;
+}
+
+li.largo:before {
+  margin-bottom: 30px;
+}
+a.botonNOVA.dos {
+  background: #863ad6;
+}
+.sintoma {
+  padding: 1% 5% 3%;
+  background: #eee;
+}
+.sintoma h2 {
+  text-align: center;
+}
+.panel-body {
+  padding: 2% 3%;
+}
+.contactoinfo a {
+  color: #fff;
+  font-size: 1.6rem;
+}
+a.botonNOVA:hover {
+  transition: 0.3s;
+  background: #390a84;
+}
+a.botonNOVA.dos:hover {
+  background: #7128bd;
+  transition: 0.3s;
+}
+a.botonNOVA {
+  background: #5c0ed8;
+  display: table;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  float: left;
+  margin-right: 19px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.panel-body p {
+  font-family: "Montserrat", sans-serif;
+  color: #333 !important;
+  font-size: 1.6rem !important;
+  margin-top: 0 !important;
+}
+.panel-group {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+#logos {
+  display: none;
+}
+.panel-default > .panel-heading {
+  color: #333;
+  background-color: #f1f6fb;
+  border-color: #fff;
+  padding: 1.5%;
+  /* border-radius: 0 !important; */
+}
+.panel-group li:before {
+  /* content: "\e084"; */
+  font-family: "Glyphicons Halflings";
+  color: #101010;
+  margin-right: 8px;
+  font-size: 11px;
+  margin-bottom: 20px;
+  display: table;
+  float: left;
+}
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 2px;
+  border-color: #fff;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #fff;
+}
+#desPrograma .cajaDesc p {
+  font-weight: 500;
+}
+#desPrograma .cajaDesc li {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  /* list-style: none; */
+  margin-left: -23px;
+  line-height: 26px;
+  /* min-height: 48px; */
+}
+#DelColeAlaU section.formulario h2 {
+  color: #da0921;
+  font-size: 2.5em !important;
+  line-height: 40px !important;
+  color: #e6077f !important;
+  font-family: "Nunito", sans-serif !important;
+}
+h4.panel-title strong {
+  font-size: 2.5rem;
+  color: #1a87bb;
+  font-family: "Montserrat", sans-serif;
+}
+.contactoinfo {
+  display: table;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.14);
+  padding: 10px 20px;
+  border: solid 1px rgba(255, 255, 255, 0.57);
+  /* margin-top: 30px; */
+}
+.contactoinfo p {
+  line-height: 0;
+  margin-top: 0 !important;
+}
+.contactoinfo i {
+  margin-right: 10px;
+}
+.contactoinfo h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.panel-heading b {
+  background: #ffffff;
+  color: #0f3d66;
+  padding: 2px 6px;
+  font-size: 1.1em;
+  position: absolute;
+  right: 27px;
+  margin-top: -6px;
+  border-radius: 100%;
+  /* border-color: red; */
+  border: solid 2px #0f3d66;
+}
+.panel-heading b:hover {
+  background: #0e3d65;
+  color: #fff;
+  transition: 0.3s;
+}
+.bgFormaAmarillo IMG {
+  width: 100%;
+}
+a.FormButton.btn.btn-primary i {
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.panel-body h5 {
+  color: #000000;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bullet {
+  margin-left: 20px;
+}
+.bullet li:before {
+  font-size: 10px;
+  color: #9c9c9c;
+}
+#DelColeAlaU .btn-primary {
+  background-color: #7b51bf !important;
+  border-color: #8a38ce !important;
+  padding: 1% 3% !important;
+  margin: 2%;
+  margin-bottom: 0px !important;
+  width: auto !important;
+}
+.formulario p {
+  font-size: 1.2em !important;
+}
+#DelColeAlaU section.formulario {
+  padding: 4% 0 0 0;
+}
+.contacto {
+  padding: 35px 7% 37px;
+  background-color: #eeeeee;
+  border-bottom: 1px solid#cccbcb;
+  margin-top: 25px;
+}
+.contacto a {
+  color: #e6077f;
+  font-weight: 700;
+}
+.contacto p {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.3em;
+}
+.cuadroco {
+  border: solid 2px #e6077f;
+  text-align: center;
+  padding: 12px;
+  font-weight: 700;
+  height: 68px;
+  font-size: 1.2em;
+  color: #565454;
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 4px #00000038;
+}
+.btnss {
+  padding: 20px 0;
+  display: flex;
+}
+.btn-cui i {
+  font-style: inherit;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  color: #fff !important;
+}
+.btn-cui a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  background-color: #0f3d66;
+  color: #fff;
+  display: block;
+  padding: 18px 10px;
+  border: 2px solid#e6077f;
+  text-align: center;
+  transition: 0.3s;
+  height: 107px;
+}
+.btn-cui a:hover {
+  background: #e6077f;
+  border: 2px solid#e6077f;
+}
+.tooltip.top .tooltip-inner {
+  background-color: #0f3d66;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #fff;
+}
+.politicas a {
+  color: black;
+}
+.politicas .tabs {
+  background-color: #33333300;
+}
+.borde strong {
+  color: #e6077f;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.borde {
+  padding: 7px;
+  border: 2px solid#fff;
+  margin-bottom: 43px;
+}
+.titulo-videos {
+  font-size: 1em;
+  text-align: left;
+  display: inline-block;
+  height: 55px;
+  margin-top: 0;
+  font-weight: 600;
+  color: #383838;
+  line-height: 1.4em;
+}
+.fondo2 {
+  display: table;
+  border-bottom: solid 3px #eee;
+  width: 100%;
+  background: url(/sites/default/files/2022-11/bg-estudiar.jpeg) no-repeat fixed bottom;
+}
+.politicas {
+  padding: 1% 4% 1% 4%;
+     background: #dadae5;
+}
+.politicas a {
+  color: #e6077f;
+  font-weight: 600;
+}
+.containerr {
+  width: 970px;
+  margin: auto;
+  display: table;
+}
+.listado ul li {
+  list-style: none;
+}
+.politicas .titulov {
+  color: #da0921;
+  font-size: 2.3em !important;
+  line-height: 40px !important;
+  color: #e6077f !important;
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 800;
+  padding: 20px 0 10px;
+  border-bottom: 2px solid#e6077f;
+  margin-bottom: 29px;
+}
+.NombreDelSitio h3 {
+  color: #da0921;
+  font-size: 20px;
+}
+.nav-stacked > li + li {
+  color: #fff;
+  background-color: #013b69;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: #fff;
+  background-color: #e6077f !important;
+}
+.politicas li a {
+  color: #fff !important;
+  font-weight: 600;
+  background-color: #013b69;
+}
+.menus {
+  padding-top: 35px;
+}
+.politicas .nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: #013b69;
+}
+.menus i {
+  display: table;
+  float: right;
+}
+.fondo {
+  display: table;
+  border-bottom: solid 3px #eee;
+  width: 100%;
+  background: url(/App_Themes/TeatroMusical/img/bg-estudiar.jpg) no-repeat fixed bottom;
+}
+
+.politica a {
+  color: #757575;
+  font-weight: 500;
+}
+.politicas a {
+  color: #757575;
+  font-weight: 500;
+}
+.containerr {
+  width: 970px;
+  margin: auto;
+  display: block;
+}
+.listado ul li {
+  list-style: none;
+}
+.politicas h2 {
+  color: #da0921;
+  font-size: 2.3em !important;
+  line-height: 40px !important;
+  color: #e6077f !important;
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 600;
+}
+.NombreDelSitio h3 {
+  color: #da0921;
+  font-size: 20px;
+}
+ol.normal {
+  list-style-type: upper-alpha;
+}
+
+div#Noticias {
+ padding: 55px 10px;
+display: table;
+margin: auto;
+}
+
+div#Noticias .col-12.col-md-5 {
+  width: 50%;
+}
+
+#Noticias2 {
+  display: grid;
+}
+#Noticias2 .cajaNota {
+  border: solid 2px #e6077f;
+  margin: 20px 20px 20px 20px;
+  font-weight: 700;
+  height: 125px;
+  font-size: 1.2em;
+  color: #565454;
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 4px #00000038;
+}
+
+#Noticias2 .foto img {
+  width: 261px !important;
+  height: 122px !important;
+  object-fit: cover;
+}
+
+#Noticias2 .tituloDeNoticias h2 {
+  text-align: center;
+  color: #e6077f;
+  font-weight: 900;
+}
+
+#DelColeAlaU .modal-body .titulodos {
+  font-weight: 700;
+}
+
+#DelColeAlaU .modal-header {
+  background: #ffffff !important;
+  background-image: url(/sites/default/files/2022-11/logo-protocolo_de_bioseguridad.jpeg) !important;
+  height: 184px;
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  border: 0;
+}
+#DelColeAlaU h4.modal-title {
+  color: #fff !important;
+}
+#DelColeAlaU .close {
+  color: #fff;
+}
+.Box {
+  background-color: #fbfbfb;
+  box-shadow: 0px 5px 8px #0000001a;
+  padding: 26px 43px;
+  /* border-right: 3px solid #e6077f; */
+  border-left: 3px solid #e6077f;
+  margin-bottom: 43px;
+}
+.Box a {
+  color: #e6077f;
+  font-weight: 700;
+}
+#DelColeAlaU .modal-body p {
+  padding: 0;
+}
+.btn-cui {
+  cursor: pointer;
+}
+p.titulodos {
+  font-weight: 400;
+  color: #0f3d66 !important;
+  font-size: 1.4em !important;
+  padding: 0 71px 15px 23px !important;
+  margin: 0 !important;
+}
+p.titulodos a {
+  color: #083461;
+}
+* Does not work properly if "in" is added after "collapse". * Get free snippets on bootpen.com *******************************/ .panel-group .panel {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #eeeeee;
+}
+
+.panel-default > .panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #212121;
+  background-color: #fafafa;
+  border-color: #eeeeee;
+}
+
+.panel-title {
+  font-size: 14px;
+}
+
+.panel-title > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.more-less {
+  float: right;
+  color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #eeeeee;
+}
+.demo .panel-group .panel {
+  margin-bottom: 23px;
+}
+.titulodos i {
+  font-style: italic;
+  color: #0f3d66;
+  font-weight: bold;
+  color: #e6077f !important;
+  font-weight: 900;
+  font-family: "Nunito", sans-serif !important;
+}
+#DelColeAlaU .btn-default {
+  color: #ffffff !important;
+  background-color: #e6077f !important;
+  border-color: #e6077f !important;
+}
+#DelColeAlaU .close {
+  color: #fff !important;
+  background-color: #e6077f !important;
+  border-radius: 50%;
+  padding: 1px 5px;
+}
+#DelColeAlaU .close:hover {
+  background-color: #0a2a46 !important;
+}
+.Cartilla_1 a {
+  display: block;
+  border: 1px solid#e6077f;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin: 15px;
+  padding: 34px;
+  background: linear-gradient(to right, #0f3d66e3, #e6077fd4), url(/PortalUrosario/media/UR-V3/Protocolo-de-bioseguridad/img/fondo.png);
+  transition: 1s;
+}
+.Cartilla_1 a:hover {
+  background: linear-gradient(to right, #d62c8acc, #0f3d66), url(/PortalUrosario/media/UR-V3/Protocolo-de-bioseguridad/img/fondo.png);
+}
+
+.Cartilla_1 i {
+  color: #ffff !important;
+}
+.btn-cui span {
+  font-size: 0.7em;
+  line-height: 1.1em;
+}
+
+.espacio_top {
+  margin: 61px 0px 20px;
+}
+
+.espacio_top iframe {
+  padding: 9px;
+  background-color: #ffffff;
+  box-shadow: 5px 2px 3px #0000001f;
+}
+
+@media (min-width: 992px) {
+  .botones .col-md-2 {
+      width: 20%;
+  }
+}
+@media (max-width: 768px) {
+  #desPrograma .cajaDesc {
+      width: 100%;
+  }
+  .caja:hover {
+      transform: translate(10px, 0px);
+  }
+  a.sitioweb {
+      width: 92.8%;
+      margin-left: 31px;
+  }
+}
+@media (max-width: 600px) {
+  a.sitioweb {
+      width: 92%;
+      margin-left: 23px;
+  }
+  p {
+      font-size: 1.2em;
+  }
+  h2.text-center {
+      font-size: 2em;
+  }
+  #DelColeAlaU section.formulario h2 {
+      text-align: center;
+      font-size: 2em !important;
+      line-height: 30px !important;
+  }
+  .videoNovaPrueba iframe {
+      width: 350px;
+      height: 197px;
+  }
+  h4.panel-title a {
+      font-size: 14px;
+  }
+  .panel-heading b {
+      padding: 0px 5px;
+      font-size: 1.5rem;
+  }
+  h4.panel-title strong {
+      font-size: 1.5rem;
+  }
+  .btnss {
+      padding: 20px 0 !important;
+      display: block !important;
+  }
+  .cuadroco {
+      height: auto;
+      margin-bottom: 20px;
+  }
+  .btn-cui a {
+      margin-bottom: 11px;
+  }
+  .titulo-videos {
+      height: auto;
+  }
+  div#Noticias {
+      margin: 0;
+  }
+  iframe.video {
+      width: 100%;
+  }
+  #Noticias2 .cajaNota {
+      height: auto;
+  }
+  .titulonota {
+      font-size: 0.9em;
+  }
+}
+@media (max-width: 425px) {
+  a.sitioweb {
+      width: 92%;
+      margin: 0 auto;
+      font-size: 1.2em;
+  }
+  #DelColeAlaU section.formulario h2 {
+      text-align: center;
+      font-size: 1.6em !important;
+      line-height: 24px !important;
+  }
+  h2.text-center {
+      font-size: 1.6em;
+  }
+  .sintoma h2 {
+      font-size: 1.6em;
+  }
+  .contacto a {
+      font-size: 0.7em;
+  }
+}
+@media (max-width: 375px) {
+  a.sitioweb {
+      /* width: 100%; */
+      /* margin-left: 19px; */
+  }
+}
+a.btn.btn-sm.boton-mas {
+  display: none;
+}
+.cajaNota {
+  border: solid 2px #e6077f;
+  margin: 20px 20px 20px 20px;
+  font-weight: 700;
+  height: 190px;
+  font-size: 1.2em;
+  color: #565454;
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 4px #00000038;
+}
+.foto {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  height: 215px;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.foto img {
+  width: 276px !important;
+  height: 186px !important;
+  object-fit: cover;
+}
+.titulonota {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 600;
+  color: #0f3d66;
+  font-size: 1em;
+  line-height: 1.3em;
+  padding: 0px 0px 13px 10px;
+  text-align: left;
+  margin-top: 16px;
+}
+.btn-n {
+  background-color: #29296a;
+  color: #fff;
+  display: block;
+  padding: 6px 25px;
+  text-align: center;
+  position: absolute;
+  right: 14px;
+  bottom: 20px;
+  font-weight: 600;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 23px 23px 2px auto;
+}
+.btn-n:hover {
+  background-color: #e6077f;
+}

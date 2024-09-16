@@ -1,0 +1,1103 @@
+@media screen and (min-width: 576px){
+	.modal-lg{
+		max-width: 60%!important;
+	}
+}
+#Programas-MQ img {
+    width: 100%;
+}
+
+#Programas-MQ section.Agenda .text_img p.nombre i {
+    font-style: inherit;
+    color: #ffffff;
+    font-size: 0.4em;
+}
+
+#Programas-MQ section.penalistas.gracias p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#Programas-MQ section.presentacion p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#Programas-MQ section.penalistas h3.gracias {
+    font-size: 2.7em;
+}
+
+#Programas-MQ section.penalistas.gracias {
+    padding: 6% 0px 0%;
+    background: #f3f3f3;
+}
+
+#Programas-MQ .click_form .FormPanel {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#Programas-MQ .click_form .formularios_body .row {
+    width: 100%;
+}
+
+#Programas-MQ section.penalistas .card {
+    border: transparent;
+}
+
+#Programas-MQ .click_form .formularios_body .row.form-group.marginForm {
+    display: block;
+    width: 47%;
+    margin: auto;
+}
+
+#Programas-MQ #zonaform {
+    padding: 5% 30px;
+    background: #f9f9f9;
+}
+#Programas-MQ .click_form .item_registro {
+    width: 100%;
+    position: fixed;
+    z-index: 6;
+    right: 0;
+    top: 80%;
+    max-width: 177px;
+}
+
+.proceso_admision .carousel-control-prev,
+.carousel-control-next {
+    height:40px;
+    width:40px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
+    background-color:#0133cc;
+}
+.proceso_admision  .carousel-control-prev:after {
+    content: "";
+    font-size: 55px;
+    font-family: cursive;
+    position: absolute;
+     right: 167px;
+    top: 50%;
+}
+.proceso_admision  .carousel-control-next:after {
+    content: "";
+    font-size: 55px;
+    font-family: cursive;
+    position: absolute;
+    top: 50%;
+}
+
+#Programas-MQ section.penalistas .proceso_admision {
+    padding-bottom: 3%;
+}
+
+#Programas-MQ .click_form .item_registro a {
+    background: #0033CC;
+    padding: 12px 12px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 1px 2px 2px 0px #150a1b;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+#Programas-MQ .click_form .modal-header {
+    background: #150a1b;
+}
+#Programas-MQ .click_form .modal-dialog.modal-fluid.modal-notify.modal-info {
+    max-width: 60%;
+    padding-top: 1%;
+}
+#Programas-MQ .click_form .formularios_body .radio.radio-list-vertical label {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+#Programas-MQ .click_form .formularios_body {
+    padding-top: 0px;
+    padding-left: 4%;
+    padding-bottom: 8%;
+}
+#Programas-MQ .click_form .formularios_body .text-left a {
+    font-size: 0.8em;
+    color: #f1f4fd !important;
+}
+#Programas-MQ .box_bottom-top h6 {
+    text-align: center;
+    color: #f1f4fd;
+}
+#Programas-MQ .SinRelleno .EditingFormControlNestedControl span {
+    display: flex;
+}
+
+#Programas-MQ .SinRelleno .EditingFormControlNestedControl span label {
+    padding-left: 10px;
+}
+#Programas-MQ .click_form .formularios_body label {
+    color: #000;
+    font-weight: 600;
+    width: 100%;
+}
+#Programas-MQ .click_form .formularios_body .row.form-group.marginForm input {
+    background: #e8e8e8;
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+#Programas-MQ .click_form .formularios_body input#p_lt_ctl09_pageplaceholder_p_lt_ctl01_editabletext1_ucEditableText_widget1_ctl00_viewBiz_btnOK {
+    background: #0033CC;
+    border-color: #0033CC;
+}
+
+#Programas-MQ .click_form .formularios_body .row.form-group.marginForm  span label {
+    font-size: 0.9em;
+}
+
+#Programas-MQ .click_form .modal-dialog.modal-fluid.modal-notify.modal-info div#p_lt_ctl09_pageplaceholder_p_lt_ctl01_editabletext1_ucEditableText_widget1_ctl00_viewBiz {
+    padding: 20px;
+}
+#Programas-MQ .click_form .modal-dialog.modal-fluid.modal-notify.modal-info input#p_lt_ctl09_pageplaceholder_p_lt_ctl01_editabletext1_ucEditableText_widget1_ctl00_viewBiz_btnOK {
+    background: #0033C1;
+}
+#Programas-MQ .click_form .modal-header p.heading.lead {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #ffffff;
+}
+#Programas-MQ .click_form .modal-header button.close {
+    color: #fff;
+    opacity: 1;
+    font-size: 32px;
+}
+#Programas-MQ .click_form.grid a.btn.btn-outline-info.waves-effect {
+    background: #16091c;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+#Programas-MQ .click_form .item_registro a i {
+    color: #ffffff;
+    font-size: 19px;
+}
+#Programas-MQ .click_form .item_registro a:hover {
+    background: #fbc7a3;
+    color: #000;
+}
+#Programas-MQ .click_form .item_registro a:hover i{
+    color: #000;
+}
+#Programas-MQ figure.effect_encabezado {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    text-align: left;
+    max-height: 70vh;
+    background: black;
+    margin: 0px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    align-content: baseline;
+}
+
+#Programas-MQ figure.effect_encabezado img {
+    transform: translate(0px, 0%);
+}
+#Programas-MQ figure.effect_encabezado .texto_encabezado {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+}
+#Programas-MQ figure.effect_encabezado .right_item {
+    display: flex;
+    align-items: baseline;
+    align-content: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+    width: 100%;
+}
+#Programas-MQ  .right_item p {
+color: #fff;
+    font-size: 1.2em;
+    width: 48%;
+    font-weight: 700;
+    padding-left: 110px;
+    line-height: 1.1em;
+    padding: 20px;
+    background: linear-gradient(
+90deg
+, rgb(1 18 104) 0%, rgb(0 25 144) 35%, rgb(0 212 255 / 0%) 100%);
+    border-top: 8px solid#6677c1;
+    clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 106%);
+}
+#Programas-MQ figure.effect_encabezado .texto_introduccion.marca_principal {
+    padding: 10px 30px;
+}
+#Programas-MQ figure.effect_encabezado .texto_introduccion {
+    padding: 20px 0px 0px;
+    position: relative;
+    opacity: 1;
+    max-width: 48vw;
+}
+#Programas-MQ figure.effect_encabezado .texto_encabezado h2 {
+    color: #fff;
+    font-size: 2.1em;
+    padding: 0px 10px;
+}
+#Programas-MQ figure.effect_encabezado .right_item img {
+    opacity: 1;
+}
+#Programas-MQ .encabezado_inicial article.date_in {
+    background: #f3f3f3;
+    padding: 20px 0px;
+    text-align: center;
+}
+#Programas-MQ .encabezado_inicial article.date_in p {
+    color: #000;
+    font-size: 1.2em;
+}
+#Programas-MQ .encabezado_inicial article.date_in h5 {
+    color: #0033CC;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+#Programas-MQ .encabezado_inicial article.date_in h5 a {
+    color: #0033cc;
+}
+#Programas-MQ .encabezado_inicial article.date_in span.line {
+    padding: 17px;
+    font-size: 2.0em;
+    color: #0033CC;
+}
+#Programas-MQ .encabezado_inicial article.date_in i {
+    color: #0033CC;
+}
+#Programas-MQ section.presentacion {
+    padding: 30px 0px;
+}
+#Programas-MQ section.presentacion h2 {
+    font-size: 2.3em;
+    color: #16091c;
+    font-weight: 700;
+}
+#Programas-MQ section.presentacion ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 43px;
+    font-size: 1.2em;
+}
+
+
+#Programas-MQ a.boton_registro {
+    padding: 8px 20px;
+    color: #ffffff;
+    font-weight: 700;
+    background: #1c202d;
+    margin: 0px 10px;
+    width: 100%;
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+}
+#Programas-MQ a.boton_registro:hover {
+    background: #0033CC;
+    text-decoration: none;
+}
+#Programas-MQ section.presentacion hr {
+    width: 300px;
+    position: relative;
+    border: 2px solid #0033CC;
+    display: inline-block;
+    margin: 20px 0 25px 0!important;
+    left: -183px;
+    background: #0033CC;
+}
+#Programas-MQ section.presentacion ul li:before {
+    color: #0033CC;
+    margin-right: 8px;
+    font-size: 11px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+}
+#Programas-MQ section.penalistas {
+    padding: 20px 0px 0%;
+}
+#Programas-MQ .box_bottom-top {
+    padding: 2% 15px;
+}
+
+#Programas-MQ section.penalistas .img_redon {
+    overflow: hidden;
+    background: #f3f3f3;
+    border-bottom: 8px solid #f3f3f3;
+    border-right: 8px solid #f3f3f3;
+    border-top: 8px solid #f3f3f3;
+    border-left: 8px solid #f3f3f3;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: flex-end;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px 8px;
+}
+#Programas-MQ section.penalistas .img_redon img {
+    width: 100%;
+    max-width: 1200px;
+}
+#Programas-MQ section.penalistas .texto_content {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 100%;
+    align-content: baseline;
+    justify-content: left;
+    text-align: left;
+    min-height: 138px;
+    padding: 20px;
+}
+#Programas-MQ section.penalistas .texto_content h6 {
+    padding: 0px 20px;
+    display: inline-block;
+    color: #16091c;
+    font-weight: 300;
+    width: 100%;
+    margin: 0px;
+}
+#Programas-MQ section.penalistas .texto_content h6 strong {
+    font-weight: 600;
+}
+#Programas-MQ section.penalistas .texto_content h4 {
+    font-size: 1.5em;
+    margin: 0px;
+    font-weight: 600;
+    border-bottom: 1px solid #1c202d;
+    padding-bottom: 10px;
+    margin-bottom: 11px;
+    color: #00000b;
+}
+#Programas-MQ section.penalistas h3 {
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #0033CC;
+    text-align: center;
+    padding: 10px 0px;
+}
+#Programas-MQ section.Agenda .text_img p.nombre {
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+#Programas-MQ section.Agenda .text_img em {
+    font-weight: 200;
+    display: block;
+}
+#Programas-MQ section.Agenda {
+    background: #0033CC;
+    color: #fff;
+    padding: 5% 0px 8%;
+}
+#Programas-MQ section.Agenda img {
+    max-width: 360px;
+}
+#Programas-MQ section.Agenda h3 {
+    font-weight: 700;
+    color: #ffffff;
+}
+#Programas-MQ section.Agenda .text_img p strong {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #ffffff;
+}
+#Programas-MQ section.penalistas .row.center {
+    justify-content: center;
+}
+#Programas-MQ section.Agenda .text_img {
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2em;
+    flex-wrap: wrap;
+    border-left: 1px solid #1c202d;
+    min-height: 200px;
+    padding-left: 20px;
+}
+#Programas-MQ section.Agenda .text_img i {
+    font-style: italic;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+#Programas-MQ .content_bg {
+    width: 100%;
+    padding-right:0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Programas-MQ .container {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+select#p_lt_ctl09_pageplaceholder_p_lt_ctl01_editabletext1_ucEditableText_widget1_ctl00_viewBiz_TiposDeDocumento_dropDownList {
+    background: #e8e8e8;
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+
+#Programas-MQ .card-body {
+    min-height: 265px;
+}
+
+#Programas-MQ .card-body .box_items {
+    display: flex;
+    flex-flow: wrap;
+}
+
+#Programas-MQ .card-body .box_items p.box_6, #Programas-MQ .card-body .box_items p.box_12 {
+    width: 30%;
+    font-size: 0.9em;
+    padding: 8px 10px;
+    margin: 5px 10px;
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    background: #f3f7ff;
+    display: flex;
+}
+#Programas-MQ .card-body .box_items p.box_6 a, #Programas-MQ .card-body .box_items p.box_12 a {
+    display: flex;
+    color: #000;
+}
+
+#Programas-MQ .card-body .box_items p.box_6 a:hover, #Programas-MQ .card-body .box_items p.box_12 a:hover {
+    color: #0133cc;
+    text-decoration: none;
+}
+
+#Programas-MQ .card-body .box_items p.box_6 a:hover i, #Programas-MQ .card-body .box_items p.box_12 a:hover i {
+    color: #8a96d3;
+}
+
+#Programas-MQ section.presentacion p i {
+    color: #0033cc;
+    margin-right: 8px;
+}
+
+#Programas-MQ section.penalistas a.btn_person {
+    background: #000f6d;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-right: 14px;
+}
+
+#Programas-MQ section.penalistas a.btn_person:hover {
+    background: #bdccf3;
+    color: #000f6d;
+    text-decoration: none;
+}
+#Programas-MQ section.penalistas .flex_right {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+#Programas-MQ .modal-dialog.modal-fluid.modal-notify.modal-info {
+    max-width: 60%;
+    padding-top: 1%;
+}
+#Programas-MQ .modal-header {
+    background: #000f6d;
+}
+#Programas-MQ section.penalistas a.btn_person i {
+    font-size: 1.4em;
+}
+#Programas-MQ .modal-header p.heading.lead {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #ffffff;
+}
+#Programas-MQ .modal-header button.close {
+    color: #fff;
+    opacity: 1;
+    font-size: 32px;
+}
+#Programas-MQ .modal-body p {
+    text-align: left;
+}
+#Programas-MQ a.btn.btn-outline-info.waves-effect {
+    background: #0e143c;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+#Programas-MQ section.penalistas .modal-body ul li {
+    list-style: none;
+    padding: 5px;
+}
+#Programas-MQ section.penalistas .modal-body ul {
+    padding: 10px 30px;
+}
+
+#Programas-MQ section.penalistas .modal-body ul li span {
+    color: #000f6c;
+    font-weight: 900;
+}
+
+#Programas-MQ section.penalistas .card-header {
+    padding: 0px;
+    margin-bottom: 8px;
+}
+
+#Programas-MQ section.penalistas button.btn.collapsed:hover {
+    color: #f3f7fe;
+    background: #000f6c;
+    text-decoration: none;
+}
+
+#Programas-MQ section.penalistas button.btn.collapsed {
+    background: #f3f7fe;
+    color: #000f6c;
+    padding: 8px 40px 8px 20px;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+}
+
+#Programas-MQ section.penalistas button.btn.collapsed i {
+    position: absolute;
+    right: 20px;
+    font-size: 2.0em;
+    top: 0px;
+    transform: rotate(0deg);
+}
+
+#Programas-MQ section.penalistas button.btn {
+    background: #000f6c;
+    color: #ffffff;
+    padding: 8px 40px 8px 20px;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+}
+
+#Programas-MQ section.penalistas button.btn i {
+    position: absolute;
+    right: 20px;
+    font-size: 2.0em;
+    top: 13px;
+    transform: rotate(181deg);
+}
+
+#Programas-MQ section.penalistas .accordion .card-body {
+    padding: 20px 30px;
+}
+
+#Programas-MQ section.penalistas .accordion .card-body ul li {
+    list-style: none;
+    padding: 5px 0px;
+}
+
+#Programas-MQ section.penalistas .accordion .card-body ul li span {
+    color: #000f6c;
+    font-weight: 900;
+}
+
+#Programas-MQ section.penalistas .accordion .card-body ul li i {
+    color: #000f6c;
+    font-weight: 900;
+    font-size: 0.5em;
+    margin-right: 7px;
+}
+#Programas-MQ section.penalistas .accordion .card-body a {
+    color: #0133cc;
+    font-weight: 700;
+}
+#Programas-MQ section.penalistas .accordion .card-body a:hover {
+    color: #16091c;
+    font-weight: 700;
+}
+
+#Programas-MQ section.penalistas h4 {
+    font-size: 1.7em;
+    color: #16091c;
+    font-weight: 700;
+}
+#Programas-MQ section.penalistas .click_irformulario {
+    text-align: center;
+}
+#Programas-MQ section.penalistas .click_irformulario h2 {
+    text-align: center;
+    display: contents;
+}
+
+#Programas-MQ section.penalistas .click_irformulario h2 a {
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 8px;
+    background: -webkit-linear-gradient(90deg, #0d2c8c 0%, #000f6c 60%);
+    background: -o-linear-gradient(90deg, #0d2c8c 0%, #000f6c 60%);
+    background: -moz-linear-gradient(90deg, #0d2c8c 0%, #000f6c 60%);
+    background: linear-gradient(90deg, #0d2c8c 0%, #000f6c 60%);
+    transition-duration: 1s;
+}
+
+#Programas-MQ section.penalistas .click_irformulario h2 a:hover {
+    text-decoration: none;
+    background: #0133cc;
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgb(49 138 172);
+    transition: all 0.2s ease;
+}
+
+.calendario {
+    display: flex;
+    align-items: stretch;
+    border: 1px solid #0c143c;
+    min-height: 100px;
+    margin-bottom: 20px;
+    height: 90%;
+}
+
+.calendario .actividad {
+    width: 65%;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+    margin: 20px 0px;
+}
+
+.calendario .fecha {
+    width: 35%;
+    background: #e8ebff;
+    padding: 5% 0px;
+    text-align: center;
+}
+
+.calendario .fecha small {
+    font-size: 0.9em;
+}
+
+.calendario .fecha h4 {
+    font-size: 1.7em;
+    color: #0133cc;
+    padding-bottom: 3px;
+    border-bottom: transparent;
+    margin-bottom: 3px;
+    font-weight: 800;
+}
+
+.calendario .fecha p {
+    font-size: 0.9em;
+    text-align: center;
+    font-style: italic;
+}
+
+.calendario .actividad p i {
+    color: #0d143c;
+}
+
+.calendario .actividad h5 {
+    font-size: 1.1em;
+    color: #0d143c;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+}
+.calendario .actividad a:hover {
+    background: #0133cc;
+    text-decoration: none;
+}
+
+.calendario .actividad a {
+    color: #ffffff;
+    font-weight: 500;
+    background: #0d143c;
+    width: 100%;
+    padding: 2px 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.calendario .actividad h6 {
+    padding: 2px 5px;
+    display: inline-block;
+    font-weight: 300;
+    width: 100%;
+    color: #fff;
+    margin: 0px;
+    text-transform: uppercase;
+    background: #808396;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#Programas-MQ section.presentacion .flex_center {
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#Programas-MQ .presentacion .flex_center a.btn_person:hover {
+    background: #020b44;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+#Programas-MQ .presentacion .flex_center a.btn_person {
+    padding: 15px 10px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    background: -webkit-linear-gradient(90deg, #0d2c8c 0%, #0133cc 60%);
+    background: -o-linear-gradient(90deg, #0d2c8c 0%, #0133cc 60%);
+    background: -moz-linear-gradient(90deg, #0d2c8c 0%, #0133cc 60%);
+    background: linear-gradient(90deg, #0d2c8c 0%, #0133cc 60%);
+    box-shadow: 0 4px 16px rgb(116 120 142);
+    transition-duration: 1s;
+}
+.btn-entrevistas a {
+    padding: 15px 10px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    background: -webkit-linear-gradient(
+    90deg, #0d2c8c 0%, #0133cc 60%);
+    background: -o-linear-gradient(90deg, #0d2c8c 0%, #0133cc 60%);
+    background: -moz-linear-gradient(90deg, #0d2c8c 0%, #0133cc 60%);
+    background: linear-gradient(
+    90deg, #0d2c8c 0%, #0133cc 60%);
+    box-shadow: 0 4px 16px rgb(116 120 142);
+    transition-duration: 1s;
+    text-align: center;
+}
+.btn-entrevistas a:hover {
+    background: #020b44;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+.table_res thead {
+    background: #e8ebfe;
+}
+
+.table_res td {
+    border-bottom: 1px solid #d2d2d2;
+    padding: 7px 10px;
+    font-size: 0.9em;
+    border-right: 1px solid #d2d2d2;
+}
+
+.table_res td:last-child{
+    border-right: 1px solid transparent;
+}
+
+#Programas-MQ section.penalistas a.btn_requisitos {
+    color: #0133cc;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-right: 14px;
+    width: 100%;
+    text-align: end;
+    font-size: 1.1em;
+    background: #f3f7fe;
+}
+
+/*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+	@media
+	  only screen 
+    and (max-width: 760px), (min-device-width: 768px) 
+    and (max-device-width: 1024px)  {
+
+		/* Force table to not be like tables anymore */
+		.table_res table, .table_res thead, .table_res tbody, .table_res th, .table_res td, .table_res tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		.table_res thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+   
+      
+    .table_res tr:nth-child(odd) {
+      background: #e8ebff;
+    }
+    
+		.table_res td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #e8ebff;
+			position: relative;
+			padding-left: 50%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+		}
+
+		.table_res td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 0;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: 700;
+		}
+
+		/*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		*/
+		.table_res td:nth-of-type(1):before { content: "PROGRAMAS:"; }
+		.table_res td:nth-of-type(2):before { content: "TIPO:"; }
+		.table_res td:nth-of-type(3):before { content: "PERFIL DE INGRESO:"; }
+	}
+
+
+@media (min-width:1300px){
+#Programas-MQ .right_item p {
+    padding-left: 110px;
+}
+}
+@media (min-width: 1300px) {
+    #Programas-MQ  .container {
+    max-width: 1280px;
+}
+
+#Programas-MQ figure.effect_encabezado {
+    max-height: 70vh;
+    align-items: baseline;
+}
+
+#Programas-MQ figure.effect_encabezado img {
+    transform: translate(0px, 0%);
+}
+    
+}
+@media (max-width: 1199.98px) {
+    #Programas-MQ  .container {
+    max-width: none !important;
+}
+#Programas-MQ .modal-dialog.modal-fluid.modal-notify.modal-info {
+    max-width: 90%;
+    padding-top: 1%;
+}
+
+}
+
+@media (max-width: 1024px) {
+#Programas-MQ .right_item p {
+    padding-left: 71px;
+}
+}
+@media (max-width: 991px) {
+    #Programas-MQ figure.effect_encabezado .texto_introduccion {
+        padding: 20px 0px;
+        margin-top: 0px;
+        width: 57vw;
+    }
+
+    #Programas-MQ figure.effect_encabezado .texto_introduccion.marca_principal {
+        padding: 0px 0px;
+    }
+    #Programas-MQ .click_form .formularios_body .row.form-group.marginForm {
+        width: 100% !important;
+        margin: 5px 15px;
+    }
+
+    #Programas-MQ .click_form .formularios_body .col-md-12.text-left {
+        margin-bottom: 15px;
+    }
+    #Programas-MQ .card-body .box_items p.box_6, #Programas-MQ .card-body .box_items p.box_12 {
+        width: 47%;
+    }
+}
+
+@media (max-width: 768px) {
+    #Programas-MQ section.penalistas .img_redon {
+        float: initial;
+        margin: 0 auto;
+    }
+   
+    #Programas-MQ section.penalistas .box_bottom-top.gis {
+        background: #f9f9f9;
+    }
+    #Programas-MQ section.penalistas .texto_content {
+        text-align: center;
+        justify-content: center;
+    }
+    #Programas-MQ section.presentacion h2 br {
+        display: none;
+    }
+    #Programas-MQ figure.effect_encabezado .texto_encabezado h2 {
+        text-align: center;
+        font-size: 1.9em;
+    }
+
+    #Programas-MQ .card-body .box_items p.box_6, #Programas-MQ .card-body .box_items p.box_12 {
+        width: 100%;
+        margin: 5px 0px;
+    }
+    
+    #Programas-MQ .right_item p {
+    padding-left: 54px;
+}
+    
+}
+@media (max-width: 600px) {
+#Programas-MQ figure.effect_encabezado .texto_encabezado h2 {
+    font-size: 1.6em;
+}
+#Programas-MQ section.Agenda .text_img p strong {
+    font-size: 1.0em;
+}
+#Programas-MQ section.Agenda h3 {
+    font-size: 1.3em;
+}
+#Programas-MQ section.presentacion h2 {
+    font-size: 1.6em;
+}
+#Programas-MQ section.presentacion ul {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.1em;
+}
+#Programas-MQ figure.effect_encabezado .right_item img {
+    max-width: 340px;
+}
+#Programas-MQ .text_img .box_bottom-top {
+    padding: 2% 15px 30px;
+}
+#Programas-MQ .encabezado_inicial article.date_in span.line {
+    width: 100%;
+    display: block;
+    padding: 0px;
+}
+#Programas-MQ section.penalistas .img_redon {
+    height: 252px;
+    max-width: 252px;
+}
+#Programas-MQ .click_form .modal-dialog.modal-fluid.modal-notify.modal-info {
+    max-width: 100%;
+    padding-top: 0%;
+}
+#Programas-MQ .click_form .item_registro {
+    width: 100%;
+    position: fixed;
+    z-index: 121;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    top: auto;
+}
+#Programas-MQ .click_form .item_registro a {
+    padding: 12px 12px;
+    color: #000;
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+#Programas-MQ .encabezado_inicial article.date_in p {
+    font-size: 1.0em;
+}
+#Programas-MQ .modal-dialog.modal-fluid.modal-notify.modal-info {
+    max-width: 100%;
+    padding-top: 0%;
+}
+
+#Programas-MQ .card-body {
+    padding: 0px;
+
+}
+#Programas-MQ section.penalistas .texto_content {
+    padding: 0px;
+}
+#Programas-MQ .right_item p {
+    font-size: 0.8em;
+    padding-left: 7px;
+}
+#Programas-MQ section.penalistas h3 {
+    font-size: 1.3em;
+}
+
+}
+
+@media (max-width: 480px) {
+#Programas-MQ figure.effect_encabezado .texto_encabezado h2 {
+    font-size: 1.2em;
+}
+#Programas-MQ section.Agenda h3 {
+    font-size: 1.0em;
+}
+#Programas-MQ section.Agenda .text_img p {
+    font-size: 0.9em;
+}
+#Programas-MQ section.Agenda .text_img em {
+    font-size: 0.9em;
+}
+
+#Programas-MQ section.penalistas a.btn_person {
+    background: #000f6d;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-right: 5px;
+}
+#Programas-MQ section.penalistas .click_irformulario h2 {
+    font-size: 1.2em;
+}
+
+}
+
+@media (max-width: 360px) {
+    #Programas-MQ section.presentacion hr {
+        width: 250px;
+    }
+}

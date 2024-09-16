@@ -1,0 +1,43 @@
+#PublicacionesTabs .tab-content ul li{
+  list-style-type: none;
+  position: relative;
+}
+
+#PublicacionesTabs .tab-content  ul li:before{
+position: absolute;
+color:#00b1b1;
+top:0;
+left:-12px;
+font-family: 'Font Awesome 5 Free';
+font-size:1.2em;
+content: "\f00c";
+font-weight: 900; /* <-- add this or 400 for other styles */
+display: inline-block;
+font-style: normal;
+font-variant: normal;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+}
+#PublicacionesTabs .tab-content ul li a:hover {
+  color: #00a0a0;
+}
+#PublicacionesTabs .tab-content ul li a {
+  transition: .5s;
+}
+
+.boton_personalizado {
+          margin: auto;
+          display: table;
+          text-decoration: none;
+          padding: 10px;
+          font-weight: 600;
+          font-size: 15px;
+          color: #ffffff;
+          background-color: #da0921;
+          border-radius: 6px;
+          border: 2px solid #ffffff;
+      }
+      .boton_personalizado:hover {
+          color: #1883ba;
+          background-color: #ffffff;
+      }

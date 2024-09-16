@@ -1,0 +1,677 @@
+#estilos-UR-internacional .texto-banner {
+	color: #da0921;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  .texto-banner {
+    text-align:left;
+  }
+  .texto-banner h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 2.6em;
+      font-weight: 700;
+      line-height: 1em;
+      text-align: left;
+  }
+  .texto-banner small {
+    font-size: 90%;
+    font-weight: 400;
+    text-align: left;
+  }
+/*----INICIO estilos sección video----*/
+	.bgc-lila .layout-content {
+    padding-bottom: 3em;
+	}
+  .video-intercambio {
+  	min-width: 50%;
+  	max-width: 60%;
+    padding: 2% !important;
+    margin: auto!important;
+  }
+
+	.titulo-seccion-largo .h3-large {
+		 font-size: 2.8em;
+	}
+	.titulo-seccion-largo{
+		max-width: 80%;
+		margin: auto!important;
+		padding-bottom: 1em;
+	}
+/*---- FIN estilos sección video----*/
+	
+/*INICIO Estilos carrusel cards banderas SECCIÓN CONVENIOS*/
+
+ #carouselExampleControls-dos .carousel.slide {
+ 	    position: relative;
+ }
+ 
+ #carouselExampleControls-dos .carousel.slide .carousel-inner {
+    height: auto;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+ #carouselExampleControls-dos .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+ #carouselExampleControls-dos .carousel-item.active {
+    display: block;
+}
+ #carouselExampleControls-dos .Caja {
+    box-shadow: -14px 4px 4px #dadae6;
+}
+ #carouselExampleControls-dos .Credito {
+    background-color: #241288;
+    color: aliceblue;
+    display: inline-flex;
+    font-weight: 900;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+}
+ #carouselExampleControls-dos .Caja p {
+    padding: 12px 0;
+    margin: 0;
+}
+ #carouselExampleControls-dos .Caja img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    /*object-position: -5px;*/
+    margin-top: -1.5em;
+    margin-left: 11em;
+}
+ #carouselExampleControls-dos .Caja img {
+    position: absolute;
+    /*right: 33px;*/
+    /*top: 16px;*/
+}
+ #carouselExampleControls-dos .seccion-banderas .px-4 {
+	    padding-left: 12em;
+	    padding-right: 12em;
+	}
+	/* --------------- estilos controles slider banderas --------------- */
+	.carousel-control-prev {
+	    background-color: #da0921;
+	    width: -6px !important;
+	    padding: 1.8em 1em !important;
+	    font-size: 0.7em !important;
+	    left: 5em !important;
+	    top: -18em !important;
+	    position: relative !important;
+	    z-index: 2 !important;
+	}
+	.carousel-control-next {
+		background-color: #da0921;
+    padding: 1.8em 1em;
+    font-size: 0.7em;
+    left: 108em;
+    top: -18em;
+    position: relative;
+    z-index: 2;
+    border-radius: 0px;
+	} 
+	
+	/*Inicio estilos texto botón inferior HAZ CLIC AQUÍ*/
+	.boton_personalizado_borde{
+    margin: auto;
+    display: table;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #da0921 !important;
+    background-color: #fff !important;
+    width: 200px;
+    border: 2px solid #da0921;
+    font-weight: 800;
+  	transition: 0.5s !important;
+  }
+  .boton_personalizado_borde:hover{
+    color: #fff !important;
+    text-decoration:underline;
+    background-color: #da0921 !important;
+    transition: 0.3s !important;
+  }
+  /*Fin estilos texto botón inferior HAZ CLIC AQUÍ*/
+/*FIN Estilos carrusel cards banderas SECCIÓN CONVENIOS*/
+
+/*INICIO Estilos REQUISITOS GENERALES*/
+.Requisitos .Caja {
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin: 2px 0 13px;
+    min-height: 400px;
+    padding: 12px;
+    width: 100%;
+    box-shadow: none;
+}
+.Requisitos .Caja::before {
+    border-top: 44px solid transparent;
+    border-left: 44px solid #241288;
+    transform: rotate(89deg);
+    position: absolute;
+    z-index: 3;
+    left: -6px;
+    content: "";
+    width: 56px;
+    height: 0px;
+    top: 5px;
+}
+.Requisitos .Caja b {
+    background-color: #da0921;
+    border-radius: 6px;
+    padding: 6px 11px;
+    font-size: 1.3em;
+    font-weight: 900;
+    color: #fff;
+}
+.Requisitos .Caja p {
+    padding: 12px 0;
+    margin: 0;
+}
+.Caja {
+    box-shadow: -14px 4px 4px #dadae6;
+}
+.img-requisitos {
+    padding-right: 0px;
+}
+/*FIN Estilos REQUISITOS GENERALES*/
+/*INICIO Estilos ¡Cómo aplicar?*/
+.Contenedor {
+    background-color: #dadae6;
+    display: inline-flex;
+    margin-bottom: 15px;
+    min-height: 119px;
+    width: 100%;
+}
+.Contenedor p {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 17px;
+    margin: 0;
+}
+a.Link-btn2 {
+    font-weight: 700;
+    background-color: #da0921;
+    padding: 3px 14px;
+    margin-left: 8px;
+    color: white!important;
+}
+.Como-aplicar ul {
+    padding: 27px;
+    list-style: none;
+}
+/*.contenedor-comoaplicar-notas ul{
+		list-style: none;
+}*/
+.bg-light ul .sin-estilo {
+    list-style: none;
+}
+/*FIN Estilos ¡Cómo aplicar?*/
+
+/*INICIO Estilos Preguntas frecuentes*/
+.contenedor-preguntas-frecuentes {
+	margin: 0em 16em;
+}
+/*FIN Estilos Preguntas frecuentes */
+
+
+/* 2 ------------------ INICIO INICIO INICIO ESTILOS Doble Titulación ------------------ */
+
+i.fa-solid.fa-check {
+    display: none;
+}
+
+#DoblePrograma .Credito {
+    background-color: #241288;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1em;
+    color: aliceblue;
+}
+#DoblePrograma .tab-bootstap .nav-link a {
+    margin-left: none !important;
+    color: #131313 !important;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    text-align: center !important;
+    font-size: 0.8em !important;
+    font-weight: 600 !important;
+    margin: 4% 2% !important;
+}
+#DoblePrograma .tab-bootstap .nav {
+    box-shadow: none;
+}
+#DoblePrograma .Caja img {
+    position: absolute;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin-left: 8em;
+    /*right: 33px;
+    top: 16px;*/
+}
+#DoblePrograma .Caja p {
+    padding: 12px 0;
+    margin: 0;
+    display: flex;
+}
+#DoblePrograma .Caja {
+    transition: 0.2s !important;
+}
+#DoblePrograma .Caja:hover {
+    transform: scale(1.1) !important;
+    transition: 0.2s !important;
+}
+#DoblePrograma .modal-header {
+    background-color: #dadae6 !important;
+    font-weight: 900 !important;
+    color: #000 !important;
+    text-transform: uppercase !important;
+}
+#DoblePrograma .modal-footer button {
+    background-color: #19079b !important;
+    margin: auto !important;
+    border: 0 !important;
+}
+#DoblePrograma .modal-footer button:hover {
+    background-color: #2940a5 !important;
+}
+#DoblePrograma .modal.fade {
+    background-image: linear-gradient(to bottom, rgba(34, 31, 77, 0.9) 65%, rgba(27, 20, 45, 0.9) 100%) !important;
+}
+#DoblePrograma .card-egresados {
+		background-color: #f3f3f3 !important;
+		box-shadow: none !important;
+    position: relative !important;
+    min-height: 230px !important;
+    max-width: 170px !important;
+    padding: 30px 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 8px !important;
+}
+#DoblePrograma .card-egresados__heading {
+    font-weight: 500 !important;
+    font-size: 1.2em !important;
+    margin-top: 0.3em !important;
+    margin-bottom: 1rem !important;
+    text-align: center;
+}
+#DoblePrograma .card-egresados__image picture {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+    margin: auto !important;
+    display: block !important;
+    padding: 2px !important;
+    border: none !important;
+    margin-bottom: 0px !important;
+}
+#DoblePrograma .card-egresados__link {
+    position: absolute !important;
+    top: 81% !important;
+    right: auto !important;
+    background-color: transparent !important;
+    color: #da0921 !important;
+    border: 1px solid #241288 !important;
+    padding: 3px 12px !important;
+    max-height: 30px !important;
+    transition: all .5s !important;
+    text-transform: capitalize !important;
+}
+#DoblePrograma .card-egresados__link-a {
+    color: #da0921 !important;
+    font-weight: 500 !important;
+}
+#DoblePrograma .card-egresados__link:hover {
+    background-color: #241288 !important;
+}
+#DoblePrograma .card-egresados__link:hover a {
+    color: #fff !important;
+    text-decoration:underline !important;
+}
+#DoblePrograma .card-egresados__link:hover i {
+    color: #fff !important;
+}
+#DoblePrograma .card-egresados__link i {
+    color: #da0921 !important;
+    margin-left: 5px !important;
+    transition: all .5s !important;
+}
+/* 2 ------------------ FIN FIN FIN ESTILOS Doble Titulación ------------------ */
+
+/* 3 ------------------ INICIO INICIO INICIO ESTILOS Movilidad Medicina ------------------ */
+#MovilidadMedicina .card-hover-button__link-a {
+    transition: 0.2s;
+	}
+#MovilidadMedicina .card-hover-button__link-a:hover {
+    background-color: #da0921;
+    transition: 0.2s;
+	}
+#MovilidadMedicina .card-hover-button__heading {
+	border-left: none;
+    border-bottom: 3px solid var(--main-page-color);
+    margin-bottom: 2em;
+    padding-left: 0px;
+    margin-left: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    right: 10px;
+    z-index: 10;
+}
+#MovilidadMedicina .card-hover-button__link-a {
+    font-weight: 500;
+}
+#MovilidadMedicina .card-hover-button__link:hover {
+    background: linear-gradient(to right, hsl(232deg 99% 24% / 79%), hsl(231deg 90% 35% / 89%));
+    opacity: 0.8;
+}
+
+#MovilidadMedicina .card-hover-button__content-image img {
+    height: 140%;
+}
+
+/* 3 ------------------ FIN FIN FIN ESTILOS Movilidad Medicina ------------------ */
+
+
+/* 4 ------------------ INICIO INICIO INICIO ESTILOS Movilidad Medicina ------------------ */
+#MovilidadInternadoElectivo.Como-aplicar .Contenedor {
+    width: 95%;
+}
+#MovilidadInternadoElectivo .sin-estilo {
+    list-style: none;
+}
+#MovilidadInternadoElectivo .sin-estilo :hover{
+    text-decoration: underline;
+}
+/* 4 ------------------ FIN FIN FIN ESTILOS Movilidad Medicina ------------------ */
+
+/* 5 ------------------ INICIO INICIO INICIO ESTILOS Servicios para estudiantes visitantes ------------------ */
+
+#ServiciosEstudiantesVisitantes .card-hover-button__link-a:hover {
+    background-color: #da0921;
+    transition: 0.2s;
+	}
+#ServiciosEstudiantesVisitantes	.card-hover-button__link-a {
+    padding: 2px 15px;
+	}
+#ServiciosEstudiantesVisitantes .card-hover-button__heading {
+    border-left: none;
+    border-bottom: 3px solid var(--main-page-color);
+    margin-bottom: 1em;
+    padding-left: 0px;
+    margin-left: 3%;
+    color: #fff;
+    font-weight: 600;
+    padding-right: 4em;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    right: 10px;
+    z-index: 2;
+}
+#ServiciosEstudiantesVisitantes .card-hover-button__content-image {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 140%;
+    height: 100%;
+    overflow: hidden;
+}
+#ServiciosEstudiantesVisitantes .card-hover-button__content-image div {
+    width: 54%;
+    height: 187%;
+}
+#ServiciosEstudiantesVisitantes .card-hover-button__link-a {
+		transition: 0.2s;
+    font-weight: 500;
+}
+#ServiciosEstudiantesVisitantes .card-hover-button__link:hover {
+    background: linear-gradient(to right, hsl(232deg 99% 24% / 79%), hsl(231deg 90% 35% / 89%));
+    opacity: 1;
+    transition: 0.2s;
+    z-index:1;
+}
+#ServiciosEstudiantesVisitantes .card-hover-button__link {
+    z-index: 1 !important;
+}
+#ServiciosEstudiantes .card-hover-button__link {
+    z-index: 1!important;
+}
+
+#ServiciosEstudiantesVisitantes .card-hover-button {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+    background-color: #240967;
+}
+
+/* 5 ------------------ FIN FIN FIN ESTILOS Servicios para estudiantes visitantes ------------------ */
+
+
+/*---------------------- INICIO estilos Media Querys ----------------------*/
+@media (min-width: 2000px) and (max-width: 2560px) {
+	.titulo-seccion-largo .h3-large {
+		 font-size: 3.2em;
+	}
+	.section-title--line-down::after {
+	    width: 5000px;
+	    height: 6px;
+	    margin-left: -4450px;
+	}
+	/*INICIO seccion banderas*/
+	#carouselExampleControls-dos .seccion-banderas .px-4 {
+	    padding-left: 20em;
+	    padding-right: 20em;
+	}
+	#carouselExampleControls-dos .Caja img {
+	    margin-left: 9em;
+	}
+	.carousel-control-prev {
+		left: 16em !important;
+	}
+	.carousel-control-next {
+    left: 200em;
+	}
+	/*FIN seccion banderas*/
+}
+@media (min-width: 1800px) and (max-width: 1999.98px) {
+	.titulo-seccion-largo .h3-large {
+		 font-size: 2.9em;
+	}
+	.section-title--line-down::after {
+	    width: 5000px;
+	    height: 4px;
+	    margin-left: -4600px;
+	}
+	/*INICIO seccion banderas*/
+	#carouselExampleControls-dos .seccion-banderas .px-4 {
+	    padding-left: 16em;
+	    padding-right: 16em;
+	}
+	#carouselExampleControls-dos .Caja img {
+	    margin-left: 12em;
+	}
+	.seccion-banderas .mb-4 {
+    margin-bottom: 2em;
+	}
+	.carousel-control-prev {
+		left: 12em !important;
+	}
+	.carousel-control-next {
+    left: 150em;
+	}
+	/*FIN seccion banderas*/
+}
+
+@media (min-width: 1400px) and (max-width: 1799.98px)  {
+	.section-title--line-down::after {
+	    width: 5000px;
+	    height: 3px;
+	    margin-left: -4700px;
+	}
+	.titulo-seccion-largo .h3-large {
+		 font-size: 2.1em;
+	}
+	.titulo-seccion-largo{
+		max-width: 80%;
+		margin: auto!important;
+	}
+	/*INICIO seccion banderas*/
+	#carouselExampleControls-dos .seccion-banderas .px-4 {
+	    padding-left: 14em;
+	    padding-right: 14em;
+	}
+	#carouselExampleControls-dos .Caja img {
+	    margin-left: 8em;
+	}
+	.seccion-banderas .mb-4 {
+    margin-bottom: 3em;
+	}
+	.carousel-control-prev {
+		left: 10em !important;
+	}
+	.carousel-control-next {
+    left: 105em;
+	}
+	/*FIN seccion banderas*/
+}
+
+@media (min-width: 1270px) and (max-width: 1399.98px) {
+	.titulo-seccion-largo .h3-large {
+		 font-size: 1.8em;
+	}
+	/*INICIO seccion banderas*/
+	#carouselExampleControls-dos .seccion-banderas .px-4 {
+	    padding-left: 8em;
+	    padding-right: 8em;
+	}
+	#carouselExampleControls-dos .Credito {
+	    width: 17%;
+	}
+	#carouselExampleControls-dos .Caja img {
+	    margin-left: 8em;
+	}
+	.seccion-banderas .mb-4 {
+	    margin-bottom: 2em;
+	}
+	.carousel-control-prev {
+		font-size: 0.3em !important;
+    left: 7em !important;
+    top: -35em !important;
+	}
+	.carousel-control-next {
+    font-size: 0.3em;
+    left: 220em;
+    top: -34em;
+	}
+	/*FIN seccion banderas*/
+}
+
+@media (min-width: 1200px) and (max-width: 1269px) {
+	
+	.titulo-seccion-largo .h3-large {
+		 font-size: 1.8em;
+	}
+	/*INICIO seccion banderas*/
+	#carouselExampleControls-dos .seccion-banderas .px-4 {
+	    padding-left: 8em;
+	    padding-right: 8em;
+	}
+	#carouselExampleControls-dos .Credito {
+	    width: 17%;
+	}
+	#carouselExampleControls-dos .Caja img {
+	    margin-left: 8em;
+	}
+	.seccion-banderas .mb-4 {
+	    margin-bottom: 2em;
+	}
+	.carousel-control-prev {
+		font-size: 0.3em !important;
+    left: 7em !important;
+    top: -35em !important;
+	}
+	
+	.carousel-control-next {
+	    font-size: 0.3em;
+	    left: 232em;
+	    top: -34em;
+	}
+	.Requisitos .Caja {
+			min-height: 431px;
+	}
+}
+
+@media (min-width: 768px)  and (max-width: 1199.98px){
+
+	.titulo-seccion-largo .h3-large {
+		 font-size: 1.8em;
+	}
+	.titulo-seccion-largo{
+		max-width: 90%;
+	}
+	.section-title--line-down::after {
+	    margin-left: -4750px;
+	}
+	/*INICIO seccion banderas*/
+	#carouselExampleControls-dos .seccion-banderas .px-4 {
+	    padding-left: 8em;
+	    padding-right: 8em;
+	}
+	#carouselExampleControls-dos .Credito {
+	    width: 14%;
+	}
+	#carouselExampleControls-dos .Caja img {
+	    margin-left: 8em;
+	}
+	.seccion-banderas .mb-4 {
+	    margin-bottom: 2em;
+	}
+	.carousel-control-prev {
+		font-size: 0.7em !important;
+    left: 4em !important;
+    top: -18em !important;
+	}
+	.carousel-control-next {
+    left: 40em;
+	}
+	/*FIN seccion banderas*/
+	
+	/*INICIO Estilos carrusel cards banderas SECCIÓN CONVENIOS*/
+		#carouselExampleControls-dos .Caja img {
+		    margin-left: 6em;
+		}
+	/*FIN Estilos carrusel cards banderas SECCIÓN CONVENIOS*/
+}
+/*---------------------- FIN estilos Media Querys ----------------------*/

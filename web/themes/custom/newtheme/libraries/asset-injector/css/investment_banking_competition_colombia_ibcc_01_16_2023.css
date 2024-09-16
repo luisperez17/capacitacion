@@ -1,0 +1,88 @@
+#BotonFlotante {
+  position: fixed;
+  right: 0;
+  top: 30%;
+  z-index: 5;
+}
+.ColumnaDerecha,
+.ColumnaIzquierda {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 11%;
+  border-radius: 0;
+}
+.section-title--casa-ur {
+  border-left: 8px solid #327ad4;
+}
+.Cuadro {
+  background-color: #f8f8f8;
+  margin-bottom: 13px;
+  padding: 10px 20px;
+  line-height: 1.2em;
+  border-radius: 4px;
+  color: #161616;
+  border-left: 7px solid#190356;
+}
+.caja {
+  background-color: #f8f8f8;
+  margin-bottom: 23px;
+  min-height: 289px;
+  padding: 32px;
+}
+.cajados {
+  background-color: #dadae529;
+  margin-bottom: 23px;
+  min-height: 265px;
+  padding: 32px;
+}
+.caja strong {
+  font-size: 1.3em;
+  font-weight: 800;
+}
+.grupos strong {
+  font-weight: 800;
+  font-size: 1.8em;
+  color: #190356;
+  margin: auto;
+}
+.cajados {
+  background-color: #ffffff;
+  border-left: 5px solid#190356;
+  margin-bottom: 23px;
+  min-height: 220px;
+  padding: 32px;
+}
+.Premio strong {
+  font-size: 24px;
+  color: #0d448a;
+}
+#Jurados .card-directory img {
+  border: 1px solid#3278c9;
+}
+.Datos {
+  background-color: #190356;
+  color: #fff;
+}
+
+.px-lg {
+padding-left: 200px;
+padding-right: 30px;
+}
+#PatrcinadoresOrganizan img {
+  width: 287PX;
+}
+
+
+@media (max-width: 600px) {
+#BotonFlotante {
+  position: fixed;
+  bottom: 0;
+  top: inherit;
+      right: inherit;
+}
+  .ColumnaDerecha,
+  .ColumnaIzquierda {
+      padding: 10% 11%;
+  }
+}

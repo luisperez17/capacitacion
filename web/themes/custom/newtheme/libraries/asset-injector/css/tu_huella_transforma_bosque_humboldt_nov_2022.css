@@ -1,0 +1,358 @@
+@media (min-width: 768px){
+  .main, .main-fluid {
+      margin-top: 0 !important;
+  }
+  }
+  html {
+      scroll-behavior: smooth;
+  }
+  /* clases comunes */
+  #TU-Huella.inicio {
+      font-family: "Montserrat", sans-serif;
+  }
+  #TU-Huella .container-fluid {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .banner {
+      position: relative;
+  }
+  .bg-dark {
+      background-color: #848585 !important;
+  }
+  #TU-Huella.inicio .texto-bosque {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 2rem;
+      color: #005523;
+  }
+  #TU-Huella.inicio .texto-final {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 18px !important;
+      line-height: 22px !important;
+  }
+  #TU-Huella.inicio .container-logos {
+      margin-top: 0px;
+      padding-top: 0px;
+  }
+  iframe {
+      width: 100%;
+      height: 315px;
+  }
+  /* fin clases comunes */
+  
+  #TU-Huella.inicio {
+      min-height: 600px;
+      background-color: #f0f0f0;
+  }
+  #TU-Huella.inicio .banner .mostrar-movil,
+  #TU-Huella.inicio .banner .mostrar-tabletas,
+  #TU-Huella.inicio .banner .mostrar-escritorio {
+      display: none;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  #TU-Huella.inicio .banner {
+      position: relative;
+  }
+  
+  #TU-Huella.inicio .banner-donar .mostrar-movil,
+  #TU-Huella.inicio .banner-donar .mostrar-tabletas,
+  #TU-Huella.inicio .banner-donar .mostrar-escritorio {
+      display: none;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  #TU-Huella.inicio .banner-donar {
+      position: relative;
+  }
+  
+  /*INICIO Clases NAVBAR*/
+  #TU-Huella.inicio .navbar {
+      top: 20px;
+      position: fixed;
+      width: 100%;
+      z-index: 3;
+      transition: 0.3s;
+  }
+  
+  #TU-Huella.inicio i {
+      color: rgba(0, 0, 0, 0.5);
+  }
+  
+  #TU-Huella.inicio .navbar ul li a {
+      color: white;
+  }
+  #TU-Huella.inicio .logos-header {
+      width: 15%;
+      padding: 20px;
+  }
+  #TU-Huella.inicio .bg-navbar {
+      background: rgba(132, 133, 133, 0.6) !important;
+      top: 0px;
+      transition: 0.3s;
+  }
+  
+  #TU-Huella.inicio .contenedor-texto .navbar {
+      padding: 1.5rem 2rem;
+  }
+  #TU-Huella.inicio .contenedor-texto .nav-item {
+      padding: 0rem 4rem;
+  }
+  /*FIN Clases NAVBAR*/
+  
+  /*INICIO Clases botones*/
+  /*-----------INICIO BotÃƒÂ³n contorno---------*/
+  #TU-Huella.inicio .btn-contorno {
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      font-size: 15px;
+      color: #ffffff;
+      border-radius: 0.5rem;
+  }
+  #TU-Huella.inicio .btn-contorno a {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 4px 3px;
+  }
+  /*-----------FIN BotÃƒÂ³n contorno---------*/
+  
+  /*-----------INICIO BotÃƒÂ³n InformaciÃƒÂ³n-rosado---------*/
+  #TU-Huella.inicio .btn-info {
+      background-color: rgb(1, 171, 231);
+      border: none;
+      font-size: 15px;
+      border-radius: 0.5rem;
+      color: #2b2a2a;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 15px;
+  }
+  
+  #TU-Huella.inicio .btn-info a {
+      padding: 4px 12px;
+  }
+  
+  #TU-Huella.inicio .btn-editar {
+      background-color: rgb(82, 131, 192);
+      border: none;
+      font-size: 15px;
+      border-radius: 0.5rem;
+  }
+  
+  #TU-Huella.inicio .btn-editar a {
+      padding: 4px 12px;
+  }
+  
+  #TU-Huella.inicio .btn-eliminar a {
+      padding: 4px 12px;
+  }
+  
+  #TU-Huella.inicio .btn-eliminar {
+      background-color: rgb(159, 26, 31);
+      border: none;
+      font-size: 15px;
+      border-radius: 0.5rem;
+  }
+  
+  #TU-Huella.inicio .btn-confirmar {
+      background-color: rgb(234, 207, 38);
+      border: none;
+      font-size: 15px;
+      border-radius: 0.5rem;
+      color: #000000;
+  }
+  
+  #TU-Huella.inicio .btn-confirmar a {
+      padding: 4px 12px;
+      color: #000000;
+  }
+  
+  #TU-Huella.inicio a {
+      color: #ffffff;
+  }
+  /*-----------FIN BotÃƒÂ³n InformaciÃƒÂ³n-rosado---------*/
+  
+  /*FIN Clases botones*/
+  
+  /*INICIO SECCIÃƒâ€œN S-FACTORY*/
+  
+  #TU-Huella.inicio .contenedor-principal-1 {
+      margin-top: auto;
+      margin-bottom: 15px;
+  }
+  #TU-Huella.inicio .contenedor-principal-2 {
+      margin-top: auto;
+      margin-bottom: 20px;
+  }
+  #TU-Huella.inicio .contenedor1-textos {
+      padding: 60px 25px;
+  }
+  #TU-Huella.inicio .titulo-seccion {
+      color: #5d605e;
+      font-size: 40px;
+      line-height: 45px;
+      margin-bottom: 30px;
+      font-weight: 600;
+  }
+  
+  #TU-Huella.inicio .texto-seccion {
+      font-family: "Montserrat", sans-serif;
+      color: #0f0e0e;
+      font-size: 28px;
+      font-weight: 300;
+      line-height: 34px;
+      margin-bottom: 0px;
+  }
+  
+  /*FIN SECCIÃƒâ€œN S-FACTORY*/
+  
+  #TU-Huella.inicio .contenedor-texto {
+      color: white;
+      background-color: #e1b828;
+      padding: 2rem 1rem;
+  }
+  
+  /*INICIO Footer*/
+  #TU-Huella.inicio .clases-footer {
+      background-image: linear-gradient(to right, rgba(235, 235, 235, 0.8) 40%, rgba(0, 85, 35, 0.8) 100%);
+      height: 110px;
+      padding: 30px 100px;
+  }
+  #TU-Huella.inicio .clases-footer h6 {
+      font-size: 13px;
+      font-weight: bold;
+      color: #0f0e0e;
+  }
+  #TU-Huella.inicio .clases-footer i,
+  a {
+      color: #0f0e0e;
+      margin: 3px;
+  }
+  #TU-Huella.inicio .clases-footer img {
+      height: 90%;
+  }
+  
+  /*FIN Footer*/
+  
+  @media (min-width: 1440px) {
+      #TU-Huella.inicio .banner img {
+      }
+  }
+  
+  @media (max-width: 1024px) {
+      #TU-Huella.inicio .texto-seccion {
+          font-size: 22px !important;
+          line-height: 26px !important;
+      }
+      #TU-Huella.inicio .texto-bosque {
+          font-size: 1.5rem !important;
+      }
+      #TU-Huella.inicio .logos-header {
+          width: auto;
+      }
+      /*INICIO Clases NAVBAR*/
+  
+      #TU-Huella.inicio .navbar {
+          top: 10px;
+          position: fixed;
+          width: 100%;
+          z-index: 3;
+          transition: 0.3s;
+      }
+  
+      #TU-Huella.inicio i {
+          color: rgb(1 171 231);
+      }
+  
+      #TU-Huella.inicio .navbar ul li a {
+          font-size: 12px;
+          padding: 3px;
+      }
+  
+      #TU-Huella.inicio .bg-navbar {
+          background: rgba(39, 39, 39, 0.6) !important;
+          font-size: 12px;
+          top: 0px;
+          transition: 0.3s;
+          height: 40px;
+      }
+      #TU-Huella.inicio .logos-header {
+          height: 100px;
+      }
+  
+      #TU-Huella.inicio .contenedor-texto .navbar {
+          padding: 1.5rem 2rem;
+      }
+      #TU-Huella.inicio .contenedor-texto .nav-item {
+          padding: 0rem 4rem;
+      }
+      #TU-Huella.inicio .btn-info {
+          font-size: 11px;
+          border-radius: 0.3rem;
+          margin: 10px 0px;
+      }
+      /*FIN Clases NAVBAR*/
+  }
+  
+  @media (min-width: 769px) {
+      #TU-Huella.inicio .banner .mostrar-escritorio {
+          display: block;
+      }
+      #TU-Huella.inicio .banner-donar .mostrar-escritorio {
+          display: block;
+      }
+  }
+  
+  @media (min-width: 426px) and (max-width: 768px) {
+      #TU-Huella.inicio .banner .mostrar-tabletas {
+          display: block;
+      }
+      #TU-Huella.inicio .banner-donar .mostrar-tabletas {
+          display: block;
+      }
+  }
+  
+  @media (max-width: 768px) {
+      #TU-Huella.inicio .titulo-seccion {
+          font-size: 25px;
+          line-height: 30px;
+          margin-bottom: 15px;
+      }
+      #TU-Huella.inicio .texto-seccion {
+          font-size: 18px !important;
+          line-height: 15px !important;
+      }
+      #TU-Huella.inicio .texto-bosque {
+          font-size: 1.1rem !important;
+      }
+  }
+  
+  @media (max-width: 425px) {
+      #TU-Huella.inicio .contenedor1-textos {
+          padding: 10px 30px;
+      }
+      #TU-Huella.inicio .texto-seccion {
+          font-size: 10px;
+          line-height: 12px;
+          margin: 25px auto !important;
+      }
+      #TU-Huella.inicio .banner .mostrar-movil {
+          display: block;
+      }
+  
+      #TU-Huella.inicio .clases-footer img {
+          height: 40%;
+      }
+      #TU-Huella.inicio .titulo-seccion {
+          font-size: 15px;
+          margin-bottom: 2px;
+      }
+      #TU-Huella.inicio .texto-seccion {
+          font-size: 10px;
+          line-height: 12px;
+          text-align: initial;
+          margin-bottom: 0px;
+      }
+  }

@@ -1,0 +1,363 @@
+#Emprendedores-360.inicio .banner .mostrar-movil,
+#Emprendedores-360.inicio .banner .mostrar-tabletas,
+#Emprendedores-360.inicio .banner .mostrar-escritorio {
+    display: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*--------------------------  #Capitulo div .video-capitulos {
+    width: 750px;
+    height: 380px;
+    border-radius: 20px;
+} ----------------------- */
+#Emprendedores-360 iframe {
+    border-radius: 20px;
+
+}
+
+#Emprendedores-360 .nav a {
+    color: black;
+}
+/*Fin clases Navbar*/
+#Emprendedores-360 .logos {
+    width: 30%;
+    margin: 3% 31% 3% 5%;
+}
+#Emprendedores-360 .clases-footer .logos {
+    width: 30%;
+    margin: 3% 31% 3% 5%;
+}
+#Emprendedores-360  .rss a {
+    margin: 0% 5%;
+}
+#Emprendedores-360 .logos .logo img {
+    width: 100%;
+}
+#Emprendedores-360 .rss {
+    margin: 1%;
+}
+/*Fin clases Navbar*/
+
+#Emprendedores-360 .titulo-banner {
+    justify-content: left;
+}
+/*INICIO Clases NAVBAR*/
+#Emprendedores-360.inicio i {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Emprendedores-360.inicio .navbar ul li a {
+    color: #000;
+}
+#Emprendedores-360.inicio .logos-header {
+    height: 80px;
+}
+#Emprendedores-360.inicio .bg-navbar {
+    background: rgb(190 190 190 / 60%); 
+}
+
+#Emprendedores-360.inicio .contenedor-texto .navbar {
+    padding: 1.5rem 2rem;
+    background: rgba(39, 39, 39, 0.6);
+}
+#Emprendedores-360.inicio .contenedor-texto .nav-item {
+    padding: 0rem 4rem;
+}
+/*FIN Clases NAVBAR*/
+
+/*INICIO SECCIÓN S-FACTORY*/
+#Emprendedores-360.inicio .contenedor1-textos {
+    padding: 25px;
+}
+#Emprendedores-360.inicio .btn-warning {
+    background-image: linear-gradient(to right, rgba(240, 142, 0, 0.8) 20%, rgba(249, 202, 0, 0.8) 50%, rgba(251, 231, 117, 0.5) 100%);
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+}
+#Emprendedores-360.inicio .titulo-seccion {
+    color: rgba(240, 142,0, 0.8);
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 2.2em;
+}
+#Emprendedores-360.inicio .titulo-seccion-3 {
+    font-size: 2.2em;
+    color: #fff;
+    padding-top: 3%;
+    }
+#Emprendedores-360.inicio h4 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+#Emprendedores-360.inicio h5 {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 400;
+    width: 50%;
+}
+
+#Emprendedores-360.inicio .titulo-seccion-2 {
+    color: #000;
+    padding: 3%;
+    font-size: 1.5em;
+}
+
+
+#Emprendedores-360.inicio .container-que {
+    padding: 25px;
+}
+
+/*FIN SECCIÓN S-FACTORY*/
+
+#Emprendedores-360.inicio .contenedor-texto {
+    color: white;
+    background-color: #e1b828;
+    padding: 2rem 1rem;
+}
+
+/*INICIO Footer*/
+.clases-footer {
+    background-image: linear-gradient(to bottom, rgba(251, 231, 117, 0.8) 10%, rgba(249, 202, 0, 0.8) 60%, rgba(240, 142, 0, 0.8) 100%);
+}
+#Emprendedores-360.inicio .clases-footer {
+
+    background-image: linear-gradient(180deg, red, yellow);
+    background-color: linear-gradient(to bottom, rgba(249, 202, 0, 0.8) 40%, rgba(251, 231, 194, 0.8) 100%);
+    
+    background-color: green;
+    height: 110px;
+    margin-top: 30px;
+    padding: 30px 70px;
+}
+#Emprendedores-360.inicio .clases-footer h6 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #0f0e0e;
+}
+
+#Emprendedores-360.inicio .clases-footer img {
+    height: 90%;
+}
+
+/*FIN Footer*/
+
+/*INICIO CLASES hover cards*/
+#Capitulos.container .card {
+    transition: 0.4s;
+    transform: scale(1);
+}
+#Capitulos.container .card:hover {
+    background-color: #E2E2E2;
+    transition: 0.4s;
+    transform: scale(0.9);
+}
+
+#Emprendedores-360.inicio .btn-warning:hover {
+    background-image: none;
+    background-color: #fff;
+    border: solid 2px #F08E00;
+    color: #F08E00;
+    transition: 0.3s;
+}
+
+#Emprendedores-360.inicio .carousel-caption {
+    z-index: 5;
+}
+
+/*INICIO CLASES hover cards*/
+
+@media (min-width: 2560px) {
+
+    #Emprendedores-360.inicio .contenedor-texto {
+        padding: 3rem 2.5rem;
+    }
+    #Emprendedores-360.inicio .contenedor-texto .font-weight-normal {
+        font-size: 2rem;
+    }
+    #Emprendedores-360.inicio .contenedor-texto .font-weight-bold {
+        font-size: 5rem;
+    }
+
+    #Emprendedores-360.inicio .container-fechas {
+        margin: 1rem auto 1rem auto;
+    }
+
+    #Emprendedores-360.inicio .container-fechas .card .fas {
+        background-color: #beb94a;
+        color: white;
+        padding: 3rem;
+    }
+    #Emprendedores-360.inicio .container-fechas .card-title {
+        font-size: 1.7rem;
+    }
+    #Emprendedores-360.inicio .container-fechas .card-text {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 1440px) {
+    #Emprendedores-360.inicio h5 {
+        font-size: 1.7em;
+        font-weight: 500;
+        width: 65%;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 1024px) {
+    #Emprendedores-360.inicio .logos-header {
+        height: 50px;
+    }
+    /*INICIO Clases NAVBAR*/
+    #Emprendedores-360.inicio i {
+        color: #F08E00;
+    }
+
+    #Emprendedores-360.inicio .navbar ul li a {
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    #Emprendedores-360.inicio .bg-navbar {
+        background: rgb(190 190 190 / 60%);
+    }
+    #Emprendedores-360.inicio .logos-header {
+        height: 100px;
+    }
+
+    #Emprendedores-360.inicio .contenedor-texto .navbar {
+        padding: 1.5rem 2rem;
+    }
+    #Emprendedores-360.inicio .contenedor-texto .nav-item {
+        padding: 0rem 4rem;
+    }
+    #Emprendedores-360.inicio h5 {
+        font-size: 1.3em;
+        font-weight: 300;
+        width: 61%;
+        margin-bottom: 0%;
+    }
+    /*FIN Clases NAVBAR*/
+}
+
+@media (min-width: 769px) {
+    #Emprendedores-360.inicio .banner .mostrar-escritorio {
+        display: block;
+    }
+    #Emprendedores-360.inicio .logos-header {
+        height: 70px;
+    }
+    /*Banner inferior*/
+    #Emprendedores-360.inicio .titulo-seccion {
+        font-size: 2em;
+        margin-bottom: 1%;
+        text-align: left;
+    }
+    #Emprendedores-360.inicio .titulo-seccion-2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    #Emprendedores-360.inicio .banner .mostrar-tabletas {
+        display: block;
+    }
+
+    #Emprendedores-360.inicio h5 {
+        font-size: 0.9em;
+        font-weight: 300;
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #Emprendedores-360.inicio .logos-header {
+        height: 50px;
+    }
+    #Emprendedores-360.inicio .titulo-seccion-2 {
+        padding: 1%;
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+    #Emprendedores-360.inicio .texto-seccion {
+        font-size: 1em;
+        margin-bottom: 1%;
+    }
+    #Emprendedores-360.inicio .titulo-seccion {
+        font-size: 22px;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+
+    #Emprendedores-360.inicio .clases-footer img {
+        height: 70%;
+    }
+    /*Banner inferior*/
+    #Emprendedores-360.inicio h5 {
+        font-size: 1em;
+        font-weight: 300;
+        margin-bottom: -1%;
+        width: 65%;
+    }
+    #Emprendedores-360.inicio .titulo-seccion {
+        font-size: 1.8em;
+        margin-bottom: 1%;
+    }
+    #Emprendedores-360.inicio .titulo-seccion-2 {
+        font-size: 1.2em;
+    }
+    #Emprendedores-360 .logos {
+        display: none;
+    }
+    #Emprendedores-360 .logos .logo img {
+       display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    #Emprendedores-360.inicio .logos-header {
+        display: none;
+    }
+
+    #Emprendedores-360.inicio .banner .mostrar-movil {
+        display: block;
+    }
+    #Emprendedores-360.inicio .clases-footer img {
+        height: 40%;
+    }
+    #Emprendedores-360.inicio h4 {
+        font-size: 1em;
+        padding: 3%;
+    }
+    /*Banner inferior*/
+    #Emprendedores-360.inicio h5 {
+        font-size: 0.65em;
+        font-weight: 200;
+        width: 97%;
+    }
+    #Emprendedores-360.inicio .titulo-seccion {
+        font-size: 0.85em;
+    }
+    #Emprendedores-360.inicio .titulo-seccion-2 {
+        font-size: 1.2em;
+    }
+
+    /*Logos dependencias*/
+    #Emprendedores-360 .logos .logo {
+        width: 20%;
+        margin: 1%;
+    }
+    #Emprendedores-360 .logos {
+        width: 80%;
+        margin: 1%;
+    }
+    #Emprendedores-360 .rss h6 {
+        font-size: 0.7em;
+        margin-bottom: 0px;
+    }
+    #Emprendedores-360 .rss .fa-lg {
+        font-size: 0.9em;
+    }
+}

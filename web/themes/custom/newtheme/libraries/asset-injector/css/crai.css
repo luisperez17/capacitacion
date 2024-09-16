@@ -1,0 +1,2795 @@
+/*Menú CRAI*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap");
+
+.card-eventos-crai {
+  min-height: 200px;
+}
+
+.nav-crai .menuPrincipal {
+  width: 100%;
+}
+
+.nav-crai .width-crai {
+  display: contents;
+  max-width: 1280px;
+}
+
+.nav-crai .navbar {
+  padding: 10px 0 10px 0;
+}
+.nav-crai .navbar-toggler:focus:not(:focus-visible) {
+    outline: 5px auto -webkit-focus-ring-color;
+    box-shadow: none;
+}
+.nav-crai .bg-menu {
+  background: #f5f5f5;
+  border-bottom: double #b3b3b3;
+  font-family: "Catamaran", sans-serif;
+}
+
+.nav-crai {
+  position: fixed;
+  top: 120px;
+  z-index: 3;
+  margin: auto;
+  width: 100vw;
+}
+
+.toolbar-horizontal .nav-crai {
+  top: 159px;
+}
+
+.toolbar-horizontal.toolbar-tray-open .nav-crai {
+  top: 199px;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-crai {
+    top: 80px;
+  }
+
+  .toolbar-vertical .nav-crai {
+    top: 119px;
+  }
+}
+
+@media screen and (min-width:800px) {
+  .nav-crai .navbar {
+    max-height: 65px
+  }
+}
+
+.nav-crai .ajuste-crai {
+  margin-top: -0.4em;
+  font-size: 10px;
+  margin-bottom: unset;
+  display: flex;
+}
+
+.nav-crai .span-menu-crai {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+}
+
+.nav-crai .btn-menu {
+  width: 100%;
+  max-width: 10em;
+}
+
+.nav-crai .btnMenuRecursos {
+  color: #941b80;
+  border: 2px solid #941b80;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .btnMenuRecursos:hover {
+  color: white;
+  background-color: #941b80;
+  border: 2px solid #941b80;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .btnMenuServicios {
+  color: #d92020;
+  border: 2px solid #d92020;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .btnMenuServicios:hover {
+  color: black;
+  background-color: #d92020 !important;
+  border: 2px solid #d92020;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .btnMenuGuias {
+  color: #27a637;
+  border: 2px solid #27a637;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .btnMenuGuias:hover {
+  color: white;
+  background-color: #27a637 !important;
+  border: 2px solid #27a637;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .btnMenuProyectos {
+  color: #fbbc05;
+  border: 2px solid #fbbc05;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .btnMenuProyectos:hover {
+  color: white;
+  background-color: #fbbc05 !important;
+  border: 2px solid #fbbc05;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .btnMenuAcerca {
+  color: #4285f4;
+  border: 2px solid #4285f4;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .btnMenuAcerca:hover {
+  color: white;
+  background-color: #4285f4 !important;
+  border: 2px solid #4285f4;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: inherit;
+  display: inline-block;
+  height: 37px;
+  padding: unset;
+}
+
+.nav-crai .margin_crai {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  flex-wrap: unset;
+}
+
+.nav-crai .padding-crai {
+  margin-left: -15%;
+  border: solid 2px #e5e5e5;
+  border-radius: 50px;
+}
+
+@media (max-width: 799px) {
+  .nav-crai .width-crai {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-crai .width-crai .col-2 {
+    width: 100% !important;
+    max-width: unset;
+  }
+
+  .nav-crai .width-crai .offset-1 {
+    margin-left: unset;
+  }
+
+  .nav-crai .padding-crai {
+    margin-left: -4%;
+  }
+
+  .nav-crai .btn-menu {
+    max-width: unset;
+  }
+
+  .nav-crai .span-menu {
+    margin-left: unset;
+  }
+}
+
+.nav-crai .nav-item {
+  margin-bottom: 0 !important;
+}
+
+.nav-crai .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f5f5;
+  min-width: 160px;
+  z-index: 1;
+  font-weight: normal !important;
+  margin-top: -0.7rem;
+}
+
+.nav-crai .dropdown-content a {
+  float: none;
+  color: black;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: "Catamaran", sans-serif;
+  color: #888;
+  line-height: 2em;
+  font-weight: unset;
+  border-radius: 10px;
+}
+
+.nav-crai .dropdown-content a:hover {
+  color: black;
+}
+
+.nav-crai .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-crai .dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 0 0 10px 10px;
+  width: 400px;
+  border-top: none;
+  border-width: 1px;
+  line-height: normal;
+}
+
+.nav-crai .dropdown {
+  position: relative;
+
+}
+
+.nav-crai .dropdown-item {
+  padding: 0.25rem 1.5rem;
+  white-space: normal;
+}
+
+.nav-crai .dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-crai .dropdown {
+    position: relative;
+    padding-top: 10px;
+  }
+}
+
+.nav-crai .dropdown-content.recursos {
+  border: solid;
+  border-top: none;
+  border-width: 2px;
+  border-color: #941b80;
+  transform: translate3d(-20px, 1px, 0) !important;
+  font-size: smaller;
+}
+
+.nav-crai .dropdown-content.servicios {
+  border: solid;
+  border-top: none;
+  border-width: 2px;
+  border-color: #d92020;
+  transform: translate3d(-20px, 1px, 0) !important;
+  font-size: smaller;
+}
+
+.nav-crai .dropdown-content.guias {
+  border: solid;
+  border-top: none;
+  border-width: 2px;
+  border-color: #27a637;
+  transform: translate3d(-20px, 1px, 0) !important;
+  font-size: smaller;
+}
+
+.nav-crai .dropdown-content.proyectos {
+  border: solid;
+  border-top: none;
+  border-width: 2px;
+  border-color: #fbbc05;
+  transform: translate3d(-20px, 1px, 0) !important;
+  font-size: smaller;
+  line-height: normal;
+}
+
+.nav-crai .dropdown-content.acerca {
+  border: solid;
+  border-top: none;
+  border-width: 2px;
+  border-color: #4285f4;
+  transform: translate3d(-240px, 1px, 0) !important;
+  font-size: smaller;
+}
+
+.nav-crai .dropdown-content.acerca a {
+  text-align: right;
+}
+
+.nav-crai .navbar {
+  position: relative;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 1rem
+}
+
+@media screen and (max-width: 766px) {
+  .nav-crai .dropdown:hover .dropdown-content {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-crai .menu-escritorio {
+    display: none !important;
+  }
+
+  .nav-crai .menu-movil {
+    display: block !important;
+  }
+
+  .nav-crai .navbar {
+    max-height: unset !important;
+  }
+
+  .nav-crai .width-crai,
+  .nav-crai .width-crai li {
+    width: 100%;
+  }
+
+  .nav-crai .navbar-nav {
+    padding-left: revert !important;
+    padding-top: 1em;
+    padding-right: 0.25em;
+  }
+
+  .nav-crai .padding-crai {
+    margin-left: -2%;
+  }
+
+  .nav-crai .btn-menu {
+    max-width: revert;
+  }
+
+  .nav-crai .dropdown {
+    padding-top: revert !important;
+  }
+
+  .nav-crai .dropdown-menu.show {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: -1.5rem;
+    transform: revert !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-crai .menu-movil {
+    display: none !important;
+  }
+
+  .nav-crai .menu-escritorio {
+    display: block !important;
+  }
+
+  .nav-crai .nav-item-1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .nav-crai .dropdown {
+    height: 37px;
+}
+}
+
+/*HOME*/
+/******* Redes *******/
+.CRAI-styles .container.buscadorCRAI {
+  max-width: 1020px;
+}
+
+.CRAI-styles .card-home-container .container2 .btn img {
+  min-width: 150px;
+}
+
+.CRAI-styles .aDerecha {
+  text-align: center;
+}
+
+.CRAI-styles .overlayf {
+  position: absolute;
+  top: 2px;
+  opacity: 0;
+  transition: 0s ease;
+}
+
+.hero-image__content-wrapper {
+  max-width: unset !important;
+}
+
+.hero-image__content {
+  padding-right: 20px;
+}
+
+.CRAI-styles .container1:hover .overlayf {
+  opacity: 1;
+}
+
+.CRAI-styles .bg-testimonios {
+  border-top: double #b3b3b3;
+  border-bottom: double #b3b3b3;
+  padding: 1rem 0;
+}
+
+.border-section {
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.CRAI-styles .overlayi {
+  position: absolute;
+  top: 3px;
+  opacity: 0;
+  transition: 0s ease;
+}
+
+.CRAI-styles .container1:hover .overlayi {
+  opacity: 1;
+}
+
+.CRAI-styles .overlayt {
+  position: absolute;
+  top: 5px;
+  opacity: 0;
+  transition: 0s ease;
+}
+
+.CRAI-styles .container1:hover .overlayt {
+  opacity: 1;
+}
+
+/******* Buscador ******/
+
+.CRAI-styles .buscadorCRAI .bloque {
+  margin: 0;
+}
+
+.CRAI-styles .nav-tabs {
+  border-bottom: none;
+  font-size: 14px;
+}
+
+.CRAI-styles .nav-item {
+  margin-bottom: 0px !important;
+}
+
+.CRAI-styles .buscadorCRAI ul.tabBuscador li.active a,
+.CRAI-styles .buscadorCRAI ul.tabBuscador li.active a:focus,
+.CRAI-styles .buscadorCRAI ul.tabBuscador li.active a:hover {
+  color: #4a72b2;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.CRAI-styles .nav-tabs .nav-link:focus,
+.CRAI-styles .nav-tabs .nav-link:hover {
+  border-color: transparent;
+}
+
+.CRAI-styles .formBuscador {
+  padding: 1px;
+  margin: -1px -0.5px 0;
+  border: solid 1px #4a72b2;
+  border-radius: 0px 20px 20px 20px;
+}
+
+.CRAI-styles .formBuscador input {
+  font-size: 1em;
+}
+
+.CRAI-styles .tabBuscador.nav.nav-tabs {
+  margin-left: -1px;
+}
+
+.CRAI-styles .nav-tabs .nav-item.show .nav-link,
+.CRAI-styles .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #4a72b2 #4a72b2 #fff;
+  border-radius: 20px 20px 0 0;
+}
+
+.CRAI-styles .formBuscador1 {
+  border: solid 1px #4a72b2;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.CRAI-styles .input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.CRAI-styles .form-control {
+  border-radius: 10px;
+  /*border: none;*/
+}
+
+.CRAI-styles .form-control.input-buscador {
+  border: none;
+}
+
+.CRAI-styles .formBuscador .container {
+  padding-bottom: 25px;
+}
+
+.CRAI-styles .btnBuscador {
+  color: white;
+  background-color: #5385ed;
+  border-color: #5385ed;
+  font-size: 16px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.CRAI-styles .btnBuscador:hover {
+  color: black;
+  background-color: #fabc08;
+  border-color: #fabc08;
+}
+
+
+/****** Carousel Principal *******/
+.CRAI-styles .container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: hidden;
+}
+
+.CRAI-styles .carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.CRAI-styles .carousel-caption-crai {
+  position: absolute;
+  right: 15%;
+  bottom: 20%;
+  left: 7%;
+  z-index: 2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  width: 20%;
+}
+
+.CRAI-styles .carousel-desktop {
+  display: block;
+}
+
+.CRAI-styles .carousel-movil {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .CRAI-styles .carousel-desktop {
+    display: none;
+  }
+
+  .CRAI-styles .carousel-movil {
+    display: block;
+  }
+
+  .CRAI-styles .carousel-caption-crai {
+    display: none;
+  }
+}
+
+.CRAI-styles .carousel-control-next-icon {
+  background-image: url("/sites/default/files/2022-12/Recurso_51.png") !important;
+}
+
+
+.CRAI-styles .carousel-control-next-icon, .CRAI-styles .carousel-home .carousel-control-next-icon1,
+.CRAI-styles .carousel-control-prev-icon, .CRAI-styles .carousel-home .carousel-control-prev-icon1 {
+  display: inline-block;
+  width: 21px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.CRAI-styles .carousel-control-next, .CRAI-styles .carousel-home .carousel-control-next1 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.CRAI-styles .carousel-home .carousel-control-next1 {
+  right: -30px;
+}
+
+.CRAI-styles .carousel-home .carousel-control-next-icon1 {
+  background-image: url("/sites/default/files/2022-12/Recurso_53.png");
+  width: 20px;
+  height: 60px;
+}
+
+
+.acerca_CRAI a {
+  color: #007bff;
+}
+
+.CRAI-styles .carousel-control-prev-icon {
+  background-image: url("/sites/default/files/2022-12/Recurso_50.png") !important;
+}
+
+.CRAI-styles .carousel-home .carousel-control-prev-icon1 {
+  background-image: url("/sites/default/files/2022-12/Recurso_52.png");
+  width: 20px;
+  height: 60px;
+}
+
+@media only screen and (max-width:768px) {
+  .CRAI-styles .carousel-home .carousel-control-next1, .CRAI-styles .carousel-home .carousel-control-prev1 {
+    display: none;
+  }
+}
+
+.CRAI-styles .carousel-control-prev, .CRAI-styles .carousel-home .carousel-control-prev1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.CRAI-styles .carousel-home .carousel-control-prev1 {
+  left: -30px;
+}
+
+.card-home-container .container2 {
+  position: relative;
+  width: 176px;
+}
+
+/**Carousel home**/
+div#demo2.carousel-home {
+  width: 100%;
+}
+
+/* mensaje de anuncio */
+.CRAI-styles .alert {
+  padding: 20px;
+  background-color: #b9b9b9;
+  /* Medio naranja */
+  color: black;
+  margin-bottom: 15px;
+}
+
+/*bóton cerrar */
+.CRAI-styles .closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Cuando se mueve el mouse sobre el boton */
+.CRAI-styles .closebtn:hover {
+  color: black;
+}
+
+/* Ajuste agenda */
+.CRAI-styles .container-fluid.bg-agenda {
+  height: 300px;
+}
+
+/* Ajuste agenda sobre ocultar/visualizar cuando no hay eventos :: Dev: JJCG :: 19/01/2023*/
+.layout.layout-onecol.text-default.bg-gray-light.py-lg.border-section {
+  display: block;
+}
+
+/*ajuste comillas*/
+.CRAI-styles .a-comillas {
+  background-image: URL("/sites/default/files/2022-12/abre-comillas.png");
+  width: 25px;
+  display: inline-block;
+  height: 25px;
+}
+
+.CRAI-styles .c-comillas {
+  background-image: URL("/sites/default/files/2022-12/cierra-comillas.png");
+  width: 25px;
+  display: inline-block;
+  height: 25px;
+}
+
+.CRAI-styles .col-md-3.col-xs-3.aDerecha.urna {
+  margin: auto;
+}
+
+
+/*SECCIONES PRINCIPALES*/
+/*Seccion Servicios*/
+
+/*Servicios - Estudiantes*/
+.servicios_CRAI .bg {
+  background-image: url("/sites/default/files/2022-12/back-seccion.png") !important;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicios_CRAI .induccion-servicio:hover {
+  content: url("/sites/default/files/2022-12/induccion-crai-b.png");
+}
+
+.servicios_CRAI .catalogo-servicio:hover, .servicios_CRAI a.active .catalogo-servicio {
+  content: url("/sites/default/files/2022-12/multimedia-coach-b.png");
+}
+
+.servicios_CRAI .informacion-servicio:hover, .servicios_CRAI a.active .informacion-servicio {
+  content: url("/sites/default/files/2022-12/uso-informacion-b.png");
+}
+
+.servicios_CRAI .otro-nivel:hover, .servicios_CRAI a.active .otro-nivel {
+  content: url("/sites/default/files/2022-12/otro-nivel-b.png");
+}
+
+.servicios_CRAI .trayectoria-servicio:hover, .servicios_CRAI a.active .trayectoria-servicio {
+  content: url("/sites/default/files/2022-12/trayectoria-informacionales-b.png");
+}
+
+.servicios_CRAI .regiones-servicio:hover, .servicios_CRAI a.active .regiones-servicio {
+  content: url("/sites/default/files/2022-12/convenio-inter-b.png");
+}
+
+.servicios_CRAI .accordion-plus a {
+  font-weight: 900;
+  font-size: 1.5em;
+  color: black !important;
+  padding: revert;
+}
+
+.servicios_CRAI .accordion-plus a.collapsed:after {
+  content: '+';
+  color: #161314;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  position: relative;
+  margin-top: 50%;
+}
+
+.servicios_CRAI .accordion-plus a:after {
+  content: "−";
+}
+
+.servicios_CRAI .agendar-asesoria {
+  background-color: #d92020 !important;
+  width: 100%;
+  color: white;
+  float: right;
+}
+
+.servicios_CRAI .container-agendar-asesoria {
+  padding: 0 15% 0 15%;
+}
+
+.servicios_CRAI .agendar-asesoria:hover {
+  color: #000 !important;
+  background: #ea3b0663 !important;
+  border-color: #d92020 !important;
+}
+
+.servicios_CRAI .btn-link img {
+  margin-right: 1em !important;
+  max-height: 40px;
+  ;
+}
+
+.servicios_CRAI .tab-content-prestamo .card-header a {
+  color: #000 !important;
+  text-decoration: none;
+  display: inline-flex;
+  line-height: 42px;
+}
+
+.servicios_CRAI .tab-content .card-header a {
+  color: #d92020;
+  text-decoration: none;
+}
+
+/*Servicios - Profesor / Investigador*/
+.servicios_CRAI .card-body {
+  background-color: #ffffffb0;
+}
+
+.servicios_CRAI .docencia-servicio:hover {
+  content: url("/sites/default/files/2022-12/apoyo-docencia-b.png")
+}
+
+.servicios_CRAI .investigacion-servicio:hover {
+  content: url("/sites/default/files/2022-12/apoyo-investigacion-b.png")
+}
+
+.servicios_CRAI .publicacion-servicio:hover {
+  content: url("/sites/default/files/2022-12/asesoria-publicacion-b.png")
+}
+
+.servicios_CRAI .visualizacion-datos:hover {
+  content: url("/sites/default/files/2022-12/visualizacion-de-datos-b.png")
+}
+
+.servicios_CRAI .sitio-servicio:hover {
+  content: url("/sites/default/files/2022-12/sitios-interes-b.png")
+}
+
+/*Active*/
+
+.servicios_CRAI a.active .docencia-servicio {
+  content: url("/sites/default/files/2022-12/apoyo-docencia-b.png")
+}
+
+.servicios_CRAI a.active .investigacion-servicio {
+  content: url("/sites/default/files/2022-12/apoyo-investigacion-b.png")
+}
+
+.servicios_CRAI a.active .publicacion-servicio {
+  content: url("/sites/default/files/2022-12/asesoria-publicacion-b.png")
+}
+
+.servicios_CRAI a.active .sitio-servicio {
+  content: url("/sites/default/files/2022-12/sitios-interes-b.png")
+}
+
+.servicios_CRAI a.active .visualizacion-datos {
+  content: url("/sites/default/files/2022-12/visualizacion-de-datos-b.png")
+}
+
+/*Servicios - Egresado*/
+.servicios_CRAI a.active .pmaterial-servicio {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img7.png');
+}
+
+.servicios_CRAI a.active .pespacios-servicio {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img8.png');
+}
+
+.servicios_CRAI a.active .creacion-servicio {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img9.png');
+}
+
+.servicios_CRAI a.active .correccion-servicio {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img10.png');
+}
+
+.servicios_CRAI a.active .elaboracion-servicio {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img11.png');
+}
+
+.servicios_CRAI a.active .presencia-servicio {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img12.png');
+}
+
+.servicios_CRAI a .pmaterial-servicio:hover {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img7.png');
+}
+
+.servicios_CRAI a .pespacios-servicio:hover {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img8.png');
+}
+
+.servicios_CRAI a .creacion-servicio:hover {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img9.png');
+}
+
+.servicios_CRAI a .correccion-servicio:hover {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img10.png');
+}
+
+.servicios_CRAI a .elaboracion-servicio:hover {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img11.png');
+}
+
+.servicios_CRAI a .presencia-servicio:hover {
+  content: url('/sites/default/files/2022-12/crai-egresados-menu-img12.png');
+}
+
+/*Servicios - Comunidad Externa*/
+.servicios_CRAI .kids-servicio:hover {
+  content: url("/sites/default/files/2022-12/multimadia-kids-b_1.png")
+}
+
+.servicios_CRAI .club-servicio:hover {
+  content: url("/sites/default/files/2022-12/club-digital-b_1.png")
+}
+
+.servicios_CRAI .talleres-servicio:hover {
+  content: url("/sites/default/files/2022-12/talleres-cultural-b_1.png")
+}
+
+/*Active*/
+
+.servicios_CRAI a.active .kids-servicio {
+  content: url("/sites/default/files/2022-12/multimadia-kids-b_1.png")
+}
+
+.servicios_CRAI a.active .club-servicio {
+  content: url("/sites/default/files/2022-12/club-digital-b_1.png")
+}
+
+.servicios_CRAI a.active .talleres-servicio {
+  content: url("/sites/default/files/2022-12/talleres-cultural-b_1.png")
+}
+
+/*Sección Recursos*/
+
+/*Recursos Impresos*/
+.crai-thematic .accordion-plus a.collapsed::after {
+  content: '+';
+  color: #161314;
+  font-weight: bold;
+  float: right;
+  position: relative;
+}
+
+.crai-thematic .accordion-plus a::after {
+  content: "−";
+}
+
+.crai-thematic .card-body {
+  background-color: #ffffffb0;
+}
+
+.crai-thematic .card.bg-white img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crai-thematic .text {
+  background-color: #fff !important;
+  position: relative;
+  flex: 1 1 auto;
+  color: #000;
+  padding: 1rem;
+  font-size: 16px;
+  bottom: unset;
+  right: 0;
+  width: auto;
+}
+
+.crai-thematic .text1 {
+  background-color: #fff !important;
+  position: relative;
+  flex: 1 1 auto;
+  color: #000;
+  padding: 1rem;
+  font-size: 16px;
+  bottom: unset;
+  right: 0;
+  width: auto;
+}
+
+.crai-thematic .nav.nav-tabs {
+  display: flex;
+  justify-content: space-around
+}
+
+.crai-thematic .novedades-recursos:hover {
+  content: url("/sites/default/files/2022-12/novedades-b.png")
+}
+
+.crai-thematic .catalogo-recursos:hover {
+  content: url("/sites/default/files/2022-12/catalogo-b.png")
+}
+
+.crai-thematic .prestamos-recursos:hover {
+  content: url("/sites/default/files/2022-12/prestamos-crai-b.png")
+}
+
+.crai-thematic .prestamoi-recursos:hover {
+  content: url("/sites/default/files/2022-12/prestamos-interbibliotecario-b.png")
+}
+
+.crai-thematic .sugerencia-recursos:hover {
+  content: url("/sites/default/files/2022-12/sugerencia-compra-b.png")
+}
+
+.crai-thematic a.active .novedades-recursos {
+  content: url("/sites/default/files/2022-12/novedades-b.png")
+}
+
+.crai-thematic a.active .catalogo-recursos {
+  content: url("/sites/default/files/2022-12/catalogo-b.png")
+}
+
+.crai-thematic a.active img.prestamos-recursos {
+  content: url("/sites/default/files/2022-12/prestamos-crai-b.png") !important
+}
+
+.crai-thematic a.active .prestamoi-recursos {
+  content: url("/sites/default/files/2022-12/prestamos-interbibliotecario-b.png")
+}
+
+.crai-thematic a.active .sugerencia-recursos {
+  content: url("/sites/default/files/2022-12/sugerencia-compra-b.png")
+}
+
+.crai-thematic a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.crai-thematic .mb-0 a {
+  color: #000;
+}
+
+/*Recursos Electrónicos */
+.crai-recursos-electronicos .card-body {
+  background-color: #ffffffb0;
+}
+
+.crai-recursos-electronicos a.active .recursos-recursos {
+  content: url('/sites/default/files/2022-12/crai-recursos-active-img1.png');
+}
+
+.crai-recursos-electronicos a.active .gestores-recursos {
+  content: url('/sites/default/files/2022-12/crai-recursos-active-img2.png');
+}
+
+.crai-recursos-electronicos a.active .herramientas-recursos {
+  content: url('/sites/default/files/2022-12/crai-recursos-active-img3.png');
+}
+
+.crai-recursos-electronicos a.active .guias-recursos {
+  content: url('/sites/default/files/2022-12/crai-recursos-active-img4.png');
+}
+
+.crai-recursos-electronicos a .demostracion-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-menu-b1.png');
+}
+
+.crai-recursos-electronicos a .directorio-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-menu-b2.png');
+}
+
+.crai-recursos-electronicos a .consecusion-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-menu-b3.png');
+}
+
+.crai-recursos-electronicos a .recursos-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-active-img1.png');
+}
+
+.crai-recursos-electronicos a .gestores-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-active-img2.png');
+}
+
+.crai-recursos-electronicos a .herramientas-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-active-img3.png');
+}
+
+.crai-recursos-electronicos a .guias-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-active-img4.png');
+}
+
+/*Tabs Verdes */
+
+.crai-recursos-electronicos a .deposito-guias:hover {
+  content: url('/sites/default/files/2022-12/crai-menu-verde-img1.png');
+}
+
+.crai-recursos-electronicos a .creacion-guias:hover {
+  content: url('/sites/default/files/2022-12/crai-menu-verde-img2.png');
+}
+
+.crai-recursos-electronicos a .servicios-guias:hover {
+  content: url('/sites/default/files/2022-12/crai-menu-verde-img3.png');
+}
+
+.crai-recursos-electronicos .container a {
+  color: #007bff;
+}
+
+.crai-recursos-electronicos .container a:hover {
+  color: #1a518b;
+  text-decoration: underline;
+}
+
+/*Recursos Institucionales*/
+
+.crai-recursos-institucionales a .fotalezas-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-inst-m-img1.png');
+}
+
+.crai-recursos-institucionales a .repositorio-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-inst-m-img2.png');
+}
+
+.crai-recursos-institucionales a .datos-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-inst-m-img3.png');
+}
+
+.crai-recursos-institucionales a .revistas-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-inst-m-img4.png');
+}
+
+.crai-recursos-institucionales a .ciencia-recursos:hover {
+  content: url('/sites/default/files/2022-12/crai-recursos-inst-m-img5.png');
+}
+
+/*Guias y Tutoriales */
+.Guias-tutorialesCRAI .bg {
+  background-image: url("/sites/default/files/2022-12/guias.png") !important;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acerca_CRAI .Guias-tutorialesCRAI .tab-content-prestamo .card-header a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+.Guias-tutorialesCRAI .accordion-plus a.collapsed:after {
+  content: '+';
+  color: #161314;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  position: relative;
+  margin-top: 50%;
+}
+
+.Guias-tutorialesCRAI .accordion-plus a:after {
+  content: "−";
+}
+
+/*Hover*/
+.acerca_CRAI .Guias-tutorialesCRAI .deposito-guias:hover {
+  content: url(/sites/default/files/2022-12/deposito-institucional-b.png);
+}
+
+.acerca_CRAI .Guias-tutorialesCRAI .creacion-guias:hover {
+  content: url(/sites/default/files/2022-12/creacion-textos-b.png);
+}
+
+.acerca_CRAI .Guias-tutorialesCRAI .servicios-guias:hover {
+  content: url(/sites/default/files/2022-12/servicios-b.png);
+}
+
+/*Active*/
+.acerca_CRAI .Guias-tutorialesCRAI a.active .deposito-guias {
+  content: url(/sites/default/files/2022-12/deposito-institucional-b.png);
+}
+
+.acerca_CRAI .Guias-tutorialesCRAI a.active .creacion-guias {
+  content: url(/sites/default/files/2022-12/creacion-textos-b.png);
+}
+
+.acerca_CRAI .Guias-tutorialesCRAI a.active .servicios-guias {
+  content: url(/sites/default/files/2022-12/servicios-b.png);
+}
+
+/*Sección Proyectos de Innovación*/
+.Proyectos-Innovacion .list-group-flush .list-group-item {
+  border-radius: .5rem !important;
+  margin-bottom: 0.20rem;
+  display: flex;
+  background-color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .Proyectos-Innovacion .list-group-flush li.list-group-item.bg-none, .acerca_CRAI .list-group-item.bg-none {
+    background-color: unset;
+  }
+}
+
+.Proyectos-Innovacion .bg {
+  background-image: url("/sites/default/files/2022-12/CRAI-innovador.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Proyectos-Innovacion .alinear-texto {
+  text-align: justify;
+}
+
+.Proyectos-Innovacion .tab-content .container .card, .Proyectos-Innovacion .tab-content .container .card .collapse {
+  background: transparent;
+  border: none;
+}
+
+
+.Proyectos-Innovacion .tab-content .card-header {
+  background: white;
+  border: 1px #e2d2d2 solid;
+  border-radius: .25rem;
+  display: flex;
+}
+
+.Proyectos-Innovacion .tab-content .card-header a {
+  color: #eaa906;
+}
+
+.Proyectos-Innovacion .agendar-asesoria {
+  background-color: #eaa906 !important;
+  width: 10rem;
+  color: white;
+  float: right;
+}
+
+.Proyectos-Innovacion .list-group-flush .list-group-item {
+  border-radius: .5rem !important;
+  margin-bottom: 0.20rem;
+  display: flex;
+}
+
+.Proyectos-Innovacion .list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 2rem;
+  color: #212529;
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+
+.Proyectos-Innovacion .accordion-plus {
+  right: 1.2em;
+  position: absolute;
+}
+
+.Proyectos-Innovacion a {
+  color: #007bff;
+}
+
+.Proyectos-Innovacion .accordion-plus a {
+  font-weight: 900;
+  font-size: 1.5em;
+  color: black !important;
+  padding: revert;
+}
+
+.Proyectos-Innovacion .tab-content .card span {
+  font-weight: bold;
+  color: #eaa906;
+}
+
+/*Sección Acerda del CRAI*/
+
+
+/*Sedes*/
+
+.acerca_CRAI .bg {
+  background-image: url("/sites/default/files/2022-12/CRAI-UR.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acerca_CRAI .acerca_CRAI-3 .bg {
+  background-image: url("/sites/default/files/2022-12/fondo-conten-egresados.png");
+}
+
+.acerca_CRAI .acerca_CRAI-2 .bg {
+  background-image: url("/sites/default/files/2022-12/back-seccion_1.png");
+}
+
+
+.acerca_CRAI .alinear-texto {
+  text-align: justify;
+}
+
+.acerca_CRAI .tab-content .container .card,
+.acerca_CRAI .tab-content .container .card .collapse {
+  background: transparent;
+  border: none;
+}
+
+.acerca_CRAI .tab-content .container .card img {
+  margin: auto;
+}
+
+.acerca_CRAI .tab-content .container .card .talleres img {
+  margin: unset;
+}
+
+.acerca_CRAI .tab-content .container .card .talleres {
+  display: flex;
+  gap: 5px;
+}
+
+.acerca_CRAI .tab-content .card-header {
+  background: white;
+  border: 1px #e2d2d2 solid;
+  border-radius: 0.25rem;
+  display: flex;
+}
+
+.acerca_CRAI .list-group-flush .list-group-item {
+  border-radius: 0.5rem !important;
+  margin-bottom: 0.2rem;
+  display: flex;
+}
+
+.acerca_CRAI .accordion-plus {
+  right: 1.2em;
+  position: absolute;
+}
+
+.acerca_CRAI .accordion-plus a {
+  font-weight: 900;
+  font-size: 1.5em;
+  color: black !important;
+  padding: revert;
+}
+
+.acerca_CRAI .tab-content .card span {
+  font-weight: bold;
+  color: #000;
+}
+
+.acerca_CRAI .card.bg-white img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.acerca_CRAI h1.card-title.titulo-banner {
+  text-align: right;
+  padding-top: 3%;
+  color: white;
+  padding-right: 20px;
+  font-size: 2rem;
+}
+
+.acerca_CRAI h1.card-title.titulo-banner {
+  position: absolute;
+  right: 0;
+}
+
+.acerca_CRAI .nav.nav-tabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.crai-sedes .nav-tabs a.active {
+  border: none;
+}
+
+.crai-sedes a.active .claustro-acerca {
+  content: url("/sites/default/files/2022-12/claustro-b.png");
+}
+
+.crai-sedes a.active .quinta-acerca {
+  content: url("/sites/default/files/2022-12/quinta-mutis-b.png");
+}
+
+.crai-sedes a.active .emprendimiento-acerca {
+  content: url("/sites/default/files/2022-12/empredimiento-b.png");
+}
+
+.crai-sedes a.active .gsb-acerca {
+  content: url("/sites/default/files/2022-12/gsb-b.png");
+}
+
+.crai-sedes a.active .mederi-acerca {
+  content: url("/sites/default/files/2022-12/hospital-mederi-b.png");
+}
+
+.crai-sedes a.active .fci-acerca {
+  content: url("/sites/default/files/2022-12/cardio-infantil-b.png");
+}
+
+.crai-sedes a.active .clinicaNSP-acerca {
+  content: url("/sites/default/files/2022-12/clinica-nuestra-senora-b.png");
+}
+
+.acerca_CRAI .crai-sedes .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+.acerca_CRAI .crai-sedes .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.acerca_CRAI .crai-sedes .tab button.sedes.active {
+  background-color: #ccc;
+}
+
+.acerca_CRAI .tab-content .card-header {
+  background: white;
+  border: 1px #e2d2d2 solid;
+  border-radius: 0.25rem;
+  display: flex;
+}
+
+.acerca_CRAI .crai-sedes .tab-content .card span {
+  font-weight: bold;
+  color: #386ec8;
+}
+
+@media (max-width: 480px) {
+  .acerca_CRAI .crai-sedes h1.card-title.titulo-banner {
+    text-align: right;
+    padding-top: 2%;
+    color: white;
+    padding-right: 20px;
+    font-size: 1.5rem;
+  }
+}
+
+
+/*Exitosa CRAI*/
+
+.crai-biblioteca .marca-icono {
+  border-radius: 7px;
+}
+
+.crai-biblioteca .nav-tabs a.active {
+  border: none;
+}
+
+.crai-biblioteca .tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  white-space: normal;
+  line-break: auto;
+  font-size: .875rem;
+  word-wrap: break-word;
+  opacity: 0;
+}
+
+.crai-biblioteca .card {
+  border-radius: 10px;
+}
+
+.crai-biblioteca strong.cifras-4sb {
+  color: #c52dd6;
+}
+
+.crai-biblioteca strong.cifras-4sa {
+  color: #eaa906;
+}
+
+.crai-biblioteca strong.cifras-4s {
+  font-size: 1.75rem;
+  color: #0052c9;
+}
+
+.crai-biblioteca a.active .claustro-acerca {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m1.png');
+}
+
+.crai-biblioteca a.active .quinta-acerca {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m2.png');
+}
+
+.crai-biblioteca a.active .emprendimiento-acerca {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m3.png');
+}
+
+.crai-biblioteca a.active .gsb-acerca {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m4.png');
+}
+
+.crai-biblioteca a.active .mederi-acerca {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m5.png');
+}
+
+.crai-biblioteca a.active .fci-acerca {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m6.png');
+}
+
+
+.crai-biblioteca a .claustro-acerca:hover {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m1.png');
+}
+
+.crai-biblioteca a .quinta-acerca:hover {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m2.png');
+}
+
+.crai-biblioteca a .emprendimiento-acerca:hover {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m3.png');
+}
+
+.crai-biblioteca a .gsb-acerca:hover {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m4.png');
+}
+
+.crai-biblioteca a .mederi-acerca:hover {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m5.png');
+}
+
+.crai-biblioteca a .fci-acerca:hover {
+  content: url('/sites/default/files/2022-12/crai-b-ac-m6.png');
+}
+
+
+
+.acerca_CRAI .crai-biblioteca .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+.acerca_CRAI .crai-biblioteca .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.acerca_CRAI .crai-biblioteca .tab button.sedes.active {
+  background-color: #ccc;
+}
+
+.acerca_CRAI .tab-content .card-header {
+  background: white;
+  border: 1px #e2d2d2 solid;
+  border-radius: 0.25rem;
+  display: flex;
+}
+
+.acerca_CRAI .crai-biblioteca .tab-content .card span {
+  font-weight: bold;
+  color: #386ec8;
+}
+
+.acerca_CRAI .crai-biblioteca .documentRutaCRAI a {
+  color: #007bff;
+}
+
+.acerca_CRAI .crai-biblioteca .documentRutaCRAI a:hover {
+  text-decoration: underline;
+}
+
+.acerca_CRAI .crai-biblioteca a.experienciaVirtual {
+  text-decoration: underline;
+}
+
+.acerca_CRAI .crai-biblioteca audio {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.acerca_CRAI .crai-biblioteca .menos, .acerca_CRAI .crai-biblioteca .mas {
+  height: 20px;
+  width: 20%;
+  max-width: 20px;
+  background-color: #717171;
+  border-radius: 50%;
+  color: white;
+  margin-top: 5% !important;
+}
+
+.acerca_CRAI .crai-biblioteca .tab-content .container .TD-images .card {
+  background: transparent;
+  border: none;
+  max-width: 350px;
+}
+
+/* Biblioteca  */
+
+.crai-biblioteca .containerm2 {
+  padding: 20px;
+}
+
+.crai-biblioteca .container-agendar-asesoria {
+  padding: 0 15% 0 15%;
+}
+
+.crai-biblioteca .contenedorm3 {
+  width: 160px;
+  height: 160px;
+}
+
+.crai-biblioteca .card-deck {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-around;
+}
+
+.crai-biblioteca .card-deck .card {
+  margin-bottom: 15px;
+}
+
+.crai-biblioteca .card-body {
+  background-color: #ffffffb0;
+
+}
+
+@media (min-width: 576px) {
+  .crai-biblioteca .card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    max-width: 350px;
+  }
+}
+
+.crai-biblioteca strong.cifras {
+
+  font-size: 450%;
+  color: blueviolet;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.crai-biblioteca p.card-text.cifras-2 {
+  font-size: 450%;
+  font-family: 'Roboto', sans-serif;
+  color: #0052c9;
+}
+
+.crai-biblioteca p.card-text.cifras-2a {
+  font-size: x-large;
+}
+
+.crai-biblioteca p.card-text.cifras-3 {
+  font-size: 450%;
+  color: #c52dd6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.crai-biblioteca p.card-text.cifras-2a {
+  font-size: x-large;
+}
+
+.crai-biblioteca .card-body.text-center.cifras-crai {
+  background-color: unset;
+}
+
+.crai-biblioteca a.btn.boton-cifras {
+  background-color: #0052c9 !important;
+  width: 100%;
+  color: white;
+  float: none;
+}
+
+@media (max-width: 480px) {
+  .acerca_CRAI .crai-biblioteca h1.card-title.titulo-banner {
+    text-align: right;
+    padding-top: 2%;
+    color: white;
+    padding-right: 20px;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .crai-biblioteca .card-img-top.cubo {
+    width: auto;
+    margin: auto;
+  }
+
+  .crai-biblioteca .card-img-top.marca {
+    width: auto;
+    height: 120px;
+    margin: auto;
+  }
+}
+
+
+/* menu4 */
+.crai-biblioteca hr.espacios-innovadores-hr {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.crai-biblioteca .container-crai {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  width: -webkit-fill-available;
+  margin-left: 0%;
+  width: -moz-available;
+}
+
+.crai-biblioteca .individual-crai {
+  background-color: rgba(214, 192, 50, .23);
+  border-bottom: 5px solid rgba(214, 192, 50);
+  box-sizing: unset;
+}
+
+.crai-biblioteca .wrapper-crai {
+  width: 20%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  height: 12em;
+  margin-left: 2.5%;
+  border-radius: 0% 0% 50% 50%;
+  transition: height .5s;
+}
+
+.crai-biblioteca .overlay-crai {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.crai-biblioteca .wrapper-crai img {
+  left: 25%;
+  width: 36rem;
+  height: auto;
+  margin-left: -14rem;
+  margin-top: -1rem;
+  position: absolute;
+  max-width: unset;
+}
+
+.crai-biblioteca .centered-crai {
+  text-decoration: none;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3em;
+  width: 100%;
+}
+
+.crai-biblioteca .centered-crai a {
+  text-decoration: none;
+  color: white !important;
+  z-index: 1;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.crai-biblioteca .colaborativo-crai {
+  background-color: rgba(128, 50, 214, .23);
+  border-bottom: 5px solid rgba(128, 50, 214);
+  box-sizing: unset;
+}
+
+.crai-biblioteca .creativo-crai {
+  background-color: rgba(214, 50, 50, .23);
+  border-bottom: 5px solid rgba(214, 50, 50);
+  box-sizing: unset;
+}
+
+.crai-biblioteca .dinamico-crai {
+  background-color: rgba(50, 100, 214, .23);
+  border-bottom: 5px solid rgba(50, 100, 214);
+  box-sizing: unset;
+}
+
+.crai-biblioteca .logo-texto {
+  margin-top: 10px !important;
+  z-index: -1;
+  display: inline-flex;
+  top: 22%;
+  left: 1rem;
+  width: 100%;
+}
+
+.crai-biblioteca .centered-logo-text {
+  text-decoration: none;
+  color: black;
+  z-index: 1;
+  margin: auto;
+  top: 70%;
+  left: 42%;
+  white-space: nowrap;
+  border-bottom: unset !important;
+}
+
+#individual-section, #colaborativo-section, #creativo-section, #dinamico-section {
+  display: none;
+  box-sizing: border-box;
+}
+
+.crai-biblioteca .contenedor {
+  display: flex;
+}
+
+.crai-biblioteca .full-width {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.crai-biblioteca .inline-crai {
+  display: inline-flex;
+  width: 100%;
+}
+
+.crai-biblioteca .text-wrapper {
+  flex: 1;
+}
+
+.crai-biblioteca .slideshow-wrapper {
+  flex: 1;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  margin-right: 5%;
+}
+
+.crai-biblioteca .thumbnails {
+  display: flex;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.crai-biblioteca .thumbnails-wrapper {
+  display: flex;
+  margin-top: -5%;
+  text-align: center;
+  align-items: center;
+}
+
+.crai-biblioteca .thumbnails-wrapper .test.active {
+  opacity: 1;
+}
+
+.crai-biblioteca .thumbnails-wrapper .test {
+  cursor: pointer;
+  opacity: .7;
+  margin: 0 2px;
+  transition: background-color .6s ease;
+  transition: opacity .5s;
+}
+
+.crai-biblioteca .thumbnails-wrapper .test img {
+  margin-bottom: unset;
+  border: unset;
+  max-width: unset;
+  max-height: 55px;
+}
+
+.crai-biblioteca .cerrar {
+  height: 24px;
+  width: 23px;
+  background-color: #717171;
+  border-radius: 50%;
+  color: white;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+}
+
+.crai-biblioteca .wrapper-crai:hover {
+  height: 16em;
+  transition: height .5s;
+  z-index: 1;
+}
+
+.crai-biblioteca a.prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: white;
+}
+
+a.next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  color: white;
+
+}
+
+.crai-biblioteca .slideshow-container {
+  width: 100%;
+  position: relative;
+}
+
+.crai-biblioteca .fade:not(.show) {
+  opacity: 1 !important;
+}
+
+/*Tooltip*/
+
+.tooltip-inner {
+  color: white;
+  background-color: #517bbd;
+  text-align: justify;
+}
+
+
+/*Nuestro Equipo CRAI*/
+.acerca_CRAI .card-deck {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 772px) {
+  .card .bg-white {
+    margin-top: 10px;
+  }
+}
+
+.acerca_CRAI a.active .directorio-acerca {
+  content: url(/sites/default/files/2022-12/directorio-b.png);
+}
+
+.acerca_CRAI .trabaje-acerca:hover {
+  content: url(/sites/default/files/2022-12/tarbaje-nosotros-b.png);
+}
+
+.acerca_CRAI a.btn.btn-link.nuestro-equipo {
+  color: #386ec8 !important;
+  text-decoration: none !important;
+}
+
+@media (min-width: 576px) {
+  .acerca_CRAI .teamCRAI .card-deck .card {
+    min-width: 350px;
+  }
+}
+
+.acerca_CRAI .teamCRAI .card-deck .card {
+  width: 320px;
+}
+
+.acerca_CRAI .teamCRAI a {
+  color: #007bff;
+}
+
+.acerca_CRAI .teamCRAI a:not([href]) {
+  color: #007bff !important;
+  text-decoration: none !important;
+}
+
+
+
+/*Canales de Atención CRAI*/
+.canales_atencion_CRAI .bg-chat,
+.canales_atencion_CRAI .bg-rrss,
+.canales_atencion_CRAI .bg-correo,
+.canales_atencion_CRAI .bg-linea {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.canales_atencion_CRAI .bg-chat {
+  background-image: url("/sites/default/files/2022-12/fondo-chat.png");
+}
+
+.canales_atencion_CRAI .bg-rrss {
+  background-image: url("/sites/default/files/2022-12/fondo-rrss.png");
+}
+
+.canales_atencion_CRAI .bg-correo {
+  background-image: url("/sites/default/files/2022-12/fondo-correo.png");
+}
+
+.canales_atencion_CRAI .bg-linea {
+  background-image: url("/sites/default/files/2022-12/fondo-linea.png");
+}
+
+.canales_atencion_CRAI .top-canales {
+  padding-top: 30%;
+  color: #517bbd;
+}
+
+.canales_atencion_CRAI .pb-5.d-flex.flex-row.bg-tr-crai {
+  margin-left: 5%;
+}
+
+.canales_atencion_CRAI .titulo-canal.text-center {
+  color: #517bbd;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.canales_atencion_CRAI .text-canales {
+  color: #517bbd;
+}
+
+.canales_atencion_CRAI .paddins-crai {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.canales_atencion_CRAI .canales-chat-arturo,
+.canales_atencion_CRAI .canales-chat-arturo:hover,
+.canales_atencion_CRAI .canales-chat-wp,
+.canales_atencion_CRAI .canales-chat-wp:hover,
+.canales_atencion_CRAI .canales-chat-ghost,
+.canales_atencion_CRAI .canales-chat-ghost:hover,
+.canales_atencion_CRAI .hredes,
+.canales_atencion_CRAI .hredes:hover,
+.canales_atencion_CRAI .hlinea,
+.canales_atencion_CRAI .hlinea:hover,
+.canales_atencion_CRAI .hchat,
+.canales_atencion_CRAI .hchat:hover,
+.canales_atencion_CRAI .hcorreo,
+.hcorreo:hover {
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  display: flex;
+}
+
+.canales_atencion_CRAI .hredes {
+  background-image: url("/sites/default/files/2022-12/rrss.png");
+}
+
+.canales_atencion_CRAI .hredes:hover {
+  background-image: url("/sites/default/files/2022-12/rrss2.png");
+}
+
+.canales_atencion_CRAI .active .hredes {
+  background-image: url("/sites/default/files/2022-12/rrss2.png");
+}
+
+.hlinea {
+  background-image: url("/sites/default/files/2022-12/linea.png");
+}
+
+.canales_atencion_CRAI .hlinea:hover {
+  background-image: url("/sites/default/files/2022-12/linea2.png");
+}
+
+.canales_atencion_CRAI .active .hlinea {
+  background-image: url("/sites/default/files/2022-12/linea2.png");
+}
+
+.canales_atencion_CRAI .hchat {
+  background-image: url("/sites/default/files/2022-12/chat.png");
+}
+
+.canales_atencion_CRAI .hchat:hover {
+  background-image: url("/sites/default/files/2022-12/chat2.png");
+}
+
+.canales_atencion_CRAI .active .hchat {
+  background-image: url("/sites/default/files/2022-12/chat2.png");
+}
+
+.canales_atencion_CRAI .hcorreo {
+  background-image: url("/sites/default/files/2022-12/correo.png");
+}
+
+.canales_atencion_CRAI .hcorreo:hover {
+  background-image: url("/sites/default/files/2022-12/correo2.png");
+}
+
+.canales_atencion_CRAI .active .hcorreo {
+  background-image: url("/sites/default/files/2022-12/correo2.png");
+}
+
+.canales-chat-arturo {
+  background-image: url("/sites/default/files/2023-01/Chat-2.png");
+}
+/* Ajuste estilo chats*/
+.canales_atencion_CRAI .canales-chat-arturo:hover {
+  background-image: url("/sites/default/files/2023-01/Chat.png");
+}
+
+.canales-chat-wp {
+  background-image: url("/sites/default/files/2023-01/Whatsapp-2.png");
+}
+
+.canales_atencion_CRAI .canales-chat-wp:hover {
+  background-image: url("/sites/default/files/2023-01/Whatsapp.png");
+}
+
+.ghost {
+  background-image: url("/sites/default/files/2022-12/linea.png");
+}
+
+.canales_atencion_CRAI .ghost:hover {
+  background-image: url("/sites/default/files/2022-12/linea2.png");
+}
+
+.bg-tr-crai.esp-ca-chat {
+  padding-right: 250px;
+}
+
+
+.canales_atencion_CRAI .d-flex.bg-tr-crai {
+  margin-left: 5%;
+  align-items: center;
+}
+
+.canales_atencion_CRAI .plado img {
+  width: 70px;
+}
+
+.canales_atencion_CRAI .p-2 {
+  padding: 0.5rem !important;
+}
+
+.canales_atencion_CRAI a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 998px) {
+  .canales_atencion_CRAI .plado img {
+    width: 150px;
+  }
+}
+
+/** Header-footer **/
+
+.CRAI-styles .nav>li>a:hover {
+  background-color: rgba(255, 255, 255, 0);
+  border-left: 4px solid #c29241;
+}
+
+/********* Hover Transaccional y politicas *********/
+.CRAI-styles .container1 {
+  position: relative;
+  padding: 0 0px 0 0px;
+}
+
+.CRAI-styles .container2 {
+  position: relative;
+  margin: -6px -10px 0 -10px;
+}
+
+.CRAI-styles .overlay1 {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: 0s ease;
+}
+
+.CRAI-styles .container1:hover .overlay1 {
+  opacity: 1;
+}
+
+.CRAI-styles .container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.CRAI-styles .hoverIconos1 {
+  position: relative;
+  width: 100%;
+}
+
+.CRAI-styles .overlay2 {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: 0s ease;
+}
+
+.CRAI-styles .container1:hover .overlay2 {
+  opacity: 1;
+}
+
+/**Redes hover**/
+.CRAI-styles .fbook-redes:hover {
+  content: url("/PortalUrosario/media/CRAI/pw-crai/Recurso_27.png");
+  width: 10;
+}
+
+.CRAI-styles .twtter-redes:hover {
+  content: url("/PortalUrosario/media/CRAI/pw-crai/Recurso_28.png");
+  width: 10;
+}
+
+.CRAI-styles .instgram-redes:hover {
+  content: url("/PortalUrosario/media/CRAI/pw-crai/Recurso_29.png");
+  width: 10;
+}
+
+/**ajuste textos asesorias**/
+ul.ag-asesoria-ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+li.ag-asesoria {
+  text-align: center;
+  margin: 0.75em auto;
+  list-style: none;
+}
+
+li.ag-asesoria a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+li.ag-asesoria a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
+/*****CSS internas*****/
+.CRAI-styles .bg-cs {
+  /* The image used */
+  background-image: url("/CRAI-tematico/img/ciencias-salud/general/fondo.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CRAI-styles .bg-ac {
+  /* The image used */
+  background-image: url("/CRAI-tematico/img/artes-creacion/general/fondo-artes-y-creacion.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CRAI-styles .bg-cea {
+  /* The image used */
+  background-image: url("/sites/default/files/2022-12/fondo.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CRAI-styles .bg-ch {
+  /* The image used */
+  background-image: url("/CRAI-tematico/img/ciencias-humanas/general/fondo.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CRAI-styles .bg-cp {
+  /* The image used */
+  background-image: url("/CRAI-tematico/img/ciencias-politicas/general/fondo.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CRAI-styles .bg-d {
+  /* The image used */
+  background-image: url("/CRAI-tematico/img/derecho/general/fondo.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CRAI-styles .bg-icb {
+  /* The image used */
+  background-image: url("/CRAI-tematico/img/ingenieria-ciencias-basicas/general/fondo.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CRAI-styles .alinear-texto {
+  text-align: justify;
+}
+
+.CRAI-styles .tab-content .container .card, .CRAI-styles .tab-content .container .card .collapse {
+  background: transparent;
+  border: none;
+
+}
+
+.CRAI-styles .tab-content .card-header {
+  background: white;
+  border: 1px #e2d2d2 solid;
+  border-radius: .25rem;
+  display: flex;
+}
+
+.CRAI-styles .tab-content .card-header a {
+  color: #000;
+}
+
+.agendar-asesoria {
+  background-color: #eaa906 !important;
+  width: 10rem;
+  color: white;
+  float: right;
+}
+
+.list-group-flush .list-group-item {
+  border-radius: .5rem;
+  margin-bottom: 0.20rem;
+  display: flex;
+}
+
+.CRAI-styles .accordion-plus {
+  right: 1.2em;
+  position: absolute;
+}
+
+.CRAI-styles .accordion-plus a {
+  font-weight: 900;
+  font-size: 1.5em;
+  color: black !important;
+  padding: revert;
+}
+
+.CRAI-styles .tab-content .card span {
+  font-weight: lighter;
+  color: #000000;
+}
+
+/**Ajuste barra lateral **/
+.CRAI-styles .card.transaccionales {
+  max-width: 180px;
+  border: unset;
+  background-color: unset;
+}
+
+.CRAI-styles .card-deck {
+  margin-right: unset;
+  margin-left: unset;
+}
+
+/**Fin ajuste barra lateral**/
+
+/**Ajuste hover card**/
+.CRAI-styles .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.CRAI-styles .overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0.5);
+}
+
+.CRAI-styles .container3:hover .overlay3 {
+  opacity: 1;
+}
+
+.CRAI-styles .text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: justify;
+}
+
+.CRAI-styles .rounded-lg {
+  border-radius: 0.7rem !important;
+}
+
+/**Fin ajuste**/
+
+/**Ajuste pills **/
+.CRAI-styles .nav-pills .nav-link.active, .CRAI-styles .nav-pills .show>.nav-link {
+  color: #0c81ff;
+  background-color: #b0b9bd;
+}
+
+.CRAI-styles .nav-item.pills-tbd {
+  background-color: #fff;
+  border-radius: .25rem;
+}
+
+/**Fin ajuste**/
+
+/**ajuste fondo card novedades**/
+.CRAI-styles .bg-white.novedades {
+  background-color: #625dec47 !important;
+}
+
+
+.CRAI-styles .card-deck .card {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+/**Ajuste acordeon**/
+.CRAI-styles .btn-link img {
+  margin-right: 1em;
+  max-height: 40px;
+}
+
+.CRAI-styles .accordion-plus .collapsed::after {
+  content: '+';
+  color: #161314;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  position: relative;
+  margin-top: 50%;
+}
+
+.CRAI-styles .accordion-plus a::after {
+  content: "−";
+}
+
+.CRAI-styles .card-link {
+  color: #2ea1db;
+  font-size: 0.7em;
+}
+
+.CRAI-styles .card.tesis-card {
+  max-width: 100%;
+}
+
+.CRAI-styles .list-group-item {
+  border: unset;
+}
+
+.CRAI-styles .card-body.bg-acordeon-tesis {
+  background: #2ea1db40;
+}
+
+.CRAI-styles .card-text.autor-crai {
+  font-size: 14px;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .CRAI-styles .card-body.bg-acordeon-tesis {
+    background: unset;
+  }
+
+  .CRAI-styles .card-deck .card {
+    margin-right: unset;
+    margin-left: unset;
+  }
+
+  .CRAI-styles .card-body {
+    padding: 0;
+  }
+}
+
+.CRAI-styles .card.card-tesis-width {
+  max-width: 1480px;
+  padding-top: 1%;
+  flex: initial;
+}
+
+.CRAI-styles .card.padd-card {
+  padding-top: 1.3%;
+}
+
+/**Fin ajuste**/
+
+/** Make the image fully responsive */
+.CRAI-styles .carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.CRAI-styles ul.carousel-indicators {
+  margin-bottom: 0;
+}
+
+.CRAI-styles .carousel-indicators.e-crai {
+  bottom: -15px;
+}
+
+.CRAI-styles .carousel-indicators li {
+  background-color: #2ea1db;
+}
+
+/**Fin Ajuste**/
+
+/**Ajuste alinear cntenido**/
+.CRAI-styles .card-body.text-center.ali-crai {
+  padding-left: 0px;
+}
+
+.nav.nav-pills {
+  padding-left: 15px;
+}
+
+.CRAI-styles .card-deck .card.bg-white.card-crai {
+  max-width: 100%;
+}
+
+.CRAI-styles .card-body.text-center.container3 {
+  padding: 1.25rem;
+}
+
+/**Fin ajuste**/
+
+/**Ajuste fondos**/
+.CRAI-styles .card.tab-content.pb-2 {
+  background-color: unset;
+  border: unset;
+}
+
+.CRAI-styles .card.bg-tp-crai {
+  text-align: justify;
+}
+
+.CRAI-styles .card-body.bg-op-crai {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+/**Fin ajuste**/
+
+/**Ajuste Guías y t**/
+.CRAI-styles .gyt-crai.text-justify {
+  font-size: 1.3em;
+  margin-bottom: unset;
+}
+
+.CRAI-styles .card-body.text-center {
+  padding-top: unset;
+  padding-bottom: unset;
+}
+
+
+/**Ajuste novedades**/
+.CRAI-styles .overlay-nov {
+  position: absolute;
+  bottom: 0;
+  background: rgb(46, 161, 219, 0.8);
+  width: 100%;
+  color: #FFF;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+/**Fin ajuste**/
+
+/**Ajuste responsive**/
+@media screen and (min-width:600px) {
+  .CRAI-styles .movil-version {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .CRAI-styles .desktop-version {
+    display: none;
+  }
+
+  .CRAI-styles .nav.nav-tabs.movil-version {
+    display: contents;
+  }
+
+  .CRAI-styles .card-body.text-center.ali-crai {
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+
+.CRAI-styles .acc-gyt-m.active {
+  content: url("/sites/default/files/2022-12/guias-y-tutoriales-accion.png");
+  width: 150px;
+}
+
+.CRAI-styles .acc-sitios-m.active {
+  content: url("/sites/default/files/2022-12/guias-y-tutoriales-accion.png");
+  width: 150px;
+}
+
+.CRAI-styles .acc-sug-m.active {
+  content: url("/sites/default/files/2022-12/sugerencias-de-adquisicion-accion.png");
+  width: 150px;
+}
+
+/*ESTILOS GENERALES*/
+
+.hero-image__body {
+  max-width: 630px;
+}
+
+.hero-image .hero-image__body h2.h2, .hero-image .hero-image__body h2.h2-small {
+  font-size: 1.9rem !important;
+  font-weight: 500 !important;
+}
+
+h2, h2.h2-small, h3 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif !important;
+
+}
+
+/*Ajustes de container*/
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+
+}
+
+/* Ajuste para R2D2 en versión web o responsive, se oculta para dar paso a WhatsApp */
+@media (max-width:500px) {
+  div#AgentAppContainer {
+    display: none !important; 
+	}
+	
+}
+.float {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 40px;
+		right: 40px;
+		z-index: 1000;
+	}
+	.my-float {
+		margin-top: 16px;
+	}
+@media (min-width:501px) {
+  .float {
+		display: none !important; 
+	}
+	.my-float {
+		display: none !important; 
+	}
+} 

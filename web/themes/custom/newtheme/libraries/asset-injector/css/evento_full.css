@@ -1,0 +1,86 @@
+.agenda-eventos {
+  width: 100%;
+  background: #dadae5;
+  padding: 3%;
+  display: tab
+}
+
+.invitados .cajaInvitado {
+  padding: 5%;
+  background: rgb(34 30 74 / 50%);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.invitados {
+  padding: 3% 3% 4%;
+  background: #3e0ba9;
+  font-family: "Nunito", sans-serif!important;
+}
+.invitados p.tituloPrincipal {
+  color: #fff;
+}
+.invitados .cajaInvitado img {
+  border-radius: 100%;
+}
+.invitados .fotocajaInvitado {
+  margin: 0 auto;
+  width: 70%;
+  border: solid 3px #fff;
+  border-radius: 100%;
+}
+.invitados .cajaInvitado {
+  padding: 5%;
+  background: rgb(34 30 74 / 50%);
+  text-align: center;
+  border-radius: 5px;
+}
+.invitados .info-Invitados p.nombre {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1.2em;
+}
+.invitados .info-Invitados p.cargo {
+  color: #fff;
+  line-height: 16px;
+  font-style: italic;
+  font-size: 0.9em;
+}
+.btn-light:hover {
+  color: #0059ff;
+  background-color: #dadae5;
+  border-color: #dadae5;
+}
+.conferencistas {
+  display: table;
+  width: 100%;
+}
+.invitados.Opcion2 .fotocajaInvitado {
+  float: left;
+  max-width: 100px;
+  width: 100%;
+  margin-right: 20px;
+}
+.invitados.Opcion2 .cajaInvitado {
+  display: table;
+  width: 100%;
+  margin-bottom: 20px;
+  min-height: 190px;
+}
+.invitados.Opcion2 .info-Invitados {
+  text-align: left;
+  padding: 2%;
+}
+.invitados.Opcion2 p.nombre {
+  text-align: left;
+}
+a.btn-mas-info {
+  background: #da0921;
+  padding: 5px 10px;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #fff;
+  float: right;
+}

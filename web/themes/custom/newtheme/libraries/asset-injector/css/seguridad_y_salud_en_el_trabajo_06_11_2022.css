@@ -1,0 +1,1249 @@
+.miga .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.menuLateral h4 {
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+.modal-header {
+  background: #f0f0f0;
+}
+
+   .ColumnasCajas i {
+  padding-left: 56%;
+}
+.slideEntradaRecuadro {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+      opacity: 0;
+      padding-top: 20%;
+      overflow-x: hidden;
+  }
+  to {
+      opacity: 1;
+      padding-top: 0%;
+      overflow-x: hidden;
+  }
+}
+.btnMenuPalMovil-claustro {
+  display: table;
+  width: 100%;
+  padding: 6% 2% 3% 2%;
+  cursor: pointer;
+  border: solid 1px #e0e0e0;
+  border-bottom: solid 6px #e0e0e0;
+  background: #fff;
+  transition: 0.3s;
+}
+.btnMenuPalMovil-claustro:hover {
+  display: table;
+  width: 100%;
+  padding: 6% 2% 3% 2%;
+  cursor: pointer;
+  border: solid 1px #e0e0e0;
+  border-bottom: solid 6px #a20f26;
+  background: #f3f3f3;
+  transition: 0.3s;
+}
+.active-claustro {
+  border-bottom: solid 6px #a20f26;
+  background: rgba(162, 15, 38, 0.1);
+}
+.textoRojo {
+  color: rgba(162, 15, 38, 1);
+}
+.btnMenuPalMovil-claustro h3 {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  color: #a20f26;
+  font-size: 1.8rem;
+}
+.btnMenuPalMovil-claustro h4 {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  font-size: 1.8rem;
+}
+.btnMenuPalMovil-claustro p {
+  font-size: 1.2rem;
+}
+.irMovil-claustro {
+  text-align: center;
+  padding-top: 75%;
+  margin-right: 3%;
+  color: #a20f26;
+}
+.btnMenuPalMovil-Mutis {
+  display: table;
+  width: 100%;
+  padding: 6% 2% 3% 2%;
+  cursor: pointer;
+  border: solid 1px #e0e0e0;
+  border-bottom: solid 6px #e0e0e0;
+  background: #fff;
+  transition: 0.3s;
+}
+.btnMenuPalMovil-Mutis:hover {
+  display: table;
+  width: 100%;
+  padding: 6% 2% 3% 2%;
+  cursor: pointer;
+  border: solid 1px #e0e0e0;
+  border-bottom: solid 6px #20887f;
+  background: #f3f3f3;
+  transition: 0.3s;
+}
+.active-mutis {
+  border-bottom: solid 6px #20887f;
+  background: rgba(32, 136, 127, 0.1);
+}
+.textoVerde {
+  color: rgba(32, 136, 127, 1);
+}
+.btnMenuPalMovil-Mutis h3 {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  color: #20887f;
+  font-size: 1.8rem;
+}
+.btnMenuPalMovil-Mutis h4 {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  font-size: 1.8rem;
+}
+.btnMenuPalMovil-Mutis p {
+  font-size: 1.2rem;
+}
+.irMovil-mutis {
+  text-align: center;
+  padding-top: 75%;
+  margin-right: 3%;
+  color: #20887f;
+}
+.btnMenuPalMovil-Norte {
+  display: table;
+  width: 100%;
+  padding: 6% 2% 3% 2%;
+  cursor: pointer;
+  border: solid 1px #e0e0e0;
+  border-bottom: solid 6px #e0e0e0;
+  background: #fff;
+  transition: 0.3s;
+}
+.btnMenuPalMovil-Norte:hover {
+  display: table;
+  width: 100%;
+  padding: 6% 2% 3% 2%;
+  cursor: pointer;
+  border: solid 1px #e0e0e0;
+  border-bottom: solid 6px #1927ce;
+  background: #f3f3f3;
+  transition: 0.3s;
+}
+.active-norte {
+  border-bottom: solid 6px #1927ce;
+  background: rgba(60, 76, 155, 0.1);
+}
+.textoAzul {
+  color: rgba(60, 76, 155, 1);
+}
+.btnMenuPalMovil-Norte h3 {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  color: #1927ce;
+  font-size: 1.8rem;
+}
+.btnMenuPalMovil-Norte h4 {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  font-size: 1.8rem;
+}
+.btnMenuPalMovil-Norte p {
+  font-size: 1.2rem;
+}
+.irMovil-norte {
+  text-align: center;
+  padding-top: 75%;
+  margin-right: 3%;
+  color: #1927ce;
+}
+.imgMenuPalMovil {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  height: 60px;
+}
+.imgMenuPalMovil img {
+  margin: auto;
+  width: 100%;
+}
+.botonesMenuCelular {
+  padding: 2%;
+}
+.botonesMenuCelular img {
+  float: left;
+  width: 25px;
+}
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.miga {
+  border-top: solid 1px #e0e0e0;
+  border-bottom: solid 1px #e0e0e0;
+  font-size: .9em;
+  font-weight: 500;
+  color: #767676;
+padding: 4px 3% 4px;
+}
+.miga a {
+  color: #da0921;
+  font-weight: 700;
+}
+.sinRelleno {
+  padding: 0;
+}
+.sinMargen {
+  margin: 0;
+}
+.ContBtnSedes h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #a20f26;
+}
+.tituloPrincipalHome {
+  border-top: solid 1px #e0e0e0;
+}
+.tituloPrincipalHome h3 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  background: #fff;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #333;
+  padding: 1%;
+  margin: 0;
+}
+.tituloPrincipalHome h3 strong {
+  color: #ef5225;
+}
+.bgSeguridadSaludTrabajo {
+  background: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.thumbnail {
+  padding: 0;
+  border: none;
+  border-left: solid 2px #fff;
+  border-right: solid 2px #fff;
+  border-radius: 0;
+}
+.MenuPrincipal h3 {
+  font-size: 1.3em;
+  position: absolute;
+  font-family: "Nunito", sans-serif;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 40%);
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+.MenuPrincipal h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 2% 0;
+  margin: 0;
+}
+.MenuPrincipal img {
+  width: 100%;
+}
+#claustro .thumbnail {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#claustro .caption {
+  position: absolute;
+  top: -100%;
+  right: 0;
+  background: rgba(239, 82, 37, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 10% 2%;
+  text-align: center;
+  color: #fff !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#claustro .thumbnail:hover .caption {
+  top: 0%;
+}
+#mutis .thumbnail {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#mutis .caption {
+  position: absolute;
+  top: -100%;
+  right: 0;
+  background: rgba(32, 136, 127, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 10% 2%;
+  text-align: center;
+  color: #fff !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#mutis .thumbnail:hover .caption {
+  top: 0%;
+}
+#norte .thumbnail {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#norte .caption {
+  position: absolute;
+  top: -100%;
+  right: 0;
+  background: rgba(67, 107, 224, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 10% 2%;
+  text-align: center;
+  color: #fff !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#norte .thumbnail:hover .caption {
+  top: 0%;
+}
+.fondoGris {
+  background: #e7eaef;
+}
+.ColumnasCajas {
+  background:#e8e8f5;
+  padding: 1% 3% 3% 3%;
+}
+.contenidoPrincipalHome {
+  background: #fff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.recuadroColumna-1 {
+  padding: 5% 8% 8% 8%;
+  background: #fff;
+  margin-top: 5%;
+  font-size: .8em;
+  border-right: solid 1px #eaeaea;
+}
+.recuadroColumna-1 h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+.recuadroColumna-1 p {
+  color: #6b6b6b;
+  text-align: justify;
+  line-height: 1.3em;
+}
+.contacto {
+  text-align: center;
+  color: #6b6b6b;
+}
+.contacto h3 {
+  min-height: 30px !important;
+}
+.contacto a {
+  color: #6b6b6b;
+}
+.contacto .glyphicon {
+  color: #ef5225 !important;
+  float: right;
+}
+.recuadroColumnaAyuda {
+  min-height: 600px;
+  padding: 5% 8% 8% 8%;
+  background: #fff;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-right: solid 1px #eaeaea;
+}
+.recuadroColumnaAyuda h3 {
+  text-align: center;
+  min-height: 60px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+.recuadroColumnaAyuda p {
+  color: #6b6b6b;
+  font-size: 1.4rem;
+}
+.cajaAyuda1 {
+  min-height: 85px;
+  padding: 0;
+  margin-bottom: 1%;
+}
+.cajaAyuda1 p {
+  padding: 2%;
+}
+.cajaAyuda1 .glyphicon {
+  color: #fff;
+  font-size: 1.5rem;
+  background: #ef5225;
+  margin: auto;
+  line-height: 80px;
+  padding-left: 33%;
+}
+.cajaAyuda1 a {
+  color: #ef5225;
+}
+.cajaAyuda2 {
+  min-height: 85px;
+  padding: 0;
+  margin-bottom: 1%;
+}
+.cajaAyuda2 p {
+  padding: 2%;
+}
+.cajaAyuda2 .glyphicon {
+  color: #fff;
+  font-size: 1.5rem;
+  background: #20887f;
+  margin: auto;
+  line-height: 80px;
+  padding-left: 33%;
+}
+.cajaAyuda2 a {
+  color: #20887f;
+}
+.cajaAyuda3 {
+  min-height: 85px;
+  padding: 0;
+  margin-bottom: 1%;
+}
+.cajaAyuda3 p {
+  padding: 2%;
+}
+.cajaAyuda3 .glyphicon {
+  color: #fff;
+  font-size: 1.5rem;
+  background: #436be0;
+  margin: auto;
+  line-height: 80px;
+  padding-left: 33%;
+}
+.cajaAyuda3 a {
+  color: #436be0;
+}
+.TipDeLaSemanaHome {
+  cursor: pointer;
+  background: #fff;
+  border: solid 1px #e0e0e0;
+  display: block;
+  min-height: 200px;
+  padding: 4%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
+  transition: 0.5s;
+}
+.TipDeLaSemanaHome img {
+  margin: auto;
+}
+.TipDeLaSemanaHome:hover {
+  cursor: pointer;
+  background: #fbfbfb;
+  border: solid 1px #436be0;
+  display: block;
+  min-height: 200px;
+  padding: 4%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
+  transition: 0.5s;
+}
+.TipDeLaSemanaHome h3 {
+  margin: 0 !important;
+  min-height: 35px !important;
+  color: #436be0;
+  font-weight: 100;
+  font-size: 1.3em;
+}
+.recuadroNoticiasYEventosHome {
+  padding: 5% 8% 8% 8%;
+  background: #fff;
+  min-height: 600px;
+  margin-top: 5%;
+}
+.recuadroNoticiasYEventosHome h3 {
+  text-align: center;
+  min-height: 20px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+.recuadroNoticiasYEventosHome p {
+  color: #6b6b6b;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+.imgTipDeLaSemanaHome {
+  text-align: center;
+}
+.imgTipDeLaSemanaHome img {
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-bottom: solid 7px #436be0;
+}
+.linkModalTips {
+  display: table;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #567cb2;
+  margin-top: 10%;
+  border: solid 1px #567cb2;
+  padding: 3%;
+  transition: 0.5s;
+}
+.linkModalTips:hover {
+  display: block;
+  text-decoration: none;
+  background: #567cb2;
+  text-align: center;
+  color: #fff;
+  margin-top: 10%;
+  border: solid 1px #567cb2;
+  padding: 3%;
+  width: auto;
+  transition: 0.5s;
+}
+.contenedorContacto {
+  background:#f7f7fc;
+  display: table;
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+}
+.cajaNota .foto::before {
+  transition: 1s;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-size: 100% auto;
+  display: block;
+  background-color: rgb(1 1 48 / 68%);
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+}
+p.titulonota {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  z-index: 3;
+  font-weight: 700;
+  font-size: 1.2em;
+  padding: 6%;
+  text-align: left;
+  width: 87%;
+  bottom: 4px;
+  right: 29px;
+}
+.contenedorContacto h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2%;
+}
+.contenedorContacto p {
+  font-size: 0.9rem;
+}
+.contenedorContacto .glyphicon {
+  color: #bababa;
+}
+.SliderEnlacesRelacionados {
+  text-align: center;
+}
+.SliderEnlacesRelacionados img {
+  width: 150px;
+  margin: auto;
+}
+.SliderEnlacesRelacionados p {
+  margin-top: 0;
+  margin-bottom: 4px;
+  min-height: 35px;
+}
+.modalTips .iconoTitulo {
+  float: left;
+  margin-right: 10px;
+}
+.modalTips .iconoTitulo img {
+  width: 60px;
+}
+.modalTips .modal-header {
+  background: #e7eaef;
+  border-bottom: solid 1px #a3b5e8;
+}
+.modalTips .modal-header h4 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  line-height: 60px;
+  color: #666;
+}
+.modalTips .imgPrincipalModalTips {
+  text-align: center;
+}
+.modalTips .imgPrincipalModalTips img {
+  width: 90%;
+  margin: auto;
+}
+.modalTips .Numeracion {
+  color: #0babe8;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+.modalTips .tipList {
+  min-heigth: 50px;
+  border-bottom: solid 1px #f7f7f7;
+}
+.modalTips .semana {
+  text-align: right;
+  font-size: 2rem;
+  color: #0babe8;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  margin-bottom: 3%;
+}
+.modalTips .modal-body h3 {
+  font-family: "Nunito", sans-serif;
+}
+.modalTips .modal-footer {
+  background: #e7eaef;
+}
+.historicoTips {
+  text-decoration: none;
+  text-align: center;
+  background: rgba(255, 255, 255, 0);
+  color: #0babe8;
+  border: solid 1px #0babe8;
+  padding: 1%;
+  width: auto;
+  transition: 0.5s;
+}
+.historicoTips:hover {
+  text-decoration: none;
+  text-align: center;
+  background: #0babe8;
+  color: #fff;
+  border: solid 1px #0babe8;
+  padding: 1%;
+  width: auto;
+  transition: 0.5s;
+}
+.cerrarModal {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0);
+  text-align: center;
+  color: #0babe8;
+  border: solid 1px #0babe8;
+  padding: 1%;
+  width: auto;
+  transition: 0.5s;
+}
+.cerrarModal:hover {
+  text-decoration: none;
+  text-align: center;
+  background: #0babe8;
+  color: #fff;
+  border: solid 1px #0babe8;
+  padding: 1%;
+  width: auto;
+  transition: 0.5s;
+}
+.PuntosDeEncuentro {
+  min-height: 380px;
+  padding: 3% 8%;
+  border-right: solid 1px #e0e0e0;
+}
+.PuntosDeEncuentro img {
+  width: 100%;
+}
+.enlacesDeInteres {
+  text-align: center;
+  padding: 2% 4% 3% 4%;
+}
+.enlacesDeInteres img {
+  width: 100%;
+  margin: auto;
+}
+.mapaPuntosDeEncuentro iframe {
+  width: 100%;
+  height: 200px;
+  border: none !important;
+}
+.mapaPuntosDeEncuentro .HzV7m-b7CEbf .i4ewOd-pzNkMb-tJHJj {
+  background-color: #0babe8 !important;
+}
+.cajasInteres {
+  cursor: pointer;
+  margin-top: 10%;
+  min-height: 140px;
+}
+.LinkDocumentosInteres {
+  width: 100%;
+  display: table;
+  text-align: left;
+  text-decoration: none;
+  background: #fff;
+  color: #333;
+  border: solid 2px rgba(206, 209, 210, 0.2);
+  border-left: solid 3px #94bb2f;
+  padding: 2% 6%;
+  margin-bottom: 1%;
+  transition: 0.5s;
+}
+.LinkDocumentosInteres:hover {
+  width: 100%;
+  display: table;
+  text-align: left;
+  text-decoration: none;
+  background: rgba(206, 209, 210, 0.1);
+  color: #000;
+  border-left: solid 3px #148caf;
+  padding: 2% 6%;
+  margin-bottom: 1%;
+  transition: 0.5s;
+}
+.LinkDocumentosInteres:focus {
+  width: 100%;
+  display: table;
+  text-align: left;
+  text-decoration: none;
+  background: rgba(206, 209, 210, 0.1);
+  color: #000;
+  border-left: solid 3px #148caf;
+  padding: 2% 6%;
+  margin-bottom: 1%;
+  transition: 0.5s;
+}
+.btnImportante {
+  width: 100%;
+  display: table;
+  text-align: left;
+  text-decoration: none;
+  background: #fff;
+  color: #333;
+  border: solid 2px rgba(206, 209, 210, 0.2);
+  border-left: solid 3px #94bb2f;
+  padding: 2% 6%;
+  margin-bottom: 1%;
+  transition: 0.5s;
+}
+.btnImportante:hover {
+border-left: solid 3px #da0921;
+  text-decoration: none;
+  background: #221f4e;
+  display: table;
+  text-align: left;
+  padding: 2% 6%;
+  margin-bottom: 1%;
+  color: #fff;
+  transition: 0.5s;
+  width: 100%;
+  color: #000;
+}
+.btnImportante:focus {
+  width: 100%;
+  display: table;
+  text-align: left;
+  text-decoration: none;
+  background: #e0eac6;
+  color: #000;
+  border-left: solid 3px #148caf;
+  padding: 2% 6%;
+  margin-bottom: 1%;
+  transition: 0.5s;
+}
+.menuLateral {
+  padding: 0;
+}
+.TituloPagina h3 {
+  text-align: left;
+  margin: 0;
+  padding: 4px 3% 4px;
+  font-size: 1.3rem;
+  background: #e8e8f5;
+  font-family: "Nunito",sans-serif;
+  font-weight: 600;
+}
+.InternaClaustro {
+  padding: 2% 0;
+}
+#claustro, #mutis, #norte {
+  padding-bottom:23px;
+}
+.InternaClaustro .tituloPrincipalHome {
+  text-align: left;
+  padding-left: 3%;
+  font-size: 2.5rem;
+  background: #f0f0f0;
+}
+.ContenedorMapaDeCalor {
+  text-align: center;
+  padding: 0 4% 3% 4%;
+}
+.ContenedorMapaDeCalor img {
+  width: 90%;
+  margin: auto;
+}
+.InternaClaustro .ContenedorMapaDeCalor h3 {
+  font-family: "Nunito", sans-serif;
+  color: rgba(239, 82, 37, 1);
+  text-align: center;
+  font-size: 2.5rem;
+}
+.InternaClaustro .ContenedorMapaDeCalor h5 {
+color: #6b6b6b;
+  font-size: 1rem;
+  text-align: justify;
+  font-family: "Nunito",sans-serif;
+}
+.ContenedorMapaDeCalor p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  text-align: right;
+  padding-right: 3%;
+  padding-top: 2%;
+}
+.CuadroAmarillo {
+  cursor: pointer;
+  display: table;
+  padding: 0;
+  background: #d9c510;
+  border: solid 2px #fff;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.CuadroNaranja {
+  display: table;
+  padding: 0;
+  background: #d98600;
+  border: solid 2px #fff;
+  width: 100%;
+  border-radius: 10px;
+}
+.CuadroRojo {
+  display: table;
+  padding: 0;
+  background: #9d0b0b;
+  border: solid 2px #fff;
+  width: 100%;
+  border-radius: 10px;
+}
+.CuadroVerde {
+  display: table;
+  padding: 0;
+  background: #6c9d2c;
+  border: solid 2px #fff;
+  width: 100%;
+  border-radius: 10px;
+}
+.convertirAboton {
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: 0.3s;
+}
+.convertirAboton:hover {
+  transform: scale(0.95, 0.95);
+  background: #866d44;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.contenedorPeligroModal-Claustro {
+  border-bottom: solid 1px #e0e0e0;
+}
+.contenedorPeligroModal-Claustro .panel-default {
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.contenedorPeligroModal-Claustro .panel-default .panel-heading {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #0babe8;
+  color: #588aa5;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  padding: 9px 0;
+  font-weight: 600;
+  margin-bottom: 23px;
+  width: 85%;
+}
+.contenedorPeligroModal-Claustro .panel-default .panel-body {
+  min-height: 160px;
+}
+.contenedorPeligroModal-Claustro .panel-default .panel-body .imagenPeligroModal {
+  text-align: center !important;
+}
+.contenedorPeligroModal-Claustro .panel-default .panel-body .imagenPeligroModal p {
+  text-align: center !important;
+  line-height: 1.8rem;
+  font-weight: bold;
+}
+.contenedorPeligroModal-Claustro .panel-default .panel-body .imagenPeligroModal img {
+  margin: auto;
+  width: 80%;
+}
+.contenedorPeligroModal-Claustro .panel-default .panel-body p {
+  color: #6b6b6b;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.2em;
+}
+.InternaClaustro h3 {
+text-align: center;
+  min-height: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Nunito",sans-serif;
+  margin: 0;
+}
+.InternaClaustro #claustro .active h3 {
+  margin: 0;
+  background: #ef5225;
+  color: #fff;
+  text-align: center;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  padding-top: 9px;
+  font-weight: 600;
+}
+.InternaClaustro #mutis .active h3 {
+  margin: 0;
+  background: rgba(32, 136, 127, 1);
+  color: #fff;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+.InternaClaustro #norte .active h3 {
+  margin: 0;
+  background: rgba(67, 107, 224, 1);
+  color: #fff;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+.InternaClaustro #claustro h3 {
+  min-height: 40px;
+  margin: 0;
+  background: #fff;
+  color: #333;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  padding-top: 5px;
+  border-bottom: solid 1px #ef5225;
+}
+.InternaClaustro #mutis h3 {
+  min-height: 40px;
+  margin: 0;
+  background: #fff;
+  color: #333;
+  text-align: center;
+  font-family: "Nunito",sans-serif;
+  padding-top: 9px;
+  border-bottom: solid 1px rgba(32,136,127,1);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.InternaClaustro #norte h3 {
+min-height: 40px;
+  margin: 0;
+  background: #fff;
+  color: #333;
+  text-align: center;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  padding-top: 5px;
+  border-bottom: solid 1px rgba(67,107,224,1);
+  font-weight: 600;
+}
+.InternaClaustro .TipDeLaSemanaHome p {
+  color: #6b6b6b;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+.EnlacesImportantes {
+  padding-top: 10px;
+}
+.EnlacesImportantes h3 {
+  color: #0babe8;
+}
+.EnlacesImportantes a {
+  display: table;
+  background: #f9f9f9;
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px #0babe8;
+  margin-bottom: 5%;
+  color: #0babe8;
+  transition: 0.4s;
+}
+.EnlacesImportantes a:hover {
+  display: table;
+  background: #3483d1;
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px #3483d1;
+  margin-bottom: 5%;
+  color: #fff;
+  transition: 0.4s;
+}
+.EnlacesImportantes a:focus {
+  display: table;
+  background: #3483d1;
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px #3483d1;
+  margin-bottom: 5%;
+  color: #fff;
+  transition: 0.4s;
+}
+.margenInferior {
+  display: table;
+  margin-bottom: 2%;
+}
+
+.cajaNota .foto:hover::before {
+  background: #026270d1;
+}
+
+.foto {
+  margin-bottom: 21px;
+  position: relative;
+}
+.foto img {
+  width: 100% !important;
+}
+
+span.btn-n {
+  background-color: #da0921;
+  color: #fff !important;
+  display: grid;
+  padding: 8px 12px;
+  position: absolute;
+  border: 0;
+  border-radius: 1px;
+  transition: 1s;
+  right: 0;
+  bottom: 0;
+}
+
+span.btn-n:hover {
+  background-color: #042752;
+}
+
+.Noticias .col-xs-9.col-sm-9.col-md-12.col-lg-12 {
+  width: 50% !important;
+}
+
+.recuadroNoticiasYEventosHome {
+  padding: 0 !important;
+}
+
+.recuadroNoticiasYEventosHome {
+  min-height: auto !important;
+  margin-top: 0% !important;
+}
+@media (min-width: 1200px){
+.modal-xl {
+    max-width: 800px;
+}
+  }
+@media (max-width: 1024px) {
+  span.btn-n {
+      top: 49px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Noticias .col-xs-9.col-sm-9.col-md-12.col-lg-12 {
+      width: 100% !important;
+  }
+
+  span.btn-n {
+      top: 58px;
+  }
+}
+@media (min-width: 768px) {
+.contenedorContacto p {
+  font-size: 0.6rem;
+}
+  .altoMinBtnCel {
+      display: block;
+      width: 100%;
+      min-height: 120px;
+  }
+  .altoMinBtnCel:hover {
+      display: block;
+      width: 100%;
+      min-height: 120px;
+  }
+}
+@media (max-width: 768px) {
+  .ContenedorMapaDeCalor {
+      border-right: none;
+  }
+  .recuadroNoticiasYEventosHome {
+      display: table;
+  }
+  .recuadroColumnaAyuda {
+      display: table;
+  }
+}
+@media (min-width: 570px) and (max-width: 750px) {
+  .imgMenuPalMovil {
+      width: 60%;
+  }
+}
+@media (max-width: 550px) {
+  .convertirAboton:hover {
+      transform: scale(1.1, 1.1);
+      z-index: 500;
+  }
+  .contacto a {
+      font-size: 13px;
+  }
+  .TituloPagina h3 {
+      padding: 3%;
+      font-size: 1rem;
+  }
+  .InternaClaustro h3 {
+      margin-top: 8%;
+      margin-bottom: 8%;
+  }
+  .ContenedorMapaDeCalor {
+      padding: 0 2% 3% 2%;
+  }
+  .tituloPrincipalHome h3 {
+      font-size: 1.7rem;
+      background: #e9e9e9;
+      padding: 3% 0;
+  }
+  .NombreDelSitio {
+      width: 105px;
+  }
+  .modalTips .modal-header h4 {
+      font-size: 1.8rem;
+      line-height: 22px;
+  }
+  .contenedorPeligroModal-Claustro .panel-default .panel-body .imagenPeligroModal img {
+      margin: auto;
+      width: 50%;
+  }
+  .InternaClaustro .ContenedorMapaDeCalor h5 {
+      text-align: center !important;
+  }
+  .InternaClaustro .TipDeLaSemanaHome p {
+      text-align: left;
+  }
+  .contenedorPeligroModal-Claustro .panel-default .panel-body p {
+      text-align: left;
+  }
+}
+@media (max-width: 380px) {
+  .recuadroColumna-1 p {
+      text-align: left;
+  }
+  .banner-regresando img {
+      height: auto;
+  }
+  header {
+      padding-top: 3%;
+  }
+  .alturaPorDefecto {
+      min-height: auto;
+  }
+  .recuadroNoticiasYEventosHome {
+      padding: 12%;
+      background-color: #d4d4d4;
+  }
+  .recuadroNoticiasYEventosHome p {
+      text-align: left;
+  }
+  .contacto a {
+      font-size: 1.1rem;
+  }
+  .LogoUR img {
+      height: 45px;
+  }
+  .NombreDelSitio {
+      width: 100px;
+  }
+}
+@media (min-width: 600px) {
+  #enlaces-interes {
+      text-align: center;
+  }
+  #enlaces-interes div {
+      float: none;
+      display: inline-block;
+      vertical-align: middle;
+  }
+}

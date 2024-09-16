@@ -1,0 +1,10 @@
+#DMU .card_hover {
+  height: 170px;
+}
+
+@media (min-width: 768px) {
+#DMU .card_hover {
+  height: 170px;
+  MIN-height: 170px;
+}
+}

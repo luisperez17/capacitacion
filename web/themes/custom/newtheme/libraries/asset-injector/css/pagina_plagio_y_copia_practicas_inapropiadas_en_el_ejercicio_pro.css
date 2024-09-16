@@ -1,0 +1,51 @@
+#TabsInfo #tabContent {
+  box-shadow: 1px 0px 7px #34345b33;
+  background-color: white;
+  padding: 23px;
+}
+#TabsInfo .tab-content ul {
+  list-style: none;
+  padding: 0;
+}
+#TabsInfo .tab-content li {
+  padding-left: 1.3em;
+}
+#TabsInfo .tab-content li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  color: #da0921;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+#TabsInfo .tab-bootstap .nav-link {
+  font-size: 1em;
+  padding: 12px 15px;
+}
+#TabsInfo .tab-bootstap .nav {
+  box-shadow: 0px 0px 4px 0px #8e8ec5;
+}
+#TabsInfo #tabContent {
+  background-color: white;
+  padding: 23px;
+}
+
+#TabsInfo .layout__region.layout__region--second {
+  background-color: #eaeaf5;
+  box-shadow: 1px 0px 7px #34345b33;
+  padding: 23px;
+}
+#TabsInfo .form-item__label {
+padding: 0em 0;
+font-weight: 600;
+}
+#TabsInfo .layout__region.layout__region--second a {
+font-size: .8em;
+color: #09016d;
+}
+#TabsInfo .layout__region.layout__region--second a:hover {
+color: #1206af;
+}
+#TabsInfo  #edit-title--description {
+font-size: .9em;
+}

@@ -1,0 +1,141 @@
+html {
+  scroll-padding-top: 157px;
+  scroll-behavior: smooth;
+}
+
+.modal-header {
+  background-color: #69971a;
+  color: #fff;
+}
+.MenuGestion nav {
+  padding: 2px 34px;
+  position: fixed;
+  top: 120px;
+  z-index: 3;
+  margin: auto;
+  width: 100%;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: #333542;
+}
+.MenuGestion .navbar-nav .nav-link {
+  color: #343434;
+  font-weight: 700;
+  border-right: 2px solid#edeaeb;
+}
+.MenuGestion .navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+.MenuGestion .navbar-nav .nav-link:hover {
+  border-bottom: 1px solid#69971a;
+}
+.MenuGestion a.nav-link.active {
+  border-bottom: 2px solid#69971a;
+}
+.programas-gestion {
+  display: table;
+  width: 30%;
+  margin: 21px;
+  background: rgba(255, 255, 255, 0.7);
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  transition: 1s;
+  cursor:pointer;
+}
+.programas-gestion h3 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #545353;
+  padding-left: 21px;
+}
+.imagenprog img {
+  width: 135%;
+  margin-top: -28px;
+}
+.imagenprog {
+  width: 30%;
+  float: right;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  height: 20px;
+  min-height: 85px;
+}
+.programas-gestion:hover {
+  background-color: #f3f3f3;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.1);
+}
+.zona-ejes {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.zona-ejes > a {
+  width: 32%;
+}
+
+.datos-contcto {
+  border-right: 1px solid#9b9596;
+}
+.Pdf a {
+  background-color: #69971a;
+  font-size: 1.5em;
+  color: #fff;
+  padding: 6px 9px;
+}
+
+.Pdf a:hover {
+  background-color: #517810;
+}
+#contactenos a {
+  color: #69971a;
+}
+@media (min-width: 1024px) and (max-width: 1299px) { 
+    .programas-gestion {
+      width: 29%;
+  }
+}
+@media (min-width:877px) and (max-width: 1023px) { 
+.programas-gestion {
+  width: 45%;
+}
+}
+@media (min-width:768px) and (max-width: 877px) { 
+.programas-gestion {
+  width: 44%;
+}
+}
+@media (min-width:601px) and (max-width: 768px) { 
+.programas-gestion {
+  width: 42%;
+}
+}
+@media (max-width: 600px) {
+  .MenuGestion nav {
+      position: relative;
+      top: 0;
+  }
+  .programas-gestion {
+      width: 100%;
+  }
+  #informes-de-gestion .block.block--button {
+      margin: auto;
+      display: table;
+      margin-bottom: 23px;
+  }
+  #contactenos a {
+      color: #69971a;
+  }
+  .datos-contcto {
+      border-right: 0px solid#9b9596;
+  }
+}

@@ -1,0 +1,79 @@
+.MenuBitacora .navbar-nav .nav-link {
+  color: #343434;
+  font-weight: 700;
+  border-right: 2px solid#edeaeb;
+}
+
+.MenuBitacora nav {
+  padding: 2px 34px;
+  position: fixed;
+  top: 120px;
+  z-index: 3;
+  margin: auto;
+  width: 100%;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: #333542;
+}
+.MenuBitacora .navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+.Logo {
+  background-color: #00304e;
+  padding: 20px;
+  color: #fff;
+}
+.Banner {
+  position: relative;
+}
+.Banner::before {
+content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(6 13 20 / 67%);
+  z-index: 1;
+}
+#pdf iframe {
+  margin: auto;
+  display: table;
+}
+.Caja {
+  background-color: #ffffffb0;
+  padding: 23px;
+  margin-bottom: 13px;
+}
+.Caja a {
+  color: #da0921;
+  font-weight: 500;
+}
+
+#Contacto .js-form-item.form-item.js-form-type-textfield.form-item-nombres-y-apellidos.js-form-item-nombres-y-apellidos {
+  width:32%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#Contacto .js-form-item.form-item.js-form-type-tel.form-item-numero-de-celular.js-form-item-numero-de-celular {
+ width:32%;
+  display: inline-block;
+  vertical-align: top;
+}
+#Contacto  .js-form-item.form-item.js-form-type-email.form-item-correo-electronico.js-form-item-correo-electronico {
+ width:32%;
+  display: inline-block;
+  vertical-align: top;
+}
+#Contacto  input#edit-actions-submit {
+  background-color: #da0921;
+  border-radius: 23px;
+  font-weight: 700;
+  transition: .2s;
+  color: #fff;
+}
+
+#Contacto input#edit-actions-submit:hover {
+  background-color: #1b142e;
+}
+

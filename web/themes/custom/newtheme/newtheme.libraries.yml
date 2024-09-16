@@ -1,0 +1,82 @@
+global:
+  css:
+    theme:
+      dist/css/style.css: {}
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js: {}
+
+  dependencies:
+    - core/jquery
+    - themenew/bootstrap
+
+splidejs:
+  js:
+    libraries/splide/js/splide.min.js: {}
+  css:
+    component:
+      libraries/splide/css/splide-core.min.css: {}
+  dependencies:
+    - core/drupal
+
+bootstrap:
+  remote: https://github.com/twbs/bootstrap
+  version: 5.0.2
+  license:
+    name: MIT
+    url: https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE
+    gpl-compatible: true
+  js:
+    libraries/bootstrap/js/bootstrap.bundle.min.js: { minified: true }
+
+card-carousel:
+  js:
+    dist/js/03-organisms/card-carousel/card-carousel.js: {}
+  dependencies:
+    - core/drupal
+    - themenew/splidejs
+
+tabsOpen:
+  js:
+    dist/js/02-molecules/tabs/tabs.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+main-menu:
+  js:
+    dist/js/02-molecules/menus/main-menu/main-menu.js: {}
+  dependencies:
+    - core/drupal
+
+# IE 11 support for SVG use - disable if not needed.
+# See also components/01-atoms/images/icons/_icon.twig to remove attach_library.
+sprite:
+  js:
+    components/01-atoms/images/icons/svgxuse.min.js:
+      { attributes: { defer: true } }
+
+carousel:
+   js:
+    dist/js/02-molecules/carousel/carousel.js: {}
+
+menu-course:
+  js:
+    dist/js/02-molecules/menus/menu-course/menu-course.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+card-statistics:
+  js:
+    dist/js/02-molecules/card/card-statistics/card-statistics.js: {}
+  dependencies:
+    - core/jquery
+
+element-animated:
+  js:
+    dist/js/02-molecules/view-drupal/view-animated.js: {}
+landing-negotiation:
+  js:
+    dist/js/04-templates/landing-negotiation/landing-negotiation.js: {}

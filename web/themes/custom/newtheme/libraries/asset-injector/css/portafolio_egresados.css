@@ -1,0 +1,346 @@
+/* header */
+.tab-desarrollo-egresado .menu-tab {
+  background-color:#D7D7E2;
+  padding: 20px 20px 0px;
+  width: 100%;
+}
+
+.contenido-tabs {
+  width: 100%;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.egresados-diyde .transferencia {
+  position: relative;
+}
+
+.egresados-diyde .header_seccion .info_page {
+    background-image: linear-gradient(to bottom, rgb(255 255 255 / 0%) 0%, rgb(255 255 255 / 0%) 100%);
+    padding: 29px 0px;
+}
+
+.egresados-diyde .header_seccion.bg_transferencia {
+  background: linear-gradient( #04011873 49%, rgb(33 18 69 / 0%)80%), url(/sites/default/files/2022-12/portafolioegresados-banner.jpg);
+  background-position-x: 21%;
+  background-position-y: 32%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:400px;
+}
+
+.egresados-diyde .header_seccion {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+
+.egresados-diyde .header_seccion.bg_transferencia .right {
+  position: relative;
+  padding-top: 10%;
+  overflow: hidden;
+}
+
+.egresados-diyde .header_seccion.bg_transferencia .right::before {
+  content: '';
+  background: url(/sites/default/files/2022-12/portafolioegresados-img2.jpg);
+  width: 100%;
+  height: 394px;
+  display: block;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  bottom: 0;
+  background-position-x: left;
+
+}
+
+.egresados-diyde .header_seccion h2 {
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 1px 2px 4px #3a3a3a;
+  font-size: 1.9em;
+}
+.egresados-diyde .header_seccion hr {
+  width: 40%;
+  position: relative;
+  margin: 0px 0px 0px 0%;
+  display: none;
+}
+
+.egresados-diyde .header_seccion p {
+  color: #fff;
+  text-align: justify;
+}
+
+.egresados-diyde #navbarSupportedContent {
+  position: absolute;
+  bottom: 0px;
+}
+.egresados-diyde #navbarSupportedContent.nav ul {
+  display: flex;
+  flex-wrap: inherit;
+  list-style: ethiopic-halehame;
+  flex-direction: inherit;
+  padding: 20px 20px 30px;
+}
+
+.egresados-diyde #navbarSupportedContent.nav li {
+  padding: 5px 0;
+  display: flex;
+  padding-right: 20px;
+}
+
+.egresados-diyde  #navbarSupportedContent.nav li:before {
+  color: #dA0921;
+  margin-right: 8px;
+  font-size: 16px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "/";
+}
+
+.egresados-diyde #navbarSupportedContent.nav li a {
+  color: #e4e4e4;
+  text-shadow: 0px 1px 6px #000000;
+}
+.tab-desarrollo-egresado li::marker {
+    color: #3b898d;
+}
+
+.egresados-diyde #navbarSupportedContent.nav li a.active {
+  color: #ffffff;
+  cursor: alias;
+  text-decoration: none;
+  text-shadow: 0px 1px 6px #000000;
+}
+
+/* tabs */
+
+.tab-desarrollo-egresado .resp-tab-item {
+  font-size: 1.2em;
+  padding: 20px 15px !important;
+
+}
+
+.tab-desarrollo-egresado a:hover {
+  color: white;
+}
+.tab-desarrollo-egresado .nav-pills .nav-link1.active, .nav-pills .show>.nav-link1 {
+  color: #f7a400;
+  border-bottom: 6px solid #f7a400;
+  background-color: #ffffff;
+}
+
+.tab-desarrollo-egresado .nav-pills .nav-link2.active, .nav-pills .show>.nav-link2 {
+  color: #7ebb45;
+  border-bottom: 6px solid #7ebb45;
+  background-color: #ffffff;
+}
+
+.tab-desarrollo-egresado .nav-pills .nav-link3.active, .nav-pills .show>.nav-link3 {
+  color: #3a8a8d;
+  border-bottom: 6px solid #3a8a8d;
+  background-color: #ffffff;
+}
+
+.tab-desarrollo-egresado .nav-link1 {
+  display: block;
+  padding: .5rem 1rem;
+  color:white;
+  background-color:#f7a400;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.tab-desarrollo-egresado .nav-link2 {
+  display: block;
+  padding: .5rem 1rem;
+  color:white;
+  background-color:#3a8a8d;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-link3 {
+  display: block;
+  padding: .5rem 1rem;
+  color:white;
+  background-color:#7ebb45;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+/* tab 1,2,3 */
+
+.tab-desarrollo-egresado .lineas-accion h4.text-center {
+  color: #da0821;
+  padding: 20px 0px;
+}
+
+.tab-desarrollo-egresado .imgsection1{
+  width: 100%;
+  border-bottom: 12px solid #f6a400;
+}
+
+.tab-desarrollo-egresado .imgsection2{
+  width: 100%;
+  border-bottom: 12px solid #7ebb45;
+}
+
+.tab-desarrollo-egresado .imgsection3{
+  width: 100%;
+  border-bottom: 12px solid #3a8a8d;
+}
+
+.tab-desarrollo-egresado #tabs-text-1 h3 {
+  color: #f5a400;
+  padding: 20px 0px 20px;
+  text-align: left;
+}
+
+.tab-desarrollo-egresado #tabs-text-2 h3 {
+  color: #7ebb45;
+  padding: 20px 0px 20px;
+  text-align: left;
+}
+
+.tab-desarrollo-egresado #tabs-text-3 h3 {
+  color: #3a8a8d;
+  text-align: left;
+}
+
+.tab-desarrollo-egresado #tabs-text-1 .card-body li {
+  list-style: none;
+}
+
+.tab-desarrollo-egresado #tabs-text-2 .card-body li {
+  list-style: none;
+}
+
+.tab-desarrollo-egresado #tabs-text-1 .card-body li:before {
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color:#f5a400;
+}
+
+.tab-desarrollo-egresado #tabs-text-2 .card-body li:before {
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color:#7ebb45;
+}
+
+/* acordeon tab 1 */
+
+.tab-desarrollo-egresado #tabs-text-1 .lineas-accion .titulosTab.tabs-cerrado {
+  width: 100%;
+  background: #f6a400;
+  border: 1px solid #f6a400;
+  padding: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.tab-desarrollo-egresado #tabs-text-1 .lineas-accion .titulosTab.tabs-abierto {
+  background: #fff;
+  border: 1px solid #f6a400;
+  color: #000;
+}
+
+/* acordeon tabs 2 */
+
+.tab-desarrollo-egresado #tabs-text-2 .lineas-accion .titulosTab.tabs-cerrado {
+  width: 100%;
+  background:#7ebb45;
+  border: 1px solid #7ebb45;
+  padding: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.tab-desarrollo-egresado #tabs-text-2 .lineas-accion .titulosTab.tabs-abierto {
+  background: #fff;
+  border: 1px solid #7ebb45;
+  color: #000;
+}
+
+/* contenido tab 1 */
+.tab-desarrollo-egresado .tabsPortafolio {
+  padding: 30px 20px;
+}
+
+.tab-desarrollo-egresado .lineas-accion a.titulosTab {
+  width: 100%;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 6px 0px #595959;
+  -moz-box-shadow: 1px 1px 6px 0px #595959;
+  box-shadow: 1px 1px 6px 0px #595959;
+  text-align: center;
+  font-weight: 600;
+}
+
+.tab-desarrollo-egresado #tab-462395 a, .tab-desarrollo-egresado #tab-462396 a {
+  color: #f5a400;
+}
+
+.tab-desarrollo-egresado #tab-462612 li::marker {
+  color: #3b898d;
+}
+
+.tab-desarrollo-egresado #lista-tab3 li::marker {
+  color: #3b898d;
+}
+
+
+.tab-desarrollo-egresado #tab-462612 a, .tab-desarrollo-egresado #tab-462618 a {
+  color: #7ebb45;
+}
+
+.tab-desarrollo-egresado .boton_personalizado {
+  margin: auto;
+  display: table;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.tab-desarrollo-egresado a.boton_personalizado {
+  background-color: #3b898d;
+  color: #fff;
+}
+
+.tab-desarrollo-egresado a.boton_personalizado:hover {
+  background: #fff;
+  color: #3b898d;
+  border: 1px solid #3b898d;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1080px){
+.egresados-diyde .header_seccion.bg_transferencia .right::before{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+	
+}
+@media only screen and (max-width: 768px){
+.egresados-diyde .header_seccion.bg_transferencia .right::before{
+    background-position-y: unset;
+}
+	
+}
+
+

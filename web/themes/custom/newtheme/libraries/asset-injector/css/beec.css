@@ -1,0 +1,244 @@
+.fixed-top {
+  top: 26%!important;
+  z-index: 3!important;
+}
+.MenuReble .navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+.MenuReble .navbar-nav .nav-link {
+  color: #343434;
+  font-weight: 700;
+  border-right: 2px solid#edeaeb;
+}
+.MenuReble .navbar-nav .nav-link:hover {
+  color: #31349f;
+}
+#btn-rebel-1 {
+  z-index: 1;
+  background-color: #da0921;
+  color: #fff;
+  position: fixed;
+  right: 0;
+  padding: 11px;
+  top: 38%;
+  border-left: 4px solid#2c2f79;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  z-index:2;
+}
+.Banner {
+  position: relative;
+}
+
+.Banner img.Logo {
+  position: relative;
+  z-index: 9999;
+}
+.Banner:before {
+  background: linear-gradient(to right,rgb(0,2,77),rgb(255 0 45 / 46%),rgba(0,8,61,0.87));
+  padding: 4.9% 0 4%;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 1;
+}
+.Equipo {
+  position: relative;
+  padding: 6% 7%;
+}
+.Equipo h2 {
+  color: #fff;
+  position: relative;
+  z-index: 99;
+}
+.Equipo:before {
+  background-color: rgb(76 10 87 / 83%);
+  padding: 4.9% 0 4%;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.Equipo .row-striped {
+  background-color: #fff;
+}
+.Equipo .evento-text {
+  padding: 2% 0;
+}
+section.Post-Docs h2,
+section.Post-Docs2 h2 {
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  color: #000;
+  font-size: 2.1rem;
+  margin-bottom: 6px;
+  text-align: center;
+  padding: 0 0 40px 0;
+  text-transform: uppercase;
+}
+
+section.Post-Docs2 h2 {
+  text-align: left;
+}
+
+.icono-rebel img {
+  background-color: #2d2f7b;
+  width: 38%;
+  border-radius: 7%;
+  padding: 12px;
+  float: right;
+}
+section.Post-Docs h2 strong,
+section.Post-Docs2 h2 strong {
+  color: #2d2f7b;
+  text-shadow: 0px 2px 3px #c0c0c0;
+}
+section.Post-Docs2 h2 strong {
+  color: #2d2f7b;
+}
+
+.Investigadoresfaqacordeon button.accordion-button {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.Investigadoresfaqacordeon .accordion-item__content .accordion-header .accordion-button {
+  color: #363879;
+  font-weight: 800;
+}
+section.multimedia h2 strong {
+  margin: auto;
+  color: #2d2f7b;
+  text-shadow: 0px 2px 3px #c0c0c0;
+}
+
+section.multimedia h2 {
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+.multimedia a {
+  background-color: #da0921;
+  padding: 5px 15px;
+  color: #fff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.multimedia h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #000;
+}
+
+.multimedia img {
+  width: 245px;
+  height: 224px;
+  object-fit: cover;
+  object-position: -12px;
+  background-color: azure;
+}
+.Equipo .card {
+  box-shadow: -4px 4px 7px #ececec;
+}
+
+.Equipo .badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #4f1351;
+  margin-top: 15px;
+}
+.Equipo .bt-eventos {
+  background-color: #da0921;
+  width: 100px;
+  padding: 3px 10px;
+  color: #fff;
+  font-weight: 800;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.Equipo button.carousel-control-next {
+  background-color: #632b6cad;
+  border-radius: inherit;
+  opacity: 100;
+}
+
+.Equipo button.carousel-control-prev {
+  background-color: #9c27b0a6;
+  border-radius: inherit;
+  opacity: 100;
+  position: absolute;
+  padding: 0;
+  width: 27px;
+}
+
+.Equipo button.carousel-control-prev:hover,
+button.carousel-control-next:hover {
+  background-color: #da0921;
+}
+#Eventos  h2 {
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  color: #fff;
+  font-size: 2.1rem;
+  margin-bottom: 6px;
+  text-align: center;
+  padding: 0 0 40px 0;
+  text-transform: uppercase;
+  z-indez:0;
+}
+div#Eventos h2.display-4 {  color: #000;}
+@media (max-width: 600px) {
+button.navbar-toggler {
+  background-color: #e7e7e7;
+}
+.fixed-top {
+  top: inherit!important;
+}
+  #btn-rebel-1 {
+      width: 100%;
+      bottom: 0;
+      top: inherit;
+  }
+  .icono-rebel img {
+      float: inherit;
+      margin: auto;
+      margin-bottom: 20px;
+  }
+  section.Post-Docs h2 {
+      font-size: 1.3em;
+  }
+  .Equipo .row-striped {
+      padding: 35px 60px;
+  }
+  .Equipo .evento-fecha h2 {
+      color: #000;
+      font-size: 1em;
+      font-weight: 900;
+  }
+}

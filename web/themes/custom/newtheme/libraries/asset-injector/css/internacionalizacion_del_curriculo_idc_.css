@@ -1,0 +1,287 @@
+/*Componentes de la IdC*/
+
+/*Internacionalizacion del curriculo*/
+.Internacionalizacion_curriculum .caja {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
+  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
+}
+
+.Internacionalizacion_curriculum .caja {
+  box-shadow: -2px 0px 10px 0px #00000030;
+  padding: 20px;
+  margin-bottom: 36px;
+  border-radius: 11px;
+}
+.Internacionalizacion_curriculum .caja img {
+  display: block;
+  background-color: #e7e6f3;
+  border-radius: 50%;
+  padding: 14px;
+  width: 23%;
+  margin-bottom: 17px;
+}
+.Internacionalizacion_curriculum .caja strong {
+  font-size: 1.2em;
+}
+.Internacionalizacion_curriculum .caja i {
+  color: #6c0ca8;
+}
+.Internacionalizacion_curriculum .ModalItems .modal-body i {
+  color: #48cce8;
+}
+.Internacionalizacion_curriculum .caja hr {
+  border: 1px solid#6c0ca8;
+  margin: 5px 0;
+  background-color: #6c0ca8;
+  opacity:1;
+}
+.Internacionalizacion_curriculum .caja .ovrly {
+  background: rgb(51 1 104 / 74%);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.Internacionalizacion_curriculum .caja:hover .ovrly {
+  opacity: 1;
+}
+.Internacionalizacion_curriculum .caja .buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Nunito" !important;
+}
+.Internacionalizacion_curriculum .caja:hover .buttons .fa {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  color: rgba(255, 255, 255, 0.9);
+}
+.Internacionalizacion_curriculum .caja .buttons .fa {
+  background: #3fc9e7 !important;
+  -webkit-box-shadow: 0 0 1px rgb(0 0 0 / 30%);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgb(0 0 0 / 30%);
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 4% !important;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free" !important;
+  line-height: 40px;
+  font-size: 16px !important;
+  text-align: center;
+  text-decoration: none;
+  width: 111px !important;
+  height: 59px;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  position: relative;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+  -o-transition: -o-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  color: transparent;
+  width: 97px;
+  border: none;
+}
+.Internacionalizacion_curriculum .caja .buttons .fa span{
+	font-size: 1rem;
+  font-family: 'Nunito';
+}
+.Internacionalizacion_curriculum a,
+.Coilt,
+.caj1,
+.caj2,
+.caj3,
+.caj4,
+.caj5 {
+  padding: 10px;
+  color: #5d5e5e;
+  border-top-left-radius: 14px 13px;
+  border-top-right-radius: 14px 13px;
+  border-bottom-right-radius: 14px 13px;
+  border-bottom-left-radius: 14px 13px;
+  font-weight: 800;
+  text-align: center;
+  background-color: #fff !important;
+  clip-path: none !important;
+  width: 100%;
+  display: block;
+}
+
+.Internacionalizacion_curriculum .modal-header .titulo {
+  font-size: 1.4em;
+  font-weight: 800;
+  line-height: 1em;
+  color: #464544;
+}
+.Internacionalizacion_curriculum .modal-header button.close {
+  background-color: #71e6ff !important;
+  opacity: 100 !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 48px !important;
+  color: #fff !important;
+  transition: 1s;
+  border: none;
+  font-size: 2rem;
+  line-height: 10%;
+  padding: 1rem 1rem;
+  margin: 0;
+}
+.Internacionalizacion_curriculum .modal-header button.close:hover {
+  background-color: #673ab7 !important;
+}
+
+.Internacionalizacion_curriculum button.btn.btn-secondary {
+  background: rgb(32, 27, 133);
+  background: linear-gradient(
+    183deg,
+    rgba(32, 27, 133, 1) 0%,
+    rgba(22, 15, 73, 1) 35%
+  );
+  margin: auto;
+  border-radius: 20px;
+  color: #70e1f6;
+  font-size: 1.3em;
+  padding: 6px 29px;
+  font-weight: 800;
+}
+.Internacionalizacion_curriculum button.btn.btn-secondary:hover {
+  background: rgb(32, 27, 133);
+  background: linear-gradient(
+    298deg,
+    rgba(32, 27, 133, 1) 0%,
+    rgba(22, 15, 73, 1) 35%
+  ) !important;
+}
+.Internacionalizacion_curriculum .accordion-button {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 22px;
+  color: #47c7e2;
+  background-color: #e3e9ff;
+  font-size: 22px;
+  font-weight: 700;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  text-decoration: none !important;
+  margin-bottom: 17px;
+  border:inherit;
+}
+.Internacionalizacion_curriculum .accordion-button:not(.collapsed) {
+  color: #47c7e2;
+  background-color: #e3e9ff;
+  box-shadow: none;
+}
+.Internacionalizacion_curriculum .accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+.Internacionalizacion_curriculum .accordion-button i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+.fa-chevron-down:before {
+  content: "\f078";
+}
+.Internacionalizacion_curriculum .accordion i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.Internacionalizacion_curriculum .accordion i {
+  color: #71e6ff !important;
+}
+.Internacionalizacion_curriculum .cja_morado,
+.cja_moradooscu {
+  background-color: #f6f5fa;
+  padding: 1% 3%;
+  margin-bottom: 20px;
+}
+
+.Internacionalizacion_curriculum .cja_moradooscu {
+  background-color: #e3e9ff;
+}
+.Internacionalizacion_curriculum .accordion i {
+  color: #48cce8;
+  position: inherit !important;
+}
+.Internacionalizacion_curriculum h5 {
+  font-weight: 900;
+  color: #3fc9e7;
+  font-size: 1.4em;
+}
+.Internacionalizacion_curriculum .modal .btnm a {
+  background-color: #3fc9e7 !important;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: 1s;
+  text-decoration: none;
+}
+.Internacionalizacion_curriculum .modal .btnm a:hover {
+  background-color: #6c0ca8 !important;
+  text-decoration: underline;
+}
+.Internacionalizacion_curriculum .modal .btnm a i {
+  color: #fff;
+}
+.Internacionalizacion_curriculum .modal-header .titulo {
+  font-size: 1.4em;
+  font-weight: 800;
+  line-height: 1em;
+  color: #464544;
+}
+.Internacionalizacion_curriculum .fade {
+  background: linear-gradient(
+    to right,
+    rgba(46, 49, 128, 0.88),
+    rgba(27, 20, 45, 0.86)
+  );
+}
+.Internacionalizacion_curriculum .caja .modal h6 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.Internacionalizacion_curriculum .ModalItems .modal-body .modalIMG-curriculum {
+  width: 100%;
+}
+.Internacionalizacion_curriculum .ModalItems .modal-body .modalIMG-curriculum img{
+  width: 100%;
+  border-radius: inherit;
+    background-color: transparent;
+}

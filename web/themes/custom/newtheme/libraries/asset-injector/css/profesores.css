@@ -1,0 +1,2132 @@
+#profesores .menu_lateral .close {
+  float: right;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  text-shadow: 0 1px 0 #da0921;
+  transition: all 0.3s;
+}
+
+#profesores .menu_lateral .close:hover {
+  font-size: 3rem;
+  color: #da0921;
+  opacity: .8;
+  transition: all 0.3s;
+}
+
+#profesores .menu_lateral a:hover {
+  color: #fff;
+}
+
+#profesores a {
+  font-weight: 100;
+  color: $white;
+  font-weight: 700;
+}
+
+#profesores a.btn {
+  width: 270px;
+  font-family: 'Nunito';
+  font-weight: bold;
+  font-size: 17px;
+  transition: 0.8s;
+  padding: 10px 8px;
+}
+
+#profesores a:hover {
+  color: $white;
+  text-decoration: none;
+}
+
+#egresados .programas h3 {
+  bottom: 0;
+  align-items: flex-end;
+  align-content: flex-end;
+  display: flex;
+  color: #fff;
+  font-size: 1.2em;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+#sistemas-informacion .sistemas button {
+  border: 2px solid #fff;
+  background: #ffffff;
+  margin: 0;
+  margin-right: 0px;
+  padding: 30px;
+}
+
+#sistemas-informacion .sistemas a {
+  border: 2px solid #fff;
+  background: #ffffff;
+  margin: 0;
+  margin-right: 0px;
+  padding: 30px;
+}
+
+#profesores h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #000;
+  padding: 5px 0px;
+  margin: 0;
+}
+
+#profesores p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+#profesores h3 {
+  font-size: 1.7em;
+}
+
+#profesores h6 {
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+#profesores button,
+#profesores .white-bold {
+  font-size: 1.0em;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase
+}
+
+#profesores hr {
+  width: 70%;
+  position: static;
+  border: 2px solid #dA0921;
+  display: inline-block;
+  margin: 20px 0px 20px -50%;
+  background: #da0921;
+}
+
+#profesores .container {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#profesores .rosarista h2 span {
+  font-size: 1.7em;
+}
+
+#profesores.container-fluid {
+  padding: 0;
+  display: block;
+}
+
+#profesores.container-fluid .rosarista {
+  padding: 40px;
+}
+
+#profesores .conoce-mas p {
+  font-size: 1.2em;
+}
+
+#profesores .rosarista {
+  flex-wrap: nowrap;
+  position: relative;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#profesores .center_item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+#profesores .rosarista .white-bold {
+  margin: 0;
+}
+
+#profesores .profesores {
+  border: 2px solid #ddd;
+  padding: 15px 15px 0px;
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/profesores.jpg);
+  width: 120%;
+  min-height: 580px;
+  background-size: cover;
+}
+
+#profesores .profesores::before {
+  border: 2px solid #dadae5;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 68px;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  transition: all 0.3s;
+  margin: -16px 0;
+  z-index: -1;
+  width: 110%;
+}
+
+#profesores .conoce-mas {
+  padding: 5% 7%;
+  border-radius: 0;
+  width: 100%;
+  box-shadow: 3px 2px 13px #cecece;
+  z-index: 1;
+  background: #fff;
+}
+
+#profesores .conoce-mas p {
+  font-size: 1.2em;
+}
+
+#profesores .programas {
+  display: flex;
+  padding: 25px 0;
+}
+
+#profesores .programas a.reconocimiento,
+a.premio_docencia,
+a.apoyo-becas,
+.fondo_innovacion {
+  width: 100%;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  transition: background-image 0.3s linear;
+  position: relative;
+  padding: 20px;
+}
+
+#profesores .programas a.reconocimiento {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/esculas_facultades.jpg);
+}
+
+#profesores .programas a.premio_docencia {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/gobierno-estudiantil.jpg);
+}
+
+#profesores .programas a.apoyo-becas {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/reglamentos-academicos.jpg);
+  background-position-y: top;
+}
+
+.becas-premios-distinciones p {
+  padding-top: 15%;
+}
+
+#profesores .programas a.fondo_innovacion {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/opciones-academicas.jpg);
+  background-position-y: top;
+}
+
+#profesores .filtro:before {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.44) 0%, rgba(12, 3, 93, 0.72) 100%);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+#profesores .filtro:hover:after {
+  opacity: 1;
+}
+
+#profesores .filtro:hover {
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+#profesores .filtro:after {
+  background-image: linear-gradient(to bottom, rgba(68, 1, 1, 0.3) 0%, rgba(170, 20, 20, 0.24) 100%);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+#profesores .programas h3 {
+  bottom: 0;
+  align-items: flex-end;
+  align-content: flex-end;
+  display: flex;
+  color: #fff;
+  font-size: 1.2em;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+#profesores .programas h3 {
+  bottom: 58px;
+  align-items: flex-end;
+  align-content: flex-end;
+  display: flex;
+  color: #fff;
+  font-size: 1.2em;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+  line-height: 25px;
+  left: 27px;
+}
+
+#profesores .programas h3::before {
+  content: "";
+  width: 114px;
+  height: 4px;
+  background-color: #dA0921;
+  position: absolute;
+  left: -1px;
+  bottom: -9px;
+  margin: 0 auto;
+}
+
+#profesores .historia.izquierda {
+  width: 100%;
+  background: rgba(173, 42, 51, 1);
+  background: -moz-linear-gradient(top, rgba(173, 42, 51, 1) 35%, rgba(173, 42, 51, 1) 37%, rgba(218, 10, 34, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(35%, rgba(173, 42, 51, 1)), color-stop(37%, rgba(173, 42, 51, 1)), color-stop(100%, rgba(218, 10, 34, 1)));
+  background: -webkit-linear-gradient(top, rgba(173, 42, 51, 1) 35%, rgba(173, 42, 51, 1) 37%, rgba(218, 10, 34, 1) 100%);
+  background: -o-linear-gradient(top, rgba(173, 42, 51, 1) 35%, rgba(173, 42, 51, 1) 37%, rgba(218, 10, 34, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(173, 42, 51, 1) 35%, rgba(173, 42, 51, 1) 37%, rgba(218, 10, 34, 1) 100%);
+  background: linear-gradient(to bottom, rgba(173, 42, 51, 1) 35%, rgba(173, 42, 51, 1) 37%, rgba(218, 10, 34, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ad2a33', endColorstr='#da0a22', GradientType=0);
+}
+
+#profesores .historia .derecha {
+  width: 100%;
+  height: auto;
+  min-height: 462px;
+}
+
+#profesores .historia .pedagogica {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/Valerie-principal.jpg);
+  width: 60%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 14%;
+  padding: 30px 76px;
+  min-height: 462px;
+  position: absolute;
+  margin: 0;
+  right: 0;
+  border: none;
+}
+
+#profesores .historia .este_mes {
+  color: #fff;
+  padding: 30px 30px;
+}
+
+#profesores .historia .este_mes h2 {
+  color: #f7f7f7;
+  text-align: left;
+  font-size: 2.3em;
+}
+
+#profesores .bottom_text {
+  display: block;
+  margin-top: 20%;
+  padding: 0px 30px 0px 0px;
+}
+
+#profesores .conozca {
+  display: none;
+}
+
+#profesores button.pedagogica {
+  margin: 0;
+  padding: 0;
+}
+
+#profesores .filtro_2:hover:after {
+  opacity: 1;
+}
+
+#profesores .filtro_2:hover {
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+#profesores .filtro_2:after {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.28) 0%, rgba(9, 4, 58, 0.69) 100%);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+#profesores .historia {
+  margin: 30px 0;
+}
+
+#profesores .historia a.link-history {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#profesores .historia a.link-history:hover {
+  color: #2c2e78;
+  text-decoration: underline;
+}
+
+#profesores .recursos h2 {
+  color: #fff;
+  line-height: 55px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#profesores .recursos h2 span {
+  font-size: 0.7em;
+  line-height: 25px;
+}
+
+#profesores .recursos .recursos_docentes {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/bg_profesores.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: right;
+}
+
+#profesores .recursos .recursos_docentes::before {
+  background-image: linear-gradient(to bottom, rgba(234, 5, 5, 0.91) 0%, rgba(232, 0, 0, 0.86) 100%);
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  transition: all 0.3s;
+  width: 50%;
+}
+
+#profesores .recursos {
+  position: relative;
+}
+
+#profesores .recursos_docentes button {
+  margin: 0 auto;
+}
+
+#profesores .recursos.capsulas {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/innovacion-pedagogica.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: left;
+}
+
+#profesores .recursos.capsulas::before {
+  background-image: linear-gradient(to bottom, rgba(27, 20, 45, 0.74) 0%, rgba(43, 44, 114, 0.94) 100%);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  transition: all 0.3s;
+  width: 50%;
+}
+
+#profesores .box_padding {
+  padding: 9% 0;
+  text-align: center;
+}
+
+#profesores .text_profesores {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+#profesores button,
+#profesores .white-bold {
+  padding: 5px 18px;
+  align-items: center;
+}
+
+#profesores button i,
+#profesores .white-bold i {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 5px 10px;
+}
+
+#profesores button.white_blue {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+#profesores button.white_blue:hover {
+  background-color: #fff;
+  color: #2b2c74;
+}
+
+#profesores button.white {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+#profesores button.white:hover {
+  background-color: #fff;
+  color: #dA0921;
+}
+
+#profesores .white-bold {
+  border: 1px solid #dA0921;
+  ;
+  background-color: #fff;
+  color: #dA0921;
+  font-weight: 400;
+}
+
+#profesores .white-bold:hover {
+  border: 1px solid #fff;
+  background-color: #dA0921;
+  color: #fff;
+  text-decoration: none;
+}
+
+#profesores .carousel-item a {
+  color: #fff;
+  font-size: 0.9em;
+  text-decoration: none;
+  top: 433px;
+  right: 2px;
+}
+
+#profesores .carousel-item p {
+  color: #2d2f7b !important;
+  font-size: 0.8em;
+  font-weight: 800;
+  line-height: 1em;
+  padding-top: 10px;
+}
+
+#profesores .sistema_informacion {
+  margin: 57px 0 73px 0;
+  background-color: #dadae5;
+  padding: 4% 0 4% 0;
+}
+
+#profesores .informacion {
+  margin: 30px 0;
+  background-color: #fff;
+}
+
+#profesores .sistemas .tiptext a {
+  color: #dA0921;
+}
+
+#profesores .sistemas .tiptext a:hover {
+  color: #dA0921;
+  text-decoration: underline;
+}
+
+#profesores .info-sistemas a {
+  padding: 5px 18px;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#profesores .sistemas a {
+  padding: 5px 18px;
+  align-items: center;
+}
+
+#profesores .sistemas a {
+  border: 1px solid#dadae5;
+  background: #ffffff;
+  margin: 0px auto;
+  padding: 13px 22px 0 30px;
+  text-decoration: none;
+}
+
+#profesores .sistemas button:hover {
+  background: rgb(251, 251, 251);
+}
+
+#profesores .sistemas img {
+  width: 36%;
+}
+
+#profesores .tooltip {
+  position: relative;
+  display: inline-block;
+  /*border-bottom: 1px dotted black;*/
+  opacity: inherit;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-size: 0.7em;
+  z-index: 10;
+}
+
+#profesores button span.tiptext {
+  text-transform: initial;
+}
+
+#profesores .tooltip .tiptext {
+  visibility: hidden;
+  width: 90%;
+  background-color: white;
+  color: #000;
+  text-align: left;
+  border-radius: 3px;
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#profesores .tooltip .tiptext::after {
+  content: "";
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+}
+
+#profesores .tooltip:hover .tiptext {
+  visibility: visible;
+}
+
+#profesores .tooltip.bottom .tiptext {
+  top: 100%;
+  left: 5%;
+  padding: 20px;
+}
+
+#profesores .tooltip.bottom .tiptext::after {
+  margin-left: -5px;
+  bottom: 100%;
+  left: 50%;
+  border-color: transparent transparent #fffefe transparent;
+}
+
+#profesores .item_card {
+  margin: 10px 0;
+  min-width: 214px;
+}
+
+#profesores .wrap-fields-image img {
+  width: 100%;
+}
+
+#profesores .acuerdo {
+  background: #fff;
+  padding: 30px 0px;
+}
+
+/* ACUERDO ROSARISTA */
+#profesores .Acuerdos_Rosaristas .img_nuevoUR {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+#profesores .Acuerdos_Rosaristas .img_nuevoUR img {
+  width: 100%;
+  min-width: 680px;
+}
+
+#profesores .Acuerdos_Rosaristas .box_color {
+  padding: 10% 7%;
+  background: #fff;
+  height: 100%;
+  margin-top: 10px;
+}
+
+#profesores .Acuerdos_Rosaristas h2 span {
+  font-size: 1.3em;
+}
+
+#profesores .Acuerdos_Rosaristas p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+#profesores .Acuerdos_Rosaristas a.white-bold {
+  font-size: 1.0em;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #fff;
+  background-color: #dA0921;
+  color: #fff;
+  padding: 5px 18px;
+  display: flex;
+  align-items: center;
+  max-width: 55%;
+  text-align: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+#profesores .Acuerdos_Rosaristas a.white-bold i {
+  font-size: 25px;
+  font-weight: 800;
+  margin: 5px 10px;
+}
+
+#profesores .Acuerdos_Rosaristas a.white-bold:hover {
+  border: 1px solid #dA0921;
+  background-color: #fff;
+  color: #dA0921;
+  text-decoration: none;
+}
+
+/* ACUERDO ROSARISTA */
+
+/* NOTICIAS */
+#profesores .noticias {
+  background-image: linear-gradient(90deg, #dadae5 50%, #dadae5 50%);
+}
+
+#profesores .noticias .principal {
+  background: #dadae5;
+  padding-top: 30px;
+}
+
+#profesores .noticia_principal {
+  -webkit-box-shadow: 3px 8px 31px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 8px 31px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 8px 31px -12px rgba(0, 0, 0, 0.75);
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+#profesores .noticias .content_principal {
+  -webkit-box-shadow: 3px 8px 31px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 8px 31px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 8px 31px -12px rgba(0, 0, 0, 0.75);
+  background: #fff;
+  margin: 20px 0;
+}
+
+#profesores .noticias a.news-teaser-link {
+  background-color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.2;
+  color: #000;
+  transition: 0.25s all;
+  box-shadow: 0 0 0 transparent;
+  align-items: stretch;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#profesores .content_principal .wrap-info p {
+  font-size: 1.2em;
+}
+
+#profesores .noticias a.news-teaser-link .wrap-info {
+  padding: 15px 20px;
+}
+
+#profesores .noticias .news-image {
+  position: relative;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding: 0 !important;
+}
+
+#profesores .noticias .content_principal .category-news {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 4px 5px;
+  color: #fff;
+  background-color: #dA0921;
+}
+
+#profesores .noticias .news-image .wrap-fields-image {
+  position: relative;
+}
+
+#profesores .noticias .secundaria .wrap-info .news-date {
+  font-size: 0.7em;
+}
+
+#profesores .noticias .wrap-info .news-date {
+  font-size: 0.8em;
+  margin-bottom: 4px;
+  font-family: 'Roboto Mono', monospace;
+  color: #5b5b5b;
+}
+
+#profesores .noticias .wrap-info h2 {
+  line-height: 1.1;
+  font-weight: bold;
+  margin: 0 0 15px;
+  color: #dA0921;
+}
+
+#profesores .noticias .content_principal .wrap-info h2 {
+  font-size: 1.5em;
+}
+
+#profesores .secundaria .wrap-info p {
+  font-size: 1.0em;
+}
+
+#profesores .noticias .content_principal a.news-teaser-link .wrap-info {
+  padding: 30px 30px;
+}
+
+#profesores .noticias .secundaria .wrap-info h2 {
+  font-size: 1.3em;
+  line-height: 26px;
+  margin: 5px 0;
+}
+
+#profesores .noticias .secundaria .news-teaser-link.news_1 .news-image {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/news-teaser-1.jpg);
+}
+
+#profesores .noticias .secundaria .news-teaser-link.news_2 .news-image {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/news-teaser-2.jpg);
+}
+
+#profesores .noticias .secundaria .news-teaser-link.news_3 .news-image {
+  background-image: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/news-teaser-3.jpg);
+}
+
+#profesores .noticias .secundaria .news-teaser-link .news-image {
+  position: relative;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+  max-height: 41.6667%;
+  height: 210px;
+  background-position: 26% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#profesores .noticias .secundaria {
+  padding: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: stretch;
+}
+
+#profesores .noticias .secundaria .wrap-info p {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+#profesores .noticias .secundaria .news-teaser-link .wrap-info {
+  position: relative;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 20px;
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
+}
+
+#profesores a.news-teaser-link:hover {
+  box-shadow: 1px 3px 16px rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+
+#profesores .noticias .secundaria .news-teaser-link a.news-teaser-link {
+  background-color: #fff;
+  font-size: 0.9em;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.2;
+  color: #000;
+  transition: 0.25s all;
+  box-shadow: 0 0 0 transparent;
+  align-items: stretch;
+}
+
+#profesores .noticias .secundaria .news-small {
+  border-top: 1px solid #ccc;
+  padding: 15px 0;
+  width: 100%;
+}
+
+#profesores .noticias .secundaria .news-small:first-child {
+  border-top: none;
+}
+
+#profesores .news-teaser-link .news-image .category-news {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 4px 5px;
+  color: #fff;
+  background-color: #dA0921;
+  font-size: 0.9em;
+}
+
+#profesores .bottom-more {
+  text-align: right;
+  margin: 30px 0;
+  font-weight: bold;
+}
+
+#profesores .bottom-more a {
+  color: #282828;
+  transition: all 0.35s;
+  font-size: 0.9em;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+}
+
+#profesores .content_principal .btn {
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#profesores .bottom-more a:hover {
+  color: #dA0921;
+}
+
+.footer-line-3 .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+footer {
+  padding-bottom: 0 !important;
+}
+
+/* NOTICIAS */
+
+/*INICIO NUEVO BANNER*/
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+#Seccion-Profesores.inicio .banner .contenedor-banner {
+  background-image: linear-gradient(to bottom, rgba(4, 12, 94, 0.9) 40%, rgba(255, 255, 255, 0.6) 100%);
+  max-height: 550px;
+  min-height: 450px;
+}
+
+#Seccion-Profesores.inicio .banner .titulo-banner {
+  padding-left: 100px;
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  color: white;
+}
+
+#Seccion-Profesores.inicio .banner .subtitulo-banner {
+  padding-left: 100px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 8%;
+  color: white;
+}
+
+
+/* clases comunes */
+#Seccion-Profesores.inicio {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#Seccion-Profesores .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.banner {
+  position: relative;
+}
+
+#Seccion-Profesores.inicio .btn-danger,.hero-estudiantes .btn-danger {
+  display: table !important;
+  padding: 10px !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  margin: 10px 0px !important;
+  color: white !important;
+  width:unset !important;
+  background-color: #DA0921 !important;
+  transition: .3s !important;
+ 
+}
+ #Seccion-Profesores.inicio .btn-danger,.hero-estudiantes .btn-danger i {
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+#Seccion-Profesores.inicio .btn-secondary,.hero-estudiantes .btn-secondary {
+  display: table !important;
+  padding: 10px !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  color: white !important;
+  margin: 10px 0px !important;
+  background-color: #5b5959 !important;
+  transition: .3s !important;
+ 
+}
+
+#Seccion-Profesores.inicio .btn-danger:hover ,.hero-estudiantes .btn-danger:hover {
+  background-color: rgba(218, 9, 33, 0.7) !important;
+  transition: .3s !important;
+  border-width: 3px !important;
+  border-color: #fff !important;
+  font-weight: bold !important;
+  text-decoration: underline;
+}
+
+#Seccion-Profesores.inicio .btn-secondary:hover,.hero-estudiantes .btn-secondary:hover {
+  background-color: rgba(91, 89, 89, 0.7) !important;
+  transition: .3s !important;
+  font-weight: bold !important;
+  border-width: 3px !important;
+  border-color: #fff !important;
+  text-decoration: underline;
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+.hero-estudiantes .btn-danger, .hero-estudiantes .btn-secondary{
+    width: 38% !important;
+    font-size: 12px !important;
+    line-height: 15px;
+}}
+/* fin clases comunes */
+
+#Seccion-Profesores.inicio .banner {
+  position: relative;
+}
+
+
+
+/*INICIO SECCIÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œN S-FACTORY*/
+
+#Seccion-Profesores.inicio .contenedor-principal-1 {
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+#Seccion-Profesores.inicio .contenedor-principal-2 {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+#Seccion-Profesores.inicio .contenedor1-textos {
+  padding: 60px 25px;
+}
+
+#Seccion-Profesores.inicio .titulo-seccion {
+  color: #5D605E;
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+#Seccion-Profesores.inicio .texto-seccion {
+  font-family: 'Montserrat', sans-serif;
+  color: #0F0E0E;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34px;
+  margin-bottom: 0px;
+}
+
+/*FIN NUEVO BANNER*/
+
+
+
+@media (min-width: 1900px) {
+  .mostrar-escritorio .img-fluid {
+    width: 65% !important;
+    margin-top: 3% !important;
+  }
+
+}
+
+@media (max-width: 1300px) {
+
+  #profesores .sistemas h6 {
+    font-size: 1.4em;
+  }
+
+  #profesores .sistemas a {
+    padding: 18px 22px 0 30px;
+  }
+}
+
+@media (min-width: 1300px) {
+  #profesores .container {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #profesores .sistemas h6 {
+    font-size: 1.2em;
+  }
+
+  #profesores .sistemas a {
+    padding: 30px 22px 0 30px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #profesores .container {
+    max-width: none !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #profesores .rosarista h2 {
+    font-size: 2.5em;
+    line-height: 41px;
+  }
+
+  .rosarista h2 {
+    font-size: 2.5em;
+    line-height: 58px;
+  }
+
+  #profesores .conoce-mas p {
+    font-size: 1.0em;
+  }
+
+  #profesores .conoce-mas img {
+    margin: 10px 0;
+    max-width: 500px;
+  }
+
+  #profesores .rosarista {
+    display: block;
+  }
+
+  #profesores .tooltip .tiptext {
+    width: 100%;
+    left: 0% !important;
+  }
+
+  #profesores .historia .conozca {
+    display: block;
+  }
+
+  #profesores .historia .pedagogica {
+    width: 50%;
+  }
+
+  /* NOTICIAS */
+  #profesores .noticias {
+    background-image: linear-gradient(90deg, #dadae5 100%, #fff 0%);
+  }
+
+  #profesores .noticias .secundaria {
+    display: none;
+  }
+
+  #profesores .noticias .content_principal .wrap-info h2 {
+    font-size: 1.2em;
+    line-height: 25px;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .profesores .estadisticas {
+    background-color: #2d2f7b;
+    color: #fff;
+    padding: 0 4px;
+    font-size: 0.6em;
+    margin-top: 10%;
+  }
+
+  .circulo {
+    background-color: #ffffff;
+    padding: 2px 6px;
+  }
+
+  #profesores h6 {
+    font-size: 1.1em;
+  }
+
+  #profesores .sistemas a {
+    padding: 35px 22px 0 30px;
+  }
+
+  .banner .slideCifras {
+    margin-top: 10% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #profesores .profesores::before {
+    width: 90%;
+  }
+
+  #profesores .profesores {
+    width: 100%;
+    min-height: 359px;
+  }
+
+  #profesores.container-fluid .rosarista {
+    padding: 20px;
+  }
+
+  #profesores h2 {
+    font-size: 2.0em;
+  }
+
+  #profesores hr {
+    width: 80%;
+  }
+
+  #profesores .recursos h2 span {
+    font-size: 0.6em;
+  }
+
+  #profesores .historia .este_mes {
+    padding: 30px;
+  }
+
+  #profesores .becasypremios {
+    padding: 50px 0px;
+  }
+
+  #profesores .bottom_text {
+    display: contents;
+  }
+
+  #profesores .tiptext {
+    display: none;
+  }
+
+  #profesores .historia .pedagogica {
+    width: 100%;
+    position: relative;
+  }
+
+  #profesores .conozca {
+    display: none;
+  }
+
+  #profesores .historia .este_mes {
+    max-width: 100%;
+  }
+
+  #profesores .recursos.capsulas::before {
+    transition: all 0.3s;
+    width: 100%;
+    height: 271px;
+    background: linear-gradient(to bottom, rgba(27, 20, 45, 0.74) 0%, rgba(43, 44, 114, 0.94) 100%), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/innovacion-pedagogica.jpg);
+  }
+
+  #profesores .recursos .recursos_docentes::before {
+    transition: all 0.3s;
+    width: 100%;
+    height: 252px;
+    top: auto;
+    background: linear-gradient(to bottom, rgba(234, 5, 5, 0.91) 0%, rgba(232, 0, 0, 0.86) 100%), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/Profesores/img/bg_profesores.jpg);
+    background-position-x: center;
+  }
+
+  #profesores .sistemas a {
+    min-height: 240px;
+  }
+
+  #profesores .sistemas img {
+    width: 40% !important;
+  }
+
+  #profesores .info-sistemas a {
+    min-height: 240px;
+  }
+
+  .informacion .info-sistemas img {
+    width: 40% !important;
+  }
+
+  /* NOTICIAS */
+  #profesores .noticias .secundaria {
+    display: none;
+  }
+
+  #profesores .noticias .content_principal a.news-teaser-link .wrap-info {
+    padding: 15px 20px;
+  }
+
+  #profesores .noticias .secundaria {
+    padding: 30px 40px;
+  }
+
+  /* NOTICIAS */
+  .contenedor-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #profesores .rosarista h2 {
+    font-size: 1.8em;
+  }
+
+  #profesores .box_padding {
+    padding: 15% 0;
+  }
+
+  .profesores img {
+    padding-top: 11%;
+  }
+
+  .estadisticas b {
+    background-color: #da0921;
+  }
+
+  .circulo {
+    background-color: #ffffff;
+    padding: 2px 6px;
+  }
+
+  #sistemas-informacion .contenedor-btn img {
+    width: 48% !important;
+  }
+
+  .informacion .info-sistemas img {
+    width: 34% !important;
+  }
+
+  .profesores .estadisticas {
+    background-color: #2d2f7b;
+    color: #fff;
+    padding: 4px 39px;
+  }
+
+  .becas-premios-distinciones p {
+    padding-top: 2%;
+  }
+
+  #profesores .carousel-item p {
+    font-size: 1.1em;
+  }
+
+  #profesores .sistemas a {
+    min-height: auto;
+  }
+
+  #profesores .info-sistemas a {
+    min-height: auto;
+  }
+
+  #profesores h6 {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 360px) {
+  .profesores img {
+    padding-top: 26%;
+  }
+}
+
+.menu_lateral {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  max-width: 70%;
+  z-index: 99;
+  padding: 140px 30px 30px;
+  background: linear-gradient(90deg, #2e3180, #1b142d);
+  opacity: 0;
+  transition: all 0.75s ease;
+  font-size: 15px;
+  overflow-y: scroll;
+}
+
+.menu_lateral .spa_table {
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+.menu_lateral .item_height {
+  align-items: stretch;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 10px 10px;
+}
+
+.menu_lateral a {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0.5em;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 16px;
+  padding: 16px 2px;
+  font-size: 0.8em;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.menu_lateral a:hover {
+  background-color: #c72c2c;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu_lateral .spa_table img {
+  width: 30px;
+  margin-right: 5px;
+  max-width: 30px;
+}
+
+.visible_menu .menu_lateral {
+  right: 0;
+  opacity: 1;
+}
+
+.icontop .tab-bootstrap .nav-link.active span {
+	color: white;
+}
+
+.views-exposed-form {
+	width: 100%;
+}
+
+.views-exposed-form form {
+	width: 100%;
+	max-width: 1405px;
+	margin: 0 auto;
+}
+
+.views-exposed-form .form-item__dropdown::after {
+	display: none !important;
+}
+
+.views-exposed-form select {
+    background-color: #fff !important;
+    height: 40px;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    background-position: right center;
+    appearance: auto;
+    padding: 0.5em 0.8em 0.5em;
+    color: gray;
+    background-origin: content-box;
+    background-size: 12px;
+    background-repeat: no-repeat;
+}
+
+.path-admin .views-exposed-form select {
+    background-color: #fff !important;
+    height: 40px;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    background-position: right center;
+    appearance: none;
+    padding: 0.5em 0.8em 0.5em;
+    color: gray;
+    background-origin: content-box;
+    background-size: 12px;
+    background-repeat: no-repeat;
+}
+
+.bc-fucsia #block-breadcrumbs-2 .breadcrumb__item:last-child {
+    font-weight: 800;
+}
+
+.bc-fucsia.bc-menu #block-breadcrumbs-2 {
+		position: fixed;
+    width: 100vw;
+    z-index: 3;	
+}
+
+#block-breadcrumbs-2 .breadcrumb {
+		margin-top: -40px;	
+}
+
+.bc-menu .node {
+	padding-top: 50px;
+}
+@media (min-width:1280px){
+	.bc-menu #navbarSupportedContent .menu-programa-ur-destok {
+		top: 154px;
+	}
+}
+.toolbar-horizontal.bc-menu #navbarSupportedContent .menu-programa-ur-destok {
+    top: 193px;
+}
+
+.toolbar-horizontal.toolbar-tray-open.bc-menu #navbarSupportedContent .menu-programa-ur-destok {
+    top: 233px;
+}
+
+.stylesProfesores .card-header a {
+    color: #000;
+    font-weight: bold;
+    font-size: 0.5em;
+    padding: 0;
+    text-decoration:none;
+    text-align:left;
+}
+.stylesProfesores .card-header a:hover {
+    text-decoration: underline;
+}
+.stylesProfesores .card-header a img{
+	    display: inline-block;
+}
+.stylesProfesores  .card-header {
+    background-color: #c9c9e694;
+    border-radius:0;
+    padding:0;
+}
+.stylesProfesores .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.stylesProfesores .card-body {
+    background-color: #c9c9e694;
+}
+.stylesProfesores .Preguntas {
+    background-color: #fff;
+    padding: 23px;
+    border-top: 3px solid #da0921;
+}
+.stylesProfesores .card-body b {
+    background-color: #110c63;
+    color: #fff;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 1px 8px;
+}
+.stylesProfesores .Preguntas a {
+    color: #da0921;
+    font-weight: 700;
+}
+.stylesProfesores .Preguntas  li{
+    padding-left: 1rem;
+}
+
+.stylesProfesores .Preguntas  li::marker {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    display: block;
+    position: absolute;
+    color: #da0921;
+    font-weight: bolder;
+    margin-left: -31px;
+}
+.stylesProfesores .Guias-instructivos .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, hsl(243deg 77% 16%), hsl(243deg 77% 27% / 87%));
+    transition: opacity 0.3s ease-in 0s, transform 0.3s ease-in 0s, -webkit-transform 0.3s ease-in 0s;
+    opacity: 0;
+    overflow: hidden;
+}
+.stylesProfesores .Guias-instructivos p {
+    height: 73px;
+    width: 100%;
+    font-weight: 700;
+}
+.stylesProfesores .Guias-instructivos img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.stylesProfesores .Guias-instructivos .img-content {
+    position: relative;
+}
+.stylesProfesores .Guias-instructivos .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, hsl(243deg 77% 16%), hsl(243deg 77% 27% / 87%));
+    transition: opacity 0.3s ease-in 0s, transform 0.3s ease-in 0s, -webkit-transform 0.3s ease-in 0s;
+    opacity: 0;
+    overflow: hidden;
+}
+.stylesProfesores .Guias-instructivos .img-content:hover .overlay {
+    opacity: 1;
+}
+.stylesProfesores .Guias-instructivos .text a {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 600;
+    border: 1px solid#fff;
+    display: table;
+    padding: 0 15px;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+.stylesProfesores .Guias-instructivos .text {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateY(-100%);
+    transition: opacity 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: table;
+}
+.stylesProfesores .Guias-instructivos .img-content:hover .overlay .text {
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+.stylesProfesores .Contacto {
+    padding: 4% 11%;
+    overflow: hidden;
+    color: #fff;
+    background: linear-gradient(to left, #0c002ced -9%, #060057f2 100%), url(/sites/default/files/2023-01/contacto-Evaluacion-integral-de-profesores.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+}
+.stylesProfesores .Contacto li{
+	padding-left:1rem;
+}
+
+.stylesProfesores .Contacto li::marker {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    display: block;
+    position: absolute;
+    color: #da0921;
+    font-weight: bolder;
+    margin-left: -31px;
+}
+
+.stylesProfesores .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    background-image: url(/sites/default/files/2023-01/Fondo-btn.jpg);
+    height: 157px;
+    color: #fff;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+}
+
+.stylesProfesores .nav-tabs .nav-item.show .nav-link,.stylesProfesores .nav-tabs .nav-link.active {
+    background-color: #fff !important;
+    background-image: none !important;
+    color: #000 !important;
+}
+.stylesProfesores  .nav-tabs .nav-item{
+	position:relative;
+}
+
+.stylesProfesores  .nav-tabs .nav-link strong {
+    background-color: #da0921;
+    color: #fff;
+    padding: 4px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.stylesProfesores .nav {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+.stylesProfesores .Evaluacion-integral {
+    width: 82%;
+    background-color: #fff;
+    position: relative;
+    top: -82px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    box-shadow: 2px 3px 7px #e0e3ff;
+}
+.stylesProfesores .Evaluacion-integral::before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: solid 60px #111365;
+    border-bottom: solid 60px transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(270deg);
+}
+.stylesProfesores .Evaluacion-integral::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-right: solid 60px #da0921;
+    border-bottom: solid 60px transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.stylesProfesores .modal.fade {
+    background: linear-gradient(to right, rgba(46, 49, 128, 0.88), rgba(27, 20, 45, 0.86));
+}
+.stylesProfesores .modal-header {
+    border-bottom: 1px solid #e5e5e5;
+    background: rgba(218, 218, 229, 0.7803921568627451) !important;
+    padding: 2% 4%;
+}
+.stylesProfesores .modal-footer button {
+    background-color: #da0921;
+    margin: auto;
+    border: 0;
+}
+.stylesProfesores  .modal-body {
+    padding: 11%;
+}
+.stylesProfesores .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.stylesProfesores h2{
+	 font-family: "Nunito", sans-serif;
+	 font-weight: 700;
+}
+.stylesProfesores .card-header h2{
+	font-size:2rem;
+}
+.stylesProfesores .Contacto h2{
+	font-size:2rem;
+}
+.stylesProfesores .Contacto h5{
+	font-size:1.3rem;
+}
+.stylesProfesores .Contacto hr {
+    margin: 0;
+    width: 100%;
+    border: 1px solid#da0921;
+    margin-bottom: 20px;
+    color: #da0921;
+    opacity: 1;
+}
+.stylesProfesores .accordion > .card {
+    margin-bottom: 6px;
+}
+.stylesProfesores .modal-header .close {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    border: none;
+    background-color: transparent;
+}
+.stylesProfesores .modal-header .close:not(:disabled):not(.disabled):hover {
+    opacity: .75;
+}
+.stylesProfesores .modal-footer button:hover {
+    background-color: #2d2448;
+}
+.Tabs_Preguntas_internacional {
+    padding: 2% 0 4%;
+}
+.Tabs_Preguntas_internacional .accordion {
+    margin: 0px auto 20px;
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 0px;
+}
+.Tabs_Preguntas_internacional .accordion .card-header {
+    background: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 0;
+}
+
+.Tabs_Preguntas_internacional .accordion .card {
+    border: none;
+    margin-bottom: 2px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 7px #dbdbdb;
+    padding: 12px;
+}
+.Tabs_Preguntas_internacional .num, .Tabs_Preguntas_internacional .num2 {
+    display: inline;
+    background-color: #3fc9e7;
+    font-weight: 900;
+    border-radius: 50%;
+    margin-right: 14px;
+    color: #ffff;
+    width: 79px;
+    padding: 7px 19px;
+    font-size: 2em;
+}
+.Tabs_Preguntas_internacional .num2 {
+    background-color: #6c0ca8;
+}
+.Tabs_Preguntas_internacional .accordion .card-header button {
+    color: #6c0ca8;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    float: right;
+}
+.Tabs_Preguntas_internacional .accordion .card-header button:not(.collapsed)  i::before {
+	content: "\f056";
+	
+}
+.Tabs_Preguntas_internacional .accordion .card-header button:hover {
+    color: #3fc9e7;
+}
+.Tabs_Preguntas_internacional .card-header p {
+    display: initial;
+    color: #5e5e5e;
+    font-size: 1.4em;
+}
+.Tabs_Preguntas_internacional .accordion .card-header h2 {
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.Tabs_Preguntas_internacional .contenedor_tab_1,.Tabs_Preguntas_internacional .contenedor_tab_2,.Tabs_Preguntas_internacional .contenedor_tab_3 {
+    padding: 10px;
+    border: 3px solid#3fc9e7;
+    color: #5d5e5e;
+    border-top-left-radius: 14px 13px;
+    border-top-right-radius: 14px 13px;
+    border-bottom-right-radius: 14px 13px;
+    border-bottom-left-radius: 14px 13px;
+    margin: 12px 0;
+    font-weight: 800;
+    margin-left: 20px;
+}
+.Tabs_Preguntas_internacional .contenedor_tab_2 {
+    border: 3px solid#8332b6;
+}
+.Tabs_Preguntas_internacional .contenedor_tab_3 {
+    border: 3px solid#28238e;
+}
+.Tabs_Preguntas_internacional a,.Tabs_Preguntas_internacional .Coilt,.Tabs_Preguntas_internacional .caj1,.Tabs_Preguntas_internacional .caj2,.Tabs_Preguntas_internacional .caj3,.Tabs_Preguntas_internacional .caj4,.Tabs_Preguntas_internacional .caj5 {
+    padding: 10px;
+    color: #5d5e5e;
+    border-top-left-radius: 14px 13px;
+    border-top-right-radius: 14px 13px;
+    border-bottom-right-radius: 14px 13px;
+    border-bottom-left-radius: 14px 13px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #fff !important;
+    clip-path: none !important;
+    width: 100%;
+    display: block;
+}
+.Tabs_Preguntas_internacional .Coilt .caj1 a {
+    border: 3px solid#3fc9e7;
+    color: #3fc9e7;
+}
+.Tabs_Preguntas_internacional .Coilt .caj2 a {
+    border: 3px solid#4e3fec;
+    color: #4e3fec;
+}
+.Tabs_Preguntas_internacional .Coilt .caj3 a {
+    border: 3px solid#383497;
+    color: #383497;
+}
+.Tabs_Preguntas_internacional .Coilt .caj4 a {
+    border: 3px solid#86ddf0;
+    color: #86ddf0;
+}
+.Tabs_Preguntas_internacional .Coilt .caj5 a {
+    border: 3px solid#4b4df3;
+    color: #4b4df3;
+}
+.Tabs_Preguntas_internacional .conte_2 a {
+    border: 3px solid#4a3bec;
+    color: #4a3bec;
+}
+.Tabs_Preguntas_internacional .conte_3 a {
+    border: 3px solid#3b3698;
+    color: #3b3698;
+}
+.Tabs_Preguntas_internacional .conte_4 a {
+    border: 3px solid#47cbe8;
+    color: #47cbe8;
+}
+.Tabs_Preguntas_internacional .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.Tabs_Preguntas_internacional .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    border: none;
+    margin-bottom: 2px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 7px #dbdbdb;
+    padding: 12px;
+}
+
+/*INTERNACIONALIZACION CURRICULO CAROUSEL*/
+
+.Internacionalizacion_curriculum .carousel-item .contenedor_tex.banner4 {
+    margin-top: 11%;
+}
+.Internacionalizacion_curriculum .contenedor_tex h1 {
+    text-align: left;
+    font-weight: 800;
+    font-size: 3.5em;
+    line-height: 1.1em;
+    font-family: "Nunito",sans-serif;
+}
+.Internacionalizacion_curriculum .contenedor_tex p {
+    text-align: left;
+}
+.Internacionalizacion_curriculum .contenedor_tex p.contenedor_flecha {
+    background-color: #71e6ff;
+    border-radius: 20px 20px 0px 0px;
+    padding: 28px 23px 0;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.Internacionalizacion_curriculum .contenedor_tex .contenedor_flecha:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 44px solid #71e6ff;
+    border-left: 58px solid transparent;
+    border-right: 58px solid transparent;
+    position: relative;
+    bottom: -14px;
+    margin: auto;
+    display: block;
+}
+.Internacionalizacion_curriculum .contenedor_tex span {
+    color: #71e6ff;
+}
+.Internacionalizacion_curriculum .carousel {
+    color: #fff;
+    text-align: center;
+}
+
+
+.Internacionalizacion_curriculum .carousel-inner::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(218, 9, 33);
+    background: linear-gradient(177deg, #48030b8f 0%, #00065fc7 38%);
+}
+.Internacionalizacion_curriculum .carousel-caption {
+    z-index: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 0 !important;
+    bottom: inherit !important;
+}
+.Internacionalizacion_curriculum .alinearb {
+    display: flex;
+    align-items: flex-end;
+}
+.Internacionalizacion_curriculum .contenedor_tex.banner2 {
+    margin-top: 8%;
+}
+.Internacionalizacion_curriculum .contenedor_tex .caja {
+    background-color: #fff;
+    border-radius: 19px;
+    color: #000000;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
+}
+.Internacionalizacion_curriculum .carousel-indicators {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    bottom: 159px !important;
+    left: -59px !important;
+    z-index:3 !important;
+}
+.carousel-indicators button {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.Internacionalizacion_curriculum .carousel-indicators button {
+    width: 20px !important;
+    border-radius: 50% !important;
+    height: 18px !important;
+    background-color: #fff !important;
+}
+.Internacionalizacion_curriculum .carousel-indicators button.active {
+    background-color: #71e6ff !important;
+}
+.Internacionalizacion_curriculum .contenedor_tex.banner1 {
+    margin-top: 9%;
+}
+.Internacionalizacion_curriculum .carousel-item.active {
+    display: block;
+}
+@media (min-width: 1300px) and (max-width: 2000px){
+.Internacionalizacion_curriculum .contenedor_tex.banner3 {
+    margin-top: 9%;
+}
+.Internacionalizacion_curriculum .contenedor_tex.banner4 {
+    margin-top: 7%;
+}
+.Internacionalizacion_curriculum .contenedor_tex.banner2 {
+    margin-top: 1%;
+}
+.Internacionalizacion_curriculum .contenedor_tex.banner1 {
+    margin-top: 8%;
+}
+}
+@media (min-width: 768px) and (max-width: 1300px){
+	.Internacionalizacion_curriculum .carousel-item {
+	    height: 790px;
+	}
+}
+@media (min-width: 1300px) and (max-width: 2000px){
+	.Internacionalizacion_curriculum .carousel-item {
+	    height: 600px;
+	}
+}
+@media (max-width: 768px){
+.stylesProfesores  .nav-tabs .nav-item {
+    width: 50%;
+}
+	
+.stylesProfesores  .nav {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Internacionalizacion_curriculum .carousel-indicators {
+    top: 30px !important;
+    left: 76% !important;
+}
+.Internacionalizacion_curriculum .contenedor_tex {
+    position: relative;
+    left: 0;
+    padding: 10%;
+}
+.Internacionalizacion_curriculum .carousel-item .contenedor_tex.banner1, .Internacionalizacion_curriculum .carousel-item .contenedor_tex.banner2, .Internacionalizacion_curriculum .carousel-item .contenedor_tex.banner3, .Internacionalizacion_curriculum .carousel-item .contenedor_tex.banner4 {
+    margin-top: -55%;
+}
+.Internacionalizacion_curriculum .contenedor_tex h1 {
+    font-size: 1.4em;
+}
+}
+

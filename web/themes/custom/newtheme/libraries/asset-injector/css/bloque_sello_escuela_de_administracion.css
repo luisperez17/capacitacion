@@ -1,0 +1,29 @@
+/*CARDS ADMIN*/
+
+.escuelaAdmin .sello {
+  padding: 3% 6%;
+}
+.escuelaAdmin .sello p.titulo {
+  color: #fff;
+  font-size: 1.8em;
+}
+.escuelaAdmin .sello p.texto {
+  color: #fff;
+  /* border-top: solid 1px; */
+  padding: 2% 0;
+  border: solid 1px;
+  padding: 3%;
+  min-height: 300px;
+  background: #bf0900;
+  line-height: 21px;
+}
+.escuelaAdmin .sello .imagenSello {
+  /* padding: 10% 9% 0% 0; */
+  width: 100px;
+  float: left;
+  padding: 2%;
+  margin-bottom: -20px;
+}
+.escuelaAdmin .sello p.texto.linea b {
+  font-size: 1.5em;
+}

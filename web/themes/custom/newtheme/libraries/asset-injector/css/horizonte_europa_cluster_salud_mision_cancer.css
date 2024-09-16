@@ -1,0 +1,306 @@
+#calendario {
+  height: 80vh;
+}
+#navbarSupportedContent li{
+font-weight: 600 !important;
+  font-size: .9rem !important;
+}
+#navbarSupportedContent li.nav-item {
+  border: none !important;
+}
+#navbarSupportedContent ul {
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+#investigacion_transferencia .header_seccion.bg_transferencia {
+  background: linear-gradient(#0b04596e 100%, rgb(128, 0, 0) 100%), url(https://urosario.edu.co/sites/default/files/2022-11/Cluster-Salud-Mision-Cancer.jpg);
+  box-shadow: -3px 9px 9px #b4b3caa3;
+  background-repeat: no-repeat;
+  background-color: #240161;
+  background-position-x: 21%;
+  background-position-y: 12%;
+  background-size: 100%;
+  min-height: 500px;
+}
+
+#investigacion_transferencia .card-body li {
+  font-size: 1.1em;
+  font-weight: 300;
+  list-style: none;
+  line-height: 29px;
+}
+
+#investigacion_transferencia #navbarSupportedContent {
+  position: absolute;
+  padding: 20px 20px 0px;
+  bottom: 0px;
+  background: transparent !important;
+  top: auto !important;
+}
+
+#investigacion_transferencia .header_seccion h2 {
+  color: #fff;
+  font-size: 1.7em;
+}
+
+#investigacion_transferencia .header_seccion h2 strong {
+  color: #da1622;
+}
+
+#investigacion_transferencia .header_seccion hr {
+  width: 40%;
+  position: relative;
+  margin: 10px 0px 0px 0%;
+}
+
+#investigacion_transferencia hr {
+  width: 70%;
+  position: static;
+  border: 2px solid #da0921;
+  display: inline-block;
+  margin: 20px 0px 20px -50%;
+  background: #da0921;
+}
+
+#investigacion_transferencia #navbarSupportedContent.nav li:before {
+  color: #da0921;
+  margin-right: 8px;
+  font-size: 16px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "/";
+}
+
+#investigacion_transferencia #navbarSupportedContent.nav li a {
+  color: #ffffff;
+  text-shadow: 1px 2px 2px #0c1351;
+}
+
+#investigacion_transferencia #navbarSupportedContent.nav li a.active {
+  color: #ffffff;
+  cursor: alias;
+  text-decoration: none;
+  text-shadow: 1px 2px 2px #0c1351;
+}
+
+#investigacion_transferencia h2 {
+  font-size: 2.1em;
+  font-weight: 600;
+  color: #000;
+  padding: 5px 0px;
+  margin: 0;
+}
+
+#investigacion_transferencia h2 strong {
+  color: #da0921;
+}
+
+#investigacion_transferencia hr {
+  width: 70%;
+  position: static;
+  border: 2px solid #da0921;
+  display: inline-block;
+  margin: 20px 0px 20px -50%;
+  background: #da0921;
+}
+
+#investigacion_transferencia i.fab.fa-facebook-f {
+  padding: 7px 10px !important;
+}
+
+.opacidad {
+  opacity: 49%;
+}
+
+#investigacion_transferencia .content_dos .card-header a.card-link span {
+  color: #2c2d75;
+}
+
+#investigacion_transferencia .content_dos .card-header a.card-link i {
+  color: #c72c2d;
+  float: right;
+  font-size: 1.5em;
+  margin-top: 2px;
+  margin-right: 10px;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+#investigacion_transferencia .content_dos .card-header a.card-link.collapsed i {
+  -webkit-transform: rotate(-0deg);
+  -moz-transform: rotate(-0deg);
+  -ms-transform: rotate(-0deg);
+  transform: rotate(-0deg);
+}
+
+#investigacion_transferencia .card-body li:before {
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color: #da0921;
+}
+
+#investigacion_transferencia #proyecto_definido h3 {
+  color: #da0b21;
+  padding: 40px 10px 20px;
+  text-align: left;
+}
+
+#investigacion_transferencia .redessociales i {
+  font-size: 1.1em;
+  margin-left: 8px;
+  cursor: pointer;
+  border: solid 1px #fff;
+  padding: 7px;
+  border-radius: 100%;
+  background: #1b142d63;
+  color: #fff;
+}
+
+#investigacion_transferencia .header_seccion .info_page {
+  background-image: linear-gradient(to bottom, rgb(0 0 0 / 56%) 0%, rgb(12 3 93 / 82%) 100%);
+  padding: 29px;
+}
+
+#investigacion_transferencia .header_seccion p {
+  color: #fff;
+}
+
+#investigacion_transferencia .container {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#investigacion_transferencia .header_seccion {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+#investigacion_transferencia #navbarSupportedContent.nav ul {
+  display: flex;
+  flex-wrap: inherit;
+  list-style: ethiopic-halehame;
+  flex-direction: inherit;
+  padding: 20px 0px 30px;
+  text-decoration: none;
+  list-style: none;
+}
+
+#investigacion_transferencia .header_seccion .redessociales {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0%;
+}
+
+#investigacion_transferencia .redessociales {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: -150px;
+}
+
+#investigacion_transferencia .content_dos .card-header {
+  color: #333;
+  background-color: #e2e2eb;
+  border: #fff;
+  border-bottom: solid 2px #fdfdfd;
+}
+
+a.btn-cluster:hover {
+  background-color: #da0921;
+  color: #fff;
+}
+
+a.btn-cluster {
+  border: 1px solid#da0921;
+  padding: 2px 12px;
+  color: black;
+  font-weight: 700;
+  margin-top: 23px;
+  display: table;
+}
+
+ul.Conforman small {
+  background-color: #e2e2eb4a;
+  padding: 0 23px;
+}
+
+ul.Conforman strong {
+  font-weight: 700;
+}
+
+a.mail {
+  color: #040447;
+  font-weight: 500;
+  transition: 1s;
+}
+
+a.mail:hover {
+  color: #da0921;
+}
+
+.Informacion a {
+  color: #000000;
+  border: 1px solid#da0921;
+  font-weight: 700;
+  padding: 11px;
+}
+
+.Informacion i {
+  color: #da0921;
+}
+
+.Mail {
+  text-align: right;
+  background: rgb(9, 0, 41);
+  background: linear-gradient(90deg, rgba(9, 0, 41, 1) 0%, rgba(21, 2, 83, 1) 45%, rgba(255, 0, 44, 1) 100%);
+}
+
+.Mail a {
+  color: #fff;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  #investigacion_transferencia .header_seccion.bg_transferencia {
+      background-position-x: 33%;
+      background-position-y: 0%;
+      background-size: 100%;
+      background-color: #0c054d;
+  }
+
+  #investigacion_transferencia .header_seccion.bg_transferencia .right {
+      padding-top: 40%;
+  }
+
+  #investigacion_transferencia .header_seccion.bg_transferencia {
+      min-height: 388px;
+  }
+}
+
+@media (max-width: 600px) {
+  ul.Conforman img {
+      width: 43%;
+  }
+
+  #investigacion_transferencia h2 {
+      font-size: 1.7em;
+  }
+
+  .Informacion a {
+      margin-bottom: 23px;
+      width: 100%;
+      display: table;
+      text-align: center;
+  }
+}

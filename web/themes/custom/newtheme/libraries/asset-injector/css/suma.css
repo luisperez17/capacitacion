@@ -1,0 +1,120 @@
+#FormularioSuma form {
+  background-color: #ffffffe3;
+  padding: 44px 56px;
+}
+#FormularioSuma {
+  background-size: cover;
+}
+img.LogoSuma.align-right {
+  position: absolute;
+  animation: 0;
+  margin: auto;
+  right: 67px;
+  width: 24%;
+  bottom: 0;
+  top: 0;
+}
+
+#MenuSuma  .navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+}
+
+#MenuSuma li {
+  font-weight: 600;
+}
+#MenuSuma li:nth-child(1) {
+border-right:2px solid #da0921;
+}
+
+#MenuSuma li:nth-child(2) {
+border-right:2px solid #da0921;
+}
+#MenuSuma li:nth-child(3) {
+border-right:2px solid #da0921;
+}
+#MenuSuma .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+
+.BannerSuma {
+   background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  padding: 9% 0;
+  margin: 0;
+}
+.Formulario-suma form {
+  background-color: #dadae5;
+  border-radius: 16px;
+  padding: 47px;
+}
+.Formulario-suma iframe {
+  padding: 0% 5%;
+}
+.Formulario-suma form input:nth-child(2) {
+  width: 100%;
+    color: lime;
+}
+.Formulario-suma input#edit-actions-submit {
+  background-color: #da0921;
+  font-weight: 900;
+  color: #fff;
+}
+
+.Formulario-suma input#edit-actions-submit:hover {
+      background-color: #2f2964;
+}
+
+div#edit-image-authorization-image-authorization-value--description {
+  font-size: .8em;
+}
+
+div#edit-messaging-authorization-messaging-authorization-value--description {
+  font-size: .8em;
+}
+
+div#edit-data-authorization-0--description {
+  font-size: .8em;
+}
+
+html {
+  scroll-padding-top: 264px!important;
+}
+
+@media (max-width: 600px) {
+
+.BannerSuma {
+  background-size: cover;
+}
+  #Historia, #Equipo, #Proyectos, #ProyectosGrupos, #Formulario-suma {
+  padding: 8% 9% 8%;
+}
+#MenuSuma li:nth-child(1) {
+  text-align: center;
+border-right:2px solid #da092100;
+  border-bottom:2px solid #da0921;
+}
+
+#MenuSuma li:nth-child(2) {
+   text-align: center;
+border-right:2px solid #da092100;
+   border-bottom:2px solid #da0921;
+}
+#MenuSuma li:nth-child(3) {
+   text-align: center;
+border-right:2px solid #da092100;
+   border-bottom:2px solid #da0921;
+}
+
+#MenuSuma li:nth-child(4) {
+   text-align: center;
+}
+.Formulario-suma form {
+  width: 90%;
+}
+  #Formulario-suma form {
+  margin-bottom: 36px;
+}
+}

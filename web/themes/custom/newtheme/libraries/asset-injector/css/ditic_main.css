@@ -1,0 +1,826 @@
+/* cambios */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,400&display=swap');
+
+/* clases comunes */
+
+/*html {
+    scroll-behavior: smooth;
+}*/
+html {
+		font-family: 'Montserrat' !important;
+}
+#ditic {
+		font-family: 'Montserrat' !important;
+}
+#ditic.inicio {
+		font-family: 'Montserrat' !important;
+}
+#URConecta-General .cifasGif img {
+    margin: auto !important;
+}
+#ditic.inicio .modal-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem 30.5rem;
+} 
+#ditic .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.banner {
+    position: relative;
+}
+#ditic.inicio .card {
+    background-color: transparent;
+    border-color: transparent;
+    transition: 0.5s;
+    max-height: 450px;
+}
+#ditic.inicio .card:hover {
+    background-color: #ddddde;
+    border-color: solid 2px #dadada;
+    opacity:0.3;
+    transition: 0.5s;
+}
+    
+#ditic.inicio .container-cifras .card-title {
+    color: #230760;
+    justify-content: center;
+    font-weight: 300;
+    padding-top: none;
+}
+
+#ditic.inicio .container-cifras .card-subtitle {
+    color: #230760;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 0.7rem;
+    padding-top: none;
+    font-style: italic;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#ditic.inicio .container-cifras .card-text {
+    font-size: 0.8rem;
+    color: #2B2A2A;
+}
+
+#ditic.inicio .container-cifras .col-perfil {
+    padding: 2%;
+    justify-content: center;
+    margin: none;
+
+}
+#ditic.inicio .container-cifras .card-perfil {
+    background-color: white;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+/* fin clases comunes */
+
+#ditic.inicio {
+    min-height: 600px;
+    background-color: #f0f0f0;
+    font-family: 'Nunito', 400;
+}
+#ditic.inicio .banner .mostrar-movil,
+#ditic.inicio .banner .mostrar-tabletas,
+#ditic.inicio .banner .mostrar-escritorio {
+    display: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+#ditic.inicio .banner {
+    position: relative;
+}
+
+#ditic.inicio .banner .logo-banners {
+    position: absolute;
+    margin: auto;
+    display: table;
+    margin-top: 20px;
+    z-index: 10;
+}
+
+#ditic.inicio .menu-principal {
+    margin-top: 100px;
+    display: flex;
+    font-size: 15px;
+    text-align: right;
+    background-color: #da0921;
+    float: right;
+}
+
+#ditic.inicio .navbar {
+    top: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    transition: .3s
+}
+
+
+#ditic.inicio .navbar ul li a{
+    color: white;
+}
+#ditic.inicio .navbar .nav-item {
+    padding: 0em 2em;
+    transition: .5s;
+}
+#ditic.inicio .navbar .nav-item :hover{
+    font-size: 1.2em;
+    transition: .5s;
+    border-bottom: solid 2px #fff;
+}
+
+#ditic.inicio .bg-navbar {
+    background: rgba(35, 7, 96, 0.5);
+    top: 18%;
+    transition: .3s;
+    z-index: 50;
+    font-weight: 500;
+}
+
+#ditic.inicio .contenedor-texto .navbar {
+    padding: 1.5rem 2rem;
+}
+#ditic.inicio .contenedor-texto .nav-item {
+    padding: 0rem 4rem;
+}
+
+#ditic.inicio .container-logos {
+    padding: 2rem 1rem;
+}
+
+#ditic.inicio .contenedor-texto {
+    color: white;
+    background-color: #E1B828;
+    padding: 2rem 1rem;
+}
+
+#ditic.inicio .container-fechas {
+    margin: 2rem auto 2rem auto;
+    color: #BEB94A;
+    align-content: center;
+}
+
+#ditic.inicio .container-fechas .card .fas {
+    background-color: #BEB94A;
+    color: white;
+    padding: 1rem;
+}
+
+#ditic.inicio .container-video {
+    font-size: 20px;
+    background-color: #0CCEC9;
+}
+
+#ditic.inicio .container-video .card-none {
+    margin-top: 1em;
+    color: white;
+    align-items: center;
+}
+
+#ditic.inicio .container-video .card-none button {
+    padding: 1em 2em;
+    background-color: white;
+    color: #E1B827;
+    text-transform: uppercase;
+}
+
+
+#ditic.inicio .container-video .row {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+
+
+/* INICIO Carrusel*/
+
+
+#ditic.inicio .carousel-caption {
+    bottom: 10%;
+    z-index: 10;
+}
+
+#ditic.inicio .carousel-caption .titulo-slider {
+    font-size: 3.5rem;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+    vertical-align: middle;
+    display: block;
+
+}
+
+#ditic.inicio  .carousel-caption .texto-slider {
+    font-size: 1rem;
+    text-align: left;
+    position: relative;
+    vertical-align: middle;
+    display: block;
+    margin: 0px;
+}
+
+#ditic.inicio  .carousel-caption img {
+    display: block;
+    width: 18%;
+    margin-top: 1%;
+    max-width: 80%;
+}
+
+/* FINAL Carrusel*/
+
+/* INICIO Textos Sección 1*/
+
+#ditic.inicio  .titulo-seccion{
+    color: #370B79;
+    font-size: 40px;
+    line-height:45px;
+}
+#ditic.inicio .texto-seccion{
+    color: #2B2A2A;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+#ditic.inicio .btn-primary {
+    background-color: #370F79;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 7px 25px 7px 25px; 
+    text-align: center;
+    border-color: transparent;
+    transition: .5s;
+}
+#ditic.inicio .btn-primary:hover {
+    transform: scale(.95);
+    opacity: 0.7;
+    transition: .5s;
+}
+/* FINAL Textos Sección 1*/
+
+/* Inicio SECCION 2, NUESTROS SERVICIOS - Imágenes*/
+#ditic.inicio  .titulo2-seccion{
+    color: white;
+    font-size: 35px;
+    padding: 2% 2% 0% 6%;
+}
+
+#NuestrosServicios.seccion-2 .hr-seccion {
+    border: 2px solid;
+    width: 14%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    height: 2px;
+    opacity: 0.5;
+    color: #fff;
+}
+
+#ditic.inicio .seccion-2 {
+    background-image: url("/sites/default/files/2023-01/fondo-inicio-seccion2.jpg");
+
+}
+#ditic.inicio .seccion-2 .container-cifras{
+    background-image: linear-gradient(to bottom, rgb(49 1 123) 10%, rgb(59 9 124) 60%, rgb(85 27 127) 100%);
+}
+
+#ditic.inicio .seccion-2 .container-cifras .card-title {
+    color: #fff;
+    font-weight: 200;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+#ditic.inicio .seccion-2 .row-seccion-2 {
+    padding: 40px 0px 40px 0px; 
+}
+
+#ditic.inicio .seccion-2 .container-servicios .card{
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 0px 15px 0px;
+    justify-content: center;
+    transition: .5s;
+}
+
+#ditic.inicio .seccion-2 .container-servicios .card:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.2);
+    transform: scale(.9);
+}
+#ditic.inicio .seccion-2 .container-servicios .card:hover img{
+    transition: 1s;
+}
+
+#ditic.inicio .seccion-2 .container-servicios .card:hover .card-body {
+    font-size: 10px;
+    padding: none;
+}
+
+#ditic.inicio .seccion-2 .container-servicios img{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50%;
+    margin: auto;
+}
+/* FINAL SECCION 2, NUESTROS SERVICIOS - Imágenes*/
+/* Inicio SECCION 3, UR Conecta - Cifras*/
+#ditic.inicio  .container-cifras{
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+#ditic.inicio  .titulo3-seccion{
+    color: #230760;
+    font-size: 35px;
+    padding: 2% 2% 0% 6%;
+}
+#URConecta-General .hr-seccion {
+    border: 2px solid;
+    width: 14%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    height: 2px;
+    opacity: 0.5;
+    color: #230760;
+}
+
+#ditic.inicio .tabla-cifras-1 {
+    padding: 0.75rem;
+    border-top: 0px none;
+    border-bottom: 0px none;
+    color: #230B60;
+}
+#ditic.inicio .tabla-cifras-1 h1{
+    font-size: 5em;
+}
+
+#ditic.inicio .spinner-border {
+    width: 20rem;
+    height: 20rem;
+    border: 2em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: .5s linear infinite spinner-border;
+    position: relative;
+}
+
+
+
+#ditic.inicio .cifra-1 {
+    background-image: url("img/fondos/fondo-inicio-seccion2.jpg");
+}
+
+
+#ditic.inicio #URConecta.seccion-2 .card-body i{
+    display: inline;
+} 
+#ditic.inicio #URConecta.seccion-2 .card-body p{
+    display: inline;
+} 
+
+#ditic.inicio .cifra .texto-cifras {
+    padding: 0.75rem;
+    padding-bottom: 0rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+#ditic.inicio .cifra .titulo-cifras {
+    font-family: 800;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+
+#ditic.inicio i{
+    color: white;
+}
+
+#ditic.inicio .contenido-cifras {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#ditic.inicio .container-equipo {
+    padding: 3%;
+}
+.estilos-modal .modal-texto .modal-title {
+    font-size: 1.8em;
+    line-height: 2em;
+    color: #4534af;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+.estilos-modal .modal-texto h6 {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 300;
+}
+
+.estilos-modal .modal-texto p {
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+.estilos-modal a {
+    color: #3523a9;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+
+}
+/* ------------------- Mascara recorte foto modal ---------------- */
+.estilos-modal .modal .clases-imagen-modal {
+    /*lip-path: circle(100px at 50% 50%) !important;*/
+    width: 33%;
+    transform: translateX(15px);
+}
+#ModalPortalWebInstitucional.estilos-modal .container-fluid .row{
+    min-height: 270px
+}
+.estilos-modal .modal-body .clases-imagen-modal img {
+    width: 100%;
+    transform: translate(-7px, 10px);
+    border-radius: 10px;
+}
+/* ------------------- FIN Mascara recorte foto modal ---------------- */
+.estilos-modal .modal-texto {
+    background-color: #ededed;
+    padding: 2%;
+}
+/* ------------------- Catalogo-software---------------- */
+
+#ditic .Opcion {
+    background-color: #230660;
+    padding: 15px 16px 2px;
+    -webkit-border-top-right-radius: 12px;
+    -webkit-border-bottom-right-radius: 12px;
+    -moz-border-radius-topright: 12px;
+    -moz-border-radius-bottomright: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    position: relative;
+    padding-left: 13%;
+    left: -148px;
+}
+#ditic .form-select.form-select-lg {
+    background-color: #230660;
+    font-weight: 800;
+    font-size: 1em;
+    color: #fff;
+}
+#ditic .CajaCategoria {
+    background-color: #ededed;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+#ditic .Buscador form input {
+    border: 3px solid#cbc6c7;
+    background-color: #f4f4f4;
+    border-radius: 7px;
+}
+#ditic .form-control:focus {
+    border-color: #2f017c69;
+    box-shadow: 0 0 0 0.25rem rgb(67 0 186 / 26%);
+}
+#ditic .Buscador form:before {
+    background-image: url(../img/icono-de-busqueda.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    right: 26px;
+    content: "";
+    float: right;
+    top: 9px;
+}
+
+#ditic .CajaCategoria .LinkActivo span {
+    background-color: #29aae2;
+    padding: 5px 8px;
+    font-weight: 500;
+    display: block;
+    color: #fff;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#ditic #LinkActivo span {
+    background-color: #230760;
+}
+#ditic .CajaCategoria li {
+    margin-left: 1.2em;
+}
+#ditic .CajaCategoria li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#ditic .CajaCategoria li a:hover {
+    font-weight: 600;
+}
+
+#ditic .CajaCategoria {
+    background-color: #ededed;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#ditic .CajaCategoria span {
+    background-color: #29aae2;
+    padding: 5px 8px;
+    font-weight: 500;
+    display: block;
+    color: #fff;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#ditic .CajaCategoria li {
+    margin-left: 1.2em;
+}
+#ditic .CajaCategoria li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#ditic .CajaCategoria li a:hover {
+    font-weight: 600;
+}
+
+/* ------------------- INICIO Media Querys ---------------- */
+
+/* ---------- INICIO Media Max width 1140px---- */
+
+@media (max-width: 1140px) {
+
+    /* Inicio CLASES COMUNES */
+    #ditic.inicio .btn-primary {
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 3px 15px 3px 15px; 
+    }
+    /* Final CLASES COMUNES */
+
+    /* Inicio contenido slider-carrusel*/
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption {
+        padding: 30px 0px;
+    }
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption .titulo-slider {
+        font-size: 3rem;
+        line-height: 2.8rem;
+    }
+
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption .texto-slider {
+        font-size: 0.7rem;
+    }
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption img {
+        margin-top: 1%;
+        width: 13%;
+    }
+    /* Final contenido slider-carrusel*/
+
+    /* Inicio SECCIÓN 1 qué hacemos */
+    #ditic.inicio .container-seccion1 .titulo-seccion{
+    color: #370B79;
+    font-size: 4vw;
+    line-height: 5.5vw;
+    margin-bottom: 0%; 
+    }
+    #ditic.inicio .container-seccion1 .texto-seccion{
+        font-size: 115%;
+        line-height: 120%;
+    }
+    #ditic.inicio .container-seccion1 img{
+        padding: 2% 0%;
+
+    }
+    /* Final SECCIÓN 1 qué hacemos */
+
+    /* Inicio SECCIÓN 2 Nuestros Servicios */
+    #ditic.inicio .titulo2-seccion {
+    color: white;
+    font-size: 25px;
+    padding: 4% 4% 0% 8%;
+    }
+    #ditic.inicio .card-deck .card .card-title {
+        font-size: 1rem;
+
+    }
+       #ditic.inicio .card-deck .card .card-body {
+        padding: 10px;
+    }
+    /* Final SECCIÓN 2 Nuestros Servicios */
+
+    /* Inicio SECCIÓN 3 UR conecta */
+    #ditic.inicio .titulo3-seccion {
+    font-size: 25px;
+    padding: 4% 4% 0% 8%;
+    }
+    #ditic.inicio .spinner-border {
+    width: 10rem;
+    height: 10rem;
+    }
+
+    #ditic.inicio .table td, .table th {
+    padding: 0.5rem;
+    font-size: 90%;
+    }
+
+    #ditic.inicio .cifra .card-body {
+    padding: 0% 0% 10% 0%;
+    }
+
+    #ditic.inicio .cifra .titulo-cifras {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 20px;
+    }
+
+    #ditic.inicio .cifra .texto-cifras {
+    padding: 0.65rem;
+    font-size: 1rem;
+    }
+
+    #ditic.inicio .seccion-2 .row-seccion-2 {
+    padding: 25px 0px;
+    justify-content: center;
+    }
+
+    /* Final SECCIÓN 3 UR conecta */
+
+  /* Inicio SECCIÓN 4 Equipo */
+		#equipo.seccion-4 .card-image-top {
+		    width: 100% !important;
+		}
+
+    #ditic.inicio .container-cifras .card-title {
+        font-size: 18px;
+    }
+    /* Find SECCIÓN 4 Equipo */
+}
+
+/* ---------- FINAL Media Max width 1140px---- */
+
+/* ---------- INICIO Media Max width 960px---- */
+@media (max-width: 960px) {
+    /* Inicio CLASES COMUNES */
+    #ditic.inicio .btn-primary {
+    border-radius: 4px;
+    font-size: 0.65rem;
+    padding: 3px 10px; 
+    }
+    /* Final CLASES COMUNES */
+
+    /* Inicio contenido slider-carrusel*/
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption {
+        padding: 20px 0px;
+    }
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption .titulo-slider {
+        font-size: 2.5rem;
+        line-height: 2.3rem;
+    }
+
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption .texto-slider {
+        font-size: 0.65rem;
+    }
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption img {
+        width: 15%;
+    }
+    /* Final contenido slider-carrusel*/
+
+    /* Inicio SECCIÓN 1 qué hacemos */
+    #ditic.inicio .seccion-2 .container-servicios .card {
+        padding: 0px;
+    }
+
+    #ditic.inicio .container-seccion1 .titulo-seccion{
+    font-size: 3vw;
+    line-height: 130%;
+    }
+    #ditic.inicio .container-seccion1 .texto-seccion{
+        font-size: 70%;
+        line-height: 100%;
+    }
+    #ditic.inicio .container-seccion1 img{
+        padding: 0% 0%;
+
+    }
+    /* Final SECCIÓN 1 qué hacemos */
+    /* Inicio SECCIÓN 2 Nuestros Servicios */
+    #ditic.inicio .titulo2-seccion {
+    color: white;
+    font-size: 25px;
+    padding: 4% 4% 0% 8%;
+    }
+    #ditic.inicio .card-deck .card .card-title {
+        font-size: 0.6rem;
+    }
+       #ditic.inicio .card-deck .card .card-body {
+        padding: 0px;
+    }
+    /* Final SECCIÓN 2 Nuestros Servicios */
+
+    /* Inicio SECCIÓN 3 UR conecta */
+
+    #ditic.inicio .table td, .table th {
+    font-size: 110%;
+    }
+
+    #ditic.inicio .cifra .card-body {
+    padding: 0% 0% 10% 0%;
+    }
+
+    #ditic.inicio .cifra .titulo-cifras {
+    font-size: 3.5rem;
+    padding-top: 10px;
+    }
+
+    #ditic.inicio #URConecta.seccion-2 .card-body i {
+    size: 10px;
+    }
+
+    #ditic.inicio .cifra .texto-cifras {
+    font-size: 0.7rem;
+    }
+
+    /* Final SECCIÓN 3 UR conecta */
+
+}
+
+
+@media (max-width: 720px) {
+
+    /* Inicio SECCIÓN 1 qué hacemos */
+    #ditic.inicio .container-seccion1 .titulo-seccion{
+    color: #370B79;
+    font-size: 100%;
+    line-height: 110%;
+    }
+    #ditic.inicio .container-seccion1 .texto-seccion{
+        font-size: 60%;
+        line-height: 115%;
+    }
+    #ditic.inicio .btn-primary {
+    border-radius: 5px;
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    }
+
+    #ditic.inicio img {
+        width: 100%;
+    }
+    /* Fin SECCIÓN 1 qué hacemos */ 
+}
+
+
+/* ---------- FIN Media Max width 960px---- */
+
+
+@media (max-width: 425px) {
+
+     /* Inicio contenido slider-carrusel*/
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption {
+        padding: 10px 0px;
+    }
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption .titulo-slider {
+        font-size: 130%;
+        margin-bottom: 0.1%;
+    }
+
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption .texto-slider {
+        font-size: 40%;
+    }
+    #ditic.inicio #carouselExampleCaptions.carousel  .carousel-caption img {
+        margin-top: 1%;
+        max-width: auto;
+    }
+    /* Final contenido slider-carrusel*/
+}

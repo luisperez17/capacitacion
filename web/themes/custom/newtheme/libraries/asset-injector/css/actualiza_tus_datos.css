@@ -1,0 +1,382 @@
+#Actualiza-tus-datos  input#edit-actions-submit {
+  background-color: #2a0770;
+  font-weight: 600;
+  color: #fff;
+  transition: .2s;
+}
+
+#Actualiza-tus-datos  input#edit-actions-submit:hover {
+  background-color: white;
+  color: #2a0770;
+}
+#Actualiza-tus-datos.Estudiantes   {
+  background: linear-gradient(#01085a36 100%,rgb(140 10 40 / 6%)50%),url(/sites/default/files/2022-10/pla_mentore_estudiantes_bg.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 91px;
+  background-position-x: 40%;
+  padding: 9% 0px;
+}
+#Actualiza-tus-datos.Egresados {
+  background: linear-gradient( #01085a36 100%, rgb(140 10 40 / 6%)50%), url(/sites/default/files/layout_background/pla_mentore_egeresados_bg.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: 29%;
+  background-position-y: 194px;
+  padding: 9% 0px;
+}
+
+#Actualiza-tus-datos.Egresados .Texto-contenedor {
+  color: #fff;
+  padding: 10px;
+  background: #920a47bd;
+  border-radius: 5px;
+}
+
+
+#Actualiza-tus-datos a.white-bold {
+  font-size: 1.2em;
+  font-family: 'Nunito;
+  text-transform: uppercase;
+  padding: 5px 18px;
+  align-items: center;
+  border: 1px solid #fff;
+  background-color: #2b2c74;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  max-width: 60%;
+  display: block;
+  margin: 20px auto;
+}
+#Actualiza-tus-datos.Egresados a.white-bold:hover {
+  border: 1px solid #2b2c74;
+  background-color: #fff;
+  color: #2b2c74;
+  text-decoration: none;
+}
+
+
+#Actualiza-tus-datos {
+  background-position-y: 198px;
+}
+.InscripcionCerrada .button-content {
+  display: block;
+  margin: 37px 0;
+}
+#Actualiza-tus-datos #edit-title label:nth-child(1) {
+  width: 100%;
+}
+.Logo img {
+  width: 31%;
+  margin-top: 11%;
+}
+.ColumnaIzquierda {
+  flex-direction: column;
+  justify-content: center;
+  display: inline-flex;
+}
+#Actualiza-tus-datos .form-item {
+  margin-bottom: 0.1em;
+}
+#Actualiza-tus-datos .Texto-contenedor {
+background: #5200457a;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+}
+#Actualiza-tus-datos .Texto-contenedor-uno {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+#Actualiza-tus-datos .Texto-contenedor {
+  background: #5200457a;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+#Actualiza-tus-datos .Texto-contenedor-uno {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+#Actualiza-tus-datos form {
+  background-color: #ffffff;
+  border-radius: 9px;
+  padding: 20px;
+  margin: 3% 10%;
+}
+#edit-trabaja-actualmente {
+  display: inline-flex;
+}
+#Actualiza-tus-datos label {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  width: 38%;
+}
+#Actualiza-tus-datos input {
+  background: #eaebff;
+  display: inline-block;
+  vertical-align: top;
+  width: 59%;
+}
+#Actualiza-tus-datos .form-item__description {
+  font-size: 0.7em;
+}
+#Actualiza-tus-datos .form-item__dropdown {
+  background: #eaebff;
+  display: inline-block;
+  vertical-align: top;
+  width: 59%;
+}
+#Actualiza-tus-datos #edit-auto-2 a {
+  color: #1b142e;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+#Actualiza-tus-datos input#edit-submit:hover {
+  background: linear-gradient(to left, rgb(52 28 112) 43%, rgb(56 32 124) 45%, rgba(46, 49, 128, 1) 100%);
+  border: 2px solid#020bd8;
+}
+#Actualiza-tus-datos input#edit-submit {
+  background: linear-gradient(to left, rgba(27, 20, 45, 1) 43%, rgba(28, 21, 48, 1) 45%, rgba(46, 49, 128, 1) 100%);
+  border: 2px solid#0046ff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+}
+#Actualiza-tus-datos input#edit-submit:hover {
+  border: 2px solid#020bd8;
+}
+#Actualiza-tus-datos input#edit-autorizacion-uso-de-datos-autorizo-el-tratamiento-de-mis-datos-personales-a-la-universidad-del-rosario-bajo-su-poltica-de-tratamiento-de-datos-personales {
+  width: 11%;
+}
+.quienes_como {
+  background-color: #dadae5;
+  padding: 0px 0 5%;
+}
+#plan_mentores figure.effect-alex figcaption::before {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  bottom: 23px;
+  left: 23px;
+  border: 1px solid #fff;
+  content: "";
+}
+#plan_mentores figure.effect-alex h3 {
+  font-size: 2.5rem;
+  /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+  padding: 5% 0 0 0;
+  text-align: center !important;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  text-shadow: 2px 4px 3px rgb(0 0 0 / 58%);
+  /* letter-spacing: 0.5rem; */
+  padding-top: 19%;
+  /* letter-spacing: 3px; */
+  font-weight: bold;
+}
+#plan_mentores figure.effect-alex figcaption {
+  padding: 1em;
+  background: rgba(169, 3, 41, 0.4);
+  background: -moz-linear-gradient(top, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(20%, rgba(169, 3, 41, 0.4) 20%), color-stop(55%, rgba(0, 23, 135, 0.58)), color-stop(100%, rgba(1, 1, 51, 0.72)));
+  background: -webkit-linear-gradient(top, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  background: -o-linear-gradient(top, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  background: -ms-linear-gradient(top, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  background: linear-gradient(to bottom, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#010133', GradientType=0 );
+  cursor: pointer !important;
+}
+#plan_mentores .grid figure figcaption,
+#plan_mentores .grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#plan_mentores .grid figure figcaption {
+  padding: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+#plan_mentores .grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: -50px 1%;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 358px;
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+#plan_mentores .grid figure img {
+  position: relative;
+  display: block;
+  min-height: auto;
+  max-width: 100%;
+  opacity: 0.8;
+  width: 100%;
+}
+
+#plan_mentores figure.effect-alex img {
+  opacity: 0.9;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  opacity: 1 !important;
+}
+
+#plan_mentores figure.effect-alex {
+  box-shadow: 1px 2px 11px 0px #351a1a;
+}
+
+#plan_mentores .grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+#plan_mentores figure.effect-alex {
+  box-shadow: 1px 2px 11px 0px #351a1a;
+}
+#plan_mentores .effect-alex a {
+  border: 1px solid#fff;
+  background-color: #1b142d80;
+  color: #fff;
+  padding: 7px 19px;
+  display: block;
+  margin: auto;
+  width: 187px;
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 6%;
+  text-decoration: none !important;
+  margin-top: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+#plan_mentores figure.effect-alex:hover figcaption {
+  background: rgba(0, 0, 0, 1);
+  background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.86) 38%, rgba(0, 0, 0, 0.73) 75%, rgba(0, 0, 0, 0.64) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(38%, rgba(0, 0, 0, 0.86)), color-stop(75%, rgba(0, 0, 0, 0.73)), color-stop(100%, rgba(0, 0, 0, 0.64)));
+  background: -webkit-linear-gradient(-45deg, rgba(19, 8, 39, 0.87) 0%, rgba(20, 6, 56, 0.8) 38%, rgba(0, 0, 0, 0.73) 75%, rgba(0, 0, 0, 0.69) 100%);
+  background: -o-linear-gradient(-45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.86) 38%, rgba(0, 0, 0, 0.73) 75%, rgba(0, 0, 0, 0.64) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.86) 38%, rgba(0, 0, 0, 0.73) 75%, rgba(0, 0, 0, 0.64) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
+  transition: background-color 0.35s;
+}
+#plan_mentores figure.effect-alex figcaption {
+  padding: 1em;
+  background: rgba(169, 3, 41, 0.4);
+  background: -moz-linear-gradient(top, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(20%, rgba(169, 3, 41, 0.4) 20%), color-stop(55%, rgba(0, 23, 135, 0.58)), color-stop(100%, rgba(1, 1, 51, 0.72)));
+  background: -webkit-linear-gradient(top, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  background: -o-linear-gradient(top, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  background: -ms-linear-gradient(top, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  background: linear-gradient(to bottom, rgba(169, 3, 41, 0.4) 20%, rgb(0 23 135 / 40%) 55%, rgb(1 1 51 / 93%) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#010133', GradientType=0 );
+  cursor: pointer !important;
+}
+
+#plan_mentores figure.effect-alex figcaption::before,
+#plan_mentores figure.effect-alex p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+#plan_mentores figure.effect-alex:hover figcaption::before,
+#plan_mentores figure.effect-alex:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  text-align: left !important;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+}
+#plan_mentores figure.effect-alex:hover h3 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+#Actualiza-tus-datos  .form-fieldset .form-item {
+  max-width: 100%;
+}
+
+#Actualiza-tus-datos .form-fieldset .form-item input {
+  width: 2%;
+}
+
+#Actualiza-tus-datos .form-fieldset .form-item label {width: 90%;font-size: .9em;}
+
+@media (max-width:768px) {
+#plan_mentores figure.effect-alex h3 {
+font-size: 2.2rem;
+}
+#Actualiza-tus-datos .layout-content {
+grid-template-columns: 100%;
+padding: 6%;
+}
+
+}
+
+@media (max-width: 600px) {
+  .Logo img {
+  width: 60%;
+  margin-top: 19%;
+}
+div#plan_mentores_estudiantes {
+  background-size: 268%;
+  background-repeat: no-repeat;
+  background-position-x: -307px;
+}
+  #Actualiza-tus-datos .Texto-contenedor {
+      padding: 38px;
+  }
+  .Texto-contenedor-uno {
+      line-height: 1em;
+  }
+  #Actualiza-tus-datos {
+      background-position-x: -364px;
+  }
+  #Actualiza-tus-datos .ColumnaDerecha {
+      margin: 21px;
+  }
+  #Actualiza-tus-datos .Texto-contenedor-uno {
+      margin: 17px 0;
+  }
+  .ColumnaIzquierda {
+      margin-top: 34px;
+  }
+  #plan_mentores .grid figure {
+      margin: 12px 1% 2%;
+  }
+  #plan_mentores .grid {
+  padding: 1em 0 0em;
+ }
+ #Actualiza-tus-datos input {
+  width: 100%;
+}
+#Actualiza-tus-datos label {
+  width: 100%;
+}
+}

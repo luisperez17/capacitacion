@@ -1,0 +1,899 @@
+.gap-card-container {
+  background-color: #ffff;
+}
+
+.gap-card-body {
+  font-size: 1em;
+  line-height: 1.5em;
+  border-left: 7px solid#da0021;
+  padding: 0 15px 0 23px;
+  margin: 23px 0 23px 23px;
+}
+.OCDE-card-objective-title-color {
+  max-height: 250px;
+  max-width: 98px;
+  background-color: #160353;
+  color: #ffff;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-align: center;
+  padding-left: 36px;
+}
+/*Card emblematicos OCCO*/
+.btn-emblematicosOCCO {
+  padding: 12px;
+}
+.btn-emblematicosOCCO .btnOCCO {
+  background: #fff;
+  border: 2px solid #dadae5;
+  position: relative;
+}
+
+.btn-emblematicosOCCO .btnOCCO a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+.btn-emblematicosOCCO .btnOCCO img.img-fluid {
+  padding-right: 10px;
+  border: none !important;
+}
+.btn-emblematicosOCCO .btnOCCO b.btnemble {
+  color: #ffffff;
+  padding: 2px 10px;
+  background: #020357;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+.btn-emblematicosOCCO .btnOCCO a:hover b.btnemble {
+  background: #ffffff;
+  color: #020357;
+  border: 1px solid #020357;
+}
+
+.OCDE-card-objective-body-hr {
+  background-color: #da0021;
+  width: 38%;
+  margin: 0;
+  margin-top: 22px;
+  margin-bottom: 15px;
+  max-height: 3px;
+}
+.OCDE-card-objective-body {
+  background-color: #ffff;
+}
+.OCDE-card-objective-container {
+  max-width: 590px;
+    margin: 20px 40px 0 0;
+
+}
+.OCDE-card-objective-container-father {
+  margin: auto;
+  width: full;
+}
+
+
+ .OCDE-flex-container-projects {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.OCDE-flex-container-projects>div {
+  background-color: #fff;
+  border-left: 9px solid#160353;
+  width: 32%;
+  height: inherit;
+  text-align: left;
+  line-height: 1.2em;
+  padding: 26px;
+  font-size: 17px;
+  box-shadow: -1px 4px 3px #0000001c;
+  margin: 14px 7px;
+  position: relative;
+}
+
+.OCDE-flex-container-projects>div::before {
+  width: 9px;
+  height: 48px;
+  content: "";
+  background-color: #da0921;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.GAP-card-incidence-container {
+  background-color: #dadae5;
+  margin: 1px;
+  margin-bottom: 40px;
+  min-height: 250px;
+}
+
+.GAP-card-incidence-body-text {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.GAP-card-incidence-body-image {
+  min-height: 10vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.OCDE-banner-container {
+  margin: 20px 0;
+  padding: 47px 0;
+  background: #1b132f;
+  background-position-x: 0%;
+  background-repeat: repeat;
+  background-image: none;
+  
+  background-position-x: 139%;
+  background-repeat: no-repeat;
+}
+
+
+
+.OCDE-banner-button {
+  border: 2px solid var(--c-primary);
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: #ffff;
+  background-color: transparent;
+  border-color: #ffff;
+  line-height: 1.4;
+  padding: .75rem 2rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.OCDE-banner-button:hover {
+    border: 1px solid#171040;
+    background-color: #171040;
+}
+
+.OCDE-banner-left-child {
+  background: no-repeat;
+}
+
+.OCDE-banner-left-child h3 {
+  font-size: 2.3em;
+  font-weight: bold;
+  padding-left: 0;
+  line-height: 1;
+  margin: 39px 0 -2px -30px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  left: -80px;
+}
+
+
+
+
+.OCDE-banner-right-child {
+  margin-left: -40px;
+}
+
+.OCDE-banner-right-child p {
+  font-size: 1em;
+  padding: 0;
+  font-weight: 200;
+  margin-top: -10px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+@media (max-width: 1024px) {
+  .OCDE-banner-container {
+    background-position-x: 370px;
+  }
+}
+
+@media (max-width: 768px) {
+  .OCDE-banner-container {
+    background-position-x: 240px;
+  }
+  .OCDE-banner-left-child h3 {
+    left: -50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .OCDE-banner-container {
+    padding: 4px 14% 31px;
+    background-position-x: 190px;
+}
+
+.OCDE-banner-left-child h3 {
+    font-size: 1.8em;
+    margin: 39px 0 28px -30px;
+    text-align: center;
+  }
+}
+
+.OAGD-card-objectives-title {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  padding-top: 5px;
+}
+
+.OAGD-card-objectives-body {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  line-height: 1.2em;
+  padding: 26px;
+  font-size: 17px;
+  margin-top: 23px;
+  box-shadow: -1px 4px 3px #0000001c;
+  margin: 14px 0;
+}
+
+.OAGD-card-objectives-title-dot {
+  background-color: #da0921;
+  color: #fff;
+  border-radius: 100%;
+  padding: 4px 11px 3px 9px;
+  font-weight: 800;
+  display: inline-block;
+  vertical-align: top;
+  width: 30px;
+}
+    .observatorio-legislativo-headband-container {
+        padding: 0px 0;
+
+    }
+
+    .observatorio-legislativo-headband-container .container {
+        max-width: 100% !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .observatorio-legislativo-headband-container-image {
+        margin: 20px 0;
+        padding: 47px 0;
+        background: #1b132f;
+        background-position-x: 0%;
+        background-repeat: repeat;
+        background-image: none;
+        background-repeat: no-repeat;
+    }
+
+    @media (max-width: 1024px) {
+        .observatorio-legislativo-headband-container-image {
+            background-position-x: -270px;
+            max-height: 550px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .observatorio-legislativo-headband-container-image {
+            background-position-x: -477px;
+            background-position-y: 1px;
+            max-height: 550px;
+        }
+
+        .OCDE-banner-left-child h3 {
+            left: -50px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .observatorio-legislativo-headband-container-image {
+            padding: 4px 14% 31px;
+            background-position-x: -561px;
+            max-height: 100%;
+        }
+
+    }
+    .observatorio-legislativo-headband-body-text-body {
+        text-align: center;
+    }
+
+    .observatorio-legislativo-headband-body-text-left {
+        font-size: 32px;
+        margin: 10% 0 25px;
+        line-height: 0.9;
+        font-weight: 900;
+        color: #fff;
+    }
+
+    .observatorio-legislativo-headband-body-text-right {
+        font-size: 1.2em;
+        padding: 38px 7% 0px 7%;
+        font-weight: 200;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .observatorio-legislativo-headband-button {
+        color: #fff;
+        padding: 10px;
+        border: 1px solid#fff;
+        font-size: 1.2em;
+        margin: auto;
+        text-decoration: none;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        margin-bottom: 11px;
+        background-color: transparent;
+        text-align: center
+    }
+
+    .observatorio-legislativo-headband-button:hover {
+        color: #fff;
+        border: 1px solid #da0921;
+        background-color: #da0921;
+    }
+    
+    /*Cinta*/
+  .Cinta_OBS .bannerContinua {
+  padding: 0;
+  margin-top: 24px;
+  position: relative;
+}
+.Cinta_OBS .contenedorBanner {
+  background: url(/sites/default/files/2022-08/FD-banner_1.png) no-repeat;
+  display: table;
+  width: 100%;
+  background-size: cover;
+  background-position-x: 70px;
+}
+.Cinta_OBS .espacio-o {
+  margin: 0 0 0 0 !important;
+}
+
+.Cinta_OBS .IcoBanner {
+  background: linear-gradient(
+    to left,
+    rgb(34, 31, 76),
+    rgb(34, 31, 76),
+    rgb(43, 45, 116)
+  );
+  min-height: 202px;
+  width: 90%;
+}
+
+.Cinta_OBS .vineta h5 {
+  font-size: 3em;
+  color: #fff;
+  padding: 13% 34% 0;
+  font-weight: 800;
+}
+.Cinta_OBS .vineta img {
+  position: absolute;
+  top: 2px;
+  left: 36%;
+  width: initial;
+}
+
+.Cinta_OBS .texto h4 {
+  font-size: 1.4em;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 4.5%;
+  padding: 0% 10% 0 0%;
+  line-height: 34px;
+  color: #fff;
+}
+
+.Cinta_OBS a.btn-vermas {
+  border: solid 2px #fff;
+  padding: 4px 4%;
+  color: #fff;
+  display: table;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.Cinta_OBS a.btn-vermas:hover {
+  color: #fff;
+}
+.Cinta_OBS .espacio-izq {
+  padding-left: 0 !important;
+}
+
+@media (max-width: 1024px) {
+  .Cinta_OBS .texto h4 {
+    font-size: 1.1em;
+  }
+  .Cinta_OBS a.btn-vermas {
+    font-size: 0.9em;
+  }
+  .Cinta_OBS .vineta h5 {
+    font-size: 2.5em;
+    padding: 13% 20% 0;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .Cinta_OBS .vineta img {
+    right: -58px;
+  }
+}
+@media (max-width: 768px) {
+  .Cinta_OBS .espacio-izq {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .Cinta_OBS .IcoBanner {
+    width: 100%;
+  }
+  .Cinta_OBS .contenedorBanner {
+    background-size: cover;
+    background-position-x: 0;
+    padding-bottom: 62px;
+  }
+  .Cinta_OBS .vineta h5 {
+    font-size: 3em;
+    text-align: center;
+    padding: 23% 0;
+  }
+  .Cinta_OBS .vineta img {
+    display: none;
+  }
+  .Cinta_OBS .espacio-izq {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/*Documentos OCCO*/
+.DocumentsOCCO .boton_personalizado {
+  margin: auto;
+  display: table;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #da0921;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+}
+.DocumentsOCCO a.boton_personalizado:hover {
+  color: #eaeaea;
+}
+
+.DocumentsOCCO .imagen img {
+  width: 100%;
+  padding: 6px;
+  box-shadow: -1px 0px 6px #c8c8c8cc;
+}
+
+.DocumentsOCCO hr.linea {
+  line-height: 1.7em;
+  border-bottom: 4px solid #da0921;
+  width: 21%;
+  margin-left: 0;
+  background-color: #da0921;
+  opacity:1;
+}
+
+/* Observatorio Legislativo - Proyecto de Ley */
+
+#OBS-ProyectoLey .Proyectos-ley {
+  border: 2px solid #ddd;
+  padding: 15px 15px 0px;
+  background-image: url(/sites/default/files/2022-09/Trama-Roja-Morada-observatorio.jpeg);
+  width: 120%;
+  min-height: 435px;
+  background-size: cover;
+  background-position-x: center;
+}
+#OBS-ProyectoLey .center_item {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+#OBS-ProyectoLey .conoce-mas {
+  padding: 3% 4%;
+  border-radius: 0;
+  width: 100%;
+  box-shadow: 3px 2px 13px #cecece;
+  z-index: 1;
+  background: #fff;
+}
+#OBS-ProyectoLey h3 {
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: 800;
+  line-height: 1em;
+}
+#OBS-ProyectoLey h4 {
+  color: #fff;
+  font-size: 2.8em;
+  font-weight: 800;
+}
+#OBS-ProyectoLey .color-azul {
+  background-color: #da0921;
+  color: #fff;
+  padding: 56px 0 0 19px;
+}
+#OBS-ProyectoLey .color-rojo {
+  background-color: #212056;
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  padding: 13%;
+}
+
+#pdf-comisiones .contenedor-btn {
+  box-shadow: -2px 4px 7px #b8b8b8;
+  padding: 2%;
+  background-color: #fff;
+  margin-bottom: 21px;
+}
+#pdf-comisiones h4 {
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #f4f4f4;
+  padding: 14px 0;
+  text-align: center;
+}
+#pdf-comisiones p {
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+  color: #000;
+  padding: 20px 0;
+}
+#pdf-comisiones .fa-chevron-down:before {
+  content: "\f078";
+  color: #da0921;
+}
+#pdf-comisiones .camara-azul a {
+  background-color: #212056;
+  color: #fff;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+#pdf-comisiones .camara-rojo a {
+  background-color: #da0921;
+  color: #fff;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+.fa-file-pdf:before {
+  content: "\f1c1";
+}
+#pdf-comisiones .camara-rojo a:hover,
+#pdf-comisiones .camara-azul a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px){
+#OBS-ProyectoLey .Proyectos-ley {
+    width: 100%;
+}
+}
+
+/*TABS MESAS DIRECTIVAS - OBSERVATORIO LEGISLATIVO*/
+#mesa-directiva button#senado-tab {
+  background: #da0921;
+  color: #fff;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 17px;
+  height: 73px;
+  width: 100%;
+}
+#mesa-directiva button#camara-tab {
+  background-color: #212056 !important;
+  color: #fff;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 17px;
+  height: 73px;
+  width: 100%;
+}
+#mesa-directiva li.nav-item {
+  width: 50%;
+}
+#mesa-directiva .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: gray !important;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+#mesa-directiva .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  width: 100%;
+}
+#senado .border-right, #camara .border-right {
+  border-right: 1px solid #dee2e6 !important;
+}
+#senado h4,
+#camara h4 {
+  font-weight: 700;
+  color: #da0921;
+  font-size: 1.1em;
+  line-height: 1em;
+  padding-top: 15px;
+}
+#senado h5,
+#camara h4 {
+  font-size: 1.1em;
+}
+div#mesa-directivaContent {
+  padding: 20px 30px;
+}
+
+#senado img.img-fluid, #camara img.img-fluid  {
+    margin: 0 auto;
+}
+
+/*BANNER GRUPO ESTUDIO DE LA DEMOCRACIA*/
+.proyectos-orp {
+  flex-wrap: nowrap;
+  position: relative;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px 0px;
+  overflow: hidden;
+  background: #1e1839;
+  margin-top: 13%;
+}
+.proyectos-orp .titulos_proyecto.partidos img {
+  z-index: 1;
+  max-height: 100%;
+  position: absolute;
+  left:0;
+  min-height: 400px;
+  object-fit: cover;
+  object-position: 63%;
+}
+.proyectos-orp .titulos_proyecto {
+  width: 122%;
+  min-height: 400px;
+  position:relative;
+}
+
+.proyectos-orp .center_item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.proyectos-orp .tema-votacion {
+  padding: 20px 20px;
+  border-radius: 0;
+  width: 90%;
+  box-shadow: 3px 2px 13px #000104;
+  z-index: 1;
+  background: #fff;
+}
+.proyectos-orp .tema-votacion h2 {
+	font-family: "Nunito", sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #000;
+  padding: 5px 0px;
+  margin: 0;
+}
+.proyectos-orp .tema-votacion p {
+  font-size: 1rem;
+  color: #000;
+  margin: 0;
+}
+.proyectos-orp .congresistasContent img {
+  width: 100%;
+  min-width: 170px;
+  padding: 19px 0;
+}
+.proyectos-orp .congresistasContent {
+  display: flex;
+}
+
+.proyectos-orp .congresistasContent h2 {
+  color: #2d3180;
+}
+
+
+@media (max-width: 480px) {
+  .proyectos-orp .tema-votacion {
+    padding: 5% 10px;
+  }
+  .proyectos-orp .titulos_proyecto.partidos img {
+	  min-height: 400px;
+  }
+  .proyectos-orp .congresistasContent img {
+    width: 50%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .proyectos-orp .titulos_proyecto.partidos img {
+    width: 100%;
+    left: 0;
+    min-height: 400px;
+  }
+  .proyectos-orp .congresistasContent img {
+    width: 50%;
+    padding: 0;
+  }
+}
+@media (max-width: 600px) {
+  .proyectos-orp .tema-votacion {
+    padding: 5% 5%;
+    width: 100%;
+  }
+  .proyectos-orp .congresistasContent {
+    display: flex;
+  }
+}
+@media (min-width: 920px) {
+  .proyectos-orp .titulos_proyecto.partidos img {
+    z-index: 1;
+    position: absolute;
+    border-right: 2px solid #ddd;
+  }
+  .proyectos-orp .titulos_proyecto {
+    width: 122%;
+    min-height: 400px;
+    
+  }
+  .proyectos-orp .congresistasContent img {
+    width: 50%;
+    padding: 0;
+  }
+  .proyectos-orp .congresistasContent .img {
+    margin-right: 3%;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  .proyectos-orp .titulos_proyecto.partidos img {
+    z-index: 1;
+    max-height: 100%;
+    position: absolute;
+    left: 0;
+    border-right: 2px solid #ddd;
+    /*min-height: 400px;*/
+  }
+}
+.ActualidadOBS a.bolet {
+  background-color: #1b194b;
+  color: #fff;
+  margin-bottom: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+  display: block !important;
+  font-weight: 800;
+  border-radius: 0.25rem;
+}
+.ActualidadOBS a.bolet:hover {
+  background-color: #28246e;
+  color: #fff;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.ActualidadOBS a.bolet i {
+  background-color: #da0921;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 11px;
+}
+/* BODY BOLETÍN DE ACTUALIDAD*/
+#boletin-OBSLEGIS .banner {
+  background-color: #1b194b;
+  padding: 0;
+  background-image: url(/sites/default/files/2022-10/banner-boletin.jpeg);
+  background-size: 201%;
+  background-repeat: no-repeat;
+  background-position-x: -87px;
+  background-position-y: 0;
+  border-bottom: 4px solid #da0921;
+}
+#boletin-OBSLEGIS small {
+  background-color: #1b194b;
+  color: #fff;
+  padding: 3px 9px 7px 7px;
+}
+.conte-bor {
+    border: 1px solid #f0f0f0;
+    box-shadow: 5px 4px 6px #f0f0f0;
+    margin-bottom: 37px;
+    padding: 2% 1%;
+}
+@media (max-width: 600px) {
+  #boletin-OBSLEGIS .banner {
+    height: 200px;
+    background-size: auto;
+    background-position-y: -109px;
+    margin: 7px 0 28px 0;
+    border-bottom: 5px solid#1b194b;
+  }
+}
+/*Grupo de Acciones Públicas*/
+.casosEmblematicos .btn {
+  width: 100%;
+  text-align: start;
+}
+.casosEmblematicos .btn a {
+  width: 100%;
+  background-color: white;
+  display: block;
+  padding: 23px;
+  border: 1px solid #da0921;
+  color: #000;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  display: table;
+  text-decoration: none;
+}
+.casosEmblematicos .btn a:hover {
+  background-color: #29296a;
+  color: #fff;
+  text-decoration: underline;
+}
+.casosEmblematicos .btn a .btnemble {
+  background-color: #29296a;
+  color: #fff;
+  /* position: absolute; */
+  right: 41px;
+  padding: 2px 7px;
+  margin-top: 9px;
+  float: revert;
+  font-size: 1em;
+  float: right;
+}
+.casosEmblematicos .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-right: 5px;
+    display: inline;
+}
+.title-ur-pink h2 {
+		border-left: 8px solid#d11a7c;
+    padding-left: 14px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 45px;
+}

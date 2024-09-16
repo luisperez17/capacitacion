@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;0,900;1,900&display=swap");
+.modal-body {
+    padding: 30px 40px;
+}
+button.close {
+background-color: #da0921;
+opacity: 100%;
+color: #ffff;
+}
+.pulse {
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+.banner {
+    background-image: url(https://urosario.edu.co/sites/default/files/2022-11/fondo-estudiantes.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 2% 5% 0 2%;
+}
+.banner h2 {
+    color: #121057;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.6em;
+    padding-left: 57px;
+    position: relative;
+    top: -32px;
+}
+.banner p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+.Seccion-azul {
+    background-image: url(https://urosario.edu.co/sites/default/files/2022-11/seccion_azul.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 16% 6%;
+    margin-top: -282px;
+}
+.contenedor {
+    background-color: #fff;
+    border-radius: 20px;
+    height: 157px;
+}
+.contenedor a {
+    display: contents;
+    color: #da0921;
+    transition: 1s;
+}
+.contenedor a:hover {
+    color: #121144;
+}
+.contenedor:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.contenedor p {
+    line-height: 1em;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.3em;
+    padding: 22px 63px 10px 0;
+}
+.contenedor strong {
+    color: #da0921;
+    display: contents;
+}
+.contenedor img {
+    position: relative;
+    left: -22px;
+}
+
+.Conoce {
+    padding: 0 6%;
+}
+.Conoce h3 {
+    font-size: 3.5em;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1em;
+    color: #121154;
+}
+
+.Conoce h3 strong {
+    color: #da0921;
+}
+.Conoce img {
+    max-width: 229px;
+    position: absolute;
+    /*left: -54px;*/
+    bottom: -1px;
+}
+.img-dere img {
+    max-width: 248px;
+    position: absolute;
+    bottom: -1px;
+    margin-left: 20px;
+}
+
+.flex-Conoce {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-Conoce > div {
+    background-color: #f0f0f2;
+    width: 46%;
+    margin: 23px;
+    border: 7px solid#da0921;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 5px #00000033;
+}
+.flex-Conoce > div h4 {
+    font-size: 2.6em;
+    font-weight: 900;
+    color: #da0921;
+    padding-top: 37px;
+}
+.Conoce a {
+    color: #1c1c1c;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Conoce li:before {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    /* width: 16px; */
+    /* height: 16px; */
+    display: block;
+    position: absolute;
+    left: 13px;
+    color: #da0921;
+    font-weight: bolder;
+}
+.Conoce li:hover {
+    transform: scale(1.1);
+    color: #000;
+    padding-left: 29px;
+    transition: 0.4s;
+}
+.Conoce ul {
+    list-style: none;
+    position: relative;
+    padding: 6px 0 0 45px;
+    font-size: 0.8em;
+}
+.Conoce hr {
+    margin: 3px 0;
+    border: 1px solid#da0921;
+    background-color: #da0921;
+}
+.row.azul {
+    border: 7px solid#291bce;
+}
+.row.azul h4 {
+    color: #291bce;
+}
+
+.Conoce .azul hr {
+    border: 1px solid#291bce;
+    background-color: #291bce;
+}
+.Conoce .azul li:before {
+    color: #291bce;
+}
+.Informacion {
+    border-radius: 14px;
+    background: linear-gradient(to bottom, rgb(218 9 33 / 75%), rgb(218 9 33 / 84%)), url(https://www.urosario.edu.co/App_Themes/ProgramasAcademicos2018/img/bg-Diferenciadores.jpg) center top fixed no-repeat;
+    background-size: cover;
+    padding: 20px 0 3px;
+    text-align: center;
+    margin: 2% 7% 6%;
+}
+.Informacion p {
+    line-height: 1.2em;
+    font-size: 2.2em;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    display: inherit;
+    padding: 2% 0;
+}
+.Informacion a {
+    /* display: block; */
+    background-color: #ffff;
+    border: 3px solid#291bce;
+    padding: 0 9px;
+    color: #291bce;
+    font-weight: 900;
+    font-size: 0.8em;
+    transition: 1s;
+    padding: 0 13px 9px;
+}
+
+.Informacion a:hover {
+    background-color: #291bce;
+    color: #fff;
+}
+.fade {
+    background-image: linear-gradient(to bottom, rgba(34, 31, 77, 0.9) 65%, rgba(27, 20, 45, 0.9) 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+    display: none;
+}
+
+.modal-footer button {
+    margin: auto;
+    background-color: #da0921;
+    border: 0;
+}
+
+.modal-footer button:hover {
+    margin: auto;
+    background-color: #2d1837;
+    border: 0;
+}
+h5#exampleModalLabel {
+    font-weight: 800;
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .Seccion-azul {
+        margin-top: -105px;
+    }
+    .banner h2 {
+        font-size: 2.5em;
+    }
+    .contenedor p {
+        font-size: 1em;
+        padding: 21px 23px 8px 0;
+    }
+    .flex-Conoce > div {
+        width: 44%;
+    }
+    .banner p {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+    .flex-Conoce > div {
+        width: 100%;
+    }
+
+    .Conoce img {
+        max-width: 161px;
+    }
+    .img-dere img {
+        max-width: 161px;
+    }
+    .banner h2 {
+        font-size: 1.9em;
+        top: -12px;
+    }
+    .banner p {
+        font-size: 1em;
+    }
+    .Seccion-azul {
+        margin-top: -88px;
+    }
+    .contenedor img {
+        width: 52px;
+    }
+    .contenedor p {
+        font-size: 1em;
+    }
+    .Seccion-azul {
+        background-size: 124%;
+    }
+    .Conoce h3 {
+        font-size: 2.3em;
+    }
+    .contenedor p {
+        font-size: 1em;
+        padding: 24px 26px 10px 0;
+    }
+    .contenedor {
+        height: 123px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Informacion a {
+        padding: 0px 14px 2px;
+    }
+    .banner {
+        background-size: auto;
+        background-color: #f7f7f9;
+        padding: 9% 8% 28% 9%;
+    }
+
+    .banner h2 {
+        font-size: 1em;
+        top: 0;
+        text-align: center;
+        padding-left: 0;
+    }
+    .estudiante img {
+        width: 100%;
+    }
+
+    .banner h2 {
+        top: 0;
+    }
+    .banner p {
+        font-size: 1em;
+    }
+    .Conoce h3 {
+        font-size: 1.9em;
+    }
+    .Seccion-azul {
+        padding: 32% 6% 5%;
+        margin-top: 0;
+        background-size: auto;
+        margin-top: -94px;
+    }
+    .flex-Conoce > div h4 {
+        font-size: 2em;
+    }
+    .flex-Conoce > div {
+        width: 86%;
+    }
+    .Conoce img {
+        position: inherit;
+    }
+    .img-dere img {
+        position: inherit;
+    }
+
+    .contenedor {
+        margin-bottom: 25px;
+    }
+    .Informacion p {
+        font-size: 1.3em;
+    }
+}

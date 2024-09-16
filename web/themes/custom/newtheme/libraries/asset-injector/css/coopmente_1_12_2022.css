@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+#Oat h2 {
+    color: #f96865;
+    font-size: 45px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Bakbak One", cursive;
+}
+
+#BannerInicial h1 {
+    font-size: 55px;
+    line-height: 62px;
+    text-align: left;
+    width: min-content;
+    color: white;
+    font-family: "Bakbak One", cursive;
+
+    background-color: #f9d168;
+    padding: 5px 15px;
+}
+.EspacioSeccion {
+    padding: 21%;
+}
+#BannerInicial .sub {
+    font-size: 35px;
+    line-height: 36px !important;
+    font-family: "Bakbak One", cursive;
+
+    color: white;
+}
+
+#BannerInicial .boton-tiempo {
+    font-family: "Bakbak One", cursive;
+    background-color: #fff;
+    color: #f9d168;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 25px;
+    width: 280px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#BannerInicial p {
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    text-shadow: 1px 1px #191c37;
+}
+
+#SeccionVideoUno::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(230 240 232 / 75%);
+    z-index: 1;
+}
+
+#SeccionVideoUno {
+    position: relative;
+    z-index: 999;
+}
+#SeccionVideoUno iframe {
+    position: relative;
+    z-index: 999;
+}
+
+.trackinfo {
+    position: absolute;
+    bottom: 16px;
+    margin: auto;
+    left: -18px;
+    right: 0;
+}
+#player {
+    position: relative;
+}
+
+#player3 .container,
+#player2 .container,
+#player .container {
+    position: relative;
+    width: 260px;
+    border: 7px solid rgb(249, 209, 104);
+    height: 260px;
+    border-radius: 100%;
+    background-image: url(/sites/default/files/2022-11/experto-1.svg);
+}
+#player3 .trackinfo #artist,
+#player2 .trackinfo #artist,
+#player .trackinfo #artist {
+    font-family: "Bakbak One", cursive;
+    font-style: normal;
+    padding-left: 16px;
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(248 200 74);
+    line-height: 33px;
+}
+#player3 .trackinfo #title,
+#player2 .trackinfo #title,
+#player .trackinfo #title {
+    font-family: "Bakbak One", cursive;
+
+    line-height: 0px;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    text-align: center;
+    color: rgb(25, 28, 55);
+}
+
+.play,
+.playdos,
+.playtres,
+.pause,
+.pausedos,
+.pausetres,
+.playcinco,
+.pausecinco,
+.playseis,
+.pauseseis,
+.playsiete,
+.pausesiete,
+.playocho,
+.pauseocho,
+.playnueve,
+.pausenueve {
+    cursor: pointer;
+    text-indent: -999999px;
+    height: 68px;
+    width: 68px;
+    padding: 12px 18px;
+    z-index: 2;
+    background-image: url(/sites/default/files/2022-11/assets2.svg);
+    background-position: center center;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    top: 52%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.play {
+    background-image: url(/sites/default/files/2022-11/assets2.svg);
+}
+.pause {
+    background-image: url(/sites/default/files/2022-11/assets3.svg) !important;
+}
+.playdos {
+    background-image: url(/sites/default/files/2022-11/assets2.svg);
+}
+.pausedos {
+    background-image: url(/sites/default/files/2022-11/assets3.svg) !important;
+}
+
+.playcinco {
+    background-image: url(/sites/default/files/2022-11/assets2.svg);
+}
+.pausecinco {
+    background-image: url(/sites/default/files/2022-11/assets3.svg) !important;
+}
+.playseis {
+    background-image: url(/sites/default/files/2022-11/assets2.svg);
+}
+.pauseseis {
+    background-image: url(/sites/default/files/2022-11/assets3.svg) !important;
+}
+
+.playsiete {
+    background-image: url(/sites/default/files/2022-11/assets2.svg);
+}
+.pausesiete {
+    background-image: url(/sites/default/files/2022-11/assets3.svg) !important;
+}
+
+.playocho {
+    background-image: url(/sites/default/files/2022-11/assets2.svg);
+}
+.pauseocho {
+    background-image: url(/sites/default/files/2022-11/assets3.svg) !important;
+}
+
+.playnueve {
+    background-image: url(/sites/default/files/2022-11/assets2.svg);
+}
+.pausenueve {
+    background-image: url(/sites/default/files/2022-11/assets3.svg) !important;
+}
+
+#Oat {
+padding: 17% 6%;
+}
+.cita {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.destacado {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Bakbak One", cursive;
+}
+.cita-2 {
+    background-color: rgb(249, 209, 104);
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#SeccionVideoUno iframe {
+    width: 56%;
+}
+h2.Titu {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Bakbak One", cursive;
+}
+#audio1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-168px, 45px);
+}
+#audio2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(80px, 94px);
+}
+#audio3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-102px, 110px);
+}
+#audio4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(145px, 1px);
+}
+
+.touch-svg {
+    max-width: 700px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.touch-svg img,
+svg {
+    vertical-align: middle;
+}
+.section-complete h2 {
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Bakbak One", cursive;
+}
+
+.section-complete p {
+    text-align: center;
+}
+
+.boton-rep {
+    background-color: rgb(251, 117, 54);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    border: 2px solid rgb(249, 209, 104);
+    border-radius: 25px;
+    margin-bottom: 44px;
+    width: 230px;
+    margin-bottom: 23px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: auto;
+    display: table;
+}
+
+h2.Titu2 {
+    color: #f96865;
+    font-size: 45px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Bakbak One", cursive;
+}
+.instagram p {
+    font-style: italic;
+    padding-right: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    line-height: 1em;
+}
+.instagram .destacado {
+    color: rgb(25, 28, 55);
+    text-transform: uppercase;
+    font-size: 63px;
+    line-height: 62px;
+}
+
+.instagram {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.paralsec13 {
+    background: rgb(223, 248, 214);
+    position: relative;
+}
+.social-media {
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    background-color: rgb(249, 104, 101);
+    padding: 20px 15px;
+    border-radius: 0% 30% 30% 0%;
+    left: 0px;
+}
+.social-media ul {
+    list-style: none;
+}
+.Consejo {
+    display: inline-flex;
+    align-items: center;
+}
+#FormularioCoopmente form {
+    background-color: #a7e063;
+    border-radius: 25px;
+    padding: 29px;
+    display: table;
+    margin: auto;
+}
+
+#FormularioCoopmente .form-item__textfield {
+    width: 100%;
+}
+
+#FormularioCoopmente input#edit-actions-submit {
+    background-color: #248758;
+    border-radius: 23px;
+    font-weight: 700;
+    display: table;
+    color: #fff;
+    margin: auto;
+    border: 0;
+}
+
+#FormularioCoopmente .form-item__textfield {
+    border-radius: 23px;
+}
+#FormularioCoopmente label {
+    text-align: left;
+    color: #248757;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1346px) {
+    #player3 .container,
+    #player2 .container,
+    #player .container {
+        width: 241px;
+        height: 241px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1346px) {
+    .instagram .destacado {
+        font-size: 43px;
+        line-height: 52px;
+    }
+}
+@media (max-width: 600px) {
+    #Oat h2 {
+        font-size: 25px;
+        line-height: 1em;
+    }
+    .section-complete h2 {
+        font-size: 24px;
+    }
+    .instagram {
+        margin-top: 19%;
+    }
+
+    .instagram .destacado {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .instagram p {
+        font-size: 23px !important;
+    }
+
+    .destacado {
+        font-size: 19px;
+    }
+    #SeccionVideoUno iframe {
+        padding: 0 30px;
+        width: 100%;
+    }
+    #audio4 {
+        top: 57%;
+        left: 43%;
+    }
+    .social-media {
+        position: fixed;
+        top: 0%;
+        padding: 8px 0px;
+        width: 100%;
+        bottom: -40px;
+        top: inherit;
+        border-radius: 0;
+        z-index: 999;
+    }
+    #FormularioCoopmente img {
+        max-width: 64%;
+    }
+    .social-media li {
+        display: inline-flex;
+    }
+}
+

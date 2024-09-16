@@ -1,0 +1,327 @@
+.Btn a {
+  position: fixed;
+  right: 0;
+  top: 30%;
+  z-index: 9;
+  color: #fff;
+  font-weight: 700;
+  width: 10%;
+  line-height: 1.1em;
+  padding: 7px 15px;
+  border: 2px solid#fff;
+  border-right: 0;
+  transition: .3s;
+  background-color: #139540;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.Btn a:hover {
+  border: 2px solid#fff;
+  background-color: #11abcd;
+  border-right: 0;
+}
+
+button.navbar-toggler {
+  border: 3px solid#0faccd;
+  margin-left: -13px;
+}
+.section-title--casa-ur {
+  border-left: 8px solid #11abcd;
+}
+.section-title--line-down-center::after {
+  background-color: #00accc;
+}
+
+.Ideopolis {
+  padding: 0px 45px;
+  position: fixed;
+  top: 120px;
+  left: 0;
+  z-index: 3;
+  margin: auto;
+  width: 100%;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 6px #71717166;
+}
+
+.Ideopolis .navbar-nav .nav-link:hover {
+  color: #12acce;
+}
+.Ideopolis .navbar {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+.card-directory img {
+  border: solid 2px #00accc;
+}
+.section-title--line-down::after {
+  background-color: #00accc;
+}
+.button-content {
+  background-color: #00accc;
+}
+button.button-content:hover {
+  color: #000;
+}
+.Ideopolis .navbar-nav .nav-link {
+  color: #343434;
+  font-weight: 700;
+  border-right: 2px solid#edeaeb;
+}
+
+.Texto b {
+  font-size: 1.5em;
+  background-color: #11abcd;
+  border: 5px solid#00d2ff;
+  color: #fff;
+  padding: 6px 22px;
+  border-radius: 28px;
+  margin-bottom: 6px;
+  display: table;
+}
+.Convocatoria:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #000000bd;
+  background: linear-gradient(180deg,#00090ad4 4%,rgb(0 0 0 / 70%) 51%);
+}
+.Convocatoria {
+  position: relative;
+}
+
+.Convocatoria .layout__region.layout__region--content {
+  position: relative;
+  z-index: 2;
+}
+
+.Flex {
+  display: flex;
+  border-radius: 12px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+.Flex img {
+  width: 75%;
+  height: 74px;
+  margin: auto;
+  margin-bottom: 7px;
+}
+.Flex > div {
+  border: 4px solid#ffbf00e3;
+  background-color: #08080854;
+  border-radius: 8px;
+  padding: 11px 0;
+  color: #ffffff;
+  margin: 12px;
+  width: 152px;
+}
+.CajaUno {
+  border: 5px solid#eaae05;
+  background-color: #00000057;
+  border-radius: 20px;
+  line-height: 1em;
+  font-size: 1.8em;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 21px;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 23%;
+}
+.CajaUno {
+  border: 5px solid#eaae05;
+  background-color: #00000057;
+  border-radius: 20px;
+  line-height: 1em;
+  font-size: 1.8em;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 21px;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 23%;
+}
+.CajaUno strong {
+  background-color: #eaae05;
+  border-radius: 50%;
+  padding: 0px 1px;
+  padding: 1px 2px;
+  font-size: .8em;
+  text-align: center;
+  height: 31px;
+  width: 36px;
+}
+.Fecha H4 {
+  color: #fff;
+  font-weight: 700;
+}
+.Fechas .Caja {
+  border: 3px solid#fcc216;
+  background-color: #0070cbad;
+  display: inline-flex;
+  padding: 0 28px 0 60px;
+  margin-bottom: 20px;
+  height: 203px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  position: relative;
+}
+
+.Fechas .Caja strong {
+  background-color: #fcc216;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0px 16px;
+  font-size: 1.9em;
+   color: #154754;
+  font-weight: 800;
+}
+.Caja span {
+  background-color: #eab82f;
+  padding: 0 19px 0 0;
+  font-weight: 800;
+  color: #005a68;
+}
+.Caja span i {
+  color: #006979;
+  background-color: #e1a500;
+  padding: 9px;
+}
+.Fecha {
+  position: relative;
+}
+.Fecha:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(250 187 0 / 89%);
+  z-index: 1;
+}
+.Fecha .layout__region.layout__region--content {
+  position: relative;
+  z-index: 2;
+}
+.Convocatoria label.js-form-required.form-required.form-item__label {
+color: #000;
+  font-weight: 800;
+}
+
+.Convocatoria .js-form-item-title .form-item__label {
+  color: #ffffff;
+}
+.Convocatoria .form-item__textfield {
+  width: 100%;
+}
+
+.Convocatoria a {
+  color: #3c3c3c;
+  font-size: .9em;
+  font-weight: 800;
+}
+.Convocatoria label.option.form-item__label {
+  color: #000;
+  font-size: .8em;
+  font-weight: 500;
+  width: 972%;
+}
+.Convocatoria form {
+  width: 62%;
+  margin: auto;
+  background-color: #fcc216;
+  padding: 23px 42px;
+}
+.Convocatoria  input#edit-actions-submit {
+  background-color: #0CACCC;
+  font-weight: 800;
+  font-size: 1.3em;
+  display: table;
+  margin: auto;
+  color: #fff;
+}
+
+.Convocatoria  input#edit-actions-submit:hover {
+background-color: #139540;
+  color: #fff;
+}
+
+
+.Convocatoria label.form-item__label {
+color: #000;
+  font-weight: 800;
+}
+.Convocatoria h4 {
+  color: #fff;
+  width: 67%;
+  margin: auto;
+}
+.Convocatoria  .form-item__select {
+  background-color: white!important;
+}
+
+@media (max-width: 600px) {
+.Btn a {
+  position: fixed;
+  width: 100%;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  bottom: 0;
+  top: inherit;
+  text-align: center;
+  border: 0;
+}
+  .Ideopolis {
+      position: relative;
+      top: 0;
+  }
+  .Fechas .Caja {
+      padding: 25px 28px 0 60px;
+      height: auto;
+  }
+  .CajaUno {
+
+  margin-bottom: 39px;
+}
+.Flex > div {
+  width: 139px;
+}
+.Convocatoria {
+  position: relative;
+  background-position-x: -291px;
+}
+.Convocatoria form {
+  width: 100%;
+}
+}
+@media (max-width: 360px) {
+.Flex > div {
+  width: 133px;
+}
+}

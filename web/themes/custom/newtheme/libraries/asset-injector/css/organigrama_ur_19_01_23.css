@@ -1,0 +1,782 @@
+.accordion-container {
+  width: 100%;
+  margin: 0 0 20px;
+  clear: both;
+}
+.accordion-titulo {
+  position: relative;
+  display: block;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  background: #2c3e50;
+  color: #fff;
+  text-decoration: none;
+}
+.accordion-titulo.open {
+  background: #16a085;
+  color: #fff;
+}
+.accordion-titulo:hover {
+  background: #1abc9c;
+}
+.accordion-titulo span.toggle-icon:before {
+  content: "+";
+}
+.accordion-titulo.open span.toggle-icon:before {
+  content: "-";
+}
+.accordion-titulo span.toggle-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 38px;
+  font-weight: bold;
+}
+.accordion-content {
+  display: none;
+  overflow: auto;
+}
+.accordion-content p {
+  margin: 0;
+}
+.accordion-content img {
+  display: block;
+  float: left;
+  margin: 0 15px 10px 0;
+  width: 50%;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .accordion-content {
+      padding: 10px 0;
+  }
+}
+
+
+
+#organigrama_ur {
+padding: 0;
+display: block;
+font-family: "Nunito", sans-serif !important;
+background: rgba(37, 32, 55, 1);
+background: -moz-linear-gradient(left, rgba(37, 32, 55, 1) 0%, rgba(37, 32, 55, 1) 36%, rgba(57, 60, 142, 1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(37, 32, 55, 1)), color-stop(36%, rgba(37, 32, 55, 1)), color-stop(100%, rgba(57, 60, 142, 1)));
+background: -webkit-linear-gradient(left, rgba(37, 32, 55, 1) 0%, rgba(37, 32, 55, 1) 36%, rgba(57, 60, 142, 1) 100%);
+background: -o-linear-gradient(left, rgba(37, 32, 55, 1) 0%, rgba(37, 32, 55, 1) 36%, rgba(57, 60, 142, 1) 100%);
+background: -ms-linear-gradient(left, rgba(37, 32, 55, 1) 0%, rgba(37, 32, 55, 1) 36%, rgba(57, 60, 142, 1) 100%);
+background: linear-gradient(to right, rgba(37, 32, 55, 1) 0%, rgba(37, 32, 55, 1) 36%, rgba(57, 60, 142, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252037', endColorstr='#393c8e', GradientType=1 );
+padding: 3% 5%;
+}
+
+#organigrama_ur .bg_content {
+background-image: url(../../../../../PortalUrosario/media/UR-V4/Organigrama_UR/img/organigrama_ur.png);
+background-repeat: no-repeat;
+background-position-y: top;
+background-position-x: 45%;
+height: 100%;
+position: static;
+}
+
+#organigrama_ur ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#organigrama_ur ul.departments ul.sections {
+border-left: 3px solid #bebebe;
+width: 80%;
+float: right;
+padding-bottom: 20px;
+}
+
+#organigrama_ur .content {
+width: 100%;
+max-width: 1400px;
+padding: 40% 0px 5%;
+margin: 0 auto;
+}
+
+#organigrama_ur a {
+color: #fff;
+}
+
+#organigrama_ur .Director {
+text-align: center;
+position: relative;
+}
+
+#organigrama_ur .departments:after {
+content: "";
+display: block;
+position: absolute;
+width: 84.1%;
+height: 45px;
+border-top: 4px solid #bebebe;
+border-right: 4px solid #bebebe;
+border-left: 4px solid #bebebe;
+margin: 0 auto;
+left: 9.1%;
+top: 0px;
+}
+
+#organigrama_ur a.pri_red {
+width: 30%;
+margin: 0 auto 0px auto;
+font-size: 1.3em;
+background: #b91125;
+text-transform: uppercase;
+text-align: center;
+overflow: hidden;
+text-decoration: none;
+width: 100%;
+max-width: 350px;
+align-items: center;
+padding: 20px 20px 10px;
+display: block;
+font-weight: 700;
+display: flex;
+align-items: center;
+min-height: 81px;
+justify-content: center;
+position: relative;
+transition: all linear 0.1s;
+}
+
+#organigrama_ur a.pri_red:hover {
+background-color: #4b4bdb;
+cursor: pointer;
+-webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+#organigrama_ur a.pri_red:active {
+background-color: #4b4bdb;
+}
+
+#organigrama_ur ul.departments a.pri_red i {
+position: absolute;
+padding-top: 8px;
+left: 17%;
+}
+
+#organigrama_ur a.pri_red i {
+padding-top: 7%;
+font-size: 22px;
+}
+
+#organigrama_ur .subdirector {
+display: flex;
+justify-content: center;
+padding-bottom: 50px;
+}
+
+#organigrama_ur .dereccion_sub {
+display: flex;
+justify-content: flex-end;
+padding-bottom: 30px;
+width: 100%;
+padding-top: 35px;
+position: relative;
+}
+
+#organigrama_ur ul.sections.A {
+width: 50%;
+}
+
+#organigrama_ur .Director a.pri_red {
+margin-bottom: 43px;
+}
+
+#organigrama_ur .Director:before {
+content: "";
+display: flex;
+width: 0;
+height: 93.5%;
+border-left: 4px solid #bebebe;
+position: absolute;
+top: 89px;
+text-align: center;
+margin: 0 auto;
+justify-content: center;
+right: 49.7%;
+}
+
+#organigrama_ur ul.sections.A:before {
+content: "";
+display: block;
+width: 0;
+height: 90%;
+border-left: 3px solid #bebebe;
+position: absolute;
+bottom: 0%;
+}
+
+/*#organigrama_ur li.section.dir_A::before {
+margin-right: 8px;
+font-size: 38px;
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+content: "\f0d9";
+color: #fff;
+position: absolute;
+left: 3px;
+top: 27%;
+}*/
+
+#organigrama_ur .dereccion_sub:after {
+content: "";
+display: block;
+position: absolute;
+width: 13.7%;
+height: 45px;
+border-top: 4px solid #4b4bdb;
+margin: 0 auto;
+right: 36%;
+top: 24%;
+}
+
+#organigrama_ur li.section.dir_AB::before {
+margin-right: 8px;
+font-size: 36px;
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+content: "\f0d9";
+color: #fff;
+position: absolute;
+left: 50%;
+top: -29%;
+transform: rotate(90deg);
+}
+
+#organigrama_ur .dereccion_sub .section a {
+min-height: 80px;
+padding: 10px 10px;
+border: 3px solid #4b4bdb;
+background: #4b4bdb66;
+transition: all 2s ease;
+}
+
+#organigrama_ur .dereccion_sub .section a:hover,
+#organigrama_ur .dereccion_sub .section a:focus {
+background: #4b4bdb;
+}
+
+#organigrama_ur ul.sections.R {
+width: 50%;
+padding-left: 20px;
+}
+
+#organigrama_ur ul.sections.F {
+width: 50%;
+padding-right: 20px;
+}
+
+#organigrama_ur li.section {
+padding: 10px 20px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+max-width: 310px;
+align-items: stretch;
+height: auto;
+min-height: 90px;
+margin: 0 auto;
+position: relative;
+}
+
+/*#organigrama_ur ul.sections.F:after {
+content: "";
+display: block;
+width: 0;
+height: 112%;
+border-left: 3px solid #bebebe;
+}*/
+
+#organigrama_ur .section a {
+color: #fff;
+border: 3px solid #bebebe;
+text-align: center;
+overflow: hidden;
+font-size: 1em;
+text-decoration: none;
+width: 100%;
+padding: 10px 10px;
+min-height: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.3s;
+cursor: pointer;
+}
+
+#organigrama_ur .content .hidden {
+display: none;
+}
+
+#organigrama_ur .subdirector .section a:hover,
+#organigrama_ur .subdirector .section a:focus {
+color: #0a0a90;
+font-weight: 600;
+background: linear-gradient(60deg, #d8d8d8d9, white);
+width: 120%;
+border: 3px solid #ffffff;
+transition: all 1s ease;
+}
+
+#organigrama_ur .departments .section a:hover,
+#organigrama_ur .departments .section a:focus {
+color: #0a0a90;
+font-weight: 600;
+background: linear-gradient(60deg, #d8d8d8d9, white);
+width: 120%;
+border: 3px solid #ffffff;
+}
+
+#organigrama_ur .departments .section a {
+font-size: 0.9em;
+padding: 10px 10px;
+min-height: 92px;
+background: #00000094;
+}
+
+#organigrama_ur .departments li.section {
+padding: 20px 0px 10px 17px;
+}
+
+#organigrama_ur .departments a.pri_red {
+font-size: 1em;
+min-height: 85px;
+padding: 10px;
+}
+
+ul.sections.R li.section.dir_R {
+float: right;
+}
+
+ul.sections.F li.section.dir_F {
+float: left;
+}
+
+#organigrama_ur ul.departments {
+display: flex;
+justify-content: center;
+position: relative;
+padding-top: 29px;
+min-height: 200px;
+}
+
+#organigrama_ur li.department {
+width: 40%;
+padding: 15px;
+}
+
+#organigrama_ur .departments li.section::before {
+margin-right: 8px;
+font-size: 38px;
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+content: "\f0d9";
+color: #b91025;
+position: absolute;
+left: 1px;
+top: 27%;
+}
+
+#organigrama_ur ul.departments ul.sections::after {
+content: "";
+color: #bebebe;
+height: 13px;
+position: absolute;
+border-left: 13px solid #bebebe;
+border-radius: 50% 50%;
+margin: 13px -8px;
+}
+
+#organigrama_ur li.section.dir_F::before {
+margin-right: 8px;
+font-size: 38px;
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+content: "\f0d9";
+color: #b91025;
+position: absolute;
+left: 3px;
+top: 27%;
+}
+
+#organigrama_ur li.section.dir_R::before {
+margin-right: 8px;
+font-size: 38px;
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+content: "\f0d9";
+color: #b91025;
+position: absolute;
+right: -8px;
+top: 27%;
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
+
+#organigrama_ur .accordion-content {
+overflow: inherit;
+}
+
+.popover-body h2 {
+font-size: 1.4em;
+color: #da0b21;
+font-weight: 600;
+font-family: "Nunito", sans-serif !important;
+}
+
+.popover-body h3 {
+font-size: 1.2em;
+color: #000000;
+font-weight: 300;
+font-family: "Nunito", sans-serif !important;
+}
+
+.popover-body a {
+font-size: 1.1em;
+color: #0a0a90;
+font-weight: 700;
+border: 1px solid #0a0a90;
+padding: 10px 15px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+max-width: 350px;
+text-decoration: none;
+font-family: "Nunito", sans-serif !important;
+margin: 10px 0px;
+}
+
+.popover-body a i {
+margin-left: 10px;
+}
+
+.popover.show.bs-popover-left {
+width: 80% !important;
+}
+
+.popover-body a:hover {
+color: #fff;
+background: #0a0a90;
+border: 1px solid #0a0a90;
+text-decoration: none;
+}
+
+.popover-body .foto_person {
+margin: auto;
+text-align: center;
+width: 100%;
+max-height: 550px;
+display: inline-block;
+vertical-align: top;
+height: 100%;
+overflow: hidden;
+overflow-y: hidden;
+max-width: 420px;
+}
+
+.popover-body .foto_person img {
+width: 100%;
+height: auto;
+}
+
+/*/*/ /**/
+
+.Director .dropdown-body {
+width: 25%;
+}
+
+.departments .dropdown-body {
+width: 100%;
+}
+
+li.department.dep-a div#unidades-academicas {
+display: none;
+}
+
+.dropdown-body {
+background: #b91025;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 auto;
+z-index: 1;
+position: relative;
+padding: 10px 20px 10px;
+min-height: 430px;
+}
+
+.dropdown-body h2 {
+font-size: 1.4em;
+color: #ffffff;
+font-weight: 600;
+font-family: "Nunito", sans-serif !important;
+padding-top: 15px;
+text-align: center;
+}
+
+.dropdown-body h3 {
+font-size: 1.2em;
+color: #000000;
+font-weight: 300;
+font-family: "Nunito", sans-serif !important;
+}
+
+.dropdown-body a {
+font-size: 1.1em;
+color: #0a0a90 !important;
+font-weight: 700;
+border: 1px solid #0a0a90;
+padding: 10px 15px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+max-width: 350px;
+text-decoration: none;
+font-family: "Nunito", sans-serif !important;
+margin: 10px 0px;
+}
+
+.dropdown-body a i {
+margin-left: 10px;
+}
+
+.dropdown-body a:hover {
+color: #fff !important;
+background: #0a0a90;
+border: 1px solid #0a0a90;
+text-decoration: none;
+}
+
+.dropdown-body .foto_person {
+margin: auto;
+text-align: center;
+width: 100%;
+max-height: 250px;
+display: inline-block;
+vertical-align: top;
+height: 100%;
+overflow: hidden;
+overflow-y: hidden;
+max-width: 420px;
+}
+
+.dropdown-body .foto_person img {
+width: 100%;
+height: auto;
+}
+
+@media (min-width: 1300px) {
+.Director .dropdown-body {
+width: 25%;
+}
+}
+
+@media (max-width: 1100px) {
+.Director .dropdown-body {
+width: 28%;
+}
+
+#organigrama_ur {
+padding: 5% 20px;
+}
+
+#organigrama_ur .bg_content {
+background-size: 620px;
+}
+
+#organigrama_ur ul.sections.F:after {
+content: "";
+display: block;
+width: 0;
+height: 112%;
+border-left: 3px solid #bebebe;
+}
+
+.dropdown-body h2 {
+font-size: 1.1em;
+}
+
+#organigrama_ur .departments a.pri_red {
+font-size: 0.9em;
+}
+
+.dropdown-body a {
+font-size: 0.9em;
+}
+
+.popover-body h2 {
+font-size: 1.2em;
+}
+.popover-body h3 {
+font-size: 1em;
+}
+.popover-body .foto_person {
+max-height: 450px;
+max-width: 320px;
+}
+}
+
+@media (max-width: 940px) {
+.Director .dropdown-body {
+width: 40%;
+}
+
+#organigrama_ur {
+padding: 3% 10px;
+}
+
+#organigrama_ur li.department {
+padding: 5px;
+}
+
+#organigrama_ur ul.departments ul.sections {
+width: 94%;
+}
+
+#organigrama_ur a.pri_red {
+align-items: baseline;
+}
+
+#organigrama_ur .departments:after {
+height: 35px;
+}
+
+.dropdown-body a {
+padding: 10px 5px;
+}
+#organigrama_ur .bg_content {
+background-size: 500px;
+}
+.dropdown-body h2 {
+font-size: 1em;
+width: 100%;
+}
+
+.dropdown-body .foto_person {
+padding: 0px;
+}
+
+.dropdown-body {
+padding: 10px 10px 10px;
+}
+
+.dropdown-body .foto_person {
+max-height: 220px;
+}
+}
+
+@media (max-width: 670px) {
+#organigrama_ur ul.departments {
+display: flex;
+flex-wrap: wrap;
+min-height: auto;
+}
+
+#organigrama_ur li.department {
+width: 100%;
+}
+
+#organigrama_ur .departments a.pri_red {
+width: 100%;
+max-width: 90%;
+align-items: center;
+}
+
+#organigrama_ur .departments a.pri_red {
+width: 100%;
+max-width: 90%;
+align-items: center;
+}
+
+#organigrama_ur ul.departments a.pri_red i {
+position: absolute;
+padding-top: 6px;
+left: auto;
+}
+
+#organigrama_ur .content {
+width: 100%;
+max-width: 1400px;
+padding: 75% 0px 5%;
+margin: 0 auto;
+}
+
+#organigrama_ur .bg_content {
+background-size: 100%;
+background-position-y: top;
+background-position-x: center;
+}
+#organigrama_ur ul.departments ul.sections {
+width: 80%;
+}
+
+.departments .dropdown-body {
+width: 60%;
+}
+
+.Director .dropdown-body {
+width: 80%;
+}
+
+.Director .dropdown-body .foto_person {
+max-height: 334px;
+}
+
+.dropdown-body .foto_person {
+max-height: 280px;
+}
+#organigrama_ur li.section.dir_R {
+padding-bottom: 60%;
+}
+
+#organigrama_ur li.section.dir_F {
+padding-top: 60%;
+}
+
+#organigrama_ur li.section.dir_R::before {
+top: 8%;
+}
+
+#organigrama_ur li.section.dir_F::before {
+top: 70%;
+}
+
+#organigrama_ur ul.sections.R {
+padding-left: 0px;
+}
+
+#organigrama_ur ul.sections.F {
+padding-right: 0px;
+}
+
+#organigrama_ur li.section {
+padding: 10px 0px;
+}
+
+#organigrama_ur li.section.dir_R::before {
+display: none;
+}
+
+#organigrama_ur li.section.dir_F::before {
+display: none;
+}
+}
+
+.esconder-boton {
+display: none !important;
+}

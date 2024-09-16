@@ -1,0 +1,4082 @@
+.pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/*La guerra desde la mirada femenina*/
+      #La-guerra-desde-la-mirada-femenina .slide-imagedos img {
+          transition: 0.2s;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-imagedos img:hover {
+          transform: scale(1.1);
+          transition: 0.2s;
+      }
+      .La-guerra-desde-la-mirada-femenina {
+          height: 534px;
+      }
+      #La-guerra-desde-la-mirada-femenina .La-guerra-desde-la-mirada-femenina img {
+          width: 100%;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-image img {
+   width: 78%;
+  margin-left: 11%;
+  margin-bottom: 17px;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-image h2 {
+          text-align: center;
+          font-family: Rockwell;
+          color: #fff;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-image p {
+          color: #fff;
+          line-height: 1.2em;
+          font-size: 1.1em;
+          text-align: left;
+          padding-left: 11.2%;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-image {
+          position: absolute;
+          text-align: center;
+          display: table;
+          margin: auto;
+          margin: auto;
+          width: 62%;
+          left: 0;
+          bottom: 0;
+          top: 0;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-imagedos {
+          position: absolute;
+          display: table;
+          width: 62%;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-imagedos img {
+          display: table;
+          margin: auto;
+          width: 70%;
+      }
+      #sliderPrincipalHome #La-guerra-desde-la-mirada-femenina .La-guerra-desde-la-mirada-femenina img {
+          -webkit-animation: zoom 20000ms infinite;
+          animation: zoom 20000ms infinite;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-image p span {
+          color: #fcea10;
+          font-weight: 600;
+      }
+      #sliderPrincipalHome #La-guerra-desde-la-mirada-femenina .slide-image1 {
+          position: absolute;
+          right: 41px;
+          bottom: 0;
+          width: 9%;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-image .Titulo img {
+          width: 89%;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-image a img {
+          width: 31%;
+          margin-top: 19px;
+          margin-left: 11%;
+      }
+      #La-guerra-desde-la-mirada-femenina .slide-image a img:hover {
+        filter: hue-rotate(357deg);
+      }
+      @media (min-width: 2500px) and (max-width: 3000px) {
+          #sliderPrincipalHome #La-guerra-desde-la-mirada-femenina .slide-image {
+              top: 0%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image img {
+              width: 46%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image a img {
+              width: 16%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-imagedos img {
+              width: 40%;
+          }
+      }
+      @media (min-width: 1900px) and (max-width: 2500px) {
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              top: -61px;
+              width: 49%;
+              left: 0;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image a img {
+              padding: 0;
+              width: 23%;
+          }
+          #La-guerra-desde-la-mirada-femenina {
+              height: 700px;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-imagedos {
+              width: 51%;
+              right: 194px;
+              top: -58px;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-imagedos img {
+              width: 65%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image img {
+              width: 70%;
+          }
+      }
+      @media (min-width: 1600px) and (max-width: 1900px) {
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              width: 54%;
+              top: 0;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-imagedos img {
+              width: 60%;
+          }
+      }
+      @media (min-width: 1400px) and (max-width: 1599px) {
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              width: 49%;
+              top: 0;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-imagedos img {
+              width: 64%;
+          }
+      }
+      @media (min-width: 1025px) and (max-width: 1399px) {
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              margin-top: 0;
+              width: 54%;
+          }
+      }
+      @media (max-width: 1024px) {
+          #La-guerra-desde-la-mirada-femenina .slide-imagedos img {
+              width: 90%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              width: 50%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-imagedos {
+              width: 50%;
+              right: 66px;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image img {
+              width: 68%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              bottom: 0%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image p {
+              font-size: 1em;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image .Titulo img {
+              width: 100%;
+              margin: 8% auto;
+          }
+      }
+      @media (max-width: 768px) {
+          #La-guerra-desde-la-mirada-femenina .slide-image p {
+              font-size: 0.8em;
+              margin-top: 5%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image .Titulo {
+              margin-bottom: 5px;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              width: 51%;
+              top: 0;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image img {
+              width: 87%;
+          }
+          .La-guerra-desde-la-mirada-femenina {
+              height: auto;
+              background-color: #333333;
+          }
+      }
+      @media (max-width: 600px) {
+          #La-guerra-desde-la-mirada-femenina .slide-imagedos {
+              width: 63%;
+              right: -13px;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image p {
+              font-size: 0.9em;
+          }
+          .La-guerra-desde-la-mirada-femenina {
+              height: auto;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image .Titulo img {
+              display: none;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-imagedos img {
+              width: 110%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              display: inherit;
+              width: 96%;
+              top: 23px;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image h2 {
+              font-size: 1em;
+          }
+          #sliderPrincipalHome #La-guerra-desde-la-mirada-femenina .slide-image1 {
+              width: 19%;
+              right: 10px;
+              bottom: 0;
+          }
+          #sliderPrincipalHome #La-guerra-desde-la-mirada-femenina .La-guerra-desde-la-mirada-femenina {
+              background-image: url(/sites/default/files/2023-03/investigacion-la-guerra-desde-la-mirada-femenina-xs.jpg);
+              height: 258px;
+              background-size: 100%;
+              background-repeat: no-repeat;
+          }
+          #sliderPrincipalHome #La-guerra-desde-la-mirada-femenina .La-guerra-desde-la-mirada-femenina img {
+              display: none;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image img {
+                  margin-left: 30px;
+  width: 59%;
+
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image p {
+              padding: 13px;
+              font-size: 0.6em;
+              width: 59%;
+              padding-left: 30px;
+              margin-top: 0%;
+          }
+          #La-guerra-desde-la-mirada-femenina .slide-image a img {
+      width: 35%;
+      margin-top: 7px;
+      margin-left: 8%;
+          }
+      }
+      @media (max-width: 375px) {
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              width: 108%;
+              top: 23px;
+          }
+      }
+      @media (max-width: 320px) {
+          #La-guerra-desde-la-mirada-femenina .slide-image {
+              width: 108%;
+          }
+      }
+    
+
+
+/*Ruta 2025n*/
+
+#RutaVenteVeinticinco .slide-imagedos img {
+          transition: 0.2s;
+      }
+
+      #RutaVenteVeinticinco .slide-imagedos img:hover {
+          transform: scale(1.1);
+          transition: 0.2s;
+      }
+
+      .RutaVenteVeinticinco {
+          height: 534px;
+      }
+
+      #RutaVenteVeinticinco .RutaVenteVeinticinco img {
+          width: 100%;
+      }
+
+      #RutaVenteVeinticinco .slide-image h2 {
+          text-align: center;
+          font-family: Rockwell;
+          color: #fff;
+      }
+
+      #RutaVenteVeinticinco .slide-image p {
+          color: #fff;
+          line-height: 1.2em;
+          font-size: 1.3em;
+          padding: 23px;
+      }
+
+      #RutaVenteVeinticinco .slide-image {
+          position: absolute;
+          text-align: center;
+          display: table;
+          margin: auto;
+          margin: auto;
+          width: 62%;
+          left: 4%;
+          bottom: 0;
+          top: 0;
+      }
+
+      #RutaVenteVeinticinco .slide-imagedos {
+          position: absolute;
+          right:4%;
+          top: 39px;
+      }
+
+      #sliderPrincipalHome #RutaVenteVeinticinco .RutaVenteVeinticinco img {
+          -webkit-animation: zoom 20000ms infinite;
+          animation: zoom 20000ms infinite;
+      }
+
+      #RutaVenteVeinticinco .slide-image p span {
+          color: #fcea10;
+          font-weight: 600;
+      }
+
+      #sliderPrincipalHome #RutaVenteVeinticinco .slide-image1 {
+          position: absolute;
+          right: 41px;
+          bottom: 0;
+          width: 9%;
+      }
+
+      #RutaVenteVeinticinco .slide-image .Titulo img {
+          width: 89%;
+      }
+
+      #RutaVenteVeinticinco .slide-image a img {
+          width: 24%;
+          margin: auto;
+          display: table;
+          margin-top: 19px;
+      }
+
+      #RutaVenteVeinticinco .slide-image a img:hover {
+          filter: hue-rotate(226deg);
+      }
+
+      @media (min-width: 2500px) and (max-width: 3000px) {
+          #sliderPrincipalHome #RutaVenteVeinticinco .slide-image {
+              top: 0%;
+          }
+
+          #RutaVenteVeinticinco .slide-image img {
+              width: 20%;
+          }
+
+          #RutaVenteVeinticinco .slide-image a img {
+              width: 16%;
+          }
+          #RutaVenteVeinticinco .slide-imagedos {
+              right: 9%;
+          }
+          #RutaVenteVeinticinco .slide-imagedos img {
+              width: 100%;
+          }
+      }
+
+      @media (min-width: 1900px) and (max-width: 2500px) {
+          #RutaVenteVeinticinco .slide-image {
+              top: -121px;
+              width: 22%;
+              left: 4%;
+          }
+
+          #RutaVenteVeinticinco .slide-image a img {
+              padding: 0;
+              width: 16%;
+              margin: auto;
+          }
+
+          #RutaVenteVeinticinco {
+              height: 700px;
+          }
+
+          #RutaVenteVeinticinco .slide-imagedos {
+              right: 7%;
+              top: 59px;
+          }
+
+          #RutaVenteVeinticinco .slide-image img {
+              width: 70%;
+          }
+      }
+
+      @media (min-width: 1600px) and (max-width: 1900px) {
+          #RutaVenteVeinticinco .slide-image {
+              width: 54%;
+              top: 0;
+          }
+
+          #RutaVenteVeinticinco .slide-image {
+              width: 54%;
+              top: 0;
+              left: 82px;
+          }
+      }
+
+      @media (min-width: 1400px) and (max-width: 1599px) {
+          #RutaVenteVeinticinco .slide-image {
+              width: 49%;
+              top: 0;
+          }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1399px) {
+          #RutaVenteVeinticinco .slide-image {
+              margin-top: 0;
+              width: 54%;
+              top: 8%;
+              left: 45px;
+          }
+      }
+
+      @media (max-width: 1024px) {
+          #RutaVenteVeinticinco .slide-image {
+              width: 20%;
+              top: 0;
+          }
+
+          #RutaVenteVeinticinco .slide-imagedos {
+              right: 1%;
+              width: 30%;
+          }
+
+          #RutaVenteVeinticinco .slide-image p {
+              font-size: 1em;
+          }
+
+          #RutaVenteVeinticinco .slide-image .Titulo img {
+              width: 100%;
+              margin: 8% auto;
+          }
+      }
+
+      @media (max-width: 768px) {
+          #RutaVenteVeinticinco .slide-image p {
+              font-size: 0.8em;
+              margin-top: 5%;
+          }
+
+          #RutaVenteVeinticinco .slide-image .Titulo {
+              margin-bottom: 5px;
+          }
+
+          #RutaVenteVeinticinco .slide-image {
+              width: 21%;
+              top: 0;
+          }
+
+          .RutaVenteVeinticinco {
+              height: auto;
+              background-color: #333333;
+          }
+      }
+
+      @media (max-width: 600px) {
+          #RutaVenteVeinticinco .slide-imagedos {
+              width: 40%;
+              right: 0;
+          }
+
+          #RutaVenteVeinticinco .slide-image p {
+              font-size: 0.9em;
+          }
+
+          .RutaVenteVeinticinco {
+              height: auto;
+          }
+
+          #RutaVenteVeinticinco .slide-image .Titulo img {
+              display: none;
+          }
+
+          #RutaVenteVeinticinco .slide-imagedos img {
+              width: 110%;
+          }
+
+          #RutaVenteVeinticinco .slide-image {
+              width: 53%;
+              top: 23px;
+              left: 7px;
+              display: inherit;
+          }
+
+          #RutaVenteVeinticinco .slide-image h2 {
+              font-size: 1em;
+          }
+
+          #sliderPrincipalHome #RutaVenteVeinticinco .slide-image1 {
+              width: 19%;
+              right: 10px;
+              bottom: 0;
+          }
+
+          #sliderPrincipalHome #RutaVenteVeinticinco .RutaVenteVeinticinco {
+              background-image: url(/sites/default/files/2023-03/ur-dpei-merco-ranking-2023-bannerweb-xs_1.jpg);
+              height: 258px;
+              background-size: 100%;
+              background-repeat: no-repeat;
+          }
+
+          #sliderPrincipalHome #RutaVenteVeinticinco .RutaVenteVeinticinco img {
+              display: none;
+          }
+
+          #RutaVenteVeinticinco .slide-image img {
+              width: 50%;
+          }
+
+          #RutaVenteVeinticinco .slide-image p {
+              padding: 13px;
+              font-size: 0.6em;
+              width: 100%;
+              margin-top: 2%;
+          }
+
+          #RutaVenteVeinticinco .slide-image a img {
+              width: 35%;
+              margin-top: 7px;
+          }
+      }
+
+      @media (max-width: 375px) {
+      }
+
+      @media (max-width: 320px) {
+          #RutaVenteVeinticinco .slide-image {
+              width: 55%;
+              left: 7px;
+          }
+      }
+
+
+/*El reto de la integración*/
+
+
+
+  #Reto-integración .slide-imagedos img {
+      transition: 0.2s;
+  }
+  #Reto-integración .slide-imagedos img:hover {
+      transform: scale(1.1);
+      transition: 0.2s;
+  }
+  .Reto-integración {
+      height: 534px;
+  }
+  #Reto-integración .Reto-integración img {
+      width: 100%;
+  }
+  #Reto-integración .slide-image img {
+      width: 78%;
+  }
+  #Reto-integración .slide-image h2 {
+      text-align: center;
+      font-family: Rockwell;
+      color: #fff;
+  }
+  #Reto-integración .slide-image p {
+      color: #025259;
+      line-height: 1.2em;
+      font-size: 1.1em;
+      text-align: left;
+      padding-left: 11.2%;
+  }
+  #Reto-integración .slide-image {
+      position: absolute;
+      text-align: center;
+      display: table;
+      margin: auto;
+      margin: auto;
+      width: 62%;
+      left: 0;
+      bottom: 0;
+      top: 0;
+  }
+  #Reto-integración .slide-imagedos {
+      position: absolute;
+      display: table;
+      width: 62%;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+  }
+  #Reto-integración .slide-imagedos img {
+      display: table;
+      margin: auto;
+      width: 70%;
+  }
+  #sliderPrincipalHome #Reto-integración .Reto-integración img {
+      -webkit-animation: zoom 20000ms infinite;
+      animation: zoom 20000ms infinite;
+  }
+  #Reto-integración .slide-image p span {
+      color: #fcea10;
+      font-weight: 600;
+  }
+  #sliderPrincipalHome #Reto-integración .slide-image1 {
+      position: absolute;
+      right: 41px;
+      bottom: 0;
+      width: 9%;
+  }
+  #Reto-integración .slide-image .Titulo img {
+      width: 89%;
+  }
+  #Reto-integración .slide-image a img {
+      width: 31%;
+      margin-top: 19px;
+      margin-left: 11%;
+  }
+  #Reto-integración .slide-image a img:hover {
+  filter: hue-rotate(125deg);
+  }
+  @media (min-width: 2500px) and (max-width: 3000px) {
+      #sliderPrincipalHome #Reto-integración .slide-image {
+          top: 0%;
+      }
+      #Reto-integración .slide-image img {
+          width: 46%;
+      }
+      #Reto-integración .slide-image a img {
+          width: 16%;
+      }
+      #Reto-integración .slide-imagedos img {
+          width: 40%;
+      }
+  }
+  @media (min-width: 1900px) and (max-width: 2500px) {
+      #Reto-integración .slide-image {
+          top: -61px;
+          width: 49%;
+          left: 0;
+      }
+      #Reto-integración .slide-image a img {
+          padding: 0;
+          width: 23%;
+      }
+      #Reto-integración {
+          height: 700px;
+      }
+      #Reto-integración .slide-imagedos {
+          width: 51%;
+          right: 194px;
+          top: -58px;
+      }
+      #Reto-integración .slide-imagedos img {
+          width: 65%;
+      }
+      #Reto-integración .slide-image img {
+          width: 70%;
+      }
+  }
+  @media (min-width: 1600px) and (max-width: 1900px) {
+      #Reto-integración .slide-image {
+          width: 54%;
+          top: 0;
+      }
+      #Reto-integración .slide-imagedos img {
+          width: 60%;
+      }
+  }
+  @media (min-width: 1400px) and (max-width: 1599px) {
+      #Reto-integración .slide-image {
+          width: 49%;
+          top: 0;
+      }
+      #Reto-integración .slide-imagedos img {
+          width: 64%;
+      }
+  }
+  @media (min-width: 1025px) and (max-width: 1399px) {
+      #Reto-integración .slide-image {
+          margin-top: 0;
+          width: 54%;
+      }
+  }
+  @media (max-width: 1024px) {
+      #Reto-integración .slide-imagedos img {
+          width: 90%;
+      }
+      #Reto-integración .slide-image {
+          width: 50%;
+      }
+      #Reto-integración .slide-imagedos {
+          width: 50%;
+          right: 66px;
+      }
+      #Reto-integración .slide-image img {
+          width: 68%;
+      }
+      #Reto-integración .slide-image {
+          bottom: 0%;
+      }
+      #Reto-integración .slide-image p {
+          font-size: 1em;
+      }
+      #Reto-integración .slide-image .Titulo img {
+          width: 100%;
+          margin: 8% auto;
+      }
+  }
+  @media (max-width: 768px) {
+      #Reto-integración .slide-image p {
+          font-size: 0.8em;
+          margin-top: 5%;
+      }
+      #Reto-integración .slide-image .Titulo {
+          margin-bottom: 5px;
+      }
+      #Reto-integración .slide-image {
+          width: 51%;
+          top: 0;
+      }
+      #Reto-integración .slide-image img {
+          width: 87%;
+      }
+      .Reto-integración {
+          height: auto;
+          background-color: #333333;
+      }
+  }
+  @media (max-width: 600px) {
+      #Reto-integración .slide-imagedos {
+          width: 63%;
+          right: -13px;
+      }
+      #Reto-integración .slide-image p {
+          font-size: 0.9em;
+      }
+      .Reto-integración {
+          height: auto;
+      }
+      #Reto-integración .slide-image .Titulo img {
+          display: none;
+      }
+      #Reto-integración .slide-imagedos img {
+          width: 110%;
+      }
+      #Reto-integración .slide-image {
+          display: inherit;
+          width: 96%;
+          top: 23px;
+      }
+      #Reto-integración .slide-image h2 {
+          font-size: 1em;
+      }
+      #sliderPrincipalHome #Reto-integración .slide-image1 {
+          width: 19%;
+          right: 10px;
+          bottom: 0;
+      }
+      #sliderPrincipalHome #Reto-integración .Reto-integración {
+          background-image: url(/sites/default/files/2023-02/Banner-migracion-en-colombia-fondo-xs.jpg);
+          height: 258px;
+          background-size: 100%;
+          background-repeat: no-repeat;
+      }
+      #sliderPrincipalHome #Reto-integración .Reto-integración img {
+          display: none;
+      }
+      #Reto-integración .slide-image img {
+          width: 50%;
+      }
+      #Reto-integración .slide-image p {
+          padding: 13px;
+          font-size: 0.6em;
+          width: 59%;
+          padding-left: 30px;
+          margin-top: 0%;
+      }
+      #Reto-integración .slide-image a img {
+          width: 35%;
+          margin-top: 7px;
+          margin-left: 7%;
+      }
+  }
+  @media (max-width: 375px) {
+      #Reto-integración .slide-image {
+          width: 108%;
+          top: 23px;
+      }
+  }
+  @media (max-width: 320px) {
+      #Reto-integración .slide-image {
+          width: 108%;
+      }
+  }
+
+
+
+/*Ur Emotion*/
+
+#InaguracionUrEmotion .slide-imagedos img {
+  transition: 0.2s;
+}
+
+
+#InaguracionUrEmotion .slide-imagedos img:hover {
+      transform: scale(1.1);
+  transition: 0.2s;
+}
+
+ .InaguracionUrEmotion {
+      height: 534px;
+  }
+
+  #InaguracionUrEmotion .InaguracionUrEmotion img {
+      width: 100%;
+  }
+
+  #InaguracionUrEmotion .slide-image img {
+      margin: auto;
+      display: table;
+      width: 78%;
+  }
+
+  #InaguracionUrEmotion .slide-image h2 {
+      text-align: center;
+      font-family: Rockwell;
+      color: #fff;
+  }
+
+  #InaguracionUrEmotion .slide-image p {
+      color: #fff;
+      line-height: 1.2em;
+      font-size: 1.3em;
+      padding: 23px;
+  }
+
+  #InaguracionUrEmotion .slide-image {
+      position: absolute;
+      text-align: center;
+      display: table;
+      margin: auto;
+      margin: auto;
+      width: 62%;
+      left: 0;
+
+      bottom: 0;
+      top: 0;
+  }
+  #InaguracionUrEmotion .slide-imagedos {
+      position: absolute;
+      display: table;
+      width: 62%;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+  }
+  #InaguracionUrEmotion .slide-imagedos img {
+      display: table;
+      margin: auto;
+      width:70%;
+  }
+
+  #sliderPrincipalHome #InaguracionUrEmotion .InaguracionUrEmotion img {
+      -webkit-animation: zoom 20000ms infinite;
+      animation: zoom 20000ms infinite;
+  }
+
+  #InaguracionUrEmotion .slide-image p span {
+      color: #fcea10;
+      font-weight: 600;
+  }
+
+  #sliderPrincipalHome #InaguracionUrEmotion .slide-image1 {
+      position: absolute;
+      right: 41px;
+      bottom: 0;
+      width: 9%;
+  }
+
+  #InaguracionUrEmotion .slide-image .Titulo img {
+      width: 89%;
+  }
+
+  #InaguracionUrEmotion .slide-image a img {
+      width: 24%;
+      margin: auto;
+      display: table;
+      margin-top: 19px;
+  }
+
+  #InaguracionUrEmotion .slide-image a img:hover {
+      filter: hue-rotate(226deg);
+  }
+
+  @media (min-width: 2500px) and (max-width: 3000px) {
+      #sliderPrincipalHome #InaguracionUrEmotion .slide-image {
+          top: 0%;
+      }
+
+      #InaguracionUrEmotion .slide-image img {
+          width:46%;
+      }
+
+      #InaguracionUrEmotion .slide-image a img {
+          width: 16%;
+      }
+      #InaguracionUrEmotion .slide-imagedos img {
+  width: 40%;
+}
+  }
+
+  @media (min-width: 1900px) and (max-width: 2500px) {
+      #InaguracionUrEmotion .slide-image {
+          top: -102px;
+          width: 53%;
+          left: 122px;
+      }
+
+      #InaguracionUrEmotion .slide-image a img {
+          padding: 0;
+          width: 16%;
+          margin: auto;
+      }
+
+      #InaguracionUrEmotion {
+          height: 700px;
+      }
+      #InaguracionUrEmotion .slide-imagedos {
+          width: 51%;
+          right: 194px;
+          top: -58px;
+      }
+      #InaguracionUrEmotion .slide-imagedos img {
+          width:65%;
+      }
+      #InaguracionUrEmotion .slide-image img {
+          width: 70%;
+      }
+  }
+
+  @media (min-width: 1600px) and (max-width: 1900px) {
+      #InaguracionUrEmotion .slide-image {
+          width: 54%;
+          top: 0;
+      }
+      #InaguracionUrEmotion .slide-imagedos img {
+          width: 60%;
+      }
+  }
+
+  @media (min-width: 1400px) and (max-width: 1599px) {
+      #InaguracionUrEmotion .slide-image {
+          width: 49%;
+          top: 0;
+      }
+      #InaguracionUrEmotion .slide-imagedos img {
+          width: 64%;
+      }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1399px) {
+      #InaguracionUrEmotion .slide-image {
+          margin-top: 0;
+          width: 54%;
+      }
+  }
+
+  @media (max-width: 1024px) {
+      #InaguracionUrEmotion .slide-imagedos img {
+          width: 90%;
+      }
+      #InaguracionUrEmotion .slide-image {
+          width: 60%;
+      }
+      #InaguracionUrEmotion .slide-imagedos {
+          width: 50%;
+          right: 66px;
+      }
+
+      #InaguracionUrEmotion .slide-image img {
+          width: 68%;
+      }
+      #InaguracionUrEmotion .slide-image {
+          bottom: 0%;
+      }
+
+      #InaguracionUrEmotion .slide-image p {
+          font-size: 1em;
+      }
+
+      #InaguracionUrEmotion .slide-image .Titulo img {
+          width: 100%;
+          margin: 8% auto;
+      }
+  }
+
+  @media (max-width: 768px) {
+      #InaguracionUrEmotion .slide-image p {
+          font-size: 0.8em;
+          margin-top: 5%;
+      }
+
+      #InaguracionUrEmotion .slide-image .Titulo {
+          margin-bottom: 5px;
+      }
+
+      #InaguracionUrEmotion .slide-image {
+          width: 51%;
+          top: 0;
+      }
+
+      #InaguracionUrEmotion .slide-image img {
+          width: 87%;
+      }
+
+      .InaguracionUrEmotion {
+          height: auto;
+          background-color: #333333;
+      }
+  }
+
+  @media (max-width: 600px) {
+      #InaguracionUrEmotion .slide-imagedos {
+   width: 63%;
+  right: -13px;
+      }
+      #InaguracionUrEmotion .slide-image p {
+          font-size: 0.9em;
+      }
+
+      .InaguracionUrEmotion {
+          height: auto;
+      }
+
+      #InaguracionUrEmotion .slide-image .Titulo img {
+          display: none;
+      }
+      #InaguracionUrEmotion .slide-imagedos img {
+          width:110%;
+      }
+      #InaguracionUrEmotion .slide-image {
+          display: inherit;
+          width: 96%;
+          top: 23px;
+          left: -103px;
+      }
+
+      #InaguracionUrEmotion .slide-image h2 {
+          font-size: 1em;
+      }
+
+      #sliderPrincipalHome #InaguracionUrEmotion .slide-image1 {
+          width: 19%;
+          right: 10px;
+          bottom: 0;
+      }
+
+      #sliderPrincipalHome #InaguracionUrEmotion .InaguracionUrEmotion {
+          background-image: url(/sites/default/files/2023-02/ur-emotion-lanzamiento-edificio-fondo-xs.jpg);
+          height: 258px;
+          background-size: 100%;
+          background-repeat: no-repeat;
+      }
+
+      #sliderPrincipalHome #InaguracionUrEmotion .InaguracionUrEmotion img {
+          display: none;
+      }
+
+      #InaguracionUrEmotion .slide-image img {
+          width: 50%;
+      }
+
+      #InaguracionUrEmotion .slide-image p {
+          padding: 13px;
+          font-size: 0.6em;
+          width: 100%;
+          margin-top: 2%;
+      }
+
+      #InaguracionUrEmotion .slide-image a img {
+          width: 35%;
+          margin-top: 7px;
+      }
+  }
+
+  @media (max-width: 375px) {
+      #InaguracionUrEmotion .slide-image {
+          width: 108%;
+          top: 23px;
+          left: -118px;
+      }
+  }
+
+  @media (max-width: 320px) {
+      #InaguracionUrEmotion .slide-image {
+          width: 108%;
+          left: -95px;
+      }
+  }
+
+
+
+/*Generacion-ur*/
+  .Generacion-ur {
+      height: 534px;
+  }
+  #Generacion-ur .Generacion-ur img {
+      width: 100%;
+  }
+  #Generacion-ur .slide-image img {
+      margin: auto;
+      display: table;
+      width: 91%;
+  }
+  #Generacion-ur .slide-image h2 {
+      text-align: center;
+      font-family: Rockwell;
+      color: #fff;
+  }
+  #Generacion-ur .slide-image p {
+      color: #fff;
+      line-height: 1.2em;
+      font-size: 1.3em;
+      padding: 23px;
+  }
+  #Generacion-ur .slide-image {
+      position: absolute;
+      text-align: center;
+      display: table;
+      margin: auto;
+      margin: auto;
+      width: 62%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+  }
+  #sliderPrincipalHome #Generacion-ur .Generacion-ur img {
+      -webkit-animation: zoom 20000ms infinite;
+      animation: zoom 20000ms infinite;
+  }
+  #Generacion-ur .slide-image p span {
+      color: #fcea10;
+      font-weight: 600;
+  }
+  #sliderPrincipalHome #Generacion-ur .slide-image1 {
+      position: absolute;
+      right: 41px;
+      bottom: 0;
+      width: 9%;
+  }
+  #Generacion-ur .slide-image .Titulo img {
+      width: 89%;
+  }
+  #Generacion-ur .slide-image a img {
+      width: 69%;
+      margin: auto;
+      display: table;
+      margin-top: 14px;
+      margin-bottom: 23px;
+  }
+  #Generacion-ur .slide-image a img:hover {
+      filter: hue-rotate(226deg);
+  }
+  @media (min-width: 2500px) and (max-width: 3000px) {
+      #sliderPrincipalHome #Generacion-ur .slide-image {
+          top: 0%;
+      }
+      #Generacion-ur .slide-image img {
+          width: 19%;
+      }
+      #Generacion-ur .slide-image a img {
+          width: 16%;
+      }
+  }
+  @media (min-width: 1900px) and (max-width: 2500px) {
+      #Generacion-ur .slide-image img {
+          width: 73%;
+      }
+      #Generacion-ur .slide-image {
+          top: -59px;
+          width: 39%;
+      }
+      #Generacion-ur .slide-image a img {
+          padding: 0;
+          width: 70%;
+          margin: auto;
+          margin-bottom: 23px;
+      }
+      #Generacion-ur {
+          height: 700px;
+      }
+  }
+  @media (min-width: 1600px) and (max-width: 1900px) {
+      #Generacion-ur .slide-image {
+          width: 40%;
+          top: 0;
+      }
+  }
+  @media (min-width: 1400px) and (max-width: 1599px) {
+      #Generacion-ur .slide-image {
+          width: 49%;
+          top: 0;
+      }
+  }
+  @media (min-width: 1025px) and (max-width: 1399px) {
+      #Generacion-ur .slide-image {
+          margin-top: 0;
+          width: 54%;
+      }
+  }
+  @media (max-width: 1024px) {
+      #Generacion-ur .slide-image {
+          bottom: 0%;
+      }
+      #Generacion-ur .slide-image p {
+          font-size: 1em;
+      }
+      #Generacion-ur .slide-image .Titulo img {
+          width: 100%;
+          margin: 8% auto;
+      }
+  }
+  @media (max-width: 768px) {
+      #Generacion-ur .slide-image p {
+          font-size: 0.8em;
+          margin-top: 5%;
+      }
+      #Generacion-ur .slide-image .Titulo {
+          margin-bottom: 5px;
+      }
+      #Generacion-ur .slide-image {
+          width: 51%;
+          top: 0;
+      }
+      #Generacion-ur .slide-image img {
+          width: 100%;
+      }
+      .Generacion-ur {
+          height: auto;
+          background-color: #333333;
+      }
+      #Generacion-ur .slide-image a {
+          font-size: 1em;
+      }
+  }
+  @media (max-width: 600px) {
+      #Generacion-ur .slide-image img.Fechas {
+          width: 99%;
+      }
+      #Generacion-ur .slide-image p {
+          font-size: 0.9em;
+      }
+      .Generacion-ur {
+          height: auto;
+      }
+      #Generacion-ur .slide-image .Titulo img {
+          display: none;
+      }
+      #Generacion-ur .slide-image {
+          display: inherit;
+          width: 82%;
+          top:11%;
+      }
+      #Generacion-ur .slide-image h2 {
+          font-size: 1em;
+      }
+      #sliderPrincipalHome #Generacion-ur .slide-image1 {
+          width: 19%;
+          right: 10px;
+          bottom: 0;
+      }
+      #sliderPrincipalHome #Generacion-ur .Generacion-ur {
+          background-image: url(/sites/default/files/2023-02/Banner-generacion-ur-xs.jpg);
+          height: 258px;
+          background-size: 100%;
+          background-repeat: no-repeat;
+      }
+      #sliderPrincipalHome #Generacion-ur .Generacion-ur img {
+          display: none;
+      }
+      #Generacion-ur .slide-image img {
+          width: 69%;
+      }
+      #Generacion-ur .slide-image p {
+          padding: 13px;
+          font-size: 0.6em;
+          width: 100%;
+          margin-top: 2%;
+      }
+      #Generacion-ur .slide-image a img {
+          margin-top: 7px;
+          width:70%;
+      }
+      #Generacion-ur .slide-image a {
+          font-size: 0.9em;
+          line-height: 1em;
+          padding: 6px 0;
+      }
+          #Generacion-ur .slide-image img {
+          width:70%;
+      }
+      #Generacion-ur .slide-image a img {
+  margin-bottom: 10px;
+}
+  }
+  @media (max-width: 320px) {
+      #Generacion-ur .slide-image img {
+          width: 57%;
+      }
+  }
+
+
+
+/*Semana de la mujer*/
+.SemanaInternacionaldelaMujerylaNina {
+  height: 534px;
+}
+#SemanaInternacionaldelaMujerylaNina .SemanaInternacionaldelaMujerylaNina img {
+  width: 100%;
+}
+#SemanaInternacionaldelaMujerylaNina .slide-image img {
+  margin: auto;
+  display: table;
+  width: 56%;
+}
+#SemanaInternacionaldelaMujerylaNina .slide-image h2 {
+  text-align: center;
+  font-family: Rockwell;
+  color: #fff;
+}
+#SemanaInternacionaldelaMujerylaNina .slide-image p {
+  color: #fff;
+  line-height: 1.2em;
+  font-size: 1.3em;
+  padding: 23px;
+}
+#SemanaInternacionaldelaMujerylaNina .slide-image {
+  position: absolute;
+  text-align: center;
+  display: table;
+  margin: auto;
+  margin: auto;
+  width: 62%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+#sliderPrincipalHome #SemanaInternacionaldelaMujerylaNina .SemanaInternacionaldelaMujerylaNina img {
+  -webkit-animation: zoom 20000ms infinite;
+  animation: zoom 20000ms infinite;
+}
+#SemanaInternacionaldelaMujerylaNina .slide-image p span {
+  color: #fcea10;
+  font-weight: 600;
+}
+#sliderPrincipalHome #SemanaInternacionaldelaMujerylaNina .slide-image1 {
+  position: absolute;
+  right: 41px;
+  bottom: 0;
+  width: 9%;
+}
+#SemanaInternacionaldelaMujerylaNina .slide-image .Titulo img {
+  width: 89%;
+}
+#SemanaInternacionaldelaMujerylaNina .slide-image a img {
+  width: 24%;
+  margin: auto;
+  display: table;
+  margin-top: 19px;
+}
+#SemanaInternacionaldelaMujerylaNina .slide-image a img:hover {
+  filter: hue-rotate(226deg);
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  #sliderPrincipalHome #SemanaInternacionaldelaMujerylaNina .slide-image {
+      top: 0%;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image img {
+      width: 24%;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image a img {
+      width: 16%;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2500px) {
+  #SemanaInternacionaldelaMujerylaNina .slide-image {
+    top: -70px;
+    width: 43%;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image a img {
+      padding: 0;
+      width: 16%;
+      margin: auto;
+  }
+  #SemanaInternacionaldelaMujerylaNina {
+      height: 700px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1900px) {
+  #SemanaInternacionaldelaMujerylaNina .slide-image {
+      width: 40%;
+      top: 0;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  #SemanaInternacionaldelaMujerylaNina .slide-image {
+      width: 49%;
+      top: 0;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1399px) {
+  #SemanaInternacionaldelaMujerylaNina .slide-image {
+      margin-top: 0;
+      width: 54%;
+  }
+}
+@media (max-width: 1024px) {
+  #SemanaInternacionaldelaMujerylaNina .slide-image {
+      bottom: 0%;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image p {
+      font-size: 1em;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image .Titulo img {
+      width: 100%;
+      margin: 8% auto;
+  }
+}
+@media (max-width: 768px) {
+  #SemanaInternacionaldelaMujerylaNina .slide-image p {
+      font-size: 0.8em;
+      margin-top: 5%;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image .Titulo {
+      margin-bottom: 5px;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image {
+      width: 51%;
+      top: -18px;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image img {
+      width: 69%;
+  }
+  .SemanaInternacionaldelaMujerylaNina {
+      height: auto;
+      background-color: #333333;
+  }
+}
+@media (max-width: 600px) {
+    main {
+      margin-top:0px!important;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image p {
+      font-size: 0.9em;
+  }
+  .SemanaInternacionaldelaMujerylaNina {
+      height: auto;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image .Titulo img {
+      display: none;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image {
+      display: inherit;
+      width: 89%;
+      top: 36px;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image h2 {
+      font-size: 1em;
+  }
+  #sliderPrincipalHome #SemanaInternacionaldelaMujerylaNina .slide-image1 {
+      width: 19%;
+      right: 10px;
+      bottom: 0;
+  }
+  #sliderPrincipalHome #SemanaInternacionaldelaMujerylaNina .SemanaInternacionaldelaMujerylaNina {
+      background-image: url(/sites/default/files/2023-02/banner-xs-Semana-de-la-nina-y-la-mujer-en-la-ciencia.jpg);
+      height: 258px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  #sliderPrincipalHome #SemanaInternacionaldelaMujerylaNina .SemanaInternacionaldelaMujerylaNina img {
+      display: none;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image img {
+      width: 50%;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image p {
+      padding: 13px;
+      font-size: 0.6em;
+      width: 100%;
+      margin-top: 2%;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image a img {
+      width: 35%;
+      margin-top: 7px;
+  }
+}
+@media (max-width: 425px) {
+  #SemanaInternacionaldelaMujerylaNina .slide-image {
+      top: 0px;
+  }
+  #SemanaInternacionaldelaMujerylaNina .slide-image img {
+      width: 41%;
+  }
+}
+@media (max-width:393px){
+#SemanaInternacionaldelaMujerylaNina .slide-image img {
+  width: 50%;
+}
+}
+@media (max-width:375px) {
+#SemanaInternacionaldelaMujerylaNina .slide-image img {
+  width: 55%;
+}
+}
+@media (max-width: 320px) {
+  #SemanaInternacionaldelaMujerylaNina .slide-image img {
+  width: 67%;
+  }
+}
+
+
+
+/*veinte-anos-de-periodismo-rosarista*/
+.veinte-anos-de-periodismo-rosarista {
+  height: 534px;
+}
+#veinte-anos-de-periodismo-rosarista .veinte-anos-de-periodismo-rosarista img {
+  width: 100%;
+}
+#veinte-anos-de-periodismo-rosarista .slide-image img {
+  margin: auto;
+  display: table;
+  width: 48%;
+}
+#veinte-anos-de-periodismo-rosarista .slide-image h2 {
+  text-align: center;
+  font-family: Rockwell;
+  color: #fff;
+}
+#veinte-anos-de-periodismo-rosarista .slide-image p {
+  color: #fff;
+  line-height: 1.2em;
+  font-size: 1.3em;
+  padding: 23px;
+}
+#veinte-anos-de-periodismo-rosarista .slide-image {
+  position: absolute;
+  text-align: center;
+  display: table;
+  margin: auto;
+  margin: auto;
+  width: 62%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+#sliderPrincipalHome #veinte-anos-de-periodismo-rosarista .veinte-anos-de-periodismo-rosarista img {
+  -webkit-animation: zoom 20000ms infinite;
+  animation: zoom 20000ms infinite;
+}
+#veinte-anos-de-periodismo-rosarista .slide-image p span {
+  color: #fcea10;
+  font-weight: 600;
+}
+#sliderPrincipalHome #veinte-anos-de-periodismo-rosarista .slide-image1 {
+  position: absolute;
+  right: 41px;
+  bottom: 0;
+  width: 9%;
+}
+#veinte-anos-de-periodismo-rosarista .slide-image .Titulo img {
+  width: 89%;
+}
+#veinte-anos-de-periodismo-rosarista .slide-image a img {
+  width: 24%;
+  margin: auto;
+  display: table;
+  margin-top: 19px;
+}
+#veinte-anos-de-periodismo-rosarista .slide-image a img:hover {
+  filter: hue-rotate(226deg);
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  #sliderPrincipalHome #veinte-anos-de-periodismo-rosarista .slide-image {
+      top: 0%;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image img {
+      width: 19%;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image a img {
+      width: 16%;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2500px) {
+  #veinte-anos-de-periodismo-rosarista .slide-image {
+      top: -13px;
+      width: 39%;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image a img {
+      padding: 0;
+      width: 16%;
+      margin: auto;
+  }
+         #veinte-anos-de-periodismo-rosarista {
+      height: 700px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1900px) {
+  #veinte-anos-de-periodismo-rosarista .slide-image {
+      width: 40%;
+      top: 0;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  #veinte-anos-de-periodismo-rosarista .slide-image {
+      width: 49%;
+      top: 0;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1399px) {
+  #veinte-anos-de-periodismo-rosarista .slide-image {
+      margin-top: 0;
+      width: 54%;
+  }
+}
+@media (max-width: 1024px) {
+  #veinte-anos-de-periodismo-rosarista .slide-image {
+      bottom: 0%;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image p {
+      font-size: 1em;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image .Titulo img {
+      width: 100%;
+      margin: 8% auto;
+  }
+}
+@media (max-width: 768px) {
+  #veinte-anos-de-periodismo-rosarista .slide-image p {
+      font-size: 0.8em;
+      margin-top: 5%;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image .Titulo {
+      margin-bottom: 5px;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image {
+      width: 51%;
+      top: 0;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image img {
+      width: 47%;
+  }
+  .veinte-anos-de-periodismo-rosarista {
+      height: auto;
+      background-color: #333333;
+  }
+}
+@media (max-width: 600px) {
+  #veinte-anos-de-periodismo-rosarista .slide-image p {
+      font-size: 0.9em;
+  }
+  .veinte-anos-de-periodismo-rosarista {
+      height: auto;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image .Titulo img {
+      display: none;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image {
+      display: inherit;
+      width: 82%;
+      top: 14px;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image h2 {
+      font-size: 1em;
+  }
+  #sliderPrincipalHome #veinte-anos-de-periodismo-rosarista .slide-image1 {
+      width: 19%;
+      right: 10px;
+      bottom: 0;
+  }
+  #sliderPrincipalHome #veinte-anos-de-periodismo-rosarista .veinte-anos-de-periodismo-rosarista {
+    background-image: url(/sites/default/files/2023-02/dia-periodista-xs.jpg);
+    height: 258px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #sliderPrincipalHome #veinte-anos-de-periodismo-rosarista .veinte-anos-de-periodismo-rosarista img {
+      display: none;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image img {
+      width: 50%;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image p {
+      padding: 13px;
+      font-size: 0.6em;
+      width: 100%;
+      margin-top: 2%;
+  }
+  #veinte-anos-de-periodismo-rosarista .slide-image a img {
+      width: 35%;
+      margin-top: 7px;
+  }
+}
+  @media (max-width:320px){
+      #veinte-anos-de-periodismo-rosarista .slide-image img {
+      width: 57%;
+    }
+  }
+/*Robins*/
+.Robins {
+  height: 534px;
+}
+#Robins .Robins img {
+  width: 100%;
+}
+#Robins .slide-image img {
+  margin: auto;
+  display: table;
+  width: 36%;
+}
+#Robins .slide-image h2 {
+  text-align: center;
+  font-family: Rockwell;
+  color: #fff;
+}
+#Robins .slide-image p {
+  color: #fff;
+  line-height: 1.2em;
+  font-size: 1.3em;
+  padding: 23px;
+}
+#Robins .slide-image {
+  position: absolute;
+  text-align: center;
+  display: table;
+  margin: auto;
+  margin: auto;
+  width: 62%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+#sliderPrincipalHome #Robins .Robins img {
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  /* transform-origin: 94%; */
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+}
+#Robins .slide-image p span {
+  color: #fcea10;
+  font-weight: 600;
+}
+#sliderPrincipalHome #Robins .slide-image1 {
+  position: absolute;
+  right: 41px;
+  bottom: 0;
+  width: 9%;
+}
+#Robins .slide-image .Titulo img {
+  width: 89%;
+}
+#Robins .slide-image a img {
+  width: 24%;
+  margin: auto;
+  display: table;
+  margin-top: 19px;
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  #sliderPrincipalHome #Robins .slide-image {
+      top: -12%;
+  }
+  #Robins .slide-image img {
+      width: 19%;
+  }
+  #Robins .slide-image a img {
+      width: 16%;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2500px) {
+  .Robins {
+      height: 700px;
+  }
+  #sliderPrincipalHome #Robins .slide-image1 {
+      bottom: 78px;
+  }
+  #sliderPrincipalHome #Robins .slide-image {
+      width: 38%;
+      top: -84px;
+  }
+  #sliderPrincipalHome #Robins .slide-image .Titulo img {
+      width: 50%;
+      margin: 0;
+      margin-bottom: 5%;
+  }
+  #Robins .slide-image a img {
+      padding: 0;
+      width: 30%;
+      margin: auto;
+  }
+  #sliderPrincipalHome #Robins .Robins img {
+      width: 100%;
+      -webkit-transform-origin: 0 177%;
+  }
+  #Robins .slide-image1 img {
+      margin: auto;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1900px) {
+  #sliderPrincipalHome #Robins .Robins img {
+      margin-top: 5px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  #Robins .slide-image {
+      bottom: 7%;
+      top: 0;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1399px) {
+  #Robins .slide-image {
+      margin-top: 0;
+      width: 54%;
+  }
+}
+@media (max-width: 1024px) {
+  #Robins .slide-image {
+      bottom: 0%;
+  }
+  #Robins .slide-image p {
+      font-size: 1em;
+  }
+  #Robins .slide-image .Titulo img {
+      width: 100%;
+      margin: 8% auto;
+  }
+}
+@media (max-width: 768px) {
+  #Robins .slide-image p {
+      font-size: 0.8em;
+      margin-top: 5%;
+  }
+  #Robins .slide-image .Titulo {
+      margin-bottom: 5px;
+  }
+  #Robins .slide-image {
+      width: 65%;
+      top: 0;
+  }
+  #sliderPrincipalHome #Robins .Robins img {
+      margin-top: 0;
+      transform-origin: 100%;
+  }
+  #Robins .slide-image img {
+      width: 47%;
+  }
+  .Robins {
+      height: auto;
+      background-color: #333333;
+  }
+}
+@media (max-width: 600px) {
+  #Robins .slide-image p {
+      font-size: 0.9em;
+  }
+  .Robins {
+      height: auto;
+  }
+  #Robins .slide-image .Titulo img {
+      display: none;
+  }
+  #Robins .slide-image {
+      display: inherit;
+      width: 82%;
+      top: 14px;
+  }
+  #Robins .slide-image h2 {
+      font-size: 1em;
+  }
+  #sliderPrincipalHome #Robins .slide-image1 {
+      width: 19%;
+      right: 10px;
+      bottom: 0;
+  }
+  #sliderPrincipalHome #Robins .Robins {
+      background-image: url(/sites/default/files/2023-02/Robins-xs.jpg);
+      height: 258px;
+      background-size: 135%;
+      background-position-x: 0;
+      background-position-y: -101px;
+      background-repeat: no-repeat;
+      background-color: #333333;
+  }
+  #sliderPrincipalHome #Robins .Robins img {
+      display: none;
+  }
+  #Robins .slide-image p {
+      padding: 13px;
+      font-size: 0.6em;
+      width: 100%;
+      margin-top: 2%;
+  }
+  #Robins .slide-image a img {
+      width: 49%;
+      margin: auto;
+      display: table;
+  }
+}
+/*BannerInvestigacionMemoria*/
+.BannerInvestigacionMemoria {
+  height: 534px;
+}
+#BannerInvestigacionMemoria .BannerInvestigacionMemoria img {
+  width: 100%;
+}
+#BannerInvestigacionMemoria .slide-image img {
+  padding: 0 0px;
+}
+#BannerInvestigacionMemoria .slide-image1 {
+  position: absolute;
+  display: table;
+  margin: auto;
+  margin: auto;
+  width: 40%;
+  right: 50%;
+  bottom: 0;
+  top: 0;
+}
+#BannerInvestigacionMemoria .slide-image h2 {
+  text-align: center;
+  font-family: Rockwell;
+  color: #fff;
+}
+#BannerInvestigacionMemoria .slide-image p {
+  background-color: #ffffffa6;
+  line-height: 1.2em;
+  font-size: 1.3em;
+  padding: 23px;
+}
+#BannerInvestigacionMemoria .slide-image {
+  position: absolute;
+  display: table;
+  margin: auto;
+  margin: auto;
+  width: 40%;
+  left: 50%;
+  bottom: 0;
+  top: 0;
+}
+#sliderPrincipalHome #BannerInvestigacionMemoria .BannerInvestigacionMemoria img {
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  /* transform-origin: 94%; */
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+}
+#BannerInvestigacionMemoria .slide-image p span {
+  color: #fcea10;
+  font-weight: 600;
+}
+#BannerInvestigacionMemoria .slide-image strong {
+  color: #000;
+}
+#BannerInvestigacionMemoria .slide-image .Titulo img {
+  width: 89%;
+}
+#BannerInvestigacionMemoria .slide-image a img {
+  width: 43%;
+  margin: auto;
+  display: table;
+  margin-top: 24px;
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  #sliderPrincipalHome #BannerInvestigacionMemoria .slide-image {
+      top: -12%;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2500px) {
+  .BannerInvestigacionMemoria {
+      height: 700px;
+  }
+  #sliderPrincipalHome #BannerInvestigacionMemoria .slide-image {
+      width: 38%;
+  }
+  #sliderPrincipalHome #BannerInvestigacionMemoria .slide-image .Titulo img {
+      width: 50%;
+      margin: 0;
+      margin-bottom: 5%;
+  }
+  #BannerInvestigacionMemoria .slide-image a img {
+      padding: 0;
+      width: 30%;
+      margin: auto;
+  }
+  #sliderPrincipalHome #BannerInvestigacionMemoria .BannerInvestigacionMemoria img {
+      width: 100%;
+      -webkit-transform-origin: 0 177%;
+  }
+  #BannerInvestigacionMemoria .slide-image1 img {
+      margin: auto;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1900px) {
+  #sliderPrincipalHome #BannerInvestigacionMemoria .BannerInvestigacionMemoria img {
+      margin-top: 5px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  #BannerInvestigacionMemoria .slide-image {
+      position: absolute;
+      display: table;
+      margin: auto;
+      margin: auto;
+      width: 38%;
+      right: 49%;
+      bottom: 7%;
+      top: 0;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1399px) {
+  #BannerInvestigacionMemoria .slide-image {
+      margin-top: 13%;
+  }
+  #BannerInvestigacionMemoria .slide-image .Titulo img {
+      width: 98%;
+      margin-bottom: 5%;
+  }
+}
+@media (max-width: 1024px) {
+  #BannerInvestigacionMemoria .slide-image {
+      bottom: 0%;
+  }
+  #BannerInvestigacionMemoria .slide-image p {
+      font-size: 1em;
+  }
+  #BannerInvestigacionMemoria .slide-image .Titulo img {
+      width: 100%;
+      margin: 8% auto;
+  }
+}
+@media (max-width: 768px) {
+  .BannerInvestigacionMemoria {
+      height: auto;
+  }
+  #BannerInvestigacionMemoria .slide-image p {
+      font-size: 0.8em;
+      margin-top: 5%;
+  }
+  #BannerInvestigacionMemoria .slide-image .Titulo {
+      margin-bottom: 5px;
+  }
+  #BannerInvestigacionMemoria .slide-image {
+      top: 4%;
+  }
+  #BannerInvestigacionMemoria .slide-image {
+      width: 38%;
+      right: 51%;
+      top: -7px;
+  }
+  #sliderPrincipalHome #BannerInvestigacionMemoria .BannerInvestigacionMemoria img {
+      margin-top: 0;
+      width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  #BannerInvestigacionMemoria .slide-image p {
+      font-size: 0.9em;
+  }
+  .BannerInvestigacionMemoria {
+      height: auto;
+  }
+  #BannerInvestigacionMemoria .slide-image .Titulo img {
+      display: none;
+  }
+  #BannerInvestigacionMemoria .slide-image {
+      display: inherit;
+      width: 60%;
+      left: 10%;
+      top: 30px;
+  }
+  #BannerInvestigacionMemoria .slide-image h2 {
+      font-size: 1em;
+  }
+  #BannerInvestigacionMemoria .slide-image1 {
+      width: 27%;
+      right: 0;
+      bottom: inherit;
+      top: 0;
+  }
+  #sliderPrincipalHome #BannerInvestigacionMemoria .BannerInvestigacionMemoria {
+      background-image: url(/sites/default/files/2023-01/Banner-investigación-derecho--memoria-xs.jpg);
+      height: 258px;
+      background-size: 100%;
+      background-position-x: 0;
+      background-position-y: -101px;
+      background-repeat: no-repeat;
+      background-color: #524a35;
+  }
+  #sliderPrincipalHome #BannerInvestigacionMemoria .BannerInvestigacionMemoria img {
+      display: none;
+  }
+  #BannerInvestigacionMemoria .slide-image p {
+      padding: 13px;
+      font-size: 0.6em;
+      width: 100%;
+      margin-top: 2%;
+  }
+  #BannerInvestigacionMemoria .slide-image a img {
+      width: 59%;
+      margin: auto;
+      display: table;
+  }
+}
+/*BannerInvestigacionHongos*/
+#BannerInvestigacionHongos .BannerInvestigacionHongos img {
+  width: 100%;
+}
+#BannerInvestigacionHongos .slide-image img {
+  padding: 0 0px;
+}
+#BannerInvestigacionHongos .slide-image {
+  position: absolute;
+  display: table;
+  margin: auto;
+  margin: auto;
+  width: 40%;
+  right: 50%;
+  bottom: 0;
+  top: 0;
+}
+#sliderPrincipalHome #BannerInvestigacionHongos .BannerInvestigacionHongos img {
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 1%;
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+  object-fit: contain;
+  margin-top: 88px;
+  /* margin: auto; */
+  opacity: 100;
+}
+#BannerInvestigacionHongos .slide-image p span {
+  color: #fcea10;
+  font-weight: 600;
+}
+#BannerInvestigacionHongos .slide-image p {
+  color: #000;
+  line-height: 1.1em;
+  margin: 0;
+  text-align: left;
+  font-size: 1.2em;
+}
+#BannerInvestigacionHongos .slide-image strong {
+  color: #33cfff;
+}
+#BannerInvestigacionHongos .slide-image .Titulo img {
+  width: 89%;
+}
+#BannerInvestigacionHongos .slide-image a img {
+  margin-top: 20px;
+  float: left;
+  width: 43%;
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  #sliderPrincipalHome #BannerInvestigacionHongos .slide-image {
+      top: -12%;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2500px) {
+  #sliderPrincipalHome #BannerInvestigacionHongos .slide-image {
+      width: 68%;
+      margin-bottom: 13%;
+      right: 21%;
+  }
+  #sliderPrincipalHome #BannerInvestigacionHongos .slide-image .Titulo img {
+      width: 38%;
+      margin: 0;
+      margin-bottom: 5%;
+  }
+  #BannerInvestigacionHongos .slide-image a img {
+      padding: 0;
+      margin: inherit;
+      width: 20%;
+      margin-top: 3%;
+  }
+  #sliderPrincipalHome #BannerInvestigacionHongos .BannerInvestigacionHongos img {
+      transform-origin: 0%;
+      margin-top: -68px;
+      width: 100%;
+  }
+  #BannerInvestigacionHongos .slide-image p {
+      width: 60%;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1900px) {
+  #sliderPrincipalHome #BannerInvestigacionHongos .BannerInvestigacionHongos img {
+      margin-top: 5px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  #BannerInvestigacionHongos .slide-image {
+      position: absolute;
+      display: table;
+      margin: auto;
+      margin: auto;
+      width: 38%;
+      right: 49%;
+      bottom: 22%;
+      top: 0;
+  }
+  #BannerInvestigacionHongos .slide-image a img {
+      margin-top: 16%;
+  }
+  #BannerInvestigacionHongos .slide-image p {
+      margin-top: 5%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1399px) {
+  #BannerInvestigacionHongos .slide-image {
+      margin-top: 13%;
+  }
+  #BannerInvestigacionHongos .slide-image .Titulo img {
+      width: 98%;
+      margin-bottom: 5%;
+  }
+}
+@media (max-width: 1024px) {
+  #BannerInvestigacionHongos .slide-image {
+      bottom: 0%;
+  }
+  #BannerInvestigacionHongos .slide-image p {
+      font-size: 1.1em;
+      margin-top: 14%;
+  }
+  #BannerInvestigacionHongos .slide-image .Titulo img {
+      width: 100%;
+      margin: 8% auto;
+  }
+}
+@media (max-width: 768px) {
+  #BannerInvestigacionHongos .slide-image p {
+      font-size: 0.8em;
+      margin-top: 5%;
+  }
+  #BannerInvestigacionHongos .slide-image .Titulo {
+      margin-bottom: 5px;
+  }
+  #BannerInvestigacionHongos .slide-image {
+      top: 4%;
+  }
+  #BannerInvestigacionHongos .slide-image {
+      width: 38%;
+      right: 51%;
+      top: -7px;
+  }
+  #sliderPrincipalHome #BannerInvestigacionHongos .BannerInvestigacionHongos img {
+      margin-top: 0;
+      width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  #BannerInvestigacionHongos .slide-image .Titulo img {
+      display: none;
+  }
+  #BannerInvestigacionHongos .slide-image {
+      display: inherit;
+      left: 10%;
+      width: 60%;
+      top: 50%;
+  }
+  #sliderPrincipalHome #BannerInvestigacionHongos .BannerInvestigacionHongos {
+      background-image: url(/sites/default/files/2023-01/Banner-infecciones-hongos-fondo-movil.jpg);
+      height: 258px;
+      background-size: 111%;
+      background-position-x: -11px;
+      background-repeat: no-repeat;
+      background-color: #524a35;
+  }
+  #sliderPrincipalHome #BannerInvestigacionHongos .BannerInvestigacionHongos img {
+      display: none;
+  }
+  #BannerInvestigacionHongos .slide-image p {
+      padding: 0px;
+      font-size: 0.6em;
+      width: 100%;
+      margin-top: 12%;
+  }
+  #BannerInvestigacionHongos .slide-image a img {
+      margin-top: 1%;
+      float: left;
+      width: 30%;
+  }
+}
+@media (max-width: 414px) {
+}
+@media (max-width: 393px) {
+}
+/*Banner UIGreenMetric*/
+.UIGreenMetric-fondo {
+  height: 534px;
+}
+#UIGreenMetric .slide-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+}
+#UIGreenMetric .slide-image img {
+  width: 100%;
+  margin-top: -22px;
+}
+.UIGreenMetric-fondo img {
+  width: 100%;
+}
+#UIGreenMetric .UIGreenMetric img {
+  width: 100%;
+}
+#UIGreenMetric .slide-image img {
+  padding: 0 0px;
+}
+.UIGreenMetric .slide-image {
+  position: absolute;
+  display: table;
+  margin: auto;
+  width: 100%;
+  left: 0;
+  top: -18px;
+}
+#sliderPrincipalHome #UIGreenMetric .UIGreenMetric img {
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 1%;
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+  object-fit: contain;
+  margin-top: 88px;
+  opacity: 100;
+}
+#UIGreenMetric .slide-image p span {
+  color: #fcea10;
+  font-weight: 600;
+}
+#UIGreenMetric .slide-image p {
+  color: #000;
+  line-height: 1.1em;
+  margin: 0;
+  text-align: left;
+  font-size: 1em;
+  background-color: #00000014;
+  padding: 23px;
+}
+#UIGreenMetric .slide-image strong {
+  color: #33cfff;
+}
+#UIGreenMetric .slide-image .Titulo img {
+  width: 89%;
+}
+#UIGreenMetric .slide-image a img {
+  margin-top: 20px;
+  float: left;
+  width: 43%;
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  #sliderPrincipalHome #UIGreenMetric .slide-image {
+      top: -12%;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2500px) {
+  .UIGreenMetric-fondo {
+      height: 700px;
+  }
+  #sliderPrincipalHome #UIGreenMetric .slide-image {
+      top: -5%;
+      left: 50%;
+  }
+  #sliderPrincipalHome #UIGreenMetric .slide-image .Titulo img {
+      width: 68%;
+      margin: 0;
+  }
+  #UIGreenMetric .slide-image a img {
+      padding: 0;
+      margin: inherit;
+      width: 38%;
+      margin-top: 20px;
+  }
+  #sliderPrincipalHome #UIGreenMetric .UIGreenMetric img {
+      transform-origin: 0%;
+      margin-top: -68px;
+      width: 100%;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1900px) {
+  #sliderPrincipalHome #UIGreenMetric .UIGreenMetric img {
+      margin-top: 5px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .UIGreenMetric .slide-image {
+      width: 117%;
+      top: -3px;
+  }
+}
+@media (max-width: 1024px) {
+  .UIGreenMetric .slide-image {
+      width: 114%;
+      left: 0;
+      top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .UIGreenMetric-fondo {
+      height: auto;
+  }
+  #UIGreenMetric .slide-image p {
+      font-size: 0.7em;
+  }
+  #UIGreenMetric .slide-image .Titulo {
+      margin-bottom: 5px;
+  }
+  #UIGreenMetric .slide-image {
+      top: 4%;
+  }
+  #UIGreenMetric .slide-image {
+      width: 38%;
+      right: 10%;
+      top: -7px;
+  }
+  #sliderPrincipalHome #UIGreenMetric .UIGreenMetric img {
+      margin-top: 0;
+      width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .UIGreenMetric-fondo {
+      height: auto;
+  }
+  .UIGreenMetric .slide-image {
+      display: contents;
+  }
+  .UIGreenMetric-fondo img {
+      display: none;
+  }
+  #UIGreenMetric .slide-image p {
+      font-size: 0.7em;
+  }
+  #UIGreenMetric .slide-image p {
+      padding: 10px;
+  }
+  #UIGreenMetric .slide-image .Titulo img {
+      width: 89%;
+      margin: auto;
+      display: table;
+      margin-top: 19px;
+  }
+  #sliderPrincipalHome #UIGreenMetric .UIGreenMetric .slide-image img {
+      display: none;
+  }
+}
+/*Hiperconectados*/
+.Hiperconectadobanner {
+  background-color: #63b2ff;
+}
+.contenedorSliderPrincipal button.carousel-control-prev {
+  position: absolute;
+}
+.contenedorSliderPrincipal button.carousel-control-next {
+  position: absolute;
+  right: 0;
+}
+/*Constitucion politica*/
+#Hiperconectado .Hiperconectado img {
+  width: 100%;
+}
+#Hiperconectado .slide-image img {
+  padding: 0 0px;
+}
+#Hiperconectado .slide-image {
+  position: absolute;
+  display: table;
+  margin: auto;
+  width: 50%;
+  left: 0%;
+  top: 10%;
+}
+#sliderPrincipalHome .Hiperconectadobanner img {
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 30%;
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+  object-fit: contain;
+  margin-top: 0;
+  /* margin: auto; */
+  opacity: 100;
+}
+#Hiperconectado .slide-image p span {
+  color: #fcea10;
+  font-weight: 600;
+}
+#Hiperconectado .slide-image p {
+  color: #223459;
+  line-height: 1.1em;
+  margin: 0;
+  text-align: left;
+  padding: 4% 0 0 8%;
+  font-size: 1.2em;
+}
+#Hiperconectado .slide-image strong {
+  color: #33cfff;
+}
+#Hiperconectado .slide-image .Titulo img {
+  width: 89%;
+}
+#Hiperconectado .slide-image a img {
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  #sliderPrincipalHome #Hiperconectado .slide-image {
+      top: 7%;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2500px) {
+  #sliderPrincipalHome .Hiperconectadobanner img {
+      width: 99%;
+  }
+  #sliderPrincipalHome #Hiperconectado .slide-image {
+      top: 7%;
+      left: 0;
+  }
+  #sliderPrincipalHome #Hiperconectado .slide-image .Titulo img {
+      width: 68%;
+      margin: 0;
+  }
+  #Hiperconectado .slide-image a img {
+      padding: 0;
+      margin: inherit;
+      width: 78%;
+      margin-top: 20px;
+  }
+  #sliderPrincipalHome #Hiperconectado .Hiperconectado img {
+      transform-origin: 0%;
+      margin-top: -68px;
+      width: 100%;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1900px) {
+  #sliderPrincipalHome #Hiperconectado .Hiperconectado img {
+      margin-top: 5px;
+  }
+}
+@media (max-width: 768px) {
+  #Hiperconectado .slide-image p {
+      font-size: 0.9em;
+  }
+}
+@media (max-width: 600px) {
+  .Hiperconectadobanner img {
+      display: none;
+  }
+  #Hiperconectado .slide-image p {
+      font-size: 0.7em;
+  }
+  .Hiperconectadobanner {
+      background-image: url(/sites/default/files/2022-12/Banner-investigacion-la-generacion-hiperconectada-xs.jpg);
+      height: 253px;
+      background-position-x: -63px;
+  }
+  #Hiperconectado .slide-image {
+      width: 62%;
+  }
+}
+@media (max-width: 320px) {
+  .Hiperconectadobanner {
+      background-position-x: -126px;
+  }
+  #Hiperconectado .slide-image p {
+      font-size: 0.6em;
+  }
+}
+/*Jovenes-a-la-u-2022-2*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap");
+.carousel-inner #Jovenes-a-la-u-2022-2 img {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+.carousel-inner #Lanzamiento-indice-Competitividad-Ciudades img {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+.carousel-inner #Banner-constitucional img {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+#sliderPrincipalHome #Jovenes-a-la-u-2022-2 .contenedorImagenSlide img {
+  margin: auto;
+  opacity: 0.9;
+  width: 100% !important;
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 15%;
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+  object-fit: contain;
+}
+#Jovenes-a-la-u-2022-2 .slide-image {
+  position: absolute;
+  right: -556px;
+  margin: auto;
+  width: 33%;
+  top: 5%;
+  bottom: 0;
+  left: 0;
+}
+#Jovenes-a-la-u-2022-2 .slide-image p {
+  font-family: "Oswald";
+  color: #ffff;
+  line-height: 1em;
+  margin: 0;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 500;
+  font-style: italic;
+}
+#Jovenes-a-la-u-2022-2 .slide-image strong {
+  font-weight: 500;
+  font-size: 1em;
+}
+#Jovenes-a-la-u-2022-2 .txtUnoSlide a img:hover {
+  -webkit-filter: grayscale(1);
+  filter: hue-rotate(240deg);
+}
+#Jovenes-a-la-u-2022-2 .txtUnoSlide {
+  text-align: center;
+  margin-top: 11px;
+}
+#Jovenes-a-la-u-2022-2 .slide-image {
+  position: absolute;
+  top: 4%;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 45%;
+  right: -556px;
+}
+@media (min-width: 2000px) {
+  #Jovenes-a-la-u-2022-2 .slide-image {
+      top: 5%;
+  }
+  #sliderPrincipalHome #Jovenes-a-la-u-2022-2 .contenedorImagenSlide img {
+      margin-top: -328px;
+  }
+}
+@media (min-width: 1480px) and (max-width: 2000px) {
+  #sliderPrincipalHome #Jovenes-a-la-u-2022-2 .contenedorImagenSlide img {
+      margin-top: -168px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1480px) {
+  #Jovenes-a-la-u-2022-2 .slide-image {
+      top: 11%;
+      width: 38%;
+  }
+}
+@media (max-width: 1024px) {
+  #Jovenes-a-la-u-2022-2 .slide-image {
+      top: 3%;
+      width: 44%;
+      right: -260px;
+  }
+  #Jovenes-a-la-u-2022-2 .slide-image p {
+      font-size: 1em;
+  }
+}
+@media (max-width: 600px) {
+  #sliderPrincipalHome #Jovenes-a-la-u-2022-2 .contenedorImagenSlide {
+      position: relative;
+      overflow: hidden;
+      min-height: 259px;
+      max-height: 262px;
+      background: rgb(65 172 248);
+      background-size: cover;
+      text-align: center;
+      color: #fff;
+      background-image: url(/sites/default/files/2022-12/banner_home_2022_2-xs_0.jpg);
+      background-size: 110%;
+      background-position-y: 15%;
+      background-position-x: 27%;
+      animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+      background-repeat: no-repeat;
+  }
+  #Jovenes-a-la-u-2022-2 .slide-image {
+      top: 3%;
+      width: 56%;
+      right: -117px;
+  }
+  #Jovenes-a-la-u-2022-2 .slide-image p {
+      font-size: 0.7em;
+  }
+  #sliderPrincipalHome #Jovenes-a-la-u-2022-2 .txtUnoSlide {
+      margin-top: 2%;
+  }
+  #sliderPrincipalHome #Jovenes-a-la-u-2022-2 .pt-2 {
+      padding-top: 15px;
+  }
+}
+#Jovenes-a-la-u-2022-2 .slide-image strong {
+  font-size: 0.8em;
+}
+#Jovenes-a-la-u-2022-2 .txtUnoSlide {
+  text-align: center;
+  margin-top: 11px;
+}
+@media (max-width: 425px) {
+  #sliderPrincipalHome .txtUnoSlide img {
+      width: 80%;
+  }
+}
+@media (max-width: 360px) {
+  #sliderPrincipalHome #Jovenes-a-la-u-2022-2 .contenedorImagenSlide {
+      background-position-y: 9%;
+  }
+}
+@media (max-width: 280px) {
+  #sliderPrincipalHome #Jovenes-a-la-u-2022-2 .contenedorImagenSlide {
+      background-position-y: 17%;
+  }
+  #Jovenes-a-la-u-2022-2 .slide-image {
+      width: 65%;
+  }
+}
+/*Banner constitucional*/
+.contenedorSliderPrincipal button.carousel-control-prev {
+  position: absolute;
+}
+.contenedorSliderPrincipal button.carousel-control-next {
+  position: absolute;
+  right: 0;
+}
+/*Constitucion politica*/
+#Banner-constitucional .Banner-constitucional img {
+  width: 100%;
+}
+#Banner-constitucional .slide-image img {
+  padding: 0 0px;
+}
+#Banner-constitucional .slide-image {
+  position: absolute;
+  display: table;
+  margin: auto;
+  margin: auto;
+  width: 40%;
+  right: 10%;
+  bottom: 0;
+  top: 0;
+}
+#sliderPrincipalHome #Banner-constitucional .Banner-constitucional img {
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 1%;
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+  object-fit: contain;
+  margin-top: 88px;
+  /* margin: auto; */
+  opacity: 100;
+}
+#Banner-constitucional .slide-image p span {
+  color: #fcea10;
+  font-weight: 600;
+}
+#Banner-constitucional .slide-image p {
+  color: #000;
+  line-height: 1.1em;
+  margin: 0;
+  text-align: left;
+  font-size: 1em;
+  background-color: #00000014;
+  padding: 23px;
+}
+#Banner-constitucional .slide-image strong {
+  color: #33cfff;
+}
+#Banner-constitucional .slide-image .Titulo img {
+  width: 89%;
+}
+#Banner-constitucional .slide-image a img {
+  margin-top: 20px;
+  float: left;
+  width: 43%;
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  #sliderPrincipalHome #Banner-constitucional .slide-image {
+      top: -12%;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2500px) {
+  #sliderPrincipalHome #Banner-constitucional .slide-image {
+      top: -5%;
+      left: 50%;
+  }
+  #sliderPrincipalHome #Banner-constitucional .slide-image .Titulo img {
+      width: 68%;
+      margin: 0;
+  }
+  #Banner-constitucional .slide-image a img {
+      padding: 0;
+      margin: inherit;
+      width: 38%;
+      margin-top: 20px;
+  }
+  #sliderPrincipalHome #Banner-constitucional .Banner-constitucional img {
+      transform-origin: 0%;
+      margin-top: -68px;
+      width: 100%;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1900px) {
+  #sliderPrincipalHome #Banner-constitucional .Banner-constitucional img {
+      margin-top: 5px;
+  }
+}
+@media (max-width: 1024px) {
+  #Banner-constitucional .slide-image {
+      top: -4%;
+  }
+  #Banner-constitucional .slide-image p {
+      font-size: 0.9em;
+  }
+}
+@media (max-width: 768px) {
+  #Banner-constitucional .slide-image p {
+      font-size: 0.7em;
+  }
+  #Banner-constitucional .slide-image .Titulo {
+      margin-bottom: 5px;
+  }
+  #Banner-constitucional .slide-image {
+      top: 4%;
+  }
+  #Banner-constitucional .slide-image {
+      width: 38%;
+      right: 10%;
+      top: -7px;
+  }
+  #sliderPrincipalHome #Banner-constitucional .Banner-constitucional img {
+      margin-top: 0;
+      width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  #Banner-constitucional .slide-image p {
+      font-size: 0.7em;
+  }
+  #Banner-constitucional .slide-image p {
+      padding: 10px;
+  }
+  #Banner-constitucional .slide-image .Titulo img {
+      width: 89%;
+      margin: auto;
+      display: table;
+      margin-top: 19px;
+  }
+  #Banner-constitucional .slide-image {
+      display: inherit;
+      left: 12px;
+      width: 90%;
+      top: 17px;
+  }
+  #sliderPrincipalHome #Banner-constitucional .Banner-constitucional {
+      background-image: url(/sites/default/files/2022-11/Banner-investigacion-Constitucion-xs.jpg);
+      height: 251px;
+      background-size: 111%;
+      background-position-x: -11px;
+      background-repeat: no-repeat;
+      background-color: #524a35;
+  }
+  #sliderPrincipalHome #Banner-constitucional .Banner-constitucional img {
+      display: none;
+  }
+}
+@media (max-width: 414px) {
+}
+@media (max-width: 393px) {
+}
+/*Cambio climatico*/
+#sliderPrincipalHome #Cambio-climatico .contenedorImagenSlide {
+  background: rgb(234 239 240) !important;
+}
+#Cambio-climatico .contenedorImagenSlide img {
+  margin: auto;
+  opacity: 0.9;
+  width: 100% !important;
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -o-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+  object-position: 314px;
+  background-color: #eaeff1;
+}
+#Cambio-climatico .txtslide_ima {
+  position: absolute;
+  right: 157px;
+  width: 38%;
+  top: 89px;
+}
+#Cambio-climatico .txtslide_ima a {
+  display: table;
+  margin: auto;
+  margin-top: 23px;
+}
+#Cambio-climatico .txtslide_ima a:hover {
+  filter: hue-rotate(30deg);
+}
+#Cambio-climatico .contenedorImagenSlide1 img {
+  opacity: 98%;
+}
+#Cambio-climatico .Secciondos a {
+  background-color: #750e53;
+  color: #ffff;
+  font-size: 1.6em;
+  text-align: center;
+  border-radius: 41px;
+  float: right;
+  font-weight: 700;
+  padding: 9px 24px;
+  transition: 1s;
+}
+#Cambio-climatico .Secciondos a:hover {
+  background-color: #fdbc6c;
+  color: #750e53;
+}
+#Cambio-climatico .Seccionuno {
+  position: absolute;
+  top: 4%;
+  width: 50%;
+  right: 0%;
+  z-index: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+#Cambio-climatico .pulse {
+  width: 84%;
+  margin: auto;
+  display: table;
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+#Cambio-climatico .Secciondos {
+  position: absolute;
+  top: 69px;
+  width: 41%;
+  margin: auto;
+  display: table;
+  z-index: 8;
+}
+#Cambio-climatico .txtslide_ima img {
+  margin: auto;
+  display: table;
+  margin-bottom: 15px;
+}
+#Cambio-climatico .txtslide_ima p {
+  font-weight: 700;
+  color: #2f4d22;
+}
+@media (min-width: 2000px) {
+  #Cambio-climatico .Secciondos {
+      top: 52px;
+      left: 17%;
+      width: 33%;
+  }
+  #Cambio-climatico .txtslide_ima {
+      width: 26%;
+      right: 556px;
+      top: 197px;
+  }
+  #sliderPrincipalHome #Cambio-climatico .contenedorImagenSlide img {
+      object-position: 563px;
+      margin-top: -222px;
+  }
+}
+@media (min-width: 1680px) and (max-width: 2000px) {
+  #Cambio-climatico .txtslide_ima {
+      position: absolute;
+      right: 396px;
+      width: 26%;
+      top: 198px;
+  }
+  #Cambio-climatico .Secciondos {
+      width: 37%;
+      left: 266px;
+  }
+}
+@media (min-width: 1340px) and (max-width: 1680px) {
+  #Cambio-climatico .txtslide_ima {
+      width: 34%;
+      top: 157px;
+      right: 204px;
+  }
+  #Cambio-climatico .Secciondos {
+      left: 55px;
+      width: 47%;
+  }
+}
+@media (max-width: 1024px) {
+  #Cambio-climatico .contenedorImagenSlide img {
+      object-position: 229px;
+  }
+  #Cambio-climatico .txtslide_ima {
+      top: 15px;
+      width: 33%;
+      right: 108px;
+  }
+  .txtslide_ima a img {
+      width: 51%;
+      float: right;
+  }
+  #Cambio-climatico .Secciondos {
+      width: 42%;
+      left: 118px;
+      top: 45px;
+  }
+  #Cambio-climatico .txtslide_ima a img {
+      width: 76%;
+      float: inherit;
+      margin: auto;
+      display: table;
+  }
+}
+@media (max-width: 768px) {
+  #Cambio-climatico .txtslide_ima {
+      width: 41%;
+      top: 1px;
+      right: 65px;
+  }
+  #Cambio-climatico .txtslide_ima p {
+      font-size: 0.8em;
+  }
+  #Cambio-climatico .contenedorImagenSlide img {
+      object-position: 217px !important;
+  }
+  #Cambio-climatico .Secciondos {
+      width: 43%;
+      bottom: 67px;
+      left: 41px;
+  }
+}
+@media (max-width: 581px) {
+  #Cambio-climatico .pulse {
+      width: 70%;
+  }
+  #Cambio-climatico .contenedorImagenSlide {
+      background-image: url(/PortalUrosario/media/UR-V4/Home/img/slide/2022/Oct/feria-financiera/feria-financiera-banner-fondo-xs.jpg);
+      min-height: 258px;
+      background-position-y: 45%;
+      background-size: 100%;
+  }
+  #Cambio-climatico .Secciondos {
+      width: 63%;
+      top: 38px;
+      left: -83px;
+      margin: inherit;
+  }
+  #Cambio-climatico .txtslide_ima img {
+      width: 13%;
+  }
+  #Cambio-climatico .Secciondos img {
+      width: 100%;
+  }
+  #Cambio-climatico .txtslide_ima a {
+      margin-top: -14px;
+  }
+  #Cambio-climatico .txtslide_ima {
+      top: 13px;
+      width: 51%;
+      right: 12px;
+  }
+  #Cambio-climatico .txtslide_ima a img {
+      width: 51%;
+      display: table;
+      margin: auto;
+      margin-top: 7px;
+  }
+  #Cambio-climatico .txtslide_ima p {
+      font-size: 0.7em;
+  }
+}
+@media (max-width: 414px) {
+  #Cambio-climatico .Secciondos {
+      left: -73px;
+  }
+}
+@media (max-width: 320px) {
+  .slide-image p.frasedos {
+      font-size: 0.8em;
+  }
+  #Cambio-climatico .parrafo {
+      font-size: 0.9em;
+  }
+}
+@media (max-width: 280px) {
+  #Cambio-climatico .contenedorImagenSlide1 {
+      background-size: 114%;
+      background-position-x: -27px;
+      background-position-y: -27px;
+  }
+  #Cambio-climatico .parrafo2 {
+      font-size: 0.7em;
+  }
+  #Cambio-climatico p.parrafo {
+      display: none;
+  }
+  #Cambio-climatico .Secciondos a {
+      float: inherit;
+      margin-top: 12px;
+      width: 102%;
+      display: block;
+  }
+  #Cambio-climatico .txtslide_ima {
+      top: 5%;
+      width: 60%;
+      right: -10px;
+  }
+  #Cambio-climatico .Secciondos {
+      top: 25%;
+      left: -80px;
+      width: 84%;
+  }
+}
+#Puertas-abiertas-2022 .contenedorImagenSlide_001 img {
+  width: 100%;
+}
+#Puertas-abiertas-2022 .slide-image1 img {
+  display: table;
+  margin: auto;
+}
+#Puertas-abiertas-2022 .slide-image1 {
+  position: absolute;
+  top: 12%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 95%;
+}
+#Puertas-abiertas-2022 .slide-image1 a img {
+  margin: auto;
+  display: block;
+  width: 90%;
+}
+@media (min-width: 2005px) and (max-width: 2500px) {
+  #Puertas-abiertas-2022 .slide-image1 {
+      top: 4%;
+      width: 64%;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2005px) {
+  #Puertas-abiertas-2022 .slide-image1 {
+      top: 8%;
+      width: 74%;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1900px) {
+  #Puertas-abiertas-2022 .slide-image1 {
+      top: 8%;
+      width: 82%;
+  }
+}
+@media (max-width: 1024px) {
+  #Puertas-abiertas-2022 .slide-image1 {
+      position: absolute;
+      top: 5%;
+  }
+}
+@media (max-width: 768px) {
+  #Puertas-abiertas-2022 .slide-image1 {
+      top: 4px;
+  }
+}
+@media (max-width: 600px) {
+  #sliderPrincipalHome #Puertas-abiertas-2022 .contenedorImagenSlide_001 {
+      background-image: url(https://urosario.edu.co/sites/default/files/2022-11/fechas-puertas-abiertas-fondo-XS.jpg);
+      height: 600px;
+      background-size: 112%;
+      background-position-y: 19px;
+      background-position-x: -39px;
+      background-repeat: no-repeat;
+      background-color: #301a68;
+  }
+  #Puertas-abiertas-2022 .slide-image1 img {
+      width: 100%;
+      margin: auto;
+      display: block;
+  }
+}
+@media (max-width: 414px) {
+  #Puertas-abiertas-2022 .slide-image1 {
+      top: 24px;
+      width: 90%;
+  }
+}
+@media (max-width: 400px) {
+  #Puertas-abiertas-2022 .slide-image1 {
+      top: 21px;
+  }
+}
+@media (max-width: 375px) {
+  #Puertas-abiertas-2022 .slide-image1 a img {
+      width: 100%;
+  }
+  #Puertas-abiertas-2022 .slide-image1 {
+      top: 27px;
+  }
+}
+@media (max-width: 320px) {
+  #Puertas-abiertas-2022 .slide-image1 {
+      top: 12px;
+  }
+}
+/* cambio-climatico-2022 INVESTIGACIÃ“N*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+#cambio-climatico-2022 .slide-image1 img {
+  display: table;
+  margin: auto;
+}
+#cambio-climatico-2022 small {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  display: table;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.cambio-climatico-2022 small {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  display: table;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+#cambio-climatico-2022 .slide-image1 .tetx p {
+  font-family: "Poppins", sans-serif;
+  color: #ffff;
+  font-size: 0.9em;
+  font-weight: 600;
+  vertical-align: top;
+  width: 62%;
+  text-align: left;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 64px;
+}
+#cambio-climatico-2022 .slide-image1 .tetx img {
+  display: inline-block;
+  vertical-align: top;
+  width: 22%;
+}
+#cambio-climatico-2022 .slide-image1 {
+  position: absolute;
+  top: 88px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 43%;
+}
+#cambio-climatico-2022 .slide-image1 a {
+  color: #fff;
+  display: table;
+  margin: auto;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 11px 8px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  transition: 1s;
+  font-weight: 800;
+  margin-top: 2em;
+}
+#cambio-climatico-2022 .slide-image1 a:hover {
+  transform: scale(1.2);
+  opacity: 0.85;
+}
+#cambio-climatico-2022 .slide-image1 a span {
+  border: 2px solid #fbfbfb;
+  padding: 4px 13px;
+}
+#cambio-climatico-2022 p.uno {
+  font-size: 1.9em;
+}
+#cambio-climatico-2022 p.dos {
+  background: linear-gradient(to right, #0000c5, #ffffff00, #0000c5);
+  margin: auto;
+  display: table;
+}
+#cambio-climatico-2022 p.tres {
+  font-size: 2.2em;
+}
+#cambio-climatico-2022 .slide-image1 a img {
+  margin: auto;
+  display: block;
+  width: 62%;
+}
+#cambio-climatico-2022 small {
+  font-family: "Poppins", sans-serif;
+}
+.contenedorImagenSlide_01 img {
+  width: 100%;
+}
+@media (min-width: 2000px) {
+  #cambio-climatico-2022 .contenedorImagenSlide_01 {
+      background-image: url(/PortalUrosario/media/UR-V4/Home/img/slide/2022/Sep/Cambio-climatico-investigacion/Banner-Cambio-climatico-fondo-desk.jpg);
+      background-position-x: -53px;
+      height: 6000px;
+      background-size: 100%;
+      background-position: center;
+      background-position-y: -162px;
+  }
+  #cambio-climatico-2022 .slide-image1 a img {
+      width: 100%;
+  }
+  #cambio-climatico-2022 .slide-image1 {
+      top: 73px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1800px) {
+  #cambio-climatico-2022 .slide-image1 .tetx p {
+      height: 33px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1300px) {
+  #cambio-climatico-2022 .slide-image1 .tetx p {
+      height: 33px;
+  }
+}
+@media (max-width: 1024px) {
+  #cambio-climatico-2022 .slide-image1 a {
+      font-size: 1rem;
+  }
+  #cambio-climatico-2022 .slide-image1 .tetx p {
+      height: 0px;
+      font-size: 0.76em;
+  }
+  #cambio-climatico-2022 .slide-image1 .tetx p {
+      font-size: 0.6em;
+  }
+  #cambio-climatico-2022 p.uno {
+      font-size: 1.4em;
+  }
+  #cambio-climatico-2022 p.dos {
+      font-size: 1.7em;
+  }
+  #cambio-climatico-2022 p.tres {
+      font-size: 1.6em;
+  }
+  #cambio-climatico-2022 .slide-image1 p {
+      line-height: 1.1em;
+      font-size: 1em;
+      margin: 19px 0 18px 0;
+  }
+  #cambio-climatico-2022 .slide-image1 {
+      top: 1.5em;
+  }
+  #cambio-climatico-2022 small {
+      font-weight: 500;
+      font-size: 0.95rem;
+  }
+}
+@media (max-width: 768px) {
+  #cambio-climatico-2022 .slide-image1 {
+      top: 4px;
+  }
+  #cambio-climatico-2022 small {
+      width: 140%;
+      padding-right: 8em;
+      font-weight: 500;
+      font-size: 0.8rem;
+  }
+  .cambio-climatico-2022 small {
+      font-size: 0.8rem;
+  }
+  #cambio-climatico-2022 p.uno {
+      font-size: 0.9em;
+  }
+  #cambio-climatico-2022 p.dos {
+      font-size: 1.1em;
+  }
+  #cambio-climatico-2022 p.tres {
+      font-size: 1em;
+  }
+  #cambio-climatico-2022 .slide-image1 a {
+      font-size: 0.6em;
+  }
+  #cambio-climatico-2022 .slide-image1 p {
+      line-height: 1.1em;
+      font-size: 0.8em;
+      margin: 10px 0 9px 0;
+  }
+  #cambio-climatico-2022 .slide-image1 a img {
+      width: 60%;
+      margin-top: -2em;
+  }
+}
+@media (max-width: 600px) {
+  #sliderPrincipalHome .contenedorImagenSlide img {
+      display: none;
+  }
+  #sliderPrincipalHome #cambio-climatico-2022 .contenedorImagenSlide_01 {
+      background-image: url(/PortalUrosario/media/UR-V4/Home/img/slide/2022/Sep/Cambio-climatico-investigacion/Banner-Cambio-climatico-fondo-movil.jpg);
+      height: 600px;
+      background-size: 112%;
+      background-position-y: 19px;
+      background-position-x: -39px;
+      background-repeat: no-repeat;
+      background-color: #3e532b;
+  }
+  #cambio-climatico-2022 small {
+      width: 90%;
+      padding-right: 0em;
+  }
+  #cambio-climatico-2022 .slide-image1 .tetx img {
+      width: 19%;
+  }
+  #cambio-climatico-2022 .slide-image1 {
+      top: 24px;
+      width: 100%;
+  }
+  .cambio-climatico-2022 small {
+      width: 90%;
+      padding-right: 0em;
+      font-size: 0.6rem;
+  }
+  #cambio-climatico-2022 .slide-image1 img {
+      width: 77%;
+      margin: auto;
+      display: block;
+  }
+  #cambio-climatico-2022 .slide-image1 p {
+      line-height: 1.1em;
+      font-size: 0.7em;
+      margin: 9px 0 11px 0;
+  }
+  #cambio-climatico-2022 .slide-image1 a {
+      font-size: 0.9em;
+      padding: 0px 17px;
+      letter-spacing: 2px;
+  }
+}
+@media (max-width: 414px) {
+  #cambio-climatico-2022 small {
+      font-size: 0.7em;
+      margin-bottom: 4em;
+      width: 90%;
+      line-height: 1.1em;
+  }
+  #cambio-climatico-2022 .slide-image1 {
+      top: 24px;
+      width: 90%;
+      padding: 0 7px;
+  }
+  #cambio-climatico-2022 .slide-image1 a {
+      font-size: 0.7em;
+      margin-top: 0.5em;
+  }
+  #cambio-climatico-2022 .slide-image1 a img {
+      margin: auto;
+      display: block;
+      width: 45%;
+  }
+}
+@media (max-width: 400px) {
+  #cambio-climatico-2022 .slide-image1 {
+      top: 21px;
+  }
+}
+@media (max-width: 380px) {
+  #cambio-climatico-2022 small {
+      margin-bottom: 1em;
+  }
+}
+/*Competitividad*/
+#sliderPrincipalHome #Lanzamiento-indice-Competitividad-Ciudades .contenedorImagenSlide {
+  background: #fff;
+}
+#Lanzamiento-indice-Competitividad-Ciudades .contenedorImagenSlide img {
+  margin: auto;
+  opacity: 0.9;
+  width: 100% !important;
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -o-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 19994ms -6s infinite alternate;
+  object-position: 314px;
+  background-color: #fff;
+}
+#Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+  position: absolute;
+  width: 34%;
+  right: 0;
+  top: 0;
+  height: 100%;
+  /* display: inline-flex;
+  align-items: flex-end;*/
+}
+#Lanzamiento-indice-Competitividad-Ciudades .Seccionuno {
+  position: absolute;
+  top: 4%;
+  width: 50%;
+  right: 0%;
+  z-index: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+#Lanzamiento-indice-Competitividad-Ciudades .pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+#Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58%;
+  width: 32%;
+  margin: auto;
+  display: table;
+  z-index: 8;
+  height: 100%;
+  /* display: inline-flex;
+  align-items: flex-end;*/
+}
+@media (min-width: 2000px) and (max-width: 2500px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      top: 0;
+      left: 0;
+      width: 49%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      width: 28%;
+      right: 0;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima img {
+      width: 100%;
+  }
+}
+@media (min-width: 1679px) and (max-width: 2000px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      width: 28%;
+      top: 0;
+      right: 0;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      left: 0;
+      width: 53%;
+      top: 0;
+  }
+}
+@media (max-width: 1680px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      width: 60%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      width: 32%;
+  }
+}
+@media (min-width: 1340px) and (max-width: 1679px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      width: 36%;
+      top: 0;
+      right: 0;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      left: 0;
+      width: 62%;
+      top: 0;
+  }
+}
+@media (max-width: 1280px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      top: 0px;
+      width: 65%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      position: absolute;
+      width: 42%;
+  }
+}
+@media (max-width: 1024px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      top: 0;
+      width: 66%;
+      height: 66%;
+      right: 0;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      width: 73%;
+      height: 66%;
+      top: 0px;
+  }
+}
+@media (max-width: 768px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      width: 66%;
+      height: 46%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      width: 74%;
+      left: 0;
+      top: 21px;
+      height: 46%;
+  }
+}
+@media (max-width: 581px) {
+  #sliderPrincipalHome #Lanzamiento-indice-Competitividad-Ciudades .contenedorImagenSlide {
+      min-height: 253px;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      width: 75%;
+      top: 82px;
+      left: 0;
+      display: inline-flex;
+      align-items: flex-end;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      top: 53%;
+      width: 89%;
+      right: 0;
+      height: 49%;
+      display: inline-flex;
+      align-items: flex-end;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima a img {
+      width: 70%;
+  }
+}
+@media (max-width: 414px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      width: 75%;
+      top: 88px;
+      left: 0;
+      height: 49%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima a img {
+      width: 55%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      height: 49%;
+  }
+}
+@media (max-width: 375px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      width: 70%;
+      top: 0px;
+      left: 0;
+      height: 38%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      width: 99%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      top: 116px;
+  }
+}
+@media (max-width: 360px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      top: 106px;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      width: 100%;
+      height: 50%;
+  }
+}
+@media (max-width: 320px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima a img {
+      width: 64%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      height: 49%;
+  }
+}
+@media (max-width: 280px) {
+  #Lanzamiento-indice-Competitividad-Ciudades .txtslide_ima {
+      top: 0;
+      width: 112%;
+      height: 38%;
+  }
+  #Lanzamiento-indice-Competitividad-Ciudades .Secciondos {
+      top: 0%;
+      left: 0;
+      width: 69%;
+      height: 31%;
+  }
+}
+/*QS-ranking2022*/
+#QS-ranking2022 {
+  cursor: pointer;
+}
+#QS-ranking2022 .slide-image img {
+  padding: 0 0px;
+}
+#QS-ranking2022 .slide-image a {
+  margin: auto;
+  display: table;
+  margin-top: 23px;
+}
+#QS-ranking2022 .slide-image a:hover {
+  filter: drop-shadow(2px 4px 6px black);
+}
+#QS-ranking2022 .contenedorImagenSlide01 img {
+  width: 100%;
+}
+#QS-ranking2022 .slide-image {
+  position: absolute;
+  width: 100%;
+  top: 76px;
+  right: 0;
+}
+@media (min-width: 2540px) and (max-width: 3000px) {
+  #QS-ranking2022 .slide-image {
+      background-image: url(/PortalUrosario/media/UR-V4/Home/img/slide/2022/Sep/qs-ranking/datos-QS-LATAM-2022-lg.png);
+      width: 100%;
+      height: 104%;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-position-y: 69px;
+      background-size: contain;
+  }
+  #QS-ranking2022 .slide-image img {
+      display: none;
+  }
+}
+@media (min-width: 2000px) and (max-width: 2500px) {
+  #QS-ranking2022 .slide-image {
+      background-image: url(/PortalUrosario/media/UR-V4/Home/img/slide/2022/Sep/qs-ranking/datos-QS-LATAM-2022-lg.png);
+      width: 100%;
+      height: 104%;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-position-y: 69px;
+      background-size: contain;
+  }
+  #QS-ranking2022 .slide-image img {
+      display: none;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2000px) {
+  #QS-ranking2022 .slide-image img {
+      width: 100%;
+  }
+  #QS-ranking2022 .slide-image {
+      top: 42px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1900px) {
+  #QS-ranking2022 .slide-image img {
+      width: 100%;
+  }
+  #QS-ranking2022 .slide-image {
+      top: 42px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1378px) {
+}
+@media (max-width: 1024px) {
+  #QS-ranking2022 .slide-image {
+      top: 9%;
+  }
+}
+@media (max-width: 768px) {
+  #QS-ranking2022 .titulouno {
+      font-size: 1.5em;
+  }
+  #QS-ranking2022 p.titulouno {
+      font-size: 2.1em;
+  }
+  #QS-ranking2022 p.titulodos {
+      font-size: 1em;
+  }
+  #QS-ranking2022 p.titulotres {
+      font-size: 1em;
+  }
+  #QS-ranking2022 .slide-image a {
+      font-size: 1em;
+      right: 7px;
+      top: 135px;
+  }
+}
+@media (max-width: 600px) {
+  #QS-ranking2022 .contenedorImagenSlide01 img {
+      display: none;
+  }
+  #sliderPrincipalHome #QS-ranking2022 .contenedorImagenSlide01 {
+      position: relative;
+      overflow: hidden;
+      min-height: 253px;
+      background: rgb(24 0 94);
+      background-size: cover;
+      text-align: center;
+      color: #fff;
+      background-image: url(/sites/default/files/2022-10/qs-latam-2022-fondo-xs.jpg);
+      background-size: 100%;
+      background-position-y: -6%;
+      background-position-x: 0;
+      background-repeat: no-repeat;
+  }
+  #QS-ranking2022 .slide-image {
+      top: 38%;
+      width: 100%;
+  }
+  #QS-ranking2022 .slide-image a {
+      background-color: #18005e;
+      border-radius: 23px;
+      margin-top: 11px;
+  }
+}
+@media (max-width: 425px) {
+  #QS-ranking2022 .slide-image {
+      top: 22%;
+  }
+}
+@media (max-width: 415px) {
+  #QS-ranking2022 .slide-image {
+      top: 24%;
+      width: 100%;
+  }
+}
+@media (max-width: 394px) {
+  #QS-ranking2022 .slide-image {
+      top: 18%;
+      width: 100%;
+  }
+}
+@media (max-width: 376px) {
+  #QS-ranking2022 .slide-image {
+      top: 47%;
+  }
+}
+@media (max-width: 360px) {
+  #sliderPrincipalHome #QS-ranking2022 .contenedorImagenSlide {
+      background-position-y: 18%;
+  }
+}
+@media (max-width: 320px) {
+  #sliderPrincipalHome #QS-ranking2022 .contenedorImagenSlide01 {
+      background-position-y: 0%;
+  }
+  #QS-ranking2022 .slide-image {
+      top: 29%;
+  }
+}
+@media (max-width: 280px) {
+  #sliderPrincipalHome #QS-ranking2022 .contenedorImagenSlide {
+      background-position-y: 17%;
+  }
+  #QS-ranking2022 .slide-image {
+      width: 100%;
+  }
+}
+.carousel {
+  position: relative;
+}
+.contenedorSliderPrincipal .carousel-inner {
+  max-height: 600px;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-property: opacity;
+  transform: none;
+}
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+  z-index: 1;
+  opacity: 1;
+}
+.carousel-control-prev {
+  left: 0;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5% !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+}
+.carousel-control-prev:hover,
+.carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+.carousel-control-next-icon {
+  background-image: url("/sites/default/files/2022-04/carousel-control-next-icon.svg");
+}
+.carousel-control-prev-icon {
+  background-image: url("/sites/default/files/2022-04/carousel-control-prev-icon.svg");
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+@-webkit-keyframes animaImagenSliderHome {
+  0% {
+      -webkit-transform: scale(1.1);
+      -webkit-transition: -webkit-transform 20000ms linear 0s;
+  }
+  100% {
+      -webkit-transform: scale(1.4);
+      -webkit-transition: -webkit-transform 20000ms linear 0s;
+  }
+}
+@-moz-keyframes animaImagenSliderHome {
+  0% {
+      -moz-transform: scale(1.1);
+      -moz-transition: -moz-transform 20000ms linear 0s;
+  }
+  100% {
+      -moz-transform: scale(1.4);
+      -moz-transition: -moz-transform 20000ms linear 0s;
+  }
+}
+@-ms-keyframes animaImagenSliderHome {
+  0% {
+      -ms-transform: scale(1.1);
+      -ms-transition: -ms-transform 20000ms linear 0s;
+  }
+  100% {
+      -ms-transform: scale(1.4);
+      -ms-transition: -ms-transform 20000ms linear 0s;
+  }
+}
+@-o-keyframes animaImagenSliderHome {
+  0% {
+      -o-transform: scale(1.1);
+      -o-transition: -o-transform 20000ms linear 0s;
+  }
+  100% {
+      -o-transform: scale(1.4);
+      -o-transition: -o-transform 20000ms linear 0s;
+  }
+}
+@keyframes animaImagenSliderHome {
+  0% {
+      transform: scale(1.1);
+      transition: transform 20000ms linear 0s;
+  }
+  100% {
+      transform: scale(1.4);
+      transition: transform 20000ms linear 0s;
+  }
+}
+@keyframes pulse {
+  0% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
+  50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
+}

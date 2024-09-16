@@ -1,0 +1,478 @@
+#FormularioSanitas form {
+  background-color: #dadae5;
+  width: 39%;
+  margin: auto;
+}
+#FormularioSanitas form {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 43px;
+  width: 47%;
+  box-shadow: 0px 4px 9px 0px #c6c6e1;
+}
+#FormularioSanitas form #edit-actions-submit {
+  background-color: #da0921;
+  font-weight:600;
+  width:100%;
+  color:#fff;
+  margin:auto;
+  display: table;
+}
+#FormularioSanitas form #edit-actions-submit:hover {
+  background-color: #292b6e;
+}
+.tablas table h3 {
+  font-size: 1em;
+}
+.tablas table h2 {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.btnform a {
+  background-color: #da0921;
+  color: #fff!important;
+  padding: 4px 12px;
+  margin: auto;
+  display: table;
+  margin-bottom: 23px;
+}
+
+.btnform a:hover {
+  background-color: #3f51b5;
+}
+.tablas td {
+  padding: 1px;
+  font-size: 0.9em;
+  text-aling:center;
+}
+td.titulotabla {
+  font-size: 0.7em;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+.Logo-efr img {
+  z-index:1;
+  bottom: 118px;
+}
+#Convenios-institucionales h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 1.9em;
+  color: #000;
+}
+#Convenios-institucionales hr {
+  border: 2px solid#da0921;
+  background-color: #da0921;
+  margin-bottom: 26px;
+  margin-left: -482px;
+  width: 63%;
+  opacity: 100;
+}
+.fade {
+  background-image: linear-gradient(to bottom, rgba(34, 31, 77, 0.9) 65%, rgba(27, 20, 45, 0.9) 100%);
+}
+.miga {
+  background-color: #efefef9e;
+  padding: 5px 30px;
+  font-weight: 800;
+}
+.miga span {
+  color: #da0921;
+}
+.miga a {
+  color: #232151;
+}
+.tablas {
+  background-image: linear-gradient(90deg, #dadae5 100%, #fff 50%);
+  padding: 25px;
+}
+button.close {
+  background-color: #da0921;
+  opacity: 5.75;
+  color: #fff;
+}
+.tablas td {
+  padding: 6px;
+  border-bottom: 1px solid#c1c1d5;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.modal-body a {
+  color: #da0921;
+  font-weight: 800;
+}
+.modal-footer {
+  margin: auto;
+}
+.modal li:before {
+  color: #da0820;
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+button.btn.btn-secondary {
+  border: 0;
+  background-color: #da0921;
+  font-weight: 700;
+}
+span.hashtag {
+  display: table;
+  font-size: 18px;
+  color: #232151;
+  margin-bottom: -17px;
+  border-bottom: solid 2px;
+  padding: 0;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+.Banner-convenios .carousel-control-prev,
+.carousel-control-next {
+  height: 100%;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+.Banner-convenios .carousel-control-prev:after {
+  content: "<";
+  font-size: 27px;
+  padding: 0 9px;
+  color: #ffffff;
+  font-family: monospace;
+  position: absolute;
+  left: 16px;
+  font-weight: 900;
+  background-color: #da0921;
+  opacity: 100;
+  z-index: 999;
+  top: 50%;
+}
+.Banner-convenios .carousel-control-next:after {
+  content: ">";
+  font-size: 27px;
+  padding: 0 9px;
+  color: #ffffff;
+  position: absolute;
+  right: 11px;
+  font-family: monospace;
+  background-color: #232151;
+  opacity: 100;
+  z-index: 99;
+  font-weight: 900;
+}
+.Banner-convenios .carousel-caption h5 {
+  font-family: "Poppins", sans-serif;
+  color: #232151;
+  font-weight: 900;
+  font-size: 4rem;
+  text-align: right;
+  margin: 0;
+}
+.Banner-convenios .carousel-caption a {
+  transition: 0.3s;
+  border: 2px solid #ff8e00;
+  color: #221f4c;
+  font-size: 1.2rem;
+  padding: 9px 20px;
+  font-weight: 900;
+  float: right;
+  text-decoration: none;
+}
+.Banner-convenios .carousel-caption a:hover {
+  background-color: #ff8e00;
+  color: #fff;
+}
+.Banner-convenios .carousel-caption h5 strong {
+  color: #ff8e00;
+}
+.Banner-convenios .carousel-caption p {
+  text-align: right;
+  color: #232151;
+  font-size: 1.2rem;
+}
+.Convenio {
+  position: relative;
+}
+.Convenios-institucionales {
+  background-color: #fff;
+}
+.Convenios-institucionales .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Convenios-institucionales .img-content {
+  position: relative;
+}
+
+.Convenios-institucionales .img-content:hover .overlay {
+  opacity: 1;
+}
+
+#Convenios-institucionales.Convenios-institucionales .text a {
+  border: 2px solid#fff;
+  padding: 0 23px;
+  cursor: pointer;
+  color: #fff;
+}
+.Convenios-institucionales .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Convenios-institucionales .img-content {
+  position: relative;
+}
+
+.Convenios-institucionales img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-border-bottom-right-radius: 60px;
+  border-bottom-right-radius: 11px;
+  z-index: 0;
+}
+
+.Convenios-institucionales .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #04149296, hsl(249deg 100% 22% / 74%));
+  transition: opacity 0.3s ease-in 0s, transform 0.3s ease-in 0s, -webkit-transform 0.3s ease-in 0s;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.Convenios-institucionales .img-content:hover .overlay {
+  opacity: 1;
+}
+
+.Convenios-institucionales .img-content:hover .overlay .text {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.Convenios-institucionales .text {
+  -moz-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: opacity 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: table;
+}
+
+.Convenios-institucionales .text a:hover {
+  border: 2px solid#fff;
+  background-color: #ff8e00; /*CAMBIO*/
+  color: #ff8e00; /*CAMBIO*/
+  font-weight: 800; /*CAMBIO*/
+}
+.Convenios-institucionales .Convenio h4 {
+  position: absolute;
+  width: 60%; /*CAMBIO*/
+  text-align: left;
+  bottom: 26px; /*CAMBIO*/
+  left: 30px; /*CAMBIO*/
+  padding: 0;
+  margin: auto;
+  display: table;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1rem;
+  z-index: 0;
+  -webkit-border-bottom-right-radius: 14px;
+  -moz-border-radius-bottomright: 14px;
+  border-bottom-right-radius: 14px;
+}
+.Convenios-institucionales .img-content::before {
+  background: rgb(2, 0, 138);
+  background: linear-gradient(90deg, rgb(2 0 171 / 18%) 100%, rgb(2 0 38 / 9%) 20%);
+  -webkit-border-bottom-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.Links-de-interes {
+  background-image: linear-gradient(90deg, #dadae5 100%, #fff 50%);
+  padding: 4% 4%;
+}
+.Links-de-interes .col-md-6 hr {
+  margin: 0;
+  width: 100%;
+  margin: 20px 0 29px;
+  border: 1px solid#dadae5;
+  background-color: #dadae5;
+}
+.Links-de-interes i {
+  background-color: #da0921;
+  color: #fff;
+  font-size: 2rem;
+  padding: 17%;
+  margin: 11px;
+  float: right;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.Links-de-interes i:hover {
+  background-color: #240969;
+}
+.Links-de-interes a {
+  color: #da0921;
+  font-weight: 900;
+}
+.cont-primero h3 {
+  font-weight: 800;
+}
+.cont-primero {
+  padding: 2% 4%;
+}
+.cont-primero img {
+  width: 28%;
+  margin: auto;
+  display: table;
+  margin-bottom: 20px;
+}
+@media (min-width: 1400px) {
+  #Convenios-institucionales .Convenios .container-fluid {
+      padding: 32px 7% !important;
+  }
+}
+@media (min-width: 1800px) and (max-width: 2000px) {
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .Banner-convenios .carousel-caption h5 {
+      font-size: 2.2rem;
+  }
+  #Convenios-institucionales .carousel-item img {
+      width: 100%;
+      height: 259px;
+      object-fit: cover;
+      object-position: -207px;
+  }
+  .Banner-convenios .carousel-caption p {
+      text-align: right;
+      color: #232151;
+      font-size: 0.7rem;
+  }
+
+  .Banner-convenios .carousel-caption a {
+      /* CAMBIO, clase agregada a la media*/
+      font-size: 0.7rem;
+      padding: 3px 10px;
+  }
+}
+@media (max-width: 559px) {
+#Convenios-institucionales.Convenios-institucionales .Logo-efr img {
+  z-index: 1;
+  bottom: 223px;
+  width: 191px;
+  height: 148px;
+  object-fit: cover;
+  object-position: -78px;
+}
+#Convenios-institucionales .carousel-item img {
+  width: 100%;
+  height: 259px;
+  object-fit: cover;
+  object-position: -207px;
+}
+.Banner-convenios .carousel-control-prev:after {
+  top: 44%;
+}
+.Banner-convenios .carousel-control-prev, .carousel-control-next {
+  display: none;
+}
+#Convenios-institucionales h2 {
+  font-weight: 800;
+  line-height: 1em;
+  font-size: 1.7em;
+  margin-top: 23px;
+}
+.modal-body .p-5 {
+  padding:23px;
+}
+.tablas {
+  width:280px;
+  overflow: auto;
+}
+  h2 {
+      font-size: 1.4em;
+  }
+  hr {
+      width: 77%;
+      margin-left: -81px;
+  }
+  .Banner-convenios .carousel-caption {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(90deg, rgb(255 255 255 / 0%) 8%, rgb(255 255 255) 59%);
+      z-index: 0;
+  }
+  .Banner-convenios .carousel-control-prev:after {
+      left: 0;
+  }
+
+  .Banner-convenios .carousel-caption h5 {
+      font-size: 1.5rem;
+  }
+
+  .Banner-convenios .carousel-caption p {
+      text-align: right;
+      color: #232151;
+      font-size: 0.6rem;
+  }
+
+  .Banner-convenios .carousel-caption a {
+      /* CAMBIO, clase agregada a la media*/
+      font-size: 0.8rem;
+      padding: 3px 10px;
+  }
+  .carousel-item {
+      height: 257px;
+  }
+  #Convenios-institucionales .container.p-5 {
+      padding: 25px 45px 21px !important;
+  }
+  .Links-de-interes.p-5 {
+      padding: 1rem !important;
+  }
+  .Links-de-interes .row.p-5 {
+      padding: 0 !important;
+  }
+  .cont-primero img {
+      width: 53%;
+  }
+  .Links-de-interes i {
+      padding: 12%;
+      margin: 8px;
+  }
+  #Convenios-institucionales hr {
+      margin-left: -56px;
+  }
+  #Convenios-institucionales .Convenios {
+      padding: 0 !important;
+  }
+}

@@ -1,0 +1,1372 @@
+.compartir a {
+  pointer-events: none;
+  cursor: default;
+  }
+  
+  #semestre_canada p {
+    line-height: 1.5em;
+  }
+  
+  /*MENU*/
+  #menu-pagina-ur.menu_posgrados {
+      padding: 0 !important;
+  }
+  
+  #menu-pagina-ur ul.navbar-nav {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #menu-pagina-ur.menu_posgrados a:hover, #menu-pagina-ur.menu_posgrados a:active {
+      color: #ec0a21;
+  }
+  
+  #menu-pagina-ur li.nav-item {
+      width: 25%;
+      text-align: center;
+  }
+  
+  #menu-pagina-ur.menu_posgrados {
+      background: #fff;
+      padding: 10px;
+  }
+  
+  #menu-pagina-ur .navbar-toggler {
+      padding: .25rem .75rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+  }
+  
+  
+  #menu-pagina-ur.menu_posgrados a {
+      color: #616160;
+      font-size: 1.1em;
+      font-weight: 600;
+  }
+  
+  #menu-pagina-ur.menu_posgrados.fixed-top {
+      margin-top: 6%;
+      border-top: solid 1px #f3f3f3;
+      box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+      z-index: 5;
+  }
+  
+  #menu-pagina-ur.fixed-top {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+  }
+  /*MENU*/
+  
+  
+  /*EFECTO HOVER*/
+  
+  #semestre_canada .proximo_evento #entretenimiento p {
+      color: #fff;
+      font-size: 1.2em;
+  }
+  #semestre_canada .proximo_evento #entretenimiento .panel-body {
+      background: #ffff;
+      padding: 20px;
+      border-radius: 3px;
+      margin-bottom: 15px;
+      font-size: 1.5em;
+      line-height:1.5em;
+  }
+  
+  #semestre_canada .proximo_evento #entretenimiento .effect-sarah p {
+      font-size: 0.8em;
+      line-height: 21px;
+  }
+  
+  /* Common style */
+  #semestre_canada .grid figure {
+      position: relative;
+      float: left;
+      overflow: hidden;
+      margin: 30px 0px;
+      min-width: 320px;
+      max-width: 100%;
+      max-height: 480px;
+      width: 100%;
+      background: #201c46;
+      text-align: center;
+      cursor: pointer;
+      -webkit-box-shadow: 0px 1px 14px 2px #9c9c9c;
+      -moz-box-shadow: 0px 1px 14px 2px #9c9c9c;
+      box-shadow: 0px 1px 14px 2px #9c9c9c;
+  }
+  
+  #semestre_canada .grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+  }
+  #lineas .descripcio_profesor h4 {
+    font-size: 2.3em;
+  }
+  
+  #semestre_canada .grid figure figcaption {
+      padding: 2em;
+      color: #fff;
+      text-transform: inherit;
+      font-size: 1.25em;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+  }
+  
+  #semestre_canada .grid figure figcaption::before,
+  #semestre_canada .grid figure figcaption::after {
+    pointer-events: none;
+  }
+  
+  #semestre_canada .grid figure figcaption,
+  #semestre_canada .grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+  #semestre_canada .grid figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+  }
+  
+  #semestre_canada .grid figure h3 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+  }
+  
+  #semestre_canada .grid figure h3 span {
+    font-weight: 800;
+  }
+  
+  #semestre_canada .grid figure h3,
+  #semestre_canada .grid figure p {
+    margin: 0;
+  }
+  
+  #semestre_canada .grid figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+  }
+  
+  /* Individual effects */
+  
+  /*---------------*/
+  /***** Sarah *****/
+  /*---------------*/
+  
+  figure.effect-sarah {
+    background: #42b078;
+  }
+  
+  figure.effect-sarah img {
+      max-width: none;
+      width: -webkit-calc(100% + 20px);
+      width: calc(100% + 20px);
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-10px,0,0);
+      transform: translate3d(-0px,0,0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+  }
+  figure.effect-sarah:hover img {
+      opacity: 0.2 !important;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  figure.effect-sarah figcaption {
+    text-align: left;
+  }
+  
+  figure.effect-sarah h3 {
+    position: relative;
+    overflow: hidden;
+    padding: 0.5em 0;
+  }
+  
+  figure.effect-sarah h3::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: #da0b21;
+      content: '';
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+      -webkit-transform: translate3d(-100%,0,0);
+      transform: translate3d(-100%,0,0);
+  }
+  
+  figure.effect-sarah:hover h3::after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  figure.effect-sarah p {
+    padding: 1em 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+  
+  figure.effect-sarah:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  /*EFECTO HOVER*/
+  
+  #semestre_canada .container {
+      width: 100%;
+      padding-right: 30px;
+      padding-left: 30px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  /*encabezado*/
+  #semestre_canada .encabezado {
+      background: linear-gradient( #da092100 100%, rgba(181, 26, 26, 0.32)100%), url(/sites/default/files/2022-11/fondo-RIC.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      min-height: 620px;
+      align-items: center;
+      display: flex;
+      background-position-x: 21%;
+      background-position-y: 10%;
+      position: relative;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.29);
+  }
+  
+  #semestre_canada .text_seccion ul li.nav-item .nav-link {
+      font-size: 1.6em;
+      text-align: center;
+      color: #a2a2a2;
+      border-bottom: 5px solid #f3f3f3;
+  }
+  
+  #semestre_canada .text_seccion ul li.nav-item .nav-link:hover {
+      background-color: #da0b2100 !important;
+      color: #ec0a21;
+  }
+  
+  #semestre_canada li.nav-item:before {
+      display: none;
+  }
+  
+  #semestre_canada .text_seccion ul li.nav-item .nav-link.active, .nav-pills .show>.nav-link {
+      background-color: #f3f1f175 !important;
+      color: #000000;
+      border-bottom: 5px solid #ec0a21;
+  }
+  
+  #semestre_canada div#pills-tabContent {
+      padding: 30px 20px;
+      background: #fff;
+  }
+  
+  #semestre_canada ul.nav-pills {
+      background: #ffff;
+      margin-bottom: 0px !important;
+  }
+  
+  #semestre_canada .redessociales p {
+      margin-bottom: 10px;
+      color: #00294c;
+      font-size: 20px;
+      font-weight: 800;	
+  }
+  #semestre_canada .encabezado .right {
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: center;
+  }
+  #semestre_canada .encabezado .logo {
+      text-align:left;
+  }
+  #semestre_canada .encabezado .logo img {
+      width: 100%;
+      min-width: 220px;
+      max-width: 530px;
+      margin: 0 auto;
+  }
+  #semestre_canada .encabezado .row {
+      margin: 0;
+  }
+  #semestre_canada .encabezado h2 {
+      color: #00abdf;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 1px 1px 2px #9c9c9c38, 0 0 1em #d9c2a2, 0 0 0.2em #eecfa2;
+      padding-top: 6px;
+      font-size: 2.3em;
+  }
+  #semestre_canada .encabezado strong {
+      color: #fe021c;
+      font-weight: 700;
+  }
+  #semestre_canada .redessociales {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 30px;
+      align-items: center;
+  }
+  #semestre_canada .redessociales i {
+      font-size: 1.5em;
+      margin-left: 8px;
+      cursor: pointer;
+      border: solid 1px #fff;
+      padding: 7px;
+      background: #00294c;
+      color: #ffffff;
+  }
+  #semestre_canada i.fab.fa-facebook-f {
+      padding: 7px 10px !important;
+  }
+  #semestre_canada i.fab.fa-instagram {
+      padding: 7px 8px !important;
+  }
+  #semestre_canada i.fab.fa-facebook-f {
+      padding: 7px 10px !important;
+  }
+  #semestre_canada i.fab.fa-twitter:hover {
+      background: #da0921;
+      color: #fff;
+      transition: .3s;
+  }
+  #semestre_canada i.fab.fa-facebook-f:hover {
+      background: #da0921;
+      color: #fff ;
+      transition: .3s;
+  }
+  #semestre_canada i.fab.fa-instagram:hover {
+      background: #da0921;
+      color: #fff;
+      transition: .3s;
+  }
+  #semestre_canada i.fa-mouse-pointer:hover {
+      background: #da0921;
+      color: #fff;
+      transition: .3s;
+  }
+  
+  #semestre_canada i.fab.fa-whatsapp:hover {
+      background: #da0921;
+      color: #fff;
+      transition: .3s;
+  }
+  
+  #semestre_canada i.fab.fa-linkedin:hover {
+      background: #da0921;
+      color: #fff;
+      transition: .3s;
+  }
+  
+  #semestre_canada h4.titulos_secundarios {
+      color: #221e4b;
+      font-weight: 700;
+      font-size: 2.2em;
+  }
+  
+   .titulo-cono{
+  font-size: 2.5em;
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.2em;
+      padding-left: 27px!important;
+  }
+  .btnone a {
+      background-color: #a90518;
+      padding: 4px 5px;
+      color: #ffffff !important;
+      display: block;
+      font-weight: 900;
+      border: 1px solid#da0921;
+      margin-bottom: 6px;
+      transition: 0.3s;
+      padding: 10px 20px;
+      margin-bottom: 12px;
+      cursor: pointer;
+  }
+  .btnone a i {
+      font-size: 29px;
+      padding-right: 5px;
+  }
+  .btnone a:hover {
+      background-color: #fe021c;
+      color: #fff;
+      text-decoration: none;
+  }
+  /*encabezado*/
+  /*Proximos eventos*/
+  #semestre_canada h2 {
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #fff;
+      padding: 5px 0px;
+      margin: 0;
+  }
+  #semestre_canada .text-eventocanda h3 {
+      font-size: 1.5em;
+      color: #ffffff;
+  }
+  #semestre_canada hr {
+      width: 50%;
+      position: static;
+      border: 2px solid #da0921;
+      display: inline-block;
+      margin: 10px -23%;
+      margin-bottom: 28px;
+      background: #da0820;
+  }
+  #semestre_canada .text-eventocanda {
+      padding: 30px 20px;
+      background: url(/sites/default/files/2022-11/fondo-seccion.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+  }
+  #semestre_canada .proximo_evento {
+      padding: 4% 0px 0px;
+  }
+  .contenedor {
+      padding-bottom: 45px;
+  }
+  #semestre_canada .eventos-pasados .card-body.feria_gastronomica {
+      position: relative;
+      top: -35px;
+      background: #fff;
+      width: 90%;
+      margin: 0 auto;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.29);
+      min-height: 140px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: stretch;
+      align-content: stretch;
+      border-top: 3px solid #d80303;
+  }
+  #semestre_canada .eventos-pasados .card-body.feria_gastronomica p {
+      margin-bottom: 0;
+      margin-top: 10px;
+  }
+  #semestre_canada .eventos-pasados .card-body.feria_gastronomica h4 {
+      color: #211d49;
+      font-weight: 600;
+  }
+  #semestre_canada .proximo_evento h4.card-title {
+      color: #1d1733;
+      font-size: 1.2em;
+      font-weight: 700;
+      text-align: center;
+  }
+  #semestre_canada .proximo_evento h5 {
+      font-size: 1.9em;
+      width: 100%;
+      color: #797994;
+      font-weight: 400;
+  }
+  .card-body h5 i {
+      color: #2c2e76;
+      margin-right: 10px;
+  }
+  #semestre_canada .proximo_evento a.white-bold {
+      border: 1px solid #2c2e76;
+      background-color: #fff;
+      color: #2c2e76;
+      font-weight: 400;
+      padding: 5px 18px;
+      align-items: center;
+      font-size: 1.0em;
+      font-family: 'Roboto Mono', monospace;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 20px 0px;
+  }
+  #semestre_canada .proximo_evento a.white-bold:hover {
+      border: 1px solid #fff;
+      background-color: #2c2e76;
+      color: #fff;
+      text-decoration: none;
+  }
+  #semestre_canada .eventos-pasados .carousel.slide::before {
+      display: block;
+      position: absolute;
+      top: 18px;
+      left: 4px;
+      bottom: 0;
+      content: "";
+      opacity: 1;
+      transition: all 0.3s;
+      margin: -8px 0;
+      z-index: -1;
+      width: 102%;
+      background: #211d49;
+  }
+  #semestre_canada .eventos-pasados .carousel-indicators li img {
+      display: block;
+  }
+  #semestre_canada .eventos-pasados .carousel-indicators li {
+      box-sizing: content-box;
+      -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+      width: 50px;
+      height: 12px;
+      margin-right: 3px;
+      margin-left: 3px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: #fff;
+      background-clip: padding-box;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      opacity: .5;
+      transition: opacity .6s ease;
+  }
+  #semestre_canada .eventos-pasados .card-body h6 {
+      color: #ff1116;
+      font-size: 1.4em;
+      font-weight: 600;
+  }
+  #semestre_canada .eventos-pasados .card-body a.white-bold {
+      border: 1px solid #ff1116;
+      background-color: #fff;
+      color: #ff1116;
+      font-weight: 400;
+      padding: 5px 18px;
+      align-items: center;
+      font-size: 0.9em;
+      font-family: 'Roboto Mono', monospace;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 20px 0px;
+      display: block;
+      text-align: center;
+  }
+  #semestre_canada .eventos-pasados .card-body #semestre_canada .proximo_evento a.white-bold:hover {
+      border: 1px solid #fff;
+      background-color: #ff1116;
+      color: #fff;
+      text-decoration: none;
+  }
+  #semestre_canada .eventos-pasados button.btn.btn-danger {
+      border: 1px solid #fff;
+      background-color: #dA0921;
+      color: #fff;
+      font-size: 1.0em;
+      font-family: 'Roboto Mono', monospace;
+      text-transform: uppercase;
+      border-radius: 0;
+  }
+  #semestre_canada .eventos-pasados .video-responsive {
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      position: relative;
+  }
+  #semestre_canada .eventos-pasados .video-responsive iframe,
+  .video-responsive object,
+  .video-responsive embed {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+  }
+  #semestre_canada .eventos-pasados .modal-dialog {
+      max-width: 65% !important;
+      margin: 0.5rem auto;
+  }
+  #semestre_canada .agradecimientos {
+      padding: 30px 0px;
+      background: #D7D7E2;
+      background-attachment: fixed;
+      background-blend-mode: color-burn;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #000;
+  }
+  .datos p {
+      font-size: 1.4em;
+      text-align: left;
+      padding-top: 3%;
+  }
+  .datos a {
+      color: #fe021c;
+      text-align: center;
+      font-size: 1.1em;
+  }
+  
+  #semestre_canada .agradecimientos img.apoyo_canada {
+      width: 100%;
+      border: 6px solid #ffffff;
+  }
+  #semestre_canada .agradecimientos .justify-content-md-center {
+      display: flex;
+      align-items: center;
+      align-content: center;
+  }
+  #semestre_canada .agradecimientos h5.card-title {
+      font-size: 1.2em;
+      color: #211d49;
+      font-weight: 600;
+  }
+  #semestre_canada .agradecimientos h5.card-title::before {
+      display: block;
+      position: absolute;
+      left: 36px;
+      bottom: 20px;
+      content: "";
+      opacity: 1;
+      transition: all 0.3s;
+      margin: -8px 0;
+      z-index: 1;
+      width: 37%;
+      background: #ff1116;
+      height: 7px;
+  }
+  .eventos-pasados .controls-top {
+      height: 58px;
+      padding: 21px;
+  }
+  .eventos-pasados .controls-top a {
+      color: #fff;
+      font-size: 9px;
+      padding: 11px 1px;
+  }
+  .content_event h5.card-title {
+      color: #ff1116;
+      font-size: 1.8em;
+      font-weight: 700;
+      padding: 20px;
+      text-align: center;
+  }
+  .content_event {
+      padding: 25px 0px 0px;
+  }
+  .eventos-pasados {
+      padding: 5% 0px 20px;
+  }
+  .content_canada {
+      background-color: #dadae5;
+  }
+  .canada_casa {
+      background: #f9f9f9;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.29);
+  }
+  .vive-canada img {
+      width: 100%;
+      max-width: 433px;
+      text-align: center;
+  }
+  .text_seccion ul li {
+      list-style: none;
+      padding: 12px 0px;
+      width: 50%;
+      padding-top: 0px;
+  }
+  .text_seccion {
+      padding: 40px 20px 20px;
+  }
+  .content {
+      padding: 30px 39px !important;
+      box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.44);
+      background: #ffffff;
+      border-bottom: 5px solid #fe021c;
+      width: 50%;
+  }
+  .text_candaenlaur {
+      padding-top: 20px;
+  }
+  .text_candaenlaur h3 {
+      font-size: 1.2em;
+      color: #000000;
+  }
+  .text_candaenlaur strong {
+      color: #064243;
+      font-weight: 800;
+  }
+  .text_seccion ul li:before {
+      content: "\f14a";
+      color: #00294c;
+      margin-right: 8px;
+      font-size: 19px;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      position: absolute;
+      margin-left: -30px;
+      margin-top: 0px;
+      padding: 5px -1px;
+  }
+  .aling_celds {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      align-content: center;
+  }
+  .filtro_museo img {
+      width: 100%;
+      position: relative;
+      filter: drop-shadow(2px 4px 6px black);
+  }
+  .filtro_museo a img:hover {
+      filter: grayscale(1);
+  }
+  .filtro_museo h6 {
+      position: absolute;
+      display: block;
+      bottom: -9px;
+      color: #fff;
+      font-size: 15px;
+      border-bottom: 6px solid #007c7d;
+      width: 84%;
+      padding: 0px 7px;
+  }
+  .vive-canada {
+      margin: 0 auto;
+  }
+  .filtro_museo {
+      margin-bottom: 20px;
+  }
+  /*Proximos eventos*/
+  #Educacion a.white-bold2:hover {
+      border: 1px solid #fff;
+      background-color: #da0921;
+      color: #fff;
+      text-decoration: none;
+  }
+  #Educacion a.white-bold2 {
+      border: 1px solid #da0921;
+      background-color: #fff;
+      color: #000000;
+      padding: 5px 18px;
+      align-items: center;
+      font-size: .9em;
+      width: 126px;
+      margin: auto;
+      position: absolute;
+      top: 18px;
+      right: 16px;
+      font-weight: 800;
+      line-height: 1.3em;
+  }
+  #Educacion{
+      background-color:#fff!important;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+      background-color: #87859f!important;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+      background-color: #87859f!important;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+      width: 5%!important;
+  }
+  .fondo {
+      background: #221e4b;
+  }
+  #Educacion a.white-bold {
+      border: 1px solid #2c2e76;
+      background-color: #fff;
+      color: #2c2e76;
+      font-weight: 400;
+      padding: 5px 18px;
+      align-items: center;
+      font-size: 1.0em;
+      font-family: 'Roboto Mono', monospace;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 9px 0 0 0!important;
+      display: table;
+  }
+  .card-title1 {
+      font-weight: 700;
+      font-size: 1.2em;
+  }
+  
+  #semestre_canada .proximo_evento a.btn {
+      padding: 10px;
+      background: #221e4b;
+      position: relative;
+      margin: 20px 0px;
+  }
+  
+  #semestre_canada .proximo_evento .row.contenedor {
+      justify-content: center;
+  }
+  
+  #semestre_canada .proximo_evento .mx-auto {
+      margin: 30px 0px;
+  }
+  
+  #semestre_canada .proximo_evento p.card-title1 {
+      padding: 30px 10px;
+      font-size: 1.1em;
+  }
+  
+  #semestre_canada .proximo_evento a.btn .img-galeria1 {
+      opacity: 0.6;
+  }
+  
+  #semestre_canada .proximo_evento a.btn:hover .img-galeria1, #semestre_canada .proximo_evento a.btn:active .img-galeria1 {
+      opacity: 0.2;
+  }
+  
+  #semestre_canada .proximo_evento#cultura-cana .programas {
+      align-content: flex-end;
+      align-items: flex-end;
+  }
+  
+  #semestre_canada .proximo_evento .modal-dialog {
+      max-width: 70%;
+  }
+  
+  #semestre_canada .proximo_evento .modal-dialog .junta_directiva {
+      padding: 20px;
+  }
+  
+  #semestre_canada .proximo_evento .modal-header {
+      color: #fff;
+      font-weight: 700;
+      background: #101025;
+  }
+  
+  #semestre_canada .proximo_evento .modal-header span {
+      color: #fff;
+  }
+  
+  #semestre_canada .proximo_evento .modal-dialog h3 {
+      font-size: 1.4em;
+      color: #e2464c;
+  }
+  
+  #semestre_canada .proximo_evento p.titulos-1 {
+      font-size: 1.4em;
+      color: #ffffff;
+      padding: 0px 10px;
+      text-align: left;
+      font-weight: 600;
+      display: flex;
+      justify-content: left;
+      align-items: end;
+      position: absolute;
+      z-index: 2;
+      bottom: 30px;
+      border-left: 4px solid #da0b21;
+      margin-left: 20px;
+      text-shadow: 2px 2px 7px #000000;
+      cursor: pointer;
+  }
+  
+  .linea-1 hr {
+      width: 50%;
+      position: static;
+      border: 2px solid #da0921;
+      display: inline-block;
+      margin: auto !important;
+      display: block!important;
+      margin-bottom: 28px;
+      background: #da0820;
+  }
+  
+  .logop img {
+       width: 48%;
+  }
+  #semestre_canada .proximo_evento#cultura-cana .programas.line {
+      border-bottom: 1px solid #c1c1c1;
+  }
+  
+  
+  #semestre_canada .proximo_evento .card-titleplatos h5 {
+      font-weight: 700;
+  }
+  
+  #semestre_canada .proximo_evento .card-titleplatos h5::after {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f2e7";
+      display: block;
+      position: absolute;
+      top: -18px;
+      opacity: 1;
+      left: -33px;
+      transition: all 0.3s;
+      margin: 0px 0;
+      z-index: 1;
+      padding: 6px 11px;
+      width: 18%;
+      height: 42%;
+      max-height: 65px;
+      text-shadow: 1px 2px 3px #9e9e9edb, 0 0 1em #cccccc, 0 0 0.2em black;
+      background: #797994;
+  }
+  
+  #semestre_canada #entretenimiento a img:hover {
+      filter: grayscale(50%);
+  -webkit-filter: grayscale(50%);
+  }
+  .medallas {
+  background-color: #001f3a;
+      color: #fff;
+      font-size: 1.2em;
+  }
+  .medallas p {
+      padding-top: 68%;
+      padding-right: 5px;
+  }.medallas b {
+      background-color: #d20015;
+      padding: 3px 12px;
+  }
+  
+  #semestre_canada .eventos-pasados .carousel-inner {
+      height: 100%;
+      min-height: 540px;
+  }
+  
+  .proximo_evento.fondo.bg_filme {
+      background-image: url(/sites/default/files/2022-11/fondo-seccion.png);
+      background-attachment: fixed;
+      background-blend-mode: color-burn;
+  }
+  
+  .card-titleplatos {
+      text-align: end;
+  }
+  
+  .card-titleplatos p {
+      font-size: 1.2em;
+  }
+  
+  #semestre_canada .proximo_evento .programas a img:hover {
+      filter: grayscale(50%) hue-rotate(320deg);
+      -webkit-filter: grayscale(50%) hue-rotate(320deg); 
+  }
+  .musica_arte.text_seccion strong {
+      font-size: 1.7em;
+      color: #ec0a21;
+  }
+      .modal-footer .btn-secondary {
+          padding: 2px 20px !important;
+          color: #da0921 !important;
+          font-family: "Roboto Mono", monospace;
+          text-transform: uppercase;
+          font-size: 22px !important;
+          border: solid 2px;
+          border-radius: 0 !important;
+          letter-spacing: 1px;
+          margin-top: 2%;
+          margin: 0 auto !important;
+          display: table;
+          border: 2px solid #da0921 !important;
+          background-color: #fff;
+      }
+  
+      .modal-footer .btn-secondary:hover {
+          background: #d90821;
+          color: #fff !important;
+          border-color: #d90721;
+          transition: 0.3s;
+      }
+  
+      #entretenimiento {
+          padding-bottom: 40px;
+      }
+  
+      .thumbnail {
+          max-width: 45%;
+          margin: 5px;
+      }
+  
+      .lightbox {
+          display: none;
+          position: fixed;
+          z-index: 99999999;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          top: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.8);
+      }
+  
+      .lightbox img {
+          max-width: 90%;
+          max-height: 80%;
+          margin-top: 2%;
+      }
+  
+      .lightbox:target {
+          outline: none;
+          display: block;
+      }
+  
+      .eventos-pasados {
+          background-color: #fff;
+      }
+  
+      .img-galeria {
+          width: 65%;
+      }
+  
+      #semestre_canada .eventos-pasados .carousel.slide::before {
+          background: #fff !important;
+      }
+  
+      #Educacion {
+          background-color: #fff0 !important;
+      }
+  
+      .hidden {
+      display: none!important;
+      }
+  
+  .row.form-group.marginForm {
+      display: inline-block!important;
+      vertical-align: top!important;
+      width: 55%!important;
+      font-size: .9em;
+  }
+  div#p_lt_ctl09_pageplaceholder_p_lt_ctl19_Repeater19_repItems_ctl00_ctl00_widget1_ctl00_viewBiz {
+  color: #fff;
+      background-color: #00152da8;
+      padding: 28px 21px;
+      border: 1px solid#ffffffa1;
+      border-radius: 9px;
+  }
+  div#p_lt_ctl09_pageplaceholder_p_lt_ctl19_Repeater19_repItems_ctl00_ctl00_widget1_ctl00_viewBiz a {
+      font-size: .8em;
+  }
+  
+  #p_lt_ctl09_pageplaceholder_p_lt_ctl19_Repeater19_repItems_ctl00_ctl00_widget1_ctl00_viewBiz_ncpradiobuttonscontrol_1 label {
+      font-size: .8em;
+  }
+  input#p_lt_ctl09_pageplaceholder_p_lt_ctl19_Repeater19_repItems_ctl00_ctl00_widget1_ctl00_viewBiz_btnOK {
+      background-color: #fe021c;
+      border: 1px solid#fff;
+      font-weight: 800;
+  }
+  input#p_lt_ctl09_pageplaceholder_p_lt_ctl19_Repeater19_repItems_ctl00_ctl00_widget1_ctl00_viewBiz_btnOK:hover {
+      background-color: #00152b;
+  }
+  .redes-i i {
+      background-color: #fdfdfd;
+      color: #00172b;
+      padding: 7px;
+      margin: auto;
+      font-size: 29px;
+      border-radius: 10px;
+      margin-top: 2em;
+      margin-left: 2em;
+  }
+  .redes-i {
+      margin: auto;
+      display: block;
+      text-align: right;
+      padding-bottom: 5%;
+  }
+  .btninsig a {
+      background-color: #fe021c;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.3em;
+      text-align: center;
+      margin: auto;
+      display: block;
+      width: 23%;
+  }
+  .btninsig a:hover {
+      background-color: #00294c;
+  }
+  .btninsig a {
+      color: #fff!important;
+  }
+  div#Educacion h2 {
+      color: black;
+  }
+  .fotoprofesor img{
+      padding: 10px;
+      background: #221e4b;
+      position: relative;
+  }
+  
+  .descripcio_profesor hr {
+      margin: 10px 0%!important;
+  }
+  @media (min-width: 768px) {
+      .carousel-multi-item-2 .col-md-4 {
+          float: left;
+          width: 33.3%;
+          max-width: 100%;
+      }
+      .carousel-multi-item-2 .card img {
+          border-radius: 2px;
+      }
+  }
+  @media (min-width: 1300px) {
+      #semestre_canada #estudiantes .container {
+          max-width: 1280px;
+      }
+  }
+  @media (max-width: 1193px) {
+      #semestre_canada .encabezado {
+          background-size: cover;
+          background-position-x: 12%;
+      }
+      #semestre_canada .encabezado h2 {
+          font-size: 2.0em;
+      }
+      #semestre_canada .encabezado .logo img {
+          width: 85%;
+      }
+  
+      #semestre_canada .proximo_evento .modal-dialog {
+          max-width: 90%;
+      }
+  }
+  
+  
+  @media (max-width: 1024px) {
+  #semestre_canada .proximo_evento .text-center::after {
+      left: 15px;
+  }
+  }
+  
+  @media (max-width: 991px) {
+      .eventos-pasados {
+          padding: 5% 0px 10%;
+      }
+      #semestre_canada .encabezado .logo img {
+          padding: 20px 67px;
+      }
+      #semestre_canada .encabezado .logo {
+          text-align: left;
+          margin-top: 20%;
+      }
+      #semestre_canada .encabezado .container {
+          width: 100%;
+          max-width: 100%;
+          padding-right: 0px;
+          padding-left: 0px;
+      }
+      #semestre_canada .encabezado {
+          align-items: stretch;
+          background-size: 149%;
+      }
+      .text_candaenlaur h3 {
+          font-size: 1.0em;
+          color: #000000;
+      }
+      .content {
+          width: 100%;
+          margin: 0;
+          align-items: stretch;
+          margin-top: 11%;
+      }
+  
+      #semestre_canada .proximo_evento#cultura-cana .programas {
+          align-items: inherit;
+      }
+  
+      #semestre_canada .proximo_evento .text-center::after {
+          left: 0px;
+          width: 17%;
+          height: 9%;
+          font-size: 33px;
+          bottom: 169px;
+      }
+  
+      #semestre_canada .proximo_evento .card-titleplatos h5::after {
+          width: 55px;
+          height: 48%;
+          left: 27%;
+      }
+  }
+  @media (max-width: 767px) {
+      #semestre_canada .encabezado {
+          background-position-x: 15%;
+          align-items: flex-end;
+      }
+      #menu-pagina-ur li.nav-item {
+          width: 100%;
+      }
+      #semestre_canada .encabezado .logo img {
+          padding: 20px 0px 84px 67px;
+          width: 70%;
+      }
+  
+      #semestre_canada .text_seccion ul li.nav-item .nav-link {
+          font-size: 1.0em;
+      }
+      #semestre_canada .encabezado .right {
+          padding: 0;
+      }
+      .datos p {
+          font-size: 1.0em;
+          text-align: left;
+          padding-top: 3%;
+      }
+      #semestre_canada .agradecimientos {
+          padding: 30px 20px;
+      }
+      .content {
+          margin-top: 20%;
+      }
+      #semestre_canada .encabezado h2 {
+          font-size: 1.8em;
+          text-align: center;
+      }
+      #semestre_canada .text-eventocanda h3 {
+          font-size: 1.2em;
+      }
+      #semestre_canada .eventos-pasados .carousel-indicators li img {
+          display: none;
+      }
+      #semestre_canada .eventos-pasados .carousel-indicators li {
+          width: 25px;
+          height: 3px;
+      }
+      .text_candaenlaur {
+          padding-top: 0;
+      }
+      #semestre_canada .proximo_evento .text-center::after {
+          left: 10%;
+          width: 17%;
+          font-size: 33px;
+          bottom: 130px;
+          height: 11%;
+      }
+      #semestre_canada .proximo_evento .modal-dialog {
+          max-width: 100%;
+      }
+  }
+  @media (max-width: 600px) {
+      #semestre_canada .container {
+          width: 100%;
+          padding-right: 20px;
+          padding-left: 20px;
+          margin-right: auto;
+          margin-left: auto;
+      }
+      #semestre_canada .encabezado .logo img {
+          padding: 23px 0 0;
+      }
+      .content {
+          margin-top: 8%;
+      }
+      .row.form-group.marginForm {
+  
+      width: 100%!important;
+  
+  }
+  }
+  @media (max-width: 480px) {
+      #semestre_canada .encabezado {
+          min-height: 486px;
+      }
+      #semestre_canada .text-eventocanda h3 {
+          font-size: 1.0em;
+      }
+      .content_event {
+          padding: 44px 0px 0px;
+      }
+      #semestre_canada .eventos-pasados .card-body h6 {
+          font-size: 1.2em;
+      }
+      #semestre_canada .encabezado h2 {
+          font-size: 1.5em;
+          text-align: center;
+      }
+      #semestre_canada .redessociales {
+          display: block;
+      }
+  
+      #semestre_canada .proximo_evento .text-center::after {
+          left: 0%;
+          width: 20%;
+          font-size: 33px;
+          bottom: 167px;
+          height: 11%;
+      }
+  
+      #semestre_canada .proximo_evento .card-titleplatos h5::after {
+          width: 18%;
+          height: 48%;
+          left: 0;
+          max-height: 62px;
+      }
+  }
+  @media (max-width: 360px) {
+      #semestre_canada .encabezado .logo img {
+          max-width: 210px;
+      }
+  }
+  
+      .modal-footer .btn-linkedin {
+          padding: 2px 20px !important;
+          color: #fff !important;
+          font-family: "Roboto Mono", monospace;
+          text-transform: uppercase;
+          font-size: 15px !important;
+          border: solid 2px;
+          border-radius: 0 !important;
+          letter-spacing: 1px;
+          margin-top: 2%;
+          margin: 0 auto !important;
+          display: table;
+          border: 2px solid #da0921 !important;
+          background-color: #d90721;
+      }
+  
+      .modal-footer .btn-linkedin:hover {
+          background: #fff;
+          color: #d90821!important;
+          border-color: #fff;
+          transition: 0.3s;
+      }
+      #semestre_canada  p {
+        font-size:1.5em;
+      }
+      
+  

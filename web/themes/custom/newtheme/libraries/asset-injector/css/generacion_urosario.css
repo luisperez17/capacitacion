@@ -1,0 +1,3024 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --transition-duration: 0.2s;
+  --transition-delay: 0.2s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img{
+  display: initial!important;
+}
+
+small{
+  font-size: 60%;
+}
+
+#generacionURosario {
+  background: -webkit-linear-gradient(1deg, #8722E0 0%, #2842D6 80%);
+  background: -o-linear-gradient(1deg, #8722E0 0%, #2842D6 80%);
+  background: -moz-linear-gradient(1deg, #8722E0 0%, #2842D6 80%);
+  background: linear-gradient(1deg, #8722E0 0%, #2842D6 80%);
+  font-family: 'Libre Franklin', sans-serif;
+  overflow: hidden;
+}
+
+#generacionURosario .TextPrincipal .aling-center {
+  display: block;
+  width: 100%;
+}
+
+#generacionURosario .TextPrincipal .aling-center a:hover {
+  text-decoration: none;
+}
+
+#generacionURosario iframe{
+  position: relative;
+  width: 57%;
+  left: 20%;
+}
+
+#generacionURosario .actividades .video iframe {
+  width: 50vw;
+  max-width: 362px;
+  border-radius: 10% 8% 10% 11%;
+  max-height: 100%;
+  padding-top: 52px;
+  padding-left: 4px;
+  padding-bottom: 22px;
+}
+
+#generacionURosario .actividades .celular_video {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+  align-content: center;
+  background-image: url(/sites/default/files/2023-01/celular_video.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 18px;
+}
+
+/*
+#generacionURosario .actividades .video::before {
+  content: '';
+  top: -15px;
+  position: absolute;
+  background-image: url(/sites/default/files/2023-01/telefono_t.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  width: 58vw;
+  left: -39%;
+  height: 120px;
+}
+#generacionURosario .actividades .video::after {
+  content: '';
+  top: 25px;
+  position: absolute;
+  background-image: url(/sites/default/files/2023-01/telefono_b.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  width: 12vw;
+  height: 57vh;
+  right: -11%;
+}
+
+#generacionURosario .actividades .celular_video::before {
+  content: '';
+  top: 47px;
+  position: absolute;
+  background-image: url(/sites/default/files/2023-01/telefono_l.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  width: 12vw;
+  height: 57vh;
+  left: -1%;
+}
+#generacionURosario .actividades .celular_video::after {
+  content: '';
+  top: 25px;
+  position: absolute;
+  background-image: url(/sites/default/files/2023-01/telefono_r.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  width: 12vw;
+  height: 57vh;
+  right: -16%;
+}
+
+*/
+#generacionURosario .actividades .video {
+  text-align: center;
+  position: relative;
+  max-height: 827px;
+  padding: 0px 20px;
+}
+
+#generacionURosario #registrate .EditingFormControlNestedControl.editing-form-control-nested-control span {
+  display: flex;
+}
+
+#generacionURosario .actividades .flex_content .text_cont h4 a.ruta {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  background: #8c12e0;
+  padding: 2px 8px;
+}
+
+#generacionURosario .actividades .flex_content .text_cont h4 a.ruta:hover {
+  background: #47d578;
+  color: #ffffff;
+}
+
+#generacionURosario .actividadesFooter .flex_content .text_cont h4 a.ruta {
+  color: #8c12e0;
+  text-decoration: none;
+  font-weight: 600;
+  background: #ffffff;
+  padding: 2px 8px;
+}
+
+#generacionURosario .actividadesFooter .flex_content .text_cont h4 a.ruta:hover {
+  background: #47d578;
+  color: #ffffff;
+}
+
+#generacionURosario h6.event {
+  padding: 20px 20px;
+  color: #8820df;
+  padding-bottom: 50px;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+  background: #f1f1f1;
+  position: relative;
+  margin: 0px;
+}
+
+#generacionURosario .descubre_programas .espacio_neutro h2 img {
+  width: 100%;
+  max-width: 80px;
+  filter: invert(1);
+  padding: 10px;
+}
+
+#generacionURosario h6.event::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #8820df;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#generacionURosario h5.event {
+  padding: 0px 30px 30px;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #510094;
+  background: #f1f1f1;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#generacionURosario .descubre_programas .table_flex .info h3 {
+  margin-bottom: 0px;
+  font-size: 2.2vw;
+}
+
+#generacionURosario .TextPrincipal a.down i {
+  color: #fff;
+  padding: 10px 40px;
+  border: 4px double #ffffff;
+  border-radius: 50px;
+  background: #752ab940;
+  font-size: 1.8em;
+  font-weight: 200;
+  filter: drop-shadow(2px 4px 6px #000);
+  transition: 0.2s;
+}
+
+
+#generacionURosario .TextPrincipal a.down:hover i {
+  text-decoration: none;
+  background: -webkit-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: -o-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: -moz-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  transition: 0.2s;
+}
+
+#generacionURosario .TextPrincipal .aling-center img {
+  max-width: 25px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+#generacionURosario .TextPrincipal .aling-center a.down:hover img {
+  filter: invert(1);
+}
+
+#generacionURosario h2 {
+  font-size: 2.0em;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#generacionURosario .TextPrincipal .aling-center {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#generacionURosario h3 {
+  font-weight: 600;
+  font-size: 2.0em;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 3.0em;
+}
+
+#generacionURosario .tus_propositos {
+  width: 100%;
+  overflow: hidden;
+  background-image: url(/sites/default/files/2023-01/generacion_urosario_banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 56vh;
+}
+
+#generacionURosario .tus_propositos .imglogo {
+  text-align: center;
+}
+
+#generacionURosario .imglogo img {
+  max-width: 320px;
+}
+
+#generacionURosario p {
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#generacionURosario img {
+  width: 100%;
+}
+
+#generacionURosario .actividades.gracias {
+  text-align: center;
+}
+
+#generacionURosario .actividades.gracias h4 {
+  color: #0f2aa8;
+  padding-bottom: 50px;
+  font-size: 3.0em;
+  font-weight: 900;
+}
+
+#generacionURosario .actividades.gracias {
+  padding: 80px 20px;
+}
+
+#generacionURosario .navbar_V4 {
+  /* background: #46444470; */
+  position: sticky;
+  top: 6%;
+  z-index: 6;
+}
+
+#generacionURosario nav.navbar.navbar-expand-lg.navbar-light {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+#generacionURosario .navbar_V4 .navbar-light .navbar-toggler {
+  background: transparent;
+  width: 52px;
+  height: 44px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  color: #0000;
+  z-index: 4;
+  border: transparent;
+  border-radius: 5px;
+}
+
+#generacionURosario .navbar_V4 .navbar-light .navbar-toggler i {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 5px;
+  z-index: 9;
+  font-size: 12px;
+  background: #ffffff;
+  right: 5px;
+  border-radius: 10px;
+  top: 10px;
+  text-align: center;
+}
+
+#generacionURosario .navbar_V4 .navbar-light .navbar-toggler i::before {
+  content: "";
+  position: absolute;
+  width: 39px;
+  height: 5px;
+  z-index: 9;
+  font-size: 12px;
+  background: #ffffff;
+  right: 0px;
+  border-radius: 10px;
+  top: 20px;
+}
+
+#generacionURosario .portafolio_posgrado .img_contet_piede {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+#generacionURosario .descubre_programas .modal-body {
+  padding-bottom: 50px;
+  padding-top: 0px;
+}
+
+#generacionURosario .navbar_V4 .navbar-light .navbar-toggler i::after {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 5px;
+  z-index: 9;
+  font-size: 12px;
+  background: #ffffff;
+  right: 0px;
+  border-radius: 10px;
+  top: 10px;
+}
+
+#generacionURosario .navbar_V4 .navbar-light .navbar-toggler:hover i {
+  background: #ffffff00;
+}
+
+#generacionURosario .navbar_V4 .navbar-light .navbar-toggler:hover i::before {
+  transform: rotate(43deg);
+  top: 10px;
+  width: 36px;
+}
+
+#generacionURosario .navbar_V4 .navbar-light .navbar-toggler:hover i::after {
+  transform: rotate(313deg);
+  top: 10px;
+  right: 3px;
+
+}
+
+#generacionURosario figure.effect-zoe .descrp_flex .item_img img {
+  width: 100%;
+  max-width: 126px;
+}
+
+#generacionURosario figure.effect-zoe .descrp_flex {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+#generacionURosario figure.effect-zoe .descrp_flex .item_img {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+#generacionURosario figure.effect-zoe .descrp_flex .texto {
+  width: 70%;
+  position: relative;
+  bottom: 0.1em;
+  padding: 0;
+  color: #060000;
+  text-transform: none;
+  font-size: 60%;
+  text-align: left;
+}
+
+#generacionURosario .navbar-collapse.collapse {
+  padding: 0 !important;
+}
+
+#generacionURosario .navbar_V4 .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background: #05030a;
+  -webkit-box-shadow: 5px 8px 16px 1px #11051b;
+  -moz-box-shadow: 5px 8px 16px 1px #11051b;
+  box-shadow: 5px 8px 16px 1px #11051b;
+}
+
+#generacionURosario .navbar_V4 .menu_cta a {
+  position: relative;
+}
+
+#generacionURosario .navbar_V4 a {
+  color: #c5c5c5;
+  display: inline-block;
+  padding: 20px 13px 15px;
+  text-align: center;
+  transition: .3s ease-out all;
+  cursor: pointer;
+  width: 20%;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition-duration: 1s;
+}
+
+#generacionURosario .navbar_V4 .menu_cta a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #2d033e, #6c0396, #A300E4);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+
+#generacionURosario .navbar_V4 a:hover {
+  color: #ffffff;
+  transition-duration: 1s;
+  text-decoration: none;
+}
+
+#generacionURosario .navbar_V4 .menu_cta a:hover::before {
+  transform: scaleX(1);
+}
+
+
+#generacionURosario .TextPrincipal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px 5%;
+  padding-bottom: 20px;
+}
+
+
+#generacionURosario .TextPrincipal h2 {
+  text-align: center;
+  font-style: italic;
+  text-shadow: 6px 4px 20px #0826bd;
+  margin-bottom: 30px;
+}
+
+#generacionURosario .TextPrincipal p {
+  font-size: 1.2em;
+  color: #fff;
+  text-align: left;
+  font-weight: 200;
+}
+
+#generacionURosario .descubre_programas .contenido_tabla .emocionate,
+#generacionURosario .descubre_programas .contenido_tabla .arriesgate,
+#generacionURosario .descubre_programas .contenido_tabla .relajate,
+#generacionURosario .descubre_programas .contenido_tabla .inspirate,
+#generacionURosario .descubre_programas .contenido_tabla .diviertete {
+  padding: 20px 10px;
+  position: relative;
+  min-height: 380px;
+}
+
+#generacionURosario .imgPrincipal {
+  text-align: center;
+  padding: 5%;
+}
+
+#generacionURosario .imgPrincipal img {
+  max-width: 880px;
+}
+
+#generacionURosario .actividades {
+  padding: 10px 8% 8%;
+  background: #fff;
+  z-index: 2;
+}
+
+#generacionURosario .actividades p {
+  font-size: 1.2em;
+  color: #2642D7;
+  text-align: center;
+}
+
+#generacionURosario .actividades .flex_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#generacionURosario .actividades .flex_content .img_icon {
+  padding: 0px 10px;
+}
+
+#generacionURosario .actividades .flex_content .img_icon img {
+  max-width: 50px;
+  min-width: 50px;
+}
+
+
+#generacionURosario .actividades .flex_content .text_cont h4 {
+  color: #1f44d4;
+  font-size: 1.3rem;
+}
+
+#generacionURosario .actividades .abrimos_puertas {
+  padding-bottom: 20px;
+}
+
+/*EFECTO ZOE*/
+
+#generacionURosario .grid {
+  padding-top: 2%;
+}
+
+#generacionURosario .actividades .content_flex .img_iconex {
+  width: 5.5%;
+  padding: 10px;
+}
+
+#generacionURosario .actividades .content_flex .textos_abrimos {
+  width: 94%;
+}
+
+/* Common style */
+#generacionURosario .grid figure {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px;
+  background: -webkit-linear-gradient(180deg, #a600e940 17%, #600382 96%);
+  background: -o-linear-gradient(180deg, #a600e940 17%, #600382 96%);
+  background: -moz-linear-gradient(180deg, #a600e940 17%, #600382 96%);
+  background: linear-gradient(180deg, #a600e940 17%, #600382 96%);
+  -webkit-box-shadow: 3px 1px 11px 2px #000000;
+  -moz-box-shadow: 3px 1px 11px 2px #000000;
+  box-shadow: 3px 1px 11px 2px #00000042;
+}
+
+#generacionURosario .actividades {
+  position: relative;
+  overflow: hidden;
+}
+
+#generacionURosario .actividades .content_flex {
+  display: flex;
+  align-items: baseline;
+}
+
+#generacionURosario .actividades::before {
+  content: "";
+  background-image: url(/sites/default/files/2023-01/elipse_1.png);
+  position: absolute;
+  left: -27%;
+  top: -10%;
+  width: 620px;
+  height: 328px;
+  z-index: -1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+#generacionURosario .actividades h3 {
+  color: #1f44d4;
+  text-align: center;
+}
+
+#generacionURosario .actividades::after {
+  content: "";
+  background-image: url(/sites/default/files/2023-01/elipse_1.png);
+  position: absolute;
+  right: -26%;
+  bottom: -20%;
+  width: 620px;
+  height: 328px;
+  z-index: -1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+#generacionURosario .grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+#generacionURosario #recibe_beneficio {
+  position: absolute;
+  top: -3%;
+  z-index: 4;
+  padding: 0px 15%;
+  border-radius: 35px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+#generacionURosario #recibe_beneficio .textos_abrimos i {
+  text-align: center;
+  margin: 0 auto;
+  background: #7823ce;
+  color: #ffffff;
+  font-size: 1.5em;
+  display: block;
+  padding: 20px 20px;
+  font-weight: 600;
+  border: 5px solid #ffffff;
+  margin-top: 30px;
+  border-radius: 20px;
+  line-height: 30px;
+}
+
+#generacionURosario #recibe_beneficio .textos_abrimos i span {
+  font-size: 1.7em;
+  color: #2df4b2;
+}
+
+#generacionURosario #recibe_beneficio .textos_abrimos i a {
+  color: #06e080;
+}
+
+#generacionURosario #recibe_beneficio .textos_abrimos i a:hover {
+  text-decoration: none;
+  color: #ffcc62;
+}
+
+#generacionURosario .grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#generacionURosario .grid figure figcaption::before,
+#generacionURosario .grid figure figcaption::after {
+  pointer-events: none;
+}
+
+#generacionURosario .grid figure figcaption,
+#generacionURosario .grid figure figcaption>a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+#generacionURosario .grid figure figcaption>a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+#generacionURosario .grid figure h2 {
+  font-weight: 300;
+}
+
+#generacionURosario .grid figure h2 span {
+  font-weight: 800;
+}
+
+#generacionURosario .grid figure h2,
+#generacionURosario .grid figure p {
+  margin: 0;
+}
+
+#generacionURosario .grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/* Individual effects */
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+
+#generacionURosario figure.effect-zoe figcaption {
+  top: auto;
+  bottom: -1px;
+  padding: 0.5em 0.5em;
+  height: 6.75em;
+  background: #fff;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+
+
+#generacionURosario figure.effect-zoe h2 {
+  float: left;
+}
+
+#generacionURosario figure.effect-zoe p.icon-links a {
+  float: right;
+  color: #3c4a50;
+  font-size: 1.4em;
+}
+
+#generacionURosario figure.effect-zoe:hover p.icon-links a:hover,
+#generacionURosario figure.effect-zoe:hover p.icon-links a:focus {
+  color: #252d31;
+}
+
+#generacionURosario figure.effect-zoe p.description {
+  position: relative;
+  bottom: 1.5em;
+  padding: 1em;
+  color: #060000;
+  text-transform: none;
+  font-size: 70%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  backface-visibility: hidden;
+  text-align: left;
+}
+
+#generacionURosario figure.effect-zoe h2,
+#generacionURosario figure.effect-zoe p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+}
+
+#generacionURosario figure.effect-zoe p.icon-links a span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: 'feathericons';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#generacionURosario figure.effect-zoe h2 {
+  display: inline-block;
+  position: absolute;
+  bottom: 170%;
+  width: 100%;
+  left: 0px;
+  text-align: left;
+  padding: 0px 20px;
+  font-size: 1.7vw;
+}
+
+#generacionURosario figure.effect-zoe:hover p.description {
+  opacity: 1;
+}
+
+#generacionURosario figure.effect-zoe:hover figcaption,
+#generacionURosario figure.effect-zoe:hover h2,
+#generacionURosario figure.effect-zoe:hover p.icon-links a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#generacionURosario figure.effect-zoe:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+#generacionURosario figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+#generacionURosario figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+#generacionURosario figure.effect-zoe:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+
+#generacionURosario .descubre_programas figure.posgrados_banner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+}
+
+#generacionURosario .descubre_programas .banner_programas .align-items-center {
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#generacionURosario .descubre_programas .banner_programas .align-items-center h3 {
+  color: #fff;
+  text-shadow: 5px 2px 0px #8820df;
+  padding-bottom: 50px;
+  font-size: 3.0em;
+  padding-top: 20px;
+  text-align: left;
+}
+
+#generacionURosario section.descuebre_Carreras {
+  padding-top: 6%;
+}
+
+.banner_programas {
+  padding-top: 30px;
+}
+
+#generacionURosario .descubre_programas .banner_programas {
+  text-align: center;
+}
+
+#generacionURosario .descubre_programas .banner_programas img {
+  width: 100%;
+  filter: revert;
+  max-width: 480px;
+}
+
+#generacionURosario .descubre_programas .banner_programas .align-items-center a.agenda {
+  color: #fff;
+  padding: 10px 40px;
+  border: 10px double #ffffff;
+  border-radius: 50px;
+  background: #752ab940;
+  font-size: 1.2em;
+  font-weight: 200;
+  filter: drop-shadow(2px 4px 6px #000);
+  transition: 0.2s;
+}
+
+#generacionURosario .descubre_programas .banner_programas .align-items-center a.agenda:hover {
+  text-decoration: none;
+  background: -webkit-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: -o-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: -moz-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  transition: 0.2s;
+}
+
+#generacionURosario #registrate .filtrosFacultadesEscuelas {
+  background: #FFFFFF;
+  border-radius: 30px;
+  padding: 2% 3%;
+  margin-top: 50px;
+}
+
+#generacionURosario #registrate input.form-control {
+  background: #EDEFFF;
+  border: 1px solid #2642D7;
+  border-bottom: 3px solid #931ED5;
+  min-width: 1vw;
+  margin-right: 5px;
+}
+
+#generacionURosario #registrate select.form-control {
+  background: #EDEFFF;
+  border: 1px solid #2642D7;
+  border-bottom: 3px solid #931ED5;
+}
+
+#generacionURosario .descubre_programas .contenido_tabla .emocionate::before {
+  content: "";
+  position: absolute;
+  width: 123px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url(/sites/default/files/2023-01/ic-emocionate.png);
+  background-size: 52%;
+  background-repeat: no-repeat;
+  bottom: -15%;
+  right: -55px;
+  filter: opacity(0.4);
+}
+
+#generacionURosario .descubre_programas .contenido_tabla .inspirate::before {
+  content: "";
+  position: absolute;
+  width: 123px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url(/sites/default/files/2023-01/ic-inspiration.png);
+  background-size: 52%;
+  background-repeat: no-repeat;
+  bottom: -15%;
+  right: -55px;
+  filter: opacity(0.4);
+}
+
+#generacionURosario .descubre_programas .contenido_tabla .relajate::before {
+  content: "";
+  position: absolute;
+  width: 123px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url(/sites/default/files/2023-01/ic-retate.png);
+  background-size: 52%;
+  background-repeat: no-repeat;
+  bottom: -15%;
+  right: -55px;
+  filter: opacity(0.4);
+}
+
+#generacionURosario .descubre_programas .contenido_tabla .diviertete::before {
+  content: "";
+  position: absolute;
+  width: 123px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url(/sites/default/files/2023-01/ic-diviertete.png);
+  background-size: 52%;
+  background-repeat: no-repeat;
+  bottom: -15%;
+  right: -55px;
+  filter: opacity(0.4);
+}
+
+#generacionURosario #registrate {
+  padding-top: 3%;
+}
+
+#generacionURosario .formulario h3 {
+  text-align: center;
+  color: #fff;
+}
+
+#generacionURosario .descubre_programas figure.posgrados_banner figcaption {
+  position: absolute;
+  padding-right: 5%;
+  text-align: right;
+}
+
+#generacionURosario #registrate .filtrosFacultadesEscuelas a {
+  color: #6C2DDD !important;
+  font-size: 0.8em;
+}
+
+#generacionURosario #registrate .form-check-label {
+  font-size: 0.8em;
+  color: #9c9c9c;
+}
+
+#generacionURosario #registrate .form-check-input {
+  width: 12px;
+  height: 12px;
+}
+
+#generacionURosario #registrate .filtrosFacultadesEscuelas span {
+  color: #2E44C0;
+  font-size: 0.7em;
+}
+
+#generacionURosario #registrate .radio.radio-list-vertical {
+  display: flex;
+}
+
+
+#generacionURosario #registrate button.btn.btn-primary {
+  background: -webkit-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: -o-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: -moz-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  padding: 10px 50px;
+  border-radius: 30px;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  transition: 0.2s;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#generacionURosario #registrate button.btn.btn-primary:hover {
+  background: #3f299e;
+  transition: 0.2s;
+}
+
+#generacionURosario .descubre_programas figure.posgrados_banner figcaption img {
+  max-width: 550px;
+  padding: 0px 0px 0px 18%;
+  text-align: right;
+}
+
+#generacionURosario .descubre_programas {
+  padding: 8% 6% 1%;
+  position: relative;
+  overflow: inherit;
+}
+
+#generacionURosario .descubre_programas::before {
+  content: "";
+  background-image: url(/sites/default/files/2023-01/circle_2.png);
+  position: absolute;
+  left: -7%;
+  top: -16%;
+  width: 387px;
+  height: 277px;
+  z-index: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* opacity: 0.7; */
+}
+
+#generacionURosario .descubre_programas .banner_programas img {
+  width: 100%;
+  filter: revert;
+}
+
+#generacionURosario .filtros {
+  padding: 30px;
+  background: -webkit-linear-gradient(264deg, #102251 20%, #0D021D 80%);
+  background: -o-linear-gradient(264deg, #102251 20%, #0D021D 80%);
+  background: -moz-linear-gradient(264deg, #102251 20%, #0D021D 80%);
+  background: linear-gradient(264deg, #102251 20%, #0D021D 80%);
+}
+
+#generacionURosario .filtros label {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2em;
+  font-family: 'Libre Franklin', sans-serif;
+  font-style: italic;
+}
+
+#generacionURosario .filtros input {
+  border: 2px outset #49AAD6;
+}
+
+#generacionURosario .filtros select {
+  border: 2px outset #49AAD6;
+  color: #737373;
+}
+
+#generacionURosario input.button.form-control {
+  background: -webkit-linear-gradient(94deg, #49aad6 17%, #2b69b3 96%);
+  background: -o-linear-gradient(94deg, #49aad6 17%, #2b69b3 96%);
+  background: -moz-linear-gradient(94deg, #49aad6 17%, #2b69b3 96%);
+  background: linear-gradient(94deg, #49aad6 17%, #2b69b3 96%);
+  border: inherit;
+  border-radius: 9px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+#generacionURosario input.button.form-control:hover {
+  background: -webkit-linear-gradient(94deg, #761867 17%, #3E0055 96%);
+  background: -o-linear-gradient(94deg, #761867 17%, #3E0055 96%);
+  background: -moz-linear-gradient(94deg, #761867 17%, #3E0055 96%);
+  background: linear-gradient(94deg, #761867 17%, #3E0055 96%);
+}
+
+#generacionURosario input.button.form-control.item_R {
+  background: url(/sites/default/files/2023-01/icon_r.svg) 1px center, linear-gradient(94deg, #49aad6 17%, #2b69b3 96%);
+  background-repeat: no-repeat;
+  max-width: 40px;
+  width: 100%;
+}
+
+#generacionURosario input.button.form-control.item_R:hover {
+  background: url(/sites/default/files/2023-01/icon_r.svg) 1px center, linear-gradient(94deg, #761867 17%, #3E0055 96%);
+  background-repeat: no-repeat;
+}
+
+#generacionURosario .contenidoProgramas {
+  padding: 30px;
+  background: -webkit-linear-gradient(264deg, #102251 20%, #0D021D 80%);
+  background: -o-linear-gradient(264deg, #102251 20%, #0D021D 80%);
+  background: -moz-linear-gradient(264deg, #102251 20%, #0D021D 80%);
+  background: linear-gradient(264deg, #102251 20%, #0D021D 80%);
+}
+
+#generacionURosario .contenidoProgramas figure.filtro {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px;
+  background: -webkit-linear-gradient(180deg, #193754 17%, #01032b 96%);
+  background: -o-linear-gradient(180deg, #193754 17%, #01032b 96%);
+  background: -moz-linear-gradient(180deg, #193754 17%, #01032b 96%);
+  background: linear-gradient(180deg, #193754 10%, #01032b 100%);
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+#generacionURosario .contenidoProgramas figure.filtro img {
+  opacity: 0.6;
+}
+
+#generacionURosario .contenidoProgramas figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#generacionURosario .contenidoProgramas figcaption h4.description {
+  display: inline-block;
+  position: absolute;
+  width: 95%;
+  left: 0px;
+  text-align: left;
+  padding: 0px 20px 0px 10px;
+  font-size: 1.4vw;
+  bottom: 16px;
+  color: #fff;
+  border-left: 5px solid #49AAD6;
+  margin-left: 15px;
+  font-weight: 400;
+  transition: 0.6s;
+}
+
+
+
+#generacionURosario .contenidoProgramas figure.filtro a.btn {
+  top: 40%;
+  position: absolute;
+  color: #fff;
+  z-index: 32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  opacity: 0;
+  transition: 1s;
+  transform: translate3d(0, 100%, 0);
+  padding: 10px 30px;
+}
+
+#generacionURosario .contenidoProgramas figure.filtro:hover img {
+  opacity: 0.2;
+  transition: 0.9s;
+}
+
+#generacionURosario .contenidoProgramas figure.filtro:hover h4.description {
+  opacity: 0;
+  transition: 0.6s;
+}
+
+#generacionURosario .contenidoProgramas figure.filtro:hover a.btn {
+  opacity: 1;
+  transition: 1s;
+  transform: translate3d(0, 0, 0);
+}
+
+#generacionURosario .contenidoProgramas figure.filtro:hover a.btn:hover {
+  background: -webkit-linear-gradient(94deg, #761867 17%, #3E0055 96%);
+  background: -o-linear-gradient(94deg, #761867 17%, #3E0055 96%);
+  background: -moz-linear-gradient(94deg, #761867 17%, #3E0055 96%);
+  background: linear-gradient(94deg, #761867 17%, #3E0055 96%);
+  border: 2px solid #410155;
+}
+
+#generacionURosario .contenidoProgramas .paginacion .PagerControl {
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  padding: 30px 0px;
+}
+
+#generacionURosario .contenidoProgramas .paginacion .PagerControl .PagerResults {
+  font-weight: 400;
+}
+
+#generacionURosario .contenidoProgramas .paginacion .PagerControl .PagerNumberArea a {
+  color: #cccaca;
+  font-weight: 300;
+}
+
+#generacionURosario .contenidoProgramas .paginacion .PagerControl .PagerNumberArea span.SelectedPage {
+  background: -webkit-linear-gradient(94deg, #49aad6 17%, #2b69b3 96%);
+  background: -o-linear-gradient(94deg, #49aad6 17%, #2b69b3 96%);
+  background: -moz-linear-gradient(94deg, #49aad6 17%, #2b69b3 96%);
+  background: linear-gradient(94deg, #49aad6 17%, #2b69b3 96%);
+  padding: 2px 8px;
+}
+
+#generacionURosario .contenidoProgramas .paginacion .PagerControl .PagerNumberArea a:hover {
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#generacionURosario hr.line_fux {
+  border-top: 1.5px solid #5F0380;
+  margin-top: 6%;
+  border-radius: 5px;
+  background: #5F0380;
+  -webkit-box-shadow: 5px 8px 16px 1px #11051b;
+  -moz-box-shadow: 5px 8px 16px 1px #11051b;
+  box-shadow: 5px 6px 12px 1px #0f0c10d1;
+}
+
+#generacionURosario .content_inf {
+  padding: 6% 6% 0;
+}
+
+#generacionURosario .content_inf section.memorias_evento {
+  padding: 30px;
+  background: -webkit-linear-gradient(123deg, #49AAD6 10%, #3E0055 90%);
+  background: -o-linear-gradient(123deg, #49AAD6 10%, #3E0055 90%);
+  background: -moz-linear-gradient(123deg, #49AAD6 10%, #3E0055 90%);
+  background: linear-gradient(123deg, #49AAD6 10%, #3E0055 90%);
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+#generacionURosario .content_inf section.memorias_evento::before {
+  content: url(/sites/default/files/2023-01/item_textura2.png);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -21%;
+  top: -42%;
+  z-index: 0;
+}
+
+#generacionURosario .content_inf section.memorias_evento::after {
+  content: url(/sites/default/files/2023-01/item_textura1.png);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 19%;
+  bottom: 12%;
+  z-index: 0;
+}
+
+#generacionURosario .content_inf .z-index-cont {
+  z-index: 2;
+  position: relative;
+}
+
+
+#generacionURosario .content_inf section.memorias_evento h2 {
+  font-size: 4.5vw;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+#generacionURosario .content_inf section.memorias_evento h2 strong {
+  font-weight: 700;
+}
+
+#generacionURosario .content_inf section.memorias_evento h4 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.6em;
+}
+
+#generacionURosario .content_inf section.memorias_evento .video_promo {
+  position: relative;
+}
+
+#generacionURosario .content_inf section.memorias_evento .video_promo {
+  position: relative;
+  padding: 0px 20px;
+  overflow: hidden;
+}
+
+#generacionURosario .content_inf section.memorias_evento .texto_referencia {
+  background: #0680f0e0;
+  padding: 10px 10px;
+  position: absolute;
+  width: 95%;
+  bottom: 0px;
+}
+
+#generacionURosario .content_inf section.memorias_evento .texto_referencia h4 {
+  text-align: right;
+  font-size: 1.4em;
+}
+
+#generacionURosario .content_inf section.memorias_evento .video_promo .texto_referencia {
+  opacity: 1;
+  transition: 1s;
+  transform: translate3d(0, 0, 0);
+}
+
+#generacionURosario .content_inf section.memorias_evento .video_promo:hover .texto_referencia {
+  opacity: 0;
+  transition: 1s;
+  transform: translate3d(0, 100%, 0);
+}
+
+#generacionURosario .content_inf section.memorias_evento .content_box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#generacionURosario .content_inf section.memorias_evento .content_box .circle_flex {
+  width: 35%;
+  text-align: center;
+  color: #fff;
+  border-radius: 62%;
+  padding: 40px 20px 20px 20px;
+  position: relative;
+}
+
+#generacionURosario .content_inf section.memorias_evento .content_box .circle_flex h5 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 2px;
+  z-index: 3;
+  padding-top: 25px;
+}
+
+#generacionURosario .content_inf section.memorias_evento .content_box .circle_flex:before {
+  content: "";
+  background: #181428;
+  width: 56%;
+  height: 65%;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  left: 22%;
+  right: 25%;
+}
+
+#generacionURosario .content_inf section.memorias_evento .content_box .circle_flex:after {
+  content: "";
+  background: #023c66c2;
+  width: 16%;
+  height: 20%;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  right: 17%;
+  top: 33%;
+}
+
+#generacionURosario .content_inf section.memorias_evento .content_box .circle_flex h5 samp {
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 1.7vw;
+}
+
+#generacionURosario .content_inf section.memorias_evento .content_box .circle_flex i {
+  font-weight: 300;
+  font-size: 1.3vw;
+}
+
+
+
+#generacionURosario .content_inf section.memorias_evento ol.carousel-indicators {
+  display: none;
+}
+
+#generacionURosario .content_inf section.memorias_evento .texto_referencia {
+  text-align: right;
+}
+
+#generacionURosario .content_inf section.memorias_evento .texto_referencia h5 {
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 600;
+}
+
+#generacionURosario .content_inf section.memorias_evento .texto_referencia p {
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 0;
+}
+
+#generacionURosario .content_inf section.memorias_evento .ocultarMoviles.hidden-sm.hidden-xs.col-md-12.col-lg-10 {
+  float: right;
+  padding: 5% 0px 2%;
+}
+
+#generacionURosario .content_inf section.memorias_evento .contet_Carousel {
+  position: relative;
+}
+
+#generacionURosario .content_inf section.memorias_evento .controlesSlideespacios_transformacion {
+  position: absolute;
+  left: -10%;
+  bottom: 2%;
+}
+
+#generacionURosario .content_inf section.memorias_evento a.left i {
+  color: #459FD1;
+}
+
+#generacionURosario .content_inf section.memorias_evento a.right i {
+  color: #181428;
+}
+
+#generacionURosario .content_inf section.memorias_evento a:hover {
+  text-decoration: none;
+}
+
+#generacionURosario .content_inf section.memorias_evento a i {
+  font-size: 3.5em;
+  display: block;
+}
+
+#generacionURosario .content_inf section.memorias_evento a:hover i {
+  filter: opacity(0.5);
+}
+
+#generacionURosario .content_inf section.memorias_evento .cajaEstudio {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  min-height: 261px;
+}
+
+#generacionURosario .content_inf section.memorias_evento .cajaEstudio .texto_referencia {
+  opacity: 1;
+  transition: 1s;
+  transform: translateY(0);
+  width: 100%;
+  min-height: 105px;
+  top: 57%;
+}
+
+#generacionURosario .content_inf section.memorias_evento .cajaEstudio:hover .texto_referencia {
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(100%);
+  width: 100%;
+}
+
+#generacionURosario .content_inf section.memorias_evento .cajaEstudio:hover {
+  -webkit-box-shadow: 5px 8px 16px 1px #11051b;
+  -moz-box-shadow: 5px 8px 16px 1px #11051b;
+  box-shadow: 5px 6px 12px 1px #0f0c10d1;
+  filter: grayscale(1);
+}
+
+#generacionURosario .portafolio_posgrado {
+  padding: 4% 0% 0%;
+  overflow: hidden;
+}
+
+
+#generacionURosario .portafolio_posgrado h2 {
+  font-size: 4.5vw;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+#generacionURosario .grid figure.effect-julia {
+  -webkit-box-shadow: 1px 1px 6px 0px #0a456547;
+  -moz-box-shadow: 1px 1px 6px 0px #0a456547;
+  box-shadow: 1px 1px 6px 0px #0a456547;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+#generacionURosario .portafolio_posgrado h4 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.6em;
+}
+
+#generacionURosario .portafolio_posgrado .portafolio_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  padding: 0px 6%;
+}
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+#generacionURosario figure.effect-julia {
+  background: -webkit-linear-gradient(180deg, #a600e940 17%, #600382 96%);
+  background: -o-linear-gradient(180deg, #41065840 17%, #2d043c 96%);
+  background: -moz-linear-gradient(180deg, #41065840 17%, #2d043c 96%);
+  background: linear-gradient(180deg, #41065840 17%, #2d043c 96%);
+}
+
+#generacionURosario figure.effect-julia img {
+  max-width: none;
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, transform 1s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#generacionURosario figure.effect-julia figcaption {
+  text-align: left;
+  text-transform: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+#generacionURosario figure.effect-julia h2 {
+  position: relative;
+  padding: 0.5em 0;
+  font-size: 3.0vw;
+}
+
+#generacionURosario figure.effect-julia p {
+  display: inline-block;
+  margin: 0 0 0.25em;
+  padding: 0.1em 0.5em;
+  background: #A300E4;
+  color: #ffffff;
+  text-transform: none;
+  font-weight: 800;
+  font-size: 120%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-360px, 0, 0);
+  transform: translate3d(-420px, 0, 0);
+}
+
+#generacionURosario figure.effect-julia p:first-child {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+  display: inline-block;
+}
+
+#generacionURosario figure.effect-julia p:nth-of-type(2) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+#generacionURosario figure.effect-julia p:nth-of-type(3) {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+
+#generacionURosario .grid figure.effect-julia h2 span {
+  color: #c51bf5;
+  font-weight: 700;
+}
+
+#generacionURosario figure.effect-julia:hover p:first-child {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+#generacionURosario figure.effect-julia:hover p:nth-of-type(2) {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+#generacionURosario figure.effect-julia:hover p:nth-of-type(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+#generacionURosario figure.effect-julia:hover img {
+  opacity: 0.4;
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+#generacionURosario figure.effect-julia:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+#generacionURosario .portafolio_posgrado .video_promo2 {
+  position: relative;
+  padding: 3% 0px 0px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#generacionURosario .portafolio_posgrado .video_promo2:hover .texto_referencia {
+  opacity: 0;
+  transition: 1s;
+  transform: translate3d(0, 100%, 0);
+}
+
+#generacionURosario .portafolio_posgrado .video_promo2 .texto_referencia {
+  opacity: 1;
+  transition: 1s;
+  transform: translate3d(0, 0, 0);
+}
+
+#generacionURosario .portafolio_posgrado .video_promo2 .texto_referencia {
+  text-align: right;
+}
+
+#generacionURosario .portafolio_posgrado .video_promo2 .texto_referencia {
+  padding: 10px 20px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background: -webkit-linear-gradient(90deg, #a300e4db 0%, #3e0055f0 60%);
+  background: -o-linear-gradient(90deg, #a300e4db 0%, #3e0055f0 60%);
+  background: -moz-linear-gradient(90deg, #a300e4db 0%, #3e0055f0 60%);
+  background: linear-gradient(90deg, #a300e4db 0%, #3e0055f0 60%);
+}
+
+#generacionURosario .pie_pagina {
+  padding: 2% 0px 0px;
+}
+
+#generacionURosario .portafolio_posgrado .flex_content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+#generacionURosario .portafolio_posgrado .contet_nosvemos {
+  padding: 10%;
+}
+
+#generacionURosario .portafolio_posgrado .flex_content .img_icon {
+  padding: 20px;
+}
+
+#generacionURosario .portafolio_posgrado .flex_content .text_cont h4 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+#generacionURosario .portafolio_posgrado .flex_content .img_icon img {
+  max-width: 50px;
+}
+
+#generacionURosario .pie_pagina .personas_proposito h6 {
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: 300;
+}
+
+#generacionURosario .pie_pagina .personas_proposito h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+#generacionURosario .pie_pagina .personas_proposito h3::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  bottom: -24%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#generacionURosario .pie_pagina .personas_proposito h3 span img {
+  max-width: 178px;
+}
+
+
+#generacionURosario .content_inf section.memorias_evento .contet_Carousel .modal.show .modal-dialog {
+  padding-top: 18%;
+}
+
+#generacionURosario .content_inf section.memorias_evento .contet_Carousel .modal.show {
+  background: linear-gradient(135deg, rgba(25, 25, 56, 0.7) 0%, rgba(0, 0, 0, 0.76) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#191938', endColorstr='#000000', GradientType=1);
+}
+
+
+
+#generacionURosario .ocultarEscritorio.hidden-md.hidden-l6.col-md-12.movil {
+  display: none;
+}
+
+#generacionURosario .navbar-collapse.collapse .navbar-light .navbar-toggler {
+  display: none;
+}
+
+#generacionURosario .modal.show .modal-dialog {
+  max-width: 80%;
+  -webkit-box-shadow: 5px 4px 18px 1px #02184b;
+  -moz-box-shadow: 5px 4px 18px 1px #02184b;
+  box-shadow: 5px 4px 18px 1px #02184b;
+}
+
+#generacionURosario .descubre_programas .table_flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid #2641d7;
+}
+
+#generacionURosario .descubre_programas .table_flex .horarios {
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
+
+#generacionURosario .descubre_programas .table_flex .intruduccion {
+  width: 80%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(to bottom, #8722e0, #732fdf, #5e38dd, #473eda, #2842d6);
+}
+
+.modal-backdrop.show {
+  opacity: 0.9;
+}
+
+#generacionURosario .descubre_programas .modal-header h4 {
+  color: #1f44d4;
+  font-size: 1.7em;
+  font-weight: 800;
+  padding: 0px;
+}
+
+#generacionURosario .descubre_programas .modal-header button.close {
+  color: #2247d5;
+  font-size: 3.2em;
+  opacity: 0.8;
+}
+
+#generacionURosario .descubre_programas .modal-header h4 span {
+  font-weight: 200;
+  font-size: 0.9em;
+  color: #818181;
+}
+
+#generacionURosario .descubre_programas .emocionate,
+#generacionURosario .descubre_programas .arriesgate,
+#generacionURosario .descubre_programas .relajate,
+#generacionURosario .descubre_programas .inspirate,
+#generacionURosario .descubre_programas .diviertete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+#generacionURosario .descubre_programas .contenido_tabla button.btn.btn-link.collapsed {
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  font-size: 1.4em;
+  background: -webkit-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: -o-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: -moz-linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  background: linear-gradient(268deg, #8820df 0%, #1f44d4 80%);
+  border-radius: 10px 10px;
+  text-decoration: none;
+  position: relative;
+  transition: 0.2s;
+}
+
+#generacionURosario .descubre_programas .contenido_tabla button.btn.btn-link {
+  background: -webkit-linear-gradient(268deg, #1f44d4 0%, #8820df 80%);
+  background: -o-linear-gradient(268deg, #1f44d4 0%, #8820df 80%);
+  background: -moz-linear-gradient(268deg, #1f44d4 0%, #8820df 80%);
+  background: linear-gradient(268deg, #1f44d4 0%, #8820df 80%);
+  transition: 0.2s;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  font-size: 1.4em;
+  border-radius: 10px 10px;
+  text-decoration: none;
+  position: relative;
+  transition: 0.2s;
+}
+
+#generacionURosario .descubre_programas .contenido_tabla button.btn.btn-link::after {
+  background-repeat: no-repeat;
+  content: "";
+  background-image: url(/sites/default/files/2023-01/angles-down.png);
+  position: absolute;
+  width: 15px;
+  height: 22px;
+  bottom: 27px;
+  left: 0;
+  right: -40%;
+  margin: 0 auto;
+  background-size: contain;
+  transform: rotate(181deg);
+}
+
+#generacionURosario .descubre_programas .contenido_tabla button.btn.btn-link.collapsed::after {
+  transform: rotate(359deg);
+}
+
+#generacionURosario .descubre_programas .espacio_neutro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  background-color: #2641d7;
+  color: #ffffff;
+  width: 80%;
+  text-align: left;
+  flex-direction: column;
+}
+
+#generacionURosario .descubre_programas .contenido_tabla {
+  color: #2642D7;
+}
+
+#generacionURosario .descubre_programas .emocionate {
+  background-color: #B9FFDA;
+  color: #03B155;
+}
+
+#generacionURosario .descubre_programas .emocionate p {
+  color: #03B155;
+  margin-bottom: 0px;
+}
+
+#generacionURosario .descubre_programas .inspirate p {
+  color: #D19600;
+  margin-bottom: 0px;
+}
+
+#generacionURosario .descubre_programas .inspirate {
+  background-color: #FFF7E3;
+  color: #D19600;
+}
+
+#generacionURosario .descubre_programas .relajate {
+  background-color: #EDD9FF;
+  color: #8327D9;
+}
+
+#generacionURosario .descubre_programas .relajate p {
+  color: #8327D9;
+  margin-bottom: 0px;
+}
+
+#generacionURosario .descubre_programas .diviertete {
+  background-color: #c9d1ff;
+  color: #2642D7;
+}
+
+#generacionURosario .descubre_programas .diviertete p {
+  color: #2642D7;
+  margin-bottom: 0px;
+}
+
+#generacionURosario .descubre_programas .text_conoce {
+  padding: 20px;
+}
+
+#generacionURosario .descubre_programas .text_conoce p {
+  color: #070120;
+  font-size: 0.9em;
+}
+
+#generacionURosario .descubre_programas .table_flex .tiempos {
+  width: 30%;
+  text-align: left;
+  padding: 10px;
+}
+
+#generacionURosario .descubre_programas .table_flex .info {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
+#generacionURosario .descubre_programas .table_flex .intruduccion h4 {
+  font-size: 1.2em;
+}
+
+#generacionURosario .descubre_programas .card-body {
+  padding: 0px;
+}
+
+#generacionURosario section.descuebre_Carreras h5 {
+  text-align: center;
+  color: #c0c0c0;
+}
+
+#generacionURosario .descuebre_Carreras .grid {
+  position: relative;
+}
+
+/* Common style */
+#generacionURosario .descuebre_Carreras .grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  text-align: center;
+  cursor: initial;
+  min-height: 300px;
+}
+
+#generacionURosario .descuebre_Carreras .grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.2;
+}
+
+#generacionURosario .descuebre_Carreras .grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#generacionURosario .descuebre_Carreras .grid figure figcaption::before,
+#generacionURosario .descuebre_Carreras .grid figure figcaption::after {
+  pointer-events: none;
+}
+
+#generacionURosario .descuebre_Carreras .grid figure figcaption,
+#generacionURosario .descuebre_Carreras .grid figure figcaption>a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: inherit;
+}
+
+#generacionURosario .descuebre_Carreras .grid figure figcaption h4 {
+  font-size: 1.3vw;
+  text-align: center;
+  font-weight: 400;
+  text-transform: initial;
+  margin-bottom: 20px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#generacionURosario .descuebre_Carreras .grid figure figcaption h4 span {
+  font-weight: 300;
+}
+
+/*---------------*/
+/***** Dexter *****/
+/*---------------*/
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter {
+  background: -webkit-linear-gradient(top, rgb(12 3 46) 0%, rgb(68 43 166) 100%);
+  background: linear-gradient(to bottom, rgb(12 3 46) 0%, rgb(68 43 166) 100%);
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter img {
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  transform: scale(1.4);
+  transform-origin: top;
+}
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter:hover img {
+  opacity: 0.1;
+}
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter figcaption::after {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  height: -webkit-calc(50% - 30px);
+  height: calc(50% - 30px);
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -125%, 0);
+}
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter:hover figcaption::after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter figcaption {
+  padding: 0.9em 0.5em;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-direction: column;
+}
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter p {
+  right: 13px;
+  bottom: 13px;
+  left: 13px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, -100px, 0);
+  transform: translate3d(0, -100px, 0);
+  font-size: 60%;
+  color: #ffffff;
+  font-weight: 400;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  text-align: left;
+  padding: 0px 10px;
+  width: 100%;
+  text-transform: initial;
+}
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter p i {
+  display: block;
+  font-style: normal;
+  padding: 0px 10px;
+}
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter p i::before {
+  content: '';
+  background: #fff100;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 20px;
+  left: 6px;
+}
+
+#generacionURosario .descuebre_Carreras figure.effect-dexter:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  border-bottom: 2px solid #fff100;
+  padding-bottom: 15px;
+  text-transform: initial;
+}
+
+#generacionURosario .modal.carreras .modal-dialog .modal-header {
+  border-bottom: 1px solid #ffffff;
+}
+
+#generacionURosario .modal.carreras .modal-dialog h4 {
+  background-image: linear-gradient(to bottom, #8722e0, #732fdf, #5e38dd, #473eda, #2842d6);
+  color: #fff;
+  padding: 3% 11% 9% 2%;
+  border-radius: 20px 20px 100% 20px;
+}
+
+#generacionURosario .modal.carreras .modal-dialog h4 {
+  font-size: 3.0vw;
+}
+
+#generacionURosario .modal.carreras .modal-dialog h4 span {
+  display: block;
+  font-weight: 300;
+}
+
+#generacionURosario .modal.carreras .modal-dialog .modal-body h5 {
+  text-align: center;
+}
+
+#generacionURosario .modal.carreras .modal-dialog .modal-body ul {
+  padding-left: 15%;
+}
+
+#generacionURosario .modal.carreras .modal-dialog .modal-body ul li::marker {
+  color: #af04af;
+  font-size: 1.4em;
+}
+
+#generacionURosario .modal.carreras .modal-dialog .modal-body h6 {
+  text-align: center;
+  color: #8027df;
+  padding: 30px 20px;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(0.9);
+      opacity: 0.7;
+  }
+
+  50% {
+      transform: scale(1);
+      opacity: 1;
+  }
+
+  100% {
+      transform: scale(0.9);
+      opacity: 0.7;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+      -webkit-transform: scale(0.95);
+      opacity: 0.7;
+  }
+
+  50% {
+      -webkit-transform: scale(1);
+      opacity: 1;
+  }
+
+  100% {
+      -webkit-transform: scale(0.95);
+      opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  #generacionURosario .content {
+      padding: 0 10px;
+      text-align: center;
+  }
+
+  #generacionURosario .grid figure {
+      display: inline-block;
+      float: none;
+      margin: 10px auto;
+      width: 100%;
+  }
+}
+
+/*EFECTO ZOE*/
+
+
+@media screen and (min-width: 1920px) {}
+
+@media screen and (min-width: 1426px) {
+  #generacionURosario h3 {
+      font-size: 2.0vw;
+  }
+
+  #generacionURosario .descubre_programas .banner_programas .align-items-center h3 {
+      font-size: 3.0vw;
+  }
+
+  #generacionURosario #registrate .container {
+      max-width: 1300px;
+  }
+
+  #generacionURosario #recibe_beneficio .textos_abrimos i {
+      font-size: 1.7vw;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  #generacionURosario .descubre_programas .banner_programas .align-items-center a.agenda {
+      font-size: 1.5em;
+  }
+
+}
+
+@media screen and (max-width: 1680px) {
+  #generacionURosario .actividades .video {
+      max-height: 660px;
+  }
+
+  #generacionURosario .actividades .video iframe {
+      max-width: 308px;
+      padding-bottom: 21px;
+      padding-top: 34px;
+  }
+}
+
+
+@media screen and (max-width: 1440px) {
+  #generacionURosario .tus_propositos {
+      background-position: center;
+      min-height: 45vh;
+  }
+
+  #generacionURosario iframe{
+      width: 76%;
+      left: 10%;
+  }
+}
+
+
+@media screen and (max-width: 1390px) {
+  #generacionURosario .actividades .video {
+      max-height: 570px;
+  }
+
+  #generacionURosario .actividades .video iframe {
+      max-width: 254px;
+  }
+
+  #generacionURosario iframe{
+      width: 100%;
+      left: 0%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  #generacionURosario .TextPrincipal {
+      padding: 0px 10px;
+  }
+
+  #generacionURosario .descubre_programas .banner_programas .align-items-center h3 {
+      font-size: 2.0em;
+  }
+
+  #generacionURosario h2 {
+      font-size: 1.6em;
+  }
+
+  #generacionURosario .TextPrincipal p {
+      font-size: 1.0em;
+  }
+
+  #generacionURosario figure.effect-zoe p.description {
+      font-size: 60%;
+  }
+
+  #generacionURosario figure.effect-zoe figcaption {
+      padding: 1em 0.5em;
+  }
+
+  #generacionURosario figure.effect-zoe h2 {
+      bottom: 143%;
+  }
+
+  #generacionURosario .navbar_V4 a {
+      font-size: 0.8em;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .texto_referencia h5 {
+      font-size: 1.0em;
+  }
+
+  #generacionURosario .descuebre_Carreras figure.effect-dexter p {
+      font-size: 45%;
+  }
+
+  #generacionURosario .descuebre_Carreras .grid figure img {
+      transform: scale(1.6);
+  }
+
+  #generacionURosario .actividades .video {
+      max-height: 480px;
+  }
+
+  #generacionURosario .actividades .video iframe {
+      max-width: 220px;
+  }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  #generacionURosario .descubre_programas {
+      padding: 8% 3% 1%;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .texto_referencia p {
+      font-size: 0.8em;
+  }
+
+  #generacionURosario .modal.show .modal-dialog {
+      max-width: 90%;
+  }
+
+  #generacionURosario .descubre_programas .banner_programas .align-items-center a.agenda {
+      border: 8px double #ffffff;
+      font-size: 1.2em;
+  }
+
+  #generacionURosario .actividades .video iframe {
+      max-width: 217px;
+  }
+
+  #generacionURosario .actividades .video {
+      max-height: 430px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  #generacionURosario .grid figure {
+      margin: 20px 0px;
+  }
+
+  #generacionURosario .actividades::before {
+      left: -35%;
+  }
+
+  #generacionURosario .actividades::after {
+      right: -33%;
+  }
+
+  #generacionURosario .tus_propositos {
+      padding: 0px 3%;
+  }
+
+  #generacionURosario .TextPrincipal {
+      padding: 20px 0px;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .content_box .circle_flex {
+      width: auto;
+      padding: 20px 20px 20px 20px;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .content_box .circle_flex h5 samp {
+      font-size: 2.5vw;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .content_box .circle_flex i {
+      font-size: 1.8vw;
+  }
+
+  #generacionURosario figure.effect-zoe h2 {
+      bottom: 221%;
+      font-size: 4.0vw;
+  }
+
+  #generacionURosario figure.effect-zoe p.description {
+      font-size: 80%;
+  }
+
+  #generacionURosario .actividades p {
+      font-size: 1.1em;
+  }
+
+  #generacionURosario .contenidoProgramas figcaption h4.description {
+      font-size: 1.9vw;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .texto_referencia h5 {
+      font-size: 1.3em;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .texto_referencia p {
+      font-size: 1.0em;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .texto_referencia {
+      padding: 5px 5px;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .controlesSlideespacios_transformacion {
+      position: absolute;
+      left: 39%;
+      bottom: 2%;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .contet_Carousel .row.md_right {
+      justify-content: right;
+  }
+
+  #generacionURosario h3 {
+      font-size: 2.0em;
+  }
+
+  #generacionURosario .descubre_programas figure.posgrados_banner figcaption img {
+      max-width: 320px;
+  }
+
+  #generacionURosario .portafolio_posgrado h4 {
+      font-size: 1.3em;
+  }
+
+  #generacionURosario .pie_pagina .personas_proposito h3 {
+      line-height: 3.5vh;
+  }
+
+  #generacionURosario .pie_pagina .personas_proposito h6 {
+      font-size: 1.1em;
+  }
+
+  #generacionURosario figure.effect-julia p {
+      font-size: 105%;
+  }
+
+  #generacionURosario .pie_pagina .personas_proposito h3 span img {
+      max-width: 138px;
+  }
+
+  #generacionURosario .actividades {
+      padding: 40px 20px 13%;
+      overflow: hidden;
+  }
+
+  #generacionURosario .ocultarEscritorio.hidden-md.hidden-l6.col-md-12.movil {
+      display: block;
+  }
+
+  #generacionURosario .ocultarMoviles.hidden-sm.hidden-xs.col-md-12.col-lg-10 {
+      display: none;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .ocultarEscritorio.hidden-md.hidden-l6.col-md-12.movil {
+      float: right;
+      padding: 50px 0px 2%;
+  }
+
+  #generacionURosario .navbar_V4 {
+      top: 7%;
+  }
+
+  #generacionURosario .navbar_V4 a {
+      width: 100%;
+  }
+
+  #generacionURosario .navbar_V4 .navbar-nav a.nav-item.desplazar br {
+      display: none;
+  }
+
+  #generacionURosario .modal.show .modal-dialog {
+      max-width: 100%;
+  }
+
+  #generacionURosario .descubre_programas {
+      padding: 21% 3% 1%;
+  }
+
+  #generacionURosario .portafolio_posgrado .flex_content .text_cont h4 {
+      font-size: 1.1rem;
+  }
+
+  #generacionURosario .portafolio_posgrado .contet_nosvemos {
+      padding: 0px 10% 40px 0px;
+  }
+
+  #generacionURosario .descubre_programas .table_flex .info h3 {
+      font-size: 2.6vw;
+  }
+
+  #generacionURosario .descuebre_Carreras .grid figure figcaption h4 {
+      font-size: 1.8vw;
+  }
+
+  #generacionURosario .descuebre_Carreras figure.effect-dexter p {
+      font-size: 60%;
+  }
+
+
+}
+
+@media screen and (max-width: 830px) {
+  #generacionURosario .actividades .video {
+      max-height: 410px;
+  }
+
+  #generacionURosario .actividades .video iframe {
+      max-width: 181px;
+  }
+
+  #generacionURosario .actividades .flex_content .text_cont h4 {
+      font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  #generacionURosario .content_inf section.memorias_evento {
+      padding-bottom: 20%;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .controlesSlideespacios_transformacion {
+      position: absolute;
+      left: 3%;
+      bottom: -9%;
+  }
+
+  #generacionURosario .contenidoProgramas figcaption h4.description {
+      font-size: 3.5vw;
+  }
+
+  #generacionURosario .pie_pagina .personas_proposito h3 {
+      text-align: center;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .video_promo {
+      padding: 0px 0px;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .texto_referencia {
+      width: 100%;
+  }
+
+  #generacionURosario .portafolio_posgrado h2 {
+      font-size: 7.5vw;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento h2 {
+      font-size: 7.5vw;
+  }
+
+  #generacionURosario .actividades::before {
+      display: none;
+  }
+
+  #generacionURosario .actividades::after {
+      right: -60%;
+  }
+
+  #generacionURosario .portafolio_posgrado .row.reverse {
+      display: flex;
+      flex-direction: column-reverse;
+  }
+
+  #generacionURosario .portafolio_posgrado .contet_nosvemos {
+      padding: 5%;
+  }
+
+  #generacionURosario .descubre_programas .banner_programas .align-items-center a.agenda {
+      border: 7px double #ffffff;
+      font-size: 1.3em;
+  }
+
+  #generacionURosario .descubre_programas .table_flex .intruduccion {
+      flex-wrap: wrap;
+  }
+
+  #generacionURosario .descubre_programas .table_flex .info h3 {
+      font-size: 4.6vw;
+  }
+
+  #generacionURosario .descubre_programas .espacio_neutro h2 img {
+      display: block;
+      margin: 0 auto;
+  }
+
+  #generacionURosario .descubre_programas .espacio_neutro h2 {
+      text-align: center;
+  }
+
+  #generacionURosario h6.event {
+      font-size: 1.1em;
+  }
+
+  #generacionURosario .modal.carreras .modal-dialog h4 {
+      font-size: 5.0vw;
+      padding: 4% 14% 9% 5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  #generacionURosario figure.effect-julia h2 {
+      font-size: 6.0vw;
+  }
+
+  .porquemovil .left {
+      text-align: inherit;
+      padding-bottom: 17px;
+  }
+
+  .carousel-inner .carousel-item .col-xs-12.col-sm-12.col-md-12 {
+      padding: 0px;
+  }
+
+  #generacionURosario .navbar_V4 .navbar-light .navbar-toggler {
+      display: block !important;
+  }
+
+  #generacionURosario #recibe_beneficio .textos_abrimos i span {
+      font-size: 1.4em;
+  }
+
+  #generacionURosario .actividades {
+      padding: 40px 20px 22%;
+  }
+
+  #generacionURosario .descubre_programas {
+      padding: 30% 3% 1%;
+  }
+
+  #generacionURosario .descuebre_Carreras .grid figure figcaption h4 {
+      font-size: 3.5vw;
+  }
+
+  #generacionURosario .descuebre_Carreras figure.effect-dexter p {
+      font-size: 70%;
+  }
+
+  #generacionURosario .descuebre_Carreras .grid figure img {
+      transform: scale(1.5);
+  }
+
+  #generacionURosario .actividades .video {
+      max-height: 420px;
+  }
+
+  #generacionURosario .actividades .video iframe {
+      max-width: 200px;
+      padding-bottom: 23px;
+      padding-top: 16px;
+  }
+
+  #generacionURosario .actividades .flex_content {
+      flex: inherit;
+      flex-direction: unset;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  #generacionURosario .actividades .flex_content .text_cont {
+      text-align: center;
+  }
+
+  #generacionURosario .descubre_programas .contenido_tabla .emocionate,
+  #generacionURosario .descubre_programas .contenido_tabla .arriesgate,
+  #generacionURosario .descubre_programas .contenido_tabla .relajate,
+  #generacionURosario .descubre_programas .contenido_tabla .inspirate,
+  #generacionURosario .descubre_programas .contenido_tabla .diviertete {
+      min-height: 280px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #generacionURosario .descubre_programas .table_flex .horarios {
+      width: 30%;
+  }
+
+  #generacionURosario .descubre_programas .table_flex .intruduccion {
+      width: 80%;
+  }
+
+  #generacionURosario .descubre_programas .card-body .table_flex {
+      flex-wrap: wrap;
+  }
+
+  #generacionURosario .descubre_programas .card-body .horarios {
+      width: 100%;
+      text-align: left;
+  }
+
+  #generacionURosario .descubre_programas .card-body .horarios {
+      width: 100%;
+      text-align: left;
+      padding-left: 15%;
+  }
+
+  #generacionURosario .descubre_programas .card-body .table_flex .intruduccion {
+      width: 100%;
+  }
+
+  #generacionURosario .descubre_programas .contenido_tabla button.btn.btn-link {
+      font-size: 1.3em;
+  }
+
+  #generacionURosario .descubre_programas .contenido_tabla button.btn.btn-link::after {
+      bottom: -4px;
+      left: 0;
+      right: 0%;
+  }
+
+  #generacionURosario #recibe_beneficio {
+      padding: 0px 8%;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #generacionURosario .descubre_programas .banner_programas .col-md-4 {
+      max-width: 100%;
+      flex: 0 0 100%;
+  }
+
+  #generacionURosario .descubre_programas .banner_programas .col-md-8 {
+      max-width: 100%;
+      flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  #generacionURosario .content_inf section.memorias_evento .content_box .circle_flex {
+      width: 100%;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .content_box {
+      flex-wrap: wrap;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .content_box .circle_flex h5 samp {
+      font-size: 5.5vw;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .content_box .circle_flex i {
+      font-size: 2.5vw;
+  }
+
+  #generacionURosario .pie_pagina .personas_proposito h3 {
+      line-height: 3.5vh;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .content_box .circle_flex:before {
+      width: 23%;
+      height: 65%;
+      left: 38%;
+      right: 25%;
+  }
+
+  #generacionURosario .content_inf section.memorias_evento .content_box .circle_flex:after {
+      width: 6%;
+      height: 20%;
+      z-index: -1;
+      right: 37%;
+      top: 33%;
+  }
+
+  #generacionURosario h3 {
+      font-size: 1.8em;
+  }
+
+
+  #generacionURosario .descubre_programas figure.posgrados_banner figcaption img {
+      max-width: 260px;
+  }
+
+  #generacionURosario .imgPrincipal {
+      text-align: center;
+      padding: 0px;
+      padding-top: 15%;
+  }
+
+  #generacionURosario .portafolio_posgrado .flex_content.aplic {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  #generacionURosario .portafolio_posgrado .flex_content.aplic .img_icon {
+      text-align: center
+  }
+
+  #generacionURosario .portafolio_posgrado .flex_content.aplic .text_cont {
+      text-align: center
+  }
+
+  #generacionURosario .portafolio_posgrado .flex_content .img_icon {
+      padding: 20px;
+      width: 100%;
+      text-align: right;
+  }
+
+  #generacionURosario .portafolio_posgrado .flex_content .text_cont {
+      width: 100%;
+      text-align: left;
+  }
+
+  #generacionURosario .actividades .content_flex .img_iconex {
+      width: 10%;
+  }
+
+  #generacionURosario .actividades .content_flex .textos_abrimos {
+      width: 80%;
+  }
+
+  #generacionURosario .actividades .flex_content {
+      flex-wrap: wrap;
+  }
+
+  #generacionURosario .actividades .flex_content .text_cont {
+      text-align: center;
+  }
+
+  #generacionURosario .imglogo img {
+      max-width: 220px;
+  }
+
+  #generacionURosario .tus_propositos {
+      padding: 0px 3%;
+      background-position-x: 80%;
+      min-height: 35vh;
+  }
+
+  #generacionURosario .descubre_programas {
+      padding: 28% 3% 1%;
+  }
+
+  #generacionURosario #recibe_beneficio .textos_abrimos i {
+      font-size: 1.2em;
+      ;
+  }
+
+  #generacionURosario .actividades {
+      padding: 40px 20px 25%;
+  }
+
+  #generacionURosario #recibe_beneficio {
+      padding: 0px 5%;
+  }
+
+  #generacionURosario .modal.carreras .modal-dialog h4 {
+      font-size: 6.0vw;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  #generacionURosario .actividades .content_flex .img_iconex {
+      width: 15%;
+  }
+
+  #generacionURosario .actividades .content_flex .textos_abrimos {
+      width: 70%;
+  }
+
+  #generacionURosario .descubre_programas::before {
+      display: none;
+  }
+
+  #generacionURosario .descubre_programas .banner_programas .align-items-center a.agenda {
+      border: 5px double #ffffff;
+      font-size: 1.1em;
+      display: block;
+  }
+
+  #generacionURosario .descubre_programas .contenido_tabla button.btn.btn-link {
+      font-size: 1.0em;
+  }
+
+  #generacionURosario .descubre_programas .contenido_tabla button.btn.btn-link.collapsed {
+      font-size: 1.0em;
+  }
+
+  #generacionURosario .descubre_programas .table_flex {
+      flex-wrap: wrap;
+  }
+
+  #generacionURosario .descubre_programas .table_flex .horarios {
+      width: 100%;
+  }
+
+  #generacionURosario .descubre_programas .espacio_neutro {
+      width: 100%;
+  }
+
+  #generacionURosario .descubre_programas .table_flex .intruduccion {
+      width: 100%;
+  }
+
+  #generacionURosario .descubre_programas .table_flex .info h3 {
+      font-size: 5.6vw;
+  }
+
+  #generacionURosario #recibe_beneficio .textos_abrimos i {
+      font-size: 1.1em;
+      line-height: 25px;
+  }
+
+  #generacionURosario .actividades {
+      padding: 40px 20px 40%;
+  }
+
+  #generacionURosario .descubre_programas {
+      padding: 40% 3% 1%;
+  }
+
+  #generacionURosario .actividades .celular_video {
+      background-image: inherit;
+      padding: 0px;
+  }
+
+  #generacionURosario .actividades .video {
+      max-height: 480px;
+      padding: 0px 0px;
+  }
+
+  #generacionURosario .actividades .video iframe {
+      padding-bottom: 0px;
+      padding-top: 0px;
+      width: 100%;
+      max-width: 100%;
+      height: 480px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  #generacionURosario .descubre_programas .emocionate,
+  #generacionURosario .descubre_programas .arriesgate,
+  #generacionURosario .descubre_programas .relajate,
+  #generacionURosario .descubre_programas .inspirate,
+  #generacionURosario .descubre_programas .diviertete {
+      flex-wrap: wrap;
+  }
+
+  #generacionURosario .descubre_programas .table_flex .info {
+      width: 100%;
+  }
+
+  #generacionURosario .descubre_programas .table_flex .tiempos {
+      width: 100%;
+  }
+
+  #generacionURosario .descuebre_Carreras figure.effect-dexter p {
+      font-size: 50%;
+  }
+
+  #generacionURosario .descuebre_Carreras .grid figure figcaption h4 {
+      font-size: 3.8vw;
+  }
+
+}

@@ -1,0 +1,55 @@
+/*.landingExposicionesMultimedia-content{    
+    background: #f7f7f7;
+    padding: 3% 0;  
+  }
+  
+.landingExposicionesMultimedia .titulo-galeria-exposicion {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: #af7f4e;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.landingExposicionesMultimedia .seccion-redes-home {
+    background-color: #FFF;
+    text-align: center;
+    padding: 5% 0;
+}
+ .landingExposicionesMultimedia .intro-galeria-exposicion{
+    padding: 40px;
+  }
+  
+  .landingExposicionesMultimedia .altoContImgTarjetaGaleria  img {
+    border: 2px solid #fff;
+  }*/
+  
+  
+/**/
+.pl-4 {
+  padding-left: 1rem !important;
+}
+
+.pr-4 {
+  padding-right: 1rem !important;
+}
+
+.pl-2 {
+  padding-left: 0.5rem !important;
+}
+
+.pr-2 {
+  padding-right: 0.5rem !important;
+}
+
+.list-none	{
+  list-style-type: none !important;
+}
+
+.check-list li:before {
+    color: var(--main-page-color);
+    margin-right: 8px;
+    font-size: 11px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+}
+

@@ -1,0 +1,880 @@
+/*la facultad */
+.contacto h3 {
+  font-size: 1.5em !important;
+}
+
+#Facultad-Jusrisprudencia-V4 section.navegacion-tabs .resp-tab-content hr {
+  width: 18%;
+  margin: 20px 0px 20px -0%;
+}
+
+.contacto img {
+  margin-bottom: 20px;
+}
+
+.container.egresados2 {
+  padding: 3% !important;
+  /* display: table; */
+}
+
+a.boton_personalizado {
+  background: #27999a;
+  color: #fff;
+  padding: 5px 20px;
+  margin-top: 30px !important;
+  display: table;
+  color: #fff !important;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: solid;
+}
+
+a.boton_personalizado:hover {
+  background: #fff;
+  color: #3aa9a9 !important;
+  border: solid;
+}
+
+.contacto img {
+  border: solid 2px #fff;
+  padding: 11px;
+}
+#Facultad-Jusrisprudencia-V4 .accesos.conciliatura .personaje {
+  width: 19%;
+  margin-right: 10px;
+}
+
+
+#Facultad-Jusrisprudencia-V4 .modal-body img {
+  width: 100%;
+}
+
+#Facultad-Jusrisprudencia-V4 .JuriSeReacredita .desc {
+  margin-top: 40px;
+}
+
+#Facultad-Jusrisprudencia-V4 .modal-dialog.modal-lg {
+  background: #fff;
+}
+
+#Facultad-Jusrisprudencia-V4 .modal-content {
+  border: none;
+}
+#Facultad-Jusrisprudencia-V4 .personaje i {
+  font-size: 1.5em;
+  padding: 14% 21%;
+  color: #299998;
+  margin-right: 20px;
+  text-shadow: none;
+  border: solid 2px;
+  border-radius: 100%;
+  margin-bottom: 48px;
+}
+
+.cajaCaracteristicas {
+  background: #2C2F79;
+  text-align: center;
+  padding: 3% 3%;
+  margin-bottom: 10px;
+  min-height: 90px;
+  color: #fff;
+  line-height: 17px;
+  font-size: .9em;
+  margin-bottom: 10px;
+  /* cursor: pointer; */
+}
+
+.cajaCaracteristicas .dos {
+  background: #201c46;
+}
+
+a.link-boton {
+  border: solid 2px #289998;
+  padding: 3px 20px;
+  margin-top: 10px !important;
+  display: table;
+  color: #289998 !important;
+  font-size: 1.1em;
+}
+
+a.link-boton:hover {
+  background: #289998;
+  color: #fff !important;
+}
+
+#Facultad-Jusrisprudencia-V4 ul.resp-tabs-list i {
+  display: table;
+  /* margin: 0 auto; */
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #289998;
+  float: left;
+  margin-right: 10px;
+}
+
+#Facultad-Jusrisprudencia-V4 .foto {
+  padding: 11px;
+  border: solid #fff 2px;
+  margin-bottom: 20px;
+}
+
+#Facultad-Jusrisprudencia-V4 .foto img {
+  opacity: .9 !important;
+  width: 100%;
+}
+
+#Facultad-Jusrisprudencia-V4 .resp-tab-active i {
+  color: #fff !important;
+}
+
+#Facultad-Jusrisprudencia-V4  .titulo-tabs {
+  display: table;
+}
+
+#Facultad-Jusrisprudencia-V4 .fundacion b {
+  font-size: .8em;
+  color: #212529;
+}
+#Facultad-Jusrisprudencia-V4 .row {
+  margin-right: 0px; 
+margin-left: 0px; 
+}
+#Facultad-Jusrisprudencia-V4 .principal .row {
+margin-right: 0px!important;
+}
+#Facultad-Jusrisprudencia-V4 .mas-info {
+  display: table;
+  color: #da0820;
+  border: solid 2px;
+  padding: 4px 10px;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  transition: .5s;
+  width: 30%;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+#Facultad-Jusrisprudencia-V4 .mas-info:hover {
+  transition: .3s;
+  background: #da0921;
+  color: #fff;
+}
+#Facultad-Jusrisprudencia-V4 .principal {
+  background: url(/PortalUrosario/media/UR-V4/Facultad-de-jurisprudencia/img/principal.jpg)no-repeat;
+  background-size: 100%;
+  min-height: 350px;
+  filter: grayscale(.6);
+}
+#Facultad-Jusrisprudencia-V4 .titulo {
+  float: right;
+  display: table;
+  /* width: 100%; */
+  margin-top: 0;
+  padding: 0;
+  top: 19%;
+  font-size: 1.2em;
+  right: 150px;
+  position: absolute;
+}
+.nuestra {
+  float: right;
+  margin: 0;
+  margin-bottom: -40px;
+}
+#Facultad-Jusrisprudencia-V4 .titulo h3 {
+  color: #fff;
+  text-align: right;
+  font-size: 4em;
+  font-weight: 800;
+  text-shadow: 2px 2px 8px #131313;
+  text-transform: uppercase;
+}
+#Facultad-Jusrisprudencia-V4 .titulo {
+  float: right;
+  display: table;
+  /* width: 100%; */
+  margin-top: 0;
+  padding: 0;
+  top: 6%;
+  font-size: 1.2em;
+  right: 150px;
+}
+
+#Facultad-Jusrisprudencia-V4 h4.title_sec {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+#Facultad-Jusrisprudencia-V4 section.navegacion-tabs {
+  margin-top: 0;
+}
+#Facultad-Jusrisprudencia-V4 section.navegacion-tabs {
+  padding: 0 0 3%;
+}
+#Facultad-Jusrisprudencia-V4 {
+   background: linear-gradient(180deg, rgb(234, 234, 241) 0%, rgb(231, 231, 245) 35%, rgba(255,255,255,1) 100%);
+}
+#Facultad-Jusrisprudencia-V4
+.resp-tab-active img {
+  filter: brightness(16.5);
+}
+#Facultad-Jusrisprudencia-V4 .resp-tabs-list li img{
+/* min-height: 20px; */
+/* float: left; */
+/* margin-left: 10px; */
+margin-right: 8px;
+width: 35px;
+display: table;
+margin: 0 auto;
+}
+#Facultad-Jusrisprudencia-V4 li.tab5.resp-tab-item p {
+  margin-top: 5px;
+}
+#Facultad-Jusrisprudencia-V4  h3 {
+  font-size: 2em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+#Facultad-Jusrisprudencia-V4  p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+#Facultad-Jusrisprudencia-V4 .desc .parrafo {
+  padding: 3%;
+}
+#Facultad-Jusrisprudencia-V4 hr.linea {
+  display: table;
+  width: 150px;
+  float: left;
+  border: solid 2px #289999;
+  position: relative;
+  left: 0px;
+  /* margin-bottom: 0; */
+  /* font-weight: 900; */
+  /* margin-top: 5px; */
+  margin: initial;
+}
+#Facultad-Jusrisprudencia-V4  .container-box {
+  margin-top: 0;
+}
+#Facultad-Jusrisprudencia-V4 .desc {
+  display: table;
+  width: 100%;
+}
+#Facultad-Jusrisprudencia-V4 .sinEspacio{
+ padding: 0;
+}
+#Facultad-Jusrisprudencia-V4 .desc .foto {
+  border: solid 2px #fff;
+  padding: 12px;
+  margin-top: 30px;
+}
+#Facultad-Jusrisprudencia-V4 .desc .foto img {
+  width: 100%;
+}
+#Facultad-Jusrisprudencia-V4 .fundacion {
+  background: transparent;
+}
+#Facultad-Jusrisprudencia-V4 .fundacion {
+  margin-top: 30px;
+}
+#Facultad-Jusrisprudencia-V4 h2 {
+  color: #27999a;
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* text-shadow: 0px 0px 5px #212121; */
+}
+#Facultad-Jusrisprudencia-V4 .bordeCol {
+  border-right: solid 2px #ddd;
+  padding: 1% 2% 1% 0%;
+}
+#Facultad-Jusrisprudencia-V4 .Espacio {
+  padding: 1% 3% 1%;
+}
+#Facultad-Jusrisprudencia-V4 .accesos .mas-info {
+  display: table;
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+  color: #fff;
+  border: solid 2px;
+  padding: 4px 10px;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  opacity: 0;
+  transition: .5s;
+  width: 30%;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.38);
+  cursor: pointer;
+}
+#Facultad-Jusrisprudencia-V4 .accesos .mas-info:hover {
+  background: #fff;
+  transition: .3s;
+  color: #c72c2d;
+  border-color: #fff;
+}
+#Facultad-Jusrisprudencia-V4 .cajaAcceso:hover .mas-info {
+  bottom: 50px;
+  opacity: 1;
+  transition: .5s;
+}
+#Facultad-Jusrisprudencia-V4  .cajaAcceso {
+  background: linear-gradient(rgba(218, 8, 32, 0.84),rgba(218, 8, 32, 0.88)),url(/PortalUrosario/media/UR-V4/Universidad-del-Rosario-V4/La-Universidad/img/simbolos-2.jpg) no-repeat;
+  padding: 4%;
+  min-height: 300px;
+  background-size: cover;
+}
+#Facultad-Jusrisprudencia-V4 .cajaAcceso.morado {
+  background: linear-gradient(to bottom,rgb(34, 31, 76),rgb(34, 31, 76), rgb(43, 45, 116));
+  /* margin-bottom: 30px; */
+}
+#Facultad-Jusrisprudencia-V4 .accesos {
+  margin-top: 0;
+}
+#Facultad-Jusrisprudencia-V4 .cajaAcceso:hover .areaPenal {
+  background: #ddd;
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: .2;
+}
+#Facultad-Jusrisprudencia-V4 .C-areaPenal {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 3px #00000054;
+  cursor: pointer;
+  padding: 6% 10% 0%;
+  /* margin-bottom: 30px !important; */
+}
+#Facultad-Jusrisprudencia-V4 section.PrePos h3 {
+  color: #fff;
+  font-size: 4em;
+  font-weight: 800;
+  padding-top: 50%;
+  text-transform: uppercase;
+}
+#Facultad-Jusrisprudencia-V4 .desc.enfoque h4{
+  font-size: 1.8em;
+  color: #279998;
+}
+#Facultad-Jusrisprudencia-V4 .nota {
+  background: #fff;
+  padding: 1.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+#Facultad-Jusrisprudencia-V4  .acordeones {
+  width: 100%;
+  border: none;
+}
+#Facultad-Jusrisprudencia-V4 .card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: initial;
+  background-clip: initial;
+  border: transparent;
+  border-radius: 0;
+}
+#Facultad-Jusrisprudencia-V4 .card-header {
+  padding: 0;
+  margin-bottom: 0;
+  background-color: initial;
+  border-bottom: initial;
+}
+#accordion .card {
+  margin-bottom: 20px;
+}
+#accordion a {
+  color: #299998;
+  font-size: 1.1em;
+}
+
+a.card-link {
+  color: #299998 !important;
+}
+#accordion .card-header {
+  background: #fff !important;
+  padding: 10px !important;
+  /* color: #299998 !important; */
+  border-left: solid 5px #299998;
+  border-radius: 0 !important;
+}
+#Facultad-Jusrisprudencia-V4 .acordeones a {
+  color: #131313;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+#Facultad-Jusrisprudencia-V4 .acordeones i {
+  color: #c72a2c;
+  font-size: .7em;
+}
+#Facultad-Jusrisprudencia-V4 .card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 5px 15px 5px;
+  font-size: 1em;
+  font-weight: 300;
+}
+#Facultad-Jusrisprudencia-V4 .vision {
+  display: table;
+  background: #ffffff;
+  padding: 1.5% 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid 1px #dedee7;
+}
+#Facultad-Jusrisprudencia-V4 .accesos {
+  width: 100%;
+  padding: 2% 0% 1%;
+}
+.desc.enfoque .cajaAcceso h3 {
+  color: #fff !important;
+}
+#Facultad-Jusrisprudencia-V4 .desc.enfoque .accesos {
+  margin-top: 0px !important;
+}
+#Facultad-Jusrisprudencia-V4 .div-Enfoque .accesos h3 {
+  margin-top: 10%;
+font-size: 1.8em;
+}
+#Facultad-Jusrisprudencia-V4 .div-Enfoque .cajaAcceso:hover .mas-info {
+  bottom: 80px !important;
+}
+#Facultad-Jusrisprudencia-V4 .documentos {
+  padding: 0 0% 3%;
+  display: table;
+  width: 100%;
+}
+#Facultad-Jusrisprudencia-V4 .mascara {
+  background: linear-gradient(to right,rgb(46, 49, 128), rgb(27, 20, 45));
+}
+#Facultad-Jusrisprudencia-V4 .mascara h4 {
+  position: absolute;
+  color: #fff !important;
+  padding: 5%;
+  border-left: solid 11px #da0921;
+  bottom: 12px;
+  font-size: 1.3em;
+  line-height: 25px;
+}
+#Facultad-Jusrisprudencia-V4 .cajaExperiencia {
+  min-height: auto;
+  background: linear-gradient(to right,rgb(46, 49, 128), rgb(27, 20, 45));
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#Facultad-Jusrisprudencia-V4 .cajaExperiencia img {
+  width: 100%;
+  min-height: auto;
+}
+#Facultad-Jusrisprudencia-V4  .cajaExperiencia:hover {
+  opacity: 0.1;
+  transition: .3s;
+}
+#Facultad-Jusrisprudencia-V4 .itemExperiencia {
+  display: table;
+  width: 100%;
+}
+#Facultad-Jusrisprudencia-V4 .cajaEstructura {
+  background: #ffffff;
+  padding: 6%;
+  min-height: 305px;
+}
+#Facultad-Jusrisprudencia-V4 .cajaEstructura.dos {
+  background: #DADAE5;
+}
+#Facultad-Jusrisprudencia-V4  .estructura-informes {
+  width: 100%;
+}
+#Facultad-Jusrisprudencia-V4 .estructura-informes {
+  width: 100%;
+}
+#Facultad-Jusrisprudencia-V4  .cajaEstructura h3 {
+  text-align: center;
+}
+#Facultad-Jusrisprudencia-V4 .cajaEstructura .mas-info {
+  display: table;
+  color: #da0820;
+  border: solid 2px;
+  padding: 4px 10px;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  transition: .5s;
+  width: 30%;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+#Facultad-Jusrisprudencia-V4 .cajaEstructura .mas-info:hover{
+transition: .3s;
+background: #da0921;
+color: #fff;
+}
+#Facultad-Jusrisprudencia-V4 .cajaEstructura li {
+  font-size: 1.2em;
+  font-weight: 300;
+  list-style: none;
+}
+#Facultad-Jusrisprudencia-V4 .cajaEstructura li:before {
+  color: #da0820;
+  margin-right: 8px;
+  font-size: 15px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f054";
+}
+#Facultad-Jusrisprudencia-V4 .cajaEstructura ul {
+  margin-left: 50px;
+}
+#Facultad-Jusrisprudencia-V4 .estructura-informes a {
+  color: #131313;
+}
+#Facultad-Jusrisprudencia-V4 .estructura-informes a:hover{
+  color: #da0921;
+  transition: .2s;
+  text-decoration: none;
+}
+#Facultad-Jusrisprudencia-V4 .acreditacion {
+  background: #da0921;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  font-size: 3em;
+  color: #fff !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+#Facultad-Jusrisprudencia-V4 .proyectosTransversales {
+  padding: 4% 0% 2%;
+  display: table;
+  width: 100%;
+}
+#Facultad-Jusrisprudencia-V4 .proyectosTransversales .mascara.largo h4 {
+  font-size: 1.3em !important;
+}
+#Facultad-Jusrisprudencia-V4 a {
+transition: .2s;
+text-decoration: none;
+}
+#Facultad-Jusrisprudencia-V4 .conciliatura .desc .parrafo {
+  padding: 3% 3%;
+}
+#Facultad-Jusrisprudencia-V4  .personaje {
+  float: left;
+}
+#Facultad-Jusrisprudencia-V4  .personaje img {
+  border-radius:100%;
+  margin-right: 20px;
+}
+#Facultad-Jusrisprudencia-V4  .accesos.conciliatura .cajaAcceso.morado {
+  background: #fff !important;
+  border: solid 1px #dadae5;
+}
+#Facultad-Jusrisprudencia-V4  .accesos.conciliatura .cajaAcceso {
+  background: rgb(255, 255, 255) !important;
+  margin-bottom: 30px;
+  min-height: 130px;
+  border: solid 1px #fff;
+}
+#Facultad-Jusrisprudencia-V4  .accesos.conciliatura .C-areaPenal.blue h3 {
+  font-size: .9em !important;
+  padding: 0 !important;
+  color: #1f1f1f;
+  text-shadow: none !important;
+  margin-top: 6px;
+  text-align: left;
+}
+#Facultad-Jusrisprudencia-V4 .accesos.conciliatura .C-areaPenal.blue p {
+  color: #131313;
+  text-shadow: none;
+  text-align: left;
+  font-size: .7em !important;
+}
+#Facultad-Jusrisprudencia-V4 .mas-info2 {
+  color: #da0921;
+  border: solid 2px #da0921;
+  display: table;
+  padding: 5px 10px;
+  margin-top: 10px;
+  box-shadow: none;
+  text-shadow: none;
+}
+#Facultad-Jusrisprudencia-V4 .mas-info2:hover {
+  background: #da0921;
+ color: #fff;
+transform: .3s;
+}
+
+#Facultad-Jusrisprudencia-V4 button.btn.btn-danger{
+  padding: 2px 20px;
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  border: solid 2px;
+  border-radius: 0;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin: 0 auto;
+  display: table;
+  background: #01ada8;
+  margin-bottom: 20px;
+}
+#Facultad-Jusrisprudencia-V4 h4.modal-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333333;
+}
+#Facultad-Jusrisprudencia-V4 .modal-content p {
+  font-size: 1.1em !important;
+  padding: 2%;
+}
+#Facultad-Jusrisprudencia-V4 .modal {
+  background: linear-gradient(to right,rgba(46, 49, 128, 0.88), rgba(27, 20, 45, 0.86)) !important;
+}
+#Facultad-Jusrisprudencia-V4 button.btn.btn-danger:hover {
+  background: #d90821;
+  color: #fff;
+  border-color: #d90721;
+  transition: .3s;
+}
+#Facultad-Jusrisprudencia-V4 h4{
+color: #299998;
+}
+#Facultad-Jusrisprudencia-V4 .conciliatura li:before {
+  color: #da0820;
+  margin-right: 8px;
+  font-size: 15px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+#Facultad-Jusrisprudencia-V4 .conciliatura li {
+  font-size: 1.2em;
+  font-weight: 300;
+  list-style: none;
+}
+#Facultad-Jusrisprudencia-V4 .conciliatura .mas-info {
+  display: table;
+  color: #da0820;
+  border: solid 2px;
+  padding: 4px 10px;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  transition: .5s;
+  width: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+  cursor: pointer;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#Facultad-Jusrisprudencia-V4 .conciliatura .mas-info:hover {
+  transition: .3s;
+  background: #da0921;
+  color: #fff;
+}
+#Facultad-Jusrisprudencia-V4 .vicerrectoria {
+  padding: 3%;
+  background: #fff;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  display: table;
+  width: 100%;
+}
+.conciliatura ul {
+  margin-left: -20px;
+}
+.rectoria h4 {
+  margin-top: 8%;
+}
+
+.cajaCaracteristicas.dos {
+  background: #1f1a3d;
+}
+
+.row.califica {
+  padding: 2%;
+  background: #fff;
+  margin-top: 30px;
+  border: solid 2px #ededf7;
+}
+
+.row.califica li:before {
+  color: #299999;
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+
+.row.califica li {
+  font-size: 1.1em;
+  font-weight: 300;
+  list-style: none;
+  line-height: 26px;
+  margin-left: -40px;
+}
+
+.row.califica .numero {
+  font-size: 3em;
+  /* float: left; */
+  margin-bottom: 15px;
+  margin-top: 9px;
+  font-weight: 900;
+}
+
+.row.calidad h4 {
+  color: #212529 !important;
+  font-size: 1.1em !important;
+  margin-top: 10px !important;
+  font-weight: 300 !important;
+}
+
+.row.calidad h4 {
+  color: #212529 !important;
+  font-size: 1.1em !important;
+  margin-top: 10px !important;
+  font-weight: 300 !important;
+}
+
+.row.testimonios h2 {
+  width: 100%;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  display: table;
+}
+.row.testimonios .cajavideo {
+  margin-bottom: 23px;
+}
+.row.califica .cajaCaracteristicas:hover {
+  transform: scale(1.1);
+  transition: .3s;
+  cursor: pointer;
+}
+#Facultad-Jusrisprudencia-V4 .vicerrectoria .foto {
+  border: solid 2px #d7d7e6;
+  padding: 3% 3% 0%;
+}
+#Facultad-Jusrisprudencia-V4 .OtrosGobierno {
+  padding: 3% 0%;
+}
+#Facultad-Jusrisprudencia-V4 .OtrosGobierno .mas-info {
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#Facultad-Jusrisprudencia-V4 .OtrosGobierno .modal-body h4 {
+  margin-left: 18px;
+}
+#Facultad-Jusrisprudencia-V4 .mas-info.mas-info {
+  float: left;
+  margin-top: 0 !important;
+  width: auto !important;
+}
+#Facultad-Jusrisprudencia-V4 .archivo {
+  padding: 0% 0% 2%;
+}
+#Facultad-Jusrisprudencia-V4 .Museo {
+  padding: 0% 0% 2%;
+}
+
+p.correo i {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #299998;
+}
+
+#accordion {
+  margin-top: 20px;
+}
+
+#accordion .show {
+  background: none;
+  border: solid 2px #fff;
+}
+
+#accordion li {
+  font-size: .9em;
+  font-weight: 300;
+  list-style: none;
+  line-height: 25px;
+  /* margin-left: -40px; */
+  /* margin-left: -20px; */
+  display: inherit;
+  color: #212529;
+}
+
+#accordion li:before {
+  color: #299998;
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  margin-left: 0px;
+}
+
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1350px !important;
+  }
+  }
+
+@media (max-width:1024px){
+
+  .cajaCaracteristicas {
+      min-height: 120px;
+  }
+
+}
+
+@media (max-width:768px){
+  .nuestra {
+      float: right;
+      margin: 0;
+      margin-bottom: -10px;
+  }
+
+  #Facultad-Jusrisprudencia-V4 .titulo {
+      top: 12%;
+      font-size: 1.2em;
+      right: 0;
+  }
+
+  #Facultad-Jusrisprudencia-V4 .principal {
+      background-size: cover;
+      min-height: 320px;
+      filter: grayscale(.6);
+      background-position: -170px;
+  }
+}
+@-moz-document url-prefix() {
+#Facultad-Jusrisprudencia-V4 .titulo {
+top: 28%;}
+}

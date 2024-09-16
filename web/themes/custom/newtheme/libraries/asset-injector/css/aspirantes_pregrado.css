@@ -1,0 +1,614 @@
+/*ASPIRANTES POSGRADO*/
+#aspirantes2019 .content-info li {
+  padding-left: 8px;
+}
+#aspirantes2019 .contenidoTab a:hover, #aspirantes2019 .content-info a:hover {
+    text-decoration: underline;
+}
+#aspirantes2019 .content-info .accordion button.btn {
+    width: 100%;
+    text-align: inherit;
+}
+#aspirantes2019 .content-info .cajaPortafolio img{
+  margin: 0 auto;
+}
+#aspirantes2019 .content-info .cajaPortafolio p {
+    text-align: center;
+    font-weight: bold ;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+#aspirantes2019 .content-info .btn:focus {
+    box-shadow: none;
+}
+#aspirantes2019 .content-posgrado .resp-tab-item i {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 7px 24px;
+}
+#aspirantes2019 .content-info li::marker {
+  color: #da0820;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+#aspirantes2019 .content-info button i {
+  margin: 0 21px;
+}
+#aspirantes2019 .content-info p {
+    padding: 0 29px 0 18px;
+    margin: 20px 0;
+}
+
+#aspirantes2019 .content-info .modal-header img{
+  display: inline-block;
+}
+#aspirantes2019 .content-info ol.circle li::marker {
+  color: #da0820;
+  font-size: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\2022";
+}
+
+#aspirantes2019 .content-info button {
+  font-size: 1.2em;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  right: 23px;
+  background-color: #d80e23;
+  opacity: 1000;
+  color: #fff;
+}
+#aspirantes2019 .content-info .modal-header {
+  background: white;
+}
+#aspirantes2019 .content-info .destacado {
+  background: #dadae5;
+  display: table;
+  padding: 0 0 0 15px;
+  margin: 0px;
+}
+#aspirantes2019 .content-info .btnEvento a {
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: table;
+  padding: 5px 30px;
+  border: solid 1px #2b4d7c;
+  color: #fff;
+  border-radius: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+#aspirantes2019 .content-info button.white-bold {
+  border: 1px solid #da0921;
+  background-color: #fff;
+  color: #da0921;
+  padding: 6px 13px;
+}
+#aspirantes2019 .content-info button.white-bold:hover {
+    border: 1px solid #fff;
+    background-color: #dA0921;
+    color: #fff;
+}
+#aspirantes2019 .content-info a {
+  color: #d80e23 !important;
+  text-decoration: none;
+  background-color: transparent;
+}
+#aspirantes2019 .content-info .img_incribir {
+  border: 2px solid #dadae5;
+  width: 95%;
+}
+#aspirantes2019 .content-info .img_incribir img {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  left: 15px;
+  top: 12px;
+}
+#aspirantes2019 .content-info .card-header {
+  background: #ffff;
+  border-radius: 0.3em;
+  -webkit-box-shadow: -4px 4px 38px -10px rgba(102, 102, 102, 1);
+  -moz-box-shadow: -4px 4px 38px -10px rgba(102, 102, 102, 1);
+  box-shadow: 0px 0px 11px 0px rgba(102, 102, 102, 0.51);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+}
+
+#aspirantes2019 .content-info .accordion {
+    padding: 20px 0;
+}
+
+#aspirantes2019 .content-info .card {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+#aspirantes2019 .content-info .card-header button {
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  position: inherit;
+  background-color: #f0efef61;
+  opacity: 1;
+  color: #212121;
+  padding-top: 0;
+  margin-top:0;
+  border-radius: 3px;
+  border: none;
+}
+#aspirantes2019 .content-info h3 {
+  font-size: 1.7em;
+  color: #d80e23;
+  font-weight: 600;
+}
+#aspirantes2019 .content-info .cajaPortafolio {
+  background: #f7f7f7;
+  padding: 5%;
+  margin-top: 30px;
+  border: solid 2px #fff;
+  cursor: pointer;
+  margin: auto;
+  height: 91%;
+  text-align: center;
+}
+#aspirantes2019 .content-info .cajaPortafolio:hover {
+  background: #dadae5;
+  transition: 0.3s;
+}
+
+/*ASPIRANTES PREGRADO Y POSGRADO*/
+
+#aspirantes2019 {
+  display: table;
+  width: 100%;
+}
+#ECHTab2 li .active i {
+  background: #da0820;
+  color: #fff;
+  transition: 0.1s;
+}
+#aspirantes2019 .btn2 {
+  margin: auto;
+  padding: 14px;
+  display: block;
+  border: 2px solid#00247d;
+  width: 39%;
+  color: #022c81 !important;
+  background-image: url(/sites/default/files/2023-01/logo-nova.png);
+  background-repeat: no-repeat;
+  background-position: 12px;
+  text-align: right;
+  margin-top: 20px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#aspirantes2019 .btn2:hover {
+  background-color: #08388b;
+  padding: 14px;
+  display: block;
+  color: #fff !important;
+  box-shadow: 4px 3px 4px #a2a2a2f7;
+  background-image: url(/sites/default/files/2023-01/logo-nova-blanco.png);
+  background-repeat: no-repeat;
+  background-position: 12px;
+}
+#aspirantes2019 .modal {
+  background: linear-gradient(
+    to right,
+    rgba(46, 49, 128, 0.88),
+    rgba(27, 20, 45, 0.86)
+  );
+}
+#aspirantes2019 .accordion-button:not(.collapsed)::after {
+  background-image: none;
+  transform: rotate(-180deg);
+}
+#aspirantes2019 li.resp-tab-item div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#aspirantes2019 li.resp-tab-item {
+  padding: 15px 11px;
+}
+#aspirantes2019 .contenedor-Tabs-Pasos .contenidoTab li::marker {
+  color: #da0820;
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+#aspirantes2019 .accordion-item {
+  border: none;
+}
+#aspirantes2019 .contenidoTab a {
+  color: #da0620;
+  font-weight: bold;
+  text-decoration: none;
+}
+#aspirantes2019 .modal-body {
+  padding: 2% 4% !important;
+}
+
+#aspirantes2019 .accordion-button::after {
+  background-image: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid #c1c1c1;
+  width: unset;
+  height: unset;
+}
+#aspirantes2019 p {
+  width: 100%;
+  display: table;
+  font-size: 1.1em;
+  color: #333;
+}
+#aspirantes2019 .contenidoTab h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #da0921;
+}
+
+#aspirantes2019 .contenidoTab h4.modal-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #333333;
+}
+#aspirantes2019 .accordion-button:not(.collapsed) {
+  transition: 0.2s;
+  color: #333 !important;
+  transform: scale(1, 1);
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+}
+#aspirantes2019 .modal-content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#aspirantes2019 .modal-header .close {
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+}
+#aspirantes2019 .nav-tabs {
+  border-bottom: none;
+}
+
+#aspirantes2019 .btn {
+  padding: 2px 20px;
+  color: #da0921;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  border: solid 2px;
+  border-radius: 0;
+  letter-spacing: 1px;
+  margin-top: 2%;
+}
+#aspirantes2019 .btn:hover {
+  background: #d90821;
+  color: #fff;
+  border-color: #d90721;
+  transition: 0.3s;
+}
+
+#aspirantes2019 section.decAspirantes {
+  padding: 4% 2%;
+  display: table;
+  width: 100%;
+}
+
+#aspirantes2019 .panel-body p {
+  font-size: 1.1em;
+  text-align: justify;
+  padding: 0;
+  font-weight: 300;
+}
+#aspirantes2019 .panel.panel-default {
+  margin-bottom: 6px;
+}
+
+#aspirantes2019 .navbar-collapse {
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+#aspirantes2019 .navbar {
+  margin-bottom: 0;
+  width: 100%;
+  border-bottom: 1px solid#dadada;
+  box-shadow: 10px 5px 5px #f1eeee;
+}
+
+#aspirantes2019 .nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #da0921;
+}
+
+#aspirantes2019 section.calendario {
+  background: rgba(218, 218, 229, 0.7803921568627451);
+  display: table;
+  width: 100%;
+  padding: 3% 6% 3%;
+}
+
+#aspirantes2019 section.proceso {
+  padding: 3% 6% 3%;
+  width: 100%;
+  display: none;
+}
+#aspirantes2019 section.proceso1 {
+  width: 100%;
+  display: table;
+}
+.cajapreceso #myModal355812 {
+  display: block;
+}
+
+#aspirantes2019 .cajapreceso {
+  padding: 4%;
+  border: solid 2px #c1c1c1;
+  background-color: #fff;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  position: relative;
+  font-weight: 500;
+  min-height: 70px;
+  cursor: pointer;
+}
+#aspirantes2019 .contenedorPreceso {
+  margin-top: 30px;
+}
+#aspirantes2019 .cajapreceso b {
+  font-weight: bold;
+  font-size: 1.5em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgb(46, 49, 128), rgb(27, 20, 45));
+  padding: 0px 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#aspirantes2019 .modal-header {
+  border-bottom: 1px solid #e5e5e5;
+  background: rgba(218, 218, 229, 0.7803921568627451);
+  padding: 2% 4%;
+}
+#aspirantes2019 .modal-body h5 {
+  font-size: 1.5em;
+  color: #da0921;
+  font-weight: bold;
+}
+#aspirantes2019 .modal-body {
+  position: relative;
+  /* padding: 2% 4%!important;*/
+}
+
+#aspirantes2019 .btn-default {
+  padding: 2px 20px;
+  color: #da0921;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-size: 22px;
+  border: solid 2px;
+  border-radius: 0;
+  letter-spacing: 1px;
+  margin-top: 2%;
+  margin: 0 auto;
+  display: table;
+}
+#aspirantes2019 .btn-default:hover {
+  background: #d90821;
+  color: #fff;
+  border-color: #d90721;
+  transition: 0.3s;
+}
+/*#aspirantes2019 .fade {
+  background: linear-gradient(to right,rgba(46, 49, 128, 0.88), rgba(27, 20, 45, 0.86));
+}*/
+#aspirantes2019 .modal.in .modal-dialog {
+  padding-top: 10%;
+}
+
+#aspirantes2019 .contenedor-Tabs-Pasos {
+  display: table;
+  width: 100%;
+  /* margin-top: 80px; */
+}
+
+#ECHTab2 .resp-tab-item i {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: bold;
+  float: left;
+  background: #fff;
+  padding: 2px 18px;
+  border-radius: 100%;
+  border: solid 2px #da0921;
+  color: #da0921;
+  margin-right: 10px;
+}
+#ECHTab2 .resp-tab-item p {
+  float: right;
+  display: table;
+  width: auto;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 20px;
+}
+#ECHTab2 li.tab5.resp-tab-item p {
+  margin-top: 3px !important;
+}
+
+#aspirantes2019 .resp-tab-content {
+  width: 100%;
+}
+
+#aspirantes2019 .modal-body {
+  display: table;
+}
+
+@media (max-width: 1540px) {
+  #ECHTab2 .resp-tab-item i {
+    font-size: 2.4rem;
+    padding: 7px 24px;
+  }
+  #ECHTab2 li.tab5.resp-tab-item p {
+    margin-top: 1px !important;
+  }
+}
+@media (max-width: 1440px) {
+  #ECHTab2 .resp-tab-item i {
+    font-size: 1.8em;
+    padding: 0px 14.5px;
+  }
+
+  #ECHTab2 .resp-tab-item i {
+    margin-right: 2px;
+  }
+
+  #ECHTab2 li.tab5.resp-tab-item p {
+    margin-bottom: -2px;
+  }
+
+  #ECHTab2 .resp-tab-item p {
+    margin-top: 6px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  #aspirantes2019 .cajapreceso {
+    font-size: 1.1em;
+  }
+
+  #ECHTab2 li.tab5.resp-tab-item p {
+    margin-bottom: 2px;
+  }
+
+  #ECHTab2 .resp-tab-item i {
+    font-size: 1.1em;
+    padding: 0px 7px;
+  }
+
+  #ECHTab2 .resp-tab-item p {
+    font-size: 1em !important;
+  }
+
+  #aspirantes2019 p {
+    display: flex;
+    line-height: 1.3em;
+  }
+
+  #ECHTab2 .resp-tab-item p {
+    font-size: 1em !important;
+  }
+
+  #aspirantes2019 .modal-body {
+    display: block;
+  }
+  #aspirantes2019 p {
+    display: block;
+  }
+  #aspirantes2019 .cajapreceso {
+    min-height: 84px;
+  }
+}
+@media (max-width: 998px) {
+  .tab-content > .tab-pane {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  #ECHTab2 .resp-accordion p {
+    width: 80%;
+  }
+
+  #ECHTab2 .resp-tab-content {
+    padding: 4%;
+  }
+
+  #aspirantes2019 p {
+    display: block;
+    font-size: 1rem;
+  }
+
+  #aspirantes2019 .navbar-toggler {
+    border: solid 1px #ddd;
+  }
+
+  #aspirantes2019 .cajapreceso {
+    font-size: 0.8rem;
+    font-weight: 400;
+    min-height: 60px;
+  }
+
+  #aspirantes2019 .cajapreceso b {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0px 8px;
+  }
+  #ECHTab2 .resp-accordion i {
+    color: #da0820;
+    font-style: normal;
+    font-weight: bold;
+    float: left;
+    border: solid 2px;
+    font-size: 1em;
+    padding: 3px 7px;
+    border-radius: 100%;
+    width: 27.8px;
+    text-align: center;
+    margin-right: 20px;
+  }
+  #aspirantes2019 .accordion-button:not(.collapsed) {
+    background-color: #da0620;
+  }
+
+  #aspirantes2019 .accordion-button {
+    border: none;
+    background-color: white;
+  }
+
+  #aspirantes2019 .accordion-button:not(.collapsed) p {
+    color: #fff;
+  }
+
+  #aspirantes2019 .accordion-button:not(.collapsed) i {
+    color: #fff;
+  }
+  #aspirantes2019 .btn2 {
+    width: 103%;
+    background-position: 1px;
+    background-size: 24%;
+    font-size: 11px;
+    margin-bottom: 25px;
+  }
+}
+

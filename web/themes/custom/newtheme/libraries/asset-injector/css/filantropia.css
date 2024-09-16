@@ -1,0 +1,822 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#Filantropia.menu {
+		font-family: 'Bebas Neue', cursive;
+		font-size:1.5em;
+		color: rgba(0,0,0,.55);
+}
+#Filantropia.menu .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(249,140,8,.9);
+    text-decoration:underline;
+}
+#Filantropia.menu .nav-item {
+	  border-right: solid 2px #bebbbb;
+    padding-left: 1rem;
+    padding-right: 1em;
+}
+#Filantropia.menu .nav-item.noBorde {
+	  border-right: solid 0px;
+    padding-left: 1rem;
+    padding-right: 1em;
+}
+#Filantropia.seres .social-network {
+    position: absolute;
+    z-index: 2;
+    padding: 23rem 11rem;
+}
+
+#Filantropia.seres .hero--content-left .hero__content {
+    top: 30% !important;
+}
+
+#Filantropia.seres .container-default, .content-container-default {
+    max-width: 100% !important;
+}
+
+#Filantropia.seres .card-modal-link__content--heading {
+    text-align: left !important;
+    border-bottom: solid 3px #00A99C !important;
+    padding: 1em !important;
+}
+#Filantropia.seres .bg-cyan {
+    background-color: #66CBC4 !important;
+}
+#Filantropia.seres .card-modal-link:hover .card-modal-link__content--image {
+    opacity: .6;
+    background-color: #00a99c;
+}
+
+#Filantropia.seres .paragraph, .text-long p {
+    margin: 0 0 1rem 0;
+    font-family: "Montserrat",sans-serif;
+}
+#Filantropia.seres .card {
+    background-color: #FFA82D !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 3%;
+}
+
+#Filantropia.seres .grid__item {
+    max-height: 40% !important;
+}
+#Filantropia.seres .grid--2 {
+    height: 270px !important;
+}
+#Filantropia.seres .card_hover__heading {
+    font-size: 1.5em !important;
+    margin-top: 15% !important;
+}
+#Filantropia.seres .card_hover__content-title {
+    padding-left: 5% !important;
+    padding-bottom: 4% !important;
+}
+
+#Filantropia.seres .card-historias__content--logo span {
+    font-size: 4rem !important;
+}
+
+#Filantropia.seres .text-long {
+    margin: 3% 6%;
+}
+
+
+#Filantropia.seres .card-body {
+    background-color: #FFA82D !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 3% !important;
+}
+
+#FilantropiaVoluntariado.seres .card {
+    background-color: #fff !important;
+    color: #da0921 !important;
+    text-align: center !important;
+    margin: 3%;
+    border-radius: 15px;
+}
+
+#FilantropiaVoluntariado .card_hover__heading {
+    font-size: 1.5em !important;
+    margin-top: 15% !important;
+}
+#FilantropiaVoluntariado .card_hover__content-title {
+    padding-left: 5% !important;
+    padding-bottom: 4% !important;
+}
+#FilantropiaVoluntariado.seres .card.bg-dark.text-white {
+    background-color: #A71524 !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 3%;
+    padding:1%;
+    border-radius: 15px;
+}
+
+
+#Filantropia.seres .card-info {
+    width: 95% !important;
+    padding-bottom: 10px !important;
+    background: #da0921 !important;
+    border-radius: 35px 35px 0px 35px!important
+}
+#Filantropia.seres .card-info__heading {
+    display: none !important;
+}
+
+#FilantropiaVol.seres .card-body {
+    background-color: #da0921 !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 3% !important;
+}
+#FilantropiaVol.seres .card {
+    background-color: #da0921 !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 3%;
+}
+
+/*estilos contenido modales*/
+#Filantropia.seres .btn-danger {
+    background-color: #da0921 !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-radius: 10px!important;
+    transition: .2s!important;
+}
+#Filantropia.seres a:hover {
+    color: inherit;
+    text-decoration: none;
+    opacity: .8;
+    font-size: 100%;
+    font-weight: 800;
+    transition: .2s;
+}
+#Filantropia.seres a {
+    color: inherit;
+    font-size: 95%;
+    font-weight: 500;
+    transition: .2s;
+}
+#Filantropia.seres .bg-danger {
+    background-color: #da0921!important;
+}
+
+/* ---------------------------------------- ---------------------------------------- ---------------------------------------- INICIO Estilos HOME FILANTROPÍA ---------------------------------------- */
+
+/*estilos carrusel*/
+#homeAlianzas .btnDonacion {
+  background: #ef512c;
+  color: #ffffff !important;
+  transition: .2s;
+}
+.acreditacion img {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.17);
+}
+.acreditacion {
+    width: 224px;
+    position: absolute;
+    top: 154px;
+    left: 23px;
+}
+
+#homeAlianzas .btnDonacion:hover {
+  background: #df360f;
+  border-top: none;
+  transition: .2s;
+}
+
+#homeAlianzas .navbar-default {
+  background-color: #f5f4f2;
+  margin: 0;
+  box-shadow: 0 0 15px rgba(0,0,0,.1);
+  border: none;
+}
+#homeAlianzas .navbar {
+  position: relative;
+  min-height: auto;
+  margin-bottom: 0;
+  border: 1px solid transparent !important;
+}
+#alianzasSuenioSer .navbar-fixed-top {
+  transition:.5s;  
+}
+#alianzasSuenioSer .fixed a {  
+  color:#000000;
+}  
+
+#homeAlianzas .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+  padding: 0;
+  transition:.5s;
+  border: none !important;
+}
+
+#homeAlianzas .navbar-default {
+  background-color: #f5f4f2;
+  margin: 0;
+  box-shadow:0 0 15px rgba(0,0,0,.1);
+  border: none !important;
+}
+#homeAlianzas .nav-tabs.nav-justified > li > a {
+  cursor:pointer;
+  border-bottom: none;
+  border-radius: 0;
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  border-right: solid 1px #e6e6e6;
+}
+
+
+
+
+#homeAlianzas .sliaderPrincipal {
+  background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("https://www.urosario.edu.co/App_Themes/Alianzas-2018/img/home/bg-slider-home.jpg") fixed top no-repeat;
+  background-size: cover;
+  min-height: auto;
+  padding: 0;
+  min-height: 550px;
+}
+
+#homeAlianzas .sliaderPrincipal .recuadro {
+  background: rgba(0,0,0,.7);
+  padding: 15px;
+  margin-top: 15%;
+}
+#homeAlianzas .sliaderPrincipal .tituloPrincipal h3 {
+  color: rgb(239, 81, 44);
+  font-weight: 600;
+  font-size: 2.5em;
+  text-align: right;
+  text-shadow: 0 0 15px rgba(0,0,0,1);
+  margin-top: 10%;
+}
+
+#homeAlianzas .sliaderPrincipal p {
+  font-family: 'Poppins';
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: right;
+  text-shadow: 0 0 15px rgba(0,0,0,1);
+  margin-top: 5%;
+}
+
+#homeAlianzas .imgOnda {
+  display:table;
+  width:100%;
+}
+#homeAlianzas .imgOnda img {
+  width:100%;
+  margin-bottom: -3px;
+}
+
+
+#homeAlianzas .enlacesProyectos {
+  padding:3% 0;
+  background: #ffffff;
+}
+#homeAlianzas .enlacesProyectos .txtDestacado h3 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 3%;
+  text-align: center;
+}
+#homeAlianzas .enlacesProyectos .txtDestacado h3 strong {
+  color: rgb(239, 81, 44);
+  font-size: 2.3em;
+}
+
+
+#homeAlianzas .aliadosHome {
+  background-size: cover;
+  min-height: auto;
+  padding:3% 0;
+}
+
+#homeAlianzas .aliadosHome .tituloSeccion h3 {
+  font-size: 2em;
+  color: #ffffff;
+  font-family: 'Poppins';
+  text-align: center;
+  font-weight:400;
+  margin-bottom: 3%;
+}
+#homeAlianzas .aliadosHome .tituloSeccion h3 strong {
+  color: rgb(239, 81, 44);
+  font-size: 1.5em;
+}
+
+
+
+#mixedSlider {
+  position: relative;
+}
+#mixedSlider .logoAliado {
+  display:table;
+  width:47%;
+  float:left;
+  border:solid 1px #f5f4f4;
+  margin-left:1%;
+  margin-right:1%;
+  margin-bottom:3%;
+  box-shadow:2px 2px 5px rgba(0,0,0,.1);
+}
+#mixedSlider .logoAliado img {
+  width:100%;
+}
+
+#mixedSlider .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 5%;
+}
+#mixedSlider .MS-content .item {
+  display: inline-block;
+  width: 33.3333%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0;
+}
+@media (max-width: 991px) {
+  #mixedSlider .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-content .item {
+    width: 100%;
+  }
+}
+#mixedSlider .MS-content .item .imgTitle {
+  position: relative;
+}
+#mixedSlider .MS-content .item .imgTitle .blogTitle {
+  margin: 0;
+  text-align: left;
+  letter-spacing: 2px;
+  color: #252525;
+  font-style: italic;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+  padding: 0 0 2px 10px;
+}
+#mixedSlider .MS-content .item .imgTitle img {
+  height: auto;
+  width: 100%;
+}
+#mixedSlider .MS-content .item p {
+  font-size: 16px;
+  margin: 2px 10px 0 5px;
+  text-indent: 15px;
+}
+#mixedSlider .MS-content .item a {
+  float: right;
+  margin: 0 20px 0 0;
+  font-size: 16px;
+  font-style: italic;
+  color: rgba(173, 0, 0, 0.82);
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: linear 0.1s;
+}
+#mixedSlider .MS-content .item a:hover {
+  text-shadow: 0 0 1px grey;
+}
+#mixedSlider .MS-controls a {
+  cursor:pointer;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 50px;
+  top: 45%;
+  color: rgba(255,255,255,.5);
+  transition: 0.15s linear;
+}
+#mixedSlider .MS-controls a:hover {
+  color: rgba(255,255,255,1);
+}
+.bg-Botones {
+  background:rgb(255, 255, 255);
+  text-align: center;
+}
+.btnServicios {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background: #ffffff;
+  border:none;
+  transition:.3s;
+}
+.btnServicios {
+  cursor:pointer;
+  border:none;
+  margin: auto;
+  display:table;
+  transition:.5s;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+.btnServicios:hover {
+  background:#ffffff;
+  border:none;
+  box-shadow: 0 0 5px rgba(0,0,0,.1);
+  transition:.2s;  
+}
+.contenedorEnlacesServicios {
+  float: none;
+  position: initial;
+  margin: auto;
+  display: inline-flex;
+  text-align: center;
+  padding: 0;
+  width: 25%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.contenedorBtnServicios {
+  position: relative;
+  background: rgb(13, 26, 44);
+}
+.contenedorBtnServicios img {
+  width:100%;
+  opacity: .6;
+  transition:.3s;
+}
+.bloqueDeTexto-Nombre {
+  position: absolute;
+  background:rgba(0,0,0,.5);
+  min-height:40px;
+  bottom: 0;  
+  color: white;
+  width: 100%;
+  padding: 10px 15px;
+  transition:.3s;  
+}
+.bloqueDeTexto-Nombre img {
+  opacity:1;
+  width:60%;
+}
+.bloqueDeTexto-Nombre h3 {
+  text-shadow:2px 2px 5px rgba(0,0,0,1);
+  color: #ffffff;
+  text-align: center;
+  display: table;
+  margin: auto;
+  /*! border: solid 1px rgb(122, 226, 222); */
+  /*! background: rgba(0,0,0,.3); */
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+
+.bloqueDeTexto {
+  position: absolute;
+  min-height:90px;
+  bottom: 0;  
+  color: white;
+  width: 100%;
+  padding: 10px;
+  opacity: 0;
+  transition:.3s;  
+}
+.bloqueDeTexto p {
+  display: none;
+  margin:5px 0;
+  text-shadow:2px 2px 5px rgba(0,0,0,.8);
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+}
+.bloqueDeTexto  a {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.btnServicios:hover .bloqueDeTexto {
+  margin-bottom:15%;
+  opacity: 1;
+  transition:.3s;  
+}
+.btnServicios:hover img {
+  opacity:.5;
+  transition:.3s;
+}
+.sinRelleno {
+  padding:0;
+}
+
+
+
+
+/* compartir */
+#homeAlianzas .cormartir {
+  background:#f9f9f9;
+  padding:3% 0;
+  text-align:center;
+}
+#homeAlianzas .cormartir .tituloPrincipal h3 {
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  font-size: 3em;
+}
+#homeAlianzas .cormartir .separador {
+  border:none;
+  border-top:solid 2px #e25d5a;
+  width:50px;
+  margin:auto;
+  margin-bottom:30px;
+}
+#homeAlianzas .cormartir .facebook {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #5D82D1;
+  border-radius: 0;
+  margin: auto 5px;
+  text-align: center;
+  padding: 5px;
+  border: solid 3px #ffffff;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.1);
+}
+#homeAlianzas .cormartir .facebook img {
+  width:100%;
+}
+#homeAlianzas .cormartir .twitter {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #339dc3;
+  margin: auto 5px;
+  text-align: center;
+  padding: 4px;
+  border: solid 3px #ffffff;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.1);
+}
+#homeAlianzas .cormartir .twitter img {
+  width:100%;
+}
+#homeAlianzas .cormartir .linkedin {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #238CC8;
+  margin: auto 5px;
+  text-align: center;
+  padding: 5px;
+  border: solid 3px #ffffff;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.1);
+}
+#homeAlianzas .cormartir .linkedin img {
+  width:100%;
+}
+#homeAlianzas .cormartir .whatsapp {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #30bf39;
+  margin: auto 5px;
+  text-align: center;
+  padding: 5px;
+  border: solid 3px #ffffff;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.1);
+}
+#homeAlianzas .cormartir .whatsapp img {
+  width:100%;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+  #mixedSlider .MS-controls a {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls a {
+    font-size: 20px;
+  }
+}
+#mixedSlider .MS-controls .MS-left {
+  left: 0px;
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls .MS-left {
+    left: 0;
+    font-size: 4em;
+  }
+}
+#mixedSlider .MS-controls .MS-right {
+  right: 0px;
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls .MS-right {
+    right: 0;
+    font-size: 4em;
+  }
+  #mixedSlider .logoAliado {
+    width:30%;
+  }
+}
+#basicSlider { position: relative; }
+#basicSlider .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 2%;
+  height: 50px;
+}
+#basicSlider .MS-content .item {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  line-height: 50px;
+  vertical-align: middle;
+}
+@media (max-width: 991px) {
+  #basicSlider .MS-content .item { width: 25%; }
+}
+@media (max-width: 767px) {
+  #basicSlider .MS-content .item { width: 35%; }
+}
+@media (max-width: 500px) {
+  #basicSlider .MS-content .item { width: 50%; }
+}
+#basicSlider .MS-content .item a {
+  line-height: 50px;
+  vertical-align: middle;
+}
+#basicSlider .MS-controls a { position: absolute; }
+
+#basicSlider .MS-controls .MS-left {
+  top: 35px;
+  left: 10px;
+}
+#basicSlider .MS-controls .MS-right {
+  top: 35px;
+  right: 10px;
+}
+@media (max-width: 980px) {
+  #homeAlianzas .sliaderPrincipal {
+    min-height: auto;
+    padding-bottom:5%;
+  }
+  .contenedorEnlacesServicios {
+    width: 35%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+  }
+}
+@media (max-width: 650px) {
+	
+.acreditacion {
+    width: 224px;
+    position: initial;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.24);
+}
+  
+  #homeAlianzas .sliaderPrincipal .tituloPrincipal h3 {
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  #homeAlianzas .enlacesProyectos .txtDestacado h3 {
+    font-size: 1.5em;
+  }  
+  .contenedorEnlacesServicios {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 1%;
+  }
+  #homeAlianzas .aliadosHome .tituloSeccion h3 {
+    font-size: 1.5em;
+  }  
+}
+
+/*Estilos cards botones acceso internas */
+#Filantropia.home .card_hover__subheading {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 40%;
+    right: auto;
+    text-align: center;
+    font-weight: 600;
+    border: solid 2px #fff;
+    line-height: 0px;
+    padding: 3%;
+    padding-bottom: 0;
+    transition: all .35s;
+    z-index: 3;
+}
+#Filantropia.suenoSer .card-icon--color {
+    background-color: #f8f8f8 !important;
+    transition: all .2s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#Filantropia.suenoSer .card-icon .fontawesome-icon span {
+    color: #3a9f99 !important;
+    font-size: 60px !important;
+    padding-top: 2% !important;
+}
+#Filantropia.suenoSer .card-icon--color .card-icon__heading {
+    color: #3a9f99;
+}
+
+#Filantropia.suenoSer .card-icon__heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: .9rem;
+    color: #3a9f99;
+    padding: 0 2%;
+}
+
+#Filantropia.suenoSerDos .card-icon--color {
+    background-color: #f4ba06 !important;
+    transition: all .2s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#Filantropia.suenoSerDos .card-icon .fontawesome-icon span {
+    color: #f8f8f8 !important;
+    font-size: 60px !important;
+    padding-top: 2% !important;
+}
+#Filantropia.suenoSerDos .card-icon--color .card-icon__heading {
+    color: #f8f8f8;
+}
+
+#Filantropia.suenoSerDos .card-icon__heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: .9rem;
+    color: #f8f8f8 !important;
+    padding: 0 2%;
+}
+
+/*Estilos carrusel testimonios*/
+
+#Filantropia.suenoSerTres .card-carousel {
+    display: block;
+    background-color: #fff !important;
+    width: 60% !important;
+    margin: auto !important;
+}
+#Filantropia.suenoSerTres .card-testimonial {
+    padding: 5% 2%;
+}
+#Filantropia.suenoSerTres .card-testimonial__content .card-testimonial__heading {
+    font-weight: 500 !important;
+    color: #f8af0b !important;
+}
+#Filantropia.suenoSerTres .card-testimonial__icon svg{
+	    fill: #f8af0b !important;
+	    color: #f8af0b !important;
+}
+#Filantropia.suenoSerTres .card-testimonial img {
+    border: 3px solid #f8af0b !important;
+}
+#Filantropia.suenoSerCuatro .card-modal-program {
+    min-height: 130px !important;
+    border-top: solid 7px #da0921 !important;
+}
+#Filantropia.suenoSerCuatro .card-modal-program button {
+    background-color: #da0921 !important;
+}
+#Filantropia.suenoSerCuatro .accordion-button:not(.collapsed) {
+    color:#fff;
+    background-color: #da0921 !important;
+}
+#Filantropia.suenoSerCuatro .accordion-button:focus {
+    border-color: #da0921 !important;
+}
+
+#Filantropia.suenoSerCinco .card-hover-button__heading {
+    border-left: none !important;
+    border-bottom: 3px solid #fff !important;
+    background-color: #da0921 !important;
+    padding: 5px 15px !important;
+}
+#Filantropia.suenoSerCuatroVerde .card-modal-program {
+    min-height: 130px !important;
+    border-top: solid 7px #00926e !important;
+}
+/* ---------------------------------------- ---------------------------------------- ---------------------------------------- FIN Estilos HOME FILANTROPÍA ---------------------------------------- */

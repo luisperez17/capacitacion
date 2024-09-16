@@ -1,0 +1,192 @@
+#Banner img {
+  width: 100%;
+}
+.BtnFlotante p {
+  padding-top: 6px;
+}
+#DatosEvento .Datos {
+  background-color: #1b2240;
+  color: white;
+}
+#DatosEvento .Datos h4 strong {
+  font-size: 1em;
+  line-height: 1em;
+}
+#DatosEvento .Datos .col-12.col-md-4.col-lg-4.col-xl-4:nth-child(2) {
+  border-right: 1px solid#fff;
+  border-left: 1px solid#fff;
+}
+#DatosEvento .Datos a {
+  color: #02adae;
+  font-weight: 800;
+}
+#DatosEvento .Datos i {
+  font-size: 1.6em;
+  color: #08b9ba;
+}
+#DatosEvento .BtnFlotante {
+  background-color: #da0921;
+  padding: 0 20px 0 0;
+  transition: 0.4s;
+  position: fixed;
+  color: white;
+  line-height: 1em;
+  font-weight: 700;
+  font-size: 1em;
+  z-index: 9;
+  width: 13%;
+  right: 0;
+  top: 30%;
+}
+#DatosEvento .BtnFlotante i {
+  background-color: #1b2240;
+  padding: 12px;
+}
+
+#DatosEvento .BtnFlotante a:hover {
+  background-color: #059394;
+}
+#TabAgenda .tab-bootstap .nav-link.active {
+  background-color: #049392 ;
+}
+
+hr.star-agenda {
+  border: 1px solid#059393;
+  background-color: #059393;
+  margin: auto;
+  opacity: 1000;
+  width: 23%;
+}
+
+#TabAgenda .tab-bootstap .nav {
+  box-shadow: 0px 0px 6px 0px #dadae5;
+}
+#TabAgenda #agenda .horaAgenda {
+  font-size: 0.9em;
+  font-weight: 900;
+}
+#TabAgenda #agenda .fechaEvento {
+  background-color: #1b2240;
+  color: #fff;
+}
+#TabAgenda #agenda .fechaEvento p {
+  color: #fff;
+}
+#TabAgenda #agenda h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: black;
+}
+#TabAgenda #agenda .LugarEvento p {
+  background-color: #059393;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1em;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2%;
+  height: 96px;
+  color: #fff;
+}
+#TabAgenda #agenda-cp-uno .casillaAgenda {
+  box-shadow: -1px 4px 4px #dfe0ec;
+  margin-bottom: 23px;
+  border-radius: 0px;
+}
+#TabAgenda #agenda-cp-uno .horaAgenda {
+  font-weight: 800;
+  font-size: 0.8rem;
+  color: #333;
+}
+#TabAgenda #agenda .horaAgenda .glyphicon {
+  font-size: 1.5rem;
+  margin-right: 5%;
+  color: #003265;
+}
+#TabAgenda #agenda-cp-uno .TemaAgenda {
+  border-left: solid 1px #f0eded;
+  line-height: 1.1em;
+  font-weight: bold;
+  text-align: left;
+  font-size: 1em;
+  padding: 0 5%;
+  color: #333;
+}
+#TabAgenda #agenda .DescricionAgenda {
+  border-top: solid 2px #059393;
+  font-size: 1.5rem;
+  padding: 0%;
+  color: #666;
+}
+#TabAgenda #agenda p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+  color: #5d5d5d;
+}
+#DescripcionEvento {
+  padding: 0 23%;
+}
+@media (max-width:1024px) {
+  #DescripcionEvento h2,
+  #TabAgenda h2 {
+      font-size: 2.1em;
+  }
+}
+@media (max-width: 600px) {
+#Banner {
+display: none;
+}
+  #DatosEvento .Datos {
+      text-align: center;
+  }
+  #DatosEvento .BtnFlotante {
+      top: inherit;
+      width: 100%;
+      bottom: 0;
+  }
+  #DescripcionEvento {
+      padding: 50px 10%;
+  }
+  #TabAgenda {
+      padding: 56px 6%;
+  }
+  #DescripcionEvento h2,
+  #TabAgenda h2 {
+      font-size: 2.1em;
+  }
+  #TabAgenda #tabContent {
+      display: none;
+  }
+  #TabAgenda #\31 978344160 {
+      display: none;
+  }
+
+  #TabAgenda .collapsed {
+      background-color: #059393;
+  }
+
+  #TabAgenda .collapsed .tab_item__title {
+      color: white;
+  }
+  #TabAgenda .accordion-item i {
+      color: white;
+  }
+  #\31 375491406 {
+display: none;
+}
+#DatosEvento .Datos .col-12.col-md-4.col-lg-4.col-xl-4:nth-child(2) {
+border-right: 1px solid #fff0;
+border-left: 1px solid #fff0;
+}
+#DatosEvento .BtnFlotante p {
+margin-top: 11px;
+font-size: 21px;
+}
+}

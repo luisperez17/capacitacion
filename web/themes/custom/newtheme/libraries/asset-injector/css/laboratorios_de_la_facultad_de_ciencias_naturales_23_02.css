@@ -1,0 +1,80 @@
+main {
+  display: block;
+  background-image: url(/sites/default/files/2023-02/background-laboratorios.jpeg);
+}
+.Miga {
+  background-color: #f3f3f3;
+  padding: 8px 0;
+}
+
+.Miga a {
+  color: #69971a;
+  font-weight: 800;
+}
+.Miga a:hover {
+  color: #7ec207;
+}
+button.carousel-control-prev {
+  background-color: #69971a;
+  border-radius:50%;
+}
+.carousel-images .carousel-indicadores button i {
+  color:#ffffff!important;
+}
+
+
+button.carousel-control-next {   background-color: #69971a;}
+
+.section-title--line-down-center::after {
+  background-color: #69971a;
+}
+.BannerCiencias {
+  position: relative;
+}
+.BannerCiencias::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000ba;
+  z-index: 0;
+}
+.BannerCiencias h5,
+h3 {
+  position: relative;
+
+  color: #69971a;
+  z-index: 17;
+  font-size: 2em;
+}
+
+.BannerCiencias h3 {
+  font-size: 3em;
+  color: #fff;
+}
+.BannerCiencias hr {
+  background-color: #69971a;
+  border: 2px solid#69971a;
+  margin: auto;
+  position: relative;
+  z-index: 19;
+  opacity: 100;
+  width: 23%;
+}
+
+@media (max-width: 600px) {
+  .Miga {
+    padding: 8px 17px;
+  }
+  .BannerCiencias h3 {
+    font-size: 1.7em;
+  }
+  .hero-image__content-wrapper {
+  justify-content: center;
+  }
+  .BannerCiencias hr {
+  margin-bottom: 20px;
+  }
+}

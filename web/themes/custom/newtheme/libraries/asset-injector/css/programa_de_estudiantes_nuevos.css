@@ -1,0 +1,517 @@
+.sin-espacio {
+  padding: 0;
+  margin: 0;
+}
+.app{
+display: inline-block;
+width: 89%;
+}
+.contenedorImagenSlide img {
+  position: relative;
+  top: -153px;
+}
+.texto_bienvenidos {
+  width: 68%;
+  position: absolute;
+  left: 3%;
+  top: 10%;
+}
+.texto_bienvenidos img {
+  width: 66%;
+}
+.estudiante {
+  width: 50%;
+  position: absolute;
+  left: 46%;
+  top: 0;
+}
+.estudiante img {
+  width: 42%;
+}
+.Recuadro {
+  width: 29%;
+  position: absolute;
+  right: 8%;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  top: 9%;
+  background-color: white;
+  padding: 29px 20px 10px;
+  border-radius: 13px;
+  font-weight: 700;
+  box-shadow: -6px 4px 7px 1px #0000003d;
+}
+.animacionBg {
+  -webkit-animation: animaImagenSliderHome 20000ms linear 0s infinite alternate;
+  animation: animaImagenSliderHome 8000ms -6s infinite alternate;
+  width: 100%;
+}
+#slide01 .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 550px !important;
+  @include clearfix(): ;
+}
+@-webkit-keyframes fadeInRight {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(100px, 0, 0);
+      transform: translate3d(100px, 0, 0);
+  }
+  to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+  }
+}
+@keyframes fadeInRight {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(100px, 0, 0);
+      transform: translate3d(100px, 0, 0);
+  }
+  to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+  }
+}
+.pulso {
+  animation: pulsate 1.4s linear infinite;
+}
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+.pulse {
+  animation:pulse 4s infinite !important;
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  0% {
+      transform: scale(0.9);
+      opacity: 0.7;
+  }
+  50% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(0.9);
+      opacity: 0.7;
+  }
+}
+@-webkit-keyframes pulse {
+  0% {
+      -webkit-transform: scale(0.95);
+      opacity: 0.7;
+  }
+  50% {
+      -webkit-transform: scale(1);
+      opacity: 1;
+  }
+  100% {
+      -webkit-transform: scale(0.95);
+      opacity: 0.7;
+  }
+}
+@-webkit-keyframes animaImagenSliderHome {
+  0% {
+      -webkit-transform: scale(1.1);
+      -webkit-transition: -webkit-transform 20000ms linear 0s;
+  }
+  100% {
+      -webkit-transform: scale(1.2);
+      -webkit-transition: -webkit-transform 20000ms linear 0s;
+  }
+}
+@-moz-keyframes animaImagenSliderHome {
+  0% {
+      -moz-transform: scale(1.1);
+      -moz-transition: -moz-transform 20000ms linear 0s;
+  }
+  100% {
+      -moz-transform: scale(1.2);
+      -moz-transition: -moz-transform 20000ms linear 0s;
+  }
+}
+@-ms-keyframes animaImagenSliderHome {
+  0% {
+      -ms-transform: scale(1.1);
+      -ms-transition: -ms-transform 20000ms linear 0s;
+  }
+  100% {
+      -ms-transform: scale(1.2);
+      -ms-transition: -ms-transform 20000ms linear 0s;
+  }
+}
+@-o-keyframes animaImagenSliderHome {
+  0% {
+      -o-transform: scale(1.1);
+      -o-transition: -o-transform 20000ms linear 0s;
+  }
+  100% {
+      -o-transform: scale(1.2);
+      -o-transition: -o-transform 20000ms linear 0s;
+  }
+}
+@keyframes animaImagenSliderHome {
+  0% {
+      transform: scale(1.1);
+      transition: transform 20000ms linear 0s;
+  }
+  100% {
+      transform: scale(1.2);
+      transition: transform 20000ms linear 0s;
+  }
+}
+
+
+.Proceso_ingreso .contenedor_front
+
+/* Works on Firefox */
+.Proceso_ingreso  {
+scrollbar-width: thin;
+scrollbar-color: #f0f0f1 #e1e1e17;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.Proceso_ingreso ::-webkit-scrollbar {
+width: 12px;
+}
+
+.Proceso_ingreso ::-webkit-scrollbar-track {
+background: #fff;
+}
+
+.Proceso_ingreso ::-webkit-scrollbar-thumb {
+background-color: #da0921;
+border-radius: 20px;
+border: 3px solid #fff;
+}
+
+.Proceso_ingreso {
+  background-color: #f4f4f4;
+  padding: 4% 0;
+}
+.Proceso_ingreso h2 {
+  font-weight: 900;
+  text-align: center;
+  font-size: 4em;
+}
+.Proceso_ingreso .imagenciudad {
+  background-image: url(/PortalUrosario/media/UR-V4/Estudiantes/img/ciudad_uno.png);
+  height: auto;
+  background-repeat: no-repeat;
+  background-position-x: 101%;
+  background-position-y: 136px;
+}
+.Proceso_ingreso .imagenciudad-dos {
+  background-image: url(/PortalUrosario/media/UR-V4/Estudiantes/img/ciudad_dos.png);
+  height: auto;
+  background-repeat: no-repeat;
+  background-position-x: -2%;
+  background-position-y: 136px;
+}
+.Proceso_ingreso .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.Proceso_ingreso .img-content {
+  position: relative;
+  box-shadow: 4px 4px 12px #00000024;
+  border-radius: 20px;
+}
+.Proceso_ingreso .img-content.Azul::before {
+  content: "";
+  position: absolute;
+  background-color: #211d339e;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #1d1c6dbd, #0800297a);
+}
+.Proceso_ingreso .espacio {
+  padding: 2% 7% 0 7%;
+}
+.Proceso_ingreso .contenedor_front,
+.contenedor_front2 {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  font-weight: 700;
+  padding: 17% 10%;
+  font-size: 1.7em;
+  line-height: 1em;
+  z-index: 0;
+  width: 100%;
+  cursor:pointer;
+}
+.Proceso_ingreso .contenedor_front2 {
+  color: #190356 !important;
+}
+.Proceso_ingreso .contenedor_front img {
+  width: 28%;
+}
+.Proceso_ingreso .contenedor_front span {
+  font-size: 1.8em;
+  margin-bottom: 39%;
+  display: block;
+}
+.Proceso_ingreso .contenedor_front2 img {
+  width: 28%;
+}
+.Proceso_ingreso .contenedor_front2 span {
+  font-size: 1.8em;
+  margin-bottom: 39%;
+  display: block;
+}
+.Proceso_ingreso img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.overlay i {
+  background-color: #da0921;
+  color: #ffff;
+  padding: 4px;
+  width: 24px;
+  text-align: center;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin-bottom: 5px;
+  vertical-align:top;
+}
+
+.Proceso_ingreso .overlay {
+  position: absolute;
+  top: 26px;
+  right: 0;
+  bottom: 0;
+  left: 25px;
+  height: auto;
+  width: 88%;
+  background-image: linear-gradient(to right, hsl(0deg 0% 100%), hsl(0deg 0% 100%));
+  transition: opacity 0.3s ease-in 0s, transform 0.3s ease-in 0s, -webkit-transform 0.3s ease-in 0s;
+  opacity: 0;
+  overflow: overlay;
+  padding: 18px;
+  font-size: 0.9em;
+  z-index: 2;
+}
+.Proceso_ingreso .img-content:hover .overlay {
+  opacity: 1;
+}
+.img-content:hover .overlay .text {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+.Proceso_ingreso .overlay a {
+  font-weight: 800;
+  color: #1f264b;
+}
+.Proceso_ingreso .text {
+  -moz-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: opacity 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s;
+}
+.Proceso_ingreso p.titulo_atras {
+  font-weight: 800;
+  font-size: 1.6em;
+  line-height: 1em;
+}
+.Proceso_ingreso p.listo {
+  text-align: center;
+  font-size: 4em;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  padding-top: 12%;
+}
+.Proceso_ingreso p.text1 {
+  text-align: center;
+  line-height: 1em;
+  font-weight: 600;
+  font-size: 1.8em;
+}
+
+.flecha_moviles {
+  text-align: center;
+  display: none;
+}
+.flecha_moviles i {
+  background-color: #0a1553;
+}
+@media (max-width: 1200px) {
+.flecha_moviles {
+  text-align: center;
+  display: block;
+}
+}
+
+
+
+@media (min-width: 768px) and (min-width: 1200px) {
+.Proceso_ingreso .overlay {
+  left: 15px;
+  width: 93%;
+}
+}
+
+@media (max-width: 1024px) {
+  #slide01 .carousel-inner {
+      height: 337px !important;
+  }
+  .contenedorImagenSlide img {
+      top: -137px;
+  }
+  .Recuadro {
+      width: 33%;
+      right: 3%;
+      top: 7%;
+      font-size: 1em;
+  }
+  .Proceso_ingreso .img-content {
+      height: 621px;
+  }
+  .Proceso_ingreso .contenedor_front,
+  .contenedor_front2 {
+      font-size: 1.1em;
+  }
+
+  .Proceso_ingreso .overlay {
+  left: 0px;
+  width: 100%;
+  left: 17px;
+  height: 91%;
+  overflow: scroll;
+  overflow-x: clip;
+  }
+  .app {
+  display: inline-block;
+  width: 85%;
+}
+  .Proceso_ingreso .img-content {
+      height: auto;
+      background-color: #fff;
+  }
+  .glosario .panel-heading .panel-title > a {
+      font-size: 0.9em;
+  }
+}
+@media (max-width: 768px) {
+  #slide01 .carousel-inner {
+      height: 281px !important;
+  }
+  .Proceso_ingreso .img-content {
+      margin-bottom: 42px;
+      height: auto;
+  }
+  .texto_bienvenidos {
+      left: 13%;
+  }
+  .contenedorImagenSlide img {
+      top: -86px;
+  }
+  .texto_bienvenidos {
+      left: 4%;
+      top: 0;
+  }
+  .estudiante {
+      left: 44%;
+  }
+  .Recuadro {
+      width: 36%;
+      right: 2%;
+      top: 5%;
+  }
+
+  .espacio .row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+.Proceso_ingreso h2 {
+font-size: 3em;
+}
+  .texto_bienvenidos img {
+      width: 91%;
+  }
+  .contenedorImagenSlide img {
+      position: inherit;
+  }
+  .estudiante {
+      width: 66%;
+      left: 60%;
+  }
+  .Recuadro {
+      width: 90%;
+      right: 8%;
+      top: 43%;
+      padding: 14px 11px 0 13px;
+      font-size: 0.9em;
+      left: 24px;
+  }
+  .Proceso_ingreso .img-content {
+      margin-bottom: 25px;
+  }
+  .Proceso_ingreso .overlay {
+  height: auto;
+  left: 0;
+  top: 0;
+  border-radius: 11px;
+  }
+  .glosario hr {
+  left: -112px;
+}
+}
+@media (max-width: 415px) {
+  .Recuadro {
+      width: 91%;
+      right: 8%;
+      top: 40%;
+      left: 17px;
+      font-size: 1em;
+  }
+
+}
+@media (max-width: 411px) {
+  .Recuadro {
+      top: 53%;
+  }
+}
+@media (max-width: 376px) {
+  .Recuadro {
+      top: 42%;
+  }
+}
+@media (max-width: 361px) {
+  .Recuadro {
+      top: 46%;
+      font-size: 0.9em;
+  }
+}
+@media (max-width: 321px) {
+  .Recuadro {
+      top: 41%;
+      font-size: 0.9em;
+  }
+}

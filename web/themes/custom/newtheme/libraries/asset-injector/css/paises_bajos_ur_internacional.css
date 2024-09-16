@@ -1,0 +1,561 @@
+.carousel-control-next-icon {
+  display: none;
+}
+.carousel-control-prev-icon {
+  display: none;
+}
+
+      img.animacionBg {
+          width: 90%;
+      }
+      p.text-justifity a {
+          color: #da0921;
+          font-weight: 700;
+      }
+      p.text-justifitya: hover {
+          color: white;
+          font-weight: 800;
+      }
+      .container a {
+          color: #da0921;
+          font-weight: 700;
+      }
+
+      .Semestre_Corea_2.contenedor-rrss {
+          background-color: #e2e2e2;
+      }
+      /*Fin ajustes estilos Julio 28*/
+
+      body {
+          font-size: 1.1em;
+      }
+      .sin-espacio {
+          padding: 0;
+          margin: 0;
+      }
+      .slick-next,
+      .slick-prev {
+          z-index: 2;
+      }
+      .row.maseventos {
+          margin-top: 30px;
+      }
+      a.btn-ver-mas {
+          background: inherit !important;
+          border-bottom: solid 2px #da0921;
+          color: #da0921 !important;
+          cursor: pointer;
+      }
+      .logo2 {
+          margin: auto;
+          display: block;
+          width: 100%;
+          text-align: center;
+      }
+      .espacio-dere {
+          padding-right: 0;
+      }
+      .Banner_Corea {
+          background: linear-gradient(#da092100 100%, rgba(181, 26, 26, 0.32) 100%), url(/PortalUrosario/media/UR-V4/UR%20internacional/img/banner_semestre_Corea.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          min-height: 546px;
+          align-items: center;
+          display: flex;
+          background-position-x: 21%;
+          background-position-y: 10%;
+          position: relative;
+          box-shadow: 2px 2px 5px rgb(0 0 0 / 29%);
+      }
+      .Semestre_Corea h2 {
+          font-size: 2.3em;
+          font-weight: 900;
+          color: #000;
+          padding: 5px 0px;
+          margin: 0;
+          font-family: Nunito;
+      }
+      .Semestre_Corea h3 {
+          font-size: 1.5em;
+          font-weight: 700;
+          color: #000;
+          padding: 5px 0px;
+          margin: 0;
+      }
+      .Semestre_Corea hr {
+          width: 50%;
+          position: static;
+          border: 2px solid #da0921;
+          display: inline-block;
+          margin: 3px -34%;
+          margin-bottom: 28px;
+          background: #da0820;
+          opacity: inherit;
+      }
+      .btnuno a {
+          background-color: #da0921;
+          color: #ffff;
+          font-weight: 700;
+          padding: 3px 20px;
+          font-size: 1.3em;
+          margin: auto;
+          display: table;
+          transition: 1s;
+          text-decoration: none;
+      }
+      .btnuno a:hover {
+          background-color: #27336f;
+      }
+      .contenedoruno h3 {
+          background-color: #27336f;
+          color: #fff;
+          padding: 7px 20px;
+          font-size: 1.1em;
+          border-left: 5px solid#da0921;
+      }
+      .contenedor {
+          box-shadow: 1px 5px 6px 3px #e8e6e6;
+          padding: 0px 0px;
+          border-left: 4px solid#da0921;
+          background-color: #ffffff;
+          margin-bottom: 26px;
+      }
+      .Semestre_Corea_2 {
+          background-color: #ffffff;
+      }
+      .Semestre_Corea_3 {
+          background-color: #dadae5;
+      }
+      .Semestre_Corea_2 iframe {
+          padding: 4% 2% 13% 2%;
+          background-color: white;
+          box-shadow: 1px 4px 5px #0202024f;
+      }
+      .Semestre_Corea_2 .carousel-indicators {
+          bottom: -16px;
+      }
+      #carouselExampleIndicators {
+          padding: 15px 12px 23px;
+          background-color: white;
+          box-shadow: 1px 4px 5px #02020240;
+      }
+      .Semestre_Corea_4 {
+          background-color: #ffffff;
+          padding: 3% 0 0;
+      }
+      .Semestre_Corea_4 p {
+          padding-top: 20%;
+          background-color: white;
+          padding: 28px;
+          border: 3px dashed #01226e;
+      }
+      .Semestre_Corea_1 h2 {
+          color: #ffff;
+      }
+      .Semestre_Corea_1 {
+          background: linear-gradient(#020e45d1 100%, #cdc686 100%), url(/sites/default/files/2022-12/fondo-corea.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          align-items: center;
+          color: #ffff;
+          display: flex;
+          background-position-x: 21%;
+          background-position-y: 10%;
+          position: relative;
+          box-shadow: 2px 2px 5px rgb(0 0 0 / 29%);
+      }
+      .Semestre_Corea_4 p::before {
+          width: 53px;
+          height: 0px;
+          border-top: 32px solid transparent;
+          border-left: 50px solid #da0921;
+          content: "";
+          position: absolute;
+          top: 70%;
+          left: 16px;
+          display: none;
+      }
+      .noticias {
+          background: #dadae5;
+          padding: 3%;
+      }
+      .noticias h2 {
+          font-size: 2.3em;
+          font-weight: 800;
+          color: #000000;
+          margin-bottom: 30px;
+      }
+      .noticias .content_principal {
+          background: #fff;
+          padding: 0% 3%;
+          cursor: pointer;
+          box-shadow: 7px 2px 5px #0202021a;
+      }
+      .noticias hr.linea {
+          display: none;
+      }
+      .noticias .fecha {
+          padding: 2% 5%;
+          color: #ffffff;
+          letter-spacing: 2px;
+          font-size: 0.8em !important;
+          background-color: #27336f;
+      }
+      .noticias .wrap-info {
+          padding: 1% 5%;
+          background-color: #ffffff !important;
+      }
+      .noticias .wrap-info h3 {
+          font-weight: 800;
+      }
+      .noticias .bottom-more a {
+          color: #da0921;
+          font-weight: 800;
+          font-size: 1.3em;
+          text-decoration: underline;
+          display: block;
+          margin: 30px 0 0px 0;
+          text-align: left;
+      }
+      .noticias .bottom-more a:hover {
+          transform: inherit;
+          color: #27336f;
+      }
+      .noticias .col-12.col-sm-12.col-md-12.col-lg-6.principal.eventos .col-xs-12.col-md-12.col-lg-12.hiddenOne {
+          background: #ffff;
+          margin-bottom: 17px;
+          min-height: 132px;
+      }
+      .noticias .col-12.col-sm-12.col-md-12.col-lg-6.principal.eventos .col-xs-12.col-md-4.col-lg-4 {
+          padding: 0;
+      }
+      .noticias .principal.eventos img {
+          width: 246px;
+          height: 135px;
+          object-fit: cover;
+          object-position: 0px;
+          object-position: top;
+          background-color: azure;
+      }
+      p.tuitulos {
+          padding-top: 12%;
+          font-weight: 800;
+          line-height: 1.2em;
+      }
+      .noticias h2 {
+          margin: 0;
+      }
+      .noticias hr {
+          margin: 8px -54% 39px;
+          width: 88%;
+      }
+      hr.linea2 {
+          margin: 4px 0% 2%;
+      }
+      .Redes_sociales i.iconoc {
+          text-align: center;
+          margin: auto;
+          display: block;
+          font-size: 1.4em;
+      }
+      .Redes_sociales {
+          font-weight: 700;
+      }
+      .Redes_sociales .flex-container {
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: center;
+      }
+      .wrap-info p {
+          font-size: 0.8em;
+      }
+      .Redes_sociales .flex-container > div {
+          width: 11%;
+          margin: 10px;
+          background-color: #da0921;
+          text-align: center;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 9px;
+          transition: 1s;
+      }
+      .Redes_sociales .flex-container > div i {
+          font-size: 2em;
+          color: #ffffff;
+          padding: 9px 0;
+      }
+      .Redes_sociales .flex-container > div:hover {
+          background-color: #3f4fae;
+      }
+      .Redes_sociales i.fab.fa-twitter:hover {
+          background: #229bd200;
+      }
+      .Redes_sociales {
+          text-align: center;
+      }
+      .contenedordos h3 {
+          background-color: #ffffff;
+          color: #000000;
+          padding: 18px 20px;
+          font-size: 1.1em;
+          border-left: 5px solid#da0921;
+      }
+      .contenedordos h3 i {
+          color: #27336f;
+      }
+      .Calendario {
+          background-color: #dadae5;
+          padding: 4% 0;
+      }
+      .Calendario h2 {
+          font-size: 2.5em;
+          font-weight: 700;
+          color: #000;
+          padding: 5px 0px;
+          margin: 0;
+      }
+      .Calendario .contenedor img {
+          width: 179px;
+          height: 122px;
+          object-fit: cover;
+          object-position: 0px;
+      }
+      .Calendario p.titulo1 {
+          font-weight: 900;
+          padding-top: 8px;
+          font-size: 0.9em;
+          padding-right: 20px;
+          line-height: 1.3em;
+          margin-bottom: 3px;
+      }
+      .Calendario a {
+          background-color: #da0921;
+          color: #fff;
+          font-weight: 700;
+          padding: 3px 11px;
+          font-size: 1.1em;
+          position: absolute;
+          right: 14px;
+          bottom: 0px;
+          transition: 1s;
+          text-decoration: none;
+      }
+      .Calendario a:hover {
+          background-color: #1b142d;
+      }
+      .Calendario .fecha {
+          font-weight: 900;
+          margin: 0;
+      }
+      .Calendario .fecha i {
+          color: #da0921;
+      }
+  .content_principal a {
+  background-color: #da0921;
+  color: #fff;
+  font-weight: 700;
+  padding: 3px 11px;
+  font-size: 0.8em;
+  position: absolute;
+  right: -1px;
+  bottom: 19px;
+  transition: 1s;
+  text-decoration: none;
+}
+      .content_principal a:hover {
+          background-color: #1b142d;
+      }
+      .Memoria .Memoria .carousel-control-prev,
+      .carousel-control-next {
+          height: 100px;
+          width: 100px;
+          outline: white;
+          background-size: 100%, 100%;
+          border-radius: 50%;
+          background-image: none;
+      }
+      .Memoria .carousel-control-prev:after {
+          content: "<";
+          font-size: 28px;
+          color: #fff;
+          font-family: cursive;
+          position: absolute;
+          left: 967px;
+          background-color: #da0921;
+          opacity: 100;
+          width: 48px;
+          padding-bottom: 6px;
+          top: -75px;
+      }
+      .Memoria .carousel-control-next:after {
+          content: ">";
+          font-size: 28px;
+          color: #ffffff;
+          font-family: cursive;
+          position: absolute;
+          right: 34px;
+          top: -75px;
+          background-color: #da0921;
+          opacity: 100;
+          width: 48px;
+          padding-bottom: 6px;
+      }
+      .Memoria h2 {
+          color: #fff;
+      }
+.Memoria {
+  background: #ffffff;
+  padding: 3%;
+  background: linear-gradient(#020e45d1 100%, #cdc686 100%), url(https://urosario.edu.co/sites/default/files/2022-11/callum-parker-clzrgdunfxc-unsplash.jpg?itok=7_xFdCTe);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  color: #ffff;
+  display: flex;
+  background-position-x: 21%;
+  background-position-y: 10%;
+  position: relative;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 29%);
+}
+      a.btn-link {
+          background-color: #da0921;
+          color: #ffff;
+          font-weight: 700;
+          padding: 3px 20px;
+          font-size: 1.3em;
+          margin: 0;
+          display: table;
+          transition: 1s;
+          text-decoration: none;
+          margin-top: 20px;
+          text-decoration: none;
+      }
+      a.btn-link:hover {
+          background-color: #27336f;
+          color: #fff;
+      }
+      .Memoria p {
+          font-size: 0.8em;
+      }
+      .Memoria img {
+          padding: 17px 12px 46px;
+          box-shadow: -1px 8px 20px 0px #000002;
+          background-color: #fff;
+      }
+      .Memoria .carousel-item {
+          padding: 20px;
+      }
+
+      .Semestre_Corea_2.contenedor-rrss {
+          background-color: #e2e2e2;
+      }
+
+      @media (min-width: 768px) and (max-width: 1194px) {
+          .Memoria .carousel-control-prev:after {
+              left: 782px;
+          }
+      }
+      @media (min-width: 768px) and (max-width: 1008px) {
+          .Memoria .carousel-control-prev:after {
+              left: 545px;
+          }
+      }
+      @media (min-width: 568px) and (max-width: 768px) {
+          .Memoria .carousel-control-prev:after {
+              left: 354px;
+              top: -42px;
+          }
+          .Memoria .carousel-control-next:after {
+              right: 72px;
+              top: -43px;
+          }
+      }
+      @media (min-width: 428px) and (max-width: 568px) {
+          .Memoria .carousel-control-prev:after {
+              left: 283px;
+              top: -42px;
+          }
+          .Memoria .carousel-control-next:after {
+              right: 21px;
+              top: -43px;
+          }
+          .Semestre_Corea_4 {
+              padding: 3% 10% 0;
+          }
+      }
+
+      @media (min-width: 300px) and (max-width: 428px) {
+          .Memoria .carousel-control-prev:after {
+              left: 170px;
+              top: -42px;
+          }
+          .Memoria .carousel-control-next:after {
+              right: 21px;
+              top: -43px;
+          }
+      }
+
+      @media (max-width: 768px) {
+          .Banner_Corea {
+              background-position-x: 83%;
+          }
+          .Semestre_Corea_2 iframe {
+              height: 280px;
+          }
+          .Calendario .contenedor img {
+              object-position: -33px;
+          }
+      }
+      @media (max-width: 600px) {
+          .Banner_Corea {
+              background-position-x: 6%;
+          }
+          .Semestre_Corea h2 {
+              font-size: 2.1em;
+          }
+          .Semestre_Corea_4 p {
+              margin-top: 0;
+          }
+          .Semestre_Corea_4 p::before {
+              top: 76%;
+          }
+          .Redes_sociales .flex-container > div {
+              width: 21%;
+          }
+          .noticias h2 {
+              font-size: 2.1em;
+          }
+          .Calendario .contenedor img {
+              width: 112% !important;
+              height: auto !important;
+              font-weight: 100;
+              object-position: 0px;
+              background-color: #fff;
+          }
+          .Calendario {
+              background-color: #dadae5;
+              padding: 7% 9%;
+          }
+          .noticias .principal.eventos img {
+              height: inherit;
+          }
+          .noticias .content_principal {
+              margin-bottom: 28px;
+          }
+          .espacio-dere {
+              padding: 0;
+          }
+          .noticias {
+              padding: 3% 12%;
+          }
+          .container {
+              /* box-shadow: 1px 5px 6px 3px #e8e6e6; */
+              padding: 0px 0px;
+              /* border-left: 4px solid #da0921; */
+              /* background-color: #ffffff; */
+              margin-bottom: 26px;
+          }
+      }

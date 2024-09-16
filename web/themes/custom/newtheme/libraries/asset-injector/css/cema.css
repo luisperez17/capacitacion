@@ -1,0 +1,141 @@
+.text  ul {
+  --icon-space: 1.3em;
+  list-style: none;
+  padding: 0;
+}
+.text li {
+    list-style: none;
+}
+.text  li {
+  padding-left: var(--icon-space);
+}
+
+.text  li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: calc( var(--icon-space) * -1 );
+  width: var(--icon-space);
+    color:#047baf;
+    margin-right:4px;
+}
+
+.section-title--line-down::after {
+    background-color: #047cb0;
+}
+.section-title--line-start::after {
+    background-color: #057cb0;
+}
+.section-title--line-down-center::after {
+    background-color: #057cb0;
+}
+.MenuReble nav a.nav-link.active {
+    color: #067fb0;
+}
+.accordion-item {
+    background-color: #dadae5;
+}
+.card-profile-person img {
+    border: solid #057cb0;
+}
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #057cb0;
+    color: #fff;
+}
+.accordion-button {
+    color: #fff;
+    background-color: #046894;
+    border-left: 4px solid #045274;
+}
+.tab-bootstap .nav-link.active {
+    color: #fff;
+    background-color: #057cb0;
+}
+
+.MenuReble nav a.nav-link {
+    color: #006b9a;
+    font-weight: 700;
+}
+.MenuReble nav a.nav-link:hover {
+    color: #0991b9;
+}
+
+.MenuReble nav {
+    padding: 2px 34px;
+    position: fixed;
+    top: 120px;
+    z-index: 3;
+    margin: auto;
+    width: 100%;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background-color: #333542;
+    background-color: #f9f9f9 !important;
+}
+
+#Banner h1 {
+    color: #006b9a;
+    line-height: 1em;
+    text-align: right;
+}
+
+.SeccionMisionVision::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(2 79 113 / 82%);
+    z-index: 0;
+}
+.SeccionMisionVision {
+    position: relative;
+}
+.Texto {
+    position: relative;
+    z-index: 3;
+}
+.caja {
+    background-color: #eaeaf0;
+    position:relative;
+    padding: 23px;
+    margin-bottom: 23px;
+    height: 192px;
+}
+.caja:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-right: 35px solid transparent;
+    border-top: 37px solid #0594d3;
+    content: "";
+}
+
+.LienasInvesigacion img {
+    width: 51%;
+    margin: auto;
+}
+@media (max-width: 600px) {
+	#Banner h1 {
+    font-size: 2.5em!important;
+        color: #025174;
+}
+
+.LienasInvesigacion img {
+    width: 100%;
+}
+button.navbar-toggler {
+    background-color: #006b9a;
+    color: #fff;
+}
+.MenuReble nav {
+    position: relative;
+    top: 0;
+}
+.caja {
+    height: auto;
+}
+}

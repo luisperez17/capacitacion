@@ -1,0 +1,344 @@
+.logo-siglo{
+  display: initial !important;
+}
+.header{
+height:150px;
+width:100%;
+position:fixed;
+background: url(https://urosario.edu.co/sites/default/files/2022-11/puntitos_tileable.png), linear-gradient(90deg, #54B44C 0%, #175B10 100%);
+background-size: 25px 25px, cover;
+background-repeat:repeat, no-repeat;
+text-align:center;
+z-index:10;
+}
+
+.title h2{
+color: #54B44C;
+}
+
+.timeline h1{
+color: #54B44C;
+font-weight:800;
+}
+
+.h1-wrap{
+background: linear-gradient(90deg, #54B44C 0%, #175B10 100%);
+padding-top:20px;
+padding-left:20px;
+padding-right:20px;
+display: inline-block;
+height: 75px;
+}
+
+.scroll-box .year{
+color:#54B44C;
+}
+
+.btn-custom{
+color: #fff;
+background: linear-gradient(90deg, #54B44C 0%, #175B10 100%);
+transition:0.2s;
+margin-bottom:5px;
+}
+
+.btn-custom:hover{
+color:#fff;
+transform: scale(1.05);
+}
+
+.custom-bullet{
+position: absolute;
+top: 50%;
+left: -18px;
+transform: translateY(-50%);
+width:10px;
+height:10px;
+border-radius:50px;
+background-color: #54B44C;
+}
+
+.custom-lineup{
+position: absolute;
+top: 0;
+left: -14px;
+width:1px;
+height:calc(50% - 15px);
+background-color: #54B44C;
+}
+
+.custom-linedown{
+position: absolute;
+top: calc(100% + 15px);
+left: -14px;
+transform: translateY(-100%);
+width:1px;
+height:calc(50%);
+background-color: #54B44C;
+}
+
+.scroll-box::-webkit-scrollbar-thumb
+{
+background-color: #54B44C;
+border-radius:5px;
+}
+
+#line-1{
+position:absolute;
+top:192px;
+background-color: #54B44C;
+height:0px;
+width:4px;
+left:calc(50% - 2px);
+transform:translateX(-50%);
+animation: line1 0.5s linear forwards;
+}
+
+#line-2{
+position:absolute;
+top:238px;
+background-color: #54B44C;
+height:4px;
+width:0px;
+right:50%;
+animation: line2 0.5s linear forwards;
+animation-delay: 0.5s;
+}
+
+#line-3{
+position:absolute;
+top:238px;
+background-color: #54B44C;
+height:0px;
+width:4px;
+left:2%;
+transform:translateX(-50%);
+animation: line3 0.5s linear forwards;
+animation-delay: 1s;
+}
+
+#line-4{
+position:absolute;
+top:910px;
+background-color: #54B44C;
+height:4px;
+width:0px;
+left:2%;
+animation: line4 0.5s linear forwards;
+animation-delay: 1.5s;
+}
+
+#line-5{
+position:absolute;
+top:910px;
+background-color: #54B44C;
+height:0px;
+width:4px;
+left:98%;
+transform:translateX(-50%);
+animation: line5 0.5s linear forwards;
+animation-delay: 2s;
+}
+
+#line-6{
+position:absolute;
+top: 1630px;
+background-color: #54B44C;
+height:4px;
+width:0px;
+right:2%;
+animation: line6 0.5s linear forwards;
+animation-delay: 1.5s;
+}
+
+#line-7{
+position:absolute;
+top:1630px;
+background-color: #54B44C;
+height:0px;
+width:4px;
+left:2%;
+transform:translateX(-50%);
+animation: line7 0.5s linear forwards;
+animation-delay: 2s;
+}
+
+#line-8{
+position:absolute;
+top: 2350px;
+background-color: #54B44C;
+height:4px;
+width:0px;
+left:2%;
+animation: line8 0.5s linear forwards;
+animation-delay: 1.5s;
+}
+
+#line-9{
+position:absolute;
+top:2350px;
+background-color: #54B44C;
+height:0px;
+width:4px;
+right:2%;
+transform:translateX(-50%);
+animation: line9 0.5s linear forwards;
+animation-delay: 2s;
+}
+
+#line-10{
+position:absolute;
+top: 3070px;
+background-color: #54B44C;
+height:4px;
+width:0px;
+right:2%;
+animation: line10 0.5s linear forwards;
+animation-delay: 1.5s;
+}
+
+#line-11{
+position:absolute;
+top:3070px;
+background-color: #54B44C;
+height:0px;
+width:4px;
+left:2%;
+transform:translateX(-50%);
+animation: line11 0.5s linear forwards;
+animation-delay: 2s;
+}
+
+@keyframes line1 {
+from {height: 0px;}
+to {height: 50px;}
+}
+
+@keyframes line2 {
+from {width: 0px;}
+to {width: 48%;}
+}
+
+@keyframes line3 {
+from {height: 0px;}
+to {height: 676px;}
+}
+
+@keyframes line4 {
+from {width: 0px;}
+to {width: 96%}
+}
+
+@keyframes line5 {
+from {height: 0px;}
+to {height: 720px;}
+}
+
+@keyframes line6 {
+from {width: 0px;}
+to {width: 96%}
+}
+
+@keyframes line7 {
+from {height: 0px;}
+to {height: 720px;}
+}
+
+@keyframes line8 {
+from {width: 0px;}
+to {width: 96%}
+}
+
+@keyframes line9 {
+from {height: 0px;}
+to {height: 720px;}
+}
+
+@keyframes line10 {
+from {width: 0px;}
+to {width: 96%}
+}
+
+@keyframes line11 {
+from {height: 0px;}
+to {height: 720px;}
+}
+
+#line-12{
+position:absolute;
+top:192px;
+background-color: #54B44C;
+height:0px;
+width:3px;
+left:calc(50% - 2px);
+transform:translateX(-50%);
+animation: line12 0.5s linear forwards;
+}
+
+#line-13{
+position:absolute;
+top:238px;
+background-color: #54B44C;
+height:3px;
+width:0px;
+right:50%;
+animation: line13 0.5s linear forwards;
+animation-delay: 0.5s;
+}
+
+#line-14{
+position:absolute;
+top:238px;
+background-color: #54B44C;
+height:0px;
+width:3px;
+left:10px;
+transform:translateX(-50%);
+animation: line14 0.5s linear forwards;
+animation-delay: 1s;
+}
+
+@keyframes line12 {
+from {height: 0px;}
+to {height: 50px;}
+}
+
+@keyframes line13 {
+from {width: 0px;}
+to {width: calc(50% - 10px);}
+}
+
+@keyframes line14 {
+from {height: 0px;}
+to {height: 6800px;}
+}
+
+.popup{
+max-height:80%;
+position: absolute;
+top: 50%;
+left: 50%;
+padding:50px;
+border-radius:5px;
+border: 2px solid #54B44C;
+width:40%;
+min-width:340px;
+color: black;
+transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+background-color: #fff;;
+background: url(https://urosario.edu.co/sites/default/files/2022-11/bg.png) no-repeat center center; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow-y:auto;
+}
+
+#closePopUp{
+font-weight:800;
+position:absolute;
+top:10px;
+right:30px;
+color:#54B44C;
+cursor:pointer;
+}

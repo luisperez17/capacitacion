@@ -1,0 +1,528 @@
+div#ContenedorTres, div#ContenedorSeies {
+  display: none;
+}
+.modal-footer .btn {
+  background-color: #fff;
+  border: 1px solid#da0921;
+  color: #000;
+  margin: auto;
+}
+.modal-header {
+  background: #dadae5;
+}
+.modal-footer .btn:hover {
+  background-color: #da0921;
+  color: #fff;
+}
+.Significa {
+  padding-top: 86px;
+}
+
+#TiemposFono.lineaDelTiempo .lineaDelTiempo h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #000;
+  padding: 5px 0px;
+  margin: 0;
+  font-weight: 800;
+}
+
+#TiemposFono.lineaDelTiempo .foto img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+#TiemposFono.lineaDelTiempo .foto {
+  width: 40%;
+  float: left;
+  margin-right: 20px;
+  font-weight: 300 !important;
+  border-radius: 100%;
+  border: solid 2px #dadae5;
+  padding: 7px;
+  margin-bottom: 30px;
+}
+
+#TiemposFono.lineaDelTiempo .fecha {
+  display: table;
+  margin-bottom: 0px;
+  color: #da0820;
+  font-weight: bold;
+  font-size: 1.9em;
+}
+
+#TiemposFono.lineaDelTiempo .desc p {
+  font-weight: 300;
+  line-height: 17px;
+}
+
+#TiemposFono.lineaDelTiempo .lineamedio {
+  height: 4px;
+  width: 100%;
+  background: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  border-bottom: dotted 4px #dadae5;
+}
+
+#TiemposFono.lineaDelTiempo .tituloInfo {
+  background: #ffffff;
+  display: table;
+  margin: 0 auto;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 0px;
+  position: relative;
+  top: -34px;
+  border: solid 2px #da0921;
+  font-size: 1.6em;
+  color: #da0921;
+  line-height: 29px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+#TiemposFono.lineaDelTiempo .tituloInfo p {
+  text-align: center;
+  font-size: 0.76em;
+  margin-bottom: 0;
+  color: #2c2d76;
+  margin-top: 0;
+  font-weight: bold;
+}
+#Experiencias.VideosEconomia1 iframe {
+  border: 7px solid #fff;
+  box-shadow: 1px 6px 5px #0000001f;
+}
+#re-acreditacion.participar {
+  padding: 4% 4% 0;
+  background: radial-gradient(#dadae5bd, #d2d2e4e0, #dadae5), url(/sites/default/files/2022-08/proceso.jpg) fixed center;
+  background-size: cover;
+}
+#re-acreditacion h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #000;
+  padding: 5px 0px;
+  margin: 0;
+  font-weight: 800;
+}
+#re-acreditacion .cajaParticipar h4 {
+  float: left;
+  font-size: 3em;
+  font-weight: 900;
+  margin-right: 12px;
+  margin-bottom: 78px;
+  color: #da0b21;
+  margin-top: -11px;
+}
+#re-acreditacion .cajaParticipar strong {
+  color: #1d1861;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+#re-acreditacion .cajaParticipar {
+  margin-bottom: 0;
+  padding: 4% 5%;
+  font-weight: 300;
+  font-size: 1em;
+  margin-left: 0;
+  text-align: left;
+  width: 100%;
+  text-align: left;
+  line-height: 22px;
+  font-weight: 300 !important;
+  min-height: 0;
+  padding-bottom: 0px;
+}
+
+#MisionVision.Programa {
+  background: linear-gradient(#da0820, #c20e29d6), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Acreditacion-alta-calidad/Medicina/img/mision-vision.png) fixed center;
+  display: table;
+  width: 100%;
+  min-height: 470px;
+  background-size: cover;
+  padding: 3% 3% 3%;
+}
+#MisionVision.Programa h2 {
+  color: #fff;
+}
+#MisionVision.cajaEtapas p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 22px;
+}
+#MisionVision.Programa .cajaEtapas h3 {
+  float: left;
+  margin-right: 20px;
+  min-height: 80px;
+  font-size: 3em;
+  font-weight: 900;
+  color: #201c46;
+  margin-top: -10px;
+  border-right: dotted 4px rgba(255, 255, 255, 0.19);
+  padding: 0% 3%;
+  margin-bottom: -3px;
+  position: relative;
+  top: 10px;
+}
+#MisionVision.Programa .cajaEtapas p {
+  color: #fff;
+}
+#MisionVision.Programa hr,
+.evalua hr,
+.participar hr,
+.lineaDelTiempo hr {
+  margin: 20px 0px 20px -50%;
+  border: 2px solid #fff;
+  display: inline-block;
+  position: static;
+  background: #fff;
+  opacity: inherit;
+  width: 70%;
+}
+.participar hr,
+.lineaDelTiempo hr {
+  border: 2px solid #da0921;
+  background-color: #da0921;
+}
+#MisionVision.Programa ul {
+  color: #fff;
+  font-size: 1.1em;
+}
+#FactoresEvaluacion.evalua {
+  padding: 3% 0% 2%;
+  background: linear-gradient(90deg, #1b142d, #2e3180);
+}
+#FactoresEvaluacion h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+  padding: 5px 0px;
+  margin: 0;
+  font-weight: 800;
+}
+#FactoresEvaluacion .servicios p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 18px;
+}
+#FactoresEvaluacion .cajasservicios h3 {
+  text-decoration: none;
+  font-size: .8em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.4em;
+}
+#FactoresEvaluacion  .cajasservicios:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.19);
+}
+
+#FactoresEvaluacion .cajasservicios {
+  background: rgba(255,255,255,0.09);
+  border: 1px solid#ffffff61;
+  margin-bottom: 30px;
+  margin-bottom: 23px;
+  min-height: 150px;
+  text-align: center;
+  padding: 4% 6% 0%;
+  min-height: 153px;
+  cursor: auto;
+  margin: 0;
+  width: 100%;
+}
+#FactoresEvaluacion .cajasservicios img {
+  display: table;
+  width: 65px;
+  margin: 0 auto;
+}
+#FactoresEvaluacion .modales {
+  display: none;
+}
+#LinesdeTimepo *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#LinesdeTimepo button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+#LinesdeTimepo .section h2 {
+  font-size: 1.3rem;
+}
+#LinesdeTimepo .timeline {
+  white-space: nowrap;
+  overflow-x: hidden;
+  background: #dadae5;
+}
+
+#LinesdeTimepo .timeline ol {
+  font-size: 0;
+  width: 100vw;
+  padding: 250px 0;
+  transition: all 1s;
+}
+
+#LinesdeTimepo .timeline ol li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 160px;
+  height: 3px;
+  background: #fff;
+}
+
+#LinesdeTimepo .timeline ol li:last-child {
+  width: 280px;
+}
+
+#LinesdeTimepo .timeline ol span {
+  font-size: 1.6em;
+  font-weight: 600;
+  background: #da0921;
+  padding: 2px 13px;
+  color: #fff;
+}
+
+#LinesdeTimepo .timeline ol li:not(:first-child) {
+  margin-left: 14px;
+}
+
+#LinesdeTimepo .timeline ol li::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(-5% + 1px);
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #f45b69;
+}
+
+#LinesdeTimepo .timeline ol li div {
+  position: absolute;
+  left: calc(-5% + 7px);
+  width: 280px;
+  padding: 15px;
+  font-size: 1rem;
+  white-space: normal;
+  color: black;
+  background: white;
+}
+
+#LinesdeTimepo .timeline ol li div::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#LinesdeTimepo .timeline ol li:nth-child(odd) div {
+  top: -16px;
+  transform: translateY(-100%);
+}
+
+#LinesdeTimepo .timeline ol li:nth-child(odd) div::before {
+  top: 100%;
+  border-width: 8px 8px 0 0;
+  border-color: white transparent transparent transparent;
+}
+
+#LinesdeTimepo .timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+}
+
+.timeline ol li:nth-child(even) div::before {
+  top: -8px;
+  border-width: 8px 0 0 8px;
+  border-color: transparent transparent transparent white;
+}
+
+#LinesdeTimepo .timeline time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #d6d6d6;
+}
+
+/* TIMELINE ARROWS*/
+
+#LinesdeTimepo .timeline .arrows {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#LinesdeTimepo .timeline .arrows .arrow__prev {
+  margin-right: 20px;
+}
+
+#LinesdeTimepo .timeline .disabled {
+  opacity: 0.5;
+}
+
+#LinesdeTimepo .timeline .arrows img {
+  width: 45px;
+  height: 45px;
+}
+#ContenedorDos ul {
+list-style-position: inside;
+padding-left: 0;
+}
+#ContenedorDos ul li {
+list-style: none;
+position: relative;
+padding-left: 20px;
+}
+#ContenedorDos ul li::before {
+position: absolute;
+top: calc(50% - 4px);
+left: 0px;
+font-family: "Font Awesome 5 Free";
+content: "\f00c";
+font-size:.9em;
+font-weight: 900;
+  color:#da0921;
+
+}
+.masinfo {
+  background: #da0921;
+  padding: 0%;
+  color:#fff;
+  position: relative;
+}
+.cajaIco {
+  background: linear-gradient(90deg, #1b142d, #2e3180);
+  padding: 5%;
+  height: 50px;
+      position: relative;
+}
+.cajaIco h3 {
+  font-size: 1.4em;
+}
+img.vineta {
+  position: absolute;
+right: -30px;
+  top: 0;
+  height: 50px;
+}
+.masinfo p {
+  margin: 11px 0 0 11px;
+}
+/* GENERAL MEDIA QUERIES */
+
+@media (min-width: 768px) and (max-width: 1358px) {
+  #ContenedorUno,
+  #ContenedorDos,
+  #ContenedorTres,
+  #FactoresEvaluacion,
+  #MisionVision,
+  #ContenedorSeies,
+  #re-acreditacion,
+  #ContenedorOcho {
+padding: 5% 5%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #ContenedorUno,
+  #ContenedorDos,
+  #ContenedorTres,
+  #FactoresEvaluacion,
+  #MisionVision,
+  #ContenedorSeies,
+  #re-acreditacion,
+  #ContenedorOcho {
+      padding: 13% 10%;
+  }
+  .segunda {
+      margin-top: 212px;
+  }
+  #TiemposFono.lineaDelTiempo .lineamedio {
+      margin-bottom: inherit;
+  }
+  #FactoresEvaluacion.evalua {
+      padding: 9%;
+  }
+  #MisionVision.Programa {
+      padding: 11% 8% 12%;
+  }
+  #ContenedorSeies {
+      margin: 0;
+  }
+  .Significa {
+      padding-top: 0;
+  }
+  #LinesdeTimepo .timeline ol,
+  .timeline ol li {
+      width: auto;
+  }
+
+  #LinesdeTimepo .timeline ol {
+      padding: 0;
+      transform: none !important;
+  }
+
+  #LinesdeTimepo .timeline ol li {
+      display: block;
+      height: auto;
+      background: transparent;
+  }
+
+  #LinesdeTimepo .timeline ol li:first-child {
+      margin-top: 25px;
+  }
+
+  #LinesdeTimepo .timeline ol li:not(:first-child) {
+      margin-left: auto;
+  }
+
+  #LinesdeTimepo .timeline ol li div {
+      width: 94%;
+      height: auto !important;
+      margin: 0 auto 25px;
+  }
+
+  #LinesdeTimepo .timeline ol li div {
+      position: static;
+  }
+
+  #LinesdeTimepo .timeline ol li:nth-child(odd) div {
+      transform: none;
+  }
+
+  #LinesdeTimepo .timeline ol li:nth-child(odd) div::before,
+  .timeline ol li:nth-child(even) div::before {
+      left: 50%;
+      top: 100%;
+      transform: translateX(-50%);
+      border: none;
+      border-left: 1px solid white;
+      height: 25px;
+  }
+
+  #LinesdeTimepo .timeline ol li:last-child,
+  .timeline ol li:nth-last-child(2) div::before,
+  .timeline ol li:not(:last-child)::after,
+  .timeline .arrows {
+      display: none;
+  }
+}

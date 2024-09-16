@@ -1,0 +1,125 @@
+#CenaBenefica .FechaEvento h2 {
+  color: #352c3d;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+  line-height: 58px;
+}
+#CenaBenefica .FechaEvento h2 strong {
+  cursor: pointer;
+  margin: 0;
+  margin-bottom: 10px;
+  -webkit-background-clip: text;
+  color: #352c3d;
+
+  line-height: 52px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 29px;
+  font-weight: 600;
+}
+#CenaBenefica .FechaEvento {
+  padding: 5% 0 0;
+  margin: 0;
+  background-color: white;
+  max-width: 100%;
+  display: table;
+  border-bottom: solid 3px #f6f6f6;
+  width: 100%;
+  background: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Eventos-2021/Cena-Benefica-2021/img/bg-estudiar.jpg) no-repeat fixed bottom !important;
+}
+#CenaBenefica .FechaEvento p {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 1em;
+}
+#CenaBenefica #DatosEvento .cajaDesc {
+  background-image: linear-gradient(to right, #1d36604d, #2a2a2adb), url(/sites/default/files/2022-08/Seccion-datos.jpg) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+#CenaBenefica #DatosEvento .cajaDesc img {
+  display: table;
+  margin: auto;
+}
+#CenaBenefica #DatosEvento p {
+  color: white;
+  line-height: 1.3em;
+}
+#CenaBenefica #DatosEvento .cajaDesc h2 {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 800;
+  padding-top: 5%;
+  color: #e4ca6b;
+}
+#CenaBenefica #DatosEvento span.valor {
+  color: #e4ca6b;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+#CenaBenefica #DatosEvento h6 {
+  font-size: 1.4em;
+  color: #e4ca6b;
+  font-weight: 700;
+}
+#CenaBenefica #Mayor-informacion .ademas h3 {
+  font-size: 1.5em;
+  color: #30323d;
+  padding-right: 41px;
+  padding-bottom: 18px;
+  font-weight: 800;
+}
+#CenaBenefica #Mayor-informacion .ademas .list_items i {
+  font-size: 18px;
+  color: #e4ca6b;
+}
+#CenaBenefica #Mayor-informacion .ademas .list_items a.click_ir {
+  background: #1d3660;
+  color: #ffff;
+  padding: 7px 20px;
+  font-weight: 600;
+}
+#CenaBenefica #Mayor-informacion .ademas .list_items a.click_ir:hover {
+  background: #f1ca04;
+  color: #1a3866;
+  text-decoration: none;
+}
+#CenaBenefica #Aliados h2 {
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif !important;
+}
+#CenaBenefica #Aliados {
+  padding: 2% 0;
+  margin: 0;
+  background-color: white;
+  max-width: 100%;
+  display: table;
+  border-bottom: solid 3px #f6f6f6;
+  width: 100%;
+  background: url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/Eventos-2021/Cena-Benefica-2021/img/bg-estudiar.jpg) no-repeat fixed bottom !important;
+}
+#CenaBenefica #Aliados img.img-responsive.ima {
+  width: 67%;
+  margin: auto;
+}
+@media (max-width: 600px) {
+#CenaBenefica .FechaEvento{
+      padding: 25px 23px 0;
+}
+  
+#CenaBenefica .FechaEvento h2 {
+  font-size: 2.3rem;
+  line-height: 24px;
+}
+  #CenaBenefica #DatosEvento .cajaDesc {
+  padding: 35px;
+}
+  #Mayor-informacion {
+  padding: 0 23px;
+}
+}
+
+

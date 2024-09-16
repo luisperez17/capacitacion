@@ -1,0 +1,123 @@
+
+#NuestrosAvances ul {
+  list-style: none;
+  padding: 0;
+}
+#NuestrosAvances li {
+  padding-left: 1.3em;
+}
+#NuestrosAvances li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+    color:#d11a7c;
+}
+
+.evalua {
+    padding: 3% 0% 2%;
+    background: linear-gradient(90deg, #1b142d, #2e3180);
+}
+.servicios h2 {
+    color: #fff !important;
+}
+.servicios p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 18px;
+}
+.cajasservicios img {
+    display: table;
+    width: 65px;
+    margin: 0 auto;
+    /* filter: brightness(1000); */
+}
+.cajasservicios {
+    background: rgba(255, 255, 255, 0.09);
+    min-height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 4% 6% 0%;
+    cursor: pointer;
+    /* border: none; */
+    min-height: 170px;
+    /* margin-bottom: 20px; */
+    cursor: pointer;
+    padding: 2;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.cajasservicios:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.19);
+}
+hr {
+    width: 70%;
+    position: static;
+    border: 2px solid #a51458;
+    display: inline-block;
+    margin: 20px 0px 20px -50%;
+    background: #a51458;
+    opacity: 100;
+}
+.cajasservicios {
+    background: #ffffff;
+    min-height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 4% 6% 0%;
+    cursor: pointer;
+    border: solid 1px #ffffff52;
+    min-height: 170px;
+    cursor: pointer;
+}
+.cajasservicios {
+    background: rgba(255, 255, 255, 0.09);
+    min-height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 4% 6% 0%;
+    cursor: pointer;
+    /* border: none; */
+    min-height: 170px;
+    /* margin-bottom: 20px; */
+    cursor: pointer;
+    padding: 2;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.cajasservicios h3 {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cajaParticipar h4 {
+    float: left;
+    font-size: 4em;
+    font-weight: 900;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #a51458;
+    margin-top: -11px;
+}
+.cajaParticipar strong {
+    color: #1d1861;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.cajaimagen img {
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* padding: 0; */
+    /* width: 100%; */
+    /* left: 0; */
+    /* filter: grayscale(20%); */
+}

@@ -1,0 +1,27 @@
+@media (min-width: 426px) and (max-width: 1500px){
+  .section-forms-cursos-ur .textoDES {
+     padding: 5% 5% !important;
+  }
+  iframe.formularioInscripcion {
+  height: 800px !important;
+  zoom: 0.9;
+  -moz-transform: scale(.95,.75);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(.95,.75);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(.95,.75);
+  -webkit-transform-origin: 0 0;
+  overflow: hidden;
+  margin-top: -10px;
+  }
+  }
+  @media (max-width: 1440px){
+    .button-pague-golden{
+      padding: 5px 10px !important;
+      bottom: 2% !important;
+    }
+     .button-whatsapp {
+       padding: 5px 10px !important;
+      bottom: 2% !important;
+     }
+  }

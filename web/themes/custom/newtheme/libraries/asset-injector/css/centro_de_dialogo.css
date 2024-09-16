@@ -1,0 +1,884 @@
+/*Home*/
+
+.centroDialogo .timeline {
+  white-space: nowrap;
+  overflow-x: hidden;
+  padding-top: 22px;
+}
+.centroDialogo  .timeline ol li div {
+  position: absolute;
+  left: calc(88% + 7px);
+  width: 387px;
+  height: 222px !important;
+  padding: 11px 17px;
+  font-size: 0.9rem;
+  white-space: normal;
+  color: white;
+  background: #242757;
+}
+.centroDialogo  .timeline time {
+  display: block;
+  font-size: 1.9rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.centroDialogo  .timeline ol li {
+  width: 249px;
+}
+.centroDialogo .timeline ol li:nth-child(odd) div {
+  top: -44px;
+  transform: translateY(-100%);
+}
+.centroDialogo .timeline ol li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 243px;
+  height: 3px;
+  background: #f9aa0a;
+}
+.centroDialogo .timeline ol {
+  font-size: 0;
+  width: 100vw;
+  /* padding: 420px 0; */
+  padding: 318px 0 291px;
+  transition: all 1s;
+}
+.centroDialogo .timeline ol li div {
+  position: absolute;
+  left: calc(88% + 7px);
+  width: 387px;
+  height: 222px !important;
+  padding: 11px 17px;
+  font-size: 0.9rem;
+  white-space: normal;
+  color: white;
+  background: #242757;
+}
+.centroDialogo .timeline .btn-outline-warning {
+  margin-top: 0.8rem!important;
+}
+.centroDialogo .timeline ol li:nth-child(even) div::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 32px solid #242757;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  position: absolute;
+  top: -38px;
+  left: 16px;
+  z-index: -2;
+  transform: rotate(270deg);
+}
+.centroDialogo .timeline ol li:nth-child(even) div {
+  top: calc(100% + 47px);
+}
+.centroDialogo .timeline ol li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 1px);
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #f9aa0a;
+}
+.centroDialogo .timeline ol li:nth-child(odd) div::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 32px solid #242757;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  position: absolute;
+  top: 205px;
+  left: 12px;
+  z-index: -2;
+  transform: rotate(90deg);
+}
+.centroDialogo .timeline .arrows {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.centroDialogo .timeline .arrows button.arrow {
+  border: none;
+  background: transparent;
+}
+.centroDialogo .timeline .arrows .arrow__prev {
+  margin-right: 20px;
+}
+.timeline .disabled {
+  opacity: 0.5;
+}
+.centroDialogo .timeline .arrows img {
+  width: 45px;
+  height: 45px;
+}
+
+@media only screen and (max-width:768px){
+.centroDialogo .timeline .arrows{
+  display:none;
+}
+}
+
+/*Modal*/
+.centroDialogo .modal.fade {
+  background-image: linear-gradient(to bottom, rgba(34, 31, 77, 0.9) 65%, rgba(27, 20, 45, 0.9) 100%);
+}
+.centroDialogo .modal .modal-header {
+  background-color: #28227e;
+  color:#fff;
+}
+.centroDialogo .modal .modal-footer a {
+  margin: auto;
+  background-color: #da0921;
+  border: 0;
+  border-bottom: 3px solid #ffffff !important;
+}
+.centroDialogo .modal .modal-header .close {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 1;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+.centroDialogo .modal .modal-header .close:hover{
+background:none;
+opacity:0.7;
+}
+.centroDialogo .modal .modal-footer a:hover {
+  background-color: #28227e;
+}
+@media (min-width: 1024px) and (max-width: 1500px){
+  .centroDialogo .timeline ol li {
+      width: 249px;
+  }
+}
+@media only screen and (max-width:768px){
+  .centroDialogo .timeline ol li div {
+  position: static;
+        width: 94%;
+  height: auto !important;
+  margin: 0 auto 25px;
+        transform: none;
+}
+  .centroDialogo .timeline ol li {
+  display: block;
+  height: auto;
+  background: transparent;
+        width: auto;
+}
+  .centroDialogo .timeline ol li:not(:first-child) {
+  margin-left: auto;
+}
+  .centroDialogo .timeline ol li:nth-child(odd) div::before, .timeline ol li:nth-child(even) div::before {
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  border: none;
+  border-left: 1px solid white;
+  height: 25px;
+}
+  .centroDialogo .timeline ol li:nth-child(odd) div {
+  transform: none;
+}
+  .centroDialogo .timeline ol {
+  padding: 0;
+  transform: none !important;
+        width: auto;
+}
+}
+
+/*Foros*/
+
+.centroDialogo .Seccion-intereses h3, .centroDialogo h3.h3Title {
+  text-align: left;
+  font-weight: 800;
+  font-size: 3.2em;
+}
+.centroDialogo .Seccion-intereses hr,.centroDialogo hr.hrCenter {
+  border: 2px solid#FFB806;
+  background-color: #ffb806;
+  opacity: 1;
+  margin: auto;
+  width: 10%;
+  margin-bottom: 26px;
+}
+
+/*Foros*/
+
+.centroDialogo .carouselCircle  img {
+  border-radius: 10px;
+}
+.centroDialogo .carouselCircle .flex-eventos > div {
+  background-color: #262759;
+  width: 45%;
+  margin: 10px;
+  font-size: 2.3em;
+  font-weight: 900;
+  color: #ffb806;
+  border-radius: 9px;
+  display: inline-flex;
+  align-items: flex-end;
+  position: relative;
+}
+.centroDialogo .carouselCircle .flex-eventos > div p {
+  margin: 0 12px;
+}
+.centroDialogo .carouselCircle .flex-eventos > div:hover::after {
+  content: "";
+  background-color: #0009;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 9px;
+  z-index: 0;
+  transition: 1s;
+}
+.centroDialogo .carouselCircle .flex-eventos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+.centroDialogo .carouselCircle .carousel-indicators {
+  right: -100px;
+  bottom: -46px;
+  left: inherit;
+}
+.centroDialogo .carouselCircle .flex-eventos > div i {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  top: 0;
+  display: table;
+  opacity: 0;
+  cursor: pointer;
+  /* transition: 0.6s cubic-bezier(0.4, 0, 1, 1); */
+  z-index: 99;
+}
+.centroDialogo .carouselCircle .flex-eventos > div i:hover {
+  opacity: 1;
+  top: 20px;
+}
+.centroDialogo .carouselCircle .carousel-indicators button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffb806;
+}
+.centroDialogo .carouselCircle .flex-eventos4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.centroDialogo .carouselCircle .flex-eventos4 h4 {
+  padding: 9px 22px 0;
+  font-size: 2.3em;
+  font-weight: 900;
+  color: #ffb806;
+}
+.centroDialogo .carouselCircle .flex-eventos4 > div {
+  background-color: #2d308a;
+   width: 31%;
+  margin: 0 13px 0 2px;
+  color: #ffb806;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+.centroDialogo .carouselCircle .modal {
+  background-image: linear-gradient(to bottom, rgba(34, 31, 77, 0.9) 65%, rgba(27, 20, 45, 0.9) 100%);
+}
+.centroDialogo .carouselCircle .modal img{
+border-radius:0;
+}
+.centroDialogo .carouselCircle .modal-header {
+  background-color: #28227e;
+  justify-content: flex-end;
+}
+.centroDialogo .carouselCircle .modal-header button{
+font-size: 1.3rem;
+      font-weight: 700;
+      color: #000;
+      text-shadow: 0 1px 0 #fff;
+      border: none;
+      background: transparent;
+      margin: 0;
+
+}
+.centroDialogo .carouselCircle .modal-header button:hover{
+     opacity: .75;
+}
+.centroDialogo .Foros-conyuntura {
+  padding: 2% 4%;
+  background-color: #2d308a;
+  color: #fff;
+}
+.centroDialogo hr.hrLeft {
+  border: 2px solid#ffb806;
+  background-color: #ffb806;
+  width: 22%;
+  opacity: 1;
+}
+.centroDialogo .Foros-conyuntura .flex-coyuntura > div {
+  width: 31%;
+  position: relative;
+  margin: 11px;
+}
+.centroDialogo .Foros-conyuntura .flex-coyuntura {
+  display: flex;
+  flex-wrap: wrap;
+}
+.centroDialogo .Foros-conyuntura .vertical-tabs img {
+  height: 181px;
+  object-fit: cover;
+  object-position: 0;
+  border-radius: 9px;
+}
+.centroDialogo .Foros-conyuntura .flex-coyuntura > div span {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  top: 0;
+  opacity: 0;
+  left: 0;
+  margin: auto;
+  display: table;
+  border-radius: 8px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .3s;
+}
+.centroDialogo .Foros-conyuntura .vertical-tabs .tituloHistorico h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 800;
+  font-size: 3.2em;
+  color: #000;
+}
+.centroDialogo .vertical-tabs .tab-pane .sv-tab-panel {
+  background: #fff;
+  border-radius: 20px;
+}
+.centroDialogo .vertical-tabs .nav.nav-tabs {
+  border-bottom: 0;
+  border-right: 1px solid transparent;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  padding-right: 15px;
+  font-size: 14px;
+}
+.centroDialogo .vertical-tabs .nav-tabs .nav-link.active {
+  background-color: #ffbf1e !important;
+  border-color: transparent !important;
+  color: #fff;
+  border-bottom: 5px solid#fff !important;
+}
+.centroDialogo .vertical-tabs .nav-tabs .nav-link {
+  background: #2d308a;
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 800;
+  line-height: 3em;
+  border-top-left-radius:0 !important;
+  position:relative;
+}
+.centroDialogo .vertical-tabs .nav-tabs .nav-link:hover {
+  background-color: #ffbf1e !important;
+}
+.centroDialogo .Foros-conyuntura .vertical-tabs .nav-tabs .nav-link.active::before {
+  width: 0;
+  height: 0;
+  border-left: 24px solid #ffbf1e;
+  border-top: 20px solid transparent;
+  border-bottom: 21px solid transparent;
+  content: "";
+  position: absolute;
+  right: -22px;
+}
+.centroDialogo .Foros-conyuntura .flex-coyuntura > div span:hover {
+  background-color: #192774eb;
+  opacity: 100;
+  color: #fff;
+  font-weight: 900;
+  padding-top: 75px;
+}
+.centroDialogo .Ruta-pais {
+  padding: 0 12% 4%;
+}
+.centroDialogo .Ruta-pais .Contenedor {
+  padding: 20px;
+  background-color: #f3f3f3;
+}
+.centroDialogo .Foros-conyuntura .vertical-tabs .tituloHistorico h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 800;
+  font-size: 3.2em;
+  color: #000;
+}
+.centroDialogo .vertical-tabs .tab-content > .active {
+  background: #fff;
+  display: block;
+  border-radius: 9px;
+  padding: 23px;
+}
+.centroDialogo .Ruta-pais-slide {
+  background-color: #2d308a;
+}
+.centroDialogo .Ruta-pais-slide {
+  background-color: #2d308a;
+}
+.centroDialogo .Ruta-pais-slide h5 {
+  color: white;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: 800;
+  font-size: 2em;
+  text-align: left;
+  padding-left: 1%;
+}
+.centroDialogo .Ruta-pais-slide h5 i {
+  background-color: #ffb806;
+  padding: 11px 12px;
+      float: right;
+  color: #fff;
+}
+.centroDialogo .Ruta-pais-slide .card a:hover {
+  background: #ffb806;
+}
+.centroDialogo .Ruta-pais-slide .card-header {
+  background-color: #000365;
+  color: #fff;
+  text-decoration: none;
+  padding:0;
+}
+.centroDialogo .Ruta-pais-slide .card {
+  border: 1px solid #262759;
+}
+.centroDialogo .carouselArrow .display-articulo > div {
+  background-color: #ffffff;
+  width: 31%;
+  margin: 0 9px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  box-shadow: -1px 4px 5px 2px #0000001a;
+}
+.centroDialogo .carouselArrow .display-articulo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.centroDialogo .carouselArrow .Contenedor-articulos {
+  padding: 20px;
+  border-top: 6px solid#ffb806;
+}
+.centroDialogo .carouselArrow .Contenedor-articulos h5 {
+  font-weight: 800;
+}
+.centroDialogo .carouselArrow .Contenedor-articulos a {
+  color: #000;
+  border-bottom: 3px solid#ffb806;
+  float: right;
+  margin-bottom: 24px;
+  text-decoration: none;
+  transition: 1s;
+}
+.centroDialogo .Ted-seccion .contenedordos {
+  background-image: url(/sites/default/files/2023-02/TEDx-informacion.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.centroDialogo .Ted-seccion .contenedordos a {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  align-content: center;
+  border-bottom: 5px solid#da0921;
+  display: table;
+  margin-top: 29%;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+.centroDialogo .Ted-seccion img {
+  width: 82% !important;
+  margin-bottom: 27px;
+}
+.centroDialogo .sin-espacio {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.centroDialogo .carouselArrow .carousel-control-next,.centroDialogo .carouselArrow .carousel-control-prev {
+  position: relative !important;
+}
+.centroDialogo .carouselArrow .carousel-control-next span,.centroDialogo .carouselArrow .carousel-control-prev span{
+ background:none;
+}
+.centroDialogo .carouselArrow .carousel-control-next:after {
+  content: url(/sites/default/files/2023-02/flecha-derecha.png);
+  font-size: 55px;
+  color: #18294b;
+  font-family: cursive;
+  position: relative;
+  bottom: 107px;
+  left: 50px;
+}
+.centroDialogo .carouselArrow .carousel-control-prev:after {
+  content: url(/sites/default/files/2023-02/flecha-izquierda.png);
+  font-size: 55px;
+  color: #fbb601;
+  font-family: cursive;
+  position: absolute;
+  left: 0;
+  bottom:82px ;
+}
+.centroDialogo .carouselArrow .carousel-control-prev{
+  opacity:0.5;
+}
+.centroDialogo .carouselArrow .carousel-control-prev:hover {
+opacity:1;
+}
+.centroDialogo .Ruta-pais-slide-artiulos {
+  background-color: #f2f2f2;
+  padding: 4% 8% 0;
+}
+.centroDialogo .Ruta-pais-slide .Caja {
+  background-color: #f3f3f3;
+  padding: 23px 25px 59px;
+  max-height: 231px;
+  height: 182px;
+  margin: 1px 0 30px;
+}
+.centroDialogo .Ruta-pais-slide .Caja{
+position:relative;
+}
+.centroDialogo .Ruta-pais-slide .Caja a {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.3em;
+  border-bottom: 3px solid#ffb806;
+  text-decoration: none;
+  cursor: pointer !important;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+ width: max-content;
+  transition: 0.8s;
+}
+.centroDialogo .Ruta-pais-slide .modal img {
+  border-radius: 10px;
+  width: 30%;
+  height: 181px;
+  object-fit: cover;
+  object-position: 0;
+  border-radius: 9px;
+  margin: 7px 10px 10px 8px;
+  display: inline-block;
+}
+.centroDialogo .Ruta-pais-slide .modal-body {
+  padding: 5% 5%;
+}
+.centroDialogo .Ted-seccion .contenedoruno {
+  padding: 5% 3% 5% 8%;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1500px){
+.centroDialogo .Foros-conyuntura .flex-coyuntura > div {
+  width: 30%;
+  margin: 11px;
+}
+.centroDialogo .Ruta-pais-slide .Caja {
+  height: 215px;
+  font-size: 0.9em;
+}
+}
+@media (min-width: 767px) and (max-width: 1199px){
+.centroDialogo .Foros-conyuntura .flex-coyuntura > div {
+  width: 43%;
+}}
+@media (min-width: 1200px){
+.centroDialogo .Foros-conyuntura{
+  padding: 4% 12% 0;
+}
+.centroDialogo .Ruta-pais-slide {
+  padding: 4% 12% 3%;
+}
+}
+
+@media (max-width: 1024px){
+.centroDialogo .carouselCircle .flex-eventos4 > div {
+    width: 46%;
+}
+.centroDialogo .carouselArrow .display-articulo > div {
+  width: 30%;
+}
+
+}
+
+
+@media (max-width:768px){
+.centroDialogo 	.card-header:first-child {
+  background-color: #000365;
+  border: 0;
+}
+.centroDialogo .flex-eventos2 img {
+  height: 181px;
+  object-fit: cover;
+  object-position: 0;
+  border-radius: 9px;
+}
+.centroDialogo .Foros-conyuntura .flex-eventos2 > div {
+  background-color: #1e2181;
+  width: 100%;
+  margin: 0 11px 0 2px;
+  color: #ffffff;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  /* padding: 20px; */
+}
+.centroDialogo .Foros-conyuntura .card-body {
+  background-color: #2d308a;
+}
+
+.centroDialogo .carouselArrow .display-articulo > div {
+  width: 45%;
+}
+.centroDialogo .carouselArrow .carousel-control-prev:after {
+  left: 0;
+  bottom:-10px ;
+}
+.centroDialogo .carouselArrow .carousel-control-next:after {
+  bottom: 12px;
+  left: 50px;
+}
+
+}
+
+/*Centro de Medios*/
+.Galeria-medios .Articulos {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.Galeria-medios .Articulos > div {
+width: 26%;
+margin: 23px;
+border-radius: 9px;
+margin-bottom: 97px;
+position: relative;
+max-height: 490px;
+}
+.Galeria-medios .Galeria-titu h3 {
+font-family: "Open Sans", sans-serif;
+text-align: center;
+font-weight: 800;
+font-size: 3.2em;
+margin-top: 45%;
+color: #000;
+}
+.Galeria-medios .Galeria-titu h3 span {
+background-color: #2d308a;
+color: #fff !important;
+font-style: inherit!important;
+font-family: 'Open Sans';
+padding: 2px 8px 3px;
+}
+.Galeria-medios hr {
+border: 2px solid#FFB806;
+background-color: #ffb806;
+margin: auto;
+width: 10%;
+margin-bottom: 26px;
+opacity: 1;
+}
+.Galeria-medios .Articulos > div h5 {
+color: #232451;
+font-weight: 800;
+margin-bottom: 46px;
+}
+.Galeria-medios .Articulos > div span {
+color: #848584;
+font-style: italic;
+font-weight: 600;
+width: 100%;
+}
+.Galeria-medios .Articulos > div span b {
+font-weight: 700;
+color: #2d308a;
+}
+.Galeria-medios .Articulos > div a {
+color: #000;
+text-decoration: none;
+border-bottom: 3px solid#ffb806;
+display: table;
+text-align: right;
+position: absolute;
+right: 0;
+margin-top: 22px;
+transition: 1s;
+top: 100%;
+}
+.Galeria-medios .Articulos > div a:hover {
+color: #ffb806;
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+.Galeria-medios .Articulos > div {
+  width: 40%;
+}
+}
+
+@media (max-width: 600px) {
+.Galeria-medios .Articulos > div {
+  width: 100%;
+}
+}
+
+/*Publicaciones*/
+
+.centroDialogo .Proyectos-encuestas img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.centroDialogo .Jovenes-colombia {
+  background-color: #262759;
+  color: #fff;
+}
+.centroDialogo .Jovenes-colombia .Espacio {
+  padding: 53px 38px;
+}
+.centroDialogo .Jovenes-colombia a {
+  text-decoration: none;
+  border-bottom: 2px solid#f9aa0a;
+  text-align: right;
+  display: block;
+  color: #ffffff;
+  line-height: 1em;
+}
+.centroDialogo .Jovenes-colombia  .Fases {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.centroDialogo .Jovenes-colombia .Fases > div {
+  background-color: #2d308a;
+  padding: 16px 10px;
+  font-size: 0.8em;
+  font-weight: 700;
+  width: 100%;
+  margin: 4px;
+}
+.centroDialogo .Jovenes-colombia h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5em;
+  margin-bottom: 4px;
+  color: #fff;
+}
+.centroDialogo .Reactivar-colombia {
+  padding: 4% 12% 4%;
+}
+
+.centroDialogo .Fronteras {
+  padding: 4% 12% 4%;
+  background-color: #262759;
+  color: #fff;
+}
+.centroDialogo .centroDialogoPublicaciones .overlay a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 4px solid#f9aa0a;
+}
+.centroDialogo .centroDialogoPublicaciones .text {
+  -moz-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: opacity 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s;
+  text-align: center;
+  margin-top: 38%;
+  font-size: 1.4em;
+}
+.centroDialogo .centroDialogoPublicaciones .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, hsl(0deg 0% 0% / 68%), hsl(0deg 0% 12% / 65%));
+  transition: opacity 0.3s ease-in 0s, transform 0.3s ease-in 0s, -webkit-transform 0.3s ease-in 0s;
+  color: #fff;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+.centroDialogo .centroDialogoPublicaciones .img-content {
+  position: relative;
+}
+.centroDialogo .centroDialogoPublicaciones .img-content::before {
+  background-color: #00000091;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  content: "";
+}
+.centroDialogo .centroDialogoPublicaciones .img-content:hover .overlay {
+  opacity: 1;
+}
+.centroDialogo .centroDialogoPublicaciones .img-content:hover .overlay .text {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+.centroDialogo .centroDialogoPublicaciones .img-content i {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  background-color: #f9aa0a;
+}
+.centroDialogo .centroDialogoPublicaciones .Otras-publicaciones {
+  padding: 4% 12% 4%;
+}
+.centroDialogo .centroDialogoPublicaciones .publi-contenedor {
+  background-color: #d5d5d569;
+  padding: 43px 42px 67px;
+}
+.centroDialogo .centroDialogoPublicaciones img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.centroDialogo .centroDialogoPublicaciones .publi-contenedor .carousel-indicators {
+  right: -150px;
+  bottom: -63px;
+  left: inherit;
+}

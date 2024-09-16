@@ -1,0 +1,334 @@
+section#ProyeccionProfesional{
+  font-family: 'Montserrat', sans-serif;
+}
+
+section#ProyeccionProfesional {
+  background: url(https://urosario.edu.co/sites/default/files/2022-11/Tus_metas_mueven.jpg) no-repeat;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 30px 5%;
+  position: relative;
+  z-index: 0;
+}
+section#ProyeccionProfesional::before {
+  content: '';
+  background: url(https://urosario.edu.co/sites/default/files/2022-11/person.png);
+  background-size: contain;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  bottom: 0px;
+  position: absolute;
+  right: -41px;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-attachment: fixed, scroll;
+  z-index: -5;
+}
+section#ProyeccionProfesional .Title img.imagen-personas-con-propositos {
+  max-width: 240px;
+}
+
+section#ProyeccionProfesional .ImagenPrincipalLanding {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+section#ProyeccionProfesional .Title p.parrafo-principal {
+  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px 0px;
+  color: #2B2B50;
+  font-weight: 500;
+  padding-right: 10%;
+}
+section#ProyeccionProfesional .parrafo-dos p.titulo {
+  font-size: 1.5em;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  color: #2B2B50;
+  margin-bottom: 10px;
+}
+
+section#ProyeccionProfesional .datos {
+  padding: 20px 0px;
+}
+
+section#ProyeccionProfesional .parrafo-dos a {
+  color: #353D43;
+  font-size: 1.0em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10% 0px;
+  font-weight: 400;
+}
+
+section#ProyeccionProfesional .mayor_informacion {
+  padding: 30px 0px 0px;
+}
+section#ProyeccionProfesional .parrafo-dos a:hover {
+  color: #0092bf;
+}
+
+section#ProyeccionProfesional .flex_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+section#ProyeccionProfesional .flex_content .item_text.line_redes {
+  width: 50%;
+}
+
+section#ProyeccionProfesional .flex_content .item_date {
+  width: 100%;
+}
+
+section#ProyeccionProfesional .flex_content .item_date p {
+  font-size: 1.0em;
+  margin-bottom: 0px;
+}
+
+section#ProyeccionProfesional .flex_content .item_text.line_redes {
+  width: 28%;
+}
+
+section#ProyeccionProfesional .flex_content .item_text {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+section#ProyeccionProfesional .flex_content .redes {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  align-content: center;
+  cursor: pointer;
+}
+section#ProyeccionProfesional .flex_content .redes:hover img {
+  filter: opacity(0.5);
+}
+section#ProyeccionProfesional .flex_content .redes:hover p {
+  color: #0092bb;
+}
+
+section#ProyeccionProfesional .flex_content .item_text img {
+  max-width: 30px;
+}
+
+section#ProyeccionProfesional .flex_content .item_text p {
+  color: #353D43;
+  font-size: 1.0em;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+section#ProyeccionProfesional .flex_content .item_text.line_redes {
+  border-right: 2px solid #353d43;
+}
+
+section#ProyeccionProfesional .contenidoFormulario {
+  background: #a2afc27a;
+  padding: 15px;
+  border: 2px solid #18212A;
+  border-radius: 15px;
+}
+
+section#ProyeccionProfesional .contenidoFormulario input::placeholder {
+  color: #2B2B50 !important;
+}
+
+section#ProyeccionProfesional .contenidoFormulario legend {
+  text-align: center;
+}
+
+section#ProyeccionProfesional .contenidoFormulario h3 {
+  color: #2B2B50;
+  font-weight: 900;
+  font-size: 1.8em;
+  text-align: center;
+  padding: 10px 0px;
+}
+section#ProyeccionProfesional .contenidoFormulario .form-control {
+  background: #A2AFC2;
+  border: 1px solid #18212A;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  color: #2B2B50;
+  font-size: 1.0em;
+  font-weight: 400;
+}
+
+section#ProyeccionProfesional .contenidoFormulario a {
+  display: block;
+  color: #2B2B50 !important;
+  font-size: 0.8em;
+  padding-bottom: 5px;
+}
+
+section#ProyeccionProfesional .contenidoFormulario span.radio.radio-list-vertical {
+  display: flex;
+}
+
+section#ProyeccionProfesional .contenidoFormulario span.radio.radio-list-vertical label {
+  color: #2B2B50 !important;
+  font-size: 0.8em;
+}
+
+section#ProyeccionProfesional .contenidoFormulario span.checkbox.checkbox-list-vertical{
+  display: flex;
+}
+
+section#ProyeccionProfesional .contenidoFormulario span.checkbox.checkbox-list-vertical label {
+  color: #2B2B50 !important;
+  font-size: 0.8em;
+}
+
+section#ProyeccionProfesional .contenidoFormulario span.caja-autorizado1x\" span input {
+  min-width: 25px;
+}
+
+section#ProyeccionProfesional .contenidoFormulario span.EditingFormLabel {
+  color: #2B2B50 !important;
+  font-size: 0.8em;
+}
+
+section#ProyeccionProfesional .contenidoFormulario .terminosCondiciones p{
+  color: #2B2B50 !important;
+  font-size: 0.8em;
+}
+
+
+section#ProyeccionProfesional .contenidoFormulario .FormButton.btn.btn-primary {
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  display: block;
+  font-size: 1.8em;
+  background: #4F7991;
+  font-weight: 800;
+  color: #18212A;
+  width: 50%;
+  border-radius: 10px;
+  border: transparent;
+  margin-top: 20px;
+}
+
+
+section#ProyeccionProfesional .contenidoFormulario .FormButton.btn.btn-primary:hover {
+  text-decoration: none;
+  background: linear-gradient(268deg, rgb(197 184 191) 0%, rgb(0 146 187) 80%);
+  transition: all 0.2s ease 0s;
+}
+
+section#ProyeccionProfesional .contenidoFormulario label.EditingFormLabel {
+  display: none;
+}
+
+@media screen and ( max-height: 900px ) { 
+
+  section#ProyeccionProfesional {
+      height: 100%;
+  }
+}
+
+@media (max-width: 1200px){
+
+  section#ProyeccionProfesional {
+      padding: 3% 3%;
+  }
+
+} 
+
+@media (max-width: 991px){
+  section#ProyeccionProfesional {
+      height: 100%;
+  }
+  section#ProyeccionProfesional .mayor_informacion {
+      padding-bottom: 10%;
+  }
+ 
+  section#ProyeccionProfesional .datos .flex_content {
+      flex-wrap: nowrap;
+      margin-bottom: 10%;
+  }
+  section#ProyeccionProfesional::before {
+      width: 50vw;
+      height: 50vh;
+      bottom: -106px;
+      right: -31px;
+  }
+  section#ProyeccionProfesional::before {
+      display: none;
+  }
+}
+@media (max-width: 768px){
+  section#ProyeccionProfesional .flex_content .item_text {
+      width: 45%;
+  }
+}
+
+@media (max-width: 600px){
+  section#ProyeccionProfesional .datos .flex_content {
+      flex-wrap: wrap;
+  }
+  section#ProyeccionProfesional .Title p.parrafo-principal, section#ProyeccionProfesional .parrafo-dos, section#ProyeccionProfesional .datos {
+      padding-right: 0%;
+  }
+
+  section#ProyeccionProfesional {
+      padding: 3% 8%;
+  }
+
+  section#ProyeccionProfesional .flex_content .item_text.line_redes {
+      width: 50%;
+  }
+  section#ProyeccionProfesional .Title p.parrafo-principal {
+      font-size: 1.1em;
+  }
+  section#ProyeccionProfesional .contenidoFormulario .form-control {
+      font-size: 1.0em;
+  }
+  section#ProyeccionProfesional .contenidoFormulario .FormButton.btn.btn-primary {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px){
+  section#ProyeccionProfesional .flex_content {
+      flex-wrap: wrap;
+  }
+
+  section#ProyeccionProfesional .flex_content .item_date p {
+      text-align: center;
+  }
+  section#ProyeccionProfesional::before {
+      display: none;
+  }
+}
+
+@media (min-width: 768px){
+.main, .main-fluid {
+    margin-top: 0 !important;
+}
+}

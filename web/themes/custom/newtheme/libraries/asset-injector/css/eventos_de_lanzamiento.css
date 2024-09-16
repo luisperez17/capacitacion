@@ -1,0 +1,750 @@
+/**
+    1: var(--principal-color-1) - Titulos h3 - Iconos
+    2: var(--principal-color-2) - Titulos h2 - parrafos - borde personas
+    3: var(--principal-color-3) - Background 1 - 3
+    4: var(--principal-color-4) - Background 2 - Boton formulario
+    5: var(--principal-color-5) - titulo 2 
+    6: var(--principal-color-6) - Textos 2
+    7: var(--principal-color-7) - Links en formulario
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --transition-duration: 0.2s;
+  --transition-delay: 0.2s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#lanzamiento{
+  display: flex;
+  flex-direction: column;
+}
+.encabezado{
+  order: 1;
+}
+.date_in{
+  order: 2;
+}
+.presentacion{
+  order: 3;
+}
+.agenda{
+  order: 4;
+}
+.panelistas{
+  order: 5;
+}
+#zonaform{
+  order: 6;
+}
+.textoFinal{
+  order: 7;
+}
+
+#lanzamiento .encabezado .texto_encabezado {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+#lanzamiento a.boton_registro {
+  background: transparent;
+  font-size: 1.6em;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  border: solid 2px;
+  padding: 5px 20px 3px;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#lanzamiento .EditingFormControlNestedControl.editing-form-control-nested-control span {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+#lanzamiento .EditingFormControlNestedControl.editing-form-control-nested-control span input {
+  min-width: 20px;
+  width: 3%;
+  margin-top: 5px;
+  margin: 0 7px 0 7px;
+}
+
+#Event_Lanzamiento .click_form .formularios_body label {
+  font-weight: 600;
+  width: 97%;
+}
+
+#lanzamiento .checkbox.checkbox-list-vertical{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+#lanzamiento .checkbox.checkbox-list-vertical span input{
+  min-width: 20px;
+  width: 3%;
+  margin-top: 5px;
+}
+
+#lanzamiento .checkbox.checkbox-list-vertical label{
+  font-weight: 600;
+  width: 97%;
+}
+
+#lanzamiento .checkbox.checkbox-list-vertical label {
+  font-size: 0.8em;
+}
+
+#lanzamiento a.boton_registro:hover {
+  background: var(--principal-color-1);
+  text-decoration: none;
+}
+
+#lanzamiento img {
+  width: 100%;
+}
+
+#lanzamiento section.agenda .text_img p.nombre i {
+  font-style: inherit;
+  color: var(--principal-color-6);
+  font-size: 0.4em;
+}
+
+#lanzamiento section.panelistas h2 {
+  text-align: center;
+}
+
+#lanzamiento section.panelistas.gracias p {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#lanzamiento section.presentacion p {
+  text-align: center;
+  font-size: 1.2em;
+  color: var(--principal-color-2);
+}
+
+#lanzamiento ection.panelistas h3.gracias {
+  font-size: 2.7em;
+}
+
+#lanzamiento section.panelistas.gracias {
+  background: var(--principal-color-3);
+}
+
+#lanzamiento #registro-formulario {
+  padding: 3%;
+  background: var(--principal-color-3);
+  border-radius: 30px;
+}
+
+#registro-formulario h3 {
+  font-size: 1.9em;
+  font-weight: 700;
+  color: var(--principal-color-1);
+  text-align: center;
+  padding: 0px 4%;
+}
+
+#lanzamiento .click_form .item_registro {
+  width: 100%;
+  position: fixed;
+  z-index: 6;
+  right: 0;
+  top: 80%;
+  max-width: 177px;
+}
+
+#lanzamiento .click_form .item_registro a {
+  background: #fe700f;
+  padding: 12px 12px;
+  color: var(--principal-color-4);
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 1px 2px 2px 0px #150a1b;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#lanzamiento .click_form .modal-header {
+  background: #150a1b;
+}
+
+#lanzamiento .texto_introduccion img.img-fluid {
+  max-width: 446px;
+}
+
+#lanzamiento .click_form .modal-dialog.modal-fluid.modal-notify.modal-info {
+  max-width: 60%;
+  padding-top: 1%;
+}
+
+#lanzamiento .click_form .formularios_body .radio.radio-list-vertical label {
+  font-size: 0.8em;
+}
+
+#lanzamiento .click_form .formularios_body a {
+  font-size: 0.8em;
+  color: var(--principal-color-2) !important;
+}
+
+#lanzamiento .box_bottom-top h6 {
+  text-align: center;
+  color: var(--principal-color-2);
+}
+
+#lanzamiento .SinRelleno .EditingFormControlNestedControl span {
+  display: flex;
+}
+
+#lanzamiento .SinRelleno .EditingFormControlNestedControl span label {
+  padding-left: 10px;
+}
+
+#lanzamiento .click_form .formularios_body input[type=submit] {
+  background: var(--principal-color-2);
+  border-color: var(--principal-color-2);
+}
+
+#lanzamiento .click_form .modal-dialog.modal-fluid.modal-notify.modal-info div#p_lt_ctl09_pageplaceholder_p_lt_ctl01_editabletext1_ucEditableText_widget1_ctl00_viewBiz {
+  padding: 20px;
+}
+
+#lanzamiento .click_form .modal-dialog.modal-fluid.modal-notify.modal-info input#p_lt_ctl09_pageplaceholder_p_lt_ctl01_editabletext1_ucEditableText_widget1_ctl00_viewBiz_btnOK {
+  background: var(--principal-color-2);
+}
+
+#lanzamiento .click_form .modal-header p.heading.lead {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--principal-color-4);
+}
+
+#lanzamiento .click_form .modal-header button.close {
+  color: var(--principal-color-4);
+  opacity: 1;
+  font-size: 32px;
+}
+
+#lanzamiento .click_form.grid a.btn.btn-outline-info.waves-effect {
+  background: #16091c;
+  color: var(--principal-color-4);
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+#lanzamiento .click_form .item_registro a i {
+  color: var(--principal-color-4);
+  font-size: 19px;
+}
+
+#lanzamiento .click_form .item_registro a:hover {
+  background: #fbc7a3;
+  color: var(--principal-color-5);
+}
+
+#lanzamiento .click_form .item_registro a:hover i {
+  color: var(--principal-color-5);
+}
+
+#lanzamiento figure.efecto {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  text-align: left;
+  max-height: 55vh;
+  background: black;
+  margin: 0px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  align-content: baseline;
+}
+
+#lanzamiento figure.efecto img {
+  transform: translate(0px, 0%);
+}
+
+#lanzamiento figure.efecto .texto_encabezado {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+#lanzamiento figure.efecto .right_item {
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-flow: column;
+  width: 100%;
+}
+
+#lanzamiento figure.efecto .left_item {
+  display: flex;
+  align-items: baseline;
+  align-content: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: column;
+  width: 100%;
+}
+
+#lanzamiento figure.efecto .center_item {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: column;
+  width: 100%;
+}
+
+#lanzamiento figure.efecto .center_item .texto_introduccion {
+  text-align: center;
+}
+
+#lanzamiento figure.efecto .texto_encabezado h2 {
+  color: var(--principal-color-4);
+  font-size: 2.1em;
+  padding: 0px 10px;
+}
+
+#lanzamiento figure.efecto .right_item img,
+#lanzamiento figure.efecto .left_item img {
+  opacity: 1;
+}
+
+#lanzamiento article.date_in {
+  background: var(--principal-color-3);
+  padding: 20px 0px;
+  text-align: center;
+}
+
+#lanzamiento article.date_in p {
+  color: var(--principal-color-2);
+  font-size: 1.2em;
+}
+
+#lanzamiento article.date_in h5 {
+  color: var(--principal-color-1);
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+#lanzamiento article.date_in span.line {
+  padding: 17px;
+  font-size: 2.0em;
+  color: var(--principal-color-1);
+}
+
+#lanzamiento article.date_in i {
+  color: var(--principal-color-1);
+}
+
+#lanzamiento section.presentacion {
+  padding: 50px 0px;
+}
+
+#lanzamiento section.presentacion h2 {
+  font-size: 2.3em;
+  color: var(--principal-color-2);
+  font-weight: 700;
+}
+
+#lanzamiento section.presentacion ul {
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 43px;
+  font-size: 1.2em;
+}
+
+#lanzamiento a.boton_registro {
+  color: var(--principal-color-6);
+  background: transparent;/**var(--principal-color-2);**/
+  font-size: 1.2em;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bolder;
+  border: solid 2px;
+  padding: 5px 20px 3px;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#lanzamiento a.boton_registro:hover {
+  background: var(--principal-color-4);
+  text-decoration: none;
+}
+
+#lanzamiento section.presentacion hr {
+  width: 300px;
+  position: relative;
+  border: 2px solid var(--principal-color-3);
+  display: inline-block;
+  margin: 20px 0 25px 0!important;
+  left: -183px;
+  background: var(--principal-color-3);
+}
+
+#lanzamiento section.presentacion ul li:before {
+  color: var(--principal-color-1);
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+
+#lanzamiento .box_bottom-top {
+  padding-top: 4%;
+}
+
+#lanzamiento section.panelistas .img_redon {
+  overflow: hidden;
+  background: var(--principal-color-2);
+  border-radius: 60%;
+  border-bottom: 13px solid var(--principal-color-2);
+  border-right: 13px solid var(--principal-color-2);
+  height: 320px;
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+  justify-content: flex-end;
+  align-content: flex-end;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#lanzamiento section.panelistas .texto_content {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  height: 100%;
+  align-content: baseline;
+  justify-content: center;
+  text-align: center;
+  min-height: 138px;
+}
+
+#lanzamiento section.panelistas .texto_content h6 {
+  display: inline-block;
+  color: #16091c;
+  font-weight: 300;
+  width: 100%;
+  margin: 0px;
+  line-height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+#lanzamiento section.panelistas .texto_content h6 strong {
+  font-weight: 600;
+}
+
+#lanzamiento section.panelistas .texto_content h4 {
+  font-size: 1.5em;
+  margin: 0px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--principal-color-2);
+  padding-bottom: 10px;
+  margin-bottom: 11px;
+  color: var(--principal-color-5);
+}
+
+#lanzamiento section.panelistas h3 {
+  font-size: 1.9em;
+  font-weight: 700;
+  color: var(--principal-color-1);
+  text-align: center;
+  padding: 0px 4%;
+}
+
+#lanzamiento section.agenda .text_img p.nombre {
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+#lanzamiento section.agenda {
+  background: var(--principal-color-4);
+  color: var(--principal-color-1);
+  padding: 5% 0px 5%;
+}
+
+#lanzamiento section.agenda h3 {
+  font-weight: 700;
+  color: var(--principal-color-5);
+}
+
+#lanzamiento section.agenda .text_img p strong {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--principal-color-6);
+}
+
+#lanzamiento section.panelistas .row.center {
+  justify-content: center;
+}
+
+#lanzamiento section.agenda .text_img {
+  display: flex;
+  align-items: flex-end;
+  color: var(--principal-color-6);
+  font-weight: 500;
+  font-size: 1.2em;
+  flex-wrap: wrap;
+  border-left: 1px solid var(--principal-color-2);
+  min-height: 200px;
+  padding-left: 20px;
+}
+
+#lanzamiento section.agenda .text_img i {
+  font-style: italic;
+  color: var(--principal-color-6);
+  font-size: 0.9em;
+}
+
+#lanzamiento .container {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#lanzamiento .panelistas a.btn_persona{
+  cursor: pointer;
+  background: var(--principal-color-1);
+  color: var(--principal-color-6);
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+#lanzamiento .panelistas a.btn_persona:hover {
+  background: var(--principal-color-2);
+}
+
+#lanzamiento .formularios_body{
+  color:  var(--principal-color-5);
+}
+
+#lanzamiento .formularios_body{
+  color:  var(--principal-color-5);
+}
+
+span.radio.radio-list-vertical input {
+  margin: 0 7px 0 7px;
+}
+span.radio.radio-list-vertical {
+  display: flex;
+}
+select#p_lt_ctl09_pageplaceholder_p_lt_ctl01_editabletext1_ucEditableText_widget1_ctl00_viewBiz_TiposDeDocumento_dropDownList {
+  border: 1px solid var(--principal-color-4);
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1300px) {
+  #lanzamiento .container {
+      max-width: 1280px;
+  }
+  #lanzamiento figure.efecto {
+      max-height: 60vh;
+      align-items: baseline;
+  }
+  #lanzamiento figure.efecto img {
+      transform: translate(0px, 0%);
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #lanzamiento .container {
+      max-width: none !important;
+  }
+  #lanzamiento .click_form .modal-dialog.modal-fluid.modal-notify.modal-info {
+      max-width: 90%;
+      padding-top: 1%;
+  }
+}
+
+@media (max-width: 991px) {
+  #lanzamiento .click_form .formularios_body {
+      width: 100% !important;
+  }
+  #lanzamiento .click_form .formularios_body .col-md-12 {
+      margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #lanzamiento section.panelistas .img_redon {
+      float: initial;
+      margin: 0 auto;
+  }
+  #lanzamiento section.panelistas .texto_content {
+      text-align: center;
+      justify-content: center;
+  }
+  #lanzamiento section.presentacion h2 br {
+      display: none;
+  }
+  #lanzamiento figure.efecto .texto_encabezado h2 {
+      text-align: center;
+      font-size: 1.9em;
+  }
+}
+
+@media (max-width: 600px) {
+  #lanzamiento figure.efecto .texto_encabezado h2 {
+      font-size: 1.6em;
+  }
+  #lanzamiento section.agenda .text_img p strong {
+      font-size: 1.0em;
+  }
+  #lanzamiento section.agenda h3 {
+      font-size: 1.3em;
+  }
+  #lanzamiento section.presentacion h2 {
+      font-size: 1.6em;
+  }
+  #lanzamiento section.presentacion ul {
+      padding-top: 10px;
+      padding-left: 10px;
+      font-size: 1.1em;
+  }
+  #lanzamiento figure.efecto .right_item img,
+  #lanzamiento figure.efecto .left_item img {
+      max-width: 340px;
+  }
+  #lanzamiento .text_img .box_bottom-top {
+      padding: 2% 15px 30px;
+  }
+  #lanzamiento article.date_in span.line {
+      width: 100%;
+      display: block;
+      padding: 0px;
+  }
+  #lanzamiento section.panelistas .img_redon {
+      height: 252px;
+      max-width: 252px;
+  }
+  #lanzamiento .click_form .modal-dialog.modal-fluid.modal-notify.modal-info {
+      max-width: 100%;
+      padding-top: 0%;
+  }
+  #lanzamiento .texto_introduccion img.img-fluid {
+      max-width: 300px;
+}
+  #lanzamiento .click_form .item_registro {
+      width: 100%;
+      position: fixed;
+      z-index: 121;
+      right: 0;
+      bottom: 0;
+      max-width: 100%;
+      top: auto;
+  }
+  #lanzamiento .click_form .item_registro a {
+      padding: 12px 12px;
+      color: var(--principal-color-5);
+      font-size: 19px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      width: 100%;
+      display: block;
+      text-align: center;
+  }
+  #lanzamiento article.date_in p {
+      font-size: 1.0em;
+  }
+}
+
+@media (max-width: 480px) {
+  #lanzamiento figure.efecto .texto_encabezado h2 {
+      font-size: 1.2em;
+  }
+  #lanzamiento section.agenda h3 {
+      font-size: 1.0em;
+  }
+  #lanzamiento section.agenda .text_img p {
+      font-size: 0.9em;
+  }
+  #lanzamiento section.agenda .text_img em {
+      font-size: 0.9em;
+  }
+
+  #lanzamiento a.boton_registro {
+      font-size: 1.1em;
+      padding: 5px 10px 3px;
+      line-height: 17px;
+  }
+  a.boton_registro.d-md-block{
+      display: none!important;
+  }
+  .encabezado{
+      order: 1;
+  }
+  .date_in{
+      order: 2;
+  }
+  #zonaform{
+      order: 3;
+  }
+  .presentacion{
+      order: 4;
+  }
+  .agenda{
+      order: 5;
+  }
+  .panelistas{
+      order: 6;
+  }
+  .textoFinal{
+      order: 7;
+  }
+}
+
+@media (max-width: 360px) {
+  #lanzamiento section.presentacion hr {
+      width: 250px;
+  }
+}

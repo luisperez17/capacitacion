@@ -1,0 +1,300 @@
+.toolbar-horizontal.toolbar-tray-open .nav-summer-school-interna {
+  top: 199px;
+}
+.nav-summer-school-interna {
+  position: fixed;
+  top: 120px;
+  z-index: 3;
+  margin: auto;
+  width: 100%;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  background-color: #333542;
+}
+.nav-summer-school-interna .nav-justified .nav-item {
+  width: 200px;
+}
+.nav-summer-school-interna .navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+  color: #fff;
+}
+.FormularioFloat {
+  position: fixed;
+  z-index: 9;
+  right: 0;
+  width: 27%;
+}
+.section-forms-cursos-ur.descripcionCurso {
+  background: #333542;
+}
+#Banner {
+  background-color: #333542;
+}
+#Menu {
+  background-color: #333542;
+}
+.Seccionuno h2 {
+  text-align: center;
+  font-size: 1.1rem;
+  color: orange;
+}
+.nav-summer-home {
+  background-color: #333542;
+  color: #fff;
+}
+li.nav-item:hover {
+  background-color: #121530;
+}
+.nav-summer-home ul a {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 1.1em;
+  padding: 10px 0px;
+  font-weight: 400;
+  transition: .5s;
+  display: inline-flex;
+}
+.nav-summer-home ul {
+  width: 100%;
+  padding: 0;
+}
+#carouselExampleCaptions {
+  padding: 0 30px 0 0;
+  background: linear-gradient(to right, rgba(18, 21, 48, 0.86), rgba(18, 21, 48, 0.86)), url(/sites/default/files/2023-01/summer-school-bg-cursos-home.jpg) center top no-repeat fixed;
+  background-size: cover;
+      padding: 3%;
+}
+
+#carouselExampleCaptions  .txtTestimonio p {
+  font-size: 1.2em;
+  padding-right: 20px;
+  color: #fff;
+}
+#carouselExampleCaptions  .carousel {
+  position: relative;
+}
+
+#carouselExampleCaptions   .testimoniosSummer .carousel-indicators li {
+  border: 1px solid rgba(255, 255, 255, .5);
+  width: 25px;
+  height: 8px;
+  border-radius: 0;
+}
+
+.txtTestimonio p {
+  font-size: 1.2em;
+  padding-right: 20px;
+  color: #fff;
+}
+
+
+
+.cierraComillas img {
+  width: 40px;
+  margin-top: -15px;
+}
+
+.testimoniosSummer .fotoEstudiante {
+  float: left;
+  padding: 5%;
+  width: 40%;
+  min-height: 380px;
+  text-align: left;
+}
+.fotoEstudiante {
+  width: 41%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 4%;
+}
+
+.txtTestimonio .cierraComillas {
+  display: table;
+  width: 40px;
+  float: right;
+}
+
+.txtTestimonio {
+  width: 57%;
+  display: inline-block;
+  vertical-align: top;
+}
+.colombia h3 strong {
+  color: #49a7c5;
+  font-style: italic;
+  font-size: 1.3em;
+}
+.iconosTransporte {
+  margin-top: 30px;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.iconosTransporte h3 strong {
+  font-size: 1.1em;
+  color: #333541;
+}
+.iconosTransporte a {
+  background: #d6dae6;
+  text-align: center;
+  padding: 10px 20px;
+  color: #42294f;
+  text-decoration: none;
+  border: 1px solid #ebeef7;
+  font-size: 1.8em;
+  transition: .5s;
+}
+.logoCityU img {
+  margin: auto;
+  width: 30%;
+}
+.contenedorBtnServicios img {
+  width: 100%;
+  opacity: .6;
+  transition: .3s;
+}
+.contenedorBtnServicios {
+  position: relative;
+  background: #0d1a2c;
+}
+.bloqueDeTexto-Nombre {
+  bottom: 5%;
+  padding: 10px 25px;
+}
+.bloqueDeTexto {
+  bottom: 0;
+  padding: 10px;
+  opacity: 0;
+}
+.contenedorEnlacesServicios {
+  padding: 0;
+  width: 33%;
+}
+.bloqueDeTexto a {
+  color: #ffb100;
+  font-weight: 600;
+  font-size: 1.3em;
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
+  text-decoration: none;
+}
+.bloqueDeTexto-Nombre h3 {
+  text-shadow: 2px 2px 5px rgb(0 0 0);
+  color: #fff;
+  text-align: center;
+  display: table;
+  margin: auto;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+.bloqueDeTexto-Nombre {
+  bottom: 5%;
+  padding: 10px 25px;
+}
+
+.bloqueDeTexto, .bloqueDeTexto-Nombre {
+  position: absolute;
+  min-height: 90px;
+  width: 100%;
+  color: #fff;
+  transition: .3s;
+}
+#RedesSummer {
+  position: relative;
+}
+
+#RedesSummer .redcod {
+  position: relative;
+}
+
+#RedesSummer:before {
+background-color: #17173cc4;
+position: absolute;
+top: 0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+content:"";
+z-index:0;
+}
+.RedesSummer {
+  position: relative;
+}
+.RedesSummer i {
+  color: #fff;
+  font-size: 2em;
+  margin: auto;
+  display: table;
+  margin-bottom: 22px;
+}
+ .cierre {
+      background-color: #eaeaf9;
+  }
+  .resultadoFiltroCursos .logo {
+      text-align: center;
+      min-height: 230px;
+  }
+  .listado-2 .apertura {
+  border-right: solid 2px #fff;
+  background: #d8d8ed;
+  padding: 5px 15px;
+  text-align: center;
+  font-size: 0.9em;
+  cursor: pointer;
+  float: left;
+  }
+  .listado-2 h3 {
+      font-size: 1.1em;
+  }
+  .listado-2 a.verMas {
+      font-family: "Roboto Mono", monospace;
+      border: solid 2px #da0921;
+      text-transform: uppercase;
+      margin-top: 15px;
+      padding: 8px 15px;
+      display: table;
+      background: #fff;
+      transition: 0.2s;
+      color: #000;
+
+  }
+  .listado-2 a.verMas:hover {
+      background-color: #da0921;
+      color: #fff;
+  }
+  .cajaResultado {
+border: 1px solid#dadae5;
+  background-color: white;
+  padding: 4px 21px 34px;
+  margin-bottom: 28px;
+  max-height: 494px;
+  height: 460px;
+  }
+  .abreComillas img {
+  max-width: 96%;
+  width: 48px;
+}
+@media (max-width: 600px) {
+
+.nav-summer-school-interna {
+  position:inherit;
+}
+.navbar-light .navbar-toggler-icon {
+  background: url(/sites/default/files/2023-02/descarga.svg);
+}
+#Banner .FormularioFloat {
+  position: inherit!important;
+  width: 100%!important;
+}
+.navbar-toggler-icon {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.fotoEstudiante {
+  width: 100%;
+}
+.txtTestimonio {
+  width: 100%;
+}
+}

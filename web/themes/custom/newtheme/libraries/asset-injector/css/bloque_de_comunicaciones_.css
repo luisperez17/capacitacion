@@ -1,0 +1,19 @@
+.accesos-comunicacion {
+  background: #dadae5;
+  padding: 8%;
+}
+.accesos-comunicacion .urRadio {
+  background: #000000;
+  padding: 3%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.accesos-comunicacion .urRadio:hover {
+  background: linear-gradient(to left, #2c34db, #da0921);
+  transition: 0.2s;
+}
+.accesos-comunicacion .urRadio img {
+  margin: 0 auto;
+  display: table;
+}

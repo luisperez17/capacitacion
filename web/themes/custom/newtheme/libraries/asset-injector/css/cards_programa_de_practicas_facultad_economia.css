@@ -1,0 +1,145 @@
+/*Cards*/
+.programa-practicas .item_card {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.programa-practicas .informacion_estudiantes .filtro:before {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(4, 4, 4, 0.52) 0%,
+    rgba(0, 0, 0, 0.62) 100%
+  );
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.programa-practicas .filtro:hover {
+  text-decoration: none;
+  box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+}
+.programa-practicas .filtro:hover .filtro::after {
+  opacity: 1;
+}
+.programa-practicas .informacion_estudiantes.espacios .ser-estudiante {
+  background-image: url(/sites/default/files/2022-06/ser_estudiante.jpeg);
+}
+.programa-practicas .informacion_estudiantes.espacios .inscribir {
+  background-image: url(/sites/default/files/2022-06/aceptado.jpeg);
+}
+.programa-practicas .informacion_estudiantes.espacios .lineamientos {
+  background-image: url(/sites/default/files/2022-06/lineamientos.jpeg);
+}
+.programa-practicas .informacion_estudiantes.espacios .reglamento {
+  background-image: url(/sites/default/files/2022-06/reglamentos.jpeg);
+}
+
+.programa-practicas .informacion_estudiantes.espacios .ser-estudiante,
+.programa-practicas .informacion_estudiantes.espacios .inscribir,
+.programa-practicas .informacion_estudiantes.espacios .lineamientos,
+.programa-practicas .informacion_estudiantes.espacios .reglamento {
+  width: 100%;
+  height: 320px;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: background-image 0.3s linear 0s;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.programa-practicas .informacion_estudiantes h5 {
+  bottom: 27px;
+  align-items: flex-end;
+  align-content: flex-end;
+  display: flex;
+  color: #fff;
+  font-size: 1.4em;
+  position: absolute;
+  z-index: 1;
+  font-weight: 300;
+  line-height: 30px;
+}
+.programa-practicas .informacion_estudiantes .filtro:hover h5 {
+  display: none;
+}
+.programa-practicas .informacion_estudiantes .filtro:hover::after {
+  opacity: 1;
+}
+
+.programa-practicas .informacion_estudiantes .ver-mas {
+  width: 100%;
+  color: #fff;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.programa-practicas .informacion_estudiantes .ver-mas {
+  visibility: hidden;
+}
+.programa-practicas .informacion_estudiantes .filtro:after {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(27, 20, 45, 0.67) 0%,
+    rgba(46, 49, 128, 0.63) 100%
+  );
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+.programa-practicas .informacion_estudiantes .filtro:hover .ver-mas {
+  visibility: visible;
+  display: block;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.programa-practicas .inscribir .ver-mas::before {
+  content: "Para inscribirse en el Programa de Prácticas, por favor diligenciar la siguiente encuesta https://encuestas.urosario.edu.co/index.php/459314?lang=es indicando por qué programa académico desea realizar la práctica y en qué periodo académico. Todos los viernes, la Secretaría Académica validará el cumplimiento de los requisitos académicos y en caso de ser satisfactorios, procederá con la inscripción.";
+  font-weight: 700;
+}
+
+.programa-practicas .informacion_estudiantes a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid #da0921;
+  padding: 2% 7%;
+  font-weight: 800;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.programa-practicas .informacion_estudiantes a.white_blue_red {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #da0921;
+  border: 2px solid #da0921;
+  padding: 2% 3%;
+  font-weight: 800;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+  display: block;
+}

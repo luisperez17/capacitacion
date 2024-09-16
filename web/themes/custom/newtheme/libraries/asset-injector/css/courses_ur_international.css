@@ -1,0 +1,537 @@
+.card_hover--modal .card_hover__content button {
+  z-index: 3!important;
+}
+
+/*CURSO UR INTERNACIONAL*/
+
+/*Nav cursos UR*/
+.nav-summer-school{
+background-color: #333542;
+}
+.nav-summer-school ul{
+  width:100%;
+  padding:0;
+}
+.nav-summer-school button{
+  float: right;
+  border-color: #ddd;
+  background-color: transparent;
+  
+}
+.nav-summer-school ul li{
+  border: none;
+  border-right: solid 2px rgba(0, 0, 0, .1);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-summer-school ul a{    
+  cursor: pointer;    
+  color: #fff;
+  border: none;  
+  border-radius: 0;
+  font-size: 1.4em;
+  padding: 10px 5px;
+  font-weight: 400;
+  min-height: 38px;
+  transition: .5s;
+}
+.nav-summer-school li:focus, .nav-summer-school li:hover {
+  text-decoration: none;
+  border: none;
+  border-right: solid 2px rgba(0, 0, 0, .1);
+  background-color: #121530;
+  transition: .5s;
+}
+.nav-summer-school {
+position: fixed;
+top: 120px;
+z-index: 3;	
+margin: auto;
+width: 100%;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.toolbar-horizontal .nav-summer-school{
+      top: 159px;
+  }
+  .toolbar-horizontal.toolbar-tray-open .nav-summer-school{
+      top: 199px;
+  }
+  
+@media only screen and (max-width: 768px) {
+   .nav-summer-school{
+    position: relative;
+    padding: 5px 10px;
+    top: unset;
+  }
+}
+
+
+/*CARD WHITE UR-INTERNACIONAL*/
+
+
+.card-white-ur-internacional .cajadato {
+  background: #fff;
+  padding: 20px;
+  font-size: 1.0em;
+  line-height: 18px;
+  min-height: 189px;
+  margin-bottom: 20px;
+}
+.card-white-ur-internacional .cajadato i {
+  color: var(--main-page-color);
+}
+.card-white-ur-internacional a.verMas {
+  border: solid 2px var(--main-page-color);
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.card-white-ur-internacional .cajadato {
+  background: #fff;
+  padding: 20px;
+  font-size: 1.0em;
+  line-height: 18px;
+  min-height: 189px;
+  margin-bottom: 20px;
+}
+.card-white-ur-internacional .cajadato h6 {
+  font-size: 1em;
+  color: #333333;
+  font-weight: 900;
+}
+.card-white-ur-internacional .modal::before {
+  content: "";
+  background-color: var(--main-page-color);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  opacity: 0.9;
+}
+.card-white-ur-internacional .modal.show .modal-dialog {
+  z-index: 2;
+}
+.card-white-ur-internacional .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+.card-white-ur-internacional button.close {
+  color: var(--main-page-color);
+  opacity: 0.9;
+  font-size: 2em;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+}
+.card-white-ur-internacional h4.modal-title {
+  color: var(--main-page-color);
+  font-weight: 900;
+  font-size: 1.4em;
+}
+.card-white-ur-internacional .modal-body li:before {
+  color: var(--main-page-color);
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+.card-white-ur-internacional .modal-body li {
+  font-size: 0.9em;
+  list-style: none;
+  line-height: 22px;
+  margin-left: -40px;
+}
+
+/*BOTON PERSONALIZADO*/
+
+.boton_personalizado_internacional_ur {
+  margin: auto;  
+  display: table;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background-color:var(--main-page-color);
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+}
+
+/*OBJETIVO UR*/
+.objetivo_ur_internacional ul{
+padding:0;
+}
+
+.objetivo_ur_internacional li:before {
+  color: var(--main-page-color);
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+}
+.objetivo_ur_internacional li {
+  font-size: 0.9em;
+  list-style: none;
+  line-height: 22px;
+}
+.objetivo_ur_internacional .objetivo {
+  padding: 4%;
+  border: solid 8px #eff3f8;
+  margin-right: 10px;
+  margin-top: 4%;
+  font-size: 1.1em;
+  min-height: 380px;
+}
+
+/*DIRIGIDO UR*/
+
+.dirigido_ur_internacional img{
+  width: 100%;
+}
+.dirigido_ur_internacional .parrafo p b {
+  color: var(--main-page-color);
+  font-size: 1.3em;
+}
+
+/*FOOTER CONTACTO UR*/
+
+
+.footer_contacto_ur_internacional{
+  display: table;
+  width: 100%;
+  padding: 2%;
+}
+.footer_contacto_ur_internacional .contactoemail {
+  width: 100%;     
+  padding: 2% 4%;
+  margin-top: 8%;
+  margin-left: 0%;
+  background: linear-gradient(141deg, #ffffff 0%, #ffffff 51%, #ffffff 75%);
+  letter-spacing: 1px;   
+  font-weight: bold;
+  position: relative;
+}
+.footer_contacto_ur_internacional .contactoemail a{
+  color: var(--main-page-color); 
+  text-decoration:none;
+}
+.footer_contacto_ur_internacional .contactoemail::before {
+  border-bottom: 24px solid transparent;
+  border-right: 24px solid white;
+  transform: rotate(135deg);
+  position: absolute; 
+  right: -6px;
+  content: "";
+  width: 56px;
+  height: 0px;
+  bottom: 5px;
+}
+.footer_contacto_ur_internacional .infoInteres {
+  border-left: solid 1px #fff;
+  padding: 3% 7% 3% 7% ;
+  border-right: solid 1px #fff;
+  color: white;
+}
+.footer_contacto_ur_internacional .redes i {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.footer_contacto_ur_internacional a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.tabla_ur_internacional{
+  padding:5%;
+}
+.tabla_ur_internacional .tablaLenguajes{
+  background: rgba(255, 255, 255, 0.81);
+  position: relative;
+}
+.tabla_ur_internacional .tablaLenguajes::before {
+  border-top: 24px solid transparent;
+  border-right: 24px solid var(--main-page-color);
+  transform: rotate(0deg);
+  position: absolute;   
+  right: 0px;
+  content: "";
+  width: 56px;
+  height: 0px;
+  bottom: 0;
+}
+
+/*TABLA UR*/
+
+
+.tabla_ur_internacional .tablaLenguajes{   
+  padding: 4% 3% 0%;
+  border: solid 1px #dedede;
+}
+.tabla_ur_internacional .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.tabla_ur_internacional .table>thead>tr>th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.tabla_ur_internacional .table tr td, .tabla_ur_internacional .table tr th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+/*TABLA UR2*/
+
+
+.contenido_objetivos_ur_internacional{
+  width:100%;
+padding: 5%;    
+}
+.contenido_objetivos_ur_internacional .content_text{     
+  padding: 4% 3% 0%;
+  border: 1px solid #dedede;
+  position: relative;
+}
+.contenido_objetivos_ur_internacional .content_text::before {
+  border-top: 24px solid transparent;
+  border-right: 24px solid var(--main-page-color);
+  transform: rotate(0deg);
+  position: absolute; 
+  right: 0px;
+  content: "";
+  width: 56px;
+  height: 0px;
+  bottom: 0;
+}
+.contenido_objetivos_ur_internacional i{
+  font-size: 3rem;
+}
+.contenido_objetivos_ur_internacional .cajaObjetivo{
+  display:flex;
+  gap:13px;
+}
+.contenido_objetivos_ur_internacional .cajaObjetivo p{
+  text-align: justify;
+}
+.section-title-internacional-line-start::after {
+  content: "";
+  height: 4px;
+  background-color: var(--main-page-color);
+  width: 125px;
+  display: block;
+  margin-top: .5rem;     
+}
+
+/*HORARIO UR*/
+
+.section_horario_internacional_ur{
+  border: solid 5px #ffffff;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, .2); 
+  background-size: cover;
+  color: #ffffff;
+  padding: 0 5% 5% 5%;
+  background-color: #333542;
+}
+
+.section_horario_internacional_ur .tituloSeccion hr {
+  border: none;
+  border-top: solid 3px var(--main-page-color);
+  width: 50px;
+  color: var(--main-page-color);
+  margin: 20px auto;
+  opacity: 1;
+}
+.section_horario_internacional_ur .btn-info {
+  color: black;
+  background-color: var(--main-page-color);
+  border-color: #ffffff;
+}
+.section_horario_internacional_ur .separador {
+  border: none;
+  border-top: dotted 3px rgba(255, 255, 255, .4);
+}
+.section_horario_internacional_ur .modal-header {   
+  background: linear-gradient(to right, rgba(51, 53, 66), rgba(51, 53, 66));
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+.section_horario_internacional_ur .modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: none;
+  background: transparent;
+}
+.section_horario_internacional_ur .modal-footer .btn-default {
+  color: #333;
+  font-weight: 600;
+  background-color: #f6be00;
+  border-color: transparent;
+  border-radius: 0;
+}
+.section_horario_internacional_ur .modal-body {
+  background: transparent;
+  padding: 0 32px 0 31px;
+  text-align: justify;
+}
+.section_horario_internacional_ur p.textomodalsu {
+  color: #000;
+}
+.section_horario_internacional_ur .close {
+  font-size: 2.5em;
+  color: #ffffff;
+  opacity: .5;
+ border:none;
+ background-color:transparent;
+}
+
+
+
+
+/*TABS CURSOS UR INTERNACIONAL*/
+
+
+.tabs_internacional_ur .tab .tablinks.active {
+  background-color: var(--main-page-color);
+}
+
+.tabs_internacional_ur .tab .tablinks{
+  text-decoration: dotted;
+  display: block;
+  background-color: #efefef;
+  color: #333542;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.5em;
+  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 4px;
+  clip-path: polygon(0% 0%, 93% 1%, 100% 50%, 93% 100%, 0% 100%);
+}
+
+.tabs_internacional_ur .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.tabs_internacional_ur .sesion {
+  cursor:pointer;
+  background-color: var(--main-page-color);
+  color: #333542;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-weight: 800;
+  padding-left: 20px;
+  position:relative;
+ width: 100%;
+}
+
+.tabs_internacional_ur .horas {
+  background-color: #333542;
+  width:100%;
+  color: #fff;
+  padding: 18px 0 16px 0;
+  text-align: center;
+  display:flex;
+}
+
+.tabs_internacional_ur .sesion:after {
+  content: '\002B';
+  color: #fff;    
+  left: 10px;
+  top: 22.4px;
+  width: 22px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #333542;
+  font-size: 0.9em;
+  height: 24px;
+}
+
+.tabs_internacional_ur .dia-evento {
+  width:100%;
+  background-color: #333542;
+  color: #fff;
+  padding: 10px 0 9px 0;
+  text-align: center;
+}
+
+.tabs_internacional_ur .Speakers {
+  background-color: var(--main-page-color);
+  width:100%;
+  text-align: center;
+  padding: 8px 0 9px 0;
+}
+
+.tabs_internacional_ur .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 8px;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+.tabs_internacional_ur .Speakers1 {
+  border-bottom: 2px solid #f1f1f1;
+  margin: 20px 0 0 0;
+  background-color: #f1f1f1;
+}
+
+.tabs_internacional_ur .active .sesion:after {
+  content: "\2212";
+}
+
+/*BTN Hero hover*/
+
+.btnregistro-cursos-summer:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/*FORMULARIO*/
+
+.section-forms-cursos-ur.descripcionCurso { 
+  background: #333542; 
+}
+
+
+
+/*.toolbar-horizontal .section-forms-cursos-ur {
+    top: 169px;
+  }*/
+

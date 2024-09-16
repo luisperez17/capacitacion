@@ -1,0 +1,484 @@
+.main, .main-fluid {
+  margin-top: 123px;
+}
+#CardReglamento.layout-threecol .layout-content {
+  grid-template-columns: 33% 33% 33%;
+}
+#CardReglamento .card-casa-ur__subtitle {
+  padding: 0 20px;
+  color: #414242;
+  font-size: .8em;
+  height: 61px;
+}
+.Capitulos{
+  background-color: #f5f6ff5e;
+  padding-bottom: 23px;
+  box-shadow: -2px 2px 5px 1px #b3a8d470;
+}
+.Capitulos .card-casa-ur__heading {
+  padding-top: 23px;
+}
+
+.SinEspacio {
+  padding: 0;
+}
+.card-modal-link .modal-body .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div#CardReglamento .card-casa-ur .modal-body #cardModalBody {
+  padding: 3%;
+}
+.Miga {
+  background-color: #e3e3e647;
+  padding: 6px 0;
+  font-size: 1em;
+}
+/*
+  .header__top {
+  z-index: 0;
+}
+.header__sticky {
+  z-index: 0;
+}*/
+.Miga a {
+  font-weight: 700;
+  color: #da0921;
+}
+/*.toolbar-fixed.toolbar-tray-open:not(.toolbar-vertical) {
+  --ginHorizontalToolbarOffset: 43px;
+}*/
+ul.Roman {    list-style-type: lower-roman;}
+
+#BannerReglamentoAcademico .modal.show .modal-dialog {
+position: relative;
+top: 26%;
+}
+#BannerReglamentoAcademico h3 {
+  font-family: "Bebas Neue", cursive;
+  line-height: 1em;
+  margin: 0 0 32px;
+  font-size: 2.4em;
+  color: #fff;
+}
+.modal-backdrop {
+  z-index: 0 !important;
+}
+#BannerReglamentoAcademico .layout-fourcol .layout-content {
+  grid-template-columns: 23% 23% 23% 23%;
+  margin: auto;
+}
+
+#BannerReglamentoAcademico .hero-image__body {
+  max-width: 703px;
+}
+#BannerReglamentoAcademico i {
+  border: 4px solid#fff;
+  border-radius: 50%;
+  font-size: 2.1em;
+  margin-top: 17px;
+  display: table;
+  padding: 17px 15px;
+  color: #fff;
+}
+#BannerReglamentoAcademico .v-line {
+  border-left: thick solid #da0921;
+  height: 25%;
+}
+#BannerReglamentoAcademico h4 {
+  margin-bottom: 14px;
+  line-height: 1em;
+  font-size: 1.2em;
+  color: #fff;
+}
+#BannerReglamentoAcademico p {
+  line-height: 1.3em;
+  font-size: 1em;
+  color: #fff;
+}
+#BannerReglamentoAcademico a {
+   border: 2px solid#da0921;
+  margin: 24px 0;
+  display: table;
+  padding: 4px 17px;
+  font-weight: 900;
+  color: #fff;
+}
+#BannerReglamentoAcademico a:hover {
+  background-color: #da0921;
+  border: 1px solid#da0921;
+}
+
+#RglamentoOpciones {
+  margin: -27px 149px 66px 100px;
+}
+#Contacto {
+  background: rgb(28,4,85);
+  background: linear-gradient(108deg,rgba(28,4,85,1) 9%,rgba(22,4,87,1) 41%,rgba(218,9,33,1) 98%);
+  padding: 5px 15px;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-align: right;
+  font-weight: 600;
+  color: #fff;
+}
+#Contacto i {
+  color: #fff;
+}
+#ProcesoConstruccionContenedor {
+  padding: 5% 10% 5% 6%;
+}
+.ContenedorProceso h3 {
+  background-color: #fbfbfb;
+  border-bottom: 4px solid#E3E3E6;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.3em;
+  padding: 21px;
+  height: 115px;
+  width: 100%;
+}
+.ContenedorProceso .Caja {
+  background-color: #f3f3f6;
+  display: table;
+  padding: 29px;
+  height: 209px;
+}
+.ContenedorProceso img {
+  background-color: #2c2f79;
+  border-radius: 4px;
+  padding: 5px;
+}
+.ContenedorProceso .Caja i {
+  color: #da0921;
+  cursor: pointer;
+}
+.ContenedorProceso .Caja p {
+  margin-bottom: 0;
+}
+#InnovacionReglamentoAcademico ol {
+  list-style-type: lower-latin;
+}
+#InnovacionReglamentoAcademico .card-modal-link__content {
+  background: #f3f2f6;
+}
+#InnovacionReglamentoAcademico .card-modal-link__content--image img {
+  opacity: 100;
+}
+#InnovacionReglamentoAcademico picture {
+  width: 178px;
+  margin: auto;
+}
+#InnovacionReglamentoAcademico .card-modal-link {
+  border-radius: 17px;
+}
+div#InnovacionReglamentoAcademico {
+  padding: 4% 16% 2% 10%;
+}
+#InnovacionReglamentoAcademico picture {
+  height: 221px;
+}
+#InnovacionReglamentoAcademico .card-modal-link {
+  min-height: 180px;
+  height: 242px;
+}
+#InnovacionReglamentoAcademico .card-modal-link__content--image img {
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
+  object-position: top;
+  background-color: #f3f2f6;
+  height: 641px;
+  padding-top: 31px;
+}
+.texto h2 {
+  font-weight: 900;
+  font-size: 1.5em;
+  font-family: "Nunito";
+  color: #001484;
+  margin-bottom: 18px;
+}
+.texto {
+  padding: 1% 6%;
+}
+.texto strong {
+  color: #da0921;
+}
+#InnovacionReglamentoAcademico .block--card {
+  height: 272px;
+}
+.card-modal-link__content--heading {
+  color: #000;
+}
+#InnovacionReglamentoAcademico .card-modal-link__content--midle:hover
+{
+  background-image: url(/sites/default/files/2023-01/boton-hover-v1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  color: #fff;
+  margin: 0;
+}
+.Nota {
+  margin: 50px;
+  padding: 20px;
+  position: relative;
+  border-radius: 8px 8px 8px 8px;
+  width: 80%;
+  background-color: white;
+  box-shadow: 1px 17px 9px #dbdbe485;
+  margin: auto;
+  display: table;
+  margin-bottom: 50px;
+  font-family: Nunito;
+}
+.Nota:after {
+  border: 25px solid white;
+  content: "";
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  position: absolute;
+  bottom: -44px;
+  right: 75px;
+  transform: rotate(-8deg);
+}
+
+.Nota i {
+  background-color: #210966;
+  font-size: 3em;
+  display: table;
+  color: #fff;
+  border-radius: 14%;
+  font-weight: 900;
+  height: 50px;
+  width: 50px;
+  padding: 7px 26px;
+  margin: auto;
+}
+.Nota a {
+  color: #da0921;
+  font-weight: 600;
+}
+.Contacto {
+  background-color: #f3f3f6;
+  min-height: 140px;
+  padding: 17px;
+}
+
+.Contacto h3 {
+  font-size: 0.8em;
+}
+
+.Contacto h4 {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.Contacto a {
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #da0921;
+}
+#Contacto:hover {
+  background: rgb(28, 4, 85);
+  background: linear-gradient(108deg, rgb(210 10 37) 0%, rgba(22, 4, 87, 1) 41%, rgb(37 7 84) 98%);
+}
+
+#PreguntasFrecuentes .accordion-item__content ul {
+  list-style: none;
+  padding: 0;
+}
+#PreguntasFrecuentes .accordion-item__content li {
+  padding-left: 1.3em;
+}
+#PreguntasFrecuentes .accordion-item__content li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+
+
+#InnovacionReglamentoAcademico li:before {
+  content: ""; /* FontAwesome Unicode */
+    list-style-type: upper-roman;
+
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+#InnovacionPreguntasFrecuentes .card-modal-link__content--link {
+  background-image: url(/sites/default/files/2023-01/librouno.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#ReglamentoCapitulos .card-casa-ur__link {
+  background: linear-gradient(108deg, rgb(194 9 40) 17%, rgb(210 10 35) 58%);
+}
+.card-casa-ur .modal-body #cardModalBody .modal-button {
+  background: -webkit-linear-gradient(-45deg, #b50115 0%, #da0921 38%, #da0921 75%, #da0921 100%);
+}
+.btnDescargaCapitulo {
+background-image: url(/sites/default/files/2023-02/reglamento-academico-capitulos_1.jpg);
+  background-color: #2a1c88;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  text-align: center;
+  padding: 15px 12px;
+  margin-bottom: 20px;
+  line-height: 1.3em;
+  font-size: 0.8em;
+  cursor: pointer;
+  color: #fff;
+  height: 109px;
+}
+.btnDescargaCapitulo i {
+  background-color: #da0921;
+  margin-top: 11px;
+  padding: 6px;
+  display: table;
+  margin: auto;
+}
+div#CardReglamento .card-casa-ur .modal-content {
+  padding: 1%;
+}
+.card-casa-ur .modal-content .button-modal {
+  color: #9f9f9f;
+}
+#ReglamentoCapitulos .card-casa-ur__link:hover {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.Contacto .tab-bootstap .nav-link a {
+  font-size: .8em;
+}
+.Contacto  .tab-bootstap .tab-content {
+  font-size: 1.4em;
+}
+.Contacto h3.h3.section-title__heading {
+  font-size: 1.3em;
+}
+.Contacto .tab-bootstap .nav-tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Contacto .tab-bootstap .nav-tabs li {
+  width: 20%;
+  border-bottom: 1px solid#e8e8e8;
+}
+.Contacto .tab-bootstap .nav-link {
+  border-right: 1px solid#b8b4b4;
+}
+.Contacto #tabContent {
+  background-color: white;
+  padding: 24px 44px;
+}
+#CardReglamento .block.block--card {
+      height: auto;
+}
+#CardReglamento .card-casa-ur__link {
+  background: linear-gradient(108deg,#da0921 17%,#c60017 58%);
+  }
+#CardReglamento .card-casa-ur__link:hover {
+  background: linear-gradient(108deg,#ffffff 17%,#ffffff 58%);
+  color:#da0921;
+  }
+  
+  
+  @media (min-width: 2000px) and (max-width: 2500px) { 
+#BannerReglamentoAcademico h3 {
+  font-size: 3.4em;
+}
+
+}
+@media (min-width: 1500px) and (max-width: 2000px) { 
+#BannerReglamentoAcademico h3 {
+  font-size: 3.7em;
+}
+
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  #BannerReglamentoAcademico h3 {
+      font-size: 2.4em;
+  }
+}
+@media (max-width:768px) {
+.Contacto .tab-bootstap .nav-tabs li {
+  width: 50%;
+}
+}
+@media (max-width: 600px) {
+
+  .banneruno {
+      position: relative;
+      margin-top: -473px;
+  }
+  #BannerReglamentoAcademico h3 {
+      font-size: 2em;
+  }
+  .Contacto {
+      margin-bottom: 23px;
+  }
+  #BannerReglamentoAcademico i {
+      font-size: 1.2em;
+  }
+  #RglamentoOpciones {
+      margin: -33px 39px 66px 42px;
+  }
+  #BannerReglamentoAcademico p {
+      display: none;
+  }
+  .ContenedorProceso .Caja {
+      height: auto;
+      margin-bottom: 40px;
+  }
+  div#InnovacionReglamentoAcademico {
+      padding: 15% 16% 6% 10%;
+  }
+#CardReglamento  .layout-content {
+  display: grid;
+  display: inline-table;
+}
+  .Nota i {
+      font-size: 1.9em;
+      height: 38px;
+      width: 35px;
+      padding: 2px 13px;
+      margin-bottom: 23px;
+  }
+  #CardReglamento .card-casa-ur__subtitle {
+      height: auto;
+  }
+  .Miga {
+    padding: 13px 16px;
+    line-height: 1.1em;
+  }
+  .ContenedorProceso .Caja i {
+      font-size: 1.2em;
+  }
+  .Contacto .accordion-item {
+  margin-bottom:23px;
+}
+.Contacto .tab-accordion-mobile .accordion-header a {
+  color:#000;
+}
+.Contacto  .tab-accordion-mobile .accordion-header a span {
+  margin: 0 10px;
+  font-size: 1.1rem;
+}
+
+.Contacto .tab-accordion-mobile .accordion-header:not(.collapsed) {
+  background-color: #d4d4e4;
+}
+.hero-image__content-wrapper {
+  justify-content: flex-start;
+}
+
+}

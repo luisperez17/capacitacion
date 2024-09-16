@@ -1,0 +1,1544 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;0,900;1,800&display=swap");
+:root {
+    --transition-duration: 0.2s;
+    --transition-delay: 0.2s;
+}
+html {
+    scroll-behavior: smooth;
+}
+#Familias-proposito {
+    font-family: "Poppins", Sans-serif !important;
+}
+#Familias-proposito #Info_Agenda p.tagline strong {
+    font-size: 1.2em;
+}
+
+#Familias-proposito iframe#iframeCloudAspirantes, #Familias-proposito iframe#iframeCloudFamilia{
+    width: 100%;
+    height: 100%;
+    min-height: 660px;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.programa {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 2px #90031a;
+    transition: .2s;
+    border-radius: 5px;
+    cursor: pointer;
+    display: table;
+    width: 100%;
+    text-align: center;
+    min-height: 110px;
+    color: #b12628;
+    -webkit-box-shadow: 2px 1px 5px 0px #536984f0;
+    -moz-box-shadow: 2px 1px 5px 0px #536984f0;
+    box-shadow: 2px 1px 5px 0px #536984f0;
+    transition: 0.2s;
+}
+#Familias-proposito #Agenda .college_UR p {
+    color: black;
+    line-height: 22px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+#Agenda ul.numeros li::marker {
+    color: transparent;
+}
+
+#Agenda ul.numeros i {
+    color: #fdbf04;
+    font-size: 1.3em;
+}
+#Familias-proposito .Video h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #fff;
+}
+#Familias-proposito .Video small {
+    color: #edc3c3;
+}
+#Familias-proposito #Info_Agenda .items {
+    padding: 0px 20px;
+}
+#Familias-proposito #Info_Agenda .items h5 {
+    color: #febf03;
+}
+#Familias-proposito #Info_Agenda ul.numeros li {
+    color: #fff2f2;
+    font-weight: 200;
+    font-size: 0.9em;
+}
+#Familias-proposito div#pills-tabContent {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+#Familias-proposito #Info_Agenda .items ul.numeros li::marker {
+    color: transparent;
+}
+#Familias-proposito #Info_Agenda .agenda_horarios .flex_cont ul#pills-tab {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+.content_list .list_prog .modalFormulario {
+    width: 33%;
+    position: relative;
+}
+.modalFormulario p {
+    padding: 20px 10px;
+    background: #f7f7f7;
+    height: auto;
+    min-height: 85px;
+    text-align: center;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
+.content_list .list_prog .modalFormulario:before {
+    content: '';
+    background: #90041a;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0px;
+    left: 10px;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+.modalFormulario:before {
+    content: '';
+    background: #b08503;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0px;
+    left: 15px;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+.modalFormulario p  {
+    cursor: pointer;
+}
+.modalFormulario p:hover {
+    color: #cd0720;
+    height: 100%;
+    background: #fff8e5;
+}
+
+#Familias-proposito #Info_Agenda .agenda_horarios .flex_cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#Familias-proposito #Info_Agenda .agenda_horarios .flex_cont .horarios.col_two .nav-link small {
+    display: block;
+    font-size: 0.7em;
+}
+#Familias-proposito #Info_Agenda div#pills-tabContent .date_agenda.cont_fechas {
+    color: #000;
+}
+#Familias-proposito #Info_Agenda .agenda_horarios .flex_cont .horarios.col_two {
+    padding: 0px 5px;
+    width: 32%;
+    text-align: center;
+}
+
+#Agenda ul.numeros {
+    padding-left: 5px;
+}
+.programa:hover {
+    background: #90031a;
+    color: #fff6e3;
+}
+
+.programa:hover h4::before{
+    background: #ffbf06;
+}
+
+.programa:hover h4::after{
+    background: #ffbf06;
+}
+
+.programa:hover {
+    border: solid 2px #90031a;
+    transition: .2s;
+    box-shadow: 2px 2px 8px rgb(56 56 56 / 39%);
+}
+.programa h4 {
+    font-size: 1em;
+    min-height: 40px;
+    font-weight: 600;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.programa h4::before {
+    content: '';
+    width: 3px;
+    height: 63%;
+    position: absolute;
+    right: 20px;
+    background: #90031a;
+    top: 10px;
+}
+
+.programa h4::after {
+    content: '';
+    width: 3px;
+    height: 63%;
+    position: absolute;
+    left: 20px;
+    background: #90031a;
+    top: 10px;
+}
+
+#Familias-proposito #Info_Agenda div#pills-tabContent .horarios h5 {
+    background: whitesmoke;
+    padding: 20px 10px 10px;
+}
+
+#Agenda h4.modal-title {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+}
+
+#Agenda .show {
+    background: rgb(0 0 0 / 80%);
+}
+
+#Agenda p i {
+    color: #b36f0b;
+    font-size: 1.2em;
+    border-bottom: solid 2px;
+}
+
+#Agenda h4.modal-title {
+    font-weight: 600;
+}
+
+#Agenda button.btn.btn-danger {
+    display: table;
+    margin: 0 auto;
+    background: #ffbf06;
+    color: #f4f2ee;
+    border: solid #ffbf06 2px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+}
+#Agenda .modal-header {
+    border-bottom: solid 2px #90031a;
+    background: #d90821;
+    color: #ffffff;
+}
+.modal-header .close {
+    font-size: 2.0em;
+    color: #fff;
+    opacity: 1.0;
+    background-color: #00000047;
+}
+
+#Agenda .modal-dialog.modal-lg {
+    padding: 20px;
+    background: #f4f2ee;
+}
+
+#Agenda .modal-content {
+    border: none;
+}
+
+#Agenda button.btn.btn-danger {
+    display: table;
+    margin: 0 auto;
+    background: #d90821;
+    border: none;
+    letter-spacing: 2px;
+}
+
+#Agenda .modal-dialog.modal-lg {
+    padding: 12px;
+    background: #ffced6;
+}
+
+#Agenda .modal-content {
+    border: none;
+}
+
+#Familias-proposito .bggris {
+    background: #f4f2ee;
+    padding: 20px;
+}
+
+#Familias-proposito .bggris .tab-content {
+    background: #fff;
+    padding: 0 4% 2%;
+}
+
+#Familias-proposito .cntenedorTabs a.nav-link {
+    background: white;
+    padding: 20px 30px;
+    color: #000;
+}
+
+#Familias-proposito .cntenedorTabs a.nav-link.active {
+    background: #f4f2ee;
+    border-radius: 0;
+
+}
+#Agenda h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0em;
+    text-align: inherit;
+    text-align: center;
+    color: #d90821;
+    margin-bottom: 33px;
+}
+
+h5.mb-0 .dos {
+    margin: 10px;
+}
+
+
+#Familias-proposito .cntenedorTabs li.nav-item small {
+    display: table;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0.2em;
+    text-align: inherit;
+    color: #ffbf06;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+
+#Familias-proposito .cntenedorTabs a.nav-link {
+    font-size: .95em;
+    font-weight: bold;
+    border: solid 1px #f4f2ee;
+    border-radius: 0;
+}
+
+
+#Familias-proposito .cntenedorTabs a.nav-link:hover {
+    background: #f4f2ee;
+    color: #000;
+}
+#Agenda .line_R {
+    border-right: 2px solid #fff;
+}
+
+#Familias-proposito #Agenda p {
+    color: #ffffff;
+    padding: 0px;
+    font-weight: 100;
+    margin: 0px;
+    line-height: 30px;
+}
+#Familias-proposito #Agenda p span {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ffff;
+}
+#Familias-proposito .Banner #Agenda hr {
+    width: 100%;
+}
+
+.Banner #Agenda {
+    padding: 3% 15%;
+    overflow: hidden;
+}
+#Agenda {
+    padding: 3% 0%;
+    overflow: hidden;
+}
+#Familias-proposito .Banner p.titulo img {
+    width: 100%;
+    max-width: 480px;
+    display: initial;
+}
+.person {
+    background: -webkit-linear-gradient(48deg, #d9082100 0%, #bd061a1c 50%, #90031aa3 70%);
+    background: -o-linear-gradient(48deg, #d9082100 0%, #bd061a1c 50%, #90031aa3 70%);
+    background: -moz-linear-gradient(48deg, #d9082100 0%, #bd061a1c 50%, #90031aa3 70%);
+    background: linear-gradient(48deg, #d9082100 0%, #bd061a1c 50%, #90031aa3 70%);
+    height: 100%;
+}
+
+#Familias-proposito .cntenedorTabs li.nav-item:hover {
+    background: #f4f2ee;
+}
+
+#Familias-proposito span.navbar-toggler-icon i {
+    color: #fff;
+}
+#Familias-proposito button.navbar-toggler {
+    background-color: #d90821;
+}
+#Familias-proposito span.navbar-toggler-icon i {
+    color: #fff;
+    font-size: 28px;
+}
+#Familias-proposito .navbar_V4 {
+    background: #000000;
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 13 !important;
+    padding-top: 18px;
+}
+#Familias-proposito .resgistrate {
+    background-color: #febf03;
+    border-radius: 4px;
+    border: 1px solid #d90821;
+    transition: 1s;
+    color: #000 !important;
+}
+#Familias-proposito .resgistrate:hover {
+    background-color: #d90821;
+    color: #fff !important;
+}
+
+#myNavbar a.nav-link {
+    color: #ffff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+ul.navbar-nav.mr-auto {
+    margin: auto;
+}
+#myNavbar {
+    background: #90031a !important;
+    box-shadow: 0px 2px 5px #000000;
+}
+#Familias-proposito #myNavbar {
+    position: sticky;
+    top: 0;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+#Familias-proposito .Banner {
+    background: linear-gradient(to bottom, rgb(229 2 26 / 28%), rgb(144 4 26)), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/URosario-te-conecta/img/BGURosario-te-Conecta.jpg) center top fixed no-repeat;
+    background-size: cover;
+    height: auto;
+}
+#Familias-proposito .carousel-caption {
+    position: relative !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 62px;
+}
+#Familias-proposito #Agenda .modal-body p {
+    color: #d90821;
+    font-weight: 700;
+    line-height: 20px;
+}
+#Familias-proposito .Banner h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    line-height: 1em;
+}
+#Familias-proposito .Banner hr {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 35.8%;
+    display: table;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#Familias-proposito .date_img img {
+    width: 100%;
+    max-width: 76px;
+    padding-right: 10px;
+}
+#Familias-proposito .Banner p.tagline {
+    letter-spacing: 0px;
+    font-size: 1.3em;
+    font-weight: 200;
+    padding: 2%;
+}
+#Familias-proposito #Agenda p strong {
+    font-weight: 600;
+    font-size: 1.7em;
+}
+#Familias-proposito .Banner p.titulo {
+    font-family: "Poppins", sans-serif;
+    font-size: 7em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+.Banner p.titulo span {
+    color: #ffbf06;
+}
+#Familias-proposito .Banner h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+}
+
+#Familias-proposito .college_UR {
+    padding: 20px;
+    background: #fff7dd;
+    margin-top: 10px;
+    color: #000;
+}
+#Familias-proposito .college_UR h4.title {
+    padding: 10px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0.2em;
+    color: #90031a;
+    text-align: center;
+}
+#Familias-proposito #Info_Agenda div#pills-tabContent h3 {
+    color: #d60a20;
+    font-size: 31px;
+}
+#Familias-proposito #Info_Agenda div#pills-tabContent .flex_cont {
+    border-bottom: 1.5px solid #febf03;
+    margin-bottom: 15px;
+}
+#Familias-proposito .college_UR .row p {
+    text-align: center;
+    padding: 10px;
+    background: #e3aa00;
+    border-radius: 5px;
+}
+#Familias-proposito .college_UR .row p:hover{
+    background: #fff8e5;
+}
+#Familias-proposito .Banner .ubicacion p {
+    display: inline-block;
+    padding-top: 20px;
+    text-align: left;
+    font-size: .9em;
+    line-height: 12px;
+    /* font-size: 5.8em; */
+}
+
+#Familias-proposito .Banner .ubicacion img {
+    width: 50px;
+    margin-top: -38px;
+}
+
+#emprendimiento .Banner .ubicacion img{
+    margin-top: -38px;
+}
+
+#claustro .Banner .ubicacion img{
+    margin-top: -23px !important;
+}
+
+#claustro .Banner .fecha img{
+    margin-top: -23px !important;
+}
+
+
+#claustro .Banner .hora img{
+    margin-top: -23px !important;
+}
+#Familias-proposito .Banner .fecha p {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#Familias-proposito .Banner .fecha img {
+    margin-top: 0px;
+    width: 50px;
+}
+
+#Familias-proposito .Banner .hora p {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#Familias-proposito .Banner .hora img {
+    margin-top: 0px;
+    width: 50px;
+}
+
+#Familias-proposito .Banner .flex-datos {
+    display: flex;
+    flex-wrap: nowrap;
+}
+#Familias-proposito .Banner .flex-datos p {
+    font-size: 1.5em;
+    line-height: 20px;
+}
+#Familias-proposito .Banner .flex-datos > div {
+    width: 50%;
+    margin: 0px 4px 30px;
+    line-height: 1em;
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 20px;
+    padding: 0% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.Banner.dos {
+    background: initial !important;
+    width: 100% !important;
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 1%;
+}
+#Familias-proposito .Banner.flex-datos > div i {
+    color: #e09961;
+}
+#Familias-proposito .Video {
+    padding: 5% 0;
+}
+#Familias-proposito video.elementor-video {
+    width: 100%;
+}
+.Video iframe {
+    padding: 18px;
+    background-color: #0a0919;
+    border: 2px solid #ffbf06;
+}
+.Video h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0.2em;
+    color: #ffbf06;
+    text-align: center;
+}
+.Video p {
+    text-align: left;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+#Familias-proposito .flex-contat {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(48deg, #d9082100 0%, #bd061a1c 50%, #90031aa3 70%);
+    background: -o-linear-gradient(48deg, #d9082100 0%, #bd061a1c 50%, #90031aa3 70%);
+    background: -moz-linear-gradient(48deg, #d9082100 0%, #bd061a1c 50%, #90031aa3 70%);
+    background: linear-gradient(48deg, #d9082100 0%, #bd061a1c 50%, #90031aa3 70%);
+}
+#Familias-proposito .flex-contat > div {
+    width: 35%;
+    margin: 25px 0;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    text-align: LEFT;
+    color: #fff;
+}
+#Familias-proposito .Agenda {
+    margin: 7% 0;
+}
+
+#Familias-proposito .Agenda .uno {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#Familias-proposito .Agenda .dos {
+    width: 800px;
+    /* margin-left: 29px; */
+    align-items: center;
+    vertical-align: middle;
+    /* margin-top: 30px; */
+}
+#Familias-proposito .Agenda h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0.2em;
+    text-align: inherit;
+    color: #ffbf06;
+    text-align: center;
+}
+#Familias-proposito .Agenda h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0em;
+    text-align: inherit;
+    color: #ffffff;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+#Familias-proposito .Agenda #accordion {
+    /* padding: 20px; */
+    /* background-color: #f4f2ee; */
+}
+
+#Familias-proposito .Agenda .card-header {
+    background-color: rgb(255 255 255 / 3%);
+    padding: 20px 44px;
+}
+
+#Familias-proposito .Agenda .Fecha {
+    background-color: #f4f2ee;
+    padding: 17px 26px 8px;
+    display: table;
+}
+#Familias-proposito .Agenda .Fecha {
+    font-family: "Barlow Condensed", Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+
+#Familias-proposito .Agenda .Fecha span {
+    color: #ffbf06;
+    display: block;
+    font-size: 21px;
+    letter-spacing: 5.8px;
+}
+
+#Familias-proposito .Agenda .card img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    display: block;
+}
+#Familias-proposito .Agenda .card span {
+    font-family: "Barlow Condensed", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    color: #ffbf06;
+    text-align: left;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#Familias-proposito .Agenda .card h3 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #26264b;
+    font-family: Poppins, sans-serif;
+    margin: 7px 0;
+    text-align: left;
+    text-transform: initial;
+}
+
+#Familias-proposito .Agenda .card h4 {
+    color: #d90821;
+    font-size: 1.2em;
+    letter-spacing: 0;
+    text-transform: none;
+    font-family: Poppins, sans-serif;
+}
+
+.Formulario {
+    padding: 5% 0 8%;
+}
+#Familias-proposito .Formulario div#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_pnlForm .form-control {
+    padding: 1.5rem 0.75rem !important;
+    background-color: #f4f2ee !important;
+    border: 1px solid #abb0b2 !important;
+}
+span#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_AutorizacionUsodeDatos_list label {
+    font-size: 0.9em;
+    margin-left: 9px;
+}
+div#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_pnlForm a {
+    color: #ffbf06 !important;
+    font-size: 0.9em;
+}
+div#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_ncpautorizaciondeimagen label {
+    font-size: 0.8em;
+    display: inline-block;
+    vertical-align: top;
+    width: 96%;
+    text-align: justify;
+    margin-left: 8px;
+}
+label#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_IPusuario_lb {
+    display: none;
+}
+input#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_btnOK:hover {
+    background-color: #ffbf06;
+    color: #fff;
+}
+input#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_btnOK {
+    background-color: #ffffff;
+    color: #000;
+    width: 100%;
+    font-size: 1.8em;
+    border: 2px solid #ffbf06;
+}
+div#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz {
+    background-color: #fff;
+    padding: 1px 35px;
+}
+
+label#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_utm_id_lb {
+    display: none;
+}
+#Familias-proposito .Formulario h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0em;
+    text-align: inherit;
+    color: #ffffff;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+#Familias-proposito #Info_Agenda {
+    background: -webkit-linear-gradient(90deg, #d90821 0%, #90031a 80%);
+    background: -o-linear-gradient(90deg, #d90821 0%, #90031a 80%);
+    background: -moz-linear-gradient(90deg, #d90821 0%, #90031a 80%);
+    background: linear-gradient(90deg, #d90821 0%, #90031a 80%);
+    padding-top: 3%;
+}
+#Familias-proposito #Info_Agenda h4 {
+    color: azure;
+    font-weight: 400;
+    font-size: 1.6em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#Familias-proposito #Info_Agenda p.tagline {
+    letter-spacing: 0px;
+    font-size: 1.2em;
+    font-weight: 200;
+    color: #fff;
+    padding: 2%;
+    background: #d60a20;
+}
+
+#Familias-proposito #Info_Agenda h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0em;
+    text-align: inherit;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#Familias-proposito #Info_Agenda .horarios {
+    font-size: 1.2em;
+    color: #ffbf06;
+    padding-bottom: 10px;
+}
+
+#Familias-proposito #Info_Agenda .horarios strong {
+    font-size: 1.4em;
+    color: #fff;
+}
+
+#Familias-proposito .Video.gracias h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.0em;
+    color: #0a0919;
+    color: #ffbf06;
+}
+
+#Familias-proposito #Info_Agenda .date_agenda {
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+}
+
+#Familias-proposito .Banner.dos h4 {
+    text-align: center;
+    color: #d90821;
+    font-size: 1.3em;
+    border-bottom: 1px solid #d90821;
+    padding-bottom: 20px;
+}
+
+#Familias-proposito .Video.gracias p {
+    text-align: center;
+    font-size: 1.3em;
+}
+#Familias-proposito #Info_Agenda .agenda_horarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: center;
+}
+
+#Familias-proposito #Info_Agenda .cont_fechas {
+    width: 50%;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+#Familias-proposito #Info_Agenda .agenda_horarios hr {
+    width: 90%;
+    text-align: center;
+    border-top: 1px solid rgb(204 204 204 / 40%);
+}
+
+#Familias-proposito #Info_Agenda .cont_fechas.col_unic {
+    width: 100%;
+    margin: 20px 0px 10px;
+}
+
+#Familias-proposito #Info_Agenda .agenda_horarios .flex_cont .horarios.col_two .nav-link.active {
+    background-color: #febf03;
+    color: #000000;
+    filter: drop-shadow(6px -11px 6px #8e0707);
+}
+#Familias-proposito #Info_Agenda .agenda_horarios .flex_cont .horarios.col_two .nav-link {
+    color: #fff;
+    background-color: #d60a20;
+    font-size: 1.2em;
+    height: 100%;
+    font-weight: 600;
+}
+#Familias-proposito #Info_Agenda div#pills-tabContent h4 {
+    color: #8f000f;
+    text-align: inherit;
+    padding-bottom: 5px;
+}
+.content_list .list_prog {
+    padding: 0px 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #febf03;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+.content_list h5 {
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#Familias-proposito #Info_Agenda div#pills-tabContent .horarios {
+    color: #e4ab00;
+}
+#Familias-proposito #Info_Agenda div#pills-tabContent .horarios span {
+    color: #000;
+}
+#Familias-proposito #Info_Agenda div#pills-tabContent .horarios {
+    color: #fe0d0d;
+}
+.content_list .list_prog p {
+    margin: 0px 8px 8px;
+}
+
+#Familias-proposito #Info_Agenda .horarios span {
+    color: #ffffff;
+    padding: 0px 0px;
+}
+
+
+#Familias-proposito #Info_Agenda .date_agenda p {
+    font-size: 1.0em;
+}
+
+#Familias-proposito #Info_Agenda .date_agenda p strong {
+    font-size: 1.3em;
+}
+
+.contacto {
+    padding: 6% 0;
+    background: linear-gradient(to bottom, rgb(18 10 66 / 0%), rgb(10 6 0 / 0%)), url(https://www.urosario.edu.co/PortalUrosario/media/UR-V4/URosario-te-conecta/img/BGURosario-te-Conecta.jpg) center top fixed no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.contacto a {
+    color: #ffbf06 !important;
+}
+.contacto h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0.2em;
+    text-align: inherit;
+    color: #ffbf06;
+    text-align: center;
+}
+
+#Familias-proposito .contacto h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 0em;
+    text-align: inherit;
+    color: #ffffff;
+    text-align: center;
+}
+
+#Familias-proposito .flex-redes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#Familias-proposito .flex-redes > div {
+    width: 12%;
+    margin: 9px;
+    line-height: 1em;
+    font-size: 1.4em;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+}
+#Familias-proposito .flex-redes > div i {
+    color: #fff;
+}
+
+.Redes2 a {
+    color: #fff;
+}
+.Redes2 .facebook {
+    background-color: #3b5998;
+}
+.Redes2 .twitter {
+    background-color: #1da1f2;
+}
+.Redes2 .instagram {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.Redes2 .tic-tock {
+    background-color: #000000;
+}
+.Redes2 .youtube {
+    background-color: #cd201f;
+}
+
+.card i {
+    float: right;
+    color: #ffbf06;
+}
+
+.card li{
+    font-size: 1.1em;
+    font-weight: 300;
+    list-style: none;
+    line-height: 29px;
+    margin-left: 0px;
+}
+
+.card li:before {
+    color: #ffbf06;
+    margin-right: 8px;
+    font-size: 11px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+}
+/* REGISTROS */
+.formularioRegistro .EditingFormControlNestedControl span.radio-list-horizontal label {
+    padding: 0px 20px 0px 5px;
+}
+
+.formularioRegistro .form-control:disabled, .form-control[readonly] {
+    background: #feced6 !important;
+    border: 1px solid #90031a;
+    color: #040404;
+}
+
+.formularioRegistro .ExplanationText {
+    color: #90031a;
+    font-size: 0.7em;
+}
+
+.formularioRegistro .form-control {
+    color: #a1a1a1;
+    border: transparent;
+    border-bottom: 2px solid #90031a;
+    background: #f6e5e8;
+    font-size: 0.9em;
+}
+
+.formularioRegistro .FormPanel a {
+    font-size: 0.8em;
+    color: #90031a !important;
+    text-decoration: underline !important;
+}
+
+.formularioRegistro span.radio-list-vertical {
+    display: flex;
+}
+
+.formularioRegistro span.checkbox-list-vertical {
+    display: flex;
+}
+
+.formularioRegistro span.radio-list-vertical label {
+    font-size: 0.7em;
+}
+
+.formularioRegistro span.checkbox-list-vertical label{
+    font-size: 0.7em;
+}
+
+.formularioRegistro span input {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.formularioRegistro span.EditingFormLabel {
+    font-size: 0.9em;
+}
+
+.formularioRegistro .FormButton.btn.btn-primary {
+    background: #febf03;
+    font-weight: 700;
+    font-size: 1.4em;
+    color: #000;
+    transition: 0.5s;
+    border-color: #febf03;
+}
+
+.FormButton.btn.btn-primary:hover {
+    background: #90031a;
+    color: rgb(255, 255, 255);
+}
+
+
+#Familias-proposito div#pills-tabContent .horarios strong {
+    font-size: 1.0em;
+    color: #a4a4a4;
+    font-weight: 500;
+}
+.formularioRegistro .form-check.form-check-inline {
+    width: 48%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.formularioRegistro {
+    padding-top: 20px;
+}
+#smartcapture-block-eqk996fg0zc .sc-button {
+    margin-top: 20px;
+}
+
+
+/* REGISTROS */
+
+@media (max-width: 1024px) {
+    #Familias-proposito .Agenda .dos {
+        width: 593px;
+    }
+    .programa h4 {
+        min-height: 60px;
+  
+    }
+
+    #Familias-proposito #Info_Agenda .cont_fechas {
+        width: 100%;
+    }
+
+    .Banner #Agenda {
+        padding: 3% 3%;
+        overflow: hidden;
+    }
+    #Familias-proposito #Agenda p {
+        line-height: 55px;
+    }
+
+    #Familias-proposito .flex-contat > div {
+        width: 40%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    #Familias-proposito #Info_Agenda .agenda_horarios .flex_cont .horarios.col_two {
+        padding: 5px;
+        width: 33%;
+    }
+#Familias-proposito #Info_Agenda .cont_fechas {
+    width: 100%;
+}
+#Familias-proposito #Info_Agenda .agenda_horarios .flex_cont {
+    flex-wrap: wrap;
+}
+
+#Familias-proposito #Info_Agenda .horarios span.sesion_MD {
+    display: block;
+}
+.modalFormulario p {
+    min-height: 130px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+    #Familias-proposito .cntenedorTabs a.nav-link {
+        font-size: .75em;
+    }
+
+    .programa h4 {
+        min-height: 50px;
+        font-size: .85em;
+    }
+
+    #Familias-proposito .flex-contat {
+        justify-content: space-around;
+    }
+
+    #Agenda .line_R {
+        padding-bottom: 15px;
+    }
+    .programa {
+        padding: 10px;
+    }
+
+    #Familias-proposito .carousel-caption {
+        top: 30px;
+    }  
+    .content_list .list_prog .modalFormulario {
+        width: 50%;
+    }
+
+      #Familias-proposito  .Banner p.titulo {
+        font-size: 5em;
+    }
+  
+    #Familias-proposito .Banner .ubicacion img {
+    margin-top: 0px;
+}
+    #Familias-proposito .Agenda .card h3 {
+        font-size: 18px;
+    }
+    #Familias-proposito .flex-contat > div {
+        width: 100%;
+    }
+    #Familias-proposito .Agenda .dos {
+        width: 427px;
+    }
+
+    #Familias-proposito .Banner .flex-datos > div {
+        width: 100%;
+        margin: 0px 4px 10px;
+        padding: 2%;
+    }
+    #emprendimiento .Banner .ubicacion img {
+        margin-top: 0% !important;
+    }
+
+    #claustro .Banner .ubicacion img {
+        margin-top: 0 !important;
+    }
+
+    #claustro .Banner .fecha img {
+        margin-top: 0 !important;
+    }
+
+    #claustro .Banner .hora img {
+        margin-top: 0 !important;
+    }
+    #Familias-proposito .Banner .flex-datos p {
+        font-size: 1.2em;
+        line-height: 20px;
+    }
+    #Familias-proposito #Info_Agenda .horarios {
+        font-size: 0.8em;
+    }
+    #Familias-proposito #Info_Agenda .cont_fechas.col_unic {
+        padding: 0px;
+    }
+    #Familias-proposito #Info_Agenda .agenda_horarios .flex_cont .horarios.col_two .nav-link {
+        padding: 5px;
+    }
+    .modalFormulario p {
+        min-height: auto;
+    }
+    #Familias-proposito #Info_Agenda .agenda_horarios .flex_cont .horarios.col_two {
+        padding: 5px;
+        width: 33%;
+    }
+    #Familias-proposito #Info_Agenda div#pills-tabContent .flex_cont .horarios.col_two {
+        width: 50%;
+    }
+    .formularioRegistro .form-check.form-check-inline {
+        width: 100%;
+    }
+    
+}
+@media (max-width: 600px) {
+    #Familias-proposito #Info_Agenda .agenda_horarios .flex_cont .horarios.col_two .nav-link {
+        padding: 2px;
+        font-size: 1.0em;
+    }
+
+    .programa h4 {
+        min-height: 40px;
+    }
+
+    #Familias-proposito .cntenedorTabs a.nav-link {
+        padding: 15px 15px;
+    }
+    #Familias-proposito .Banner {
+    background-position-x: -461px;
+    background-position-y: 107px;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    }
+    #Familias-proposito #Agenda p {
+        line-height: 40px;
+    }
+
+    .contacto {
+        background-attachment: fixed, scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -498px;
+        background-position-y: 0;
+    }
+
+    #Familias-proposito .Banner p.tagline {
+        letter-spacing: 4px;
+        font-size: 1.2em;
+    }
+    #Familias-proposito .Banner .flex-datos > div {
+        margin: -22px 0 32px;
+    }
+
+    #Familias-proposito .Banner .flex-datos > div {
+        width: 33%;
+        padding: 8px;
+    }
+
+    #Familias-proposito .Banner .ubicacion img {
+        width: 32%;
+    }
+
+    #Familias-proposito .Banner .fecha img {
+        width: 32%;
+    }
+
+    #Familias-proposito .Banner .hora img {
+        width: 32%;
+        display: inline;
+    }
+
+    #Familias-proposito .Banner h5 {
+        font-size: 1em;
+        line-height: 1em;
+    }
+    #Familias-proposito .Banner p.titulo {
+        font-size: 2.7em;
+    }
+    #Familias-proposito .Banner .carousel-caption {
+        top: 14px;
+        bottom: 67px;
+    }
+
+    #Familias-proposito .Banner .flex-datos {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    #Familias-proposito .Banner .flex-datos > div {
+        width: 50%;
+    }
+    #Familias-proposito .Agenda h3 {
+        font-size: 33px;
+    }
+    #Familias-proposito .Banner .flex-datos p {
+        font-size: 1.2em;
+        line-height: 20px;
+    }
+
+    #Familias-proposito .Video {
+        padding: 9% 7%;
+        color: #fff;
+    }
+    #Familias-proposito .Formulario h3 {
+        font-size: 33px;
+    }
+
+    #Familias-proposito .contacto h3 {
+        font-size: 33px;
+    }
+    #Familias-proposito .flex-contat > div {
+        width: 100%;
+    }
+    #Familias-proposito .flex-contat > div {
+        margin: 25px 12%;
+    }
+
+    #Familias-proposito .flex-contat > div a {
+        word-break: break-all;
+    }
+    #Familias-proposito .flex-redes > div {
+        width: 27%;
+    }
+    #Familias-proposito .Agenda .uno {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #Familias-proposito .Agenda .dos {
+        width: 100%;
+    }
+    input#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_btnOK {
+        font-size: 1.2em;
+    }
+    div#p_lt_ctl09_pageplaceholder_p_lt_ctl00_formulario_ucEditableText_widget1_ctl00_viewBiz_ncpautorizaciondeimagen label {
+        text-align: left;
+    }
+    #Familias-proposito div#pills-tabContent {
+        padding: 8px;
+    }
+    #Familias-proposito #Info_Agenda div#pills-tabContent h4 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .content_list .list_prog {
+        padding: 0px 5px;
+    }
+    .content_list .list_prog p {
+        font-size: 0.8em;
+    }
+    .content_list h5 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    #Familias-proposito #Info_Agenda div#pills-tabContent h3 {
+        color: #d60a20;
+        font-size: 20px;
+    }
+    #Familias-proposito #Info_Agenda .date_agenda p {
+        font-size: 0.8em;
+    }
+    #Familias-proposito #Agenda p {
+        line-height: 27px;
+    }
+    
+}
+
+@media (max-width:425px){
+
+    #Agenda {
+        padding: 4% 4%;
+    }
+
+    #Agenda .col-6.col-md-3.modalFormulario {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .programa h4 {
+        min-height: 60px;
+    }
+    #Familias-proposito .cntenedorTabs a.nav-link {
+        padding: 15px 10px;
+    }
+    #Familias-proposito .cntenedorTabs a.nav-link {
+        font-size: .6em;
+    }
+
+    #Familias-proposito .Banner .ubicacion p {
+        font-size: .6em;
+        line-height: 10px;
+    }
+
+    #Familias-proposito .Banner .fecha p {
+        font-size: 1.2em;
+        line-height: 20px;
+    }
+
+    #Familias-proposito .Banner .hora p {
+        font-size: 1.2em;
+        line-height: 20px;
+    }
+
+    #Familias-proposito .Agenda .card h3 {
+        font-size: 14px;
+    }
+
+    #Familias-proposito .Banner .flex-datos > div {
+        width: 100%;
+    }
+    #Familias-proposito .Banner .flex-datos > div {
+        justify-content: flex-start;
+    }
+
+    #Familias-proposito #Info_Agenda .cont_fechas {
+        width: 100%;
+    }
+    #Familias-proposito #Info_Agenda .cont_fechas {
+        margin-bottom: 0px;
+    }
+
+    #Familias-proposito .Video.gracias h3 {
+        font-size: 2.5em;
+    }
+    .content_list .list_prog .modalFormulario {
+        width: 100%;
+    }
+    #Familias-proposito #Info_Agenda div#pills-tabContent .flex_cont .horarios.col_two {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:375px){
+    #Familias-proposito .cntenedorTabs a.nav-link {
+        padding: 10px 6px;
+    }
+
+    #Familias-proposito .cntenedorTabs a.nav-link {
+        font-size: .55em;
+    }
+
+    .programa h4 {
+        min-height: 80px;
+    }
+}

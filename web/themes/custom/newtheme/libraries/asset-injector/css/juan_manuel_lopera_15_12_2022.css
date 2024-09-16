@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+
+
+.main, .main-fluid {
+    margin-top: 0;
+}
+.pt-lg {
+    padding-top:0px;
+}
+
+    #section1 h1 {
+    font-size: 55px;
+    line-height: 62px;
+    text-align: left;
+    width: max-content;
+    color: white;
+ font-family: 'Bakbak One', cursive;
+
+    background-color: #65c3ce;
+    padding: 5px 15px;
+}
+.audios:hover .tooltiptext {
+    visibility: visible;
+}
+.sub {
+    font-size: 35px;
+    line-height: 36px;
+ font-family: 'Bakbak One', cursive;
+
+    color: white;
+}
+
+.boton-tiempo {
+    background-color: #fff;
+    color: #65c3ce;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 25px;
+    width: 280px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section1 .title p {
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    text-shadow: 1px 1px #191c37;
+}
+#Video {
+    background-color: #65c3ce;
+    padding: 11% 0;
+}
+
+#Video iframe {
+    margin: auto;
+    display: table;
+}
+
+
+#Video iframe {
+    width: 966px;
+    height: 500px;
+}
+
+.izquierda img {
+    position: absolute;
+    bottom: 0;
+}
+
+.paralsec5 h2 {
+
+    font-size: 47px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Bakbak One", cursive;
+}
+
+.paralsec5 {
+    background-image: url(/sites/default/files/2022-12/fondo-3.svg);
+    background-size: cover;
+}
+.paral {
+    min-height: 600px;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paralsec2 {
+    height: 100vh;
+    /* padding: 7% 0 23%; */
+}
+.izquierda img {
+    position: absolute;
+    bottom: 0;
+}
+.caption {
+    margin-top: 50px;
+    border-left: #66b2cc solid 10px;
+    padding-left: 10px;
+}
+
+.col-xl-4.col-lg-4.col-md-12.col-sm-12.izquierda {
+    position: relative;
+}
+#semilla {
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+}
+.ratio-16x9 {
+    --bs-aspect-ratio: 56.25%;
+}
+
+#Seccion-media {
+    padding: 33% 0;
+}
+
+.paralsec6 {
+    background-color: #e9ecef;
+    position: relative;
+    z-index: 1;
+}
+
+.paralsec6 h2 {
+    color: #6f57ab;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-top: 25px;
+    text-align: center;
+    font-family: "Bakbak One", cursive;
+}
+
+#audio1 {
+    position: absolute;
+    top: 59%;
+    left: 23%;
+}
+#audio2 {
+    position: absolute;
+    top: 82%;
+    left: 40%;
+}
+#audio4 {
+    position: absolute;
+    top: 56%;
+    left: 54%;
+}
+#audio5 {
+    position: absolute;
+    top: 65%;
+    left: 70%;
+}
+.punto {
+    background-image: url("/sites/default/files/2022-12/punto.png");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+#punto1 {
+position: absolute;
+    top: 31%;
+    left: 26%;
+}
+#punto2 {
+position: absolute;
+    top: 39%;
+    left: 40.6%;
+}
+#punto3 {
+ position: absolute;
+    top: 19%;
+    left: 46.4%;
+}
+#punto4 {
+position: absolute;
+    top: 33%;
+    left: 55.5%;
+}
+#punto5 {
+    position: absolute;
+    top: 54.5%;
+    left: 68.7%;
+}
+#punto6 {
+position: absolute;
+    top: 72%;
+    left: 62.3%;
+}
+#punto7 {
+    position: absolute;
+    top: 53.5%;
+    left: 52.3%;
+}
+.audios .tooltiptext {
+visibility: hidden;
+    width: 300px;
+    height: 127px;
+    background-color: #191c37;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    display: table;
+}
+#IdeasEquipo .audios .tooltiptext iframe {
+    height: 115px!important;
+    width: 291px!important;
+    display: table;
+    margin: auto;
+    padding: 4px;
+}
+.red {
+    margin-top: 80px;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+.red img {
+    width: 88%;
+    margin: auto;
+}
+.texto {
+    display: flex;
+    align-content: center;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    padding: 100px 60px;
+}
+
+.texto .row {
+    width: 100%;
+}
+
+.paralsec3 .cita {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: #e9ecef;
+    padding: 4% 10%;
+}
+
+.paralsec3 .cita h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: "Bakbak One", cursive;
+
+    font-weight: bold;
+}
+
+.paralsec3 .cita {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: #e9ecef;
+}
+
+div#Seccionmedia {
+    padding: 25% 0 34%;
+}
+.paralsec31 .cita-2 {
+    background-color: #65c3ce;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10% 8%;
+}
+
+.derecha {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.paralsec2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: -1;
+    background-image: url(/sites/default/files/2022-12/fondo-1-2.svg);
+    background-size: cover;
+    background-color: #e9ecef;
+}
+
+.paralsec2 {
+    padding: 8% 0 30% 0;
+    position: relative;
+}
+
+.paralsec2 h2 {
+    color: #191c37;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Bakbak One", cursive;
+}
+
+.play,
+.playuno {
+    background-image: url(/sites/default/files/2022-12/assets2.svg);
+}
+.play,
+.pause,
+.playuno,
+.pauseuno {
+    cursor: pointer;
+    text-indent: -999999px;
+    height: 68px;
+    width: 68px;
+    padding: 12px 18px;
+    z-index: 0;
+    background-image: url(/sites/default/files/2022-12/assets2.svg);
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    background-size: cover;
+    
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 79px;
+}
+.pause {
+    background-image: url(/sites/default/files/2022-12/assets3.svg) !important;
+}
+.pauseuno {
+    background-image: url(/sites/default/files/2022-12/assets3.svg) !important;
+}
+
+#pauseemprendimientoAudioAcompanamiento {
+    background-image: url(/sites/default/files/2022-12/assets3.svg) !important;
+}
+#player2 .playuno, #player .playuno, #player2 .playuno {
+    position: absolute;
+}
+#player3 .trackinfo #title,
+#player2 .trackinfo #title,
+#player .trackinfo #title {
+    font-family: "Bakbak One", cursive;
+    line-height: 0px;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+    text-align: center;
+    color: #191c37;
+}
+
+#playerUno .container,
+#player3 .container,
+#player2 .container,
+#player .container {
+    position: relative;
+    width: 294px !important;
+    border: #65c3ce solid 7px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url(/sites/default/files/2022-12/experto-1.svg);
+    height: 289px;
+    width: 290px;
+}
+
+.nav-3,
+.nav-2,
+.nav-1 {
+    vertical-align: top;
+    border: transparent;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+#player3 .trackinfo,
+#player2 .trackinfo,
+#player .trackinfo {
+    position: absolute;
+    color: #fff;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin: auto;
+    display: table;
+}
+#player3 .trackinfo #artist,
+#player2 .trackinfo #artist,
+#player .trackinfo #artist {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #65c3ce;
+    line-height: 33px;
+}
+.paralsec2 a {
+    color: #007bff;
+}
+.paralsec11 {
+    padding: 12% 0;
+}
+
+.paralsec11 h2 {
+    font-size: 47px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Bakbak One", cursive;
+}
+.boton-rep {
+    font-size: 20px;
+    background-color: #65c3ce;
+    color: #fff;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 25px;
+    width: 230px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px 10px;
+    margin-bottom: 23px;
+}
+.paralsec12 {
+    background-image: url(/sites/default/files/2022-12/fondo-6.svg);
+    background-size: cover;
+    padding: 9% 0;
+}
+
+#FormularioCoopmente {
+    background-image: url(/sites/default/files/2022-12/fondo-5.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 9% 0;
+}
+.invitacion {
+    color: #7da970;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.instagram p {
+    font-style: italic;
+    font-size: 40px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    align-items: center;
+}
+.instagram p {
+    font-style: italic;
+    font-size: 40px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.instagram .destacado {
+    font-family: "Bakbak One", cursive;
+    color: #191c37;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    align-items: center;
+}
+
+#FormularioCoopmente form {
+    background-color: #65c3ce;
+    border-radius: 25px;
+    padding: 29px;
+    display: table;
+    margin: auto;
+}
+#FormularioCoopmente label {
+    text-align: left;
+    color: #fff;
+}
+
+#FormularioCoopmente input#edit-actions-submit {
+    background-color: #4788c7;
+    border-radius: 23px;
+    font-weight: 700;
+    display: table;
+    color: #fff;
+    margin: auto;
+    border: 0;
+}
+#FormularioCoopmente .form-item__textfield {
+    width: 100%;
+}
+
+.social-media {
+    position: absolute!important;
+    top: 50%;
+    transform: translate(0px, -50%);
+    background-color: rgb(101 195 206);
+    padding: 20px 15px;
+    border-radius: 0% 30% 30% 0%;
+    left: 0px;
+}
+
+.social-media ul {
+    list-style: none;
+}
+@media screen and (max-width: 1900px) and (min-width: 1399px) {
+    #audio1 {
+        top: 55%;
+        left: 23%;
+    }
+    #audio2 {
+        position: absolute;
+        top: 79%;
+        left: 41%;
+    }
+    #audio4 {
+        top: 35%;
+        left: 58%;
+    }
+    #audio5 {
+        top: 61%;
+        left: 71%;
+    }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1000px) {
+    #audio1 {
+  top: 60%;
+    left: 23%;
+    }
+    #audio2 {
+        position: absolute;
+    top: 84%;
+    left: 40%;
+    }
+    #audio4 {
+    top: 39%;
+    left: 56%;
+    }
+    #audio5 {
+    top: 66%;
+    left: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    #Video iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .social-media {
+        position: fixed!important;
+        top: 0%;
+        padding: 8px 0px;
+        width: 100%;
+        bottom: -40px;
+        top: inherit;
+        border-radius: 0;
+        z-index: 999;
+    }
+    .instagram .destacado {
+        font-size: 16px;
+        line-height: 1em;
+    }
+    #Video iframe {
+        width: 100%;
+    }
+    .paralsec11 h2 {
+        font-size: 23px !important;
+    }
+    .paralsec5 h2 {
+        font-size: 23px;
+    }
+    .paralsec3 .cita h2 {
+        font-size: 23px;
+    }
+    .paralsec2 h2 {
+        font-size: 23px;
+    }
+    #semilla {
+        padding: 30px 39px;
+    }
+    .paralsec31 .cita-2 {
+        padding: 10% 40px;
+    }
+    .play,
+    .pause,
+    .playuno,
+    .pauseuno {
+        height: 55px;
+        width: 55px;
+    }
+    #audio1 {
+        position: absolute;
+        top: 104%;
+        left: 16%;
+    }
+    #audio2 {
+        position: absolute;
+        top: 141%;
+    }
+    #audio5 {
+        top: 131%;
+        left: 70%;
+    }
+    #audio4 {
+        position: absolute;
+        top: 91%;
+    }
+    .paralsec2 {
+    padding: 8% 13% 30% 13%;
+}
+    #Video {
+        padding: 2% 10%;
+    }
+    #FormularioCoopmente img {
+        max-width:100%;
+    }
+    .social-media li {
+        display: inline-flex;
+    }
+    #section1 .title p {
+        font-size: 10px !important;
+        line-height: 13px !important;
+    }
+    #section1 h1 {
+        font-size: 18px !important;
+        line-height: 46px;
+
+        padding: 0px 14px;
+    }
+    .sub {
+        font-size: 19px !important;
+        line-height: 22px !important;
+    }
+    .instagram p {
+   
+    font-size: 18px;
+
+}
+    .col-9.col-md-12.mx-auto {
+        width: 48%;
+        margin-left: 6%;
+    }
+    .texto {
+    padding: 0;
+}
+.logos.section-text {
+    margin-bottom: 80px;
+}
+}
