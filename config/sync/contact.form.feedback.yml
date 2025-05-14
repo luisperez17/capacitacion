@@ -1,4 +1,4 @@
-uuid: 648443b6-56d0-44bc-aeb6-2135e1f8e18d
+uuid: 960912a5-adb7-49d1-a177-6c9f78a921bd
 langcode: es
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Comentarios sobre el sitio web'
 recipients:
-  - luis.perez@esinergia.co
+  - prueba@prueba.com
 reply: ''
 weight: 0
 message: 'Su mensaje ha sido enviado.'

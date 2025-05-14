@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: es
-uuid: e0095580-add8-4bd6-bb14-29e09630d9d7
-name: 'Capacitacion 2023'
-mail: luis.perez@esinergia.co
+uuid: 1774a90c-8025-49e5-a0b3-6a0b0511d02b
+name: Capacitacion
+mail: prueba@prueba.com
 slogan: ''
 page:
   403: ''

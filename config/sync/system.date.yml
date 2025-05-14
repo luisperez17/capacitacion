@@ -3,7 +3,7 @@ _core:
 langcode: es
 first_day: 0
 country:
-  default: CO
+  default: ''
 timezone:
   default: America/Bogota
   user:

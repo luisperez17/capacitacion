@@ -54,3 +54,5 @@
 *.tgz
 *.sql
 
+/.editorconfig
+/.gitattributes

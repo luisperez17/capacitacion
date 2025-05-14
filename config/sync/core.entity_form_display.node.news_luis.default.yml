@@ -1,11 +1,13 @@
-uuid: 676293e5-9ade-4ca6-b903-28748bccef3c
+uuid: d6aa257c-5349-4046-a5fd-84718b0bcfae
 langcode: es
 status: true
 dependencies:
   config:
     - field.field.node.news_luis.body
+    - field.field.node.news_luis.field_image_news
     - node.type.news_luis
   module:
+    - media_library
     - path
     - text
 id: node.news_luis.default
@@ -28,6 +30,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_image_news:
+    type: media_library_widget
+    weight: 122
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   langcode:
     type: language_select

@@ -1,14 +1,16 @@
-uuid: f5bb696d-c68b-4353-93f3-d6712e98e6ad
+uuid: 25199a24-5f77-4457-bd74-f63bf1df2971
 langcode: es
 status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - filter.format.webform_default
   module:
     - comment
     - contact
     - file
     - filter
+    - media
     - search
     - shortcut
     - system
@@ -28,3 +30,5 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format webform_default'
+  - 'view media'

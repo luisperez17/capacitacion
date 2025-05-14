@@ -1,10 +1,11 @@
-uuid: 08926c3f-ee32-4c60-89b8-0cafde142f5f
+uuid: 1904d990-485c-4368-954d-cf1faa32a1bc
 langcode: es
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.news_luis.body
+    - field.field.node.news_luis.field_image_news
     - node.type.news_luis
   module:
     - text
@@ -28,4 +29,5 @@ content:
     weight: 100
     region: content
 hidden:
+  field_image_news: true
   langcode: true

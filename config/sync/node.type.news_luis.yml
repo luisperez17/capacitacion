@@ -1,4 +1,4 @@
-uuid: f77f9694-c375-4a39-aba5-8ea402c347de
+uuid: af744a1d-be5e-495f-897a-73a8c7987364
 langcode: es
 status: true
 dependencies:
@@ -9,10 +9,10 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Noticias - Luis'
+name: 'Noticias Luis'
 type: news_luis
-description: ''
+description: 'Este tipo de contenido es para la capacitación'
 help: ''
 new_revision: true
-preview_mode: 1
-display_submitted: true
+preview_mode: 0
+display_submitted: false

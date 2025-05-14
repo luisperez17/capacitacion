@@ -1,0 +1,29 @@
+uuid: 78fc9e34-cd75-4df1-bc5e-cbe1da81287a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_news
+    - media.type.image
+    - node.type.news_luis
+id: node.news_luis.field_image_news
+field_name: field_image_news
+entity_type: node
+bundle: news_luis
+label: 'Imagen noticia'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

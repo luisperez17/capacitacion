@@ -1,9 +1,10 @@
-uuid: 234f1dc3-2df4-41a6-b5f6-681cd3dd62eb
+uuid: 833a1e91-0ae0-46f4-81ab-3b6bb75e5e73
 langcode: es
 status: true
 dependencies:
   config:
     - field.field.node.news_luis.body
+    - field.field.node.news_luis.field_image_news
     - node.type.news_luis
   module:
     - text
@@ -19,6 +20,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_image_news:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
     region: content
   links:
     settings: {  }
